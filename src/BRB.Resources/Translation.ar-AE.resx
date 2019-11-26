@@ -1,0 +1,2534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>نشط</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>عامل انتحال الهوية:</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>24 ساعة يوميًا، سبعة أيام في الأسبوع.</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>سوف يصلك بريد إلكتروني من بلو ريبون باجز للتأكيد في غضون عدة دقائق. إذا لم تصلك رسالة التأكيد، يرجى التواصل معنا والاحتفاظ بإيصال تأكيد الدفع عبر باي بال.</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>تهانينا!</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>إذا لم تجد حقيبتك عند وصولك إلى الوجهة النهائية لرحلتك رقم 39، يتعين عليك إبلاغ شركة الخطوط الجوية قبل إبلاغ بلو ريبون باجز. يتعين عليك إبلاغ بلو ريبون باجز بشأن الحقائب التي لم يتم تسليمها في غضون 24 ساعة من وصول رحلتك. يمكنك الإبلاغ عن الحقائب التي تعرضت للإهمال إما على هاتف رقم</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>حسنًا، أنا جاهز الآن!</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>مستوى الخدمة:</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>قيمة خدمة بلو ريبون باجز غير قابلة للاسترداد أو التحويل. لن يتم رد أي مبالغ نقدية أو ائتمانية. إذا أُلغيت رحلتك وتم حجز رحلة جديدة بدلًا منها، يتعين عليك إما إبلاغنا بهذا التغيير قبل مغادرة رحلتك الجديدة &amp;#39 أو الدفع مقابل الحصول على خدمة جديدة للرحلة الجديدة.  يجب إبلاغ بلو ريبون باجز بجميع التغييرات عن طريق إرسال بريد إلكتروني على &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ووضع رقم اتفاقية الخدمة في خانة الموضوع.  يجب عليك تضمين اسم الخطوط الجوية ورقم التأكيد الخاص بها بالإضافة إلى رقم رحلتك الأصلية ورقم الرحلة الجديدة التي تم تغيير رحلتك الأصلية لها في رسالة البريد الإلكتروني.  في حالة تغيير الخطوط الجوية أيضًا، يتعين عليك إخطارنا بالخطوط الجوية لرحلتك الجديدة.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>أو عبر الإنترنت من خلال</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>لقد تمت عملية الدفع بنجاح</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>تأكيد الدفع:</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>معلومات الدفع</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>يرجى الحرص على الاحتفاظ بمعلومات تتبع الأمتعة (مرجع الملف/رقم تحديد الموقع) التي تقدمها لك شركة الطيران عند تقديم شكوى لديهم بشأن فقدان أمتعة، حيث أن بلو ريبون باجز سوف تطلب هذه المعلومات للإبلاغ عن الأمتعة التي تعرضت للإهمال. يتعين عليك إبلاغ بلو ريبون باجز بشأن الحقائب التي لم يتم تسليمها في غضون 24 ساعة من وصول رحلتك.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>يرجى الاحتفاظ برقم اتفاقية الخدمة، حيث ستحتاج إلى ذلك الرقم لإبلاغنا بشأن حقيبتك التي تعرضت للإهمال في حالة عدم تسلمك إياها.</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>شكرًا جزيلًا لاختيارك خدمة بلو ريبون باجز لنقل أمتعتك. كن على ثقة بأننا سنسعى لتسهيل هذا الأمر عليك قدر الإمكان.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>شكرًا جزيلًا لتعاملك معنا ونتمنى لك رحلة آمنة.</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>التكلفة الإجمالية:</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>نتواجد لمساعدتك على مدار الساعة طوال أيام في الأسبوع. سافر بأمان وتخلص من القلق!</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>ما الذي عليك فعله إن لم تصل حقيبتك:</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>رقم اتفاقية خدمة بلو ريبون باجز الخاص بك هو</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>أرقام اتفاقية خدمة بلو ريبون باجز الخاصة بك هي</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>تظهر فيما يلي معلومات الدفع الخاصة بك. إذا كان لديك أي أسئلة لا تترد في التواصل مع بلو ريبون باجز عن طريق إرسال بريد إلكتروني على</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>اتفاقية الخدمة الخاصة بك متاحة عبر الإنترنت على</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>استفسر عن خدمة (إرسال الفواتير لاحقًا) "Bill Me Later".  تمكنك هذه الخدمة من الحصول على فاتورة إجمالية واحدة في نهاية الشهر عن جميع عملياتك بدلًا من الدفع في مقابل كل خدمة منفردة.  الأمر بسيط، أرسل رسالة بريد إلكتروني على&lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt;, واكتب (إرسال الفواتير لاحقًا) "Bill Me Later" في خانة الموضوع.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>معلومات تسليم الأمتعة</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>اسم البنك</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>تستخدم هذه اللغة للخدمات التي لا تتضمن ملفاتها المرفوعة إعداد محدد للغة</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>يجب أن يكون لدى جميع ركاب الخدمة {0} نفس الرمز الترويجي</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>عنوان إرسال الفواتير</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>مسح جميع الحقول</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>إرسال التسجيل</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>مبلغ الاعتماد الذي تم إدخاله غير صحيح. يرجى إدخال مبلغ الاعتماد مرة أخرى.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>تحديد</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>سداد</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>سداد</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>جاري السداد للخدمات المحددة...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>جاري معالجة {0} خدمة...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>جاري معالجة {0} سداد لخدمة...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>جاري معالجة {0} خدمة منتهية.</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>جاري معالجة {0} رمز (رموز) ترويجية للخدمة...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>جاري التحقق من {0} خدمة...</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>يخصم من حساب العميل مقابل </value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>يرجى اختيار طريقة الدفع</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>إكمال</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>تأكيد الدفع</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>تأكيد الدفع</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>هل تريد تأكيد الشراء؟</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>هل تريد تأكيد المعاملة؟</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>رقم بطاقة الائتمان</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>يخصم من بطاقة الائتمان مقابل</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>أدخل معلومات بطاقتك</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>لم يتم سداد بعض الخدمات بشكل صحيح، لا يمكن إكمال عملية الشراء.</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>فشل</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>عملية غير صالحة.</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>الحد الأقصى لتعويض الخسائر:</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>لا، قم بالإلغاء</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>عدد الركاب:</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>ادفع الآن</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>معلق</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>أو يُرجى تقديم معلومات بطاقة ائتمان العميل أدناه لإكمال عملية دفع اتفاقية الخدمة.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>مراجعة المعلومات</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>مدخراتك:</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>مستوى الخدمة:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>رقم الخدمة :</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>تكلفة الخدمة:</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>ملخص الخدمات</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>تأكيد شراء الخدمة - سداد</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>الرجاء التحقق من المعلومات الواردة أدناه واضغط على زر تأكيد الشراء "Confirm Payment" إذا كانت صحيحة.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>الصف {0}: لا يمكن ترك {1} عمود خاليًا</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>{0} عمود غير موجود في الملف المرفوع. يرجى تحميل قالب محدث.</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>تأكيد كلمة مرور</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>تأكيد البريد الإلكتروني</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>فريق خدمة العملاء لبلو ريبون باجز</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>سيتم الرد على جميع الاستفسارات عبر البريد الإلكتروني في أقرب وقت ممكن. يرجى التأكد من تسجيل جميع معلومات الاتصال الخاصة بك، بما في ذلك أرقام الهواتف، حتى نتمكن من الاتصال بك عن طريق الهاتف إذا لزم الأمر.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>أرسل لنا رسالة</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>أرسل رسالة</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>سيتم الرد على جميع الاستفسارات عبر البريد الإلكتروني في أقرب وقت ممكن. يرجى التأكد من تسجيل جميع معلومات الاتصال الخاصة بك، بما في ذلك أرقام الهواتف، حتى نتمكن من الاتصال بك عن طريق الهاتف إذا لزم الأمر.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>للعملاء أو الأسئلة العامة يرجى الاتصال بنا على:</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>لوكلاء السفر، يرجى الاتصال بنا على:</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>للتقدم ببلاغ جديد بشأن أمتعة تعرضت للإهمال اتصل على الرقم &lt;span dir="ltr"&gt;+1 (888) BAGGAGE  (+1 (888) 224-4243)&lt;/span&gt; أو تفضل بزيارة &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;. ملاحظة: لا يتوفر لدى هذا الرقم أي تفاصيل بشأن بلاغات حول أي أمتعة موجودة بالفعل.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>للاطلاع على أي تفاصيل حول أي بلاغات بشأن أمتعة تعرضت للإهمال يرجى زيارة &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; أو إرسال بريد إليكتروني على &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt; مع كتابة رقم البلاغ الخاص بالأمتعة المفقودة في خانة الموضوع.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>شكراً لك!</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>خدمة الأمتعة المؤجلة</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>اللغة الافتراضية لرسالة البريد الإلكتروني</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>دولار أمريكي</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- لا شيء --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>غير ذلك</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>-- يرجى تحديد --</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>غير معين</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>اختيار لغة البريد الإلكتروني للركاب</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>يشمل جميع رحلاتك من &lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>ويشمل الرحلات على خطوط &lt;b&gt;{0}&lt;/b&gt; الجوية وفقا لرقم التأكيد &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>خدمة Blue Ribbon Bags غير قابلة للاسترداد وغير قابلة للتحويل. لن يتم إصدار أي أموال مستردة أو ائتمانات. إذا تم إلغاء الرحلة الخاصة بك وتم حجز رحلة جديدة مكانها يجب عليك إما إبلاغنا بالتغيير قبل مغادرة الرحلة أو شراء خدمة جديدة لرحلة جديدة. يجب إبلاغ Blue Ribbon Bags بجميع التغييرات عبر مرسلتنا بالبريد الإلكتروني  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; مع وضع رقم اتفاقية الخدمات في سطر الموضوع. يجب إدراج شركة الطيران ورقم تأكيد الشركة في محتوى البريد الإلكتروني حيث إن رقم الرحلة الأساسية تم تغييره لرقم الرحلة الجديدة. إذا كان سيتم تغيير شركة الطيران أيضاً، يجب عليك أيضا إبلاغنا بشركة الطيران الجديدة التي حجزت عليها الرحلة الجديدة.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>خدمة بلو ريبون باجز غير قابلة للتحويل. لن يتم رد أي مبالغ نقدية أو ائتمانية. إذا أُلغيت رحلتك وتم حجز رحلة جديدة بدلًا منها، يتعين عليك إما إبلاغنا بهذا التغيير قبل مغادرة رحلتك الجديدة رقم 39 أو الدفع مقابل الحصول على خدمة جديدة للرحلة الجديدة.  يجب إبلاغ بلو ريبون باجز بجميع التغييرات عن طريق إرسال بريد إلكتروني على &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ووضع رقم اتفاقية الخدمة في خانة الموضوع.  يجب عليك تضمين اسم الخطوط الجوية ورقم التأكيد الخاص بها بالإضافة إلى رقم رحلتك الأصلية ورقم الرحلة الجديدة التي تم تغيير رحلتك الأصلية لها في رسالة البريد الإلكتروني.  في حالة تغيير الخطوط الجوية أيضًا، يتعين عليك إخطارنا بالخطوط الجوية لرحلتك الجديدة.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>إرسال الإيصال</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>تاريخ إنتهاء الصلاحية</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>الاسم الأول</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>معلومات وصول الرحلة</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>اتفاقية خدمة بلو ريبون باجز</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>خصائص خدمة الأمتعة</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>حقوق الطبع لشركة بلو ريبون باجز ش.م.م 2019 في انتظار الحصول على براءة اختراع أمريكية ودولية.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>تخضع كل عملية شراء لشروط وأحكام</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>تقديم بلاغ بشأن أمتعة تعرضت للإهمال</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>تستند بلو ريبون باجز في التزاماتها إلى شركة تأمين حازت على التصنيف A- (ممتاز) من شركة آيه إم بيست (A.M. Best Company).</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>شراء خدمة الأمتعة</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* يمكنك تحرير معلوماتك عن طريق النقر على زر العودة “Go Back”  دون الحاجة إلى إعادة إدخال معلوماتك السابقة</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>المندوب/ البائع</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>رقم تأكيد الخطوط الجوية</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>اسم شركة الخطوط الجوية</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>الاسم الأول</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>الاسم الأخير</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>رقم الراكب</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>المنتج</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>تاريخ الشراء</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>تكلفة الخدمة</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>رقم خدمة بلو ريبون باجز</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>في مقابل 5.00 دولار فقط، &lt;/br&gt; تتبع شركة بلو ريبون باجز أمتعتك التي لم تتسلمها وتعجل من عملية استعادتها&lt;/br&gt; من شركة الخطوط الجوية.</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>سافر بأمان وتخلص من القلق</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>في حالة تعذر العثور على أمتعتك&lt;br /&gt; عقب مرور 96 ساعة &lt;br /&gt; تكفل لك شركة بلو ريبون باجز إرسال 1000 دولار عن كل حقيبة.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>تكمن راحة البال الحقيقية في استخدام خدمات &lt;br /&gt; شركة بلو ريبون باجز</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>الإبلاغ عن الأمتعة المفقودة</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>تذكر أن تخطر شركة الخطوط الجوية أولًا بأن أمتعتك لم تصل إلى وجهة رحلتك النهائية.
+سوف تقدم شركة الخطوط الجوية معلومات التتبع اللازمة لتقديم بلاغ لدى بلو ريبون باجز.
+يتعين عليك إبلاغ بلو ريبون باجز بشأن الأمتعة المفقودة في غضون 24 ساعة من هبوط رحلتك.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>تقديم بلاغ</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>يمكنك أيضا الإبلاغ عن الأمتعة المفقودة عن طريق الهاتف رقم &lt;span dir="ltr"&gt;888-BAGGAGE (888-224-4243)&lt;/span&gt; على مدار 24 ساعة طوال أيام في الأسبوع.</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>شركاؤنا</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>وجهاتنا</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>توصيل 21 مليون</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>عدد الحقائب التي لم تصل إلى وجهتها الصحيحة سنويًا</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>الخطوط الجوية المشمولة</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>عدد الرحلات اليومية عالميًا</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>آراء الآخرين</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>نحن في الأخبار</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>قراءة المزيد</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>خدمة العملاء رائعة، إن خدمة حماية الأمتعة التي تقدمها بلو ريبون باجز...</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>إذا كنت تشعر بالقلق إزاء أي أمتعة مفقودة، يوجد الآن تطبيق لهذا الغرض...بلو ريبون باجز لديها...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>حاليا، تمثل هذه الخدمة الضمان الوحيد من نوعه المتاح للأمتعة المفقودة التي يمكن أن</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>أي شخص فقد أمتعته في رحلة جوية يعرف مدى سوء ذلك ... ولكن بلو ريبون باجز...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>شراء خدمة الأمتعة</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>انقر على &lt;b&gt;LOGIN&lt;/b&gt; لشراء تأمين بلو ريبون باجزلعملائك.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>انقر على &lt;b&gt; REGISTER&lt;/ b&gt; لتسجيل وكالتك كي تتمكن من بيع تأمين بلو ريبون باجز لعملائك.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* رسوم اتفاقية الخدمة للفرد دفع ضمانات التعويض لكل حقيبة</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* يقتصر دفع التعويضات على عدد حقيبتين غير مُسلمتين للشخص الواحد.</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>تقديم بلاغ بشأن أمتعة تعرضت للإهمال</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>في مقابل 5 دولار فقط، تتبع شركة بلو ريبون باجز أمتعتك التي لم تتسلمها وتعجل من عملية استعادتها من شركة الخطوط الجوية.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>هل ترغب في الاطلاع على مزيد من المعلومات؟ يمكنك دائما التواصل معنا عن طريق البريد الإلكتروني:</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>لا يلزم وجود إيصالات بمحتويات الأمتعة لتلقي الدفعات.</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>تقدم بلو ريبون باجز ثلاثة مستويات من تعويضات خدمة الأمتعة:</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>تتكفل بلو ريبون باجز بدفع 1,000 دولار لكل حقيبة لم يتم تسليمها بعد 4 أيام من فقدانها.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>شراء</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>رسوم اتفاقية الخدمات</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>دفع التعويضات</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>وكلاء سفر</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>للحقائب التي لم يتم تسليمها?&amp;nbsp; يتم الإبلاغ من خلال :</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>أوافق</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>غير نشط</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>يجب رفع ملف XSLX صالح.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>الاسم الأخير</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>تسجيل خروج</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>مرحبًا  </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>أحتاج كلمة مرور جديدة</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>تذكر بيانات تسجيل الدخول</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>تسجيل الدخول إلى بلو ريبون باجز</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>لم يتم التعرف على معرف المستخدم و/أو كلمة المرور. تحسس حالة أحرف كلمة المرور . يرجى التأكد من عدم تشغيل إعداد Caps Lock . يرجى إعادة إدخال اسم المستخدم وكلمة المرور أو الاتصال بالمسؤول لإعادة تعيين كلمة المرور.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>معلومات الأمتعة المفقودة</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>الأمتعة التي قمت بتحديدها لا تصل إلى وجهتك.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>تقدم شكوي بشأن أمتعة مفقودة لشركة خطوط الطيران التي كان من المفترض أن تصل عليها أمتعتك وستحصل على رقم مرجعي للشكوى أو رقم تتبع من شركة الخطوط الجوية.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>قم بإبلاغ بلو ريبون باجز بشأن الأمتعة التي تعرضت للإهمال في غضون 24 ساعة من وصول رحلتك.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>لم يتم إعادة أمتعتك إليك في غضون (4) أيام من تاريخ وصول رحلتك، وفقًا للموثق من قبل شركة الخطوط الجوية.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>تشمل عملية شراء واحدة بقيمة (5 دولار أمريكي) جميع الأمتعة التي تم فحصها في المطار، بما في ذلك الأمتعة التي تم فحصها على البوابة في اللحظة الأخيرة قبل إقلاع رحلتك.</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt; يتم إرسال إشعارات تلقائية بالبريد الإلكتروني إلى الراكب في كل مرة يحدث تغيير في حالة الأمتعة. لا يحتاج الركاب إلى الاتصال بالخطوط الجوية لمعرفة وضع أمتعتهم.&lt;/ b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>&lt;b&gt;لا يشترط&lt;/b&gt;إثبات قيمة محتويات الأمتعة (إيصالات) لتلقي الدفع.</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>يقتصر دفع التعويضات على عدد حقيبتين غير مُسلمتين للشخص الواحد.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>يُكفل دفع التعويضات حتى وإن ظهرت الحقائب في أي مكان عقب انتهاء مدة 96 ساعة.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>لا تتضمن هذه الخدمة التعويض عن السرقة أو فقدان المحتويات أو تلف الأمتعة. يقتصر التأمين على الأمتعة التي تعرضت للإهمال من قبل شركة الخطوط الجوية فقط. &lt;b&gt;ينبغي الإبلاغ عن الحقائب التي لم تُسلم في غضون 24 ساعة من وصول الرحلة.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>تقدم بلو ريبون باجز خدمات. يجدر التنويه إلى أن إبرام اتفاقية خدمة مع بلو ريبون باجز لا يُعد بديلًا عن أي تأمين لديك بالفعل بل يمثل إضافة إلى هذا التأمين. بعد الحصول على قيمة تعويض بلو ريبون باجز، لا يزال بإمكانك استلام تعويضات التأمينات الأخرى.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>قيمة خدمة بلو ريبون باجز غير قابلة للاسترداد أو التحويل. لن يتم رد أي مبالغ نقدية أو ائتمانية. إذا أُلغيت رحلتك وتم حجز رحلة جديدة بدلًا منها، يتعين عليك إما إبلاغنا بهذا التغيير قبل مغادرة رحلتك الجديدة رقم 39 أو الدفع مقابل الحصول على خدمة جديدة للرحلة الجديدة.  يجب إبلاغ بلو ريبون باجز بجميع التغييرات عن طريق إرسال بريد إلكتروني على &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ووضع رقم اتفاقية الخدمة في خانة الموضوع.  يجب عليك تضمين اسم الخطوط الجوية ورقم التأكيد الخاص بها بالإضافة إلى رقم رحلتك الأصلية ورقم الرحلة الجديدة التي تم تغيير رحلتك الأصلية لها في رسالة البريد الإلكتروني.  في حالة تغيير الخطوط الجوية أيضًا، يتعين عليك إخطارنا بالخطوط الجوية لرحلتك الجديدة.</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>يمكنك شراء خدمة بلو ريبون باجز قبل إقلاع رحلتك رقم 39 مباشرًة.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>كل عملية شراء بقيمة (5 دولار أمريكي) موجهة لفرد واحد وباستخدام رقم تأكيد الخطوط الجوية دون النظر إلى عدد مرات التوقف أو التوصيلات المرتبطة برقم تأكيد الخطوط الجوية المعني. تشمل عملية الشراء الواحدة رحلات الذهاب والإياب التي تحمل نفس رقم تأكيد الخطوط الجوية.</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>في حالة حجز عدة رحلات بشكل منفصل تحمل كل منهم رقم تأكيد خطوط جوية مختلف، يلزم شراء اتفاقيات خدمة منفصلة لكل رحلة.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt; للعملاء فقط &lt;/ u&gt;: يتم إجراء عملية شراء واحدة لكل شخص بقيمة (5 دولارات أمريكية)، وفقًا لرقم PNR، بصرف النظر عن عدد الاتصالات أو وقفات الاستراحة.</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>وبالنسبة للمشتريات التي يتم إجراؤها من خلال المواقع الإلكترونية عبر الإنترنت فإن: كل عملية شراء يتم حجزها من خلال الموقع الإلكتروني عبر الإنترنت لكل خط سير الرحلة، سيتم إدراجها تحت رقم التأكيد المقدم من قبل الموقع في وقت الشراء.  أي تغييرات في خط سير الرحلة تقع خارج حجز الإنترنت سوف تتطلب خدمة منفصلة ليتم شراؤها لأي رحلات جديدة يتم حجزها.  إذا تم تغيير خط سير الرحلة الذي تم حجزه من قبل الموقع الأصلي، ولم يتم تغيير رقم تأكيد الراكب لخط السير الأصلي بعد تغيير أي رحلات داخل خط السير، فإن الراكب لن يُطالب بخدمة منفصلة ليتم حجزها، وستكون الخدمة الأصلية كافية.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>تُغطي شركة بلو ريبون باجز كافة الرحلات، في كافة المطارات، وفي كافة أنحاء العالم، بصرف النظر عن المكان الذي تبدأ منه رحلتك.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>يجب رفع شكوى إلى شركة الخطوط الجوية قبل إبلاغ بلو ريبون باجز بفقد حقيبتك.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>يمكن تقديم بلاغات الأمتعة المفقودة عن طريق الانترنت &lt;a href="{0}" target="_blank"&gt;HERE&lt;/a&gt; أو عن طريق الهاتف رقم &lt;span dir="ltr"&gt;(888) BAGGAGE (+1 888-224-4243)&lt;/span&gt;، على مدار 24 ساعة طوال أيام الأسبوع.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>يتعين عليك إبلاغنا عن الحقائب التي لم تستلمها في غضون 24 ساعة من وصول رحلتك.  لن يتم الوفاء بخدمة شركة بلو ريبون باجز من أجل الحقائب التي تم الإبلاغ عن فقدانها بعد الموعد النهائي المحدد بـ 24 ساعة</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>تقدم بشكوى لشركة الخطوط الجوية قبل التواصل مع بلو ريبون باجز</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>قم بإبلاغ بلو ريبون باجز بشأن الحقائب التي لم يتم تسليمها في غضون 24 ساعة من هبوط رحلتك. يمكنك تقديم البلاغ الخاص بالأمتعة المفقودة طوال أيام الأسبوع وعلى مدار الساعة</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>عبر الانترنت عن طريق&lt;a href="{0}" target="_blank"&gt;HERE&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>عن طريق الهاتف على &lt;span dir="ltr"&gt;(888) BAGGAGE (+1 888-224-4243)&lt;/span&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>ستبدأ بلو ريبون باجز بتقديم خدمتها الخاصة بتتبع أمتعتك وتعجيل عملية إعادتها إليك. سيتلقى الراكب إشعار رسالة بريد إلكتروني تلقائي في كل مرة تتغير فيها حالة حقيبته &lt;br /&gt;&lt;strong&gt; لا يحتاج الراكب الاتصال بالانترنت لمعرفة حالة حقيبته.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>في غضون 96 ساعة من وقت هبوط الرحلة ستقوم بلو ريبون باجز إما بالعثور على حقيبتك أو إرسال مبلغ الضمان بمجرد انقضاء الموعد النهائي المحدد ب96 ساعة.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>هل هناك شئ آخر ينبغي على معرفته؟</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>ما الذي ينبغي فعله إن فقدت حقيبتي؟</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>كيف يمكنني التأكد من استحقاقي للمدفوعات؟</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>تقدم بلو ريبون باجز خدمة فريدة تتعقب وتعجل من إعادة أمتعة الركاب المفقودة لأول 96 ساعة من فقدانها. إذا لم تتمكن بلو ريبون باجز من تيسير عملية إعادة أمتعة المسافر خلال هذه الفترة، ستقوم بلو ريبون باجز بإرسال تعويضات ضمان الإرضاء للراكب. ويُكفل تسديد التعويضات، حتى إذا أُعيدت الحقيبة في أي وقت للعميل بعد انتهاء مدة ال 96 ساعة.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>خصائص خدمة الأمتعة</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>عنوان المنزل الدائم للراكب</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>رقم توجيه ABA</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>رقم الحساب:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>رقم اتفاقية الخدمة</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>رمز تأكيد شركة الخطوط الجوية. #</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>تاريخ وصول الرحلة</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>رقم رحلة الوصول</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>وقت وصول الرحلة</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; اسأل المتصل: هل وصلت رحلتك داخل حدود الولايات المتحدة أم خارجها؟&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; العميل : يُرجى قراءة فقرة من الفقرتين التاليتين المدرجة أدناه والقائمة على إجابات العميل:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>ارفق بلاغ مخالفات الأمتعة/ بلاغ مخالفات الملكية</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>الرمز الرقمي للأمتعة</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>قبل التقدم ببلاغ فقدان الأمتعة إلى بلو ربيون باجز،يجب أن تكون قد أعلمت شركة الخطوط الجوية أولاً بأن
+الأمتعة لم تصل إلى الوجهة النهائية لرحلتك. ستقوم شركة الخطوط الجوية بتزويدك بمعلومات التعقب التي ستحتاجها لتقديم بلاغ فقدان الأمتعة التالي.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>عنوان المستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>مدينة المستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>بلد المستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>البريد الإلكتروني للمستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>الاسم الأول للمستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>الاسم الأخير للمستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>هاتف المستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>حالة المستفيد</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>الرمز البريدي للمستفيد</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>انقر في الصف للتحديد</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>تأكيد عنوان البريد الإلكتروني</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>انقر للنسخ إذا كان العنوان مطابقاً للعنوان السابق</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>يُرجى تحديد لغة اشعارات البريد الإلكتروني</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>لغة البريد الإلكتروني</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>لديك {0} من وقت إرسال الرسالة الإلكترونية لإجراء التغييرات المطلوبة باستخدام المعلومات الصحيحة. إذا لم تقم بالرد بالمعلومات الصحيحة في غضون {0} سيتم تجاهل بلاغك الخاص بالحقائب التي تعرضت للإهمال. ولن يُقبل البلاغ الخاص بك حتى في حال إذا ما أعيد تقديمه.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>رقم مرجع الملف الذي أرسلته غير صالح.  سيكون عليك التواصل مع شركة خطوط الطيران الخاصة بك لتزويدك برقم صالح لمرجع الملف على الفور.  يجب تزويدنا بهذا الرقم في غضون 24 ساعة من وقت وصول رحلتك لكي يتم التعامل مع البلاغ.  إن شركة بلو ريبون باجز لا تسترجع أرقام مرجع الملف نيابة عن الراكب.&lt;br/&gt;
+بل يقع على الراكب مسؤولية جمع هذه المعلومات من شركة الخطوط الجوية وتزويدنا بها في غضون 24 ساعة من وصول رحلته.  في حال عدم تلقى رقم مرجع ملف صالح في غضون 24 ساعة من موعد وصول رحلتك، سيتم تجاهل البلاغ الخاص بك ولن تستطيع التمتع بخدمة استرجاع الأمتعة وخدمة تعويضات ضمان الإرضاء الخاصة بنا.  لن نعيد فتح ملفك، دون النظر إلى الظروف، إذا ما تم إرسال هذه المعلومات في أي وقت بعد الموعد النهائي المحدد بـ 24 ساعة من وقت وصول الرحلة.&lt;br/&gt;
+إذا كنت قد أرسلت إلينا، نسخة من البلاغ الخاص بك كما زودتك به شركة الخطوط الجوية عند مطالبتك بأمتعتك التي تعرضت للإهمال، ولا تزال تتلقى هذه الرسالة الإلكترونية، فهذا يعني أن شركة الخطوط الجوية لم تقم بتزويدك برقم مرجع ملف صالح ويجب عليك التواصل معهم للحصول على رقم جديد على الفور، وتزويدنا به في غضون 24 ساعة من موعد وصول رحلتك.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>أدخل المعلومات التالية من مطالبة الأمتعة التي تقدمت بها لشركة الخطوط الجوية:</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>يُرجى إدخال رقم اتفاقية خدمة بلو ريبون باجز الخاص بك:</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>رقم مرجع الملف أو رقم محدد الملف</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>يشتمل رقم مرجع الملف الذي يجب أن يكون قد أُرسل إليك على رمز يتكون من 5 أرقام يلي رمز المطار وشركة الخطوط الجوية على بلاغ مخالفات الملكية الخاص بك. على سبيل المثال: MCOAF12345 &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>رقم مرجع الملف </value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>تقديم بلاغ</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>اسم الفندق:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>في حالة مغادرة الراكب لهذه الوجهة خلال فترة 96 ساعة، ويود أن تكون بلو ريبون باجز على دراية بهذه الظروف،
+حتى يتم توصيل حقائبك على نحو صحيح، يرجى مراسلتنا عبر البريد الإلكتروني &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,
+ووضع رقم بلاغ الأمتعة التي تعرضت للإهمال، الذي تم تزويدك به عند تقديم البلاغ، في خانة الموضوع وتزويدنا بأكبر قدر ممكن من المعلومات عن حالتك.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>رقم بلاغ الأمتعة التي تعرضت للإهمال</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>اسم البنك:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>نأسف، إلا أنه لا يمكن تعديل هذا البلاغ ومن ثم لم يعد من الممكن تصحيح هذه المعلومات. شكراً لاختيارك شركة بلو ريبون باجز سافر بأمان وتخلص من القلق!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>لم يتم العثور على أي نتائج لبحثك</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>يجب عليك تقديم نسخة من التقرير الذي قدمته لك شركة الطيران عند تقديم مطالبة بأمتعتك المفقودة مع شركة الطيران إلى Blue Ribbon Bags (بلو ريبون باجز) خلال 24 ساعة من وصول رحلتك حتى يتم إكمال عملية معالجة تقرير الأمتعة التي حدث لها سوء مناولة. في حالة عدم إرسالك نسخة من هذا التقرير حسب ما قدمته لك شركة الطيران خلال 24 ساعة من وصول رحلاتك، فإنه سيتم رفض تقرير الأمتعة التي حدث لها سوء مناولة مع Blue Ribbon Bags (بلو ريبون باجز) على الفور بعد انتهاء مدة 24 ساعة، ولن تُعد مؤهلاً لاستحقاق خدمات استرجاع الأمتعة أو الحصول على مدفوعات ضمان الرضا عن الخدمة من جانبنا. الرجاء إرسال نسخة من هذا التقرير إلى mbr@blueribbonbags.com مع كتابة رقم اتفاقية الخدمة الخاصة بك في سطر الموضوع. لن تُعتبر أية وثائق داعمة لشركة الطيران يتم تقديمها على نحو مغاير وفقًا للتعليمات الواردة هنا كتقديم صالحًا، وعليه لن يتم النظر فيها فيما يتعلق بتقرير سوء المناولة لأمتعتك مع Blue Ribbon Bags (بلو ريبون باجز).  سيتم رفض أية تقارير لا تتضمن وثائق مرفقة عند انتهاء مدة 24 ساعة من تاريخ وصول رحلتك.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>سوف يكون الركاب في هذا العنوان حتى</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>عنوان الدفع</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>الدفع بواسطة</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>مدينة الدفع</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>بلد الدفع</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>ملاحظة: من الممكن أن تتغير تفاصيل عملية الدفع بعد التقارير الأولية. مما قد يتسبب في حدوث تأخير طفيف في عملية الدفع.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني للدفع</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>الاسم الأول للمستحق للتعويض</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>الاسم الأخير للمستحق للتعويض</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>هاتف المستحق للتعويض</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>بلد المستحق للتعويض</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>الرمز البريدي للمستحق للتعويض</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني عبر موقع باي بال</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>يُرجى إكمال المعلومات المرتبطة بحساب الباي بال الخاص بك</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>الاسم الأول للحساب على باي بال</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>الاسم الأخير للحساب على باي بال</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>يُرجى إكمال الحقول على ذات النمط المتبع في مطالبتك مع شركة الخطوط الجوية.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>يُرجى إدخال معلومات الدفع. &lt;b&gt; هذا هو العنوان الذي تريد استقبال المبلغ المدفوع عليه في حال تأخر حقيبتك لأكثر من 96 ساعة. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>يُرجى إدخال معلومات الدفع. &lt;b&gt; هذا هو العنوان الذي تريد استقبال المبلغ المدفوع عليه في حال تأخر حقيبتك لأكثر من 96 ساعة. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>قم بتوفير المعلومات التالية بذات الطريقة المتبعة في مطالبة الأمتعة المفقودة مع شركة الخطوط الجوية &lt;b&gt; هذا هو العنوان الذي تريد إرسال حقيبتك عليه.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>البحث بواسطة (يُرجى تحديد خيار)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>رقم اتفاقية الخدمة</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>معلومات وصول الرحلة</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>معلومات الأمتعة التي تعرضت للإهمال</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>رقم اتفاقية الخدمة</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>معلومات تسليم الأمتعة</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>معلومات الدفع</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>كود التحويل الإلكتروني</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>الأمتعة التي تعرضت للإهمال</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>الحقائب التي لم يتم تسليمها والتي تشتمل على رقم مرجع ملف غير صالح من شركة الخطوط الجوية،
+يجب إبلاغ شركة بلو ريبون باجز بها في غضون 24 ساعة من وصول الرحلة.
+لن يتم الوفاء بخدمة شركة بلو ريبون باجز من أجل الحقائب التي تم الإبلاغ عن فقدانها بعد الموعد النهائي المحدد بـ 24 ساعة.
+
+إذا لم تقم شركة الخطوط الجوية بتزويدك برقم مرجع ملف صالح،
+سيتعين عليك التواصل مع شركة الخطوط الجوية والحصول على الرقم منهم قبل تقديم بلاغك لنا.  
+لن تقوم شركة بلو ريبون باجز باسترداد أرقام مراجع الملفات من شركة الخطوط الجوية.  حيث يقع على الراكب مسؤولية
+جمع هذه المعلومات من شركة الخطوط الجوية قبل أن يتقدم إلينا ببلاغ يفيد بتعرض الأمتعة للإهمال.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>أرقام الحقائب التي لم يتم تسليمها</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>عندما تقدمت لشركة الخطوط الجوية بمطالبة الحقائب المفقودة،
+تلقيت رقم مرجع ملف
+والرمز الرقمي للأمتعة، يُرجى إدخالهم هنا:</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>تسجيل دخول العميل</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>ميزات</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>جهة الاتصال</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>الأسئلة الشائعة</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>تقديم بلاغ</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>حقائب مفقودة</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>اضغط هنا حال رغبتك في استقبال رسالة بريد إلكتروني تفيد التأكيد.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>اضغط هنا حال رغبتك في تلقي الراكب/ الركاب لرسالة بريد إلكتروني تفيد التأكيد.</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>لا تقم بإظهار التكلفة الإجمالية في رسائل تأكيد الخدمة</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>حسابي</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>إذا كنت ترغب في تقديم أي معلومات تتعلق بحقيتك أو معلومات التوصيل ، يرجى إدخالها هنا</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>يتم عرض حقل كلمة المرور عمدا على أنه فارغ. إذا كنت ترغب في إنشاء كلمة مرور جديدة، يُرجى إدخال كلمة مرور جديدة وتأكيدها &lt;br /&gt;&lt;br /&gt;
+                   يجب أن تحتوي كلمة المرور على 8 (ثمانية) أحرف على الأقل مع احتوائها على حرف أبجدي وقيمة عددية وحرف خاص ووجود حرف أبجدي كبير على الأقل.&lt;br/&gt; &lt;br/&gt;&gt;
+                   تتضمن الأحرف الخاصة المسموح بها:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>معلومات عنوان المستحق للدفع</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>معلومات المستحق للدفع</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>حسنا، أنا جاهز الأن</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>تهانينا!</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>مستوى الخدمة:</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>عدد الركاب:</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>تأكيد الدفع:</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>معلومات الدفع</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>الرمز الترويجي</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>شكرا جزيلا لاختيارك خدمة أمتعة بلو ريبون باجز لرحلتك القادمة. كن على ثقة بأننا سنسهل الأمر عليك قدر الإمكان.&lt;br /&gt;&lt;br /&gt;رقم اتفاقية خدمة بلو ريبون باجز الخاص بك هو</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>يرجى الاحتفاظ برقم اتفاقية الخدمة، حيث ستحتاج إلى ذلك الرقم لإبلاغنا بشأن حقيبتك التي تعرضت للإهمال في حال عدم تسلمك إياها.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>سوف يصلك بريد إلكتروني من بلو ريبون باجز للتأكيد في غضون عدة دقائق. إذا لم تصلك الرسالة، يرجى التواصل معنا والاحتفاظ برسالة تأكيد تحويل باي بال.</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt; الإجراءات التي يجب اتخاذها عند عدم وصول حقيبتك:&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;عند عدم عثورك على حقيبتك عقب وصولك لوجهتك النهائية يتعين عليك إبلاغ شركة الخطوط الجوية قبل إبلاغ بلو ريبون باجز. يتعين عليك إبلاغ بلو ريبون باجز بشأن الحقائب التي لم يتم تسلمها في غضون 24 ساعة من وصول رحلتك. يمكنك إبلاغنا عن الحقيبة التي تعرضت للإهمال سواء عن طريق الهاتف &lt;strong&gt;{0}&lt;/strong&gt;, أو عبر الإنترنت من خلال &lt;a href="{1}"&gt;{2}&lt;/a&gt;, على مدار الساعة طوال أيام الأسبوع. &lt;br/&gt; &lt;br/&gt; &gt; يرجى التأكد من الاحتفاظ بمعلومات تتبع الأمتعة (مرجع الملف / رقم تحديد الموقع) التي تقدمها لك شركة الطيران عند تقديمك شكوى بفقد الأمتعة، حيث إن بلو ريبون باجز سوف تطالب بهذه المعلومات لمعالجة بلاغ الأمتعة التي تعرضت للإهمال. يتعين عليك إبلاغ  بلو ريبون باجز عن الحقائب التي لم يتم تسلمها في غضون 24 ساعة من وصول رحلتك &lt;br /&gt;&lt;br /&gt; ترد معلومات الدفع الخاصة بك فيما يلي. إذا كان لديك أي أسئلة لا تتردد في الاتصال على بلو ريبون باجز عن طريق إرسال رسالة إلكترونية عبر &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt;. نتواجد لمساعدتك على مدار الساعة طوال أيام الأسبوع. سافر بأمان وتخلص من القلق&lt;br /&gt;&lt;br /&gt;اتفاقية الخدمة الخاصة بك متاحة عبر الإنترنت على&lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br شكرا جزيلا على عملك معنا ونتمنى لك رحلة آمنة.&lt;br /&gt;&lt;br /&gt;إن قيمة خدمة بلو ريبون باجز المقدمة غير قابلة للاسترداد أو التحويل. لن يتم رد أي مبالغ نقدية أو ائتمانية. في حال إلغاء رحلتك وحجز رحلة جديدة بدلًا منها، يتعين عليك إما إبلاغنا بهذا التغيير قبل مغادرة رحلتك الجديدة &amp;#39 أو الدفع مقابل الحصول على خدمة جديدة للرحلة الجديدة.  يجب إبلاغ بلو ريبون باجز بجميع التغييرات عن طريق إرسال بريد إلكتروني عبر &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ووضع رقم اتفاقية الخدمة في خانة الموضوع.  يجب عليك تضمين اسم الخطوط الجوية ورقم التأكيد الخاص بها بالإضافة إلى رقم رحلتك الأصلية ورقم الرحلة الجديدة التي تم تغيير رحلتك الأصلية لها في رسالة البريد الإلكتروني.  عند تغيير شركة الخطوط الجوية هي الأخرى، يتعين عليك أيضاً إخطارنا بشركة الخطوط الجوية التي ستكون على متنها رحلتك جديدة.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>لقد تمت عملية الدفع بنجاح</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>التكلفة الإجمالية:</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>تم تحديد موقع جميع الحقائب وتم إغلاق هذه الحالة</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>سبب الرفض</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>يمكن تقديم بلاغات الأمتعة التي تعرضت للإهمال على مدار الساعة طوال أيام الأسبوع عن طريق الضغط على &lt;a href="{0}" target="_blank"&gt;here &lt;/a&gt; أو الاتصال بـ &lt;span dir="ltr"&gt;888-BAGGAGE&lt;/span&gt;.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>إذا أشار الراكب إلى شركة الخطوط الجوية التي تقدم بمطالبة لها، أو إلى بلو ريبون باجز، في أي وقت، بأنه سيقوم بتسلم حقيبته بدلا من توصيلها إليه، سيتم تعيين حالة بلاغ الأمتعة إلى مغلقة وسيتم اعتبار أن جميع الحقائب قد أعيدت، عقب وصول الحقيبة إلى المطار.</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>وبمجرد وصول الحقيبة للوجهة المذكورة لشركة الخطوط الجوية عند تقديم المطالبة سيتم تعيين حالة بلاغ فقدان الأمتعة إلى مغلقة.</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>* إذا كانت أي معلومة من المعلومات السابقة غير صحيحة،يُرجى مراسلتنا عبر &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>ملاحظات من مدير البلاغات:</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>لم يتم العثور على أي نتائج لبحثك</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>حالة بلاغ الأمتعة التي تعرضت للإهمال هي: &amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>لقد ظلت مفتوحة لمدة &lt;strong&gt;{0}&lt;/strong&gt; أيام.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>سيتم إيلاء بلاغ الأمتعة التي تعرضت للإهمال إلى: &amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>وسينجم عنها عملية دفع إذا كانت لا تزال مفتوحة خلال  &lt;strong&gt;{0}&lt;/strong&gt; أيام</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>النتيجة:</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>سيتم إرسال إشعارات تلقائية عبر البريد الإلكتروني إلى الراكب في كل مرة تتغير فيها حالة الأمتعة. بحيث لا يحتاج الركاب إلى الاتصال بالخطوط الجوية لمعرفة وضع أمتعتهم.</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>ميزات</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>يقتصر رقم هاتفنا &lt;span dir="ltr"&gt;(888-BAGGAGE)&lt;/span&gt; على أغراض استقبال بلاغات جديدة تتعلق بالأمتعة التي تعرضت للإهمال.
+ولن يفيدك هذا الرقم بأي معلومات تتعلق ببلاغات حول الأمتعة التي تعرضت للإهمال.
+أي استفسارات، أو تعليقات أو طلبات تتعلق بالبلاغات القائمة حول الأمتعة التي تعرضت للإهمال،
+سواء كانت جديدة أو مفتوحة أومعلومات مغلوطة أو مغلقة، لأي سبب من الأسباب، يجب إرسالها عبر البريد الإلكتروني،
+إلى &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;,مع كتابة رقم اتفاقية الخدمة الخاص بك في خانة الموضوع</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>قبل التقدم ببلاغ إلى بلو ربيون باجز يفيد بتعرض الأمتعة للإهمال،
+على الراكب أن يطالب شركة الخطوط الجوية بالأمتعة المفقودة (حسبما تقتضيه قواعد هذه الشركة) &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+يجب إبلاغ شركة بلو ريبون باجز بالحقائب التي لم يجري تسليمها والتي تشتمل على رقم مرجع ملف صالح من شركة الخطوط الجوية في غضون 24 ساعة من وصول الرحلة. لن يتم الوفاء بخدمة شركة بلو ريبون باجز من أجل الحقائب التي تم الإبلاغ عن فقدانها بعد الموعد النهائي المحدد بـ 24 ساعة إذا لم تقم شركة الخطوط الجوية بتزويدك برقم مرجع ملف صالح، سيكون عليك التواصل مع شركة الخطوط الجوية والحصول على الرقم منهم قبل تقديم تقريرك لنا. لن تقوم شركة بلو ريبون باجز باسترداد أرقام مراجع الملفات من شركة الخطوط الجوية. يقع على المسافر مسؤولية الحصول على هذه المعلومات من شركة الخطوط الجوية قبل أن يتقدم إلينا ببلاغ يفيد بتعرض الأمتعة للإهمال. &lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+
+في حال اكتشاف أن الحقيبة التي تم تسليمها إلى الراكب لم تكن هي حقيبته، يكون لدى الراكب 12 ساعة، منذ وقت إخطاره بأن ملفه مع بلو ريبون باجز قد أُغلق وتمت إعادة الحقيبة، لإبلاغ بلو ريبون باجز بالخطأ عن طريق مراسلتنا عبر mbr@blueribbonbags.com وكتابة "ليست حقيبتي" بالإضافة إلى رقم بلاغ الأمتعة المفقودة في خانة الموضوع. سيكون أمام شركة بلو ريبون باجز 72 ساعة (ثلاثة أيام) من وقت انقضاء الـ 96 ساعة الأصلية التي بدأت فور هبوط طائرة الراكب الأصلية، للعثور على الحقيبة التي أرسلت عن طريق الخطأ. يتم اعتبار أي حقيبة تندرج تحت هذه الفئة أنها قد "أُعيدت" وفقاً لشروط وأحكام شركتنا بمجرد وصول هذه الحقيبة للمطار المسجل في مطالبة الأمتعة المفقودة. في حال إرسال حقيبة عن طريق الخطأ، سيكون على الراكب إرسال رسالة إثبات تحتوي على إيصال الاستلام من شركة التسليم التي قامت بتوصيل الحقيبة الخاطئة، بالإضافة إلى وثيقة من شركة الخطوط الجوية تنص بوضوح على أن الحقيبة المشار إليها والتي أُعيدت للراكب لم تكن حقيبته. وتستلزم هاتين الوثيقتين الحصول على تعويضات ضمان الإرضاء الخاصة بشركة بلو ريبون باجز.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+
+المعلومات المغلوطة أو طلبات المعلومات:&lt;/strong&gt; في حال تقديم معلومة خاطئة عند التقدم ببلاغ يفيد بتعرض الأمتعة للإهمال، قد تتلقى رسالة إلكترونية تتطالب بتصحيح هذه المعلومة. وفي حالة تلقى الراكب لرسالة من هذا النوع، أو أي طلبات معلومات أخرى تخص حالة الراكب، يكون أمام الراكب 12 ساعة من وقت إرسال الرسالة للرد. إذا لم يقم الراكب بالرد بالمعلومات المصححة أو المعلومات المطلوبة وأي وثائق إثبات مطلوبة خلال هذه الفترة، سيتم تجاهل بلاغ الراكب الخاص بالأمتعة التي تعرضت للإهمال، ولن يعد الراكب مؤهلاً للحصول على خدمات استرداد الأمتعة أو تعويضات ضمان الإرضاء الخاصة بنا.&lt;br /&gt;&lt;br /&gt;
+إذا لم يتم تقديم عنوان التسليم إلى شركة الخطوط الجوية عند تقديم مطالبة الأمتعة المفقودة، ستقوم بلو ريبون باجز بإغلاق حالتك بمجرد وصول الحقيبة إلى المطار المحدد والمسجل بشركة الخطوط الجوية، وسيتم اعتبار ان حقائبك قد أُعيدت وفقاً لاتفاقية خدمة بلو ريبون باجز.&lt;br /&gt;&lt;br
+/&gt;&lt;strong&gt;
+
+ملحوظة: إذا تم فقدان حقيبة الراكب من قبل شركة خطوط جوية لا تصدر سوى بلاغات مخالفات الملكية (هذا هو عنوان التقرير الذي تقدمه شركة الخطوط الجوية للراكب والذي يحمل رقم مرجع الملف) عن طريق شركة الخطوط الجوية أو عن طريق المطار، أو بلاغ مخالفات الأمتعة عبر شركة الخطوط الجوية (لا توفر بلاغات مخالفات الأمتعة عموماً رقم مرجع ملف مكون من عشرة أرقام)، يجب على الراكب إرسال نسخة من بلاغ مخالفات الملكية أو بلاغ مخالفات الأمتعة الخاص به إلى mbr@blueribbonbags عن طريق كتابة رقم اتفاقية الخدمة في خانة الموضوع بعد ملء الاستمارة الإلكترونية. يجب أن نتلقى نسخة من هذا البلاغ في غضون 24 ساعة من وقت وصول رحلة الراكب ليتم اعتبار البلاغ صالحاً. إذا لم يتم تقديم نسخة من هذا البلاغ في غضون 24 ساعة من وقت هبوط الرحلة، ستتجاهل بلو ريبون باجز.بلاغ الراكب فور انقضاء الموعد النهائي المحدد بـ 24 ساعة. يتم اعتبار أي حقيبة تندرج تحت هذه الفئة أنها قد "أُعيدت" وفقاً لشروط وأحكام شركتنا بمجرد وصول هذه الحقيبة للمطار المسجل بخط سير الرحلة أو معلومات الإرسال المقدمة إلى شركة الخطوط الجوية من قبل العميل عند مطالبة شركة الخطوط الجوية بالحقائب المفقودة.
+&lt;br/&gt; &lt;br/&gt;
+ملحوظة: إذا تم فقدان حقيبتك من قبل شركة خطوط جوية لا تصدر سوى بلاغات مخالفات الملكية عن طريق المطار (فقدت ثم وجدت)
+أو بلاغ مخالفة الأمتعة عن طريق شركة الخطوط الجوية (لا توفر بلاغات مخالفات الأمتعة عموماً رقم مرجع ملف مكون من عشرة أرقام).
+ستُصدر شركة بلو ريبون باجز فقط أمرًا بدفع مبلغ الترضية فيما يتعلق بالحقيبة التي تعرضت للإهمال لأكثر من 96 ساعة.
+بعد أن تصدر شركة الخطوط الجوية أمرًا بالدفع (دفع التعويض) فيما يتعلق بالحقيبة المفقودة. إذا لم تُصدر شركة الخطوط الجوية أمرًا بدفع تعويض إلى المسافر مطلقًا
+عوضًا عن الحقيبة المفقودة فإن شركة بلو ريبون باجز لن تقوم بذلك أيضًا. وفي كلتا الحالتين،
+سيتطلب الأمر تقديم إثبات إتمام الدفع الصادر عن شركة الخطوط الجوية حتي يتم الحصول على مبلغ الترضية من شركة بلو ريبون باجز.
+وسيتطلب الأمر أيضًا تقديم إقرار من شركة الخطوط الجوية يفيد بأنها أصدرت أمرًا بالدفع فيما يتعلق بالحقيبة المفقودة المُشار إليها.
+وستساعد شركة بلو ريبون باجز في مهمة العثور على أمتعتك التي لم تتسلمها حسب المعتاد خلال الـ 96 ساعة الأولى من تاريخ فقدان الحقائب.
+&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;  ERRORS : &lt; / &gt; إذا اكتشف المسافر وجود خطأ عند رفض شركة بلو ريبون باجز لبلاغ الأمتعة التي تعرضت للإهمال أو عند إغلاقها لهذا البلاغ، فسيكون أمام المسافر 12 ساعة من استلام البريد الإلكتروني الذي يخبره بأي من هذين السيناريوهين للإبلاغ عن الخطأ لدى شركة بلو ريبون باجز.  يرجى اخطارنا بالخطأ عبر البريد الإلكتروني &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com &lt;/a&gt;،مع وضع رقم بلاغ فقدان الأمتعة في خانة الموضوع.  يجب على المسافر شرح الخطأ على وجه الدقة بأكبر قدر ممكن من التفصيل في البريد الإلكتروني، وتقديم أي وثائق إثبات.  في حالة تأكد شركة بلو ريبون باجز من صحة الخطأ، فسيكون لديها فترة زمنية قدرها 72 ساعة من وقت إعادة فتح ملف المسافر للعثور على أمتعة المسافر.  في حالة انتهاء الإطار الزمني البالغ مدته 96 ساعة والذي يبدأ من وقت وصول طائرة المسافر الأصلية بعد مضي فترة 72 ساعة التي تبدأ من وقت إعادة فتح الملف، فإنه سيتوجب على شركة بلو ريبون باجز أن تعثر على أمتعة المسافر حتى انتهاء الفترة الأصلية البالغة 96 ساعة.  
+في كلتا الحالتين، وبمجرد وصول أمتعة المسافر إلى المطار المسُجل في مطالبة الأمتعة المفقودة التي تقدمت بها شركة الخطوط الجوية، ستُعتبر الأمتعة مُستردة، وفقًا لشروط وأحكام شركة بلو ريبون باجز، وسيُغلق ملف المسافر. &lt;br/&gt; &lt;br/&gt;
+&lt;strong&gt;
+لن تُقبل أي طلبات يتم تلقيها بعد فترة الـ12ساعة ، كما أن المسافر سيكون غير مستحق للحصول على خدمات استرداد الأمتعة أو خدمات تعويضات ضمان الإرضاء الخاصة بنا وذلك بصرف النظر عن أي مستندات مقدمة.
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt; يقتصر رقم هاتفنا &lt;span dir="ltr"&gt;(888-BAGGAGE)&lt;/span&gt; على أغراض استقبال البلاغات الجديدة حول الأمتعة التي تعرضت للإهمال.
+                       ولن تفيدك أرقام الهاتف بأي معلومات فيما يتعلق بأمتعتك التي تعرضت للإهمال.
+                       يجب إرسال أي استفسارات أو تعليقات أو طلبات، سواء كانت جديدة أو مفتوحة أو مغلوطة أو مغلقة لأي سبب من الأسباب ، بخصوص البلاغات القائمة بشأن الأمتعة التي تعرضت للإهمال عن طريق البريد الإلكتروني.
+                       إلى &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;,مع كتابة رقم اتفاقية الخدمة الخاص بك في خانة الموضوع
+                   &lt;/li&gt;
+                   &lt;li&gt;قبل التقدم ببلاغ الأمتعة تعرضت للإهمال إلى بلو ربيون باجز، يتوجب علي المسافر تقديم مطالبة الأمتعة المفقودة إلى شركة الخطوط الجوية (حسبما تقضيه قواعد هذه الشركة) &lt;li&gt;
+                   &lt;li&gt; يجب إبلاغ شركة بلو ريبون باجز عن الحقائب التي لم يتم تسليمها والتي تشتمل على رقم مرجع ملف غير صالح من شركة الخطوط الجوية في غضون 24 ساعة من موعد وصول الرحلة. لن يتم الوفاء بخدمة شركة بلو ريبون باجز من أجل الحقائب التي تم الإبلاغ عن فقدانها بعد الموعد النهائي المحدد بـ 24 ساعة إذا لم تقم شركة الخطوط الجوية بتزويدك برقم مرجع ملف صالح، سيتوجب عليك التواصل مع شركة الخطوط الجوية والحصول على الرقم منهم قبل تقديم بلاغك إلينا. لن تقوم شركة بلو ريبون باجز باسترداد أرقام مراجع الملفات من شركة الخطوط الجوية. يضطلع المسافر بمهمة جمع هذه المعلومات عن طريق شركة الخطوط الجوية قبل أن يتقدم إلينا ببلاغ حول الأمتعة التي تعرضت للإهمال&lt;/&gt;
+                   &lt;b&gt;&lt;u&gt;فيما يتعلق بجميع الرحلات الجوية التي وصلت خارج الولايات المتحدة:&lt;/u&gt;&lt;br /&gt;يتعين عليك، في إطار عملية تقديم البلاغ، تقديم نسخة من البلاغ الذي زودتك به شركة الخطوط الجوية، عند مطالبتك بحقائبك التي تعرضت للإهمال، إلى شركة بلو ريبون باجز في غضون 24 ساعة من موعد وصول رحلتك.  عند عدم إرسال نسخة من البلاغ، الذي زودتك به شركة الخطوط الجوية عند مطالبتك بحقائبك التي تعرضت للإهمال، في غضون 24 ساعة من موعد وصول رحلتك سيتم تجاهل بلاغك المقدم إلى شركة بلو ريبون باجز والخاص بأمتعتك التي تعرضت للإهمال فور انقضاء فترة الـ 24 ساعة ولن يمكنك التمتع بخدمات استرداد الأمتعة أو خدمات تعويضات ضمان الإرضاء الخاصة بنا.  يُرجى إرسال نسخة من بلاغك إلى &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; مع وضع رقم اتفاقية الخدمة في خانة الموضوع.  لن يتم النظر إلى البلاغات المرسلة إلى شركة الخطوط الجوية في غير الصورة التي وردت في التعليمات السابقة على أنها عملية إرسال صحيحة.  يتم اعتبار أي حقيبة تندرج تحت هذه الفئة أنها "مُستردة" وفقاً لشروط وأحكام اتفاقية خدمة شركة بلو ريبون باجز، بمجرد وصول الحقيبة المُسجلة في مطالبة الأمتعة المفقودة التي تقدمت بها لشركة الخطوط الجوية إلى المطار.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt; أما بالنسبة إلى الرحلات التي وصلت إلى الولايات المتحدة:&lt;/u&gt;&lt;br /&gt; إذا فقدت شركة الخطوط الجوية حقيبتك وقدمت بلاغ مخالفات الملكية، (هذا هو عنوان البلاغ الذي زودتك به شركة الخطوط الجوية عند تقديمك مطالبة بحقائبك المفقودة والمشتمل على رقم مرجع الملف، من خلال شركة الخطوط الجوية أو عن طريق المطار) أو بلاغ مخالفات الأمتعة من خلال شركة الخطوط الجوية (لا توفر بلاغات مخالفات الأمتعة عموماً رقم مرجع ملف مكون من عشرة أرقام)، يتعين عليك تقديم نسخة من بلاغ مخالفات الملكية أو بلاغ مخالفات الأمتعة إلى شركة بلو ريبون باجز في غضون 24 ساعة من موعد وصول رحلتك من أجل استكمال عملية تقديم بلاغ الأمتعة التي تعرضت للإهمال.   عند عدم إرسال نسخة من هذا البلاغ، الذي تقدمت به شركة الخطوط الجوية إليك، في غضون 24 ساعة من موعد وصول رحلتك، سيتم تجاهل بلاغك المقدم لشركة بلو ريبون باجز والخاص بأمتعتك التي تعرضت للإهمال فور انقضاء فترة الـ 24 ساعة ولن يمكنك التمتع حينها بخدمات استرداد الأمتعة أو خدمات تعويضات ضمان الإرضاء الخاصة بنا.  يُرجى إرسال نسخة من هذا التقرير إلى &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; مع وضع رقم بلاغ فقدان الأمتعة في خانة الموضوع.  لن يتم النظر إلى البلاغات المرسلة إلى شركة الخطوط الجوية في غير الصورة التي وردت في التعليمات السابقة على أنها عملية إرسال صحيحة.  يتم اعتبار أي حقيبة تندرج تحت هذه الفئة على أنها "مُستردة" وفقًا لشروط وأحكام اتفاقية خدمة شركة بلو ريبون باجز، بمجرد وصول الحقيبة المسجلة في مطالبة الأمتعة المفقودة التي تقدمت بها شركة الخطوط الجوية إلى المطار&lt;/b&gt; &lt;/li&gt;
+                   &lt;li&gt; في حال اكتشاف الراكب أن الحقيبة التي تسليمها إليه لم تكن هي حقيبته، يكون لديه 12 ساعة، منذ وقت إخطاره بأن ملفه مع شركة بلو ريبون باجز قد أُغلق وتمت إعادة الحقيبة، لإبلاغ شركة بلو ريبون باجز بالخطأ عن طريق مراسلتنا عبر &lt; =  mailto:mbr@blueribbonbags.com &gt; mbr@blueribbonbags.com وكتابة "ليست حقيبتي" ورقم بلاغ فقدان الأمتعة في خانة الموضوع. سيكون أمام شركة بلو ريبون باجز 72 ساعة (ثلاثة أيام) من وقت انقضاء الـ 96 ساعة الأصلية التي بدأت فور هبوط طائرة الراكب الأصلية، للعثور على الحقيبة التي أرسلت عن طريق الخطأ. يتم اعتبار أي حقيبة تندرج تحت هذه الفئة أنها قد "أُعيدت" وفقاً لشروط وأحكام شركتنا بمجرد وصول هذه الحقيبة إلى المطار المسجل في مطالبة الأمتعة المفقودة. في حال إرسال حقيبة عن طريق الخطأ، سيكون على الراكب إرسال رسالة إثبات تحتوي على إيصال الاستلام من شركة التسليم التي قامت بتوصيل الحقيبة الخاطئة، بالإضافة إلى وثيقة من شركة الخطوط الجوية تنص بوضوح على أن الحقيبة المشار إليها والتي أُعيدت للراكب لم تكن حقيبته. وتستلزم هاتين الوثيقتين الحصول على تعويضات ضمان الإرضاء الخاصة بشركة بلو ريبون باجز.&lt;/li&gt;
+                   &lt;li&gt;المعلومات المغلوطة أو طلبات المعلومات: إذا تم تقديم معلومة خاطئة عند التقدم ببلاغ فقدان الأمتعة، قد تتلقى رسالة إلكترونية ليتم تصحيح هذه المعلومة. وفي حالة تلقى الراكب لرسالة من هذا النوع، أو أي طلبات معلومات أخرى تخص حالة الراكب، يكون أمام الراكب 12 ساعة من وقت إرسال الرسالة للرد. إذا لم يقم الراكب بالرد بالمعلومات المصححة أو المعلومات المطلوبة وأي وثائق إثبات مطلوبة خلال هذه الفترة، سيتم تجاهل بلاغ الراكب الخاص بالأمتعة المفقودة، ولن يعد الراكب مؤهلاً للحصول على خدمات استرداد الأمتعة أو تعويضات ضمان الإرضاء الخاصة بنا &lt;/li&gt;
+                   &lt;/li&gt;إذا لم يتم تقديم عنوان التسليم إلى شركة الخطوط الجوية عند تقديم مطالبة الأمتعة المفقودة، ستقوم شركة بلو ريبون باجز بإغلاق دعوتك بمجرد وصول الحقيبة إلى المطار المحدد والمسجل بشركة الخطوط الجوية، وستعتبر حقائبك مُستردة وفقاً لاتفاقية خدمة شركة بلو ريبون باجز.&lt;/li&gt;
+                   &lt;li&gt;ركاب شركة طيران كندا وشركة ويست جيت للطيران: لن تضطلع شركة بلو ريبون باجز بمسؤولية تسليم الأمتعة المفقودة إلى المسافر فيما يتعلق ببلاغات الأمتعة المفقودة المرتبطة بمطالبات قدمتها أي من هاتين الشركتين. وستعتبر أي حقائب مفقودة مرتبطة بمطالبة الأمتعة المفقودة التي تقدمت بها شركة طيران كندا أو شركة ويست جيت للطيران "مُستردة" وفقًا لشروط وأحكام اتفاقية خدمة شركة بلو ربيون باجز بمجرد وصول الحقيبة إلى المطار المُسجل في مطالبة الأمتعة المفقودة التي تقدمت بها شركة طيران كندا أو شركة ويست جيت للطيران. بمجرد التأكيد على وصول الحقائب إلى المطار المسجل في مطالبة الأمتعة المفقودة التي تقدمت بها شركة طيران كندا أو شركة ويستجيت للطيران أثناء فترة الخدمة، سيكون المسافر غير مؤهل للحصول على خدمات استرداد الأمتعة أو الحصول على تعويضات ضمان الإرضاء المقدمة من شركة بلو ريبون باجز.&lt;li/&gt;
+                   &lt;li&gt;أخطاء: إذا اكتشف المسافر وجود خطأ عند رفض شركة بلو ريبون باجز لبلاغ الأمتعة المفقودة أو عند إغلاقها لهذا البلاغ، فسيكون أمام المسافر 12 ساعة عقب استلام البريد الإلكتروني الذي يخبره بأي من هذين السيناريوهين للإبلاغ عن الخطأ لدى شركة بلو ريبون باجز. يرجى اخطارنا بالخطأ عبر البريد الإلكتروني &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com &lt;/a&gt;،مع وضع رقم بلاغ فقدان الأمتعة في خانة الموضوع. يجب على المسافر شرح الخطأ على وجه الدقة بأكبر قدر ممكن من التفصيل في البريد الإلكتروني، وتقديم أي وثائق إثبات. في حالة تأكد شركة بلو ريبون باجز من صحة الخطأ، فسيكون لديها فترة زمنية قدرها 72 ساعة من وقت إعادة فتح ملف المسافر للعثور على أمتعة المسافر. في حالة انتهاء الإطار الزمني البالغ مدته 96 ساعة والذي يبدأ من وقت وصول طائرة المسافر الأصلية بعد مضي فترة 72 ساعة التي تبدأ من وقت إعادة فتح الملف، فإنه سيتوجب على شركة بلو ريبون باجز أن تعثر على أمتعة المسافر حتى انتهاء الفترة الأصلية البالغة 96 ساعة. في كلتا الحالتين، وبمجرد وصول أمتعة المسافر إلى المطار المسُجل في مطالبة الأمتعة المفقودة التي تقدمت بها شركة الخطوط الجوية، ستُعتبر الأمتعة مُستردة، وفقًا لشروط وأحكام شركة بلو ريبون باجز، وسيُغلق ملف المسافر. لن تُقبل أي طلبات يتم تلقيها بعد فترة الـ12ساعة، كما أن المسافر سيكون غير مستحق للحصول على خدمات استرداد الأمتعة أو مبلغ الترضية وذلك بصرف النظر عن المستندات المقدمة &lt;li/&gt;
+                   &lt;li&gt;السرقة والمحتويات المفقودة أو الأمتعة التالفة غير المدرجة في هذه الخدمة. تطبيق التأمين على الأمتعة المفقودة من قبل شركة الخطوط الجوية فقط &lt;/li&gt;</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>معلومات هامة عن بلاغات الأمتعة المفقودة</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>البحث عن بلاغ الأمتعة التي تعرضت للإهمال</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) يخصص مستوى الخدمة البرونزية للسفر داخل الهند فقط. لن يتم الوفاء بأي حجوزات على مستوى الخدمة البرونزية بما في ذلك أي رحلات في مسار الرحلات الدولية القادمة إلى الهند أو المغادرة منها أو أي بلد آخر.</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>الرمز الترويجي</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>تقديم معلومات عن رحلتك</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>إنشاء خدمة (خدمات) للشراء...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>يتم الآن معالجة {0} الخدمة المنتهية.</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>يتم الآن معالجة {0} خدمة الركاب...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>يتم الآن معالجة {0} خدمة الشراء...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>يتم الآن التحقق من {0} خدمة...</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>اسم الوكالة</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>بطاقة العميل</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>يمكنك استخدام الـ PDF كمرجع عندما تتحدث إلى عملائك، لذا لا تُفوت استخدام أي من الميزات الرائعة المتاحة في تطبيق BRB Worldspan.</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>لغة البريد الإلكتروني للعملاء</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>معرف العميل (EPR)</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>معلومات العميل</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>تم حفظ المعلومات الخاصة بالعميل بنجاح!</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>العميل (أنا)</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>وكيل مركز الرعاية الأولية</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>شركة الخطوط الجوية</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>سوف تدفع ثمن هذا الشراء لاحقًا.</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>معلومات الدفع</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>وعند حفظ الإعدادات، سيتم تهيئة علامات التبويب بما في ذلك تبويب الشراء، لذا يجب عليك إعادة تحميل الـ PNR الخاص بعملية الشراء. هل تريد الاستمرار؟</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>CC#</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>فحص PNR...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>المدينة، المقاطعة</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>اضغط هنا إذا &lt;b&gt;كنت&lt;/b&gt; ترغب في استلام رسالة تأكيد إلكترونية تلقائية من شركة بلو ريبون باجز عقب كل عملية شراء.</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>اضغط هنا إذا &lt;b&gt;كنت&lt;/b&gt; ترغب أن يتسلم المسافرون رسالة تأكيد إلكترونية تلقائية من شركة بلو ريبون باجز بعد كل عملية شراء.</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>بطاقة العميل</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>يمكنك إرسال هذه الوثيقة بصيغة PDF إلى عملائك للإعلان عن الخدمة التي لا تذكر العمولات.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>التأكيد #</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>التاريخ/الوقت</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>البريد الإلكتروني:</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>لا يمكن إضافة ملاحظة إلى Sabre PNR باستخدام واجهة برمجة التطبيقات.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>لا يمكن إضافة ملاحظة إلى Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>لا يمكن إغلاق PRN ولا يمكن إضافة ملاحظة إلىSabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>خطأ في الاتصال بـ Sabre. رمز خاطىء {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>خطأ في الاتصال بـ Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>لا يمكن تحميل ملف تعريف العميل.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>خطأ. يفتح PNR الذي لديك على تطبيق بلو ريبون باجز ({0})، وليس هو النشط على مساحة العمل Sabre ({1}).</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>خطأ في الخادم أثناء معالجة طلبك.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>لا يمكن توزيع معلومات PNR الخاصة بـ XML من أجل إزالة المعلومات الحساسة، لذا تم تجاهلها.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>لا يمكن استرجاع معلومات PNR. يرجى التأكد من أن هناك PNR نشط مفتوح في Sabre.</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>انتهاء MM</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>انتهاء YY</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>الاسم الأول</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>معلومات حول رحلة الطيران</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>رقم الرحلة</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>الحصول على معلومات عن PNR</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>لغة الواجهة</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>طلب Sabre غير صالح.</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>الرحلة الأخيرة</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>الاسم الأخير</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>لم يتم تسجيل دخولك إلى Sabre بعد. يرجى تسجيل الدخول وإعادة المحاولة.</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>الحصول على معلومات عن PNR من Sabre. يرجى الانتظار...</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>اختياري</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>الرحلة القادمة</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>لغة البريد الإلكتروني للركاب</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>معلومات الراكب</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>الراكب (الركاب)</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>مركز الرعاية الأولية</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>تأمين لكل حقيبة</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>لكل راكب</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>المعلومات الشخصية</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>يرجى مراسلتنا في جميع الأوقات على البريد الإلكتروني agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>تم تحميل PNR المرفق به معلومات وهمية بنجاح! يرجى إكمال النموذج أدناه.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>تم تحميل معلومات PNR  بنجاح! يرجى إكمال النموذج أدناه.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>عدم تطابق معلومات PNR. يرجى إعادة تحميل الحجز.</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>لم يتم تحميل معلومات PNR بنجاح. يرجى إعادة المحاولة.</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>رقم PNR</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>الرمز الترويجي</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>الشراء</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>أمر الشراء. يرجى الانتظار...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>إذا كان لديك أي أسئلة أو تعليقات إضافية، يرجى التواصل معنا عبر البريد الإلكتروني agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>نقوم الآن بتسجيلك يرجى الانتظار...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>تم التسجيل بنجاح!</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>تمت معالجة التسجيل بنجاح، يمكنك بدء البيع الآن! من فضلك استغرق لحظة للتحقق من البريد الإلكتروني الخاص بك لإتمام عملية التسجيل. شكراً لك!</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>نقوم الآن بحفظ معلومات العميل. يرجى الانتظار...</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>نقوم الآن بحفظ الإعدادات الخاصة بك. يرجى الانتظار...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>تحديد مستوى التغطية</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>إرسال رسالة التأكيد إلى:</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>تم شراء [{0}] اتفاقية الخدمة بنجاح.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>تم حفظ الإعدادات بنجاح!</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>إذا أردت إدراج تطبيق بلو ريبون باجز كجزءٍ من عرض التذاكر، يمكنك أن تطلب منا خيارات الدفع، وذلك لتجنب رؤية العملاء لرسوم منفصلة على بطاقتهم الائتمانية الخاصة بالتطبيق.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>إجمالي التكلفة = دولار أمريكي</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>معلومات وكيل السفر</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>خطأ غير متوقع.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>خطأ غير متوقع. لم يتم تحميل معلومات PNR بنجاح.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>استثناء غير معالج أثناء الحصول على معلومات عن تطبيق PNR.</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>معلومات المستخدم</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>يمكنك تحديث المعلومات الشخصية الخاصة بتسجيل بلو ريبون باجز من الاستمارة التالية.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>عامل التحقق ...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;مرحبًا بعودتك {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;أهلًا بك في التسجيل الأول!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>تسجيل وكيل السفر</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>(المحاسبة) رقم بطاقة تعريف العامل/العضو</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>معلومات وكالة السفر</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>رقم الوكالة</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>نوع الوكالة</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>أوافق على أن المعلومات التي قدمتها إلى بلو ريبون باجز، شركة ذات مسؤولية محدودة، هي المعلومات الصحيحة المعتمد عليها عند تعقب جميع عمليات الشراء نيابةً عن موكلي.</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>وحدة العمل</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>اكتب هنا نتيجة العملية الحسابية التي تراها في الصورة أعلاه</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>تم تعيين وكيل السفر بنجاح. ستتلقى رسالة بريد إلكتروني مرفق بها رابط التفعيل.</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>عرض بطاقة تعريف الوكالة</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>هاتف</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>ما قبل العنوان</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>ما بعد العنوان</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>تسجيل وكيل السفر</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>اسم وكالة السفر</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>تسجيل دخول المستخدم</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>المعلومات الخاصة بك</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* إدخال مطلوب</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) خانات مطلوبة</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>رقم التوجيه</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>دفع ضمانات التعويض لكل حقيبة:</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>العميل</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>اسم العميل</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>إدخال عنوان البريد الإلكتروني</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>غير ذلك</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>قائمة الركاب</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>تفاصيل الخدمة</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>تم الشراء عن طريق:</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>إعادة إرسال البريد الإلكتروني للعميل</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>إعادة إرسال البريد الإلكتروني</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>إعادة إرسال البريد الإلكتروني للركاب</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>إرسال البريد الإلكتروني</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>تكلفة الخدمة:</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>التكلفة الإجمالية:</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>مجموع الوفورات:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>رمز الأمان</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>تحديد عدد الركاب</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>ميزات الخدمات</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>تحميل بطاقة العميل</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>البحث عن اتفاقية الخدمات</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>شركة الخطوط الجوية</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>رقم تأكيد الخطوط الجوية</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>رقم خدمة بلو ريبون باجز</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>الفحص</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>تكلفة الخدمة:</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>التأمين على كل حقيبة</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>يوميًا</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>مدى التاريخ</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>الصادر بواسطة الراكب</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>الصادر بواسطة الخدمة</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>الاسم الأول</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>يمكن شراء التأمين للعديد من الرحلات فورًا لنفس الراكب عن طريق إدخال اسمه عدة مرات باستخدام PNR مختلف أو أرقام تأكيد الخطوط الجوية.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>الاسم الأخير</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>مستوى الخدمات:</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>الحد الأقصى لتعويض الخسائر:</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>عدد الركاب:</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>الخط الجوي القادم</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>عدد الركاب:</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>معلومات الركاب</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>يومياً</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>سنوياً</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>رقم PNR</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>الرمز الترويجي</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>اتفاقية خدمة الشراء</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>منتظمة</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>لن يتلقى الراكب رسالة التأكيد إذا لم يتم إدخال بريد إلكتروني.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>مستوى الخدمة:</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>الخدمة (الخدمات) المستوردة من الملف:</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>ملخص</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>رفع ملف إكسيل مرفق به بيانات عن إنشاء الخدمات. انقر على</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>هذا</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>الرابط لتنزيل قالب.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>في حالة عدم وجود رقم PNR في ملف الحجز، يرجى إدخال رقم تأكيد الخطوط الجوية.</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>رفع ملف الشراء</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>رفع ملف الشراء الخاص بالعديد من العملاء</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>سنويًا</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>تحديد إعدادات تأكيد البريد الإلكتروني</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>ستتابع بلو ريبون باجز عملية إعادة الأمتعة المتأخرة والتعجيل بها خلال 96 ساعة من وقت وصول الرحلة.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>ستتلقى تحديثات تلقائية عبر البريد الإلكتروني في كل مرة يحدث فيها أي تغيير في حالة حقيبتك التي تعرضت للإهمال.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>تشمل اتفاقية الخدمة جميع الحقائب التي تم تفتيشها في المطار بما في ذلك إجراءات البوابة الأخيرة.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>وتشمل خدمة بلو ريبون باجز جميع الرحلات، على جميع الخطوط الجوية، في كل مكان حول العالم.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>وتكون كل عملية شراء لكل شخص، ولكل رقم تأكيد للخطوط الجوية، بصرف النظر عن عدد الاتصالات.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>يمكنك شراء حقوق الخدمة حتى آخر لحظة قبل إقلاع الطائرة.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>ويجب شراء الخدمة قبل إقلاع جميع الطائرات في المسار الداخلي أو الخارجي. لا يمكن شراء الخدمة في "منتصف الاتصال".</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>يجب رفع شكوى إلى شركة الخطوط الجوية خاصتك قبل إخطارنا  بحقيبتك التي تعرضت للإهمال.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>يتعين عليك إبلاغنا عن الحقائب التي تعرضت للإهمال في غضون 24 ساعة من وصول رحلتك.</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>ولا يتطلب إحضار دليلٍ على محتويات الأمتعة للحصول على ضمانات التعويض.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>يتم صدور أمر بالدفع إذا لم يتم العثور على حقيبتك في غضون 96 ساعة (4 أيام) من وصول الرحلة.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>ويُكفل تسديد المدفوعات حتى في حالة إعادة حقائبك بعد فترة الخدمة التي تصل إلى 96 ساعة.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>وتعمل بلو ريبون باجز على بيع الخدمة بالإضافة إلى أي تأمين لديك وليس كبديلٍ عنه.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>الحارس سبب الأزمة</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>سنرسل إليك تحديثات عبر البريد الإلكتروني كلما حدث تغير في حالة أمتعتك المفقودة</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>لا يوجد إيصالات</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>لا يتطلب كتابة إيصالات بمحتويات الأمتعة المفقودة من أجل الحصول على المدفوعات</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>عملية شراء واحدة</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>تغطي عملية شراء واحدة جميع الأمتعة التي جرى تفتيشها في المطار</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>الضمانات</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>تدفع بلو ريبون باجز 1,000 دولار كضمانات، لكل حقيبة لم يتم العثور عليها بعد 4 أيام من فقدانها</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>النطاق العالمي</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>وتغطي بلو ريبون باجز جميع الرحلات، على جميع الخطوط الجوية، في جميع أنحاء العالم</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>اللحظة الأخيرة</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>تُقدم خدمة شراء الأمتعة حتى آخر لحظة قبل إقلاع الطائرة</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>اتصل بنا:</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-MBR #{0}:  يوجد تحديث لحالة أمتعتك المفقودة.  التحديث هو: {1}.
+يرجى عدم الرد على هذه الرسالة النصية، لأنه لن يتم استلامه من قبل بلو ريبون باجز، ويتضمن ذلك أي تقارير للمعلومات المطلوبة في هذا التحديث.  يجب إرسال جميع الأسئلة المتعلقة بالإبلاغ عن الأمتعة التي تعرضت للإهمال أو تقارير المعلومات المطلوبة عبر البريد الإلكتروني MBR@BLUERIBBONBAGS.COM.  ولن تفيدك أرقام الهاتف بأي معلومات فيما يتعلق بأمتعتك المفقودة. ويتم إجراء جميع المراسلات عبر البريد الإلكتروني mbr@blueribbonbags.com</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>فيما يتعلق بـ 96 ساعة الأولى، ستعمل بلو ريبون باجز مباشرةً مع شركة الخطوط الجوية لتتبع حقائبك التي تعرضت للإهمال، والتعجيل بإعادتها. وبدلًا من تضييع وقت رحلتك في الاتصال بشركة الخطوط الجوية، سترسل لك بلو ريبون باجز تحديثات تلقائية كلما حدث تغير في حالة حقيبتك.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>ويتم إجراء عملية شراء واحدة (5 دولارات أمريكية) لكل شخص، ولكل رقم تأكيد من الخطوط الجوية، بما في ذلك تذاكر السفر ذهابًا وإيابًا، بصرف النظر عن عدد الاتصالات. ويتم تسديد المدفوعات (1000 دولار أمريكي) لكل حقيبة</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>ولا يتطلب إحضار دليلٍ على محتويات الأمتعة للحصول على المدفوعات.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>ويتم إصدار أمر بالدفع إذا لم تتسلم حقيبتك في غضون 96 ساعة من وصول الرحلة. ويُكفل تسديد المدفوعات، حتى إذا أُعيدت الحقيبة إليك في أي وقت بعد انتهاء مدة 96 ساعة.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>تبيع بلو ريبون باجز الخدمة، في حالة وجود اتفاقية الخدمة بالإضافة إلى أي تأمين قد يكون لديك. عقب الحصول على قيمة إيصال بلو ريبون باجز، فإنه لا يزال بإمكانك قبول تعويضات التأمين.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>يجب رفع شكوى إلى شركة الخطوط الجوية خاصتك قبل إبلاغ بلو ريبون باجز بحقيبتك التي تعرضت للإهمال. يجب إبلاغ بلو ريبون باجز بالحقائب التي لم يتم تسليمها في غضون 24 ساعة من إرسال شكوى إلى شركة الخطوط الجوية عن الأمتعة التي تعرضت للإهمال.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>يمكن إرسال البلاغات عن الحقائب التي تعرضت للإهمال عن طريق زيارة الموقع الإلكتروني &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt;، أو من خلال الاتصال بـ &lt;span dir="ltr"&gt;(888)-BAGGAGE&lt;/span&gt; 24/7</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>تشتمل اتفاقية الخدمة على (5 دولارات أمريكية) بما في جميع الحقائب التي تم تفتيشها في المطار بما في ذلك إجراءات البوابة الأخيرة. تتوفر خيارات التغطية المرتفعة بأسعار 7.50 دولار أمريكي و10.00 دولارأمريكي، وتلقي مبلغ 1500 دولارأمريكي و2000 دولار.أمريكي.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>وتغطي خدمة بلو ريبون باجزجميع الرحلات حول العالم</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>يمكنك شراء خدمة بلو ريبون باجز حتى آخر لحظة قبل إقلاع&amp;#39;S الطائرة.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>يجب عليك شراء خدمة بلو ريبون باجز قبل إقلاع جميع الطائرات في رحلتك الداخلية أو الخارجية.  لا يجوز لك شراء الخدمة أثناء الرحلة (أي أثناء إجراء الاتصالات).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>قيمة خدمة بلو ريبون باجز غير قابلة للاسترداد أو التحويل. لن يتم رد أي مبالغ نقدية أو ائتمانية. في حال إلغاء رحلتك وحجز رحلة جديدة بدلًا منها، يتعين عليك إما إبلاغنا بهذا التغيير قبل مغادرة رحلتك الجديدة &amp;#39 أو الدفع مقابل الحصول على خدمة جديدة للرحلة الجديدة.  يجب إخطار بلو ريبون باجز بجميع التغييرات عن طريق إرسال بريد إلكتروني عبر &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ووضع رقم اتفاقية الخدمة في خانة الموضوع.  يجب عليك تضمين اسم الخطوط الجوية ورقم التأكيد الخاص بها بالإضافة إلى رقم رحلتك الأصلية ورقم الرحلة الجديدة التي تم تغيير رحلتك الأصلية لها في رسالة البريد الإلكتروني.  في حالة تغيير الخطوط الجوية أيضًا، يتعين عليك إخطارنا بالخطوط الجوية لرحلتك الجديدة.</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>تخضع جميع عمليات الشراء لشروط وأحكام اتفاقية خدمات بلو ريبون باجز. يمكنك التعرف عليها من &lt;a href=".{0}" target="_blank"&gt;هنا&lt;/a&gt;.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>خصائص بلو ريبون باجز</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>الحقيبة التي تعرضت للإهمال هي حقيبة خضعت للفحص والتي يشير نظام تعقب الخطوط الجوية بأنها وُجهت عن طريق الخطأ إلى وجهة مختلفة عن الوجهة النهائية لرحلتك، أو هي التي لم يتم تحميلها على طائرة الرحلة التي استقلها الراكب، كما هو وارد في تقارير الخطوط الجوية.</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>ويتم إجراء عملية الشراء لكل شخص ولكل رقم تأكيد الخطوط الجوية. في حال حجز تذكرة السفر ذهابًا وإيابًا، بغض النظر عن عدد مرات التوقف أثناء الرحلة، بموجب رقم واحد لتأكيد الخطوط الجوية، فإنه يتم تغطيتها بعملية شراء واحدة. وفي حالة حجز رحلتك الداخلية والخارجية بأرقام مختلفة لتأكيد الخطوط الجوية، فإنه يجب شراء اتفاقيات خدمات منفصلة لكل رحلة.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>لا! وتغطي بلو ريبون باجز جميع الرحلات حول العالم. ولا توجد قيود فيما يتعلق بموقع الإقلاع أو الهبوط.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>ما هي الحقيبة التي تعرضت للإهمال؟</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>هل تغطي هذه الخدمة تذاكر السفر ذهابًا وإيابًا؟</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>هل يجب أن تقلع طائرة رحلتي أو تهبط في الولايات المتحدة لشراء هذه الخدمة؟</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>هذه أسئلة يتم طرحها في الغالب</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>لكل حقيبة</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>أدخل بيانات الراكب</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>قم باستعراض الاتفاقية</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>انقر هنا لاستعراض اتفاقية خدمات بلو ريبون باجز &amp;nbsp;</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>حدد مستوى الخدمات</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>بادر</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>بـ 5.00 دولارات أمريكية فقط لكل شخص، ستحدد بلو ريبون باجز موقع جميع حقائبك التي تعرضت للإهمال وتعيدها إليك. إذا لم تسلم شركة الخطوط الجوية الحقائب لك في غضون 96 ساعة من فقدانها، فإن بلو ريبون باجز تدفع 1,000 دولار عن كل حقيبة لم يتم تسليمها أو تقديمها إليك؛ &lt;u&gt;ولست مطالباً بإحضار إثباتات دفع أو إيصالات لمحتويات الأمتعة من أجل الحصول على المدفوعات&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>شراء خدمة الأمتعة</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>الراكب</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>تقديم معلومات عن رحلتك</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>النطاق الزمني</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>التكلفة الإجمالية:</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>التكلفة الإجمالية (لكل راكب):</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>إنهاء عملية التسجيل</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>يجب أن تحتوي كلمة المرور على عدد أحرف يتراوح بين 8 و16 مع وجود حرف أبجدي واحد وقيمة عددية واحدة وحرف مميز مع وجود حرف أبجدي كبير على الأقل.</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>إعادة كلمة المرور</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>تسجيل المستخدم</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>يرجى كتابة كلمة المرور الخاصة بك</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>يرجى إدخال العنوان.</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>يجب أن يحتوي العنوان على حرفين على الأقل.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>تسجيل دخول العميل الذي تم تقديمه غير متوفر.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>لا يمكن ترك خانة [رقم العميل] فارغة.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>لا يمكن ترك خانة [نوع العميل] فارغة.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>يرجى مراجعة الشروط والأحكام والموافقة عليها لإتمام عملية التسجيل.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>لا يمكن ترك خانة [وحدة العمل] فارغة.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>يرجى إدخال اسم المدينة.</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>يجب أن يحتوي اسم المدينة على حرفين على الأقل.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>لا يمكن ترك خانة [البريد الإلكتروني] فارغة.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>يجب كتابة صيغة عنوان بريد إلكتروني صالحة في خانة [البريد الإلكتروني].</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>يجب أن تحتوي خانة [الفاكس] على تنسيق صالح.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>لا يمكن ترك خانة [الاسم الأول] فارغة.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>يجب أن تحتوي خانة [الاسم الأول] على حرفين على الأقل.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>يتوافق تسجيل دخول العميل مع أي مستخدم غير نشط في نظام بلو ريبون باجز.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>لا يمكن ترك خانة [الاسم الأخير] فارغة.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>يجب أن تحتوي خانة [الاسم الأخير] على حرفين على الأقل.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>يجب أن تحتوي خانة [تسجيل دخول المستخدم] على عدد أحرف يتراوح بين 6 و40 ويمكن أن تحتوي فقط على هذه الأحرف المميزة: _ . - @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>لا يمكن أن تنتهي خانة [تسجيل الدخول] بهذا الرمز '@'.</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>يجب أن تحتوي خانة [الموبايل] على تنسيق صالح.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>يجب أن تحتوي خانة [الهاتف] على تنسيق صالح.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>الرمز الترويجي الذي تم تقديمه غير متوفر.</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>لا يتطابق تسجيل دخول العميل الذي تم تقديمه مع تسجيل دخول العميل الخاص بالرمز الترويجي الذي تم توفيره.</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>الرمز الترويجي الذي تم تقديمه غير متوفر.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>يرجى اختيار الدولة.</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>يرجى اختيار المقاطعة</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>يرجى إدخال اسم المقاطعة.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>لا يمكن ترك خانة [كود وكالة السفر] فارغة.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>لا يمكن ترك خانة [اسم وكالة السفر] فارغة.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>لا يتطابق تسجيل دخول العميل مع تسجيل دخول وكيل السفر.</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>لا يمكن ترك خانة [تسجيل دخول المستخدم] فارغة.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>اسم تسجيل دخول المستخدم غير متاح. يُرجى تحديد اسم تسجيل دخول آخر.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>يرجى إدخال الرمز البريدي.</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>تنسيق الرمز البريدي المستخدم غير صالح.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>البريد الإلكتروني للعميل</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>مستوى الخدمات:</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>التأمين على كل حقيبة</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>معلومات الركاب</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>يُرجى تقديم معلومات بطاقة ائتمان العميل أدناه لإتمام عملية دفع اتفاقية الخدمة.</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>نقل البرقية</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>اسم الوكالة</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>بطاقة العميل</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>يمكنك استخدام الـ PDF كمرجع عندما تتحدث إلى عملائك، لذا لا تُفوت استخدام أي من الميزات الرائعة المتاحة في تطبيقBRB Worldspan.</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>معرف العميل</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>معلومات عن العميل</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>تم حفظ المعلومات الخاصة بالعميل بنجاح!</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>العميل (أنا)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>وكيل مركز الرعاية الأولية</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>يُرجى التأكد من إكمال هذا النموذج بالكامل عند استخدام تطبيق بلو ريبون باجز لأول مرة كي تحصل على بطاقة اتفاقية الخدمة التي قمت ببيعها.&lt;br&gt;&lt;br&gt; عندما تنتهي من هذا الأمر، يُرجى الضغط على كلمة (حفظ) الموجودة بالأسفل للانتقال إلى شراء التأمين نيابة عن عملائك.&lt;br&gt;&lt;br&gt; لا تحتاج إلى إنشاء كلمة مرور أو استخدام اسم تسجيل الدخول للوصول إلى تطبيق BRB Worldspan. تحتاج إلى تسجيل الدخول وإنشاء كلمة مرور فقط للوصول إلى نظام BRB عبر الانترنت.&lt;br&gt;&lt;br&gt;إذا أردت تغيير أي معلومات خاصة بالتسجيل أو إذا كان لديك أي أسئلة أو مشكلات، يرجى مراسلتنا عبر البريد الإلكتروني agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>شركة الخطوط الجوية</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>سوف تدفع ثمن هذا الشراء لاحقًا.</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>معلومات الدفع</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>عند حفظ الإعدادات، سيتم تهيئة علامات التبويب بما في ذلك تبويب الشراء، لذا يجب عليك إعادة تحميل الـ PNR الخاص بعملية الشراء. هل ترغب في الاستمرار؟</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>CC#</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>فحص PNR...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>المدينة، المقاطعة</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>اضغط هنا إذا &lt;b&gt;كنت&lt;/b&gt; ترغب في استلام رسالة تأكيد إلكترونية تلقائية من شركة بلو ريبون باجز عقب كل عملية شراء.</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>اضغط هنا إذا &lt;b&gt;كنت&lt;/b&gt; ترغب أن يتسلم المسافرون رسالة تأكيد إلكترونية تلقائية من شركة بلو ريبون باجز بعد كل عملية شراء.</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>بطاقة العميل</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>يمكنك إرسال هذه الوثيقة بصيغة PDF إلى عملائك للإعلان عن الخدمة التي لا تذكر العمولات.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>التأكيد #</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>تنسيق التاريخ</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>التاريخ/الوقت</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>لا يمكن إضافة ملاحظة إلى Sabre PNR باستخدام واجهة برمجة التطبيقات.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>لا يمكن إضافة ملاحظة إلى Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>لا يمكن إغلاق PRN ولا يمكن إضافة ملاحظة إلىSabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>خطأ في الاتصال بـ Sabre. رمز خاطىء {0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>خطأ في الاتصال بـ Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>لا يمكن تحميل ملف تعريف العميل.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>خطأ. يفتح PNR الذي لديك على تطبيق بلو ريبون باجز ({0})، وليس هو النشط على مساحة العمل Sabre ({1}).</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>خطأ في الخادم أثناء معالجة طلبك.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>لا يمكن توزيع معلومات PNR الخاصة بـ XML من أجل إزالة المعلومات الحساسة، لذا تم تجاهلها.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>لا يمكن استرجاع معلومات PNR. يرجى التأكد من أن هناك PNR نشط مفتوح في Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>انتهاء MM</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>انتهاء YY</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>الاسم الأول</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>معلومات حول رحلات الطيران</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>رقم الرحلة</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>الحصول على معلومات عن PNR</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>طلب Sabre غير صالح.</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>الرحلة الأخيرة</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>الاسم الأخير</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>لم يتم تسجيل دخولك إلى Sabre بعد. يرجى تسجيل الدخول وإعادة المحاولة.</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>الحصول على معلومات عن PNR من Sabre. يرجى الانتظار...</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>اختياري</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>الرحلة القادمة</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>معلومات عن الركاب</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>الراكب (الركاب)</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>مركز الرعاية الأولية</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>تأمين لكل حقيبة</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>لكل راكب</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>المعلومات الشخصية</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>يرجى مراسلتنا في جميع الأوقات على البريد الإلكتروني agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>تم تحميل PNR المرفق به معلومات وهمية بنجاح! يرجى إكمال النموذج أدناه.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>تم تحميل معلومات PNR  بنجاح! يرجى إكمال النموذج أدناه.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>عدم تطابق معلومات PNR. يرجى إعادة تحميل الحجز.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>لم يتم تحميل معلومات PNR بنجاح. يرجى إعادة المحاولة.</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>رقم PNR</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>الرمز الترويجي</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>الشراء</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>أمر الشراء. يرجى الانتظار...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>إذا كان لديك أي أسئلة أو تعليقات إضافية، يرجى التواصل معنا عبر البريد الإلكتروني agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>نقوم الآن بتسجيلك يرجى الانتظار...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>تم التسجيل بنجاح!</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>تمت معالجة التسجيل بنجاح، يمكنك بدء البيع الآن! من فضلك استغرق لحظة للتحقق من البريد الإلكتروني الخاص بك لإتمام عملية التسجيل. شكراً لك!</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>نقوم الآن بحفظ معلومات العميل. يرجى الانتظار...</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>نقوم الآن بحفظ الإعدادات الخاصة بك. يرجى الانتظار...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>تحديد مستوى التغطية</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>إرسال رسالة التأكيد إلى:</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>تم شراء [{0}] اتفاقية الخدمة بنجاح.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>تم حفظ الإعدادات بنجاح!</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>إذا أردت إدراج تطبيق بلو ريبون باجز كجزءٍ من عرض التذاكر، يمكنك أن تطلب منا خيارات الدفع، وذلك لتجنب رؤية العملاء لرسوم منفصلة على بطاقتهم الائتمانية الخاصة بالتطبيق.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>إجمالي التكلفة = دولار أمريكي</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>معلومات وكيل السفر</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>خطأ غير متوقع.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>خطأ غير متوقع. لم يتم تحميل معلومات PNR بنجاح.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>استثناء غير معالج أثناء الحصول على معلومات عن تطبيق PNR.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>معلومات المستخدم</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>يمكنك تحديث المعلومات الشخصية الخاصة بتسجيل بلو ريبون باجز من الاستمارة التالية.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>عامل التحقق ...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;مرحبًا بعودتك {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;أهلًا بك في التسجيل الأول!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Booking Reference Code</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Satisfaction Guaranteed Payment per bag:</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>This service is valid for all flights you have booked with the online ticketing site you made your purchase from for the PNR referenced above.</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>مصدر</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>زمن</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>إرسال إشعارات الرسائل القصيرة</value>
+  </data>
+  <data name="MyAccount_SendConsolidatedPurchaseSummary" xml:space="preserve">
+    <value>أرسل ملخص الشراء المدمج</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>تم العثور على سجلات مكررة</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>يرجى تصفح واختيار الملف الخاص بك ، ثم انقر فوق "تحميل ملف":</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>رفع ملف</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>تم العثور على مشتريات سابقة</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>السجلات التالية لها عمليات شراء سابقة ، هل ترغب في متابعة ومعالجة بقية السجلات؟</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>نعم فعلا</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>السجلات التالية مكررة ، هل ترغب في متابعة ومعالجة بقية السجلات؟</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>حلقة الوصل</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>انقر هنا لتنزيل قالب:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>تحميل. أرجو الإنتظار...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>السماح لمواقع الويب باستخدام نفس لغة "اللغة الافتراضية الافتراضية" المذكورة أعلاه.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>يشمل هذا الرحلة (الرحلات) الخاصة بك تحت رقم التأكيد &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>اختيار عدد من الأشخاص الاتصال</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>تقديم معلومات الاتصال الخاصة بك</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>الرجاء إضافة جهات الاتصال إلى تقريرك</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>إذا كنت ترغب في تقديم أي معلومات حول حقيبة أو معلومات التسليم ، يرجى إدخالها هنا:</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>عدد الركاب</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>مستوى الخدمة</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>عناوين البريد الإلكتروني</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>الهواتف</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>لم يتغير شيء مع حالة حقيبتك خلال آخر 0 ساعة. هذا آخر تحديث قدمناه.
+سيتم إبلاغك إذا كان أي شيء جديد يحدث بمجرد وجود أي معلومات.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>انقر هنا إذا كنت ترغب في تلقي البريد ل MBR الراكب الخاص بك</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>الرقم المرجعي العملاء</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>لإكمال تقرير الأمتعة التي حدث لها سوء مناولة، يجب عليك القيام بما يلي:</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>التأمين على كل حقيبة:</value>
+  </data>
+  <data name="CheckStatus" xml:space="preserve">
+    <value>تحقق من تفاصيل الحالة</value>
+  </data>
+  <data name="FileNewReport" xml:space="preserve">
+    <value>تقديم تقرير جديد</value>
+  </data>
+  <data name="MBRFullName" xml:space="preserve">
+    <value>BRB تقرير الأمتعة الخاطئة #</value>
+  </data>
+  <data name="MBR_AlipayAccount" xml:space="preserve">
+    <value>البريد الالكتروني / موبايل</value>
+  </data>
+  <data name="MBR_AlipayFields" xml:space="preserve">
+    <value>يرجى استكمال هذه المعلومات المرتبطة بحساب Alipay الخاص بك:</value>
+  </data>
+</root>

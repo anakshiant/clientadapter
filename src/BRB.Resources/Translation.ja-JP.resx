@@ -1,0 +1,2772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>口座番号</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>代理店を具現化します：</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>1日24時間、年中無休。</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>数分以内にブルーリボンバッグからご確認の電子メールをお受け取りいただきます。お受け取りいただけない場合は、PayPal取引確認書をお手元にご用意いただき弊社までご連絡ください。
+</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>おめでとうございます！</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>&amp;#39;便の最終目的地までお客様の手荷物が届いていない場合、ブルーリボンバッグにご報告いただく前に、航空会社にご報告いただく必要があります。未到達の手荷物は、お客様の便が着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。弊社に、誤って処理された手荷物についてお電話でご報告いただくことも可能です。</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>分かりました。今すぐ完了します。</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>サービスレベル：</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>ブルーリボンバッグサービスは、払い戻し不可または譲渡不可です。
+払い戻しまたはクレジットは、発行されません。
+お客様の便がキャンセルされ、代わりに新しい便が予約された場合、新たな&amp;#39便の出発の前に、弊社にも変更をお知らせいただく必要があります。
+すべての変更は、以下のメールアドレスでブルーリボンバッグにご報告いただく必要があります：&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;、また、件名に、お客様のサービス契約番号を入れてください。
+電子メールの本文には、お客様の航空会社と航空会社確認番号、元のフライト番号と変更された新しいフライト番号を一覧表示ていただく必要があります。
+同様に、航空会社も変更されている場合、新しフライトの航空会社も弊社にお知らせいただく必要があります。</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>または、以下からオンラインで</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>あなたのお支払いは正常に処理されました</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>お支払いの確認：</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>お支払い情報</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>航空会社にロストバゲージクレームを提出された際に、航空会社から提供される手荷物追跡情報（ファイル参照番号/ロケーター番号）を必ずお持ちください。ブルーリボンバッグは、お客様の手荷物が誤って処理された場合に対処するためにこの情報が必要になります。未到達の手荷物は、お客様の便が着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>このサービス契約番号も、お客様の手荷物が届かなかった場合、弊社に誤って処理された手荷物をご報告いただくために必要になりますのでお客様の記録として保存してください。</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>お客様の手荷物に、ブルーリボンバッグサービスをお選びいただきありがとうございます。弊社は、これをお客様のために可能な限り簡潔にしますので、ご安心ください。</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>ご協力および安全なご旅行をぜひともよろしくお願いします。</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>料金総額：</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>弊社は、1日24時間年中無休でお客様のお役に立つためにここにおります。安全なご旅行で心配ご無用！</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>お客様の手荷物が到着しない場合行っていただくこと：</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>お客様のブルーリボンバッグサービス契約番号は、</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>お客様のブルーリボンバッグサービス契約番号は、</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>お客様のお支払い情報は、以下に表示されます。ご質問がおありの場合、以下の電子メールアドレスに電子メールを送信していただくことによってお気兼ねなくブルーリボンバッグにお問い合わせください</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>お客様のサービス契約は、以下からオンラインでご覧いただけます</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>Bill Me Later（後で私に請求してください）について弊社にお問い合わせください。それは、お取り引きごとにお支払いいただく必要がなく、毎月末にお客様のご注文の総額を1つの請求書でお受け取りいただける方法です！シンプルに、&lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt;に電子メールをお送りいただき、その件名に「Bill Me Later」と入れてください。</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>手荷物配送情報</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>銀行名</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>この言語は、アップロードされたファイルに言語設定されていないサービスに使用されます</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>すべての{0}サービスのご搭乗のお客様は、同じプロモーションコードを共有していただく必要があります</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>請求先情報</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>すべての欄を消去</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>登録内容を送信</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取り消す</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>入力した確認金額は無効です。確認金額を再入力してください。</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>小切手</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>お支払い</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>支払いへ進む</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>サービスへのお支払い手続きの準備をしています...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>{0} サービスの手続きをしています...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>{0} サービスのお支払い手続きをしています...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>{0} サービスのお支払い手続きが完了しました。</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>{0} サービスのプロモーションコード手続きをしています...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>{0} サービスを検証しています...</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>以下につきましては、貴社の代理店勘定に請求されます</value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>承認しました</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>支払い方法の選択</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>お支払い内容の確認</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>次に進む</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>購入を確認しますか？</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>お取引を続けますか？</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>クレジットカード番号</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>ご入力いただいたカードには以下金額が請求されます。</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>ご利用のカード情報の入力</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>サービスの一部は、正常にお支払い手続きが行われませんでした。ご購入手続きを完了できません。</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>無効です</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>操作は無効です。</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>最大補填額</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>乗客数：</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>今すぐ支払う</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>保留中</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>または、サービス契約のお支払い手続きを完了するために、以下にクレジットカード情報をご記入ください。</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>お客さま情報の確認</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>お客様の節約金額：</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>サービスレベル:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>サービス番号：</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>サービス利用料：</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>サービスの内容</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>サービスのお申込み内容をご確認ください</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>以下の情報を確認し、正しい場合は[支払いの確認]ボタンを押してください。</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>市区町村</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>消去する</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>列｛0｝：{1} 欄 は、空欄にはできません</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>{0} 欄は、 アップロードされたファイルにはありません。更新されたテンプレートをダウンロードしてください。</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>パスワードを確認する</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>電子メールアドレスを確認する</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>ブルーリボンバッグ・カスタマーサービスチーム</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>すべてのお問い合わせに、早急にメールにてご回答いたします。必要な場合、弊社からお客さまにお電話にてご連絡ができるよう、電話番号などお客さまの連絡先情報をすべてご入力ください。</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>メールでのお問い合わせ</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>お問い合わせ内容を送信する</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>すべてのお問い合わせに、早急に電子メールでご回答します。必要な場合、弊社が電話でお客様にご連絡させていただけるように、電話番号などのお客様の連絡先情報をすべて入力していただいていることをご確認ください。</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>個人でご利用のお客さま、一般的な質問に関しては以下メールアドレスからご連絡ください。For customers or general questions please contact us at: </value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>旅行業者さまにつきましては、以下メールアドレスから弊社までご連絡ください。</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>新規に誤って処理された手荷物の報告をご提出いただくには、+1 (888) BAGGAGE  (+1 (888) 224-4244) にお電話いただくか、または、&lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt; https://www.blueribbonbags.com/MbrFilingPassenger &lt;/a&gt; をご覧ください。注記：この番号では、如何なる既存の紛失手荷物報告についての詳細もご提供しておりません。</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>既存の紛失手荷物の詳細につきましては、以下のサイト &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt; https://www.blueribbonbags.com/MishandledBaggageReports &lt;/a&gt; をご覧いただくか、件名にお客さまのMBR番号を記載し、mbr@blueribbonbags.comまでご連絡ください。</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>よろしくお願いします！</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>手荷物サービスは遅延しています</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>デフォルトの電子メールの言語</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>米国ドル</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- なし --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>-- 選択してください --</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>割り当てられていません</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>メールアドレス</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>乗客のための電子メールの言語をご選択ください</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>これは、&lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;に実行されたお客様のすべてのフライトをカバーしています。</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>これは、確認番号&lt;b&gt;{1}&lt;/b&gt;の、&lt;b&gt;{0}&lt;/b&gt;航空会のお客様の便をカバーしています</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>ブルーリボンバッグサービスは、払い戻し不可または譲渡不可です。払い戻しまたはクレジットは、発行されません。お客様の便がキャンセルされ、代わりに新しい便が予約された場合、新たな&amp;#39;S便の出発の前に、弊社にも変更をお知らせいただく必要があります。すべての変更は、以下のメールアドレスでブルーリボンバッグにご報告いただく必要があります：&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;、また、件名に、お客様のサービス契約番号を入れてください。電子メールの本文には、お客様の航空会社と航空会社確認番号、元のフライト番号と変更された新しいフライト番号を一覧表示ていただく必要があります。同様に、航空会社も変更されている場合、新しフライトの航空会社も弊社にお知らせいただく必要があります。&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>ブルーリボンバッグ・サービスは、譲渡不可です。払い戻しまたはクレジットは、発行されません。
+お客様の便がキャンセルされ、代わりに新しい便が予約された場合、新たな 便の出発の前に、弊社にも変更をお知らせいただく必要があります。
+すべての変更は、以下のメールアドレスでブルーリボンバッグにご報告いただく必要があります：&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;、また、件名に、お客様のサービス契約番号を入れてください。
+電子メールの本文には、お客様の航空会社と航空会社確認番号、元のフライト番号と変更された新しいフライト番号を一覧表示ていただく必要があります。
+同様に、航空会社も変更されている場合、新しフライトの航空会社も弊社にお知らせいただく必要があります。&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>電子メールアドレス</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>SendRe（再送信する）</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>有効期限の日付</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名（ファーストネーム）</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>フライト到着情報</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>ブルーリボンバッグサービス契約</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>手荷物サービス機能</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>幣社にご連絡ください</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>著作権2019年ブルーリボンバッグ、 LLC。米国および国際的な特許申請中。</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>それぞれのご購入は、以下の条件の対象となります</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>誤って処理された手荷物の報告を提出する</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>ブルーリボンバッグの債務は、A.M. Best CompanyによってA- (Excellent) に評価された保険会社によって後援されています。</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>手荷物サービスを購入する</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>差出人</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>*「戻る」ボタンをクリックすることで、前回入力された情報を再度編集していただけます。</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>代理店/販売業者</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>航空会社の確認番号</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>航空会社の名前</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>編集する</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>名（ファーストネーム）</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>姓（ラストネーム）</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>Pax 番号</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>製品</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>購入日</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>サービス費用</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>BRBサービス番号</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>わずか5.00ドルで、&lt;br /&gt;ブルーリボンバッグは、お客さまの紛失手荷物を捜してお届けします。</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>Travel Safe and Worry Free</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>96時間が経過してもお客さまの手荷物が見つからなかった場合、手荷物毎に1,000ドルの補填金全額を保証いたします。</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>True Peace of Mind &lt;br /&gt;Is Blue Peace of Mind</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>紛失した手荷物をご報告ください</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>手荷物を紛失した場合、まず航空会社に手荷物が未達なことを報告し、トラッキング情報（ブルーリボンバッグの手荷物追跡サービスに申し込むために必要）を取得してください。紛失した手荷物の情報はお客様が到着された便の到着から24時間以内にブルーバッグリボンへご報告いただく必要があります。</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>紛失手荷物情報の入力</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>お客さまの紛失した手荷物の情報は、お電話でも報告いただくことができます。24時間年中無休で対応しております。（英語のみ）888-BAGGAGE (888-224-4243)</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>Our Partners</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>Our Reach</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>2100万</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>誤配送された年間の手荷物件数</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>すべての航空会社が補償対象</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>全世界の毎日のフライト</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>What Others Are Saying</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>In the News</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>続きを読む</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>ブルーリボンバッグからのカスタマーサービスは、素晴らしく、この手荷物保護サービスは、f...</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>手荷物の紛失について心配なら、現在ではブルーリボンバッグがすでに...そのためのアプリがあります...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>現在、これは、また、紛失された手荷物のために利用できるこの種類の唯一の補償でもあります...</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>自分の手荷物を航空会社で紛失された人なら誰もが、それが何という悪夢かを知っていますが、ブルーリボンバッグは、...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>手荷物追跡サービスに申し込む</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>貴社のお客様のためのブルーリボンバッグの補償をご購入いただくには、&lt;b&gt;ログイン&lt;/b&gt;をクリックしてください。</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>貴社のお客様にブルーリボンバッグを販売できるよに、貴社を代理店として登録するには&lt;b&gt;登録する&lt;/b&gt;をクリックしてください。</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* サービス契約の料金は、お1人当たりの金額です。ご満足保証のお支払いは、お手荷物ごとです。</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* お支払いは、お1人当たり2個の未到着手荷物に限定されます。</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>誤って処理された手荷物の報告を提出する</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>わずか5.00米国ドルで、BRBは、お客様の航空会社による未配送の手荷物を追って、返還を促進します。</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>さらに詳細な情報は？いつでも電子メールによってご連絡いただけます：</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>お支払いをお受け取りいただくために、手荷物の中身の領収書は必要はありません。</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>ブルーリボンバッグは、以下の3つのレベルの手荷物サービスご満足保証をご提案します：</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>BRBは、紛失して4日間が経過した後、配送されなかったそれぞれのお手荷物につき、保証した1000米国ドルをお支払いします。</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>購入する</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>サービス契約料金</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>ご満足保証のお支払い</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>旅行代理店様</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>未配送のお手荷物ですか？&amp;nbsp; 以下にご報告ください：</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>同意する</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>非アクティブ</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>有効なXSLXファイルは、アップロードしなければなりません。</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓（ラストネーム）</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>新しいパスワードが必要です</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>ログイン情報を記憶する</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>ブルーリボンバッグにログインする</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>ユーザーIDおよび/またはパスワードが認証されません。パスワードは、大文字と小文字が区別されます。Caps Lock設定は有効ではないことをご確認ください。貴社のユーザー名とパスワードを再入力していただくか、パスワードをリセットするためにアドミニストレーターにご連絡ください。</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>紛失された手荷物の情報</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>お客さまがお預けになった手荷物が最終目的地に到着していないこと。</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>お客さまの手荷物が到着するはずの空港にて、ご利用の航空会社へ手荷物紛失届を提出し、航空会社からファイル参照番号またはファイルロケーター番号をお受け取り下さい。</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>紛失手荷物に関して、お客さまのご搭乗の到着後24時間以内にご報告ください。</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>航空会社の文書により、お客さまの手荷物がご到着日より4日以内に届いていないことが通知されます。</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>1サービスご購入（5米国ドル）につき、お客さまの便が出発する直前にゲートでお預けになった手荷物を含む、空港でお預けになったすべての手荷物を補償範囲とします。</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>お客さまの手荷物の状態に変更があるたびに、自動でメール通知がお客さまに送信されます。手荷物の状況確認のために航空会社にお問合せいただく必要がなくなります。</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>補償金をお受け取りいただくために手荷物の中身の価格の証明書（領収書）は必要ありません。</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>お支払いは、お1人当たり2個の紛失着手荷物に限定されます。</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>お支払いは、98時間の締切後のいずれかの時点で手荷物が発券された場合でも保証されています。</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>窃盗、中身の紛失、または手荷物の破損は、このサービスには含まれません。補償範囲は、航空会社によって誤って処理された手荷物のみに適用されます。紛失手荷物は、フライト到着から24時間以内にご報告いただく必要があります。</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>ブルーリボンバッグは、お客さまがご契約されている保険に、別途追加していたけるサービスを販売しております。（保険の代わりになるサービスではありません）</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value> ブルーリボンバッグサービスは、払い戻し不可または譲渡可能です。払い戻しまたはクレジットは発行されません。
+お客さまの便がキャンセルされ代わりに新しい便が予約された場合、新たに予約された便の出発の前に弊社に変更をお知らせいただくか、
+新しいサービスを購入していただく必要があります。旅程の変更については、件名にお客さまのサービス契約番号を入れ
+以下のメールアドレスからブルーリボンバッグにご報告ください。：INFO@BLUERIBBONBAGS.COM、メールの本文には、お客さまの航空会社と航空会社確認番号、元の便番号と
+変更された新しい便番号を記載していただく必要があります。同様に航空会社も変更されている場合は、
+新しい便の航空会社も弊社にお知らせいただく必要があります。</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>お客さまのご搭乗便の出発の直前まで、ブルーリボンバッグのサービスをご購入いただくことができます。</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>それぞれのご購入（5米国ドル）は、お1人様当たりの、航空会社確認番号についてのもので、その航空会社確認番号に関連する途中降機または接続便の数には関係ありません。1つの航空会社確認番号のついた往復航空券は、1つのご購入で対応されます。</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>複数のフライトが別々に予約され、異なる航空会社確認番号の下にある場合、それぞれのフライトごとに別個のサービス契約が必要になります。</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>代理店さまのみ: 1サービスにつき($5)、接続回数または途中降機の数に関係なく、お1人当たり、PNRごとについての補償が適用されます。</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>ご購入については、オンラインチケット販売ウェブサイトを介して行っていただきます：それぞれのご購入は、オンラインウェブサイトを介して、ご購入時点にそのウェブサイトから提供される確認番号の下に一覧表示される予約された旅行日程に従っています。ウェブでのご予約以外に生じた旅行日程への変更は、予約された新しいフライトについて別個のサービスをご購入いただく必要がります。旅行日程の変更が、元の旅行日程が予約されたウェブサイトを介して行われ、元の旅行日程のためのお客様の確認番号が、旅行日程の中のフライトを変更した後にも変わらない場合、お客様は別個のサービスを予約していただく必要はなく、元のサービス契約のままで十分です。</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>BRBは、お客様のフライトがどこから始まるかに関係なく、世界中のどこでも、あらゆる航空会社のあらゆるフライトを対象としています。</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>手荷物紛失届けは、紛失手荷物のご報告をブルーリボンバッグにご連絡いただく前に、航空会社に提出していただく必要があります。</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>紛失手荷物の報告は、ここからオンラインで、または (888) BAGGAGE (+1 888-224-4243) からお電話でも、24時間365日ご提出いただけます。</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>紛失手荷物はご搭乗便の到着から24時間以内にご報告いただく必要があります。24時間の期限後にご報告いただいた手荷物につきましては、補償金お支払いの対象外となります。</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>①ブルーリボンバッグにご報告いただく前に、ご利用の便の航空会社へ手荷物紛失届をご提出ください。</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>②紛失手荷物のご報告はお客さまのご搭乗便が到着後、24時間以内にご提出ください。紛失手荷物のご報告は24時間、365日ご提出いただくことができます。</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>オンラインはこちら</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>お電話をご希望の方はこちら(888) BAGGAGE (+1 888-224-4243)</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>③ブルーリボンバッグはお客様の手荷物を追跡し、返却手続きまでを対応します。お客さまは手荷物の所在に変更がある度に、メールでお知らせいたします。お客さまから手荷物の状態について航空会社に確認していただく必要はありません。</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>④ブルーリボンバッグはお客さまの手荷物をご搭乗になった便の到着から96時間以内に発券するか、または96時間の契約契約が切れた1分後に保証金をお送りいたします。</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>他に把握しておくべきことはありますか？</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>私の手荷物が紛失したら、どうしたらいいですか？</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>保証金が支払われる資格はどうしたらわかりますか？</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>ブルーリボンバッグ（BRB）は、お客様の誤って処理された手荷物が、お客様の下に配送されなかった時点から最初の96時間その手荷物を追跡し、回収を促進する独自のサービスをご提供します。ブルーリボンバッグが、その時点でお客様の手荷物の返還を促すことができなかった場合、BRBは、お客様にご満足保証のお支払いを送金させていただきます。お支払いは、96時間が経過した後のいかなる時点にお客様に手荷物が返還された場合でも、保証されます。</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>手荷物サービス機能</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>お客様の定住地ご住所</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>ABAルーティングナンバー</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>口座番号：</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>サービス契約番号</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>航空会社確認番号</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>フライト到着日</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>到着フライト番号</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>フライト到着時刻</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; 発信人に尋ねる：お客様のフライトは、米国以内に到着しますか、または米国外に到着しますか？&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;代理店様：発信者の答えに基づいて、以下に掲載された2つのパラグラフのうち1つをお読みください：&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>BIR/PIRを添付する</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>手荷物タグ番号</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>ブルーリボンバッグに紛失手荷物のご報告をいただく前に、ご搭乗便の最終地点でお客さまの手荷物がお手元に届いていないことを航空会社にご報告していただく必要があります。 お客さまは紛失手荷物を追跡するためのトラッキング情報を航空会社よりお受け取りいただき、当該トラッキング情報をもって以下のとおり報告を行ってください。</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>お受取人のご住所</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>お受取人の市区町村</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>お受取人の国</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>お受取人の電子メールアドレス</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>お受取人の名（ファーストネーム）</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>お受取人の苗字（ラストネーム）</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>お受取人の電話番号</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>お受取人の州（都道府県）</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>お受取人の郵便番号</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>選択するには列をクリックしてください</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>電子メールアドレスの確認</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>住所が上記と同じ場合、クリックしてコピーする</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>メールでお知らせを受け取る際のご希望の言語を選択してください。</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>電子メールの言語</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>この電子メールが、正確な情報によって必要な変更を行うために送信されたときから、{0} あります。お客様が、{0}時間以内に正しい情報で返信されない場合、お客様の「誤って処理された手荷物」報告は、否定されます。お客様の報告は、再送信された場合でも、受け入れられることはありません。</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>お客様がご提出されたファイル参照番号は、無効です。お客様は、ご利用になった航空会社にご連絡いただき、直ちに有効なファイル参照番号を提出してもらうようにしていただく必要があります。この番号は、お客様のご報告を処理するために、お客様の搭乗された便が着陸してから24時間以内にご提出いただく必要があります。ブルーリボンバッグは、お客様に代わってファイル参照番号を取得することはいたしません。&lt;br/&gt;
+ご搭乗になった便の着陸から24時間以内に、航空会社からこの情報を回収して弊社にご提供いただくのは、お客様の責任です。お客様のご搭乗になった便の着陸から24時間以内に有効なファイル参照番号をお受け取りしない場合、お客様のご報告は拒否され、手荷物回収サービスまたは弊社のご満足保証のお支払いをお受け取りいただく資格がなくなります。弊社は、お客様がご搭乗になった便の着陸から24時間の締切の後のいずれかの時点に、この情報をご提供された場合、状況にかかわらず、お客様のファイルを再び開始することはありません。&lt;br/&gt;
+お客様がすでに、ロストバゲージクレームを提出された時に航空会社から提供される報告書のコピーを弊社に提出された場合、まだこの電子メールをお受け取りいただくということは、航空会社が有効なファイル参照番号をお客様に提供しておらず、お客様は、直ちに航空会社に連絡して有効な番号を回収し、ご搭乗になった便の着陸から24時間以内に弊社に提出していただく必要があるということを意味します。</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>ご利用の航空会社の紛失届書から以下の情報を入力ください。</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>お客さまのブルーリボンバッグサービス契約番号を入力してください：</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>ファイル参照番号、またはファイルロケーター番号</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>お客様がご提供いただいただく必要のあるファイル参照番号は、事故手荷物申告書の、空港および航空会社のコードの後の5桁の数字のコードです。例：MCOAF12345.&lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>ファイル参照番号</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>報告を提出する</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>ホテル名：</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>お客様が、96時間以内にこの移動先を出発される場合、BRBは、お客様の手荷物を適切にお届けすることができるように、それらの状況を把握しておくことを望んでおり、
+以下のアドレスまで電子メールでお知らせいただくようにお願い申し上げます： &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt; 。
+また、お客様が報告を提出された時に提供されたお客様のMBR番号を件名に入れていただき、可能な限りお客様の状況について詳細にご提供ください。</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>MBR番号</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>銀行名：</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>申し訳ございませんが、このご報告は編集することができず、そのため、この情報はもはや回収させていただくことはできません。ブルーリボンバッグをお選びいただきありがとうございます。安全なご旅行で心配ご無用！</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>お客様の検索では、結果が見つかりませんでした。</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>手荷物誤配送報告の手続きを完了するには、航空会社に手荷物紛失請求を行った際に航空会社から受け取った報告書の控えを、着陸後24時間以内にブルーリボンバッグスに提出する必要があります。航空会社から受け取った報告書の控えを着陸後24時間以内に提出しなかった場合、ブルーリボンバッグスが添付されている手荷物誤配送報告は、24時間の期限が過ぎるとただちに受理されなくなり、手荷物回収サービスおよび当社の満足保証支払の対象から外れます。Eメールにこの報告書の控えを添付し、件名にサービス契約番号を記載して、mbr@blueribbonbags.com宛てに送信してください。航空会社の関係書類を別の方法で提出した場合は、こちらに記載されている指示に従い、有効な提出とはみなされず、ブルーリボンバッグスが添付されている手荷物誤配送報告と同等とはみなされません。  付属書類が添付されていない報告書は、着陸後24時間の期限を過ぎると受理されなくなります。</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>お客様は、以下の日時までこの住所におられます：</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>お支払い先住所</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>お支払い方法</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>お支払い先市区町村</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>お支払い先国</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>注意：お支払い情報の詳細は変更が可能です。ただし、変更によりお支払いの手続きにわずかな遅延が生じる場合もあることをご了承ください。</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>お支払い先の電子メールアドレス</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>お支払い先名（ファーストネーム）</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>お支払い先姓（ラストネーム）</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>お支払い先電話番号</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>お支払い先州（都道府県）</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>お支払い先郵便番号</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>PayPal電子メールアドレス</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>お客さまのPayPalアカウントに関連する情報をご記入ください</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>PayPal名（ファーストネーム）</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>PayPal姓（ラストネーム）</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>お客さまがご利用になった航空会社の紛失届書に記載されているとおり、空欄に必要事項をご記入ください。
+</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>お支払い情報をご入力ください。&lt;b&gt;以下の住所は紛失手荷物が96時間を過ぎて見つからなかった場合、ブルーバックリボンよりお客さまへ補填金をお支払いする際の送付先となります。&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>お支払い情報をご入力ください。&lt;b&gt;これは、96時間以上お客様の手荷物が遅延した場合、お支払いをお送りする先としてお客様が希望される住所です。</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>お客様の航空会社へのロストバゲージクレームに表示されているとおりに以下の情報を提供してください。&lt;b&gt;これは、お客様が手荷物の配送先として希望される住所です。&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>検索する</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>サービス契約番号</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>フライト到着情報</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>紛失手荷物情報</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>サービス契約番号：</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>手荷物配送情報</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>お支払い情報</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>SWIFTコード</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>紛失手荷物</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>紛失手荷物と航空会社から受け取った有効なファイル参照番号をお客さまがご搭乗された便の到着から24時間以内にブルーリボンバッグへご報告ください。24時間を過ぎてご報告をいただいた紛失手荷物については、サービスの対象外となりますのでご了承ください。万が一、航空会社が有効なファイル参照番号をお客さまへ提供しなかった場合、お客さま自身で再度航空会社へご連絡いただきファイル参照番号を取得していただく必要があります。ブルーリボンバッグから航空会社へのファイル参照番号の問い合わせは行っておりません。お客さまご自身でご対応いただく必要がありますことをあらかじめご了承ください。</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>紛失手荷物の個数</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>お客さまはご利用の航空会社へ紛失届を提出後、航空会社よりファイル参照番号、荷物番号お受け取りになり、以下の欄にご入力ください。</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>代理店ログイン</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>よくあるご質問</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>紛失の報告をする</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>紛失手荷物</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>ご注意</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>お問い合わせ内容</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>確認電子メールの受け取りを希望される場合、ここをクリックしてください。</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>お客様の確認電子メールの受け取りを希望される場合、ここをクリックしてください。</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>サービス確認電子メールに料金総額を表示しない</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>マイアカウント</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>氏名</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>あなたのバッグや配送情報に関する情報を提供したい場合は、ここに入力してください</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>パスワードの欄は、意図的に空白として表示されています。新しいパスワードを提供したい場合には、新しいパスワードを入力し、新しいパスワードを確認してください。&lt;br /&gt;&lt;br /&gt;
+パスワードは、少なくとも1つのアルファベット、1つの数字の値、および1つの特殊文字、ならびに少なくとも1つの大文字表現されたアルファベットを含んだ、少なくとも8文字を含んでいる必要があります。&lt;br /&gt;&lt;br /&gt;
+許容される特殊文字には以下が含まれます：&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>お支払い：</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>お支払い先住所情報</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>お支払い情報</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>分かりました。今すぐ完了します。</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>おめでとうございます！</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>サービスレベル：</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>乗客の数：</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>お支払いの確認：</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>お支払い情報</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>プロモーションコード：</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>お客様の来たるべきご旅行のために、ブルーリボンバッグをお選びいただきありがとうございます。</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>弊社は、これをお客様のために可能な限り簡潔にしますので、ご安心ください。&lt;br /&gt;&lt;br /&gt;お客様のブルーリボンバッグサービス契約番号は、次の通りです</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>このサービス契約番号も、お客様の手荷物が届かなかった場合、弊社に誤って処理された手荷物をご報告いただくために必要になりますのでお客様の記録として保存してください。</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>数分以内にブルーリボンバッグからご確認の電子メールをお受け取りいただきます。お受け取りいただけない場合は、PayPal取引確認書をお手元にご用意いただき弊社までご連絡ください。&lt;strong&gt;&lt;u&gt;お客様の手荷物が到着しない場合、するべきこと：&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;お客様の手荷物がお客様の&amp;#39;s便とともに最終目的地まで届いていない場合、お客様は、ブルーリボンバッグにご報告いただく前に、航空会社にそれをご報告いただく必要があります。未到達の手荷物は、お客様の便が着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。誤って処理された手荷物を、&lt;strong&gt;{0}&lt;/strong&gt;までお電話で弊社にご報告いただくことも、または&lt;a href="{1}"&gt;{2}&lt;/a&gt;で、オンラインでご報告いただくことも、1日24時間年中無休で、可能です。&lt;br /&gt;&lt;br /&gt;航空会社にロストバゲージクレームを提出された際に、航空会社から提供される手荷物追跡情報（ファイル参照番号/ロケーター番号）を必ずお持ちください。ブルーリボンバッグは、お客様の手荷物が誤って処理された場合に対処するためにこの情報が必要になります。未到着の手荷物は、お客様の便が着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。&lt;br /&gt;&lt;br /&gt;お客様のお支払い情報は、以下に表示されます。ご質問がおありの場合、以下の電子メールアドレスに電子メールを送信していただくことによってお気兼ねなくブルーリボンバッグにお問い合わせください： &lt;a 安全なご旅行で心配ご無用！&lt;br /&gt;&lt;br /&gt;お客様のサービス契約は、以下からオンラインでご覧いただけます： &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;。&lt;br /&gt;&lt;br /&gt;ご協力および安全なご旅行をぜひともよろしくお願いします。&lt;br /&gt;&lt;br /&gt;ブルーリボンバッグのサービスは、払い戻し不可、および譲渡不能です。href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt; 。弊社は、1日24時間年中無休でお客様のお役に立つためにここにおります。払い戻しまたはクレジットは、発行されません。おすべての変更は、以下のメールアドレスでブルーリボンバッグにご報告いただく必要があります：&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;、また、件名に、お客様のサービス契約番号を入れてください。客様の便がキャンセルされ、代わりに新しい便が予約された場合、新たな&amp;#39;S便の出発の前に、弊社にも変更をお知らせいただく必要があります。電子メールの本文には、お客様の航空会社と航空会社確認番号、元のフライト番号と変更された新しいフライト番号を一覧表示していただく必要があります。同様に、航空会社も変更されている場合、新しフライトの航空会社も弊社にお知らせいただく必要があります。&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>お客様のお支払いは正常に処理されました</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>料金総額：</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話番号</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>電話番号</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>すべての手荷物は位置が突き止められており、このケースは終了されています</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>拒否の理由</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>「誤って処理された手荷物」報告は、&lt;a href="{0}" target="_blank"&gt;ここ &lt;/a&gt;をクリックすることによって、1日24時間年中無休でご提出いただけます。また、888-BAGGAGEへお電話をかけていただいてもご報告いただけます。</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>お客様が、クレームを出した航空会社、またはブルーリボンバッグに、いずれかの時点で、お客様の手荷物が、配送されたのではなく、発見されたことを表示された場合、その手荷物の報告状態は終了に設定され、すべての手荷物は、空港に届き次第、「返還された」ものと見なされます。</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>一旦手荷物が、クレームを提出した航空会社に表示された目的地に届くと、「誤って処理された手荷物」報告の状態は、終了に設定されます。</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>* 上記の情報のいずれかが正しくない場合、以下の電子メールアドレスまでお知らせください： &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>報告マネージャーからの記述：</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>お客様の検索では、結果が見つかりませんでした。</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>この「誤って処理された手荷物」報告の状態は次の通りです：&amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>それは、&lt;strong&gt;{0}&lt;/strong&gt; 日間開けられています。</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>「誤って処理された手荷物」報告の補償は、以下に支払われます：&amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>それは、&lt;strong&gt;{0}&lt;/strong&gt;日間まだ開けられている場合、お支払いすることになります。</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>お客様の手荷物の状態に変更があるたびに、自動電子メール通知が、お客様に送信されます。お客様は、手荷物の状態を知るために、航空会社にお問合せいただく必要がなくなります。</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>特長：</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>弊社の電話番号(888-BAGGAGE) は、新しい「誤って処理された手荷物」報告をお受け取りする目的のみのためのものです。
+この電話番号では、既存の「誤って処理された手荷物」報告に関する情報は得られません。
+既存の「誤って処理された手荷物」報告に関するご質問またはご意見、もしくは情報をご提出いただくには、
+それが新しいか、開かれているか、間違った情報か、終了されたものかを問わず、理由の如何に関わらず、以下のアドレスへの電子メールでお送りいただく必要があります：
+&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;まで、およびお客様のサービス契約番号を電子メールの件名にいれてください</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>ブルーリボンバッグに誤って処理された手荷物をご報告いただく前に、
+お客様は、航空会社に、ロストバゲージクレームをご提出いただかなければなりません（その航空会社の規則によって必要とされるように）。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+配送されなかった手荷物については、航空会社からの有効なファイル参照番号を含み、フライトが着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。ブルーリボンバッグサービスは、24時間の締切後にご報告いただいた手荷物につきましては、お支払いの対象として受け入れられません。航空会社が、有効なファイル参照番号をお客様に提供しなかった場合、お客様の報告を弊社にご提出いただく前に、航空会社に連絡していただき、航空会社から有効なファイル参照番号を回収していただく必要があります。ブルーリボンバッグは、航空会社からお客様のファイル参照番号を取得することはありません。弊社に「誤って処理された手荷物」報告をご提出いただく前に、航空会社からこの情報を回収していただくのは、お客様の責任です。&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+配送された手荷物がお客様の適切な手荷物ではなかったことが分かった場合、お客様は、ブルーリボンバッグに提出したファイルが終了され、手荷物が戻ってきていることを通知された後、ブルーリボンバッグにそのエラーを、以下の電子メールアドレスに、「Not my bag」とMBR番号を件名の中に入れて、かつ12時間以内にお知らせいただく必要があります： mbr@blueribbonbags.com ：ブルーリボンバッグは、誤った宛先に送られた手荷物を見つけるために、お客様の本来の便が着陸してから最初の96時間の期限から、さらに72時間（3日間）を当てます。このカテゴリーに当てはまる手荷物は、航空会社のロストバゲージクレームの記録にある空港に到着すると、弊社の契約条件に従って、「返却された」ものと見なされます。間違った手荷物がすでに配送されている場合、お客様は、間違った手荷物を配送した配送会社からの配達受領書、ならびに航空会社からの、お客様に返還された当該の手荷物がお客様のものではなかったことが明確に記載されている文書の証拠を電子メールで提供していただく必要があります。これらの文書は、どちらもブルーリボンバッグご満足保証のお支払いのために回収していただく必要があります。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+
+間違った情報または情報の要請：&lt;/strong&gt; 「誤って処理された手荷物」報告が提出された時に間違った情報が提供された場合、お客様は情報を訂正していただくようにお願いする電子メールをお受け取りいただく場合があります。お客様が、この性質の電子メールをお受け取りになる場合、またはお客様の案件に関する情報についてのその他の要請の電子メールをお受け取りになる場合、お客様は、電子メールが送信されてから12時間以内に返信していただく必要があります。お客様が、その時間内に、訂正されたまたは要請された情報、および裏付けとなる文書を含む返信を行っていただかない場合、お客様の「誤って処理された手荷物」報告は、拒否され、お客様は、もはや、手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格がなくなります。&lt;br /&gt;&lt;br /&gt;
+航空会社にロストバゲージクレームを提出された際に、配送の宛先が提供されなかった場合、BRBは、航空会社の記録にある目的地の空港に手荷物が到着したら、お客様の案件を終了し、ブルーリボンバッグサービス契約に従って、お客様の手荷物は返還されたものと見なされます。&lt;br /&gt;&lt;br
+/&gt;&lt;strong&gt;
+
+注意：お手荷物が航空会社によって誤って処理された場合、（PIR）事故手荷物申告書（これは、お客様のファイル参照番号とともに航空会社が提供し、お客様が受け取られた報告書の表題です）のみが航空会社によって、または空港を介して発行され、もしくは航空会社を介して手荷物不規則性報告（BIR）（BIRは、通常、10桁のファイル番号を提供しません）が提供されますので、お客様は、オンラインフォームを完成後、事故手荷物申告書、または手荷物不規則性報告のコピーを、以下の電子メールアドレスに、サービス契約番号を件名に入れて、お送りください：mbr@blueribbonbags.com 。弊社は、報告書が有効であると見なすために、この報告書のコピーを、お客様の便が着陸した後24時間以内にお受け取りする必要があります。この報告書のコピーがお客様の便の着陸から24時間以内に提供されない場合、BRBは、24時間の期限が切れた時点で、直ちにその報告書を拒否します。このカテゴリーの中の手荷物は、一旦飛行旅程による記録どおりに空港に到着したら、弊社の契約条件に従って「返却された」ものと見なされます。または航空会社にお客様のロストバゲージクレームを提出されたとき、お客様によって航空会社に提供された情報を転送します。
+&lt;br/&gt; &lt;br/&gt;
+注意：お客様の手荷物を誤って処理した航空会社が、空港（紛失および発見）を介して事故手荷物申告書（PIR）だけを発行する場合、
+または航空会社を通じて手荷物不規則性報告（BIR）だけを発効する場合（BIRは、通常、10桁のファイル参照番号を提供しません）、
+ブルーリボンバッグは、96時間以上誤って処理された手荷物のためのご満足保証のお支払いのみを、
+最初に航空会社が、その紛失手荷物についてのお支払い（賠償金）を行った後に、お支払いします。航空会社がお客様に
+紛失手荷物のための賠償金を支払わない場合、ブルーリボンバッグもお支払いいたしません。これらの事例のどちらにも、
+ブルーリボンバッグからのご満足保証のお支払いをお受け取りいただくには、
+賠償金を支払った航空会社からの、当該の紛失手荷物についての通知のほかに、航空会社からのお支払いの証拠を必要とします。
+ブルーリボンバッグは、手荷物が誤って処理された後最初の96時間、通常どおり、お客様の未配送の手荷物を探すお手伝いをします。
+&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; エラー：&lt;/strong&gt;ブルーリボンバッグがお客様の「誤って処理された手荷物」報告を拒否した時、またはお客様の「誤って処理された手荷物」報告を終了した時、お客様によってエラーが発見された場合、お客様は、これらの状況のどちらかをお知らせする電子メールをお受け取りになってから、12時間以内にブルーリボンバッグにエラーをご報告いただく必要があります。エラーは、以下のアドレスへ、お客様のMBR番号を件名に入れた電子メールでお知らせください： &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;お客様は、電子メールの中で、エラーが何だったのかをできるだけ詳しく正確にご説明いただく、また証拠文書もご提供いただく必要があります。ブルーリボンバッグが、エラーが有効であることを発見した場合、ブルーリボンバッグは、お客様のファイルが再開された時から72時間以内に、お客様の手荷物を探します。お客様の本来のフライトが着陸した時から96時間のタイムフレームが、ファイルが再開された時から72時間後に期限切れになる場合、ブルーリボンバッグは、本来の96時間が期限切れになるまで、お客様の手荷物を探します。
+一旦お客様の手荷物が、ロストバゲージクレームを提出した空港で受け取られた場合、ブルーリボンバッグの契約条件に従って手荷物は返還されたのもと見なされ、お客様のファイルは終了されます。&lt;br/&gt; &lt;br/&gt;
+&lt;strong&gt;
+12時間経過した後にお受け取りしたすべての提出は、お受け入れすることはできず、いかなる書類が提出されたかに関係なく、お客様は手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格はなくなります。
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;弊社の電話番号(888-BAGGAGE) は、新しい「誤って処理された手荷物」報告をお受け取りする目的のみのためのものです。
+この電話番号では、既存の「誤って処理された手荷物」報告に関する情報は得られません。
+既存の「誤って処理された手荷物」報告に関する、いかなる質問、コメント、または情報の提出も、それが新しいか、開かれているか、間違った情報か、終了されたものかを問わず、理由の如何に関わらず、以下のアドレスへの電子メールでお送りいただく必要があります：
+&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;まで、およびお客様のサービス契約番号を電子メールの件名にいれてください
+&lt;/li&gt;
+&lt;li&gt;誤って処理された手荷物をブルーリボンバッグにご報告いただく前に、お客様はご利用の航空会社にロストバゲージクレームをご提出いただく必要があります（その航空会社の規則によって必要なように）。&lt;/li&gt;
+"&lt;li&gt;配送されなかった手荷物については、航空会社からの有効なファイル参照番号を含み、フライトが着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。ブルーリボンバッグサービスは、24時間の締切後にご報告いただいた手荷物につきましては、お支払いの対象として受け入れられません。
+航空会社が、有効なファイル参照番号をお客様に提供しなかった場合、お客様の報告を弊社にご提出いただく前に、航空会社に連絡していただき、航空会社から有効なファイル参照番号を回収していただく必要があります。
+ブルーリボンバッグは、航空会社からお客様のファイル参照番号を取得することはありません。
+弊社に「誤って処理された手荷物」報告をご提出いただく前に、航空会社からこの情報を回収していただくのは、お客様の責任です。&lt;/li&gt;"
+"&lt;li&gt;&lt;b&gt;&lt;u&gt;アメリカ合衆国以外に到着したすべてのフライトについて： &lt;/u&gt;「誤って処理された手荷物」報告提出手続きの一部として、お客様がロストバゲージクレームを提出された時に航空会社がお客様に提供した報告書のコピーを、お客様の便が着陸してから24時間以内に、ブルーリボンバッグに送信していただく必要があります。
+ロストバゲージクレームを提出された際に航空会社によって提供されたように、この報告書のコピーを、お客様の便が着陸してから24時間以内にご提出いただかない場合、お客様のブルーリボンバッグへの「誤って処理された手荷物」報告は、24時間の期限が切れた時点で、直ちに否定され、お客様は、手荷物回収サービスまたは弊社のご満足保証のお支払いのための資格を失われることになります。
+お客様の報告書のコピーを、以下の電子メールアドレスまで、お客様のサービス契約番号を件名に入れた電子メールでご送信ください： &lt;a href=""mailto:mbr@blueribbonbags.com""&gt; mbr@blueribbonbags.com &lt;/a&gt; 。
+上記にご案内したもの以外の他の方法でお送りいただいた航空会社の報告書は、有効なご提出とは見なされません。
+一旦、お客様の手荷物が、提出された航空会社へのロストバゲージクレームの記録にある空港に到着したら、そのカテゴリーの中のすべての手荷物は、ブルーリボンバッグサービス契約の契約条件に従って、「返還された」ものと見なされます。&lt;br /&gt;&lt;u&gt;アメリカ合衆国内に到着したフライトについて：&lt;/u&gt;&lt;br /&gt;お客様のお手荷物が、事故手荷物申告書（PIR）、（これは、お客様が、航空会社から、または空港を介したお客様のファイル参照番号の付いたロストバゲージクレームを提出されたとき、航空会社がお客様に渡した報告書の表題です）、または航空会社による手荷物不規則性報告（BIR）、（BIRは、通常、10桁のファイル参照番号を提供しません）を受け取った航空会社によって誤って処理された場合、「誤って処理された手荷物」報告を提出する手続きを完了するために、事故手荷物申告書または手荷物不規則性報告（BIR）のコピーをブルーリボンバッグに、お客様の便が着陸した後24時間以内に提出していただく必要があります。
+航空会社によって提供されたこの報告書のコピーを、お客様の便が着陸してから24時間以内にご提出いただかない場合、お客様のブルーリボンバッグへの「誤って処理された手荷物」報告は、24時間の期限が切れた時点で、直ちに否定され、お客様は、手荷物回収サービスまたは弊社のご満足保証のお支払いのための資格を失われることになります。
+この報告書のコピーを、以下の電子メールアドレスまで、お客様のサービス契約番号を件名に入れた電子メールでご送信ください： &lt;a href=""mailto:mbr@blueribbonbags.com""&gt; 。
+上記にご案内したもの以外の他の方法でお送りいただいた航空会社の報告書は、有効なご提出とは見なされません。
+このカテゴリーの中の手荷物は、手荷物が航空会社のロストバゲージクレームに記録された空港に到着すると、ブルーリボンバッグの本契約条件に従って「返却された」ものと見なされます。&lt;/b&gt; &lt;/li&gt;"
+"&lt;li&gt;配送された手荷物がお客様の適切な手荷物ではなかったことが分かった場合、お客様は、ブルーリボンバッグに提出したファイルが終了され、手荷物が戻ってきていることを通知された後、ブルーリボンバッグにそのエラーを、以下の電子メールアドレスに、「Not my bag」とMBR番号を件名の中に入れて、および12時間以内に知らせていただく必要があります： &lt;a href=""mailto:mbr@blueribbonbags.com""&gt;mbr@blueribbonbags.com&lt;/a&gt;
+ブルーリボンバッグは、誤った宛先に送られた手荷物を見つけるために、お客様の本来の便が着陸してから最初の96時間の期限から、さらに72時間（3日間）を当てます。
+このカテゴリーに当てはまる手荷物は、航空会社のロストバゲージクレームの記録に基づいて空港に到着すると、弊社の契約条件に従って、「返却された」ものと見なされます。
+間違った手荷物がすでに配送されている場合、お客様は、間違った手荷物を配送した配送会社からの配達受領書、ならびに航空会社からの、お客様に返還された当該の手荷物がお客様のものではなかったことが明確に記載されている文書の証拠を電子メールで提供していただく必要があります。
+これらの文書は、どちらもブルーリボンバッグご満足保証のお支払いのために回収していただく必要があります。&lt;/li&gt;"
+"&lt;li&gt;間違った情報または情報要請：
+「誤って処理された手荷物」報告が提出された時に間違った情報が提供された場合、お客様は情報を訂正していただくようにお願いする電子メールをお受け取りいただく場合があります。
+お客様が、この性質の電子メールをお受け取りになる場合、またはお客様の案件に関する情報についてのその他の要請の電子メールをお受け取りになる場合、お客様は、電子メールが送信されてから12時間以内に返信していただく必要があります。
+お客様が、その時間内に、訂正されたまたは要請された情報、および裏付けとなる文書を含む返信を行っていただかない場合、お客様の「誤って処理された手荷物」報告は、拒否され、お客様は、もはや、手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格がなくなります。&lt;/li&gt;"
+&lt;li&gt;航空会社にロストバゲージクレームを提出された際に、配送の宛先が提供されなかった場合、BRBは、航空会社の記録にある目的地の空港に手荷物が到着したら、お客様の案件を終了し、ブルーリボンバッグサービス契約に従って、お客様の手荷物は返還されたものと見なされます。&lt;/li&gt;
+"&lt;li&gt;エア・カナダ および ウエストジェット航空ご搭乗のお客様：
+ブルーリボンバッグは、これら2つの航空会社からのクレームに関連する「誤って処理された手荷物」報告について、紛失された手荷物のお客様への配送を取り扱ってはおりません。
+エア・カナダ またはウエストジェット航空ロストバゲージクレームに関連する誤って処理された手荷物は、エア・カナダ またはウエストジェット航空のロストバゲージクレームに記録のある空港に到着すると、ブルーリボンバッグサービス契約の契約条件に従って、「返還された」ものと見なされます。
+手荷物が、サービス期間内に、エア・カナダ またはウエストジェット航空ロストバゲージクレームに記録のある空港に到着したことが確認されると、お客様は、もはや手荷物回収サービスまたはブルーリボンバッグご満足保証のお支払いをお受けいただく資格がなくなります。&lt;/li&gt;"
+"&lt;li&gt;エラー：
+ブルーリボンバッグがお客様の「誤って処理された手荷物」報告を拒否した時、またはお客様の「誤って処理された手荷物」報告を終了した時、お客様によってエラーが発見された場合、お客様は、これらの状況のどちらかをお知らせする電子メールをお受け取りになってから、12時間以内にブルーリボンバッグにエラーをご報告いただく必要があります。
+エラーは、以下のアドレスへ、お客様のMBR番号を件名に入れた電子メールでお知らせください： &lt;a href=""mailto:mbr@BlueRibbonBags.com""&gt; mbr@BlueRibbonBags.com&lt;/a&gt;
+お客様は、電子メールの中で、エラーが何だったのかをできるだけ詳しく正確にご説明いただく、また証拠文書もご提供いただく必要があります。
+ブルーリボンバッグが、エラーが有効であることを発見した場合、ブルーリボンバッグは、ブルーリボンバッグは、お客様のファイルが再開された時から72時間以内に、お客様の手荷物を探します。
+お客様の本来のフライトが着陸した時から96時間のタイムフレームが、ファイルが再開された時から72時間後に期限切れになる場合、ブルーリボンバッグは、本来の96時間が期限切れになるまで、お客様の手荷物を探します。
+一旦お客様の手荷物が、ロストバゲージクレームを提出した空港で受け取られた場合、ブルーリボンバッグの契約条件に従って手荷物は返還されたのもと見なされ、お客様のファイルは終了されます。
+12時間経過した後にお受け取りしたすべての提出は、お受け入れすることはできず、いかなる書類が提出されたかに関係なく、お客様は手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格はなくなります。&lt;/li&gt;
+"
+"&lt;li&gt;窃盗、中身の紛失、または手荷物の破損は、このサービスには含まれません。
+補償範囲は、航空会社によって誤って処理された手荷物のみに適用されます。&lt;/li&gt;"</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>紛失手荷物ご報告に際してのご注意点</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>紛失手荷物報告の検索</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) ブロンズのサービス レベルはインド国内の旅行のためのみのものです。ブロンズのサービス レベルは、インドまたはその他の国に到着するまたは出発する国際線の旅行日程の中のあらゆるフライトを含むご予約は、サービスの対象ではありません。</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>プロモーションコード</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>お客さま情報のご入力</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>ご購入いただくサービスの作成...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>{0} サービスのお手続きが完了しました。</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>{0} お客様へのサービスのお手続きをしています...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>{0} サービスご購入のお手続きをしています...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>{0} サービスを検証しています...</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>代理店名</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>代理店カード</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>これは、貴社がお客様と話し合われる際に参考のためにご利用いただけるPDFです。これによってBRBのすばらしい特長をすべてお伝えいただけます！</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>代理店様用電子メールの言語</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>代理店ID（（EPR）</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>代理店情報</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>代理店情報は、正常に保存されました！</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>代理店（Me）</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>代理店PCC</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>航空会社</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>お客様には、このご購入について後にご請求させていただきます。</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>請求情報</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>設定を保存することによって、ブルーリボンバッグのアプリケーションのすべてのタブは、購入タブを含んで初期化され、このため途中になっているご購入についてはPNRを再度読み込んでいただく必要があります。続行しますか。</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>CC番号</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>PNRを確認しています...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>市区町村</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>市区町村、州/都道府県</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>それぞれのご購入後に、&lt;b&gt;お客様が&lt;/b&gt;ブルーリボンバッグからの自動確認電子メールの受信を望まれる場合、ここをクリックしてください。</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>それぞれのご購入後に、貴社が&lt;b&gt;お客様への&lt;/b&gt;ブルーリボンバッグからの自動確認電子メールの受信を望まれる場合、ここをクリックしてください。</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>お客様カード</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>これは、貴社が貴社のお客様に、注文に言及しないサービスを宣伝するためにお送りいただけるPDF文書です。</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>確認番号</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>日付/時刻</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>電子メールアドレス</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>APIを使用するリマークは、Sabre PNRに追加することができませんでした。</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>リマークは、Sabre PNRに追加することができませんでした。</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>PRNを終了することができませんでした。かつリマークをSabre PNRに追加することができませんでした。</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Sabreとの通信エラーです。エラーコード{0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Sabreとの接続エラーです。</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>代理店プロファイルを読み込めませんでした。</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>エラー。BRBアプリケーション({0})でお客様が開いたPNRは、Sabreワークススペース({1})でアクティブなものと同じではありません。</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>お客様の要請を処理中のサーバーエラー。</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR情報XMLは、機密情報を削除するために解析されませんでした。したがって破棄されました。</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>PNR情報を取得することができませんでした。SabreでアクティブなPNRが開いていることをご確認ください。</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>期限切れ月</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>期限切れ年</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>名（ファーストネーム）</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>フライト情報</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>フライト番号</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>PNR情報を入手する</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>インターフェイス言語</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>無効なSabreリクエスト</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>最後のフライト</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>姓（ラストネーム）</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>氏名</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>お客様は、まだSabreにログインしていらっしゃいません。サインインしてもう一度お試しください。</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>SabreからPNR情報を取得しています。お待ちください…</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>始発フライト</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>お客様のための電子メールの言語</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>乗客情報</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>手荷物当たりの補償範囲</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>乗客当たり</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>個人情報</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>電話番号：</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>いつでも以下のアドレスまで弊社に電子メールをお送りください：agent@blueribbonbags.com</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>ダミーの情報の付いたPNRは、正常に読み込まれました！以下のフォームを完成させてください。</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR情報は、正常に読み込まれました！以下のフォームを完成させてください。</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR情報が一致しません。予約を再読み込みしてください。</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR情報は、正常に読み込まれませんでした。もう一度お試しください。</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>PNR番号</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>プロモーションコード</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>購入する</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>注文書。お待ちください...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>その他のご質問またはコメントにつきましては、以下のアドレスまで電子メールでご連絡ください： agent@blueribbonbags.com</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>弊社は、お客様を登録しています。お待ちください...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>お客様の登録は、正常に完了しました！</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>貴社の登録は、正常に処理されました。貴社は、すぐに販売を開始していただけます！しかし、登録手続きを完了するために、お時間を取って貴社の電子メールを確認してください。</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>弊社は、代理店情報を保存しています。お待ちください..</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>弊社は、貴社の設定を保存しています。お待ちください...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>補償範囲のレベルを選択する</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>以下に確認の電子メールを送信する：</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>サービス契約[{0}]は、正常に購入されました。</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>貴社の設定は、正常に保存されました！</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>州/都道府県</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>BRBを貴社のチケット販売の一部として含めることをお望みの場合、貴社のお客様のクレジットカードにBRBのための独立した請求金額が表示されるのを避けるには、弊社の請求オプションについてお問い合わせください。</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>合計費用 = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>旅行代理店情報</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>予期しないエラーです。</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>予期しないエラーです。PNR情報は、正常に読み込まれませんでした。</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>GetPNRInfo中に処理されていない例外が起こりました。</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>更新する</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>ユーザー情報</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>以下のフォームから、ブルーリボンバッグへの登録のための個人情報を更新することができます。</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>代理店を検証しています...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;お帰りなさい {0}！&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;最初のご登録にようこそ！&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>旅行代理店登録</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>（会計処理上の）代理店/メンバーID番号</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>旅行代理店情報</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>代理店番号</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>代理店の種類</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>手荷物追跡サービスのためブルーリボンバッグ社に弊社が搭乗者の代理で提供した情報がすべて正しい情報であることに同意します。</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>事業体</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>こちらに以下に表示されている数式の合計値を入力してください。</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>旅行代理店は、正常に作成されました。アクティブ化リンクの付いた電子メールをお受け取りになります。</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>代理店IDを表示する</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>ファックス番号</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>携帯番号</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Post-Title（ポスト-タイトル）</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Pre-Title（プレ-タイトル）</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>旅行代理店登録</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>旅行代理店名</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>ユーザーログイン</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>お客様の情報</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* ご記入が必須です</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) 必須フィールド</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>ルーティングナンバー</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>ご満足保証のお支払いは、お手荷物毎です：</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>代理店</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>代理店名</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>電子メールアドレスを入力する</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>搭乗者リスト</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>サービスの詳細</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>購入経路：</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>代理店の電子メールを再送信する</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>電子メールを再送信する</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>乗客の電子メールを再送信する</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>電子メールを送信する</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>サービス費：</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>料金総額：</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>節約できる総額：</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>セキュリティコード</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>乗客の数を選択する</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>サービス概要</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>代理店カードをダウンロードする</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>サービス契約の検索</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>航空会社</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>航空会社の確認番号</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>BRBサービス番号</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>お支払い手続き</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>サービス費：</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>手荷物ごとの補償範囲</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>1日ごと</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>日付範囲</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>電子メールアドレス</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>乗客ごとにエクスポートする</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>サービスごとにエクスポートする</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>名（ファーストネーム）</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>補償範囲は、異なったPNRまたは航空会社確認番号の付いたお客様の氏名を複数回入力することによって、同一のお客様のための複数のフライトについて一度にご購入いただくことができます</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>姓（ラストネーム）</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>サービスレベル：</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>最大補填額：</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>乗客の数：</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>始発の航空会社</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>乗客数：</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>乗客情報</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>1日当たり</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>1年当たり</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>PNR番号</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>プロモーションコード</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>サービス使用契約を購入する</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>正規</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>電子メールが入力されていない場合、乗客は確認電子メールを受け取ることはありません。</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>サービス レベル：</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>以下のファイルからサービスがインポートされました：</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>それらに添付されたサービスの作成のためにデータを伴うExcel ファイルをアップロードする。テンプレートをダウンロードするには</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>この</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>リンクをクリックしてください。</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>予約の中にPNR番号がない場合、航空会社確認番号を入れてください。</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>購入ファイルをアップロードする</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>複数の代理店の購入ファイルをアップロードする</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>年1回</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>電子メール確認の設定を行う</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>ブルーリボンバッグは、お客さまのご搭乗便到着から96時間、お客さまの未達の手荷物の追跡から返却手続きまでを対応します。</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>お客さまの紛失された手荷物の状況に変更がある度に最新の追跡状況をメールでお知らせします。</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>当サービスのお申込み1件につき、出発直前のゲートチェックインを含み、空港でチェックインされたすべての手荷物が対象です。</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>ブルーリボンバッグのサービスは、世界各国、すべての航空会社、すべてのフライトをカバーしています。</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>当サービスのお申し込みは、接続便の数に関係なく、お1人当たりの航空会社確認番号ごととなります。</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>お客さまは、ご搭乗になるフライトの出発の直前まで、当サービスにお申し込みいただけます。 
+</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>当サービスは、インバウンド、アウトバウンドに限らず、全旅程の開始前にお申込みいただく必要があります。接続地など旅程の途中ではお申込みいただけません。</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>手荷物を紛失した際は、はじめにご利用の航空会社への報告が必要となります。その後、ブルーリボンバッグにご報告ください。</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>紛失された手荷物は、お客さまが搭乗された便の到着から24時間以内にご報告いただく必要があります。</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>補填金をお受け取りいただくにあたり、紛失された手荷物の中身の証明書は必要はありません。  
+</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>補填金のお支払いは、お客さまがご搭乗になった便が到着してから96時間（4日間）以内にお手荷物が見つからない場合に行われます。</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>お支払いは、サービス期間96時間後にお客さまの手荷物が見つかった場合でも保証されます。</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>ブルーリボンバッグは、お客さまがご契約されている保険に、別途追加していたけるサービスを販売しております。（保険の代わりになるサービスではありません）</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>メールサービス</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>お客さまの紛失された手荷物の状況に変更がある度に最新の追跡状況をメールでお知らせします。</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>証明書不要</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>補填金をお受け取りいただくにあたり、紛失された手荷物の中身についての証明書は必要はありません。</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>1回のお申込み</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>当サービスのお申し込み1件につき、空港でチェックインされたすべてのお手荷物が保証の対象です。</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>保証</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>紛失してから4日間経過した場合、それぞれのお手荷物につき、保証した全額1,000ドルをお支払いします。</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>追跡範囲</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>ブルーリボンバッグのサービスは、世界各国、すべての航空会社、すべてのフライトをカバーしています。</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>出発直前まで</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>ご搭乗の便の出発直前まで手荷物追跡サービスのお申し込みが可能です。</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>Connect With us:</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>ブルーリボンバッグ-MBR番号{0}：お客様の紛失された手荷物の状態に更新情報があります。最新情報は次の通りです：{1}.
+"このテキストメッセージに返信しないでください。お客様からの返信はブルーリボンバッグに受け取られることはありません。これには、この最新情報の中で要請された情報の提出を含みます。
+お客様の「誤って処理された手荷物」報告に関するすべてのご質問、または要請された情報のご提出は、以下のメールアドレスまで電子メールでご送信いただく必要があります： MBR@BLUERIBBONBAGS.COM
+弊社の電話番号におかけいただいても、既存の「誤って処理された手荷物」報告に関する情報は得られません。
+すべてのご連絡は、以下のメールアドレスまで電子メールでお送りください： mbr@blueribbonbags.com"</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>最初の96時間につきましては、BRBはお客様の誤って処理された手荷物を追跡するために航空会社と直接連携して手荷物の返還を促します。
+お客様が、ご旅行中に航空会社との電話連絡に時間を費やされるのではなく、BRBは、お客様の手荷物の状態に変更があるたびに自動更新情報をお客様に送信します。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>1つのご購入（5ドル）は、往復航空券を含む、接続便の数に関係なく、お1人様当たりの航空会社確認番号ごとのお値段です。見つからなかった時のお支払い（1000ドル）は、お手荷物あたりの金額です。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>お支払いをお受け取りいただくために、手荷物の中身の証明書は必要ありません。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>お支払いは、お客様がご搭乗になった便が到着して96時間以内に、お手荷物が返されなかった場合に行われます。
+お支払いは、98時間の締切後のいずれかの時点で手荷物が返された場合でも、保証されています。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>BRBはサービスを販売しており、BRBサービス契約をお持ちいただくことは、お客様がお持ちの保険に追加していただくものです。
+BRBからの小切手をお受け取りになった後でも、保険のお支払いをお受け取りいただくことができます。
+</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>クレームは、お客様の誤って処理された手荷物をブルーリボンバッグにご報告いただく前に、航空会社に提出していただく必要があります。
+配送されなかった手荷物は、航空会社にロストバゲージクレームを提出された後24時間以内に、BRBにご報告いただく必要があります。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>「誤って処理された手荷物」報告は、インターネットで&lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt;に進んでいただくことによって、または(888)-BAGGAGE 24/7までお電話いただくことによって容易に提出していただけます。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>1つのサービス契約（5ドル）には、ゲートチェックインの最後の瞬間を含む、空港でチェックインされたすべての手荷物が含まれます。より高い補償範囲のオプションもご利用いただけ、それぞれ7ドル50セント、および10ドルのご契約料で、1500ドルおよび2000ドルのお支払いをお受け取りいただくことになります。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>ブルーリボンバッグは、世界中のあらゆる所で、あらゆるフライトをカバーしています。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>お客様のフライト&amp;#39;Sの出発の直前まで、ブルーリボンバッグのサービスをご購入いただくことができます。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>ブルーリボンバッグのサービスは、アウトバウンドまたはインバウンドのご旅行のすべてのフライトの前にご購入いただく必要があります。
+ご旅行の区間の間（すなわち、接続便と接続便との間）には、サービスをご購入いただくことはできません。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>ブルーリボンバッグサービスは、払い戻し不可または譲渡不可です。
+払い戻しまたはクレジットは、発行されません。
+お客様の便がキャンセルされ、代わりに新しい便が予約された場合、新たな&amp;#39;S便の出発の前に、弊社にも変更をお知らせいただく必要があります。
+すべての変更は、以下のメールアドレスでブルーリボンバッグにご報告いただく必要があります：&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;、また、件名に、お客様のサービス契約番号を入れてください。
+電子メールの本文には、お客様の航空会社と航空会社確認番号、元のフライト番号と変更された新しいフライト番号を一覧表示ていただく必要があります。
+同様に、航空会社も変更されている場合、新しフライトの航空会社も弊社にお知らせいただく必要があります。</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>すべてのご購入は、ブルーリボンバッグサービス契約の契約条件の対象となります。
+それは、&lt;a href=".{0}" target="_blank"&gt;ここに&lt;/a&gt;表示することができます。</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>ブルーリボンバッグの特長</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>紛失手荷物とは、航空会社の追跡システムによりお客さまのご旅程の最終目的地とは異なる目的地に誤って配送された、または航空会社の報告によりお客さまがご搭乗された便に積み込まれなかったことが確認された手荷物のことを指します。</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>1サービス購入につき、一人当たり、航空会社の確認番号ごとのサービス範囲となります。途中降機の回数に関わらず、往復の旅程が一つの航空会番号の下で予約されている場合は、１サービスの補償範囲となります。往路、復路でご利用の便が異なる航空会社の確認番号の下で予約されている場合は、それぞれサービスをご購入いただく必要があります。</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>いいえ。ブルーリボンバッグは世界中のあらゆる場所、あらゆる便をカバーしています。出発地点、到着地点に関する制限は一切ありません。</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>紛失手荷物とは何ですか？</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>本サービスは往復航空券をカバーしていますか？</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>本サービスを購入するにあたり、利用の便がアメリカ合衆国内で出発あるいは到着する必要がありますか？</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>よくあるご質問</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>手荷物ごとに</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>乗客情報を入力する</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>契約を確認する</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>ブルーリボンバッグサービス契約を確認するにはここをクリックしてください&amp;nbsp;</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>サービスレベルを選択する</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>お1人様当たりわずか5ドルで、BRBは、お客様の誤って処理された手荷物の場所を突き止め、すべてのお手荷物をお返しします。航空会社が、お客様の手荷物が紛失してから96時間以内にその手荷物をお客様にお届けしなかった場合、BRBは、届けられなかった、保障されたお手荷物につき、1000ドルをお支払いします。&lt;u&gt;お支払いをお受け取りいただくために、手荷物の中身についての証明書や領収書は必要ありません&lt;/u&gt;。</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>手荷物追跡サービスを申し込む</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>お客様のご旅行の情報をご提供ください</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>州/都道府県</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>航空会社は、ブルーリボンバッグに報告を提出するのに必要なトラッキング情報を提供します。</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>紛失した手荷物は、お客様の便が着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>お客様は、報告を弊社に提出される前に、航空会社にご連絡いただき、有効なファイル番号を回収していただく必要があります。</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>ブルーリボンバッグは、航空会社からお客様のファイル参照番号を取得いたしません。</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>お客様には、お客様の「誤って処理された手荷物」報告を弊社にご提出いただく前に、航空会社からこの情報を回収していただく責任があります。</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>ファイル参照番号をお受け取りになり、</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>さらに、手荷物タグ番号もお受け取りになりますのでそれらをここにご入力ください：</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>パスワードは、少なくとも1つのアルファベット、1つの数字の値、および1つの特殊文字、ならびに少なくとも1つの大文字表現されたアルファベットを含んだ、少なくとも8文字を含んでいる必要があります。&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>許容される特殊文字には以下が含まれます：&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>この電話番号では、既存の「誤って処理された手荷物」報告に関する情報は得られません。</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>既存の「誤って処理された手荷物」報告に関するご質問またはご意見、もしくは情報をご提出いただくには、</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>それが新しいか、開かれているか、間違った情報か、終了されたものかを問わず、理由の如何に関わらず、以下のアドレスへの電子メールでお送りいただく必要があります：</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>航空会社は、以下の「誤って処理された手荷物」報告に提出する必要があるトラッキング情報を提供します。</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;まで、およびお客様のサービス契約番号を電子メールの件名にいれてください</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>お客様は、航空会社に、ロストバゲージクレームをご提出いただかなければなりません（その航空会社の規則によって必要とされるように）。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>配送されなかった手荷物については、航空会社からの有効なファイル参照番号を含み、フライトが着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。ブルーリボンバッグサービスは、24時間の締切後にご報告いただいた手荷物につきましては、お支払いの対象として受け入れられません。航空会社が、有効なファイル参照番号をお客様に提供しなかった場合、お客様の報告を弊社にご提出いただく前に、航空会社に連絡していただき、航空会社から有効なファイル参照番号を回収していただく必要があります。ブルーリボンバッグは、航空会社からお客様のファイル参照番号を取得することはありません。弊社に「誤って処理された手荷物」報告をご提出いただく前に、航空会社からこの情報を回収していただくのは、お客様の責任です。&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>配送された手荷物がお客様の適切な手荷物ではなかったことが分かった場合、お客様は、ブルーリボンバッグに提出したファイルが終了され、手荷物が戻ってきていることを通知された後、ブルーリボンバッグにそのエラーを、以下の電子メールアドレスに、「Not my bag」とMBR番号を件名の中に入れて、かつ12時間以内にお知らせいただく必要があります： mbr@blueribbonbags.com ：ブルーリボンバッグは、誤った宛先に送られた手荷物を見つけるために、お客様の本来の便が着陸してから最初の96時間の期限から、さらに72時間（3日間）を当てます。このカテゴリーに当てはまる手荷物は、航空会社のロストバゲージクレームの記録にある空港に到着すると、弊社の契約条件に従って、「返却された」ものと見なされます。間違った手荷物がすでに配送されている場合、お客様は、間違った手荷物を配送した配送会社からの配達受領書、ならびに航空会社からの、お客様に返還された当該の手荷物がお客様のものではなかったことが明確に記載されている文書の証拠を電子メールで提供していただく必要があります。これらの文書は、どちらもブルーリボンバッグご満足保証のお支払いのために回収していただく必要があります。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>間違った情報または情報の要請：&lt;/strong&gt; 「誤って処理された手荷物」報告が提出された時に間違った情報が提供された場合、お客様は情報を訂正していただくようにお願いする電子メールをお受け取りいただく場合があります。お客様が、この性質の電子メールをお受け取りになる場合、またはお客様の案件に関する情報についてのその他の要請の電子メールをお受け取りになる場合、お客様は、電子メールが送信されてから12時間以内に返信していただく必要があります。お客様が、その時間内に、訂正されたまたは要請された情報、および裏付けとなる文書を含む返信を行っていただかない場合、お客様の「誤って処理された手荷物」報告は、拒否され、お客様は、もはや、手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格がなくなります。&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>航空会社にロストバゲージクレームを提出された際に、配送の宛先が提供されなかった場合、BRBは、航空会社の記録にある目的地の空港に手荷物が到着したら、お客様の案件を終了し、ブルーリボンバッグサービス契約に従って、お客様の手荷物は返還されたものと見なされます。&lt;br /&gt;&lt;br</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>/&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>注意：お手荷物が航空会社によって誤って処理された場合、（PIR）事故手荷物申告書（これは、お客様のファイル参照番号とともに航空会社が提供し、お客様が受け取られた報告書の表題です）のみが航空会社によって、または空港を介して発行され、もしくは航空会社を介して手荷物不規則性報告（BIR）（BIRは、通常、10桁のファイル番号を提供しません）が提供されますので、お客様は、オンラインフォームを完成後、事故手荷物申告書、または手荷物不規則性報告のコピーを、以下の電子メールアドレスに、サービス契約番号を件名に入れて、お送りください：mbr@blueribbonbags.com 。弊社は、報告書が有効であると見なすために、この報告書のコピーを、お客様の便が着陸した後24時間以内にお受け取りする必要があります。この報告書のコピーがお客様の便の着陸から24時間以内に提供されない場合、BRBは、24時間の期限が切れた時点で、直ちにその報告書を拒否します。このカテゴリーの中の手荷物は、一旦飛行旅程による記録どおりに空港に到着したら、弊社の契約条件に従って「返却された」ものと見なされます。または航空会社にお客様のロストバゲージクレームを提出されたとき、お客様によって航空会社に提供された情報を転送します。</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>&lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>注意：お客様の手荷物を誤って処理した航空会社が、空港（紛失および発見）を介して事故手荷物申告書（PIR）だけを発行する場合、</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>ご搭乗になった便の着陸から24時間以内に、航空会社からこの情報を回収して弊社にご提供いただくのは、お客様の責任です。お客様のご搭乗になった便の着陸から24時間以内に有効なファイル参照番号をお受け取りしない場合、お客様のご報告は拒否され、手荷物回収サービスまたは弊社のご満足保証のお支払いをお受け取りいただく資格がなくなります。弊社は、お客様がご搭乗になった便の着陸から24時間の締切の後のいずれかの時点に、この情報をご提供された場合、状況にかかわらず、お客様のファイルを再び開始することはありません。&lt;br/&gt;</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>または航空会社を通じて手荷物不規則性報告（BIR）だけを発効する場合（BIRは、通常、10桁のファイル参照番号を提供しません）、</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>ブルーリボンバッグは、96時間以上誤って処理された手荷物のためのご満足保証のお支払いのみを、</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>最初に航空会社が、その紛失手荷物についてのお支払い（賠償金）を行った後に、お支払いします。航空会社がお客様に</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>紛失手荷物のための賠償金を支払わない場合、ブルーリボンバッグもお支払いいたしません。これらの事例のどちらにも、</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>ブルーリボンバッグからのご満足保証のお支払いをお受け取りいただくには、</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>賠償金を支払った航空会社からの、当該の紛失手荷物についての通知のほかに、航空会社からのお支払いの証拠を必要とします。</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>ブルーリボンバッグは、手荷物が誤って処理された後最初の96時間、通常どおり、お客様の未配送の手荷物を探すお手伝いをします。</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>&lt;strong&gt; エラー：&lt;/strong&gt;ブルーリボンバッグがお客様の「誤って処理された手荷物」報告を拒否した時、またはお客様の「誤って処理された手荷物」報告を終了した時、お客様によってエラーが発見された場合、お客様は、これらの状況のどちらかをお知らせする電子メールをお受け取りになってから、12時間以内にブルーリボンバッグにエラーをご報告いただく必要があります。エラーは、以下のアドレスへ、お客様のMBR番号を件名に入れた電子メールでお知らせください： &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;お客様は、電子メールの中で、エラーが何だったのかをできるだけ詳しく正確にご説明いただく、また証拠文書もご提供いただく必要があります。ブルーリボンバッグが、エラーが有効であることを発見した場合、ブルーリボンバッグは、お客様のファイルが再開された時から72時間以内に、お客様の手荷物を探します。お客様の本来のフライトが着陸した時から96時間のタイムフレームが、ファイルが再開された時から72時間後に期限切れになる場合、ブルーリボンバッグは、本来の96時間が期限切れになるまで、お客様の手荷物を探します。</value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>一旦お客様の手荷物が、ロストバゲージクレームを提出した空港で受け取られた場合、ブルーリボンバッグの契約条件に従って手荷物は返還されたのもと見なされ、お客様のファイルは終了されます。&lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>お客様がすでに、ロストバゲージクレームを提出された時に航空会社から提供される報告書のコピーを弊社に提出された場合、まだこの電子メールをお受け取りいただくということは、航空会社が有効なファイル参照番号をお客様に提供しておらず、お客様は、直ちに航空会社に連絡して有効な番号を回収し、ご搭乗になった便の着陸から24時間以内に弊社に提出していただく必要があるということを意味します。</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>&lt;strong&gt;</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>12時間経過した後にお受け取りしたすべての提出は、お受け入れすることはできず、いかなる書類が提出されたかに関係なく、お客様は手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格はなくなります。</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>&lt;/strong&gt;</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>この電話番号では、既存の「誤って処理された手荷物」報告に関する情報は得られません。</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>既存の「誤って処理された手荷物」報告に関する、いかなる質問、コメント、または情報の提出も、それが新しいか、開かれているか、間違った情報か、終了されたものかを問わず、理由の如何に関わらず、以下のアドレスへの電子メールでお送りいただく必要があります：</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;まで、およびお客様のサービス契約番号を電子メールの件名にいれてください</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>&lt;/li&gt;</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>&lt;li&gt;誤って処理された手荷物をブルーリボンバッグにご報告いただく前に、お客様はご利用の航空会社にロストバゲージクレームをご提出いただく必要があります（その航空会社の規則によって必要なように）。&lt;/li&gt;</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>&lt;li&gt;配送されなかった手荷物については、航空会社からの有効なファイル参照番号を含み、フライトが着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。ブルーリボンバッグサービスは、24時間の締切後にご報告いただいた手荷物につきましては、お支払いの対象として受け入れられません。
+航空会社が、有効なファイル参照番号をお客様に提供しなかった場合、お客様の報告を弊社にご提出いただく前に、航空会社に連絡していただき、航空会社から有効なファイル参照番号を回収していただく必要があります。
+ブルーリボンバッグは、航空会社からお客様のファイル参照番号を取得することはありません。
+弊社に「誤って処理された手荷物」報告をご提出いただく前に、航空会社からこの情報を回収していただくのは、お客様の責任です。&lt;/li&gt;</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>&lt;li&gt;&lt;b&gt;&lt;u&gt;アメリカ合衆国以外に到着したすべてのフライトについて： &lt;/u&gt;「誤って処理された手荷物」報告提出手続きの一部として、お客様がロストバゲージクレームを提出された時に航空会社がお客様に提供した報告書のコピーを、お客様の便が着陸してから24時間以内に、ブルーリボンバッグに送信していただく必要があります。
+ロストバゲージクレームを提出された際に航空会社によって提供されたように、この報告書のコピーを、お客様の便が着陸してから24時間以内にご提出いただかない場合、お客様のブルーリボンバッグへの「誤って処理された手荷物」報告は、24時間の期限が切れた時点で、直ちに否定され、お客様は、手荷物回収サービスまたは弊社のご満足保証のお支払いのための資格を失われることになります。
+お客様の報告書のコピーを、以下の電子メールアドレスまで、お客様のサービス契約番号を件名に入れた電子メールでご送信ください： &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; 。
+上記にご案内したもの以外の他の方法でお送りいただいた航空会社の報告書は、有効なご提出とは見なされません。
+一旦、お客様の手荷物が、提出された航空会社へのロストバゲージクレームの記録にある空港に到着したら、そのカテゴリーの中のすべての手荷物は、ブルーリボンバッグサービス契約の契約条件に従って、「返還された」ものと見なされます。&lt;br /&gt;&lt;u&gt;アメリカ合衆国内に到着したフライトについて：&lt;/u&gt;&lt;br /&gt;お客様のお手荷物が、事故手荷物申告書（PIR）、（これは、お客様が、航空会社から、または空港を介したお客様のファイル参照番号の付いたロストバゲージクレームを提出されたとき、航空会社がお客様に渡した報告書の表題です）、または航空会社による手荷物不規則性報告（BIR）、（BIRは、通常、10桁のファイル参照番号を提供しません）を受け取った航空会社によって誤って処理された場合、「誤って処理された手荷物」報告を提出する手続きを完了するために、事故手荷物申告書または手荷物不規則性報告（BIR）のコピーをブルーリボンバッグに、お客様の便が着陸した後24時間以内に提出していただく必要があります。
+航空会社によって提供されたこの報告書のコピーを、お客様の便が着陸してから24時間以内にご提出いただかない場合、お客様のブルーリボンバッグへの「誤って処理された手荷物」報告は、24時間の期限が切れた時点で、直ちに否定され、お客様は、手荷物回収サービスまたは弊社のご満足保証のお支払いのための資格を失われることになります。
+この報告書のコピーを、以下の電子メールアドレスまで、お客様のサービス契約番号を件名に入れた電子メールでご送信ください： &lt;a href="mailto:mbr@blueribbonbags.com"&gt; 。
+上記にご案内したもの以外の他の方法でお送りいただいた航空会社の報告書は、有効なご提出とは見なされません。
+このカテゴリーの中の手荷物は、手荷物が航空会社のロストバゲージクレームに記録された空港に到着すると、ブルーリボンバッグの本契約条件に従って「返却された」ものと見なされます。&lt;/b&gt; &lt;/li&gt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>以下のアドレスまで電子メールでお知らせいただくようにお願い申し上げます： &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt; 。</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>&lt;li&gt;配送された手荷物がお客様の適切な手荷物ではなかったことが分かった場合、お客様は、ブルーリボンバッグに提出したファイルが終了され、手荷物が戻ってきていることを通知された後、ブルーリボンバッグにそのエラーを、以下の電子メールアドレスに、「Not my bag」とMBR番号を件名の中に入れて、および12時間以内に知らせていただく必要があります： &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;
+ブルーリボンバッグは、誤った宛先に送られた手荷物を見つけるために、お客様の本来の便が着陸してから最初の96時間の期限から、さらに72時間（3日間）を当てます。
+このカテゴリーに当てはまる手荷物は、航空会社のロストバゲージクレームの記録に基づいて空港に到着すると、弊社の契約条件に従って、「返却された」ものと見なされます。
+間違った手荷物がすでに配送されている場合、お客様は、間違った手荷物を配送した配送会社からの配達受領書、ならびに航空会社からの、お客様に返還された当該の手荷物がお客様のものではなかったことが明確に記載されている文書の証拠を電子メールで提供していただく必要があります。
+これらの文書は、どちらもブルーリボンバッグご満足保証のお支払いのために回収していただく必要があります。&lt;/li&gt;</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>&lt;li&gt;間違った情報または情報要請：
+「誤って処理された手荷物」報告が提出された時に間違った情報が提供された場合、お客様は情報を訂正していただくようにお願いする電子メールをお受け取りいただく場合があります。
+お客様が、この性質の電子メールをお受け取りになる場合、またはお客様の案件に関する情報についてのその他の要請の電子メールをお受け取りになる場合、お客様は、電子メールが送信されてから12時間以内に返信していただく必要があります。
+お客様が、その時間内に、訂正されたまたは要請された情報、および裏付けとなる文書を含む返信を行っていただかない場合、お客様の「誤って処理された手荷物」報告は、拒否され、お客様は、もはや、手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格がなくなります。&lt;/li&gt;</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>&lt;li&gt;航空会社にロストバゲージクレームを提出された際に、配送の宛先が提供されなかった場合、BRBは、航空会社の記録にある目的地の空港に手荷物が到着したら、お客様の案件を終了し、ブルーリボンバッグサービス契約に従って、お客様の手荷物は返還されたものと見なされます。&lt;/li&gt;</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>&lt;li&gt;エア・カナダ および ウエストジェット航空ご搭乗のお客様：
+ブルーリボンバッグは、これら2つの航空会社からのクレームに関連する「誤って処理された手荷物」報告について、紛失された手荷物のお客様への配送を取り扱ってはおりません。
+エア・カナダ またはウエストジェット航空ロストバゲージクレームに関連する誤って処理された手荷物は、エア・カナダ またはウエストジェット航空のロストバゲージクレームに記録のある空港に到着すると、ブルーリボンバッグサービス契約の契約条件に従って、「返還された」ものと見なされます。
+手荷物が、サービス期間内に、エア・カナダ またはウエストジェット航空ロストバゲージクレームに記録のある空港に到着したことが確認されると、お客様は、もはや手荷物回収サービスまたはブルーリボンバッグご満足保証のお支払いをお受けいただく資格がなくなります。&lt;/li&gt;</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>&lt;li&gt;エラー：
+ブルーリボンバッグがお客様の「誤って処理された手荷物」報告を拒否した時、またはお客様の「誤って処理された手荷物」報告を終了した時、お客様によってエラーが発見された場合、お客様は、これらの状況のどちらかをお知らせする電子メールをお受け取りになってから、12時間以内にブルーリボンバッグにエラーをご報告いただく必要があります。
+エラーは、以下のアドレスへ、お客様のMBR番号を件名に入れた電子メールでお知らせください： &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;
+お客様は、電子メールの中で、エラーが何だったのかをできるだけ詳しく正確にご説明いただく、また証拠文書もご提供いただく必要があります。
+ブルーリボンバッグが、エラーが有効であることを発見した場合、ブルーリボンバッグは、ブルーリボンバッグは、お客様のファイルが再開された時から72時間以内に、お客様の手荷物を探します。
+お客様の本来のフライトが着陸した時から96時間のタイムフレームが、ファイルが再開された時から72時間後に期限切れになる場合、ブルーリボンバッグは、本来の96時間が期限切れになるまで、お客様の手荷物を探します。
+一旦お客様の手荷物が、ロストバゲージクレームを提出した空港で受け取られた場合、ブルーリボンバッグの契約条件に従って手荷物は返還されたのもと見なされ、お客様のファイルは終了されます。
+12時間経過した後にお受け取りしたすべての提出は、お受け入れすることはできず、いかなる書類が提出されたかに関係なく、お客様は手荷物回収サービスまたは弊社のご満足保証のお支払いをお受けいただく資格はなくなります。&lt;/li&gt;
+</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>&lt;li&gt;窃盗、中身の紛失、または手荷物の破損は、このサービスには含まれません。
+補償範囲は、航空会社によって誤って処理された手荷物のみに適用されます。&lt;/li&gt;</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>このテキストメッセージに返信しないでください。お客様からの返信はブルーリボンバッグに受け取られることはありません。これには、この最新情報の中で要請された情報の提出を含みます。
+お客様の「誤って処理された手荷物」報告に関するすべてのご質問、または要請された情報のご提出は、以下のメールアドレスまで電子メールでご送信いただく必要があります： MBR@BLUERIBBONBAGS.COM
+弊社の電話番号におかけいただいても、既存の「誤って処理された手荷物」報告に関する情報は得られません。
+すべてのご連絡は、以下のメールアドレスまで電子メールでお送りください： mbr@blueribbonbags.com</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>また、お客様が報告を提出された時に提供されたお客様のMBR番号を件名に入れていただき、可能な限りお客様の状況について詳細にご提供ください。</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>フライトが着陸してから24時間以内にブルーリボンバッグにご報告いただく必要があります。</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>ブルーリボンバッグサービスは、24時間の締切後にご報告いただいた手荷物につきましては、お支払いの対象として受け入れられません。</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>航空会社が、有効なファイル参照番号を提供しなかった場合、</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>タイムゾーン</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>宛先</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>料金総額：</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>料金総額（お客様1人当たり）：</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>ご登録を完了します</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>パスワードには、少なくとも1つのアルファベット、1つの数字の値、および1つの特殊文字、ならびに少なくとも1つの大文字表現されたアルファベットを含んだ、8文字から16文字が含まれている必要があります。</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>パスワードをもう一度入力してください</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>ユーザー登録</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>パスワードを入力してください</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>確認する</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>住所をご入力ください。</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>アドレスには少なくとも2つの文字がなければなりません。</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>提供されたAgentLogin（代理店ログイン情報）は存在しません。</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value> [Agent Number]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>[Agent Type]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>ご登録を完了されるには、本契約条項を確認してご承認ください。</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>[Business Unit]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>市区町村をご入力ください。</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>市区町村には少なくとも2つの文字がなければなりません。</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>[Email]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>[Email] は、有効な電子メール アドレスのフォーマットでなければなりません。</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>[Fax] は、有効なフォーマットでなければなりません。</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value> [First Name]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value> [First Name] 欄は、少なくとも2つの文字の長さでなければなりません。</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>代理店ログインは、BRBシステムのアクティブでないユーザーに対応しています。</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>[Last Name]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>[Last Name] 欄は、少なくとも2つの文字の長さでなければなりません。</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>[User Login] は、6文字から40文字でなければならず、以下の特殊文字のみを含むことが可能です：_ .- @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>[Login] は、「@」文字で終わることはできません。</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>[Mobile] は、有効なフォーマットでなければなりません。</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>[Phone] は、有効なフォーマットでなければなりません。</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>提供されたProducCode（プロダクトコード）は存在しません。</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>提供されたAgentLogin（代理店ログイン情報）は、提供されたPromoCode（プロモーションコード）AgentLoginと一致しません。</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>提供されたPromoCode（プロモーションコード）は存在しません。</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>国を選択してください。</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>州/都道府県を選択してください。</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>州名をご入力ください。</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>[Travel Agency Code]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>[Travel Agency Name]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>AgentLogin（代理店ログイン情報）は、Travel Agent（旅行代理店）に対応しません。</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>[User Login]欄は、空欄にはできません。</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>そのユーザーログイン名は使用できません。別のユーザーログイン名を選択してください。</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>郵便番号をご入力ください。</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>入力された郵便番号は、有効なフォーマットではありません。</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>代理店の電子メールアドレス</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>サービスレベル：</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>手荷物ごとの補償範囲</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>乗客情報</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>サービス契約のお支払い手続きを完了するために、以下にクレジットカード情報をご記入ください。</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>電信振込</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>代理店名</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>代理店カード</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>これは、貴社がお客様と話し合われる際に参考のためにご利用いただけるPDFです。これによってBRBのすばらしい特長をすべてお伝えいただけます！</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>ただけます！</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>代理店ID</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>代理店情報</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>代理店情報は、正常に保存されました！</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>代理店（Me）</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>貴社が販売されたサービス契約に対して適切な信用を受け取るために、ブルーリボンバッグWorldspanアプリを初めて使用されるときに、このフォームに、完全に必要事項が記入されていることをご確認ください。&lt;br&gt;&lt;br&gt;完成させたら、最下部の「保存」をクリックして、貴社のお客様の代理として「ブルーリボンバッグの補償の購入」に移動してください。&lt;br&gt;&lt;br&gt;BRB Worldspanアプリにアクセスするためには、パスワードを作成したり、ご自分のログイン情報を使ったりする必要はありません。
+ログイン情報とパスワードは、BRBシステム・オンラインにアクセスするためにのみ使用します。&lt;br&gt;&lt;br&gt;登録情報を変更したり、ご質問や問題がおありの場合は、以下のアドレスまで電子メールでお送りください： agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>航空会社</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>お客様には、このご購入について後にご請求させていただきます。</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>請求情報</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>設定を保存することによって、ブルーリボンバッグのアプリケーションのすべてのタブは、購入タブを含んで初期化され、このため途中になっているご購入についてはPNRを再度読み込んでいただく必要があります。続行しますか。</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>CC番号</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>PNRを確認しています...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>市区町村</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>市区町村、州/都道府県</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>それぞれのご購入後に、&lt;b&gt;お客様が&lt;/b&gt;ブルーリボンバッグからの自動確認電子メールの受信を望まれる場合、ここをクリックしてください。</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>それぞれのご購入後に、貴社が&lt;b&gt;お客様への&lt;/b&gt;ブルーリボンバッグからの自動確認電子メールの受信を望まれる場合、ここをクリックしてください。</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>お客様カード</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>これは、貴社が貴社のお客様に、注文に言及しないサービスを宣伝するためにお送りいただけるPDF文書です。</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>確認番号</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>日付のフォーマット：</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>日付/時刻</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>電子メールアドレス</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>APIを使用するリマークは、Sabre PNRに追加することができませんでした。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>リマークは、Sabre PNRに追加することができませんでした。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>PRNを終了することができませんでした。かつリマークをSabre PNRに追加することができませんでした。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Sabreとの通信エラーです。エラーコード{0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Sabreとの接続エラーです。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>代理店プロファイルを読み込めませんでした。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>エラー。BRBアプリケーション({0})でお客様が開いたPNRは、Sabreワークススペース({1})でアクティブなものと同じではありません。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>お客様の要請を処理中のサーバーエラー。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR情報XMLは、機密情報を削除するために解析されませんでした。したがって破棄されました。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>PNR情報を取得することができませんでした。SabreでアクティブなPNRが開いていることをご確認ください。</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>期限切れ月</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>期限切れ年</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>名（ファーストネーム）</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>フライト情報</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>フライト番号</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>PNR情報を入手する</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>無効なSabreリクエスト</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>最後のフライト</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>姓（ラストネーム）</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>氏名</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>お客様は、まだSabreにログインしていらっしゃいません。サインインしてもう一度お試しください。</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>SabreからPNR情報を取得しています。お待ちください…</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>始発フライト</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>乗客情報</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>手荷物当たりの補償範囲</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>お客様当たり</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>個人情報</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>電話番号：</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>いつでも以下のアドレスまで弊社に電子メールをお送りください：agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>ダミーの情報の付いたPNRは、正常に読み込まれました！以下のフォームを完成させてください。</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR情報は、正常に読み込まれました！以下のフォームを完成させてください。</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR情報が一致しません。予約を再読み込みしてください。</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR情報は、正常に読み込まれませんでした。もう一度お試しください。</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>PNR番号</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>プロモーションコード</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>購入する</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>注文書。お待ちください…</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>その他のご質問またはコメントにつきましては、以下のアドレスまで電子メールでご連絡ください： agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>弊社は、お客様を登録しています。お待ちください...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>お客様の登録は、正常に完了しました！</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>お客様の登録は、正常に処理されました。お客様は、すぐに販売を開始していただけます！しかし、登録手続きを完了するために、お時間を取ってお客様の電子メールを確認してください。よろしくお願いします！</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>弊社は、代理店情報を保存しています。お待ちください…</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>弊社は、貴社の設定を保存しています。お待ちください...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>補償範囲のレベルを選択する</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>以下に確認の電子メールを送信する：</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>サービス契約[{0}]は、正常に購入されました。</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>貴社の設定は、正常に保存されました！</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>州/都道府県</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>BRBを貴社のチケット販売の一部として含めることをお望みの場合、貴社のお客様のクレジットカードにBRBのための独立した請求金額が表示されるのを避けるには、弊社の請求オプションについてお問い合わせください。</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>合計費用 = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>旅行代理店情報</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>予期しないエラーです。</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>予期しないエラーです。PNR情報は、正常に読み込まれませんでした。</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>GetPNRInfo中に処理されていない例外が起こりました。</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>更新する</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>ユーザー情報</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>以下のフォームから、ブルーリボンバッグへの登録のための個人情報を更新することができます。</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>代理店を検証しています...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;お帰りなさい {0}！&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;最初のご登録にようこそ！&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Booking Reference Code</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Satisfaction Guaranteed Payment per bag:</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>This service is valid for all flights you have booked with the online ticketing site you made your purchase from for the PNR referenced above.</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>ソース</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>SMS通知を受け取る</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>重複したレコードが見つかりました</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>閲覧してファイルを選択し、[ファイルをアップロード]をクリックしてください：</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>ファイルをアップロードする</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>以前の購入が見つかりました</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>次のレコードには事前購入があります。残りのレコードを処理して処理しますか？</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>次のレコードが複製されています。残りのレコードを処理して処理しますか？</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>テンプレートをダウンロードするには、ここをクリックしてください：</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>アップロード中。 お待ちください...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>上記の「既定の電子メール言語」と同じ言語のWebサイトを許可する。</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>これは、確認番号の下であなたのフライトをカバーします &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>連絡先の人数を選択する</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>連絡先情報を提供する</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>連絡先をレポートに追加してください</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>あなたのバッグやデリバリー情報に関連する情報を提供したい場合は、ここに入力してください：</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>メールアドレス</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>携帯電話</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>乗客数</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>サービス レベル</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>過去0時間であなたのバッグの状態は変わっていません。 ここで提供した最新のアップデートです。
+何か情報があるとすぐに新しいことが起こったかどうかがわかります。</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>乗客のMBRのメールを受信したい場合は、ここをクリックしてください</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>顧客照会番号</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>手荷物誤配送報告のお手続きにあたって：</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>手荷物当たりの補償範囲：</value>
+  </data>
+</root>

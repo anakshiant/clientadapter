@@ -8,7 +8,7 @@ using BRBMicroSites.Services.HostTokenMapService;
 using System.Security.Claims;
 using System.Web;
 
-namespace BRBMicroSites.Auth
+namespace BRBMicroSites.Services.Auth
 {
     public class AuthenticationHandler : IAuthenticationHandler
     {

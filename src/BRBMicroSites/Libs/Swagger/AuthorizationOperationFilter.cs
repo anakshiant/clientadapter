@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BRBMicroSites.Swagger
+namespace BRBMicroSites.Libs.Swagger
 {
     public class AuthorizationOperationFilter : IOperationFilter
     {
@@ -21,7 +21,7 @@ namespace BRBMicroSites.Swagger
                 Schema = new OpenApiSchema
                 {
                     Type = "string",
-                    Default = new OpenApiString("www.google.com"),
+                    Default = new OpenApiString("www.smilebox.com"),
                 }
             });
         }

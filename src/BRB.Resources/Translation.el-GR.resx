@@ -1,0 +1,2687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>Αριθμός Λογαριασμού</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Ενεργός</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Διεύθυνση</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>Εκπροσωπών πράκτορας:</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>24 ώρες το 24ωρο, 7 ημέρες την εβδομάδα</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>Θα λάβετε ένα email επιβεβαίωσης από την Blue Ribbon Bags μετά από μερικά λεπτά. Αν δεν το λάβετε, παρακαλούμε επικοινωνήστε μαζί μας και έχετε πρόχειρη την επιβεβαίωση της συναλλαγής Paypal.</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>Συγχαρητήρια!</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>Αν η αποσκευή σας δεν σας συνοδεύει στον τελικό προορισμό της πτήσης&amp;#39;s σας, πρέπει να το αναφέρετε στην αεροπορική εταιρίας πριν το αναφέρετε στην Blue Ribbon Bags. Οι αποσκευές που δεν έχουν παραδοθεί πρέπει να αναφέρονται στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Μπορείτε να αναφέρετε την αποσκευή σας που έχει υποστεί κακομεταχείριση σε μας είτε τηλεφωνικά στο </value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>ΟΚ, εντάξει για την ώρα!</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>Επίπεδο Υπηρεσίας:</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>Η ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΔΕΝ ΕΠΙΣΤΡΕΦΕΤΑΙ ΟΥΤΕ ΜΕΤΑΒΙΒΑΖΕΤΑΙ. ΔΕΝ ΘΑ ΕΚΔΙΔΟΝΤΑΙ ΕΠΙΣΤΡΟΦΕΣ Ή ΠΙΣΤΩΤΙΚΑ ΣΗΜΕΙΩΜΑΤΑ. ΑΝ ΜΑΤΑΙΩΘΕΙ Η ΠΤΗΣΗ ΣΑΣ ΚΑΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΣΕ ΆΛΛΗ ΠΤΗΣΗ ΑΝΤ' ΑΥΤΗΣ, ΠΡΕΠΕΙ ΕΙΤΕ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΛΛΑΓΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ&amp;#39;S Ή ΝΑ ΑΓΟΡΑΣΕΤΕ ΝΕΑ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗ ΝΕΑ ΣΑΣ ΠΤΗΣΗ. ΟΛΕΣ ΟΙ ΑΛΛΑΓΕΣ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕ EMAIL ΣΤΟ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ΚΑΙ ΣΗΜΕΙΩΣΗ ΤΟΥ ΑΡΙΘΜΟΥ ΣΥΜΦΩΝΙΑΣ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΑΣ ΣΤΗΝ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ. ΣΤΟ ΣΩΜΑ ΤΟΥ EMAIL ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΕΤΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΣΑΣ ΕΤΑΙΡΙΑ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΣΑΣ ΕΤΑΙΡΙΑΣ, ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΑΡΧΙΚΗΣ ΣΑΣ ΠΤΗΣΗΣ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ. ΑΝ ΑΛΛΑΖΕΙ ΚΑΙ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, ΠΡΕΠΕΙ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>ή online στο </value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>Η ΕΠΕΞΕΡΓΑΣΙΑ ΤΗΣ ΠΛΗΡΩΜΗΣ ΣΑΣ ΟΛΟΚΛΗΡΩΘΗΚΕ ΜΕ ΕΠΙΤΥΧΙΑ</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>Επιβεβαίωση Πληρωμής: </value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>Πληροφορίες Πληρωμής</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>Παρακαλούμε φροντίστε να κρατήσετε τις πληροφορίες παρακολούθησης της αποσκευής (αριθμός φακέλου αναφοράς/εντοπιστή) που σας δίνει η αεροπορική εταιρία όταν καταχωρείτε μια απαίτηση χαμένης αποσκευής, καθώς η  Blue Ribbon Bags θα χρειαστεί τις πληροφορίες αυτές για να επεξεργαστεί την αναφορά σας για την αποσκευή που έχει υποστεί κακή μεταχείριση. Οι αποσκευές που δεν παραδίδονται πρέπει να αναφέρονται στην  Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης σας.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>Παρακαλούμε κρατήστε τον αριθμό αυτής της συμφωνίας υπηρεσίας για το αρχείο σας, καθώς θα τον χρειαστείτε για να αναφέρετε σε μας την αποσκευή σας που έχει υποστεί κακή μεταχείριση, σε περίπτωση που δεν παραδοθεί.</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>Σας ευχαριστούμε πολύ που επιλέξατε την υπηρεσία της Blue Ribbon Bags για τις αποσκευές σας. Μπορείτε να είστε βέβαιοι ότι θα κάνουμε αυτήν τη διαδικασία κατά το δυνατόν απλούστερη για σας.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>Σας ευχαριστούμε πολύ για τη συνεργασία και καλό ταξίδι. </value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>Συνολική χρέωση:</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>Είμαστε εδώ για να σας βοηθάμε 24 ώρες το 24ωρο, 7 ημέρες την εβδομάδα. Ταξιδεύετε με ασφάλεια και χωρίς έγνοια!</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>Τι πρέπει να κάνετε αν δεν φτάσει η αποσκευή σας:</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>Ο αριθμός της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags είναι</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>Οι αριθμοί της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags είναι</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>Οι πληροφορίες για την πληρωμή σας εμφανίζονται παρακάτω. Αν έχετε οποιαδήποτε ερώτηση, παρακαλούμε μη διστάσετε να επικοινωνήσετε με την Blue Ribbon Bags στέλνοντας ένα email στο</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>Η Συμφωνία σας για την Υπηρεσία είναι διαθέσιμη online στο</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>Ρωτήστε μας για το Bill Me Later (Χρεώστε Με Αργότερα). Με αυτόν τον τρόπο δεν θα χρειαστεί να προβαίνετε σε πληρωμές για κάθε συναλλαγή και μπορείτε να λαμβάνετε ένα τιμολόγιο με καθαρή αξία, χωρίς την προμήθειά σας στο τέλος κάθε μήνα! Στείλτε απλώς ένα email στο  &lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt; και βάλτε “Bill Me Later” (Χρεώστε Με Αργότερα) στη γραμμή του θέματος.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>Β2Β</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>Β2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>Πληροφορίες παράδοσης αποσκευής</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>Όνομα Τράπεζας</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>Αυτή η γλώσσα θα χρησιμοποιείται για υπηρεσίες για τις οποίες δεν υπάρχει ρύθμιση γλώσσας στο αρχείο που έχει ανέβει</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>Όλοι {0} οι επιβάτες της υπηρεσίας πρέπει να έχουν τον ίδιο Κωδικό Προσφοράς</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Διεύθυνση Τιμολόγησης</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>Καθαρισμός όλων των πεδίων</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>Αποστολή Εγγραφής</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>Το ποσό επικύρωσης που εισήχθη δεν είναι σωστό. Παρακαλούμε επανεισαγάγετε το ποσό επικύρωσης.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value> Έλεγχος </value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>ΟΛΟΚΛΗΡΩΣΗ ΑΓΟΡΑΣ</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>ΟΛΟΚΛΗΡΩΣΗ ΑΓΟΡΑΣ</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>Προετοιμασία εξόδου υπηρεσίας(ών)</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>Επεξεργασία {0} υπηρεσίας… </value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>Έξοδος επεξεργασίας {0} υπηρεσίας...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Τέλος επεξεργασίας {0} υπηρεσίας...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>Επεξεργασία  {0} κωδικού(ών) προσφοράς υπηρεσίας… </value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>Επικύρωση  {0} υπηρεσίας...</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>Ο λογαριασμός πράκτορα που διατηρείτε θα τιμολογηθεί για</value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>Εγκρίθηκε</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>Παρακαλούμε, επιλέξτε τρόπο πληρωμής</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>Ολοκλήρωση</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>Επιβεβαίωση Πληρωμής</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>Επιβεβαίωση Πληρωμής</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>Επιθυμείτε να επιβεβαιώσετε την αγορά;</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>Επιθυμείτε να επιβεβαιώσετε τη συναλλαγή;</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>Αριθμός Πιστωτικής Κάρτας</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>Η Πιστωτική σας Κάρτα θα χρεωθεί με</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>Εισαγάγετε τα στοιχεία της κάρτας σας</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>Για ορισμένες υπηρεσίες δεν έγινε σωστά η έξοδος, η διαδικασία αγοράς δεν μπορεί να ολοκληρωθεί.</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>Αποτυχία</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>Επιστροφή</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>ΜΗ ΕΓΚΥΡΗ ΛΕΙΤΟΥΡΓΙΑ</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>Μέγιστη Κάλυψη Απώλειας:</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>Όχι, Ακύρωση</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>Αρίθμηση Επιβάτη:</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>Πληρώστε Τώρα</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>Εκκρεμεί</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>Ή παρακαλούμε δώστε στοιχεία Πιστωτικής Κάρτας παρακάτω για να ολοκληρώσετε την διαδικασία πληρωμής της Συμφωνίας Υπηρεσίας.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>Ανασκόπηση Στοιχείων</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>Το κέρδος σας:</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>Επίπεδο Υπηρεσίας:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>Αριθμός Υπηρεσίας:</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>Κόστος Υπηρεσίας:</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>Σύνοψη Υπηρεσιών</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>Επιβεβαιώστε την αγορά υπηρεσιών σας - ΕΞΟΔΟΣ </value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>Επαληθεύστε τις παρακάτω πληροφορίες και, εάν είναι σωστό, πατήστε το κουμπί Επιβεβαίωση πληρωμής.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Πόλη</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Καθαρισμός </value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>Σειρά {0}: {1} η στήλη δεν μπορεί να είναι κενή</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>{0} η στήλη δεν υπάρχει στο αρχείο που ανέβηκε. Παρακαλούμε κατεβάστε ένα ενημερωμένο υπόδειγμα.</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Επιβεβαίωση Password</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>Επιβεβαίωση Email</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>Ομάδα Εξυπηρέτησης Πελατών Blue Ribbon Bags</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>Όλα τα ερωτήματα θα απαντώνται με email κατά το δυνατό συντομότερα. Παρακαλούμε φροντίστε να συμπεριλάβετε όλα τα στοιχεία επικοινωνίας, συμπεριλαμβανομένων αριθμών τηλεφώνου, ώστε να μπορούμε να επικοινωνήσουμε μαζί σας τηλεφωνικώς αν παραστεί ανάγκη.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>Στείλτε μας Μήνυμα</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>Στείλτε Μήνυμα</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>Όλα τα ερωτήματα θα απαντώνται με email κατά το δυνατό συντομότερα. Παρακαλούμε φροντίστε να συμπεριλάβετε όλα τα στοιχεία επικοινωνίας, συμπεριλαμβανομένων αριθμών τηλεφώνου, ώστε να μπορούμε να επικοινωνήσουμε μαζί σας τηλεφωνικώς αν παραστεί ανάγκη.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>Για πελάτες ή γενικά ερωτήματα, παρακαλούμε επικοινωνήστε μαζί μας στο:</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>Για ταξιδιωτικούς πράκτορες, παρακαλούμε επικοινωνήστε μαζί μας στο:</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>Για να καταχωρήσετε μια νέα Αναφορά Αποσκευής που Έχει Υποστεί Κακή Μεταχείριση καλέστε +1 (888) BAGGAGE  (+1 (888) 224-4243) ή επισκεφθείτε το &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;. Σημείωση: ο αριθμός αυτός δεν θα έχει λεπτομέρειες για τυχόν υπάρχουσες αναφορές αποσκευών.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>Για οποιαδήποτε λεπτομέρεια σχετικά με υπάρχουσες Αναφορές Αποσκευών που έχουν υποστεί Κακή Μεταχείριση παρακαλούμε επισκεφθείτε το &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; ή στείλετε email στο  &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt; με τον αριθμό MBR στη γραμμή του θέματος.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>Σας ευχαριστούμε!</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>Επικοινωνήστε μαζί μας</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Χώρα</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>Υπηρεσία Καθυστερημένων Αποσκευών</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>Εξ ορισμού Γλώσσα Email</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>ΌΛΑ</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value> -- ΚΑΝΕΝΑ --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>ΆΛΛΟ</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>Παρακαλούμε Επιλέξτε</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>ΑΝΕΚΧΩΡΗΤΟ</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>Επιλέξτε Γλώσσα Email για τον Επιβάτη</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>Αυτό καλύπτει όλες σας τις πτήσεις από  &lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>Αυτό καλύπτει τις πτήσεις σας με την αεροπορική εταιρία &lt;b&gt;{0}&lt;/b&gt; με αριθμό επιβεβαίωσης &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>Η ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΔΕΝ ΕΠΙΣΤΡΕΦΕΤΑΙ ΟΥΤΕ ΜΕΤΑΒΙΒΑΖΕΤΑΙ. ΔΕΝ ΘΑ ΕΚΔΙΔΟΝΤΑΙ ΕΠΙΣΤΡΟΦΕΣ Ή ΠΙΣΤΩΤΙΚΑ ΣΗΜΕΙΩΜΑΤΑ. ΑΝ ΜΑΤΑΙΩΘΕΙ Η ΠΤΗΣΗ ΣΑΣ ΚΑΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΣΕ ΆΛΛΗ ΠΤΗΣΗ ΑΝΤ' ΑΥΤΗΣ, ΠΡΕΠΕΙ ΕΙΤΕ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΛΛΑΓΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ&amp;#39;S Ή ΝΑ ΑΓΟΡΑΣΕΤΕ ΝΕΑ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗ ΝΕΑ ΣΑΣ ΠΤΗΣΗ. ΟΛΕΣ ΟΙ ΑΛΛΑΓΕΣ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS  ΜΕ EMAIL ΣΤΟ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ΚΑΙ ΣΗΜΕΙΩΣΗ ΤΟΥ ΑΡΙΘΜΟΥ ΣΥΜΦΩΝΙΑΣ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΑΣ ΣΤΗΝ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ. ΣΤΟ ΣΩΜΑ ΤΟΥ EMAIL ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΕΤΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΣΑΣ ΕΤΑΙΡΙΑ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΣΑΣ ΕΤΑΙΡΙΑΣ, ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΑΡΧΙΚΗΣ ΣΑΣ ΠΤΗΣΗΣ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ. ΑΝ ΑΛΛΑΖΕΙ ΚΑΙ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, ΠΡΕΠΕΙ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>Η ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΔΕΝ  ΜΕΤΑΒΙΒΑΖΕΤΑΙ. ΔΕΝ ΘΑ ΕΚΔΙΔΟΝΤΑΙ ΕΠΙΣΤΡΟΦΕΣ Ή ΠΙΣΤΩΤΙΚΑ ΣΗΜΕΙΩΜΑΤΑ. ΑΝ ΜΑΤΑΙΩΘΕΙ Η ΠΤΗΣΗ ΣΑΣ ΚΑΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΣΕ ΆΛΛΗ ΠΤΗΣΗ ΑΝΤ' ΑΥΤΗΣ, ΠΡΕΠΕΙ ΕΙΤΕ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΛΛΑΓΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ&amp;#39;S Ή ΝΑ ΑΓΟΡΑΣΕΤΕ ΝΕΑ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗ ΝΕΑ ΣΑΣ ΠΤΗΣΗ. ΟΛΕΣ ΟΙ ΑΛΛΑΓΕΣ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕ EMAIL ΣΤΟ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ΚΑΙ ΣΗΜΕΙΩΣΗ ΤΟΥ ΑΡΙΘΜΟΥ ΣΥΜΦΩΝΙΑΣ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΑΣ ΣΤΗΝ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ. ΣΤΟ ΣΩΜΑ ΤΟΥ EMAIL ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΕΤΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΣΑΣ ΕΤΑΙΡΙΑ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΣΑΣ ΕΤΑΙΡΙΑΣ, ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΑΡΧΙΚΗΣ ΣΑΣ ΠΤΗΣΗΣ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ. ΑΝ ΑΛΛΑΖΕΙ ΚΑΙ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, ΠΡΕΠΕΙ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>Διεύθυνση Email</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>Αποστείλατε Σχετ</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Ημερομηνία Λήξης</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>Πληροφορίες Άφιξης Πτήσης</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>Συμφωνία υπηρεσίας Blue Ribbon Bags</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>Χαρακτηριστικά Υπηρεσίας Αποσκευών</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>Επικοινωνήστε μαζί μας</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Copyright 2019 Blue Ribbon Bags, LLC. Εκκρεμεί Διεθνής και US Ευρεσιτεχνία.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>Κάθε αγορά υπόκειται στους όρους και τις προϋποθέσεις του</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>Φάκελος Αναφοράς Αποσκευής που έχει υποστεί Κακή Μεταχείριση</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>οικία</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>Οι υποχρεώσεις της Blue Ribbon Bags καλύπτονται από ασφαλιστική εταιρία κατηγορίας Α- (Άριστη) από την by A.M. Best Company.</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>Αγορά Υπηρεσίας Αποσκευών</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Από</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>*Μπορείτε να τροποποιήσετε τις πληροφορίες σας πατώνας το πλήκτρο “Go Back” (πίσω) χωρίς να χρειάζεται να επανεισαγάγετε τις προηγούμενες πληροφορίες σας.</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>Πράκτορας/Πωλητής</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>Αριθμός Επιβεβαίωσης Αεροπορικής Εταιρίας </value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>Όνομα Αεροπορικής Εταιρίας</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Τροποποίηση</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>Αριθμός Επιβατών:</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>Προϊόν</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>Ημερομηνία Αγοράς</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>Κόστος Υπηρεσίας</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>Αριθμός Υπηρεσίας BRB </value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>ΜΟΝΟ ΜΕ $5,00, Η &lt;/br&gt;BRB ΘΑ ΠΑΡΑΚΟΛΟΥΘΕΙ ΚΑΙ ΘΑ ΕΠΙΣΠΕΥΣΕΙ ΤΗΝ ΕΠΙΣΤΡΟΦΗ ΤΗΣ ΑΠΟΣΚΕΥΗΣ ΣΑΣ ΠΟΥ ΔΕΝ ΠΑΡΑΔΟΘΗΚΕ &lt;/br&gt;ΑΠΌ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ.</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>Ταξιδεύετε με Ασφάλεια και Χωρίς Έγνοιες</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>ΑΜ ΔΕΝ ΒΡΕΘΟΥΝ ΟΙ ΑΠΟΣΚΕΥΕΣ ΣΑΣ&lt;br /&gt;ΜΕΤΑ ΑΠΟ 96 ΩΡΕΣ &lt;br /&gt;Η BRB ΘΑ ΣΑΣ ΣΤΕΙΛΕΙ $1000, ΑΝΑ ΑΠΟΣΚΕΥΗ, ΕΓΓΥΗΜΕΝΑ.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>Αληθινή Ηρεμία Πνεύματος &lt;br /&gt; είναι Blue Ηρεμία Πνεύματος</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>Αναφορά Απωλεσθείσας Αποσκευής </value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>Μην ξεχάσετε να ενημερώσετε πρώτα την αεροπορική εταιρία ότι η αποσκευή σας δεν έφτασε στον τελικό προορισμό της πτήσης σας.
+Η αεροπορική εταιρία θα δώσει τις απαραίτητες πληροφορίες παρακολούθησης για την καταχώρηση αναφοράς στην Blue Ribbon Bags.
+Όλες οι απωλεσθείσες αποσκευές πρέπει να αναφέρονται στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης του επιβάτη.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>Καταχώρηση Αναφοράς</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>Μπορείτε επίσης να Αναφέρετε την Απωλεσθείσα Αποσκευή σας τηλεφωνικά στο 888-BAGGAGE (888-224-4243) 24 ώρες το 24ωρο, 7 μέρες την εβδομάδα.</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>Οι Εταίροι μας</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>Πού φτάνουμε</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>21 εκατομμύρια</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>Αποσκευές που έχουν φτάσει σε Λάθος Προορισμό Ετησίως</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>Αεροπορικές εταιρίες που Καλύπτονται</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>Ημερήσιες Πτήσεις Σε όλον τον Κόσμο</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>Τι Λένε οι Άλλοι</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>Στις Ειδήσεις</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>Διαβάστε Περισσότερα</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>Η εξυπηρέτηση πελατών είναι εξαιρετική και αυτή η υπηρεσία προστασία αποσκευών της  Blue Ribbon Bags είναι φ…</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>Αν ανησυχείτε για απώλεια αποσκευών, υπάρχει τώρα μια εφαρμογή γι' αυτό… η  Blue Ribbon Bags ήδη...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>Σήμερα, αυτή είναι επίσης η μόνη διαθέσιμη κάλυψη αυτού του τύπου για απώλεια αποσκευών που μπορεί να...</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>Όποιος έχει χάσει αποσκευή από αεροπορική εταιρία γνωρίζει τι εφιάλτης... αλλά η Blue Ribbon Bags ...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>Αγορά Υπηρεσίας Αποσκευών</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>Πατήστε &lt;b&gt;LOGIN&lt;/b&gt; για να αγοράσετε κάλυψη Blue Ribbon Bags για τους πελάτες σας.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>Πατήστε &lt;b&gt;REGISTER&lt;/b&gt; για να καταχωρίσετε το πρακτορείο σας ώστε να μπορείτε να πωλείτε κάλυψη Blue Ribbon Bags στους πελάτες σας.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>*Η Αμοιβή Συμφωνίας Υπηρεσίας είναι κατ' άτομο. Η Πληρωμή Εγγύησης Ικανοποίησης είναι ανά αποσκευή.</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>*Οι πληρωμές περιορίζονται σε 2 αποσκευές που δεν έχουν παραδοθεί ανά άτομο.</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>Καταχώρηση Αναφοράς Αποσκευής που έχει υποστεί Κακή Μεταχείριση</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>ΜΟΝΟ ΜΕ US$5,00, Η BRB ΘΑ ΠΑΡΑΚΟΛΟΥΘΕΙ ΚΑΙ ΘΑ ΕΠΙΣΠΕΥΣΕΙ ΤΗΝ ΕΠΙΣΤΡΟΦΗ ΤΩΝ ΑΠΟΣΚΕΥΩΝ ΣΑΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>Περισσότερες πληροφορίες; Μπορείτε πάντα να επικοινωνείτε με email:</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>Δεν απαιτούνται αποδείξεις για το περιεχόμενο των αποσκευών για να πληρωθείτε.</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Η Blue Ribbon Bags προσφέρει τρία επίπεδα εγγύησης ικανοποίησης υπηρεσίας αποσκευών:</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>Η BRB καταβάλλει US$1000, εγγυημένα, για κάθε αποσκευή που δεν παραδίδεται μετά από 4 ημέρες απώλειας.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>Αγορά  </value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>ΑΜΟΙΒΗ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>ΠΛΗΡΩΜΗ ΕΓΓΥΗΣΗΣ ΙΚΑΝΟΠΟΙΗΣΗΣ</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>Ταξιδιωτικοί Πράκτορες</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>Αποσκευές που δεν έχουν παραδοθεί; &amp;nbsp; Αναφέρετε στο:</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>Συμφωνώ</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Ανενεργός</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>Πρέπει να ανέβει ένα έγκυρο αρχείο XSLX.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>Καλωσήρθατε</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>Χρειάζομαι νέο password</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>Θυμηθείτε το login</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>Login στην Blue Ribbon Bags</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>Το User ID και/ή το Password δεν αναγνωρίζονται. Το password είναι  CASE sensitive (ευαίσθητο στη διάκριση πεζών/κεφαλαίων). Παρακαλούμε βεβαιωθείτε ότι δεν είναι ενεργοποιημένη η ρύθμιση Caps Lock. Παρακαλούμε επανεισαγάγετε το User Name και το Password σας ή επικοινωνήστε με τον διαχειριστή σας για να οριστεί το password σας εκ νέου.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>Πληροφορίες Απωλεσθείσας Αποσκευής</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>Η αποσκευή που παραδώσατε δεν φτάνει στον προορισμό σας.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>Καταχωρείτε απαίτηση για απωλεσθείσα αποσκευή στην αεροπορική εταιρία με αεροσκάφος της οποίας έπρεπε να έχει φτάσει η αποσκευή σας και η αεροπορική εταιρία σας δίνει έναν αριθμό φακέλου  αναφοράς ή έναν αριθμό φακέλου εντοπιστή.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>Αναφέρετε μια αποσκευή που έχει υποστεί κακή μεταχείριση στην Blue Ribbon Bags μέσα σε 24 ώρες από την άφιξη της πτήσης σας.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>Η αποσκευή σας δεν σας επιστρέφεται μέσα σε τέσσερις (4) μέρες από την ημερομηνία άφιξης της πτήσης σας, όπως τεκμηριώνεται από την αεροπορική εταιρία.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>ΜΙΑ ΑΓΟΡΑ (US$5) ΚΑΛΥΠΤΕΙ ΟΛΕΣ ΤΙΣ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΠΑΡΑΔΟΘΗΚΑΝ ΣΤΟ ΑΕΡΟΔΡΟΜΙΟ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΠΑΡΑΔΟΘΗΚΑΝ ΣΤΗΝ ΠΥΛΗ ΤΗΝ ΤΕΛΕΥΤΑΙΑ ΣΤΙΓΜΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΠΤΗΣΗ ΣΑΣ. </value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt;ΘΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΣΤΟΝ ΕΠΙΒΑΤΗ ΑΥΤΟΜΑΤΕΣ ΕΙΔΟΠΟΙΗΣΕΙΣ ΜΕ EMAIL ΚΑΘΕ ΦΟΡΑ ΠΟΥ ΘΑ ΥΠΑΡΧΕΙ ΜΙΑ ΑΛΛΑΓΗ ΣΤΗΝ ΚΑΤΑΣΤΑΣΗ ΤΩΝ ΑΠΟΣΚΕΥΩΝ ΤΟΥΣ. ΔΕΝ ΧΡΕΙΑΖΕΤΑΙ ΝΑ ΕΠΙΚΟΙΝΩΝΟΥΝ ΟΙ ΕΠΙΒΑΤΕΣ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΓΙΑ ΝΑ ΜΑΘΑΙΝΟΥΝ ΤΗΝ ΚΑΤΑΣΤΑΣΗ ΤΩΝ ΑΠΟΣΚΕΥΩΝ ΤΟΥΣ.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>&lt;b&gt;ΔΕΝ&lt;b&gt; ΑΠΑΙΤΕΙΤΑΙ ΤΕΚΜΗΡΙΩΣΗ (ΑΠΟΔΕΙΞΕΙΣ) ΓΙΑ ΤΟ ΠΕΡΙΕΧΟΜΕΝΟ ΤΩΝ ΑΠΟΣΚΕΥΩΝ ΓΙΑ ΝΑ ΠΛΗΡΩΘΕΙΤΕ.  </value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>ΟΙ ΠΛΗΡΩΜΕΣ ΠΕΡΙΟΡΙΖΟΝΤΑΙ ΣΕ 2 ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ ΑΝΑ ΑΤΟΜΟ.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>ΟΙ ΠΛΗΡΩΜΕΣ ΕΙΝΑΙ ΕΓΓΥΗΜΕΝΕΣ, ΑΚΟΜΑ ΚΙ ΑΝ ΟΙ ΑΠΟΣΚΕΥΕΣ ΣΑΣ ΕΜΦΑΝΙΣΤΟΥΝ ΟΠΟΙΑΔΗΠΟΤΕ ΣΤΙΓΜΗ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 96 ΩΡΩΝ.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>ΚΛΟΠΗ, ΑΠΩΛΕΙΑ ΠΕΡΙΕΧΟΜΕΝΟΥ Ή ΚΑΤΑΣΤΡΟΦΗ ΑΠΟΣΚΕΥΗΣ ΔΕΝ ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΝΤΑΙ ΣΤΗΝ ΥΠΗΡΕΣΙΑ. Η ΚΑΛΥΨΗ ΙΣΧΥΕΙ ΜΟΝΟ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. &lt;b&gt;ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΣΑ ΣΕ 24 ΩΡΕΣ ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>Η BRB ΠΩΛΕΙ ΥΠΗΡΕΣΙΑ. Η ΚΑΤΟΧΗ ΜΙΑΣ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ BRB ΕΙΝΑΙ ΕΠΙΠΡΟΣΘΕΤΗ ΣΕ ΚΑΘΕ ΑΣΦΑΛΕΙΑ ΠΟΥ ΕΝΔΕΧΕΤΑΙ ΝΑ ΕΧΕΤΕ ΚΑΙ ΟΧΙ ΑΝΤ'ΑΥΤΗΣ. ΑΦΟΥ ΕΙΣΠΡΑΞΕΤΕ ΤΗΝ ΕΠΙΤΑΓΗ ΣΑΣ ΑΠΟ ΤΗΝ BRB, ΜΠΟΡΕΙΤΕ ΝΑ ΔΕΧΤΕΙΤΕ ΚΑΙ ΠΛΗΡΩΜΕΣ ΑΠΟ ΑΣΦΑΛΕΙΑ.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>Η ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΔΕΝ ΕΠΙΣΤΡΕΦΕΤΑΙ ΟΥΤΕ ΜΕΤΑΒΙΒΑΖΕΤΑΙ. ΔΕΝ ΘΑ ΕΚΔΙΔΟΝΤΑΙ ΕΠΙΣΤΡΟΦΕΣ  Ή ΠΙΣΤΩΤΙΚΑ ΣΗΜΕΙΩΜΑΤΑ. ΑΝ ΜΑΤΑΙΩΘΕΙ Η ΠΤΗΣΗ ΣΑΣ ΚΑΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΣΕ ΑΛΛΗ ΠΤΗΣΗ ΑΝΤ' ΑΥΤΗΣ, ΠΡΕΠΕΙ ΕΙΤΕ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΛΛΑΓΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ&amp;#39;S Ή ΝΑ ΑΓΟΡΑΣΕΤΕ ΝΕΑ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗ ΝΕΑ ΣΑΣ ΠΤΗΣΗ. ΟΛΕΣ ΟΙ ΑΛΛΑΓΕΣ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕ EMAIL ΣΤΟ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ΚΑΙ ΣΗΜΕΙΩΣΗ ΤΟΥ ΑΡΙΘΜΟΥ ΣΥΜΦΩΝΙΑΣ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΑΣ ΣΤΗΝ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ. ΣΤΟ ΣΩΜΑ ΤΟΥ EMAIL ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΕΤΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΣΑΣ ΕΤΑΙΡΙΑ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΣΑΣ ΕΤΑΙΡΙΑΣ, ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΑΡΧΙΚΗΣ ΣΑΣ ΠΤΗΣΗΣ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ. ΑΝ ΑΛΛΑΖΕΙ ΚΑΙ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, ΠΡΕΠΕΙ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ.</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>ΜΠΟΡΕΙΤΕ ΝΑ ΑΓΟΡΑΣΕΤΕ ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΜΕΧΡΙ ΤΗΝ ΤΕΛΕΥΤΑΙΑ ΣΤΙΓΜΗ ΠΡΙΝ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΠΤΗΣΗΣ&amp;#39;S ΣΑΣ.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>ΚΑΘΕ ΑΓΟΡΑ (US$5) ΕΙΝΑΙ ΚΑΤ' ΑΤΟΜΟ, ΑΝΑ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΕΤΑΙΡΙΑΣ, ΑΣΧΕΤΩΣ ΑΡΙΘΜΟΥ ΣΤΑΣΕΩΝ Ή ΑΝΤΑΠΟΚΡΙΣΕΩΝ ΣΧΕΤΙΚΩΝ ΜΕ ΑΥΤΟΝ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΕΤΑΙΡΙΑΣ. ΕΙΣΙΤΗΡΙΑ ΜΕ ΕΠΙΣΤΡΟΦΗ ΜΕ ΕΝΑΝ ΜΟΝΟ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΛΥΠΤΟΝΤΑΙ ΜΕ ΜΙΑ ΑΓΟΡΑ.</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>ΑΝ ΓΙΝΕΙ ΧΩΡΙΣΤΗ ΚΡΑΤΗΣΗ ΓΙΑ ΠΟΛΛΕΣ ΠΤΗΣΕΙΣ ΚΑΙ ΕΧΟΥΝ ΔΙΑΦΟΡΕΤΙΚΟΥΣ ΑΡΙΘΜΟΥΣ ΕΠΙΒΕΒΑΙΩΣΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΕΤΑΙΡΙΑΣ, ΘΑ ΠΡΕΠΕΙ ΝΑ ΑΓΟΡΑΣΤΟΥΝ ΧΩΡΙΣΤΕΣ ΣΥΜΦΩΝΙΕΣ ΥΠΗΡΕΣΙΑΣ ΓΙΑ ΚΑΘΕ ΠΤΗΣΗ.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;ΜΟΝΟ ΓΙΑ ΠΡΑΚΤΟΡΕΣ&lt;/u&gt;: ΜΙΑ ΑΓΟΡΑ (US$5) ΕΙΝΑΙ ΚΑΤ' ΑΤΟΜΟ, ΑΝΑ PNR, ΑΣΧΕΤΩΣ ΑΡΙΘΜΟΥ ΑΝΤΑΠΟΚΡΙΣΕΩΝ Ή ΣΤΑΣΕΩΝ.   </value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>ΓΙΑ ΑΓΟΡΕΣ ΠΟΥ ΓΙΝΟΝΤΑΙ ΜΕΣΩ ΙΣΤΟΣΕΛΙΔΩΝ ΕΚΔΟΣΗΣ ΕΙΣΙΤΗΡΩΝ ONLINE: ΚΑΘΕ ΑΓΟΡΑ ΕΙΝΑΙ ΑΝΑ ΔΡΟΜΟΛΟΓΙΟ ΓΙΑ ΤΟ ΟΠΟΙΟ ΕΧΕΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΜΕΣΩ ΤΗΣ ΙΣΤΟΣΕΛΙΔΑΣ ONLINE, Η ΟΠΟΙΑ ΘΑ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΘΕΙ ΚΑΤΩ ΑΠΟ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΠΟΥ ΔΙΝΕΙ ΑΥΤΗ Η ΙΣΤΟΣΕΛΙΔΑ ΚΑΤΑ ΤΗΝ ΑΓΟΡΑ. ΤΥΧΟΝ ΑΛΛΑΓΕΣ ΣΤΟ ΔΡΟΜΟΛΟΓΙΟ ΠΟΥ ΣΥΜΒΑΙΝΟΥΝ ΕΚΤΟΣ ΚΡΑΤΗΣΗΣ ΣΤΗΝ ΙΣΤΟΣΕΛΙΔΑ ΘΑ ΑΠΑΙΤΟΥΝ ΑΓΟΡΑ ΧΩΡΙΣΤΗΣ ΥΠΗΡΕΣΙΑΣ ΓΙΑ ΤΥΧΟΝ ΚΡΑΤΗΣΕΙΣ ΣΕ ΝΕΕΣ ΠΤΗΣΕΙΣ. ΑΝ Η ΑΛΛΑΓΗ ΣΤΟ ΔΡΟΜΟΛΟΓΙΟ ΓΙΝΕΤΑΙ ΜΕΣΩ ΤΗΣ ΙΣΤΟΣΕΛΙΔΑΣ ΣΤΗΝ ΟΠΟΙΑ ΕΓΙΝΕ Η ΚΡΑΤΗΣΗ ΤΟΥ ΑΡΧΙΚΟΥ ΔΡΟΜΟΛΟΓΙΟΥ ΚΑΙ Ο ΑΡΙΘΜΟΣ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΟΥ ΕΠΙΒΑΤΗ ΓΙΑ ΤΟ ΑΡΧΙΚΟ ΔΡΟΜΟΛΟΓΙΟ ΠΑΡΑΜΕΝΕΙ Ο ΙΔΙΟΣ ΜΕΤΑ ΤΗΝ ΑΛΛΑΓΗ ΤΥΧΟΝ ΠΤΗΣΕΩΝ ΣΤΟ ΔΡΟΜΟΛΟΓΙΟ, ΔΕΝ ΘΑ ΑΠΑΙΤΕΙΤΑΙ ΝΑ ΠΑΡΕΙ Ο ΕΠΙΒΑΤΗΣ ΧΩΡΙΣΤΗ ΥΠΗΡΕΣΙΑ ΚΑΙ ΘΑ ΑΡΚΕΙ Η ΑΡΧΙΚΗ ΥΠΗΡΕΣΙΑ.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>Η BRB ΚΑΛΥΠΤΕΙ ΟΛΕΣ ΤΙΣ ΠΤΗΣΕΙΣ, ΣΕ ΟΛΕΣ ΤΙΣ ΑΕΡΟΠΟΡΙΚΕΣ ΕΤΑΙΡΙΕΣ, ΟΠΟΥΔΗΠΟΤΕ ΣΤΟΝ ΚΟΣΜΟ, ΑΣΧΕΤΩΣ ΤΟΥ ΑΠΟ ΠΟΥ ΠΡΟΕΡΧΕΤΑΙ Η ΠΤΗΣΗ ΣΑΣ.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>ΠΡΕΠΕΙ ΝΑ ΚΑΤΑΧΩΡΕΙΤΑΙ ΑΠΑΙΤΗΣΗ ΣΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΑΝΑΦΕΡΘΕΙ Η ΑΠΟΣΚΕΥΗ ΣΑΣ ΠΟΥ ΥΠΕΣΤΗ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ ΣΤΗΝ BLUE RIBBON BAGS.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>ΑΝΑΦΟΡΕΣ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ ΜΠΟΡΟΥΝ ΝΑ ΚΑΤΑΧΩΡΗΘΟΥΝ ONLINE ΣΤΟ &lt;a href="{0}" target="_blank"&gt;HERE&lt;/a&gt; Ή ΤΗΛΕΦΩΝΙΚΩΣ ΣΤΟ (888) BAGGAGE (+1 888-224-4243), 24 ΩΡΕΣ ΤΟ 24ΩΡΟ, 7 ΜΕΡΕΣ ΤΗΝ ΕΒΔΟΜΑΔΑ.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΣΑ ΣΕ 24 ΩΡΕΣ ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. Η ΥΠΗΡΕΣΙΑ  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΓΙΝΕΤΑΙ ΣΕΒΑΣΤΗ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ.</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>Καταχωρήστε απαίτηση στην αεροπορική σας εταιρία πριν επικοινωνήσετε με την Blue Ribbon Bags.</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>Καταχωρίστε Αναφορά Αποσκευής που υπέστη Κακή Μεταχείριση μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Αναφορά Αποσκευής που υπέστη Κακή Μεταχείριση μπορεί να καταχωρηθεί 24 ώρες το 24ωρο, 7 μέρες την εβδομάδα:</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>Online &lt;a href="{0}" target="_blank"&gt;HERE&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>Τηλεφωνικώς στο (888) BAGGAGE (+1 888-224-4243)</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Η Blue Ribbon Bags θα αρχίσει την υπηρεσία παρακολούθησης και επίσπευσης της επιστροφής της αποσκευής σας. Ο επιβάτης θα λαμβάνει αυτόματες ειδοποιήσεις με email κάθε φορά που θα υπάρχει μια αλλαγή στην κατάσταση των αποσκευών του.&lt;br /&gt;&lt;strong&gt;Οι επιβάτες δεν χρειάζεται να επικοινωνούν με την αεροπορική εταιρία για να μαθαίνουν την κατάσταση των αποσκευών τους.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Η Blue Ribbon Bags θα βρει την αποσκευή σας μέσα σε 96 ώρες από την προσγείωση της πτήσης σας ή θα σας στείλει το εγγυημένο ποσό ένα λεπτό μετά την εκπνοή της προθεσμίας των 96 ωρών.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>Υπάρχει κάτι άλλο που θα πρέπει να έχω υπόψη;</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>Τι κάνω αν χαθεί η αποσκευή μου;</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>Πώς θα γνωρίζω αν δικαιούμαι πληρωμή;</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Η Blue Ribbon Bags (BRB) προσφέρει μια μοναδική υπηρεσία που παρακολουθεί και επισπεύδει την ανάκτηση κακομεταχειρισμένης αποσκευής επιβάτη κατά τις πρώτες 96 ώρες που δεν έχει παραδοθεί. Αν η Blue Ribbon Bags δεν μπορεί να διευκολύνει την επιστροφή της αποσκευής του επιβάτη μέσα σ' αυτό το χρονικό διάστημα, η BRB θα στείλει στον επιβάτη την πληρωμή της Εγγύησης Ικανοποίησης.Οι πληρωμές είναι εγγυημένες, ακόμα κι αν η αποσκευή επιστραφεί στον πελάτη ΟΠΟΙΑΔΗΠΟΤΕ ΣΤΙΓΜΗ μετά την παρέλευση της περιόδου των 96 ωρών.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>Χαρακτηριστικά Υπηρεσίας Αποσκευών</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>Διεύθυνση Μόνιμης Κατοικίας Επιβάτη</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>Αριθμός διαδρομής ABA</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>Αριθμός Λογαριασμού:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>Αριθμός Συμφωνίας Υπηρεσίας</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>Αριθμός Επιβεβαίωσης Αεροπορικής Εταιρίας</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>Ημερομηνία Άφιξης Πτήσης</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>Αριθμός  Άφιξης Πτήσης</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>Ώρα Άφιξης Πτήσης</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; ΡΩΤΗΣΤΕ ΤΟΝ ΚΑΛΩΝΤΑ: Η πτήση σας αφίχθη εντός Ηνωμένων Πολιτειών ή εκτός Ηνωμένων Πολιτειών;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; ΠΡΑΚΤΟΡΑΣ: παρακαλούμε διαβάστε μία από τις δύο παραγράφους που παρατίθενται παρακάτω βάσει της απάντησης του καλώντος:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>Επισυνάψτε  BIR/PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>Αριθμός Ετικέτας Αποσκευής</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>Πριν αναφέρετε αποσκευές με κακή μεταχείριση στην Blue Ribbon Bags, πρέπει πρώτα να ειδοποιήσετε την αεροπορική εταιρία ότι η
+αποσκευή δεν έφτασε στον τελικό προορισμό της πτήσης σας. Η αεροπορική εταιρία θα σας έχει δώσει τις πληροφορίες παρακολούθησης που θα χρειαστείτε για να καταχωρήσετε την αναφορά κακομεταχειρισμένης αποσκευής παρακάτω.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>Διεύθυνση Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>Πόλη Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>Χώρα Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>Ηλεκτρονική Διεύθυνση Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>Όνομα Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>Επώνυμο Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>Τηλέφωνο Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>Πολιτεία Δικαιούχου</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας Δικαιούχου</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>Πατήστε στη σειρά για επιλογή</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>Επιβεβαιώστε Ηλεκτρονική Διεύθυνση</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>Πατήστε για αντιγραφή αν η διεύθυνση είναι ακριβώς η ίδια με παραπάνω</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>Παρακαλούμε επιλέξτε γλώσσα για τις ειδοποιήσεις με email.</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>Γλώσσα email</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>Έχετε {0}από τη στιγμή που θα σταλεί αυτό το email για να προβείτε στις απαιτούμενες αλλαγές με τις σωστές πληροφορίες. Αν δεν απαντήσετε με τις σωστές πληροφορίες μέσα στην χρονικών περίοδο των {0}, δεν θα γίνει δεκτή η αναφορά για την αποσκευή σας που έχει υποστεί κακή μεταχείριση. Η αναφορά σας δεν θα γίνει δεκτή ακόμα και αν υποβληθεί εκ νέου.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>Ο αριθμός αναφοράς Φακέλου που υποβάλατε δεν είναι έγκυρος. Θα πρέπει να επικοινωνήσετε με την αεροπορική σας εταιρία και να τους ζητήσετε να σας δώσουν αμέσως έναν έγκυρο αριθμό αναφοράς φακέλου.Ο αριθμός αυτός πρέπει να δοθεί σε μας μέσα σε 24 ώρες από την προσγείωση της πτήσης σας για να προβούμε σε επεξεργασία της αναφοράς σας. Η  Blue Ribbon Bags δεν ανακτά αριθμούς αναφοράς φακέλων για λογαρισμό του επιβάτη.&lt;br/&gt;
+Είναι ευθύνη του επιβάτη να συγκεντρώσει αυτές τις πληροφορίες από την αεροπορική εταιρία και να μας τις δώσει μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Αν δεν λάβουμε έγκυρο αριθμό αναφοράς φακέλου μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η αναφορά σας δεν θα γίνει δεκτή και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευής ή την πληρωμή εγγυημένης ικανοποίησης. Δεν θα ανοίξουμε εκ νέου το φάκελό σας, ασχέτως περιστάσεων, αν οι πληροφορίες αυτές δοθούν οιαδήποτε στιγμή μετά την 24ωρη προθεσμία από την προσγείωση της πτήσης σας.&lt;br/&gt;
+Αν έχετε ήδη υποβάλει σε μας αντίγραφο της Αναφοράς σας όπως σας έχει δοθεί από την αεροπορική εταιρία όταν καταχωρήσατε την απαίτηση για την απωλεσθείσα αποσκευή σας και εξακολουθείτε να λαμβάνετε αυτό το email, σημαίνει ότι η αεροπορική εταιρία δεν σας έχει δώσει έγκυρο αριθμό αναφοράς φακέλου και πρέπει να επικοινωνήσετε μαζί τους για να ανακτήσετε τέτοιο αριθμό αμέσως και να μας τον δώσετε μέσα σε 24 ώρες από την προσγείωση της πτήσης σας.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>Εισαγάγετε τις παρακάτω πληροφορίες από την απαίτηση αποσκευής από την αεροπορική σας εταιρία:</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε τον Αριθμό Συμφωνίας Υπηρεσίας της  Blue Ribbon Bags:</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>Αριθμός  Αναφοράς Φακέλου ή Αριθμός Εντοπιστή Φακέλου</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>Ο αριθμός αναφοράς φακέλου που πρέπει να σας έχει δοθεί θα έχει έναν 5ψήφιο αριθμητικό κωδικό μετά τον κωδικό αεροδρομίου και αεροπορικής εταιρίας στη Δήλωση Απώλειας/Φθοράς Περιουσίας σας. Για παράδειγμα: MCOAF12345. &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>Αριθμός Αναφοράς Φακέλου</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>Αναφορά Φακέλου</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>Όνομα Ξενοδοχείου:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>Αν ο επιβάτης αναχωρεί από αυτόν τον προορισμό μέσα στην περίοδο των 96 ωρών και επιθυμείτε να γνωρίζει η BRB αυτές τις περιστάσεις,
+ώστε να μπορέσει η αποσκευή σας να παραδοθεί σωστά, παρακαλούμε στείλτε μας ένα email στο &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,
+και βάλτε τον αριθμό MBR που σας δόθηκε κατά την καταχώρηση της αναφοράς σας στη γραμμή του θέματος και δώστε μας όσο περισσότερες λεπτομέρειες είναι δυνατό για την κατάστασή σας.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>Αριθμός MBR </value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>Όνομα Τράπεζας:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>Λυπούμαστε, αλλά δεν μπορεί να γίνει επεξεργασία αυτής της αναφοράς και συνεπώς οι πληροφορίες αυτές δεν μπορούν να διορθωθούν περαιτέρω. Σας ευχαριστούμε που επιλέξατε την Blue Ribbon Bags. Ταξιδεύετε με ασφάλεια και χωρίς έγνοια!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>Δεν βρέθηκε αποτέλεσμα στην αναζήτησή σας</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>Απαιτείται να υποβάλετε ένα αντίτυπο της αναφοράς, όπως αυτή διατίθεται από την αεροπορική εταιρεία όταν υποβάλετε στην αεροπορική εταιρεία την αξίωσή σας για αποσκευές που έχετε χάσει, σε Blue Ribbon Bags εντός 24 ωρών από την προσγείωση της πτήσης σας ούτως ώστε να ολοκληρώσετε τη διαδικασία υποβολής Αναφοράς Κακοδιαχειρισθεισών αποσκευών. Εάν δεν υποβάλετε ένα αντίτυπο αυτής της αναφοράς, όπως σας παρέχεται από την αεροπορική εταιρεία, εντός 24 ωρών από την προσγείωση της πτήσης σας, η Αναφορά Κακοδιαχειρισθεισών Αποσκευών σας στη Blue Ribbon Bags θα απορριφθεί αμέσως με την λήξη της 24-ωρης προθεσμίας και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευών ή την Εγγυημένη Πληρωμή Ικανοποίησής μας. Υποβάλλετε ένα αντίτυπο αυτής της αναφοράς στη διεύθυνση mbr@blueribbonbags.com και θέστε τον αριθμό Σύμβασης Υπηρεσιών στη γραμμή θέματος. Υποστηρικτική τεκμηρίωση της Αεροπορικής εταιρείας που υποβάλλεται με οποιονδήποτε άλλο τρόπο, τότε σύμφωνα με τις παρούσες οδηγίες δεν θα θεωρηθεί έγκυρη υποβολή και δεν θα ληφθεί υπ’ όψιν όσον αφορά την Αναφορά Κακοδιαχειρισθεισών Αποσκευών σας στην Blue Ribbon Bags.  Οποιεσδήποτε αναφορές που δεν έχουν συνοδευτική τεκμηρίωση θα απορρίπτονται με την λήξη της 24-ωρης προθεσμίας από τη στιγμή που προσγειώθηκε η πτήση σας.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>Ο επιβάτης θα βρίσκεται σε αυτήν τη διεύθυνση έως</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>Διεύθυνση Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>Πληρωμή από</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>Πόλη Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>Χώρα Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>Σημείωση: Τα στοιχεία της πληρωμής μπορούν να αλλάξουν μετά την αρχική αναφορά. Αυτό μπορεί να οδηγήσει σε μικρή καθυστέρηση στην επεξεργασία της πληρωμής.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>Ηλεκτρονική Διεύθυνση Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>Όνομα Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>Επώνυμο Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>Τηλέφωνο Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>Πολιτεία Πληρωμής</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας Πληρωμής</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>Ηλεκτρονική Διεύθυνση PayPal</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>Παρακαλούμε συμπληρώστε τις πληροφορίες που σχετίζονται με τον λογαριασμό σας  PayPal</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>Όνομα  PayPal</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>Επώνυμο PayPal</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>Παρακαλούμε συμπληρώστε τα πεδία ακριβώς όπως εμφανίζονται στην απαίτησή σας από την αεροπορική εταιρία.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε πληροφορίες πληρωμής. &lt;b&gt;Αυτή είναι η διεύθυνση στην οποία επιθυμείτε να αποσταλεί η πληρωμή σας σε περίπτωση που η αποσκευή σας καθυστερήσει περισσότερο από 96 ώρες. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε πληροφορίες πληρωμής. &lt;b&gt;Εδώ επιθυμείτε να αποσταλεί η πληρωμή σας σε περίπτωση που η αποσκευή σας καθυστερήσει περισσότερο από 96 ώρες. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>Δώστε τις παρακάτω πληροφορίες ακριβώς όπως εμφανίζονται στην απαίτησή σας από την αεροπορική εταιρία.&lt;b&gt;Αυτή είναι η διεύθυνση στην οποία επιθυμείτε να παραδοθεί η αποσκευή σας.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>Αναζήτηση με (Παρακαλούμε επιλέξτε ένα)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>Αριθμός  Συμφωνίας Υπηρεσίας</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>Πληροφορίες Άφιξης Πτήσης</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>Πληροφορίες Αποσκευής που υπέστη Κακή Μεταχείριση</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>Αριθμός Συμφωνίας Υπηρεσίας</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>Πληροφορίες Παράδοσης Αποσκευής</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>Πληροφορίες Πληρωμής</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>Επιβεβαίωση</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>Swift Code</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>Αποσκευή που έχει υποστεί Κακή Μεταχείριση</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΟΥ ΕΝΟΣ ΕΓΚΥΡΟΥ ΑΡΙΘΜΟΥ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, 
+ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕΣΑ ΣΕ 24 ΩΡΕΣ ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. 
+Η ΥΠΗΡΕΣΙΑ  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΓΙΝΕΤΑΙ ΣΕΒΑΣΤΗ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ.
+
+ΑΝ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΔΕΝ ΣΑΣ ΕΧΕΙ ΔΩΣΕΙ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ,
+ΘΑ ΧΡΕΙΑΣΤΕΙ ΝΑ ΕΠΙΚΟΙΝΩΝΗΣΕΤΕ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΙ ΝΑ ΤΟΝ ΠΑΡΕΤΕ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΣΑΣ ΣΕ ΜΑΣ.
+Η  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΛΑΜΒΑΝΕΙ ΑΡΙΘΜΟΥΣ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΩΝ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. ΕΊΝΑΙ ΕΥΘΥΝΗ ΤΟΥ ΕΠΙΒΑΤΗ
+ΝΑ ΛΑΒΕΙ ΑΥΤΗΝ ΤΗΝ ΠΛΗΡΟΦΟΡΙΑ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΙ ΣΕ ΜΑΣ ΑΝΑΦΟΡΑ ΑΠΟΣΚΕΥΗΣ ΠΟΥ ΕΧΕΙ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>Αριθμός Αποσκευών που δεν έχουν παραδοθεί</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>Όταν καταχωρήσατε απαίτηση απωλεσθείσας αποσκευής στην
+αεροπορική εταιρία, λάβατε έναν αριθμό αναφοράς φακέλου
+και έναν αριθμό ετικέτας αποσκευής. Παρακαλούμε εισαγάγετέ τους εδώ:</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>Login Πράκτορα</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>Χαρακτηριστικά </value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>Επικοινωνία</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>FAQ's</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Οικία</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>Αρχείο Αναφοράς</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>Απωλεσθείσες Αποσκευές</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Μήνυμα</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>Πατήστε εδώ αν επιθυμείτε να λάβετε email επιβεβαίωσης.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>Πατήστε εδώ αν επιθυμείτε να λάβει/ουν ο επιβάτης/ες email επιβεβαίωσης.</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>Να μην εμφανιστεί η συνολική χρέωση στα email επιβεβαίωσης της υπηρεσίας</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>Ο Λογαριασμός Μου</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>ΑΝ ΘΈΛΕΤΕ ΝΑ ΔΏΣΕΤΕ ΟΠΟΙΑΔΉΠΟΤΕ ΠΛΗΡΟΦΟΡΊΑ ΣΧΕΤΙΚΆ ΜΕ ΤΗΝ ΤΣΆΝΤΑ Ή ΤΙΣ ΠΛΗΡΟΦΟΡΊΕΣ ΠΑΡΆΔΟΣΗΣ, ΠΑΡΑΚΑΛΏ ΠΛΗΚΤΡΟΛΟΓΉΣΤΕ ΤΗΝ ΕΔΏ</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>Το πεδίο του password εμφανίζεται σκόπιμα κενό. Αν επιθυμείτε να έχετε νέο password, παρακαλούμε ορίστε νέο password και επιβεβαιώστε το νέο σας password.&lt;br /&gt;&lt;br /&gt;
+Το password πρέπει να περιλαμβάνει τουλάχιστον 8 (οκτώ) χαρακτήρες με τουλάχιστον έναν αλφαβητικό, έναν αριθμητικό και έναν ειδικό χαρακτήρα με έναν τουλάχιστον από τους αλφαβητικούς χαρακτήρες κεφαλαίο.&lt;br /&gt;&lt;br /&gt;
+Οι επιτρεπόμενοι ειδικοί χαρακτήρες περιλαμβάνουν:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Πληρωμή:</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>Πληροφορίες διεύθυνσης πληρωμής:</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>Πληροφορίες Πληρωμής</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>OK, τελείωσα για την ώρα!</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>Συγχαρητήρια!</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>Επίπεδο Υπηρεσίας:</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>Αριθμός Επιβατών:</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>Επιβεβαίωση Πληρωμής: </value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>Πληροφορίες Πληρωμής</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>Κωδικός Προσφοράς:</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>Σας ευχαριστούμε πάρα πολύ που επιλέξατε την Blue Ribbon Bags για το επικείμενο ταξίδι σας. Μπορείτε να είστε βέβαιοι ότι θα φροντίσουμε να είναι αυτή η διαδικασία όσο γίνεται πιο απλή για σας.&lt;br /&gt;&lt;br /&gt;Ο Αριθμός της Συμφωνία Υπηρεσίας που έχετε συνάψει με την Blue Ribbon Bags είναι</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>Παρακαλούμε κρατήστε τον αριθμό αυτής της συμφωνίας υπηρεσίας για το αρχείο σας, καθώς θα τον χρειαστείτε για να αναφέρετε σε μας την αποσκευή σας που έχει υποστεί κακή μεταχείριση, σε περίπτωση που δεν παραδοθεί.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>Θα λάβετε ένα email επιβεβαίωσης από την Blue Ribbon Bags μετά από μερικά λεπτά. Αν δεν το λάβετε, παρακαλούμε επικοινωνήστε μαζί μας και έχετε πρόχειρη την επιβεβαίωση της συναλλαγής Paypal.</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;Τι πρέπει να κάνετε αν δεν φτάσει η αποσκευή σας:&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;αν η αποσκευή σας δεν σας συνοδεύσει στον τελικό προορισμό της πτήσης σας&amp;#39;s πρέπει να το δηλώσετε στην αεροπορική εταιρία πριν το αναφέρετε στην Blue Ribbon Bags. Οι αποσκευές που δεν έχουν παραδοθεί πρέπει να αναφέρονται στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Μπορείτε να αναφέρετε σε μας την αποσκευή που έχει υποστεί κακομεταχείριση είτε τηλεφωνικά στο &lt;strong&gt;{0}&lt;/strong&gt;, ή online στο &lt;a href="{1}"&gt;{2}&lt;/a&gt;, 24 ώρες το 24ωρο, 7 μέρες την εβδομάδα. &lt;br /&gt;&lt;br /&gt;Παρακαλούμε φροντίστε να κρατήσετε τις πληροφορίες παρακολούθησης της αποσκευής σας (αριθμός αναφοράς φακέλου/εντοπιστή) που θα σας δώσει η αεροπορική εταιρία όταν θα καταχωρήσετε την απαίτηση απωλεσθείσας αποσκευής σ' αυτήν, καθώς η Blue Ribbon Bags θα χρειαστεί τις πληροφορίες αυτές για να επεξεργαστεί την αναφορά σας για την αποσκευή που έχει υποστεί κακή μεταχείριση. Αποσκευές που δεν έχουν παραδοθεί πρέπει να αναφέρονται στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης σας.&lt;br /&gt;&lt;br /&gt;Οι πληροφορίες για την πληρωμή σας εμφανίζονται παρακάτω. Αν έχετε ερωτήσεις, παρακαλούμε μη διστάσετε να επικοινωνήσετε με την Blue Ribbon Bags στέλνοντας email στο &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt;. Βρισκόμαστε εδώ για να σας βοηθάμε 24/7 επτά ημέρες την εβδομάδα.  Ταξιδεύετε με ασφάλεια και χωρίς έννοια!&lt;br /&gt;&lt;br /&gt;Η Συμφωνία Υπηρεσίας σας είναι διαθέσιμη online στο &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Σας ευχαριστούμε πολύ για τη συνεργασία και καλό ταξίδι.&lt;br /&gt;&lt;br /&gt;Η ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΔΕΝ ΕΠΙΣΤΡΕΦΕΤΑΙ ΟΥΤΕ ΜΕΤΑΒΙΒΑΖΕΤΑΙ. ΔΕΝ ΘΑ ΕΚΔΙΔΟΝΤΑΙ ΕΠΙΣΤΡΟΦΕΣ  Ή ΠΙΣΤΩΤΙΚΑ ΣΗΜΕΙΩΜΑΤΑ. ΑΝ ΜΑΤΑΙΩΘΕΙ Η ΠΤΗΣΗ ΣΑΣ ΚΑΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΣΕ AΛΛΗ ΠΤΗΣΗ ΑΝΤ' ΑΥΤΗΣ, ΠΡΕΠΕΙ ΕΙΤΕ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΛΛΑΓΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ&amp;#39;S Ή ΝΑ ΑΓΟΡΑΣΕΤΕ ΝΕΑ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗ ΝΕΑ ΣΑΣ ΠΤΗΣΗ. ΟΛΕΣ ΟΙ ΑΛΛΑΓΕΣ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS  ΜΕ EMAIL ΣΤΟ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ΚΑΙ ΣΗΜΕΙΩΣΗ ΤΟΥ ΑΡΙΘΜΟΥ ΣΥΜΦΩΝΙΑΣ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΑΣ ΣΤΗΝ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ. ΣΤΟ ΣΩΜΑ ΤΟΥ EMAIL ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΕΤΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΣΑΣ ΕΤΑΙΡΙΑ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΣΑΣ ΕΤΑΙΡΙΑΣ, ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΑΡΧΙΚΗΣ ΣΑΣ ΠΤΗΣΗΣ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ. ΑΝ ΑΛΛΑΖΕΙ ΚΑΙ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, ΠΡΕΠΕΙ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>Η ΕΠΕΞΕΡΓΑΣΙΑ ΤΗΣ ΠΛΗΡΩΜΗΣ ΣΑΣ ΟΛΟΚΛΗΡΩΘΗΚΕ ΜΕ ΕΠΙΤΥΧΙΑ</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>Συνολική Χρέωση:</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Τηλέφωνο  </value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Αριθμός Τηλεφώνου</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>Όλες οι αποσκευές έχουν εντοπιστεί και η υπόθεση αυτή έκλεισε</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>Αιτία Άρνησης</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>Αναφορές για αποσκευές που έχουν υποστεί κακή μεταχείριση μπορούν να καταχωρούνται 24 ώρες το 24ωρο, 7 μέρες την εβδομάδα, πατώντας &lt;a href="{0}" target="_blank"&gt;here &lt;/a&gt;ή καλώντας 888-BAGGAGE.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>Αν ο επιβάτης υποδείξει στην αεροπορική εταιρία στην οποία έχει καταθέσει την απαίτηση ή στην Blue Ribbon Bags, οιαδήποτε στιγμή, ότι η αποσκευή του θα παραληφθεί αντί να παραδοθεί, η κατάσταση της αναφοράς αποσκευής θα μετατραπεί σε κλεισμένη και θα θεωρείται πως όλες οι αποσκευές έχουν επιστρέψει μόλις αυτές φτάσουν στο αεροδρόμιο.</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>Από τη στιγμή που η αποσκευή φτάνει στον προορισμό που υποδεικνύεται στην αεροπορική εταιρία κατά την καταχώρηση της απαίτησης της αποσκευής που έχει υποστεί κακή μεταχείριση, η κατάσταση της αναφοράς  αποσκευής θα μετατραπεί σε κλεισμένη.</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>*Αν οιαδήποτε πληροφορία παραπάνω είναι εσφαλμένη, παρακαλούμε στείλτε μας ένα email στο &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>Σημειώσεις από τον Διαχειριστή αναφοράς:</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>Η αναζήτησή σας δεν είχε αποτέλεσμα</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>Η κατάσταση αυτής της αποσκευής που έχει υποστεί κακομεταχείριση είναι: &amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>Έχει παραμείνει ανοιχτή επί &lt;strong&gt;{0}&lt;/strong&gt; μέρες.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>Η αναφορά αποσκευής που έχει υποστεί κακή μεταχείριση θα πληρωθεί εις: &amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>Θα οδηγήσει σε πληρωμή αν παραμένει ανοιχτή σε &lt;strong&gt;{0}&lt;/strong&gt; μέρες.</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>Αποτέλεσμα</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>Ο επιβάτης θα λαμβάνει αυτόματα ειδοποιήσεις με email κάθε φορά που υπάρχει μια αλλαγή στην κατάσταση των αποσκευών του. Δεν χρειάζεται να επικοινωνούν οι επιβάτες με την αεροπορική εταιρία για να γνωρίζουν την κατάσταση των αποσκευών τους. </value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>Χαρακτηριστικά:</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>Ο ΑΡΙΘΜΟΣ ΤΗΛΕΦΩΝΟΥ ΜΑΣ (888-BAGGAGE) ΕΊΝΑΙ ΜΟΝΟ ΓΙΑ ΝΑ ΛΑΜΒΑΝΕΤΕ ΝΕΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.  
+ΑΥΤΟΣ Ο ΑΡΙΘΜΟΣ ΤΗΛΕΦΩΝΟΥ ΔΕΝ ΘΑ ΕΧΕΙ ΚΑΜΙΑ ΠΛΗΡΟΦΟΡΙΑ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.
+ΤΥΧΟΝ ΕΡΩΤΗΣΕΙΣ Ή ΣΧΟΛΙΑ Ή ΥΠΟΒΟΛΕΣ ΠΛΗΡΟΦΟΡΙΩΝ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ,
+ΕΙΤΕ ΝΕΕΣ, ΑΝΟΙΧΤΕΣ, ΛΑΝΘΑΣΜΕΝΕΣ ΠΛΗΡΟΦΟΡΙΕΣ Ή ΚΛΕΙΣΜΕΝΕΣ, ΓΙΑ ΟΠΟΙΟΝΔΗΠΟΤΕ ΛΟΓΟ, ΠΡΕΠΕΙ ΝΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΜΕ EMAIL
+ΣTO &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ΚΑΙ ΝΑ ΒΑΖΕΤΕ ΤΟΝ ΑΡΙΘΜΟ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ ΣΤΗ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>Πριν αναφέρει αποσκευές με κακή μεταχείριση στην Blue Ribbon Bags, 
+ο επιβάτης πρέπει να καταχωρήσει απαίτηση απωλεσθείσας αποσκευής στην αεροπορική του εταιρία (όπως απαιτείται από τον κανονισμό της αεροπορικής εταιρίας).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΟΥ ΕΝΟΣ ΕΓΚΥΡΟΥ ΑΡΙΘΜΟΥ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ  BLUE RIBBON BAGS ΜΕΣΑ ΣΕ 24 ΩΡΕΣ ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. Η ΥΠΗΡΕΣΙΑ  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΓΙΝΕΤΑΙ ΣΕΒΑΣΤΗ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ. ΑΝ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΔΕΝ ΣΑΣ ΕΧΕΙ ΔΩΣΕΙ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ, ΘΑ ΧΡΕΙΑΣΤΕΙ ΝΑ ΕΠΙΚΟΙΝΩΝΗΣΕΤΕ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΙ ΝΑ ΤΟΝ ΠΑΡΕΤΕ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΣΑΣ ΣΕ ΜΑΣ. Η  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΛΑΜΒΑΝΕΙ ΑΡΙΘΜΟΥΣ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΩΝ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. ΕΙΝΑΙ ΕΥΘΥΝΗ ΤΟΥ ΕΠΙΒΑΤΗ ΝΑ ΛΑΒΕΙ ΑΥΤΗΝ ΤΗΝ ΠΛΗΡΟΦΟΡΙΑ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΙ ΣΕ ΜΑΣ ΑΝΑΦΟΡΑ ΑΠΟΣΚΕΥΗΣ ΠΟΥ ΕΧΕΙ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Σε περίπτωση που θα βρεθεί ότι μια αποσκευή που παραδόθηκε δεν είναι η σωστή αποσκευή του επιβάτη, ο επιβάτης έχει 12 ώρες από την ειδοποίηση ότι ο φάκελός του στην Blue Ribbon Bags έχει κλείσει και η αποσκευή έχει επιστραφεί για να ενημερώσει την Blue Ribbon Bags για το λάθος στέλνοντάς μας ένα email στο mbr@blueribbonbags.com και βάζοντας "Not my bag" (δεν είναι η αποσκευή μου) και τον αριθμό σας MBR στη γραμμή του θέματος. Η Blue Ribbon Bags θα έχει 72 ώρες (3 μέρες) από την εκπνοή των αρχικών 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη για να εντοπίσει την αποσκευή που έχει υποστεί κακή μεταχείριση. Θα θεωρείται ότι μια αποσκευή που εμπίπτει σ' αυτήν την κατηγορία έχει "επιστραφεί" σύμφωνα με τους όρους και τις προϋποθέσεις μας από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναφέρεται στην απαίτηση απωλεσθείσας αποσκευής στη δήλωση της αεροπορικής εταιρίας. Αν η λάθος αποσκευή έχει ήδη παραδοθεί, ο επιβάτης θα πρέπει να επιδείξει με email την απόδειξη της εταιρίας παράδοσης που παρέδωσε τη λάθος αποσκευή, καθώς και τεκμηρίωση από την αεροπορική εταιρία που θα δηλώνει σαφώς ότι αποσκευή η οποία αναφέρεται και έχει επιστραφεί στον επιβάτη δεν είναι η δική του. Και τα δύο αυτά τεκμήρια είναι απαραίτητα για να πραγματοποιηθεί η πληρωμή της εγγυημένης ικανοποίησης από την Blue Ribbon Bags.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+
+ΑΙΤΗΜΑΤΑ ΓΙΑ ΕΛΛΕΙΠΕΙΣ Ή ΛΑΘΟΣ ΠΛΗΡΟΦΟΡΙΕΣ:&lt;/strong&gt; Αν δοθούν λάθος πληροφορίες κατά την καταχώρηση μιας αναφοράς για αποσκευή που έχει υποστεί κακή μεταχείριση, ενδέχεται να λάβετε ένα email που θα σας ζητάει να διορθώσετε τις πληροφορίες αυτές. Σε περίπτωση που θα λάβει ο επιβάτης email τέτοιας φύσης ή άλλα αιτήματα για πληροφορίες σχετικά με την υπόθεση του επιβάτη, ο επιβάτης θα έχει 12 ώρες από τη στιγμή που σταλεί αυτό το email για να απαντήσει. Αν ο επιβάτης δεν απαντήσει μέσα σ' αυτό το χρονικό διάστημα παρέχοντας τις διορθωμένες ή ζητηθείσες πληροφορίες και τυχόν υποστηρικτική τεκμηρίωση έχει ζητηθεί, δεν θα γίνει δεκτή η Αναφορά του πελάτη για Αποσκευή που έχει υποστεί Κακή Μεταχείριση και ο επιβάτης δεν θα δικαιούται πλέον υπηρεσίες ανάκτησης αποσκευής ή την πληρωμή εγγυημένης ικανοποίησης που προσφέρουμε.&lt;br /&gt;&lt;br /&gt;
+Αν ΔΕΝ έχει δοθεί διεύθυνση παράδοσης στην αεροπορική εταιρία κατά την καταχώρηση απαίτησης απωλεσθείσας αποσκευής. η BRB θα κλείσει την υπόθεσή σας μόλις φτάσει η αποσκευή στο καθορισμένο αεροδρόμιο που αναφέρεται στην αεροπορική εταιρία και σύμφωνα με την Συμφωνία Υπηρεσίας της Blue Ribbon Bags θα θεωρείται πως οι αποσκευές σας έχουν επιστραφεί.&lt;br /&gt;&lt;br
+/&gt;&lt;strong&gt;
+
+ΣΗΜΕΙΩΣΗ: Αν η αποσκευή του επιβάτη δεν έτυχε σωστής μεταχείρισης από αεροπορική εταιρία που εκδίδει μόνο Property Irregularity Report (PIR) (Δήλωση Απώλειας/Ζημίας Περιουσίας) (έτσι ονομάζεται η δήλωση που σας έδωσε η αεροπορική εταιρία όταν καταχωρήσατε την απαίτησή σας για απώλεια αποσκευής και φέρει τον αριθμό αναφοράς φακέλου) από την αεροπορική εταιρία ή μέσω του αεροδρομίου, ή μέσω  baggage irregularity report (BIR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) μέσω της αεροπορικής εταιρίας, (η BIR γενικά δεν δίνει δεκαψήφιο αριθμό αναφοράς φακέλου), ο επιβάτης πρέπει να στείλει αντίγραφο της Property Irregularity Report (PIR)(Δήλωση Απώλειας/Ζημίας Περιουσίας) ή της  Baggage Irregularity Report (BIR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) στο mbr@blueribbonbags.com βάζοντας τον αριθμό Συμφωνίας Υπηρεσίας του στη γραμμή του θέματος, αφού συμπληρώσει την online φόρμα. Πρέπει να λάβουμε αντίγραφο αυτής της δήλωσης  μέσα σε 24 ώρες από την προσγείωση της πτήσης του επιβάτη για να θεωρηθεί η αναφορά του έγκυρη. Αν δεν σταλεί αντίγραφο αυτής της δήλωσης μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η BRB θα αρνηθεί την αναφορά του επιβάτη αμέσως μετά την εκπνοή της 24ωρης προθεσμίας. Οιαδήποτε αποσκευή εμπίπτει σε αυτήν την κατηγορία θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις μας από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στο δρομολόγιο της πτήσης ή στις πληροφορίες μεταφοράς που έδωσε ο πελάτης στην αεροπορική εταιρία κατά την καταχώρηση της απαίτησης απωλεσθείσας αποσκευής στην αεροπορική εταιρία.
+&lt;br/&gt;&lt;br/&gt;
+ΣΗΜΕΙΩΣΗ: Αν η αποσκευή σας δεν έτυχε σωστής μεταχείρισης από αεροπορική εταιρία που εκδίδει μόνο Property Irregularity Report (PIR) (Δήλωση Απώλειας/Ζημίας Περιουσίας) μέσω των απωλεσθέντων του αεροδρομίου,
+ή  Baggage Irregularity Report (BIR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) μέσω της αεροπορικής εταιρίας, (η BIR γενικά δεν δίνει δεκαψήφιο αριθμό αναφοράς φακέλου)
+η Blue Ribbon Bags θα προχωρήσει στην πληρωμή της εγγύησης ικανοποίησης που προσφέρουμε για μία αποσκευή που έχει υποστεί κακή μεταχείριση επί περισσότερες από 96 ώρες,
+αφού προβεί πρώτα η αεροπορική εταιρία σε πληρωμή (αποζημίωση) για αυτήν την απωλεσθείσα αποσκευή. Αν δεν εκδώσει ποτέ η αεροπορική εταιρία
+αποζημίωση στον επιβάτη για μία απωλεσθείσα αποσκευή, δεν θα το κάνει ούτε η Blue Ribbon Bags. Και στις δύο περιπτώσεις,
+θα χρειαστεί απόδειξη πληρωμής από την αεροπορική εταιρία για να εισπραχθεί η πληρωμή εγγύησης ικανοποίησης από την Blue Ribbon Bags,
+εκτός από την αναγνώριση από την αεροπορική εταιρία ότι η πληρωμή στην οποία προέβη αφορούσε στην αναφερόμενη απωλεσθείσα αποσκευή.
+Η Blue Ribbon Bags θα βοηθήσει στον εντοπισμό των αποσκευών σας που δεν έχουν παραδοθεί όπως θα έπρεπε κατά τις πρώτες 96 ώρες κακής μεταχείρισης των αποσκευών σας.
+&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; ΣΦΑΛΜΑΤΑ: &lt;/strong&gt; Σε περίπτωση ότι ο επιβάτης ανακαλύψει κάποιο σφάλμα όταν η Blue Ribbon Bags αρνηθεί την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση ή Κλείσει την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση, ο επιβάτης έχει 12 ώρες από τη λήψη του email που θα τον πληροφορεί για οιαδήποτε από τις περιπτώσεις αυτές, για να αναφέρει το σφάλμα στην Blue Ribbon Bags. Παρακαλούμε ενημερώστε μας για το σφάλμα στέλνοντάς μας email στο &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; και βάζοντας τον αριθμό MBR στην γραμμή του θέματος. Ο επιβάτης πρέπει να εξηγήσει στο email ακριβώς τι σφάλμα έχει γίνει, κατά το δυνατό λεπτομερέστερα, και να δώσει οιαδήποτε υποστηρικτική τεκμηρίωση. Σε περίπτωση που η Blue Ribbon Bags ανακαλύψει ότι το σφάλμα ισχύει, η Blue Ribbon Bags θα έχει 72 ώρες από τη στιγμή που θα ανοίξει εκ νέου ο φάκελος του επιβάτη για να εντοπίσει την αποσκευή του επιβάτη. Αν το διάστημα των 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη λήγει μετά το παράθυρο των 72 ωρών από το νέο άνοιγμα του φακέλου, η Blue Ribbon Bags θα έχει στη διάθεσή της το χρόνο μέχρι την εκπνοή των αρχικών 96 ωρών για να εντοπίσει αποσκευή του επιβάτη.   
+Και στις δύο περιπτώσεις, από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στην απαίτηση της απωλεσθείσας αποσκευής σας στην αεροπορική εταιρία, η αποσκευή θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags και ο φάκελος του επιβάτη θα κλείνει. &lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;
+Οι υποβολές που θα λαμβάνονται μετά τη χρονική περίοδο των 12 ωρών δεν θα γίνονται δεκτές και ο επιβάτης δεν θα δικαιούται υπηρεσιών ανάκτησης αποσκευών ή της καταβολής της εγγύησης ικανοποίησης που προσφέρουμε, ασχέτως αν έχει υποβάλει τεκμηρίωση. 
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;Ο ΑΡΙΘΜΟΣ ΤΗΛΕΦΩΝΟΥ ΜΑΣ (888-BAGGAGE) ΠΡΟΟΡΙΖΕΤΑΙ ΜΟΝΟ ΓΙΑ ΝΑ ΛΑΜΒΑΝΕΤΕ ΝΕΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.
+Ο ΑΡΙΘΜΟΣ ΑΥΤΟΣ ΔΕΝ ΘΑ ΕΧΕΙ ΚΑΜΙΑ ΠΛΗΡΟΦΟΡΙΑ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.
+ΤΥΧΟΝ ΕΡΩΤΗΣΕΙΣ Ή ΣΧΟΛΙΑ Ή ΥΠΟΒΟΛΕΣ ΠΛΗΡΟΦΟΡΙΩΝ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ, ΕΙΤΕ ΝΕΕΣ, ΑΝΟΙΧΤΕΣ, ΛΑΝΘΑΣΜΕΝΕΣ ΠΛΗΡΟΦΟΡΙΕΣ Ή ΚΛΕΙΣΜΕΝΕΣ, ΓΙΑ ΟΠΟΙΟΝΔΗΠΟΤΕ ΛΟΓΟ, ΠΡΕΠΕΙ ΝΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΜΕ EMAIL
+ΣTO &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ΚΑΙ ΝΑ ΒΑΖΕΤΕ ΤΟΝ ΑΡΙΘΜΟ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ ΣΑΣ ΣΤΗ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ 
+                   &lt;/li&gt;
+&lt;/li&gt;Πριν αναφέρει αποσκευές με κακή μεταχείριση στην Blue Ribbon Bags, ο επιβάτης πρέπει να καταχωρήσει απαίτηση απωλεσθείσας αποσκευής στην αεροπορική του εταιρία (όπως απαιτείται από τον κανονισμό της αεροπορικής εταιρίας).&lt;/li&gt;
+ &lt;li&gt;ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ ΚΑΙ ΕΧΟΥΝ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕΣΑ ΣΕ 24 ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. Η ΥΠΗΡΕΣΙΑ ΤΗΣ BLUE RIBBON BAGS ΔΕΝ ΘΑ ΤΗΡΕΙΤΑΙ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ. ΑΝ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΔΕΝ ΣΑΣ ΕΧΕΙ ΔΩΣΕΙ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ, ΘΑ ΠΡΕΠΕΙ ΝΑ ΕΠΙΚΟΙΝΩΝΗΣΕΤΕ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΙ ΝΑ ΤΟΝ ΠΑΡΕΤΕ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΣΑΣ ΣΕ ΜΑΣ. Η BLUE RIBBON BAGS ΔΕΝ ΘΑ ΖΗΤΑ ΑΡΙΘΜΟΥΣ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. ΕΙΝΑΙ ΕΥΘΥΝΗ ΤΟΥ ΕΠΙΒΑΤΗ ΝΑ ΛΑΒΕΙ ΑΥΤΕΣ ΤΙΣ ΠΛΗΡΟΦΟΡΙΕΣ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΙ ΣΕ ΜΑΣ ΤΗΝ ΑΝΑΦΟΡΑ ΤΗΣ ΑΠΟΣΚΕΥΗΣ ΤΟΥ ΠΟΥ ΥΠΕΣΤΗ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;&lt;u&gt;Για ΟΛΕΣ ΤΙΣ ΠΤΗΣΕΙΣ που έχουν αφιχθεί εκτός Ηνωμένων Πολιτειών:&lt;/u&gt;Ως μέρος της διαδικασίας καταχώρησης Αναφοράς Αποσκευής που έχει υποστεί Κακή Μεταχείριση, πρέπει να υποβάλετε στην Blue Ribbon Bags αντίγραφο της δήλωσης που σας έδωσε η αεροπορική εταιρία όταν καταχωρήσατε την απαίτηση για την απωλεσθείσα αποσκευή σας μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Αν δεν υποβάλετε αντίγραφο αυτής της δήλωσης, όπως θα σας δοθεί από την αεροπορική εταιρία κατά την καταχώρηση της απαίτησης της απωλεσθείσας αποσκευής σας, μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η Blue Ribbon Bags θα αρνηθεί την αναφορά σας για Αποσκευή που έχει υποστεί Κακή Μεταχείριση αμέσως μετά την εκπνοή της 24ωρης προθεσμίας και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευών ή την Πληρωμή Εγγυημένης Ικανοποίησης που προσφέρουμε. Παρακαλούμε στείλτε αντίγραφο της δήλωσής σας στο &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; και βάλτε τον αριθμό της Συμφωνίας Υπηρεσίας σας στη γραμμή του θέματος, Οι Δηλώσεις σε Αεροπορικές Εταιρίες που υποβάλλονται με οιονδήποτε άλλον τρόπο από αυτόν που ορίζεται παραπάνω θα θεωρείται πως δεν έχουν υποβληθεί έγκυρα. Οιαδήποτε αποσκευή εμπίπτει σε αυτήν την κατηγορία θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags, από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στην απαίτηση της απωλεσθείσας αποσκευής σας στην αεροπορική εταιρία.&lt;br /&gt;&lt;u&gt;Για πτήσεις που έχουν αφιχθεί εντός Ηνωμένων Πολιτειών:&lt;/u&gt;Αν η αποσκευή σας υπέστη κακή μεταχείριση από αεροπορική εταιρία που σας έδωσε Property Irregularity Report (PIR) (Δήλωση Απώλειας/Ζημίας Περιουσίας), (έτσι ονομάζεται η δήλωση που σας έδωσε η αεροπορική εταιρία όταν καταχωρήσατε την απαίτησή σας για απώλεια αποσκευής και φέρει τον αριθμό αναφοράς φακέλου, από την αεροπορική εταιρία ή μέσω του αεροδρομίου) ή baggage irregularity report (ΒΙR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) μέσω της αεροπορικής εταιρίας, (η BIR γενικά δεν δίνει δεκαψήφιο αριθμό αναφοράς φακέλου), πρέπει να υποβάλετε αντίγραφο του PIR ή του BIR σας στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης σας για να ολοκληρώσετε τη διαδικασία καταχώρησης της Αναφοράς Αποσκευής που έχει υποστεί Κακή Μεταχείριση. Αν δεν υποβάλετε αντίγραφο αυτής της δήλωσης, όπως θα σας δοθεί από την αεροπορική εταιρία, μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η Blue Ribbon Bags θα αρνηθεί την αναφορά σας για Αποσκευή που έχει υποστεί Κακή Μεταχείριση αμέσως μετά την εκπνοή της 24ωρης προθεσμίας και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευών ή την Πληρωμή Εγγυημένης Ικανοποίησης που προσφέρουμε. Παρακαλούμε στείλτε αντίγραφο αυτής της δήλωσης στο &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; και βάλτε τον αριθμό της Συμφωνίας Υπηρεσίας σας στη γραμμή του θέματος, Οι Δηλώσεις σε Αεροπορικές Εταιρίες που υποβάλλονται με οιονδήποτε άλλον τρόπο από αυτόν που ορίζεται παραπάνω θα θεωρείται πως δεν έχουν υποβληθεί έγκυρα. Οιαδήποτε αποσκευή εμπίπτει σε αυτήν την κατηγορία θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags, από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στην απαίτηση της απωλεσθείσας αποσκευής σας στην αεροπορική εταιρία.&lt;/b&gt; &lt;/li&gt;       
+ &lt;li&gt;Σε περίπτωση που θα βρεθεί ότι μια αποσκευή που παραδόθηκε δεν είναι η σωστή αποσκευή του επιβάτη, ο επιβάτης έχει 12 ώρες από την ειδοποίηση ότι ηο φάκελός του στην Blue Ribbon Bags έχει κλείσει και η αποσκευή έχει επιστραφεί για να ενηερώσει την Blue Ribbon Bags για το λάθος στέλνοντάς μας ένα email στο &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;  και βάζοντας "Not my bag" (δεν είναι η αποσκευή μου) και τον αριθμό σας MBR στη γραμμή του θέματος. Η Blue Ribbon Bags θα έχει 72 ώρες (3 μέρες) από την εκπνοή των αρχικών 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη για να εντοπίσει την αποσκευή που έχει υποστεί κακή μεταχείριση. Θα θεωρείται ότι μια αποσκευή που εμπίπτει σ' αυτήν την κατηγορία έχει "επιστραφεί" σύμφωνα με τους όρους και τις προϋποθέσεις μας από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναφέρεται στην απαίτηση απωλεσθείσας αποσκευής στη δήλωση της αεροπορικής εταιρίας. Αν η λάθος αποσκευή έχει ήδη παραδοθεί, ο επιβάτης θα πρέπει να επιδείξει με email την απόδειξη της εταιρίας παράδοσης που παρέδωσε τη λάθος αποσκευή, καθώς και τεκμηρίωση από την αεροπορική εταιρία που θα δηλώνει σαφώς ότι αποσκευή η οποία αναφέρεται και έχει επιστραφεί στον επιβάτη δεν είναι η δική του. Και τα δύο αυτά τεκμήρια είναι απαραίτητα για να πραγματοποιηθεί η πληρωμή της εγγυημένης ικανοποίησης από την Blue Ribbon Bags.&lt;li&gt;
+ &lt;li&gt;ΑΙΤΗΜΑΤΑ ΓΙΑ ΕΛΛΕΙΠΕΙΣ Ή ΛΑΘΟΣ ΠΛΗΡΟΦΟΡΙΕΣ:&lt;/strong&gt; Αν δοθούν λάθος πληροφορίες κατά την καταχώρηση μιας αναφοράς για αποσκευή που έχει υποστεί κακή μεταχείριση, ενδέχεται να λάβετε ένα email που θα σας ζητάει να διορθώσετε τις πληροφορίες αυτές. Σε περίπτωση που θα λάβει ο επιβάτης email τέτοιας φύσης ή άλλα αιτήματα για πληροφορίες σχετικά με την υπόθεση του επιβάτη, ο επιβάτης θα έχει 12 ώρες από τη στιγμή που σταλεί αυτό το email για να απαντήσει. Αν ο επιβάτης δεν απαντήσει μέσα σ' αυτό το χρονικό διάστημα παρέχοντας τις διορθωμένες ή ζητηθείσες πληροφορίες και τυχόν υποστηρικτική τεκμηρίωση έχει ζητηθεί, δεν θα γίνει δεκτή η Αναφορά του πελάτη για Αποσκευή που έχει υποστεί Κακή Μεταχείριση και ο επιβάτης δεν θα δικαιούται πλέον υπηρεσίες ανάκτησης αποσκευής ή την πληρωμή εγγυημένης ικανοποίησης που προσφέρουμε.&lt;/li&gt;
+&lt;/li&gt;Αν ΔΕΝ έχει δοθεί διεύθυνση παράδοσης στην αεροπορική εταιρία κατά την καταχώρηση απαίτησης απωλεσθείσας αποσκευής. η BRB θα κλείσει την υπόθεσή σας μόλις φτάσει η αποσκευή στο καθορισμένο αεροδρόμιο που αναφέρεται στην αεροπορική εταιρία και σύμφωνα με τη Συμφωνία Υπηρεσίας της Blue Ribbon Bags θα θεωρείται ότι οι αποσκευές σας έχουν επιστραφεί.&lt;/li&gt;
+ &lt;li&gt;ΕΠΙΒΑΤΕΣ ΤΗΣ AIR CANADA ΚΑΙ ΤΗΣ WESTJET: Η Blue Ribbon Bags δεν θα χειρίζεται παράδοση απωλεσθείσας αποσκευής σε επιβάτη για Αναφορές Αποσκευών που έχουν υποστεί Κακή Μεταχείριση οι οποίες σχετίζονται με απαιτήσεις από οιαδήποτε από τις δύο αυτές αεροπορικές εταιρίες. Οιεσδήποτε αποσκευές που έχουν υποστεί κακή μεταχείριση σχετίζονται με απαίτηση απωλεσθείσας αποσκευής από τις αεροπορικές εταιρίες Air Canada ή  WestJet θα θεωρούνται "επιστραφείσες" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναφέρεται στη δήλωση απαίτησης απωλεσθείσας αποσκευής στην Air Canada ή την WestJet. Από τη στιγμή που θα επιβεβαιωθεί ότι οι αποσκευές έχουν φτάσει στο αεροδρόμιο που αναφέρεται στη δήλωση απαίτησης απωλεσθείσας αποσκευής στην Air Canada ή την WestJet εντός της περιόδου της υπηρεσίας, ο επιβάτης δεν θα δικαιούται πλέον υπηρεσιών ανάκτησης αποσκευών  ή της καταβολής της πληρωμής εγγυημένης Ικανοποίησης της Blue Ribbon Bags.&lt;/li&gt;
+&lt;li&gt;ΣΦΑΛΜΑΤΑ: Σε περίπτωση ότι ο επιβάτης ανακαλύψει κάποιο σφάλμα όταν η Blue Ribbon Bags αρνηθεί την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση ή Κλείσει την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση, ο επιβάτης έχει 12 ώρες από τη λήψη του email που θα τον πληροφορεί για οιαδήποτε από τις περιπτώσεις αυτές, για να αναφέρει το σφάλμα στην Blue Ribbon Bags. Παρακαλούμε ενημερώστε μας για το σφάλμα στέλνοντάς μας email στο &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; και βάζοντας τον αριθμό MBR στην γραμμή του θέματος. Ο επιβάτης πρέπει να εξηγήσει στο email ακριβώς τι σφάλμα έχει γίνει, κατά το δυνατό λεπτομερέστερα, και να δώσει οιαδήποτε υποστηρικτική τεκμηρίωση. Σε περίπτωση που η Blue Ribbon Bags ανακαλύψει ότι το σφάλμα ισχύει, η Blue Ribbon Bags θα έχει 72 ώρες από τη στιγμή που θα ανοίξει εκ νέου ο φάκελος του επιβάτη για να εντοπίσει την αποσκευή του επιβάτη. Αν το διάστημα των 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη λήγει μετά το παράθυρο των 72 ωρών από το νέο άνοιγμα του φακέλου, η Blue Ribbon Bags θα έχει στη διάθεσή της το χρόνο μέχρι την εκπνοή των αρχικών 96 ωρών για να εντοπίσει αποσκευή του επιβάτη. Και στις δύο περιπτώσεις, από τη στιγμή που θα παραληφθεί η αποσκευή του επιβάτη στο αεροδρόμιο που αναφέρεται στην απαίτηση απωλεσθείσας αποσκευής στην αεροπορική εταιρία, θα θεωρείται πως η αποσκευή έχει επιστραφεί, σύμφωνα με του όρους και τις προϋποθέσεις της Blue Ribbon Bags και ο φάκελος του επιβάτη θα κλείνει. Οι υποβολές που λαμβάνονται μετά την χρονική περίοδο των 12 ωρών δεν θα γίνονται δεκτές και ο επιβάτης δεν θα δικαιούται υπηρεσιών ανάκτησης αποσκευών ή της καταβολής της εγγύησης ικανοποίησης που προσφέρουμε, ασχέτως αν έχει υποβάλει τεκμηρίωση.&lt;/li&gt;
+ &lt;li&gt;ΚΛΟΠΗ, ΑΠΩΛΕΙΑ ΠΕΡΙΕΧΟΜΕΝΟΥ  Ή ΚΑΤΑΣΤΡΟΦΗ ΑΠΟΣΚΕΥΗΣ ΔΕΝ ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΝΤΑΙ ΣΤΗΝ ΥΠΗΡΕΣΙΑ. Η ΚΑΛΥΨΗ ΙΣΧΥΕΙ ΜΟΝΟ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. &lt;li&gt;</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>ΣΗΜΑΝΤΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ ΣΧΕΤΙΚΑ ΜΕ ΤΙΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>Αναζήτηση της Αναφοράς σας για Αποσκευή που έχει υποστεί Κακή Μεταχείριση</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) Το χάλκινο επίπεδο υπηρεσιών προορίζεται ΜΟΝΟ για Εσωτερικές Πτήσεις Ινδίας. Τυχόν κρατήσεις που γίνονται με χάλκινο επίπεδο υπηρεσιών και περιλαμβάνουν στο δρομολόγιό τους πτήσεις που έρχονται ή φεύγουν από την Ινδία ή άλλη χώρα δεν θα ισχύουν.</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>Κωδικός Προσφοράς</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>Δώστε τα στοιχεία του ταξιδιού σας</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>Δημιουργία υπηρεσίας(ών) προς αγορά…</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Η επεξεργασία {0} της υπηρεσίας τελείωσε.</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>Επεξεργασία {0} επιβατών υπηρεσίας…</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>Επεξεργασία {0} αγοράς υπηρεσίας…</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>Επικύρωση {0} υπηρεσίας…</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>Διεύθυνση</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>Όνομα Πρακτορείου</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>Κάρτα Πράκτορα</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>Αυτό είναι ένα PDF που μπορείτε να χρησιμοποιείτε ως αναφορά όταν μιλάτε με τους πελάτες σας, ώστε να μην σας διαφύγει κανένα από τα σημαντικά χαρακτηριστικά του BRB!</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>Γλώσσα email για τον Πράκτορα</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>ID (EPR) Πράκτορα</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>Πληροφορίες Πράκτορα</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Οι Πληροφορίες Πράκτορα αποθηκεύτηκαν με επιτυχία!</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>Πράκτορας (Εγώ)</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>PCC Πράκτορα</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>Αεροπορική εταιρία </value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>Πληροφορίες Τιμολόγησης</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>Θα τιμολογηθείτε αργότερα γι' αυτήν την αγορά.</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>Αποθηκεύοντας τις ρυθμίσεις, όλες οι καρτέλες στην εφαρμογή της Blue Ribbon Bags θα αρχικοποιηθούν, συμπεριλαμβανομένης της καρτέλας Αγορά, έτσι ώστε να πρέπει να ξαναφορτώσετε το PNR για την αγορά που βρίσκεται σε εξέλιξη. Θέλετε να συνεχίσετε;</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>Αριθμός CC</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>Έλεγχος PNR…</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>Πόλη</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>Πόλη, Πολιτεία</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>Πατήστε εδώ αν &lt;b&gt;επιθυμείτε&lt;/b&gt; να λαμβάνετε αυτόματο email επιβεβαίωσης από την Blue Ribbon Bags μετά από κάθε αγορά.</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Πατήστε εδώ αν επιθυμείτε να λαμβάνει ο(οι) &lt;b&gt;επιβάτης(ες)&lt;/b&gt; αυτόματο email επιβεβαίωσης από την Blue Ribbon Bags μετά από κάθε αγορά.</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>Κάρτα Πελάτη</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>Αυτό είναι ένα PDF που μπορείτε να στέλνετε στους πελάτες σας για να διαφημίζετε την υπηρεσία και δεν αναφέρει προμήθειες.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>Αριθμός Επιβεβαίωσης</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>Χώρα</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>Ημερομηνία / Ώρα</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>Σχόλιο με χρήση API δεν μπόρεσε να προστεθεί στο Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>Το σχόλιο δεν μπόρεσε να προστεθεί στο Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>Το PRN δεν μπόρεσε να κλείσει και το σχόλιο δεν μπόρεσε να προστεθεί στο Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Σφάλμα επικοινωνίας με το Sabre. Κωδικός σφάλματος {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Σφάλμα σύνδεσης με το Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>Αδυναμία φόρτωσης προφίλ πράκτορα.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>ΣΦΑΛΜΑ. ΤΟ  PNR που έχετε ανοιχτό στην εφαρμογή ({0}) BRB, δεν είναι το ίδιο με εκείνο που είναι ενεργό στο χώρο εργασίας ({1}) του Sabre workspace.</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>Σφάλμα του server κατά την επεξεργασία του αιτήματός σας.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>Το PNR Info XML δεν μπόρεσε να αναλυθεί για να αφαιρεθούν ευαίσθητες πληροφορίες, οπότε  απορρίφθηκε.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Αδυναμία ανάκλησης πληροφοριών PNR. Παρακαλούμε βεβαιωθείτε ότι υπάρχει ενεργό PNR ανοιχτό στο Sabre.</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>Μήνας Λήξης</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>Έτος Λήξης</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>Πληροφορίες Πτήσης</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>Αριθμός Πτήσης</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>Λάβετε Πληροφορίες PNR</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>Γλώσσα Interface</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>Μη έγκυρο αίτημα Sabre.</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>Τελευταία Πτήση</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Δεν έχετε μπει στο Sabre ακόμα. Παρακαλούμε κάντε sign-in και δοκιμάστε ξανά.</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>Λήψη πληροφοριών PNR από το Sabre. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>προαιρετικό</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>Πτήση Προέλευσης</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>Γλώσσα email για τον Επιβάτη</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>Πληροφορίες Επιβάτη</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>Επιβάτης(ες)</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>κάλυψη ανά αποσκευή</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>ανά Επιβάτη</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>Προσωπικές Πληροφορίες</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>Αριθμός Τηλεφώνου</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>Παρακαλούμε στείλτε μας email οποιαδήποτε στιγμή στο agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>Το PNR με DUMMY info φορτώθηκε με επιτυχία! Παρακαλούμε συμπληρώστε την παρακάτω φόρμα.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>Οι πληροφορίες PNR φορτώθηκαν με επιτυχία! Παρακαλούμε συμπληρώστε την παρακάτω φόρμα.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>Διαφορές στις πληροφορίες PNR. Παρακαλούμε επαναφορτώστε την κράτηση.</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>Οι πληροφορίες PNR ΔΕΝ φορτώθηκαν με επιτυχία. Παρακαλούμε δοκιμάστε ξανά.</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>Αριθμός PNR</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>Κωδικός Προσφοράς</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>Εντολή αγοράς. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>Αν έχετε επιπλέον ερωτήσεις ή σχόλια, παρακαλούμε καλέστε μας στο agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>Σας εγγράφουμε. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>Η εγγραφή σας ολοκληρώθηκε με επιτυχία!</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Η επεξεργασία της εγγραφής σας ολοκληρώθηκε με επιτυχία, μπορείτε να αρχίσετε τις πωλήσεις τώρα! Όμως, παρακαλούμε, αφιερώστε ένα λεπτό για να ελέγξετε το email σας ώστε να ολοκληρωθεί η διαδικασία εγγραφής. Σας ευχαριστούμε!</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>Αποθηκεύουμε τις πληροφορίες πράκτορα. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>Αποθηκεύουμε τις ρυθμίσεις σας. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>Επιλέξτε Επίπεδο Κάλυψης</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>Στείλτε email επιβεβαίωσης στο:</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Η συμφωνία υπηρεσίας [{0}] αγοράστηκε με επιτυχία.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Οι ρυθμίσεις σας αποθηκεύτηκαν με επιτυχία!</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>Πολιτεία  </value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>Αν επιθυμείτε να συμπεριλαμβάνετε BRB ως μέρος της προσφοράς του εισιτηρίου σας, ρωτήστε μας για τις εναλλακτικές τιμολόγησης, ώστε να αποφεύγετε να βλέπουν οι πελάτες σας χωριστές χρεώσεις για την BRB στην πιστωτική τους κάρτα.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>Συνολικό Κόστος = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>Πληροφορίες Ταξιδιωτικού Πράκτορα</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>Μη αναμενόμενο σφάλμα.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Μη αναμενόμενο σφάλμα. Οι πληροφορίες PNR ΔΕΝ φορτώθηκαν με επιτυχία.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>Μη αντιμετωπισμένη εξαίρεση κατά τη διάρκεια GetPNRInfo.</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>Ενημέρωση </value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>Πληροφορίες Χρήστη</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>Μπορείτε να ενημερώνετε τις προσωπικές σας πληροφορίες για την εγγραφή στην Blue Ribbon Bags από την παρακάτω φόρμα.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>Επικύρωση Πράκτορα…</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Καλωσήρθατε πάλι {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Καλωσήρθατε στην αρχική εγγραφή!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>ΕΓΓΡΑΦΗ ΤΑΞΙΔΙΩΤΙΚΟΥ ΠΡΑΚΤΟΡΑ</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>(Λογιστικός) Αριθμός Πράκτορα / Ταυτότητας Μέλους</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>Πληροφορίες Ταξιδιωτικού Πρακτορείου</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>Αριθμός Πρακτορείου</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>Τύπος Πρακτορείου</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>Συμφωνώ με τις πληροφορίες που έδωσα στην Blue Ribbon Bags, LLC είναι η σωστή πληροφορία για την παρακολούθηση όλων των αγορών για λογαριασμό του πελάτη μου.</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>Επιχειρηματική Μονάδα</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>Πληκτρολογήστε εδώ το αποτέλεσμα του αθροίσματος που βλέπετε στην εικόνα παραπάνω</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>Επιτυχής δημιουργία Ταξιδιωτικού Πράκτορα. Θα λάβετε ένα email με τον σύνδεσμο ενεργοποίησης.</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>Εμφανίστε την Ταυτότητα Πρακτορείου</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>Κινητό</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Μετα-Επωνυμία</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Προ-Επωνυμία</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>ΕΓΓΡΑΦΗ ΤΑΞΙΔΙΩΤΙΚΟΥ ΠΡΑΚΤΟΡΑ</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>Όνομα Ταξιδιωτικού Πρακτορείου</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>Login Χρήστη</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>Οι Πληροφορίες Σας</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* Απαιτούμενη Εισαγωγή</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) Απαιτούμενα Πεδία</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>Αριθμός Δρομολόγησης</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>Πληρωμή Εγγύησης Ικανοποίησης ανά αποσκευή:</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>Πράκτορας  </value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>Όνομα Πράκτορα</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>Εισαγάγετε Ηλεκτρονική Διεύθυνση</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>Άλλο</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>Κατάλογος Επιβατών</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>Στοιχεία Υπηρεσίας</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>Αγορά Μέσω:</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>Επαναποστολή Email Πράκτορα</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>Επαναποστολή Email  </value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>Επαναποστολή Email Επιβάτη</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>Αποστολή Email</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>Κόστος Υπηρεσίας:</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>Συνολική Χρέωση:</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>Συνολική Μείωση:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Κωδικός Ασφαλείας</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>Επιλέξτε Αριθμό επιβατών</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>Χαρακτηριστικά Υπηρεσίας  </value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>Κατέβασμα Κάρτας Πράκτορα</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>ΑΝΑΣΚΟΠΗΣΗ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>Αεροπορική Εταιρία</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>Αριθμός Επιβεβαίωσης Αεροπορικής Εταιρίας </value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>Αριθμός Υπηρεσίας BRB</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>ΟΛΟΚΛΗΡΩΣΗ ΑΓΟΡΑΣ</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>Κόστος Υπηρεσίας:</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>κάλυψη ανά αποσκευή</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>Ημερησίως</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>Εύρος Ημερομηνιών</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>Εξαγωγή ανά Επιβάτη</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>Εξαγωγή ανά Υπηρεσία</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>Η κάλυψη μπορεί να αγοραστεί για πολλές πτήσεις μαζί για τον ίδιο επιβάτη με εισαγωγή του ονόματός του πολλές φορές με διαφορετικό PNR ή αριθμό επιβεβαίωσης εταιρίας.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>ΕΠΙΠΕΔΟ ΥΠΗΡΕΣΙΩΝ:</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>Μέγιστη Κάλυψη Απώλειας:</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>Αριθμός Επιβατών:</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>Αρχική Αεροπορική Εταιρία </value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>Αρίθμηση Επιβάτη:</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>ΠΛΗΡΟΦΟΡΙΕΣ ΕΠΙΒΑΤΗ</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>ανά ημέρα</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>ανά έτος</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>Αριθμός PNR </value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>Κωδικός Προσφοράς</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>ΑΓΟΡΑ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>Κανονική</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>Ο επιβάτης δεν θα λάβει email επιβεβαίωσης αν δεν εισαχθεί email.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>Επίπεδο Υπηρεσίας:</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>Υπηρεσία(ες) που εισάγονται από το αρχείο:</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>Σύνοψη</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>Ανεβάστε ένα αρχείο excel με δεδομένα για να δημιουργήσετε υπηρεσίες συνημμένες σε αυτά. Πατήστε σε</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>αυτόν</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>τον σύνδεσμο για να κατεβάσετε ένα υπόδειγμα.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>Αν δεν υπάρχει αριθμός PNR στην κράτηση, βάλτε τον Αριθμό Επιβεβαίωσης της Αεροπορικής Εταιρίας.</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>Ανεβάστε το Αρχείο Αγοράς</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>Φόρτωση Αρχείου Αγοράς Πολλαπλών Πρακτόρων</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>Ετησίως</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>Ορίστε Ρυθμίσεις Email Επιβεβαίωσης</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>Η Blue Ribbon Bags θα παρακολουθεί και θα επισπεύσει την επιστροφή της καθυστερημένης αποσκευής σας επί 96 ώρες από την ώρα που προσγειώνεται η πτήση σας.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>Θα λαμβάνετε αυτόματες ενημερώσεις με email όποτε υπάρχει κάποια αλλαγή στην κατάσταση της αποσκευής σας που έχει υποστεί κακή μεταχείριση.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>Μία Συμφωνία Υπηρεσίας περιλαμβάνει όλες τις αποσκευές που παραδίδονται στο αεροδρόμιο, συμπεριλαμβανομένων παραδόσεων της τελευταίας στιγμής στην πύλη.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>Η υπηρεσία της Blue Ribbon Bags καλύπτει όλες τις πτήσεις, σε όλες τις αεροπορικές εταιρίες, οπουδήποτε στον κόσμο.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>Κάθε αγορά είναι κατ' άτομο, ανά αριθμό επιβεβαίωσης αεροπορικής εταιρίας, ασχέτως αριθμού ανταποκρίσεων.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>Μπορείτε να αγοράσετε την υπηρεσία μας μέχρι την τελευταία στιγμή πριν από την αναχώρηση της πτήσης σας.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>Η υπηρεσία μας πρέπει να αγοραστεί πριν από όλες τις πτήσεις των δρομολογίων αναχώρησης ή επιστροφής. Η υπηρεσία μας δεν μπορεί να αγοραστεί "εν μέσω ανταποκρίσεων".</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>Πρέπει να καταχωρηθεί απαίτηση στην αεροπορική σας εταιρία πριν αναφέρετε σε μας την αποσκευή σας που έχει υποστεί κακή μεταχείριση.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>Αποσκευές που έχουν υποστεί κακή μεταχείριση πρέπει να αναφέρονται σε μας μέσα σε 24 ώρες από την άφιξη της πτήσης σας.</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>Δεν απαιτούνται αποδείξεις για το περιεχόμενο της αποσκευής για να λάβετε την Πληρωμή Εγγυημένης Ικανοποίησης που σας προσφέρουμε.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>Η πληρωμή πραγματοποιείται αν δεν βρεθεί η αποσκευή σας μέσα σε 96 ώρες (4 μέρες) από την άφιξη της πτήσης σας.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>Οι πληρωμές είναι εγγυημένες ακόμα κι αν επιστραφούν οι αποσκευές σας μετά την περίοδο των 96 ωρών της υπηρεσίας μας.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>H BRB πωλεί μια υπηρεσία επιπρόσθετη σε οιαδήποτε ασφάλεια που μπορεί να έχετε και όχι αντ' αυτής.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>Αρμόδιος για την Κρίση</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>Σας στέλνουμε ενημερώσεις με email κάθε φορά που υπάρχει κάποια αλλαγή στην κατάσταση της απωλεσθείσας αποσκευής σας</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>Όχι Αποδείξεις</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>ΔΕΝ απαιτούνται αποδείξεις για το περιεχόμενο της αποσκευής για να λάβετε την πληρωμή </value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>Μία Αγορά  </value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>Μία αγορά καλύπτει όλες τις αποσκευές που παραδίδονται στο αεροδρόμιο</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>Η Εγγύησή μας</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>Η BRB πληρώνει $1,000 εγγυημένα, για κάθε αποσκευή που δεν έχει βρεθεί μετά από 4 μέρες απώλειας</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>Φτάνουμε σε όλον τον κόσμο</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>Η BRB καλύπτει όλες τις πτήσεις, σε όλες τις αεροπορικές εταιρίες, οπουδήποτε στον κόσμο. </value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>Τελευταία Στιγμή</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>Αγοράστε υπηρεσία αποσκευών μέχρι την τελευταία στιγμή πριν από την αναχώρηση της πτήσης σας.</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>Συνδεθείτε μαζί μας:</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-MBR #{0}:  Υπάρχει ενημέρωση για την κατάσταση της απωλεσθείσας αποσκευής σας. Η ενημέρωση είναι: {1}.
+ΠΑΡΑΚΑΛΟΥΜΕ ΜΗΝ ΑΠΑΝΤΗΣΕΤΕ Σ' ΑΥΤΟ ΤΟ ΜΗΝΥΜΑ, ΚΑΘΩΣ ΔΕΝ ΘΑ ΛΗΦΘΕΙ ΑΠΟ ΤΗΝ BLUE RIBBON BAGS, ΑΥΤΟ ΠΕΡΙΛΑΜΒΑΝΕΙ ΤΥΧΟΝ ΥΠΟΒΟΛΕΣ ΠΛΗΡΟΦΟΡΙΩΝ ΠΟΥ ΖΗΤΟΥΝΤΑΙ ΑΠΌ ΤΗΝ ΠΑΡΟΥΣΑ ΕΝΗΜΕΡΩΣΗ. ΟΛΕΣ ΟΙ ΕΡΩΤΗΣΕΙΣ ΣΧΕΤΙΚΑ ΜΕ ΤΗΝ ΑΠΟΣΚΕΥΗ ΣΑΣ ΠΟΥ ΕΧΕΙ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ, ΑΝΑΦΟΡΕΣ Ή ΥΠΟΒΟΛΕΣ ΖΗΤΟΥΜΕΝΩΝ ΠΛΗΡΟΦΟΡΙΩΝ ΠΡΕΠΕΙ ΝΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΜΕ EMAIL ΣTO MBR@BLUERIBBONBAGS.COM.  Οι αριθμοί των τηλεφώνων μας δεν θα έχουν πληροφορίες σχετικά με την απωλεσθείσα αποσκευή σας. Όλη η αλληλογραφία πραγματοποιείται μέσω email στο mbr@blueribbonbags.com</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>Κατά τις πρώτες 96 ώρες, η BRB θα συνεργάζεται απευθείας με την αεροπορική εταιρία για να βρει τις αποσκευές σας που έχουν υποστεί κακή μεταχείριση και να επισπεύσει την επιστροφή τους. Αντί να χρειάζεται να χάσετε εσείς το ταξίδι σας στο τηλέφωνο με την αεροπορική εταιρία, η BRB θα σας στέλνει αυτόματη ενημέρωση κάθε φορά που θα υπάρχει κάποια αλλαγή στην κατάσταση της αποσκευής σας.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>Μία αγορά ($5) είναι κατ' άτομο, ανά αριθμό επιβεβαίωσης αεροπορικής εταιρίας, συμπεριλαμβανομένων εισιτηρίων με επιστροφή, ασχέτως αριθμού ανταποκρίσεων, και οι πληρωμές ($1000) είναι ανά αποσκευή</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>Δεν απαιτούνται αποδείξεις για το περιεχόμενο των αποσκευών για να γίνει η πληρωμή.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>Πραγματοποιείται πληρωμή αν η αποσκευή σας δεν είναι στα χέρια σας μέσα σε 96 ώρες από την άφιξη της πτήσης σας. Οι πληρωμές είναι εγγυημένες, ακόμα κι αν η αποσκευή σας επιστρέψει σε σας οποιαδήποτε στιγμή μετά την προθεσμία των 96 ωρών.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>Η BRB πωλεί υπηρεσία. Η κατοχή μιας συμφωνίας υπηρεσίας BRB είναι επιπρόσθετη σε κάθε ασφάλεια που ενδέχεται να έχετε και όχι αντ' αυτής. Αφού εισπράξετε την επιταγή σας από την BRB, μπορείτε να δεχτείτε και πληρωμές από ασφάλεια. </value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>Πρέπει πρώτα να καταχωρηθεί απαίτηση στην αεροπορική εταιρία πριν αναφέρετε την αποσκευή σας που έχει υποστεί κακή μεταχείριση στην Blue Ribbon Bags. Αποσκευές που δεν έχουν παραδοθεί πρέπει να αναφέρονται στην BRB μέσα σε 24 ώρες από την καταχώρηση απώλειας αποσκευής στην αεροπορική εταιρία. </value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>Αναφορές για αποσκευές που έχουν υποστεί κακή μεταχείριση καταχωρούνται απλώς πηγαίνοντας στο &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt; ή καλώντας (888)-BAGGAGE 24/7</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>Μία συμφωνία υπηρεσίας ($5) περιλαμβάνει όλες τις αποσκευές που παραδίδονται στο αεροδρόμιο, συμπεριλαμβανομένων παραδόσεων της τελευταίας στιγμής στην πύλη. Διατίθενται εναλλακτικές υψηλότερων καλύψεων προς $7,50 &amp; $10,00, που λαμβάνουν πληρωμή $1500 και $2000.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Η Blue Ribbon Bags καλύπτει όλες τις πτήσεις οπουδήποτε στον κόσμο</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>ΜΠΟΡΕΙΤΕ ΝΑ ΑΓΟΡΑΣΕΤΕ ΤΗΝ ΥΠΗΡΕΣΙΑ ΤΗΣ BLUE RIBBON BAGS ΜΕΧΡΙ ΤΗΝ ΤΕΛΕΥΤΑΙΑ ΣΤΙΓΜΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΠΤΗΣΗΣ&amp;#39;S ΣΑΣ.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>Πρέπει να αγοράσετε την υπηρεσία της Blue Ribbon Bags πριν από όλες τις πτήσεις στο ταξίδι της αναχώρησης ή της επιστροφής σας. Δεν μπορείτε να αγοράσετε την υπηρεσία ανάμεσα σε σκέλη ενός ταξιδιού (δηλαδή, σε ενδιάμεσες ανταποκρίσεις).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>Η ΥΠΗΡΕΣΙΑ BLUE RIBBON BAGS ΔΕΝ ΕΠΙΣΤΡΕΦΕΤΑΙ ΟΥΤΕ ΜΕΤΑΒΙΒΑΖΕΤΑΙ. ΔΕΝ ΘΑ ΕΚΔΙΔΟΝΤΑΙ ΕΠΙΣΤΡΟΦΕΣ Ή ΠΙΣΤΩΤΙΚΑ ΣΗΜΕΙΩΜΑΤΑ. ΑΝ ΜΑΤΑΙΩΘΕΙ Η ΠΤΗΣΗ ΣΑΣ ΚΑΙ ΓΙΝΕΙ ΚΡΑΤΗΣΗ ΣΕ ΑΛΛΗ ΠΤΗΣΗ ΑΝΤ' ΑΥΤΗΣ, ΠΡΕΠΕΙ ΕΙΤΕ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΛΛΑΓΗ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΝΑΧΩΡΗΣΗ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ&amp;#39;S Ή ΝΑ ΑΓΟΡΑΣΕΤΕ ΝΕΑ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗ ΝΕΑ ΣΑΣ ΠΤΗΣΗ. ΟΛΕΣ ΟΙ ΑΛΛΑΓΕΣ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕ EMAIL ΣΤΟ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ΚΑΙ ΣΗΜΕΙΩΣΗ ΤΟΥ ΑΡΙΘΜΟΥ ΣΥΜΦΩΝΙΑΣ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΑΣ ΣΤΗΝ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ. ΣΤΟ ΣΩΜΑ ΤΟΥ EMAIL ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΕΤΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΣΑΣ ΕΤΑΙΡΙΑ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΤΗΣ ΑΕΡΟΠΟΡΙΚΗΣ ΣΑΣ ΕΤΑΙΡΙΑΣ, ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΑΡΧΙΚΗΣ ΣΑΣ ΠΤΗΣΗΣ ΚΑΙ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ. ΑΝ ΑΛΛΑΖΕΙ ΚΑΙ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ, ΠΡΕΠΕΙ ΝΑ ΜΑΣ ΕΝΗΜΕΡΩΣΕΤΕ ΓΙΑ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΤΗΣ ΝΕΑΣ ΣΑΣ ΠΤΗΣΗΣ.</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>Όλες οι αγορές υπόκεινται στους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags. Μπορεί να ανασκοπηθεί στο &lt;a href=".{0}" target="_blank"&gt;here&lt;/a&gt;.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>Χαρακτηριστικά της Blue Ribbon Bags  </value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>Αποσκευή που έχει υποστεί κακή μεταχείριση είναι μια αποσκευή που έχει παραδοθεί και το σύστημα παρακολούθησης της αεροπορικής εταιρίας αποκαλύπτει ότι έχει οδηγηθεί από λάθος σε προορισμό διαφορετικό από τον τελικό προορισμό της πτήσης ή δεν έχει φορτωθεί στις πτήσεις που πήρε ο επιβάτης, όπως αναφέρεται από την αεροπορική εταιρία.</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>Κάθε αγορά είναι κατ' άτομο, ανά αριθμό επιβεβαίωσης αεροπορικής εταιρίας. Αν ένα εισιτήριο με επιστροφή, άσχετα με τον αριθμό των στάσεων, έχει κρατηθεί με αριθμό επιβεβαίωσης από μία αεροπορική εταιρία, θα καλύπτεται με μία αγορά. Αν οι πτήσεις αναχώρησης και επιστροφής σας έχουν κρατηθεί με διαφορετικούς αριθμούς επιβεβαίωσης από την αεροπορική εταιρία, θα πρέπει να αγοραστούν χωριστές συμφωνίες υπηρεσίας για κάθε πτήση.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>Όχι! Η Blue Ribbon Bags καλύπτει όλες τις πτήσεις οπουδήποτε στον κόσμο. Δεν υπάρχουν περιορισμοί ως προς το σημείο εκκίνησης ή τον τελικό προορισμό.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>Τι είναι αποσκευή που έχει υποστεί κακή μεταχείριση;</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>Καλύπτει αυτή η υπηρεσία εισιτήρια με επιστροφή;</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>Πρέπει η πτήση μου να ξεκινάει ή να καταλήγει στις Ηνωμένες Πολιτείες για να αγοράσω αυτήν την υπηρεσία;</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>Συχνές Ερωτήσεις</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>ανά αποσκευή</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>Εισαγάγετε Πληροφορίες Επιβάτη</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>Ανασκόπηση Συμφωνίας</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>Πατήστε εδώ για μια ανασκόπηση της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags &amp;nbsp;</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>Επιλέξτε επίπεδο υπηρεσιών</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>Βήμα</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>Μόνο με $5,00 κατ' άτομο, η BRB θα εντοπίσει και θα επιστρέψει τις αποσκευές σας που έχουν υποστεί κακή μεταχείριση. Αν η αεροπορική εταιρία δεν σας παραδώσει τις αποσκευές σας μέσα σε 96 ώρες από τη δήλωση της απώλειάς τους, η BRB πληρώνει $1.000 για κάθε αποσκευή που δεν έχει παραδοθεί. εγγυημένα,&lt;u&gt;δεν απαιτούνται αποδείξεις για το περιεχόμενο των αποσκευών για να γίνει η πληρωμή&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>Αγορά Υπηρεσίας Αποσκευών</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>Επιβάτης</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>Καταχωρήστε τις πληροφορίες του ταξιδιού σας</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Πολιτεία</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Η αεροπορική εταιρία θα δώσει τις απαραίτητες πληροφορίες παρακολούθησης για την καταχώρηση αναφοράς στην Blue Ribbon Bags.</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Όλες οι απωλεσθείσες αποσκευές πρέπει να αναφέρονται στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης του επιβάτη.</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>ΘΑ ΧΡΕΙΑΣΤΕΙ ΝΑ ΕΠΙΚΟΙΝΩΝΗΣΕΤΕ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΙ ΝΑ ΤΟΝ ΠΑΡΕΤΕ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΣΑΣ ΣΕ ΜΑΣ.</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>Η  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΛΑΜΒΑΝΕΙ ΑΡΙΘΜΟΥΣ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΩΝ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. ΕΊΝΑΙ ΕΥΘΥΝΗ ΤΟΥ ΕΠΙΒΑΤΗ</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>ΝΑ ΛΑΒΕΙ ΑΥΤΗΝ ΤΗΝ ΠΛΗΡΟΦΟΡΙΑ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΙ ΣΕ ΜΑΣ ΑΝΑΦΟΡΑ ΑΠΟΣΚΕΥΗΣ ΠΟΥ ΕΧΕΙ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>αεροπορική εταιρία, λάβατε έναν αριθμό αναφοράς φακέλου</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>και έναν αριθμό ετικέτας αποσκευής. Παρακαλούμε εισαγάγετέ τους εδώ:</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>Το password πρέπει να περιλαμβάνει τουλάχιστον 8 (οκτώ) χαρακτήρες με τουλάχιστον έναν αλφαβητικό, έναν αριθμητικό και έναν ειδικό χαρακτήρα με έναν τουλάχιστον από τους αλφαβητικούς χαρακτήρες κεφαλαίο.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>Οι επιτρεπόμενοι ειδικοί χαρακτήρες περιλαμβάνουν:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>ΑΥΤΟΣ Ο ΑΡΙΘΜΟΣ ΤΗΛΕΦΩΝΟΥ ΔΕΝ ΘΑ ΕΧΕΙ ΚΑΜΙΑ ΠΛΗΡΟΦΟΡΙΑ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>ΤΥΧΟΝ ΕΡΩΤΗΣΕΙΣ Ή ΣΧΟΛΙΑ Ή ΥΠΟΒΟΛΕΣ ΠΛΗΡΟΦΟΡΙΩΝ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ,</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>ΕΙΤΕ ΝΕΕΣ, ΑΝΟΙΧΤΕΣ, ΛΑΝΘΑΣΜΕΝΕΣ ΠΛΗΡΟΦΟΡΙΕΣ Ή ΚΛΕΙΣΜΕΝΕΣ, ΓΙΑ ΟΠΟΙΟΝΔΗΠΟΤΕ ΛΟΓΟ, ΠΡΕΠΕΙ ΝΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΜΕ EMAIL</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>αποσκευή δεν έφτασε στον τελικό προορισμό της πτήσης σας. Η αεροπορική εταιρία θα σας έχει δώσει τις πληροφορίες παρακολούθησης που θα χρειαστείτε για να καταχωρήσετε την αναφορά κακομεταχειρισμένης αποσκευής παρακάτω.</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>ΣTO &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ΚΑΙ ΝΑ ΒΑΖΕΤΕ ΤΟΝ ΑΡΙΘΜΟ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ ΣΤΗ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>ο επιβάτης πρέπει να καταχωρήσει απαίτηση απωλεσθείσας αποσκευής στην αεροπορική του εταιρία (όπως απαιτείται από τον κανονισμό της αεροπορικής εταιρίας).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΟΥ ΕΝΟΣ ΕΓΚΥΡΟΥ ΑΡΙΘΜΟΥ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ  BLUE RIBBON BAGS ΜΕΣΑ ΣΕ 24 ΩΡΕΣ ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. Η ΥΠΗΡΕΣΙΑ  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΓΙΝΕΤΑΙ ΣΕΒΑΣΤΗ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ. ΑΝ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΔΕΝ ΣΑΣ ΕΧΕΙ ΔΩΣΕΙ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ, ΘΑ ΧΡΕΙΑΣΤΕΙ ΝΑ ΕΠΙΚΟΙΝΩΝΗΣΕΤΕ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΙ ΝΑ ΤΟΝ ΠΑΡΕΤΕ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΣΑΣ ΣΕ ΜΑΣ. Η  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΛΑΜΒΑΝΕΙ ΑΡΙΘΜΟΥΣ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΩΝ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. ΕΙΝΑΙ ΕΥΘΥΝΗ ΤΟΥ ΕΠΙΒΑΤΗ ΝΑ ΛΑΒΕΙ ΑΥΤΗΝ ΤΗΝ ΠΛΗΡΟΦΟΡΙΑ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΙ ΣΕ ΜΑΣ ΑΝΑΦΟΡΑ ΑΠΟΣΚΕΥΗΣ ΠΟΥ ΕΧΕΙ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>Σε περίπτωση που θα βρεθεί ότι μια αποσκευή που παραδόθηκε δεν είναι η σωστή αποσκευή του επιβάτη, ο επιβάτης έχει 12 ώρες από την ειδοποίηση ότι ο φάκελός του στην Blue Ribbon Bags έχει κλείσει και η αποσκευή έχει επιστραφεί για να ενημερώσει την Blue Ribbon Bags για το λάθος στέλνοντάς μας ένα email στο mbr@blueribbonbags.com και βάζοντας "Not my bag" (δεν είναι η αποσκευή μου) και τον αριθμό σας MBR στη γραμμή του θέματος. Η Blue Ribbon Bags θα έχει 72 ώρες (3 μέρες) από την εκπνοή των αρχικών 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη για να εντοπίσει την αποσκευή που έχει υποστεί κακή μεταχείριση. Θα θεωρείται ότι μια αποσκευή που εμπίπτει σ' αυτήν την κατηγορία έχει "επιστραφεί" σύμφωνα με τους όρους και τις προϋποθέσεις μας από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναφέρεται στην απαίτηση απωλεσθείσας αποσκευής στη δήλωση της αεροπορικής εταιρίας. Αν η λάθος αποσκευή έχει ήδη παραδοθεί, ο επιβάτης θα πρέπει να επιδείξει με email την απόδειξη της εταιρίας παράδοσης που παρέδωσε τη λάθος αποσκευή, καθώς και τεκμηρίωση από την αεροπορική εταιρία που θα δηλώνει σαφώς ότι αποσκευή η οποία αναφέρεται και έχει επιστραφεί στον επιβάτη δεν είναι η δική του. Και τα δύο αυτά τεκμήρια είναι απαραίτητα για να πραγματοποιηθεί η πληρωμή της εγγυημένης ικανοποίησης από την Blue Ribbon Bags.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>ΑΙΤΗΜΑΤΑ ΓΙΑ ΕΛΛΕΙΠΕΙΣ Ή ΛΑΘΟΣ ΠΛΗΡΟΦΟΡΙΕΣ:&lt;/strong&gt; Αν δοθούν λάθος πληροφορίες κατά την καταχώρηση μιας αναφοράς για αποσκευή που έχει υποστεί κακή μεταχείριση, ενδέχεται να λάβετε ένα email που θα σας ζητάει να διορθώσετε τις πληροφορίες αυτές. Σε περίπτωση που θα λάβει ο επιβάτης email τέτοιας φύσης ή άλλα αιτήματα για πληροφορίες σχετικά με την υπόθεση του επιβάτη, ο επιβάτης θα έχει 12 ώρες από τη στιγμή που σταλεί αυτό το email για να απαντήσει. Αν ο επιβάτης δεν απαντήσει μέσα σ' αυτό το χρονικό διάστημα παρέχοντας τις διορθωμένες ή ζητηθείσες πληροφορίες και τυχόν υποστηρικτική τεκμηρίωση έχει ζητηθεί, δεν θα γίνει δεκτή η Αναφορά του πελάτη για Αποσκευή που έχει υποστεί Κακή Μεταχείριση και ο επιβάτης δεν θα δικαιούται πλέον υπηρεσίες ανάκτησης αποσκευής ή την πληρωμή εγγυημένης ικανοποίησης που προσφέρουμε.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>Αν ΔΕΝ έχει δοθεί διεύθυνση παράδοσης στην αεροπορική εταιρία κατά την καταχώρηση απαίτησης απωλεσθείσας αποσκευής. η BRB θα κλείσει την υπόθεσή σας μόλις φτάσει η αποσκευή στο καθορισμένο αεροδρόμιο που αναφέρεται στην αεροπορική εταιρία και σύμφωνα με την Συμφωνία Υπηρεσίας της Blue Ribbon Bags θα θεωρείται πως οι αποσκευές σας έχουν επιστραφεί.&lt;br /&gt;&lt;br</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>/&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>ΣΗΜΕΙΩΣΗ: Αν η αποσκευή του επιβάτη δεν έτυχε σωστής μεταχείρισης από αεροπορική εταιρία που εκδίδει μόνο Property Irregularity Report (PIR) (Δήλωση Απώλειας/Ζημίας Περιουσίας) (έτσι ονομάζεται η δήλωση που σας έδωσε η αεροπορική εταιρία όταν καταχωρήσατε την απαίτησή σας για απώλεια αποσκευής και φέρει τον αριθμό αναφοράς φακέλου) από την αεροπορική εταιρία ή μέσω του αεροδρομίου, ή μέσω  baggage irregularity report (BIR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) μέσω της αεροπορικής εταιρίας, (η BIR γενικά δεν δίνει δεκαψήφιο αριθμό αναφοράς φακέλου), ο επιβάτης πρέπει να στείλει αντίγραφο της Property Irregularity Report (PIR)(Δήλωση Απώλειας/Ζημίας Περιουσίας) ή της  Baggage Irregularity Report (BIR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) στο mbr@blueribbonbags.com βάζοντας τον αριθμό Συμφωνίας Υπηρεσίας του στη γραμμή του θέματος, αφού συμπληρώσει την online φόρμα. Πρέπει να λάβουμε αντίγραφο αυτής της δήλωσης  μέσα σε 24 ώρες από την προσγείωση της πτήσης του επιβάτη για να θεωρηθεί η αναφορά του έγκυρη. Αν δεν σταλεί αντίγραφο αυτής της δήλωσης μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η BRB θα αρνηθεί την αναφορά του επιβάτη αμέσως μετά την εκπνοή της 24ωρης προθεσμίας. Οιαδήποτε αποσκευή εμπίπτει σε αυτήν την κατηγορία θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις μας από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στο δρομολόγιο της πτήσης ή στις πληροφορίες μεταφοράς που έδωσε ο πελάτης στην αεροπορική εταιρία κατά την καταχώρηση της απαίτησης απωλεσθείσας αποσκευής στην αεροπορική εταιρία.</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>ΣΗΜΕΙΩΣΗ: Αν η αποσκευή σας δεν έτυχε σωστής μεταχείρισης από αεροπορική εταιρία που εκδίδει μόνο Property Irregularity Report (PIR) (Δήλωση Απώλειας/Ζημίας Περιουσίας) μέσω των απωλεσθέντων του αεροδρομίου,</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Είναι ευθύνη του επιβάτη να συγκεντρώσει αυτές τις πληροφορίες από την αεροπορική εταιρία και να μας τις δώσει μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Αν δεν λάβουμε έγκυρο αριθμό αναφοράς φακέλου μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η αναφορά σας δεν θα γίνει δεκτή και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευής ή την πληρωμή εγγυημένης ικανοποίησης. Δεν θα ανοίξουμε εκ νέου το φάκελό σας, ασχέτως περιστάσεων, αν οι πληροφορίες αυτές δοθούν οιαδήποτε στιγμή μετά την 24ωρη προθεσμία από την προσγείωση της πτήσης σας.&lt;br/&gt;</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>ή  Baggage Irregularity Report (BIR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) μέσω της αεροπορικής εταιρίας, (η BIR γενικά δεν δίνει δεκαψήφιο αριθμό αναφοράς φακέλου)</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>η Blue Ribbon Bags θα προχωρήσει στην πληρωμή της εγγύησης ικανοποίησης που προσφέρουμε για μία αποσκευή που έχει υποστεί κακή μεταχείριση επί περισσότερες από 96 ώρες,</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>αφού προβεί πρώτα η αεροπορική εταιρία σε πληρωμή (αποζημίωση) για αυτήν την απωλεσθείσα αποσκευή. Αν δεν εκδώσει ποτέ η αεροπορική εταιρία</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>αποζημίωση στον επιβάτη για μία απωλεσθείσα αποσκευή, δεν θα το κάνει ούτε η Blue Ribbon Bags. Και στις δύο περιπτώσεις,</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>θα χρειαστεί απόδειξη πληρωμής από την αεροπορική εταιρία για να εισπραχθεί η πληρωμή εγγύησης ικανοποίησης από την Blue Ribbon Bags,</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>εκτός από την αναγνώριση από την αεροπορική εταιρία ότι η πληρωμή στην οποία προέβη αφορούσε στην αναφερόμενη απωλεσθείσα αποσκευή.</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>Η Blue Ribbon Bags θα βοηθήσει στον εντοπισμό των αποσκευών σας που δεν έχουν παραδοθεί όπως θα έπρεπε κατά τις πρώτες 96 ώρες κακής μεταχείρισης των αποσκευών σας.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>&lt;strong&gt; ΣΦΑΛΜΑΤΑ: &lt;/strong&gt; Σε περίπτωση ότι ο επιβάτης ανακαλύψει κάποιο σφάλμα όταν η Blue Ribbon Bags αρνηθεί την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση ή Κλείσει την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση, ο επιβάτης έχει 12 ώρες από τη λήψη του email που θα τον πληροφορεί για οιαδήποτε από τις περιπτώσεις αυτές, για να αναφέρει το σφάλμα στην Blue Ribbon Bags. Παρακαλούμε ενημερώστε μας για το σφάλμα στέλνοντάς μας email στο &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; και βάζοντας τον αριθμό MBR στην γραμμή του θέματος. Ο επιβάτης πρέπει να εξηγήσει στο email ακριβώς τι σφάλμα έχει γίνει, κατά το δυνατό λεπτομερέστερα, και να δώσει οιαδήποτε υποστηρικτική τεκμηρίωση. Σε περίπτωση που η Blue Ribbon Bags ανακαλύψει ότι το σφάλμα ισχύει, η Blue Ribbon Bags θα έχει 72 ώρες από τη στιγμή που θα ανοίξει εκ νέου ο φάκελος του επιβάτη για να εντοπίσει την αποσκευή του επιβάτη. Αν το διάστημα των 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη λήγει μετά το παράθυρο των 72 ωρών από το νέο άνοιγμα του φακέλου, η Blue Ribbon Bags θα έχει στη διάθεσή της το χρόνο μέχρι την εκπνοή των αρχικών 96 ωρών για να εντοπίσει αποσκευή του επιβάτη.   </value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>Και στις δύο περιπτώσεις, από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στην απαίτηση της απωλεσθείσας αποσκευής σας στην αεροπορική εταιρία, η αποσκευή θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags και ο φάκελος του επιβάτη θα κλείνει. &lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Αν έχετε ήδη υποβάλει σε μας αντίγραφο της Αναφοράς σας όπως σας έχει δοθεί από την αεροπορική εταιρία όταν καταχωρήσατε την απαίτηση για την απωλεσθείσα αποσκευή σας και εξακολουθείτε να λαμβάνετε αυτό το email, σημαίνει ότι η αεροπορική εταιρία δεν σας έχει δώσει έγκυρο αριθμό αναφοράς φακέλου και πρέπει να επικοινωνήσετε μαζί τους για να ανακτήσετε τέτοιο αριθμό αμέσως και να μας τον δώσετε μέσα σε 24 ώρες από την προσγείωση της πτήσης σας.</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>&lt;strong&gt;</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>Οι υποβολές που θα λαμβάνονται μετά τη χρονική περίοδο των 12 ωρών δεν θα γίνονται δεκτές και ο επιβάτης δεν θα δικαιούται υπηρεσιών ανάκτησης αποσκευών ή της καταβολής της εγγύησης ικανοποίησης που προσφέρουμε, ασχέτως αν έχει υποβάλει τεκμηρίωση. </value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>&lt;/strong&gt;</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>Ο ΑΡΙΘΜΟΣ ΑΥΤΟΣ ΔΕΝ ΘΑ ΕΧΕΙ ΚΑΜΙΑ ΠΛΗΡΟΦΟΡΙΑ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>ΤΥΧΟΝ ΕΡΩΤΗΣΕΙΣ Ή ΣΧΟΛΙΑ Ή ΥΠΟΒΟΛΕΣ ΠΛΗΡΟΦΟΡΙΩΝ ΣΧΕΤΙΚΑ ΜΕ ΥΠΑΡΧΟΥΣΕΣ ΑΝΑΦΟΡΕΣ ΑΠΟΣΚΕΥΩΝ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ, ΕΙΤΕ ΝΕΕΣ, ΑΝΟΙΧΤΕΣ, ΛΑΝΘΑΣΜΕΝΕΣ ΠΛΗΡΟΦΟΡΙΕΣ Ή ΚΛΕΙΣΜΕΝΕΣ, ΓΙΑ ΟΠΟΙΟΝΔΗΠΟΤΕ ΛΟΓΟ, ΠΡΕΠΕΙ ΝΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΜΕ EMAIL</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>ΣTO &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ΚΑΙ ΝΑ ΒΑΖΕΤΕ ΤΟΝ ΑΡΙΘΜΟ ΣΥΜΦΩΝΙΑΣ ΥΠΗΡΕΣΙΑΣ ΣΑΣ ΣΤΗ ΓΡΑΜΜΗ ΤΟΥ ΘΕΜΑΤΟΣ </value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>                   &lt;/li&gt;</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>&lt;/li&gt;Πριν αναφέρει αποσκευές με κακή μεταχείριση στην Blue Ribbon Bags, ο επιβάτης πρέπει να καταχωρήσει απαίτηση απωλεσθείσας αποσκευής στην αεροπορική του εταιρία (όπως απαιτείται από τον κανονισμό της αεροπορικής εταιρίας).&lt;/li&gt;</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value> &lt;li&gt;ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΔΕΝ ΕΧΟΥΝ ΠΑΡΑΔΟΘΕΙ ΚΑΙ ΕΧΟΥΝ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕΣΑ ΣΕ 24 ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. Η ΥΠΗΡΕΣΙΑ ΤΗΣ BLUE RIBBON BAGS ΔΕΝ ΘΑ ΤΗΡΕΙΤΑΙ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ. ΑΝ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΔΕΝ ΣΑΣ ΕΧΕΙ ΔΩΣΕΙ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ, ΘΑ ΠΡΕΠΕΙ ΝΑ ΕΠΙΚΟΙΝΩΝΗΣΕΤΕ ΜΕ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΚΑΙ ΝΑ ΤΟΝ ΠΑΡΕΤΕ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΣΑΣ ΣΕ ΜΑΣ. Η BLUE RIBBON BAGS ΔΕΝ ΘΑ ΖΗΤΑ ΑΡΙΘΜΟΥΣ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. ΕΙΝΑΙ ΕΥΘΥΝΗ ΤΟΥ ΕΠΙΒΑΤΗ ΝΑ ΛΑΒΕΙ ΑΥΤΕΣ ΤΙΣ ΠΛΗΡΟΦΟΡΙΕΣ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΠΡΙΝ ΚΑΤΑΧΩΡΗΣΕΙ ΣΕ ΜΑΣ ΤΗΝ ΑΝΑΦΟΡΑ ΤΗΣ ΑΠΟΣΚΕΥΗΣ ΤΟΥ ΠΟΥ ΥΠΕΣΤΗ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ.&lt;/li&gt;</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value> &lt;li&gt;&lt;b&gt;&lt;u&gt;Για ΟΛΕΣ ΤΙΣ ΠΤΗΣΕΙΣ που έχουν αφιχθεί εκτός Ηνωμένων Πολιτειών:&lt;/u&gt;Ως μέρος της διαδικασίας καταχώρησης Αναφοράς Αποσκευής που έχει υποστεί Κακή Μεταχείριση, πρέπει να υποβάλετε στην Blue Ribbon Bags αντίγραφο της δήλωσης που σας έδωσε η αεροπορική εταιρία όταν καταχωρήσατε την απαίτηση για την απωλεσθείσα αποσκευή σας μέσα σε 24 ώρες από την προσγείωση της πτήσης σας. Αν δεν υποβάλετε αντίγραφο αυτής της δήλωσης, όπως θα σας δοθεί από την αεροπορική εταιρία κατά την καταχώρηση της απαίτησης της απωλεσθείσας αποσκευής σας, μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η Blue Ribbon Bags θα αρνηθεί την αναφορά σας για Αποσκευή που έχει υποστεί Κακή Μεταχείριση αμέσως μετά την εκπνοή της 24ωρης προθεσμίας και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευών ή την Πληρωμή Εγγυημένης Ικανοποίησης που προσφέρουμε. Παρακαλούμε στείλτε αντίγραφο της δήλωσής σας στο &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; και βάλτε τον αριθμό της Συμφωνίας Υπηρεσίας σας στη γραμμή του θέματος, Οι Δηλώσεις σε Αεροπορικές Εταιρίες που υποβάλλονται με οιονδήποτε άλλον τρόπο από αυτόν που ορίζεται παραπάνω θα θεωρείται πως δεν έχουν υποβληθεί έγκυρα. Οιαδήποτε αποσκευή εμπίπτει σε αυτήν την κατηγορία θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags, από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στην απαίτηση της απωλεσθείσας αποσκευής σας στην αεροπορική εταιρία.&lt;br /&gt;&lt;u&gt;Για πτήσεις που έχουν αφιχθεί εντός Ηνωμένων Πολιτειών:&lt;/u&gt;Αν η αποσκευή σας υπέστη κακή μεταχείριση από αεροπορική εταιρία που σας έδωσε Property Irregularity Report (PIR) (Δήλωση Απώλειας/Ζημίας Περιουσίας), (έτσι ονομάζεται η δήλωση που σας έδωσε η αεροπορική εταιρία όταν καταχωρήσατε την απαίτησή σας για απώλεια αποσκευής και φέρει τον αριθμό αναφοράς φακέλου, από την αεροπορική εταιρία ή μέσω του αεροδρομίου) ή baggage irregularity report (ΒΙR) (Δήλωση Απώλειας/Ζημίας Αποσκευών) μέσω της αεροπορικής εταιρίας, (η BIR γενικά δεν δίνει δεκαψήφιο αριθμό αναφοράς φακέλου), πρέπει να υποβάλετε αντίγραφο του PIR ή του BIR σας στην Blue Ribbon Bags μέσα σε 24 ώρες από την προσγείωση της πτήσης σας για να ολοκληρώσετε τη διαδικασία καταχώρησης της Αναφοράς Αποσκευής που έχει υποστεί Κακή Μεταχείριση. Αν δεν υποβάλετε αντίγραφο αυτής της δήλωσης, όπως θα σας δοθεί από την αεροπορική εταιρία, μέσα σε 24 ώρες από την προσγείωση της πτήσης σας, η Blue Ribbon Bags θα αρνηθεί την αναφορά σας για Αποσκευή που έχει υποστεί Κακή Μεταχείριση αμέσως μετά την εκπνοή της 24ωρης προθεσμίας και δεν θα δικαιούστε υπηρεσίες ανάκτησης αποσκευών ή την Πληρωμή Εγγυημένης Ικανοποίησης που προσφέρουμε. Παρακαλούμε στείλτε αντίγραφο αυτής της δήλωσης στο &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; και βάλτε τον αριθμό της Συμφωνίας Υπηρεσίας σας στη γραμμή του θέματος, Οι Δηλώσεις σε Αεροπορικές Εταιρίες που υποβάλλονται με οιονδήποτε άλλον τρόπο από αυτόν που ορίζεται παραπάνω θα θεωρείται πως δεν έχουν υποβληθεί έγκυρα. Οιαδήποτε αποσκευή εμπίπτει σε αυτήν την κατηγορία θα θεωρείται "επιστραφείσα" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags, από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναγράφεται στην απαίτηση της απωλεσθείσας αποσκευής σας στην αεροπορική εταιρία.&lt;/b&gt; &lt;/li&gt;       </value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>ώστε να μπορέσει η αποσκευή σας να παραδοθεί σωστά, παρακαλούμε στείλτε μας ένα email στο &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value> &lt;li&gt;Σε περίπτωση που θα βρεθεί ότι μια αποσκευή που παραδόθηκε δεν είναι η σωστή αποσκευή του επιβάτη, ο επιβάτης έχει 12 ώρες από την ειδοποίηση ότι ηο φάκελός του στην Blue Ribbon Bags έχει κλείσει και η αποσκευή έχει επιστραφεί για να ενηερώσει την Blue Ribbon Bags για το λάθος στέλνοντάς μας ένα email στο &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;  και βάζοντας "Not my bag" (δεν είναι η αποσκευή μου) και τον αριθμό σας MBR στη γραμμή του θέματος. Η Blue Ribbon Bags θα έχει 72 ώρες (3 μέρες) από την εκπνοή των αρχικών 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη για να εντοπίσει την αποσκευή που έχει υποστεί κακή μεταχείριση. Θα θεωρείται ότι μια αποσκευή που εμπίπτει σ' αυτήν την κατηγορία έχει "επιστραφεί" σύμφωνα με τους όρους και τις προϋποθέσεις μας από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναφέρεται στην απαίτηση απωλεσθείσας αποσκευής στη δήλωση της αεροπορικής εταιρίας. Αν η λάθος αποσκευή έχει ήδη παραδοθεί, ο επιβάτης θα πρέπει να επιδείξει με email την απόδειξη της εταιρίας παράδοσης που παρέδωσε τη λάθος αποσκευή, καθώς και τεκμηρίωση από την αεροπορική εταιρία που θα δηλώνει σαφώς ότι αποσκευή η οποία αναφέρεται και έχει επιστραφεί στον επιβάτη δεν είναι η δική του. Και τα δύο αυτά τεκμήρια είναι απαραίτητα για να πραγματοποιηθεί η πληρωμή της εγγυημένης ικανοποίησης από την Blue Ribbon Bags.&lt;li&gt;</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value> &lt;li&gt;ΑΙΤΗΜΑΤΑ ΓΙΑ ΕΛΛΕΙΠΕΙΣ Ή ΛΑΘΟΣ ΠΛΗΡΟΦΟΡΙΕΣ:&lt;/strong&gt; Αν δοθούν λάθος πληροφορίες κατά την καταχώρηση μιας αναφοράς για αποσκευή που έχει υποστεί κακή μεταχείριση, ενδέχεται να λάβετε ένα email που θα σας ζητάει να διορθώσετε τις πληροφορίες αυτές. Σε περίπτωση που θα λάβει ο επιβάτης email τέτοιας φύσης ή άλλα αιτήματα για πληροφορίες σχετικά με την υπόθεση του επιβάτη, ο επιβάτης θα έχει 12 ώρες από τη στιγμή που σταλεί αυτό το email για να απαντήσει. Αν ο επιβάτης δεν απαντήσει μέσα σ' αυτό το χρονικό διάστημα παρέχοντας τις διορθωμένες ή ζητηθείσες πληροφορίες και τυχόν υποστηρικτική τεκμηρίωση έχει ζητηθεί, δεν θα γίνει δεκτή η Αναφορά του πελάτη για Αποσκευή που έχει υποστεί Κακή Μεταχείριση και ο επιβάτης δεν θα δικαιούται πλέον υπηρεσίες ανάκτησης αποσκευής ή την πληρωμή εγγυημένης ικανοποίησης που προσφέρουμε.&lt;/li&gt;</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>&lt;/li&gt;Αν ΔΕΝ έχει δοθεί διεύθυνση παράδοσης στην αεροπορική εταιρία κατά την καταχώρηση απαίτησης απωλεσθείσας αποσκευής. η BRB θα κλείσει την υπόθεσή σας μόλις φτάσει η αποσκευή στο καθορισμένο αεροδρόμιο που αναφέρεται στην αεροπορική εταιρία και σύμφωνα με τη Συμφωνία Υπηρεσίας της Blue Ribbon Bags θα θεωρείται ότι οι αποσκευές σας έχουν επιστραφεί.&lt;/li&gt;</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value> &lt;li&gt;ΕΠΙΒΑΤΕΣ ΤΗΣ AIR CANADA ΚΑΙ ΤΗΣ WESTJET: Η Blue Ribbon Bags δεν θα χειρίζεται παράδοση απωλεσθείσας αποσκευής σε επιβάτη για Αναφορές Αποσκευών που έχουν υποστεί Κακή Μεταχείριση οι οποίες σχετίζονται με απαιτήσεις από οιαδήποτε από τις δύο αυτές αεροπορικές εταιρίες. Οιεσδήποτε αποσκευές που έχουν υποστεί κακή μεταχείριση σχετίζονται με απαίτηση απωλεσθείσας αποσκευής από τις αεροπορικές εταιρίες Air Canada ή  WestJet θα θεωρούνται "επιστραφείσες" σύμφωνα με τους όρους και τις προϋποθέσεις της Συμφωνίας Υπηρεσίας της Blue Ribbon Bags από τη στιγμή που η αποσκευή θα φτάσει στο αεροδρόμιο που αναφέρεται στη δήλωση απαίτησης απωλεσθείσας αποσκευής στην Air Canada ή την WestJet. Από τη στιγμή που θα επιβεβαιωθεί ότι οι αποσκευές έχουν φτάσει στο αεροδρόμιο που αναφέρεται στη δήλωση απαίτησης απωλεσθείσας αποσκευής στην Air Canada ή την WestJet εντός της περιόδου της υπηρεσίας, ο επιβάτης δεν θα δικαιούται πλέον υπηρεσιών ανάκτησης αποσκευών  ή της καταβολής της πληρωμής εγγυημένης Ικανοποίησης της Blue Ribbon Bags.&lt;/li&gt;</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>&lt;li&gt;ΣΦΑΛΜΑΤΑ: Σε περίπτωση ότι ο επιβάτης ανακαλύψει κάποιο σφάλμα όταν η Blue Ribbon Bags αρνηθεί την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση ή Κλείσει την Αναφορά του για Αποσκευή που έχει υποστεί Κακή Μεταχείριση, ο επιβάτης έχει 12 ώρες από τη λήψη του email που θα τον πληροφορεί για οιαδήποτε από τις περιπτώσεις αυτές, για να αναφέρει το σφάλμα στην Blue Ribbon Bags. Παρακαλούμε ενημερώστε μας για το σφάλμα στέλνοντάς μας email στο &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; και βάζοντας τον αριθμό MBR στην γραμμή του θέματος. Ο επιβάτης πρέπει να εξηγήσει στο email ακριβώς τι σφάλμα έχει γίνει, κατά το δυνατό λεπτομερέστερα, και να δώσει οιαδήποτε υποστηρικτική τεκμηρίωση. Σε περίπτωση που η Blue Ribbon Bags ανακαλύψει ότι το σφάλμα ισχύει, η Blue Ribbon Bags θα έχει 72 ώρες από τη στιγμή που θα ανοίξει εκ νέου ο φάκελος του επιβάτη για να εντοπίσει την αποσκευή του επιβάτη. Αν το διάστημα των 96 ωρών από την προσγείωση της αρχικής πτήσης του επιβάτη λήγει μετά το παράθυρο των 72 ωρών από το νέο άνοιγμα του φακέλου, η Blue Ribbon Bags θα έχει στη διάθεσή της το χρόνο μέχρι την εκπνοή των αρχικών 96 ωρών για να εντοπίσει αποσκευή του επιβάτη. Και στις δύο περιπτώσεις, από τη στιγμή που θα παραληφθεί η αποσκευή του επιβάτη στο αεροδρόμιο που αναφέρεται στην απαίτηση απωλεσθείσας αποσκευής στην αεροπορική εταιρία, θα θεωρείται πως η αποσκευή έχει επιστραφεί, σύμφωνα με του όρους και τις προϋποθέσεις της Blue Ribbon Bags και ο φάκελος του επιβάτη θα κλείνει. Οι υποβολές που λαμβάνονται μετά την χρονική περίοδο των 12 ωρών δεν θα γίνονται δεκτές και ο επιβάτης δεν θα δικαιούται υπηρεσιών ανάκτησης αποσκευών ή της καταβολής της εγγύησης ικανοποίησης που προσφέρουμε, ασχέτως αν έχει υποβάλει τεκμηρίωση.&lt;/li&gt;</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value> &lt;li&gt;ΚΛΟΠΗ, ΑΠΩΛΕΙΑ ΠΕΡΙΕΧΟΜΕΝΟΥ  Ή ΚΑΤΑΣΤΡΟΦΗ ΑΠΟΣΚΕΥΗΣ ΔΕΝ ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΝΤΑΙ ΣΤΗΝ ΥΠΗΡΕΣΙΑ. Η ΚΑΛΥΨΗ ΙΣΧΥΕΙ ΜΟΝΟ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΕΧΟΥΝ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ ΑΠΟ ΤΗΝ ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ. &lt;li&gt;</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>ΠΑΡΑΚΑΛΟΥΜΕ ΜΗΝ ΑΠΑΝΤΗΣΕΤΕ Σ' ΑΥΤΟ ΤΟ ΜΗΝΥΜΑ, ΚΑΘΩΣ ΔΕΝ ΘΑ ΛΗΦΘΕΙ ΑΠΟ ΤΗΝ BLUE RIBBON BAGS, ΑΥΤΟ ΠΕΡΙΛΑΜΒΑΝΕΙ ΤΥΧΟΝ ΥΠΟΒΟΛΕΣ ΠΛΗΡΟΦΟΡΙΩΝ ΠΟΥ ΖΗΤΟΥΝΤΑΙ ΑΠΌ ΤΗΝ ΠΑΡΟΥΣΑ ΕΝΗΜΕΡΩΣΗ. ΟΛΕΣ ΟΙ ΕΡΩΤΗΣΕΙΣ ΣΧΕΤΙΚΑ ΜΕ ΤΗΝ ΑΠΟΣΚΕΥΗ ΣΑΣ ΠΟΥ ΕΧΕΙ ΥΠΟΣΤΕΙ ΚΑΚΗ ΜΕΤΑΧΕΙΡΙΣΗ, ΑΝΑΦΟΡΕΣ Ή ΥΠΟΒΟΛΕΣ ΖΗΤΟΥΜΕΝΩΝ ΠΛΗΡΟΦΟΡΙΩΝ ΠΡΕΠΕΙ ΝΑ ΑΠΟΣΤΕΛΛΟΝΤΑΙ ΜΕ EMAIL ΣTO MBR@BLUERIBBONBAGS.COM.  Οι αριθμοί των τηλεφώνων μας δεν θα έχουν πληροφορίες σχετικά με την απωλεσθείσα αποσκευή σας. Όλη η αλληλογραφία πραγματοποιείται μέσω email στο mbr@blueribbonbags.com</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>και βάλτε τον αριθμό MBR που σας δόθηκε κατά την καταχώρηση της αναφοράς σας στη γραμμή του θέματος και δώστε μας όσο περισσότερες λεπτομέρειες είναι δυνατό για την κατάστασή σας.</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>ΠΡΕΠΕΙ ΝΑ ΑΝΑΦΕΡΟΝΤΑΙ ΣΤΗΝ BLUE RIBBON BAGS ΜΕΣΑ ΣΕ 24 ΩΡΕΣ ΑΠΟ ΤΗΝ ΑΦΙΞΗ ΤΗΣ ΠΤΗΣΗΣ. </value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>Η ΥΠΗΡΕΣΙΑ  BLUE RIBBON BAGS ΔΕΝ ΘΑ ΓΙΝΕΤΑΙ ΣΕΒΑΣΤΗ ΓΙΑ ΑΠΟΣΚΕΥΕΣ ΠΟΥ ΑΝΑΦΕΡΟΝΤΑΙ ΜΕΤΑ ΤΗΝ ΠΡΟΘΕΣΜΙΑ ΤΩΝ 24 ΩΡΩΝ.</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>ΑΝ Η ΑΕΡΟΠΟΡΙΚΗ ΕΤΑΙΡΙΑ ΔΕΝ ΣΑΣ ΕΧΕΙ ΔΩΣΕΙ ΕΓΚΥΡΟ ΑΡΙΘΜΟ ΑΝΑΦΟΡΑΣ ΦΑΚΕΛΟΥ,</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>Ζώνη Ώρας</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Προς</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>Σύνολο χρέωσης:</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>Σύνολο χρέωσης (ανά επιβάτη):</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>Ολοκληρώστε την εγγραφή σας</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>Το password πρέπει να περιλαμβάνει από 8 έως 16 χαρακτήρες με τουλάχιστον έναν αλφαβητικό, έναν αριθμητικό και έναν ειδικό χαρακτήρα με έναν τουλάχιστον από τους αλφαβητικούς χαρακτήρες κεφαλαίο. </value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>Επαναλάβετε το password</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>Εγγραφή χρήστη</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε το password σας</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Επικύρωση</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε τη Διεύθυνση.</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>Η διεύθυνση πρέπει να έχει τουλάχιστον 2 χαρακτήρες.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>Το AgentLogin που δίνεται δεν υπάρχει.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>Το πεδίο [Agent Number] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>Το πεδίο [Agent Type] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>Παρακαλούμε ξαναδείτε και αποδεχτείτε τους όρους και προϋποθέσεις για να ολοκληρώσετε την εγγραφή σας.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>Το πεδίο [Business Unit] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε την Πόλη.</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>Η Πόλη πρέπει να έχει τουλάχιστον 2 χαρακτήρες.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>Το πεδίο  [Email] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>Το [Email] πρέπει να έχει έγκυρη μορφή ηλεκτρονικής διεύθυνσης.</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>Το [Fax] πρέπει να έχει έγκυρη μορφή.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>Το πεδίο [First Name] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>Το πεδίο [First Name] πρέπει να έχει τουλάχιστον 2 χαρακτήρες.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>Το Agent Login αντιστοιχεί σε ανενεργό χρήστη στο σύστημα της BRB.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>Το πεδίο [Last Name] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>Το πεδίο [Last Name] πρέπει να έχει τουλάχιστον 2 χαρακτήρες.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>Το [User Login] πρέπει να περιλαμβάνει από 6 έως 40 χαρακτήρες και μπορεί να περιλαμβάνει μόνο αυτούς τους ειδικούς χαρακτήρες: _ . - @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>Το [Login] δεν μπορεί να τελειώνει με τον χαρακτήρα '@'.</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>Το [Mobile] πρέπει να καταχωρείται με έγκυρη μορφή.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>Το [Phone] πρέπει να καταχωρείται με έγκυρη μορφή.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>Ο Κωδικός Προϊόντος που δίνεται δεν υπάρχει.</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>Το Agent Login που δίνεται δεν ταιριάζει με το AgentLogin του κωδικού προσφοράς που δίνεται.</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>Ο κωδικός προσφοράς που δίνεται δεν υπάρχει.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>Παρακαλούμε επιλέξτε Χώρα.</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>Παρακαλούμε επιλέξτε Πολιτεία.</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε ένα Όνομα Πολιτείας.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>Το πεδίο [Travel Agency Code] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>Το πεδίο [Travel Agency Name] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>Το AgentLogin δεν αντιστοιχεί σε Ταξιδιωτικό Πράκτορα.</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>Το πεδίο [User Login] δεν μπορεί να είναι κενό.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>Το όνομα User Login δεν είναι διαθέσιμο. Παρακαλούμε επιλέξτε ένα άλλο  όνομα User Login.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>Παρακαλούμε εισαγάγετε τον Ταχυδρομικό Κώδικα.</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>Ο Ταχυδρομικός Κώδικας που εισήχθη δεν είναι έγκυρος.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>Εmail Πράκτορα</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>ΕΠΙΠΕΔΟ ΥΠΗΡΕΣΙΩΝ:</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>κάλυψη ανά αποσκευή</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>ΠΛΗΡΟΦΟΡΙΕΣ ΕΠΙΒΑΤΗ</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>Παρακαλούμε δώστε Πληροφορίες Πιστωτικής Κάρτας παρακάτω για να ολοκληρωθεί η διαδικασία πληρωμής της Συμφωνίας Υπηρεσίας.</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>Έμβασμα</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>Διεύθυνση</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>Όνομα Πρακτορείου</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>Κάρτα Πράκτορα</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>Αυτό είναι ένα PDF που μπορείτε να χρησιμοποιείτε ως αναφορά όταν μιλάτε με τους πελάτες σας, ώστε να μην σας διαφύγει κανένα από τα σημαντικά χαρακτηριστικά του BRB!</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>Ταυτότητα Πράκτορα</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>Πληροφορίες Πράκτορα</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Οι Πληροφορίες Πράκτορα αποθηκεύτηκαν με επιτυχία!</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>Πράκτορας (Εγώ)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>PCC Πράκτορα</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>Παρακαλούμε βεβαιωθείτε ότι έχετε συμπληρώσει πλήρως αυτήν τη φόρμα την πρώτη φορά που χρησιμοποιείτε την εφαρμογή Blue Ribbon Bags Worldspan App ώστε να λαμβάνετε σωστή πίστωση για τις Συμφωνίες Υπηρεσίας που έχετε πωλήσει.&lt;br&gt;&lt;br&gt;Όταν τελειώσετε, παρακαλούμε πατήστε Αποθήκευση στο κάτω μέρος, για να προχωρήσετε στην αγορά κάλυψης Blue Ribbon Bags για λογαριασμό των πελατών σας.&lt;br&gt;&lt;br&gt;Δεν θα χρειαστεί να δημιουργήσετε password ή να χρησιμοποιείτε το login σας για πρόσβαση στην εφαρμογή BRB Worldspan app. Login και password χρησιμοποιούνται μόνο για online πρόσβαση στο σύστημα της BRB.&lt;br&gt;&lt;br&gt;Για να αλλάξετε οιαδήποτε πληροφορία της εγγραφής ή για τυχόν ερωτήσεις ή ζητήματα, παρακαλούμε στείλτε μας email στο agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>Αεροπορική Εταιρία</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>Θα τιμολογηθείτε αργότερα γι' αυτήν την αγορά.</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>Πληροφορίες Τιμολόγησης</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>Αποθηκεύοντας τις ρυθμίσεις, όλες οι καρτέλες στην εφαρμογή της Blue Ribbon Bags θα αρχικοποιηθούν, συμπεριλαμβανομένης της καρτέλας Αγορά, έτσι ώστε να πρέπει να ξαναφορτώσετε το PNR για την αγορά που βρίσκεται σε εξέλιξη. Θέλετε να συνεχίσετε;</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>Αριθμός CC</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>Έλεγχος PNR…</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>Πόλη</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>Πόλη, Πολιτεία</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>Πατήστε εδώ αν επιθυμείτε να  &lt;b&gt;λαμβάνετε&lt;/b&gt; αυτόματο email επιβεβαίωσης από την Blue Ribbon Bags μετά από κάθε αγορά.</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Πατήστε εδώ αν επιθυμείτε να λαμβάνει(ουν) ο(οι) &lt;b&gt;επιβάτης(ες)&lt;/b&gt; αυτόματο email επιβεβαίωσης από την Blue Ribbon Bags μετά από κάθε αγορά.</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>Κάρτα Πελάτη</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>Αυτό είναι ένα αρχείο PDF που μπορείτε να στέλνετε στους πελάτες σας για να διαφημίζετε την υπηρεσία και δεν αναφέρει προμήθειες.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>Αριθμός Επιβεβαίωσης</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>Χώρα</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>Μορφή Ημερομηνίας:</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>Ημερομηνία / Ώρα</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>Σχόλιο με χρήση API δεν μπόρεσε να προστεθεί στο Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>Το σχόλιο δεν μπόρεσε να προστεθεί στο Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>Δεν μπόρεσε να κλείσει το PNR και το σχόλιο δεν μπορούσε να προστεθεί στο Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Σφάλμα επικοινωνίας με το Sabre. Κωδικός σφάλματος {0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Σφάλμα σύνδεσης με το Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>Αδυναμία φόρτωσης προφίλ πράκτορα.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>ΣΦΑΛΜΑ. ΤΟ  PNR που έχετε ανοιχτό στην εφαρμογή ({0}) BRB, δεν είναι το ίδιο με εκείνο που είναι ενεργό στο χώρο εργασίας ({1}) του Sabre workspace.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>Σφάλμα επεξεργασίας του αιτήματός σας από τον server.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>Το PNR Info XML δεν μπόρεσε να αναλυθεί για να αφαιρεθούν ευαίσθητες πληροφορίες, οπότε  απορρίφθηκε.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Αδυναμία ανάκλησης πληροφοριών PNR. Παρακαλούμε βεβαιωθείτε ότι υπάρχει ενεργό PNR ανοιχτό στο Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>Μήνας Λήξης</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value> Έτος Λήξης</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>Πληροφορίες πτήσης</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>Αριθμός Πτήσης</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>Λήψη πληροφοριών PNR  </value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>Μη έγκυρο αίτημα Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>Γλώσσα </value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>Τελευταία πτήση</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Δεν έχετε μπει στο Sabre ακόμα. Παρακαλούμε κάντε sign-in και δοκιμάστε ξανά.</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>Λήψη πληροφοριών PNR από το Sabre. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>προαιρετικό</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>Πτήση Προέλευσης</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>Πληροφορίες επιβάτη</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>Επιβάτης(ες)</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>κάλυψη ανά αποσκευή</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>ανά επιβάτη</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>Προσωπικές πληροφορίες</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>Αριθμός Τηλεφώνου</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>Παρακαλούμε στείλτε μας email οποιαδήποτε στιγμή στο agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>Το PNR με DUMMY info φορτώθηκε με επιτυχία! Παρακαλούμε συμπληρώστε την παρακάτω φόρμα.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>Οι πληροφορίες PNR φορτώθηκαν με επιτυχία! Παρακαλούμε συμπληρώστε την παρακάτω φόρμα.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>Διαφορές στις πληροφορίες PNR. Παρακαλούμε επαναφορτώστε την κράτηση.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>Οι πληροφορίες PNR ΔΕΝ φορτώθηκαν με επιτυχία. Παρακαλούμε δοκιμάστε ξανά.</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>Αριθμός PNR </value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>Κωδικός Προσφοράς</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>Αγορά παραγγελίας.  Παρακαλούμε περιμένετε...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>Αν έχετε επιπλέον ερωτήσεις ή σχόλια, παρακαλούμε καλέστε μας στο agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>Σας εγγράφουμε. Παρακαλούμε περιμένετε...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>Η εγγραφή σας ολοκληρώθηκε επιτυχώς!</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Η επεξεργασία της εγγραφής σας ολοκληρώθηκε με επιτυχία, μπορείτε να αρχίσετε τις πωλήσεις τώρα! Όμως, παρακαλούμε, αφιερώστε ένα λεπτό για να ελέγξετε το email σας ώστε να ολοκληρωθεί η διαδικασία εγγραφής. Σας ευχαριστούμε!</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>Αποθηκεύουμε τις πληροφορίες πράκτορα. Παρακαλούμε περιμένετε…</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>Αποθηκεύουμε τις ρυθμίσεις σας. Παρακαλούμε περιμένετε...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>Επιλέξτε Επίπεδο Κάλυψης</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>Στείλτε email επιβεβαίωσης προς:</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Η Συμφωνία Υπηρεσίας [{0}] αγοράστηκε επιτυχώς.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Οι ρυθμίσεις σας έχουν αποθηκευτεί επιτυχώς!</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>Πολιτεία</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>Αν επιθυμείτε να συμπεριλαμβάνετε BRB ως μέρος της προσφοράς του εισιτηρίου σας, ρωτήστε μας για τις εναλλακτικές τιμολόγησης, ώστε να αποφεύγετε να βλέπουν οι πελάτες σας χωριστές χρεώσεις για την BRB στην πιστωτική τους κάρτα.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>Συνολικό κόστος = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>Πληροφορίες Ταξιδιωτικού Πράκτορα</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>Μη αναμενόμενο σφάλμα.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Μη αναμενόμενο σφάλμα. Οι πληροφορίες PNR  δεν φορτώθηκαν επιτυχώς.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>Μη αντιμετωπισμένη εξαίρεση κατά τη διάρκεια GetPNRInfo.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>Ενημέρωση </value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>Στοιχεία Χρήστη</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>Μπορείτε να ενημερώσετε τις προσωπικές σας πληροφορίες για την εγγραφή σας στην Blue Ribbon Bags στην παρακάτω φόρμα.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>Επικύρωση Πράκτορα…</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Καλωσήρθατε και πάλι{0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Καλωσήρθατε στην αρχική εγγραφή!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Booking Reference Code</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Satisfaction Guaranteed Payment per bag:</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>This service is valid for all flights you have booked with the online ticketing site you made your purchase from for the PNR referenced above.</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>Πηγή</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>χρόνος</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Αποστολή μηνυμάτων SMS</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>Έχουν βρεθεί διπλότυπα αρχεία</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>Περιηγηθείτε και επιλέξτε το αρχείο σας και στη συνέχεια κάντε κλικ στο κουμπί "Αποστολή αρχείου":</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>Ανέβασμα αρχείου</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Οχι</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>Έχουν βρεθεί προηγούμενες αγορές</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>Τα παρακάτω αρχεία έχουν προηγούμενες αγορές, θα θέλατε να προχωρήσετε και να επεξεργαστείτε τα υπόλοιπα αρχεία;</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Ναί</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>Τα παρακάτω αρχεία αντιγράφονται, θα θέλατε να προχωρήσετε και να επεξεργαστείτε τα υπόλοιπα αρχεία;</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>Σύνδεσμος</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να κατεβάσετε ένα πρότυπο:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Μεταφόρτωση. Παρακαλώ περιμένετε...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>Να επιτρέπεται στον ιστότοπο να έχει την ίδια γλώσσα με την επιλεγμένη προεπιλεγμένη γλώσσα ηλεκτρονικού ταχυδρομείου.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>Αυτό καλύπτει τις πτήσεις σας με τον αριθμό επιβεβαίωσης &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>Επιλέξτε αριθμό ατόμων επικοινωνίας</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>Παρέχετε τα στοιχεία επικοινωνίας σας</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε άτομα επικοινωνίας στην αναφορά σας</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>ΕΑΝ ΘΑ ΘΑ ΠΡΕΠΕΙ ΝΑ ΠΑΡΕΤΕ ΟΠΟΙΑΔΗΠΟΤΕ ΠΛΗΡΟΦΟΡΙΕΣ ΠΟΥ ΠΕΡΙΕΧΟΝΤΑΙ ΣΤΗΝ ΤΣΑΝΤΑ ΣΑΣ Ή ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΔΟΣΗΣ ΠΑΡΑΚΑΛΩ ΕΙΣΑΓΕΤΕ ΕΔΩ:</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>Διευθύνσεις ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>Τηλέφωνα</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>Αρίθμηση Επιβάτη</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>Επίπεδο Υπηρεσίας</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>Τίποτα δεν άλλαξε με την κατάσταση της τσάντας σας τις τελευταίες 0 ώρες. Εδώ είναι η τελευταία ενημέρωση που είχαμε παράσχει.
+Θα ενημερωθείτε αν συμβεί κάτι καινούργιο μόλις έχουμε οποιαδήποτε πληροφορία.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>Κάντε κλικ εδώ αν θέλετε να λάβετε ταχυδρομείο για το MBR του επιβάτη σας</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>Αριθμός αναφοράς πελάτη</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>ΓΙΑ ΝΑ ΣΥΜΠΛΗΡΩΣΕΤΕ ΤΗΝ ΑΝΑΦΟΡΑ ΚΑΚΟΔΙΑΧΕΙΡΙΣΘΕΙΣΩΝ ΑΠΟΣΚΕΥΩΝ ΠΡΕΠΕΙ:</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>Κάλυψη ανά αποσκευή:</value>
+  </data>
+</root>

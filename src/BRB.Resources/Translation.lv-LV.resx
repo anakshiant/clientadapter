@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>Pasažiera pastāvīgās dzīvesvietas adrese</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>ABA maršruta numurs</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>Konta numurs:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>Pakalpojuma līgums #</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>Aviosabiedrības apstipr. #</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>Lidojuma ielidošanas datums</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>Lidojuma ielidošanas #</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>Lidojuma ielidošanas laiks</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; JAUTĀT ZVANĪTĀJAM: Vai Jūs lidojāt ar Amerikas Savienot Valstu iekšējo lidojumu vai ielidojāt Amerikas Savienotajās Valstīs no ārzemē?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; AĢENTS: pamatojoties uz sniegto atbildi, nolasiet vienu no tālāk dotajām rindkopām:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>Pievienot BIR/PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>Bagāžas atzīme #</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>Pirms Jūs ziņojat uzņēmumam “Blue Ribbon Bags” par noklīdušu bagāžu Jums jāpaziņo aviosabiedrībai, ka bagāža nav ieradusies Jūsu lidojuma galamērķī. Aviosabiedrība sniegs Jums izsekošanas informāciju, kas Jums būs nepieciešama, lai iesniegtu zemāk doto ziņojumu par noklīdušu bagāžu.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>Saņēmēja adrese</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>Saņēmēja pilsēta</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>Saņēmēja valsts</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>Saņēmēja e-pasta adrese</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>Saņēmēja vārds</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>Saņēmēja uzvārds</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>Saņēmēja tālruņa numurs</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>Saņēmēja reģions</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>Saņēmēja pasta indekss</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>Ieklikšķiniet rindā, lai to atlasītu</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>Apstipriniet e-pasta adresi</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>Noklikšķiniet, lai nokopētu, ja adrese sakrīt ar iepriekš norādīto</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>Lūdzu, izvēlieties e-pasta paziņojumu valodu.</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>E-pasta valoda</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>No šī epasta nosūtīšanas brīža, Jums ir {0}, lai sniegtu pieprasīto pareizo informāciju. Ja neatbildēsiet, sniedzot pareizo informāciju, {0} laika posmā, Jūsu ziņojums par noklīdušu bagāžu tiks noraidīts. Jūsu ziņojums netiks pieņemts arī tad, ja iesniegsit to atkārtoti.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>Jūsu iesniegtais lietas atsauces numurs nav derīgs.  Jums jāsazinās ar aviosabiedrību un jāpieprasa, lai viņi nekavējoties sniegtu derīgu lietas atsauces numuru.  Jums jāiesniedz šis numurs mums 24 stundu laikā pēc lidmašīnas nolaišanās, lai nodrošinātu ziņojuma apstrādi.  Uzņēmums “Blue Ribbon Bags” neiegūst lietu atsauces numurus pasažieru vārdā.&lt;br/&gt; Pasažierim ir pienākums iegūt šo informāciju no aviosabiedrības un iesniegt to uzņēmumam 24 stundu laikā pēc lidmašīnas nolaišanās.  Ja uzņēmums 24 stundu laikā pēc lidojuma nolaišanās nesaņem derīgu lietas atsauces numuru, Jūsu ziņojums tiks noraidīts un Jūs nevarēsiet saņemt bagāžas atgūšanas pakalpojumus vai mūsu apmierinātības garantijas maksājumu.  Uzņēmums atkārtoti neatvērs Jūsu lietu neatkarīgi no apstākļiem, ja šī informācija tiks sniegta jebkurā brīdī pēc 24 stundu termiņa. Ja Jūs jau iesniedzāt mums informāciju un tā ziņojuma, ko aviosabiedrība izsniedza Jums, kad tais iesniedzāt nozaudētas bagāžas pieteikumu, kopiju, bet vēl aizvien saņemat šo e-pastu, tas nozīmē, ka aviosabiedrība nav Jums izsnieguši derīgu lietas atsauces numuru un Jums ir jāsazinās ar to, lai nekavējoties tādu iegūtu un varētu to iesniegt uzņēmumam 24 stundu laikā pēc lidmašīnas nolaišanās.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>Ievadiet šādu informāciju no jūsu aviosabiedrības bagāžas prasības:</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>Lūdzu ievadiet savu “Blue Ribbon Bags” pakalpojuma līguma numuru:</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>Lietas atsauces # vai lietas atrašanās vietas #</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>Jums kā atsauces numurs bija jāsaņem 5 ciparu kods, kas sekoja lidostas un aviosabiedrības kodam Jūsu ziņojumā par problēmām ar bagāžu. Piemēram: MCOAF12345. &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>Lietas atsauces numurs:</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>Iesniegt ziņojumu</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>Viesnīcas nosaukums:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>Ja pasažieris pamet galamērķa valsti 96 stundu laikā un vēlas, lai BRB zinātu par šiem apstākļiem un soma tiktu nogādāta uz atbilstošo vietu, lūdzu, nosūtiet e-pastu uz adresi &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;, un tēmas rindiņā norādiet sava ziņojuma par noklīdušu bagāžu numuru, ko saņēmāt, kad iesniedzāt ziņojumu, kā arī sniedziet mums pēc iespējas detalizētāku situācijas aprakstu.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>Ziņojuma par nozaudētu bagāžu #</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>Bankas nosaukums:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>Mēs atvainojamies, taču šo ziņojumu nav iespējams rediģēt un līdz ar to šo informāciju vairs nav iespējams labot. Mums patiess prieks, ka izvēlējāties uzņēmumu “Blue Ribbon Bags”. Ceļojiet droši un bez uztraukumiem!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>Jūsu meklēšanai netika atrasts neviens rezultāts</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>Ziņojuma par nepareizi veiktu bagāžas apkalpošanu iesniegšanas procesa ietvaros jums 24 stundu laikā pēc lidmašīnas nosēšanās ir jāiesniedz “Blue Ribbon Bags” tā ziņojuma kopija, ko aviosabiedrība jums sniedza, kad iesniedzāt pieteikumu par nozaudētu bagāžu. Ja 24 stundu laikā pēc lidmašīnas nosēšanās jūs neiesniedzat šī ziņojuma kopiju, kuru jums sniedza aviosabiedrība, jūsu ziņojums uzņēmumam “Blue Ribbon Bags” par nozaudētu bagāžu tiks noraidīts uzreiz pēc 24 stundu termiņa beigām, un jūs nevarēsiet saņemt bagāžas saņemšanas pakalpojumus vai mūsu apmierinātības garantijas maksājumu. Lūdzu, iesniedziet šī ziņojuma kopiju, nosūtot to uz adresi mbr@blueribbonbags.com un ziņojuma temata ailē norādot savu pakalpojuma līguma numuru. Apliecinošā aviosabiedrības dokumentācija, kas tiek iesniegta jebkurā citā veidā kā norādīts šeit, netiks uzskatīta par derīgu, un tā netiks ņemta vērā attiecībā uz jūsu nepareizi veiktas bagāžas apkalpošanas ziņojumu uzņēmumam “Blue Ribbon Bags”.  Jebkuri ziņojumi, kuriem nav pavaddokumentu, tiks noraidīti pēc 24 stundu termiņa beigām pēc lidmašīnas nosēšanās.</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>Izvēlieties kontaktpersonu skaitu</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>Pax būs šajā adresē līdz</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>Maksāšanas adrese</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>Samaksāt līdz</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>Maksājuma pilsēta</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>Maksājuma valsts</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>Piezīme. Maksāšanas informāciju ir iespējams mainīt pēc sākotnējās ziņojuma informācijas iesniegšanas. Tomēr tas var nedaudz aizkavēt maksājuma apstrādi.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>Maksājuma e-pasta adrese</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>Maksājuma saņēmēja vārds</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>Maksājuma saņēmēja uzvārds</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>Maksājuma saņēmēja tālruņa numurs</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>Maksājuma saņēmēja reģions</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>Maksājuma saņēmēja pasta indekss</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>PayPal e-pasta adrese</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>Lūdzu, aizpildiet informāciju par savu PayPal kontu.</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>PayPal konta turētāja vārds</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>PayPal konta turētāja uzvārds</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>Lūdzu, aizpildiet šos laukus tieši tāpat, kā tie ir aizpildīti pieteikumā, ko iesniedzāt aviosabiedrībai.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>Lūdzu, ievadiet maksājuma informāciju. &lt;b&gt; Šī ir adrese, kurā vēlaties saņemt maksājumu, ja Jūsu somas atgūšana kavēsies vairāk par 96 stundām. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>Lūdzu, ievadiet maksājuma informāciju. &lt;b&gt; Šī ir vieta, kurā vēlaties saņemt maksājumu, ja Jūsu somas atgūšana kavēsies vairāk par 96 stundām. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>Norādiet tālāk prasīto informāciju tieši tādā pašā veidā, kādā tā parādās aviosabiedrībai iesniegtajā nozaudētās bagāžas pieteikumā. &lt;b&gt;Šī ir adrese, uz kuru jānogādā soma.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>Meklēt pēc (lūdzu, izvēlieties vienu)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>Pakalpojuma līgums #</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>Lidojuma ielidošanas informācija</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>Noklīdušas bagāzas informācija</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>Pakalpojuma līguma numurs</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>Bagāžas piegādes informācija</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>Maksāšanas informācija</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>Norādiet savu kontaktinformāciju</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>Apstiprināt</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>Lūdzu, pievienojiet savam ziņojumam kontaktpersonas</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>Swift kods</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>Noklīdusi bagāža</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>UZŅĒMUMS “BLUE RIBBON BAGS” IR JĀINFORMĒ PAR NEPIEGĀDĀTAJĀM SOMĀM,
+KĀ ARĪ PAR DERĪGU AVIOSABIEDRĪBAS IZSNIEGTO LIETAS ATSAUCES NUMURU, 24 STUNDU LAIKĀ PĒC IELIDOŠANAS.
+“BLUE RIBBON BAGS” PAKALPOJUMI NEBŪS PIEEJAMI SOMĀM, PAR KURĀM PAZIŅOTS PĒC ŠĪ 24 STUNDU PERIODA.
+
+JA AVIOSABIEDRĪBA JUMS NAV PIEŠĶĪRUSI DERĪGU LIETAS ATSAUCES NUMURU,
+JUMS BŪS JĀSAZINĀS AR AVIOSABIEDRĪBU UN JĀIEGŪST TAS NO VIŅIEM PIRMS SAVA ZIŅOJUMA IESNIEGŠANAS MUMS.  
+UZŅĒMUMS “BLUE RIBBON BAGS” NEIEGŪS LIETU ATSAUCES NUMURUS NO AVIOSABIEDRĪBĀM.  PASAŽIERA PIENĀKUMS IR
+PIRMS ZIŅOJUMA PAR NOZAUDĒTU BAGĀŽU IESNIEGŠANAS MUMS IEGŪT ŠO INFORMĀCIJU NO AVIOSABIEDRĪBAS.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>Nepiegādātas somas #</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>Kad iesniedzāt prasību par nozaudētu bagāžu aviosabiedrībai, jūs saņēmāt faila atsauces numuru un bagāžas atzīmes numuru. Lūdzu, ievadiet tos šeit:</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>Klienta atsauces numurs</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>Tas attiecas uz jūsu lidojumu (-iem) ar apstiprinājuma numuru &lt;b&gt; {0} &lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>NFORMĒT PAR IZMAIŅU PIRMS JAUNAS LIDOJUMA IZPLATĪŠANAS VAI PIRKT JAUNU PAKALPOJUMU JŪSU JAUNAM LIDOJUMAM. VISAS IZMAIŅAS JĀNORĀDA ZILĀS RIBBONA STIKLIEM, PIEDZINĀTIES UZ ASV, izmantojot &lt;a href="mailto:info@blueribbonbags.com"&gt; INFO@BLUERIBBONBAGS.COM &lt;/a&gt;, UN TŪRISKO PAKALPOJUMU NOLĪGUMA NUMURA ​​NOSŪTĪŠANU TEMATIEM. JŪSU SADALĪJIET E-PILSĒTAS STRUKTŪRĀ, JŪSU LIDMAŠĪNAS UN LIDOJUMU APSTIPRINĀŠANAS NUMURS, JŪSU ORIGĀLĀ LIDOJUMA NUMURS UN JAUNĀ LIDOJUMA NUMURS IR IZMAIŅA. JA LIDMAŠĪNA IZMAIŅA, LAI PĀRSKATĪT PAR JAUNO LIDOJUMU JAUNO LIDOJUMU, KAS IR JAUNA. &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>Kompensācijas apmērs par katru somu:</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>LAI PABEIGTU NEPAREIZI VEIKTAS BAGĀŽAS APKALPOŠANAS ZIŅOJUMU, JUMS IR NEPIECIEŠAMS VEIKT SEKOJOŠAS DARBĪBAS:</value>
+  </data>
+</root>

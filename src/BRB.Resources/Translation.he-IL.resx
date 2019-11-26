@@ -1,0 +1,2687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>מספר חשבון</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>פעיל</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>סוכן מקוון:</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>24 שעות ביממה, 7 ימים בשבוע</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>תוך מספר דקות תקבל אישור בדוא"ל מ-Blue Ribbon Bags. במקרה שלא תקבל אישור, פנה אלינו והחזק את אישור עסקת Paypal בהישג יד.</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>מזל טוב!</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>אם הכבודה שלך לא הגיעה אתך ליעד הטיסה הסופי, עליך לדווח על כך לחברת התעופה לפני שתדווח על כך ל-Blue Ribbon Bags. יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה. ניתן לדווח לנו על כבודה שלא הגיעה בטלפון:</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>בסדר, סיימתי לעת עתה!</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>רמת שירות:</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>השירות של Blue Ribbon Bags אינו בר-החזרה ואינו ניתן להעברה. לא יתקבל החזר כספי או זיכוי כלשהו. אם הטיסה בוטלה והוזמנה טיסה חדשה במקומה, עליך לדווח לנו על השינוי לפני מועד הטיסה החדשה או לרכוש שירות חדש לטיסה החדשה.  על כל שינוי יש לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות שלך בשורת הנושא.  יש לציין בגוף ההודעה את חברת התעופה ואת מספר האישור של חברת התעופה, את מספר הטיסה המקורית ואת מספר הטיסה החדשה.  אם גם חברת התעופה השתנתה, עליך גם לדווח לנו על חברת התעופה החדשה של הטיסה החדשה.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>או באופן מקוון בכתובת</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>התשלום בוצע בהצלחה</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>אישור תשלום:</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>פרטי תשלום</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>שמור את פרטי האיתור של הכבודה (מספר תיק, מספר במאתר התיקים) שסיפקה לך חברת התעופה כשמילאת תביעת כבודה שאבדה, מאחר ש-Blue Ribbon Bags תדרוש מידע זה כדי לעבד את הדיווח שלך על הכבודה שלא הגיעה ליעדה. יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>שמור מספר הסכם שירות זה אצלך משום שתזדקק לו כדי לדווח לנו על כבודה שלא הגיעה במקרה שהכבודה לא הגיעה ליעדה.</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>תודה שבחרת בשירות של Blue Ribbon Bags לטיפול בכבודה שלך. היה סמוך ובטוח, שנדאג לכך שהתהליך יהיה פשוט ככל האפשר.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>אנו מודים לך מאד ומאחלים לך נסיעה בטוחה.</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>חיוב כולל:</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>אנו כאן כדי לעזור לך 24 שעות, 7 ימים בשבוע. נסיעה בטוחה ללא דאגות!</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>מה לעשות אם הכבודה שלך אינה מגיעה ליעדה:</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>מספר ההסכם שלך בשירות Blue Ribbon Bags הוא</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>מספרי ההסכם שלך בשירות Blue Ribbon Bags הם</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>פרטי התשלום מופיעים למטה. אם יש לך שאלות, אל תהסס לפנות ל-Blue Ribbon Bags בדוא"ל לכתובת</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>הסכם השירות שלך זמין באופן מקוון בכתובת</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>שאל אותנו לגבי Bill Me Later (חיוב במועד מאוחר יותר).  באופן זה לא תצטרך לשלם על כל עסקה, ותוכל לקבל חשבונית אחת ללא העמלות שלך בסוף כל חודש!  פשוט שלח הודעת דוא"ל לכתובת &lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt;, וציין Bill Me Later בשורת הנושא.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>פרטי מסירת כבודה</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>שם הבנק</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>שפה זו תשמש לשירותים ללא הגדרת שפה בקובץ שהועלה</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>לכל {0} נוסעים הזכאים לשירות חייב להיות אותו קוד שיווקי</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>כתובת לחיוב</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>ניקוי כל השדות</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>שלח רישום</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>סכום האימות שהוזן שגוי. הזן שוב את סכום האימות.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>בדיקה</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>תשלום</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>תשלום</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>מכין תשלום עבור שירותים...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>מעבד שירות {0}...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>מעבד תשלום על שירות {0}...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>עיבוד השירות {0} הסתיים.</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>מעבד {0} קודים שיווקיים של השירות...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>מאמת שירות {0}...</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>חשבון הסוכן שלך יחויב על</value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>מאושר</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>בחר אמצעי תשלום</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>הושלם</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>אשר תשלום</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>אשר תשלום</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>האם ברצונך לאשר את הרכישה?</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>האם ברצונך לאשר את העסקה?</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>מספר כרטיס אשראי</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>כרטיס האשראי שלך יחויב עבור</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>הזן את פרטי כרטיס האשראי</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>התשלום על חלק מהשירותים לא בוצע כהלכה. לא ניתן להשלים את תהליך הרכישה.</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>נכשל</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>חזור</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>פעולה לא חוקית.</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>כיסוי מקסימלי על אובדן:</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>לא, בטל</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>מספר נוסעים:</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>שלם עכשיו</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>בהמתנה</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>או ציין פרטי כרטיס אשראי למטה כדי להשלים את תהליך התשלום על הסכם השירות.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>עיון במידע</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>החיסכון שלך:</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>רמת שירות:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>מספר שירות:</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>עלות השירות:</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>סיכום השירותים</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>אשר את רכישת השירות - תשלום</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>אנא אמת את הפרטים הבאים ולחץ על הלחצן אישור תשלום אם הוא נכון.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>מיקוד</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>עיר</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>נקה</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>שורה {0}: העמודה {1} אינה יכולה להישאר ריקה</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>העמודה {0} לא נמצאת בקובץ שהועלה. הורד תבנית מעודכנת.</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>אשר סיסמה</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>אשר דוא"ל</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>צוות שירות לקוחות של Blue Ribbon Bags </value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>כל השאלות ייענו בדוא"ל בהקדם האפשרי. הקפד לכלול את כל הפרטים ליצירת קשר איתך, כולל מספרי טלפון, כדי שנוכל ליצור אתך קשר בטלפון במקרה הצורך.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>שלח לנו הודעה</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>שלח הודעה</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>כל השאלות ייענו בדוא"ל בהקדם האפשרי. הקפד לכלול את כל הפרטים ליצירת קשר איתך, כולל מספרי טלפון, כדי שנוכל ליצור אתך קשר בטלפון במקרה הצורך.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>לקוחות או לשאלות כלליות, נא ליצור קשר בכתובת:</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>סוכני נסיעות, נא ליצור קשר בכתובת:</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>כדי להגיש דיווח חדש על כבודה שלא הגיעה ליעדה, התקשר &lt;span dir="ltr"&gt;+1 (888) BAGGAGE  (+1 (888) 224-4243)&lt;/span&gt; או בקר באתר &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;. שים לב: מספר זה לא יציג פרטים על דיווחי כבודה קיימים.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>לפרטים על דיווח קיים של כבודה שלא הגיעה ליעדה, בקר באתר &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; או שלח דוא"ל לכתובת &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt; וציין את מספר ה-MBR בשורת הנושא.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>תודה רבה!</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>ארץ</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>שירות כבודה שהתעכבה</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>שפת ברירת מחדל לדוא"ל</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>תיאור</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>הכול</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- ללא --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>אחר</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>-- בחר --</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>לא הוקצה</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>דוא"ל</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>בחר שפת דוא"ל לנוסע</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>הדבר מכסה את כל הטיסות שלך מ- &lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>הדבר מכסה את כל הטיסות שלך בחברת התעופה &lt;b&gt;{0}&lt;/b&gt; עם מספר אישור &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>השירות של Blue Ribbon Bags אינו בר-החזרה ואינו ניתן להעברה. לא יתקבל החזר כספי או זיכוי כלשהו. אם הטיסה בוטלה והוזמנה טיסה חדשה במקומה, עליך לדווח לנו על השינוי לפני מועד הטיסה החדשה או לרכוש שירות חדש לטיסה החדשה.  על כל שינוי יש לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות שלך בשורת הנושא.  יש לציין בגוף ההודעה את חברת התעופה ואת מספר האישור של חברת התעופה, את מספר הטיסה המקורית ואת מספר הטיסה החדשה.  אם גם חברת התעופה השתנתה, עליך גם לדווח לנו על חברת התעופה החדשה של הטיסה החדשה.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>השירות של Blue Ribbon Bags אינו ניתן להעברה. לא יתקבל החזר כספי או זיכוי כלשהו. אם הטיסה בוטלה והוזמנה טיסה חדשה במקומה, עליך לדווח לנו על השינוי לפני מועד הטיסה החדשה או לרכוש שירות חדש לטיסה החדשה.  על כל שינוי יש לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות שלך בשורת הנושא.  יש לציין בגוף ההודעה את חברת התעופה ואת מספר האישור של חברת התעופה, את מספר הטיסה המקורית ואת מספר הטיסה החדשה.  אם גם חברת התעופה השתנתה, עליך גם לדווח לנו על חברת התעופה החדשה של הטיסה החדשה.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>כתובת דוא"ל</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>שלח תשובה</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>תאריך תפוגה</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>פרטי נחיתה</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>הסכם שירות של Blue Ribbon Bags</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>תכונות של שירות הכבודה</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Copyright 2019 Blue Ribbon Bags, LLC. פטנטים בהמתנה בארה"ב ובארצות נוספות.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>כל רכישה כפופה לתנאים ולהתניות של </value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>הגשת דיווח על כבודה שלא הגיעה ליעדה</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>דף הבית</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>ההתחייבויות של Blue Ribbon Bags מגובות על-ידי חברת ביטוח מדרג A- (מצוין) באמצעות A.M. Best Company.</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>רכישת שירות כבודה</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>מ-</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* ניתן לערוך את הפרטים בלחיצה על הלחצן 'חזור' (Go Back) מבלי להזין מחדש את הפרטים הקודמים</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>סוכן/ איש מכירות</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>מס' אישור של חברת התעופה</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>שם חברת התעופה</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>עריכה</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>מספר נוסעים</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>מוצר</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>תאריך רכישה</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>עלות השירות</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>מס' שירות BRB</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>תמורת 5.00 דולר בלבד, &lt;/br&gt;BRB תאתר ותשלח את הכבודה שלא הגיעה ליעדה &lt;/br&gt;דרך חברת התעופה.</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>נסיעה בטוחה ללא דאגות</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>אם הכבודה שלך לא תימצא&lt;br /&gt;לאחר 96 שעות, &lt;br /&gt;BRB מתחייבת לשלוח לך $1000 לכל מזוודה.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>ב-Blue Peace of Mind&lt;br /&gt;השקט הנפשי שלך מובטח</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>דיווח על כבודה חסרה</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>זכור להודיע תחילה לחברת התעופה שהכבודה שלך לא הגיעה ליעד הסופי של הטיסה.
+חברת התעופה תספק את פרטי האיתור הדרושים כדי לדווח ל-Blue Ribbon Bags.
+יש לדווח ל-Blue Ribbon Bags על כל כבודה חסרה תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>הגשת דיווח</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>ניתן גם לדווח על כבודה חסרה בטלפון ‎&lt;span dir="ltr"&gt;888-BAGGAGE (888-224-4243)&lt;/span&gt; 24 שעות ביממה, 7 ימים בשבוע</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>השותפים שלנו</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>היקף הלקוחות שלנו</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>21 מיליון</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>יחידות כבודה שלא הגיעו ליעדם בשנה</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>חברות תעופה מכוסות</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>טיסות יומיות בינלאומיות</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>מה אומרים אחרים</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>בחדשות</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>לקריאה נוספת</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>שירות הלקוחות נהדר ושירות הגנת מטענים זה של Blue Ribbon Bags מעולה.</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>אם אתה חושש לאבד את מטענך, כעת תוכל לשמור על ראש שקט... Blue Ribbon Bags מבטיחה זאת...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>כרגע זהו הכיסוי היחיד מסוגו הזמין לכבודה שאבדה...</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>כל מי שאיבד מזוודות בחברת תעופה יודע שזה סיוט... אך Blue Ribbon Bags מונעת זאת...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>רכישת שירות כבודה</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>לחץ על&lt;b&gt;כניסה&lt;/b&gt; (LOGIN) כדי לרכוש כיסוי של Blue Ribbon Bags ללקוחות שלך.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>לחץ על &lt;b&gt;רישום&lt;/b&gt; (REGISTER) כדי לרשום את הסוכנות שלך כדי שהיא תוכל למכור כיסוי של Blue Ribbon Bags ללקוחותיך.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* דמי הסכם השירות הם לפי אדם. התשלום המובטח הוא לפי מזוודה.</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* התשלומים מוגבלים ל-2 מזוודות שלא נמסרו לאדם.</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>הגשת דיווח על כבודה שלא הגיעה ליעדה</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>תמורת 5.00 דולר בלבד, BRB תאתר ותשלח את הכבודה שלא הגיעה ליעדה דרך חברת התעופה.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>מידע נוסף? ניתן תמיד להיות אתנו בקשר בדוא"ל:</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>לא נדרשות קבלות על תכולת הכבודה כדי לקבל תשלום.</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Blue Ribbon Bags מציעה שלוש רמות של תשלום בטוח:</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>BRB מתחייבת לשלם 1000 דולר על כל מזוודה שלא נמסרה, אחרי 4 ימים שבהם המזוודה לא נמצאה.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>דמי הסכם שירות</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>תשלום עבור הבטחת שביעות רצון</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>סוכני נסיעות</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>מזוודות שלא הגיעו ליעדן?&amp;nbsp; דווח בכתובת:</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>מסכים</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>לא פעיל</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>יש להעלות קובץ XSLX מעודכן.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>יציאה</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>ברוך הבא  </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>כניסה</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>כניסה</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>אני זקוק לסיסמה חדשה</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>זכור את פרטי הכניסה למערכת</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>היכנס למערכת Blue Ribbon Bags</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>שם משתמש ו/או סיסמה לא מזוהים. הסיסמה רגישה לאותיות גדולות וקטנות. ודא שלחצן Caps Lock אינו לחוץ. הזן שוב את שם המשתמש והסיסמה או פנה למנהל המערכת לאיפוס סיסמתך.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>פרטי כבודה שאבדה</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>הכבודה ששלחת לא הגיעה ליעדה.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>יש להגיש תביעת כבודה שאבדה לחברת התעופה שבמטוס שלה הכבודה שלך הייתה אמור להגיע, ותקבל מחברת התעופה מספר תיק או מספר של מאתר התיקים.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>הכבודה שלך לא הוחזרה לך תוך (4) ימים ממועד הנחיתה, כפי שרשום בחברת התעופה.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>רכישה אחת (5 דולר) מכסה את כל הכבודה שמסרת בשדה התעופה, כולל כבודה שהועברה בשער היציאה ברגע האחרון לפני הטיסה.</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt;הודעות דוא"ל יישלחו אוטומטית לנוסע בכל פעם שיש שינוי במצב הכבודה שלו. הנוסעים אינם צריכים ליצור קשר עם חברת התעופה כדי לדעת מה מצב הכבודה שלהם.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>הוכחה לערך תכולת הכבודה (קבלות) &lt;b&gt;אינה&lt;/b&gt; נדרשת לקבלת תשלום.</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>התשלומים מוגבלים ל-2 מזוודות לאדם.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>התשלומים מובטחים, גם אם הכבודה מתגלה בשלב מסוים אחרי המועד האחרון של 96 שעות.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>גניבה, תכולה חסרה או כבודה שניזוקה אינם נכללים בשירות זה. הכיסוי חל רק על כבודה שלא הגיעה ליעדה דרך חברת התעופה. &lt;b&gt;יש לדווח על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>BRB מוכרת שירות. הסכם שירות של BRB הוא בתוספת לכל ביטוח שייתכן כי רכשת, ואינו בא במקומו. לאחר שתפדה את המחאת BRB שקיבלת, עדיין תוכל לקבל תשלומים מהביטוח.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>השירות של Blue Ribbon Bags אינו בר-החזרה ואינו ניתן להעברה. לא יתקבל החזר כספי או זיכוי כלשהו. אם הטיסה בוטלה והוזמנה טיסה חדשה במקומה, עליך לדווח לנו על השינוי לפני מועד הטיסה החדשה או לרכוש שירות חדש לטיסה החדשה.  על כל שינוי יש לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות שלך בשורת הנושא.  יש לציין בגוף ההודעה את חברת התעופה ואת מספר האישור של חברת התעופה, את מספר הטיסה המקורית ואת מספר הטיסה החדשה.  אם גם חברת התעופה השתנתה, עליך גם לדווח לנו על חברת התעופה החדשה של הטיסה החדשה.</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>אתה רשאי לרכוש שירות של Blue Ribbon Bags ממש עד לרגע עלייתך למטוס.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>כל רכישה (5 דולר) מיועדת לאדם אחד, למספר אישור אחד של חברת התעופה, ללא קשר למספר העצירות או טיסות הקונקשן הקשורות למספר האישור של חברת התעופה. כרטיסי הלוך-חזור עם מספר אישור יחיד של חברת התעופה מכוסים ברכישה אחת.</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>אם מוזמנות מספר טיסות בנפרד והוקצו להן מספרי אישור שונים של חברת התעופה, יש לרכוש הסכמי שירות נפרדים לכל טיסה.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;סוכנים בלבד&lt;/u&gt;: רכישה אחת (5 דולר) מיועדת לאדם אחד ול-PNR אחד, ללא קשר למספר טיסות הקונקשן או העצירות.</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>לרכישות המתבצעות דרך אתרי אינטרנט מקוונים להזמנת טיסות: כל רכישה מיועדת למסלול הנסיעה שהוזמן דרך האתר המקוון, שיצוין מתחת למספר האישור שתקבל מאתר האינטרנט במועד הרכישה.  כל שינוי במסלול המתבצע מחוץ להזמנה באתר ידרוש רכישת שירות נפרד לכל הטיסות החדשות שיוזמנו.  אם השינוי במסלול יתבצע דרך אתר האינטרנט שבו הוזמן המסלול המקורי, ומספר האישור של הנוסע במסלול המקורי לא השתנה לאחר שינוי הטיסות במסלול, הנוסע לא יצטרך להזמין שירות נוסף והשירות המקורי יספיק.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>BRB מכסה כל טיסה, בכל חברת תעופה, לכל מקום בעולם, ללא קשר למקום שממנו יוצאת הטיסה.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>יש להגיש תביעה לחברת התעופה לפני דיווח על כבודה שלא הגיעה ליעדה ל-Blue Ribbon Bags.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>דוחות על כבודה שלא הגיעה ליעדה ניתן להגיש באופן מקוון &lt;a href="{0}" target="_blank"&gt;כאן&lt;/a&gt; או בטלפון ‎&lt;span dir="ltr"&gt;(888) BAGGAGE (+1 888-224-4243)&lt;/span&gt;, 24 שעות ביממה, 7 ימים בשבוע.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>יש לדווח על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה.  שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן אחרי המועד האחרון של 24 שעות.</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>יש להגיש תביעה לחברת התעופה לפני יצירת קשר עם Blue Ribbon Bags.</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>יש להגיש ל-Blue Ribbon Bags דיווח על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה. דיווח על כבודה שלא הגיעה ליעדה ניתן להגיש 24 שעות ביממה, 7 ימים בשבוע:</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>באופן מקוון &lt;a href="{0}" target="_blank"&gt;כאן&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>בטלפון &lt;span dir="ltr"&gt;(888) BAGGAGE (+1 888-224-4243)&lt;/span&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Blue Ribbon Bags תתחיל במתן שירות האיתור והמשלוח חזרה של הכבודה שלך. הנוסע יקבל הודעות דוא"ל אוטומטיות בכל פעם שיחול שינוי במצב המזוודות שלו.&lt;br /&gt;&lt;strong&gt;הנוסעים אינם צריכים ליצור קשר עם חברת התעופה כדי לדעת מה מצב הכבודה שלהם.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Blue Ribbon Bags תמצא את הכבודה שלך תוך 96 שעות ממועד הנחיתה של הטיסה או תשלח לך את הסכום המובטח דקה אחרי שיעבור המועד האחרון של 96 שעות.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>האם יש עוד משהו שאני צריך לדעת?</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>מה עלי לעשות אם המזוודה שלי נעלמה?</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>כיצד אוכל לדעת אם אני זכאי לקבלת תשלום?</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Blue Ribbon Bags‏ (BRB), מספקת שירות ייחודי המאתר ושולח בחזרה כבודה שלא הגיעה ליעדה תוך 96 שעות. אם Blue Ribbon Bags לא תוכל לבצע את החזרת הכבודה בזמן זה, BRB תשלח לנוסע את התשלום המובטח. התשלום מובטח גם אם מזוודה מוחזרת ללקוח בכל שלב בתום התקופה של 96 שעות.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>תכונות של שירות הכבודה</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>כתובת הבית הקבועה של הנוסע</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>מספר ניתוב ABA</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>מספר חשבון:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>מס' הסכם שירות</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>אישור מחברת התעופה מס'</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>תאריך הגעה של הטיסה</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>טיסה נכנסת מס'</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>זמן נחיתה של הטיסה</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; שאל את המתקשר: האם הטיסה שלך נחתה בארה"ב או מחוץ לארה"ב?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; סוכן: קרא אחת משתי הפסקאות הבאות המופיעות למטה לפי תשובת המתקשר:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>צרף BIR/PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>מס' תג כבודה</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>לפני שתדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה, יש לדווח תחילה לחברת התעופה
+שהכבודה לא הגיעה לנקודת היעד של הטיסה. חברת התעופה תמסור לך את פרטי האיתור, ויהיה עליך להגיש את דוח הכבודה שלא הגיעה ליעדה המוצג למטה.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>כתובת המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>עיר המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>ארץ המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>כתובת דוא"ל של המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>שם פרטי של המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>שם משפחה של המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>טלפון של המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>מדינת המוטב</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>מיקוד של המוטב</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>לחץ על שורה כדי לבחור</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>אשר כתובת דוא"ל</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>לחץ כדי להעתיק אם הכתובת זהה בדיוק לכתובת שלמעלה</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>בחר שפה להודעות דוא"ל</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>שפת הודעות דוא"ל</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>לרשותך {0} ממועד המשלוח של הודעת דוא"ל זו כדי לבצע את השינויים הדרושים עם הפרטים הנכונים. אם לא תענה עם הפרטים הנכונים תוך פרק זמן של {0}, דיווח הכבודה שלא הגיעה ליעדה שהגשת יידחה. הדוח לא יתקבל גם אם תגיש אותו שוב.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>מספר התיק שמסרת אינו תקין.  יהיה עליך ליצור קשר עם חברת התעופה ולבקש מהם לספק לך מיד מספר תיק תקין.  יש לספק לנו מספר זה תוך 24 שעות ממועד הנחיתה כדי שהדיווח שתגיש יעובד.  Blue Ribbon Bags אינה מאחזרת אסמכתא של תיקים עבור הנוסע.&lt;br/&gt;
+באחריות הנוסע לקבל מידע זה מחברת התעופה ולספק לנו אותו תוך 24 שעות ממועד הנחיתה.  אם לא נקבל מספר תיק תקין תוך 24 שעות ממועד הנחיתה, הדיווח שלך יידחה ולא תהיה זכאי לשירותי אחזור הכבודה או לתשלום המובטח.  לא נפתח שוב את התיק שלך, ללא קשר לנסיבות, אם מידע זה יסופק בשלב כלשהו אחרי 24 שעות ממועד הנחיתה.&lt;br/&gt;
+אם כבר מסרת לנו עותק של הדיווח כפי שסופק לך על-ידי חברת התעופה כשהגשת את התביעה על הכבודה שאבדה ועדיין קיבלת הודעה זו בדוא"ל, פירוש הדבר שחברת התעופה לא סיפקה לך מספר תיק תקין ועליך לפנות אליהם כדי לקבל מספר כזה מיד, ולספק לנו אותו תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>הזן את המידע הבא מתביעת הכבודה שהגשת לחברת התעופה:</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>הזן את מספר הסכם השירות שלך עם Blue Ribbon Bags‏:</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>מס' תיק או המספר במאתר התיקים</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>מספר התיק שעליך לספק יכלול קוד של 5 ספרות אחרי קוד שדה התעופה וחברת התעופה בדוח אי-התאמה בגין הכבודה (Property Irregularity Report). לדוגמה: MCOAF12345. &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>מספר אסמכתא של התיק</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>הגשת דיווח</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>שם בית המלון:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>אם הנוסע עוזב יעד זה במהלך 96 השעות וברצונו ש-BRB תדע על נסיבות אלה,
+כדי שניתן יהיה למסור את הכבודה כהלכה, שלח לנו הודעת דוא"ל לכתובת &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,
+ציין בשורת הנושא את מספר ה-MBR שקיבלת כשמילאת את הדוח ומסור כמה שיותר פרטים לגבי מצבך.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>מס' MBR </value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>שם הבנק:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>אנו מתנצלים שלא ניתן לערוך את הדוח, ולכן כבר לא ניתן לתקן פרטים אלה. תודה שבחרת ב-Blue Ribbon Bags. נסיעה בטוחה ללא דאגות!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>לא נמצאו תוצאות בחיפוש</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>אתה נדרש להגיש העתק של הדו“ח כפי שסופק לך על ידי חברת התעופה, כשהגשת את תביעת איתור כבודה עם חברת התעופה ל Blue Ribbon Bags תוך 24 שעות מנחיתת טיסתך, על מנת להשלים את תהליך הגשת דו“ח איתור הכבודה. אם לא תגיש העתק של דו“ח זה, שסופק לך על ידי חברת התעופה, תוך 24 שעות מנחיתת טיסתך, דו“ח איתור הכבודה שלך עם Blue Ribbon Bags יידחה מייד עם תום המועד האחרון של 24 שעות, ולא תהיה זכאי לשירותי מציאת והחזרת המטען או לתשלום שביעות רצון מובטח מצידנו. אנא שלח עותק של דו“ח זה לכתובת mbr@blueribbonbags.com וציין את מספר הסכם השירות שלך בשורת הנושא. מסמכי תמיכה של חברת התעופה אשר יוגשו בכל דרך אחרת, שלא כמו שהונחה כאן, לא ייחשבו כדו“ח תקף ולא ייחשבו בדו“ח איתור הכבודה שלך עם Blue Ribbon Bags.  דוחו“ת שאין להם תיעוד נלווה יידחו עם פקיעת המועד האחרון של 24 שעות מרגע שטיסתך נחתה.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>הנוסע יהיה בכתובת זו עד אשר</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>כתובת למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>תשלום באמצעות</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>עיר למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>ארץ למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>הערה: ניתן לשנות את פרטי התשלום לאחר הדיווח הראשוני. ייתכן שהדבר יגרום לעיכוב קל בתהליך ביצוע התשלום.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>כתובת דוא"ל למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>שם פרטי למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>שם משפחה למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>טלפון למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>מדינה למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>מיקוד למשלוח התשלום</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>כתובת דוא"ל ב-PayPal </value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>מלא את הפרטים הקשורים לחשבון PayPal שלך</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>שם פרטי של חשבון PayPal</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>שם משפחה של חשבון PayPal</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>מלא את השדות בדיוק כפי שהם מופיעים בתביעה שהגשת לחברת התעופה.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>הזן פרטי תשלום. &lt;b&gt;זו הכתובת שאליה תרצה שהתשלום יישלח במקרה שהכבודה שלך התעכבה במשך יותר מ-96 שעות. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>הזן פרטי תשלום. &lt;b&gt;זו הכתובת שאליה תרצה שהתשלום יישלח במקרה שהכבודה שלך תתעכב במשך יותר מ-96 שעות. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>ציין את הפרטים הבאים בדיוק כפי שהם מופיעים בתביעת הכבודה שאבדה שהגשת לחברת התעופה. &lt;b&gt;זוהי הכתובת שברצונך שהכבודה שלך תישלח אליה.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>חיפוש לפי (בחר אפשרות אחת)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>מס' הסכם שירות</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>פרטי נחיתה</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>פרטי כבודה שלא הגיעה+C267 ליעדה</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>מספר הסכם שירות</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>פרטי מסירת כבודה</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>פרטי תשלום</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>קוד Swift</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>כבודה שלא הגיעה ליעדה</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה, כולל מספר תיק תקף מחברת התעופה, 
+יש לדווח תוך 24 שעות ממועד הנחיתה.
+שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן אחרי המועד האחרון של 24 שעות.
+
+אם חברת התעופה לא סיפקה לך מספר תיק תקף,
+יהיה עליך ליצור קשר עם חברת התעופה ולקבלו מהם לפני שתמלא את הדוח שלך עבורנו.  
+Blue Ribbon Bags לא תאחזר מספרי תיק מחברת התעופה.  באחריות הנוסע 
+לקבל מידע זה מחברת התעופה לפני מילוי דוח כבודה שלא הגיעה ליעדה עבורנו.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>מס' מזוודות שלא הגיעו ליעדן</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>כשהגשת תביעה על כבודה שאבדה
+לחברת התעופה, קיבלת מספר תיק
+ומספר תג כבודה. הזן אותם כאן:</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>כניסת סוכן</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>תכונות</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>איש קשר</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>שאלות נפוצות</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>דף הבית</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>הגשת דיווח</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>מזוודות חסרות</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>מידע</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>הודעה</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>לחץ כאן אם ברצונך לקבל הודעת אישור בדוא"ל.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>לחץ כאן אם ברצונך שהנוסע יקבל הודעת אישור בדוא"ל.</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>אל תציג חיוב כולל בהודעות דוא"ל לאישור השירות</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>החשבון שלי</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>אם ברצונכם לספק כל מידע הקשור לתיק או למסירת מידע, אנא הכנסו אותו כאן</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>שדה הסיסמה מוצג ריק בכוונה. אם ברצונך לספק סיסמה חדשה, הזן סיסמה חדשה ואשר את הסיסמה החדשה.&lt;br /&gt;&lt;br /&gt;
+                   הסיסמה חייבת לכלול 8 (שמונה) תווים עם אות אלפביתית אחת לפחות, ספרה אחת לפחות ותו מיוחד אחד לפחות, כשלפחות אות אלפביתית אחת מופיעה באות גדולה.&lt;br /&gt;&lt;br /&gt;
+                   התווים המיוחדים המותרים הם:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>תשלום:</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>פרטי כתובת לתשלום</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>פרטי תשלום</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>בסדר, סיימתי לעכשיו!</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>מזל טוב!</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>רמת שירות:</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>מספר נוסעים:</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>אישור תשלום:</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>פרטי תשלום</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>קוד קידום מכירות:</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>תודה שבחרת בשירות של Blue Ribbon Bags לנסיעה הקרובה שלך. תוכל להיות סמוך ובטוח שנדאג לכך שהתהליך יהיה פשוט ככל האפשר.&lt;br /&gt;&lt;br /&gt;מספר הסכם השירות שלך ב-Blue Ribbon Bags Service הוא</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>שמור מספר הסכם שירות זה אצלך משום שתזדקק לו כדי לדווח לנו על כבודה שלא הגיעה במקרה שהכבודה לא תגיע ליעדה.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>תוך מספר דקות תקבל אישור בדוא"ל מ-Blue Ribbon Bags. במקרה שלא תקבל אישור, פנה אלינו והחזק את אישור עסקת Paypal בהישג יד.</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;מה לעשות אם הכבודה שלך אינה מגיעה:&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;אם הכבודה שלך אינה מגיעה ליעדה עליך לדווח על כך לחברת התעופה לפני שתדווח על כך ל-Blue Ribbon Bags. יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה. ניתן לדווח לנו על כבודה שלא הגיעה ליעדה בטלפון &lt;strong&gt;{0}&lt;/strong&gt;, או באופן מקוון בכתובת &lt;a href="{1}"&gt;{2}&lt;/a&gt;‏, 24 שעות ביממה, 7 ימים בשבוע. &lt;br /&gt;&lt;br /&gt;שמור את פרטי האיתור של הכבודה (מספר תיק, מספר במאתר התיקים) שסיפקה לך חברת התעופה כשמילאת תביעת כבודה שאבדה, מאחר ש-Blue Ribbon Bags תדרוש מידע זה כדי לעבד את הדוח שלך על כבודה שלא הגיעה ליעדה. יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה תוך 24 שעות ממועד הנחיתה.&lt;br /&gt;&lt;br /&gt;פרטי התשלום שלך מופיעים למטה. אם יש לך שאלות, אל תהסס לפנות אל Blue Ribbon Bags  בדוא"ל לכתובת &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt; אנו כאן כדי לעזור לך 24 שעות, 7 ימים בשבוע. נסיעה בטוחה ללא דאגות!&lt;br /&gt;&lt;br /&gt;הסכם השירות שלך זמין באופן מקוון בכתובת  &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;תודה שפנית אלינו ונסיעה בטוחה.&lt;br /&gt;&lt;br /&gt;השירות של Blue Ribbon Bags אינו בר-החזרה ואינו ניתן להעברה. לא יתקבל החזר כספי או זיכוי כלשהו. אם הטיסה בוטלה והוזמנה טיסה חדשה במקומה, עליך לדווח לנו על השינוי לפני מועד הטיסה החדשה או לרכוש שירות חדש לטיסה החדשה.  על כל שינוי יש לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות שלך בשורת הנושא.  יש לציין בגוף ההודעה את חברת התעופה ואת מספר האישור של חברת התעופה, את מספר הטיסה המקורית ואת מספר הטיסה החדשה.  אם גם חברת התעופה השתנתה, עליך גם לדווח לנו על חברת התעופה החדשה של הטיסה החדשה.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>התשלום בוצע בהצלחה</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>חיוב כולל:</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>מספר טלפון</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>כל המזוודות אותרו והמקרה נסגר</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>סיבה לסירוב</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>כדי להגיש דוחות על כבודה שלא הגיעה ליעדה 24 שעות ביממה, 7 ימים בשבוע, לחץ &lt;a href="{0}" target="_blank"&gt;כאן&lt;/a&gt; או התקשר ‎&lt;span dir="ltr"&gt;888-BAGGAGE&lt;/span&gt;.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>אם הנוסע אומר בכל שלב לחברת התעופה שהגיש לה תביעה או ל-Blue Ribbon Bags שברצונו לאסוף את המזוודה במקום שהמזוודה תישלח אליו, מצב דוח המזוודה יוגדר כסגור, וכל המזוודות ייחשבו כמי שהוחזרו ברגע שהמזוודה תגיע לשדה התעופה.</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>ברגע שהמזוודה מגיעה ליעד שצוין בחברת התעופה עם הגשת התביעה, מצב דוח הכבודה שלא הגיעה ליעדה יוגדר כסגור.</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>* אם פרט כלשהו במידע שלעיל אינו נכון, כתוב לנו הודעת דוא"ל לכתובת &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>הערות ממנהל הדוחות:</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>לא נמצאו תוצאות בחיפוש</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>מצב דוח מזוודה שלא הגיעה ליעדה זה הוא: &amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>הדוח היה פתוח במשך &lt;strong&gt;{0}&lt;/strong&gt; ימים.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>התשלום על דוח כבודה שלא הגיעה ליעדה יתבצע עבור: &amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>התשלום יתבצע אם הדוח יישאר פתוח  &lt;strong&gt;{0}&lt;/strong&gt; ימים.</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>תוצאה</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>הודעות דוא"ל יישלחו אוטומטית לנוסע בכל פעם שיחול שינוי במצב הכבודה שלו. הנוסעים אינם צריכים ליצור קשר עם חברת התעופה כדי לדעת מה מצב הכבודה שלהם.</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>תכונות:</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>מספר הטלפון שלנו &lt;span dir="ltr"&gt;(888-BAGGAGE)&lt;/span&gt; נועד רק למטרת קבלת דיווחים חדשים על כבודה שלא הגיעה ליעדה.
+במספר טלפון זה לא יוצג מידע לגבי דיווחים קיימים על כבודה שלא הגיעה ליעדה.
+לכל שאלה או הערה או למסירת מידע לגבי דיווחים קיימים על כבודה שלא הגיעה ליעדה, 
+בין שהם חדשים, פתוחים, כוללים מידע שגוי או סגורים, מכל סיבה, יש לשלוח הודעת דוא"ל
+לכתובת &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות בשורת הנושא</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>לפני שתדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה,
+יש להגיש תביעה על כבודה שאבדה לחברת התעופה (כנדרש לפי חוקי חברת תעופה זו).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה, כולל מספר תיק תקף שקיבלת מחברת התעופה, תוך 24 שעות ממועד הנחיתה. שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן לאחר יותר מ-24 שעות. אם חברת התעופה לא סיפקה לך מספר תיק תקף, עליך ליצור קשר עם חברת התעופה ולבקשו מהם לפני שתדווח לנו. Blue Ribbon Bags לא תאחזר מספרי תיק מחברת התעופה. באחריות הנוסע לקבל מידע זה מחברת התעופה לפני דיווח על כבודה שלא הגיעה ליעדה עבורנו. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+במקרה שהתגלה כי כבודה שנמסרה אינה שייכת לנוסע, לרשות הנוסע עומדות 12 שעות מרגע שנמסרה לו ההודעה שהתיק שלו ב-Blue Ribbon Bags סגור ושהכבודה הוחזרה, כדי לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת mbr@blueribbonbags.com ולציין Not my bag (לא התיק שלי) ומספר MBR בשורת הנושא. ל-Blue Ribbon Bags יהיו 72 שעות (3 ימים) מתום 96 השעות המקוריות מרגע הנחיתה של הנוסע כדי לאתר את הכבודה החסרה. כל כבודה שתהיה תחת קטגוריה זו תיחשב לכבודה שהוחזרה לפי התנאים וההתניות שלנו ברגע שהכבודה תגיע לשדה התעופה המצוין בתביעה לחברת התעופה על הכבודה שאבדה. אם כבודה שגויה כבר נמסרה, על הנוסע לספק הוכחה בדוא"ל לאישור מסירה מחברת השליחים שמסרה את הכבודה השגויה, וכן תיעוד מחברת התעופה המציין בפירוש שהכבודה שהוחזרה לנוסע אינה שלה. שני פרטים אלה יידרשו כדי לקבל את התשלום המובטח מ-Blue Ribbon Bags‏.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+
+מידע מוטעה או בקשות מידע:&lt;/strong&gt; אם צוין מידע מוטעה בשעת דיווח על כבודה שלא הגיעה ליעדה, ייתכן שתקבל הודעת דוא"ל שבה תתבקש לשלוח את המידע הנכון. במקרה שנוסע יקבל הודעת דוא"ל כזו, או כל בקשה אחרת לקבלת מידע לגבי המקרה של הנוסע, על הנוסע להשיב להודעה תוך 12 שעות מרגע משלוח ההודעה בדוא"ל. אם הנוסע לא ישיב להודעה תוך פרק זמן זה עם המידע הנכון וכל תיעוד נדרש אחר, דוח הכבודה שלא הגיעה ליעדה של הנוסע לא יתקבל, והנוסע כבר לא יהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.&lt;br /&gt;&lt;br /&gt;
+אם כתובת למשלוח לא צוינה בחברת התעופה בשעת הגשת תביעה על כבודה שאבדה, BRB תסגור את התיק שלך ברגע שהכבודה תגיע לשדה התעופה של היעד הרשום בחברת התעופה, והכבודה שלך תיחשב ככבודה שהוחזרה לפי הסכם השירות שלBlue Ribbon Bags‏.&lt;br /&gt;&lt;br
+/&gt;&lt;strong&gt;
+
+הערה: אם הכבודה של הנוסע לא הגיעה ליעדה דרך חברת תעופה שמוציאה רק דוחות אי-התאמה בגין הכבודה (PIR) (זוהי כותרת הדוח שמספקת חברת התעופה לנוסע עם מספר תיק) דרך חברת התעופה או שדה התעופה או דוח אי-התאמה בגין מזוודה (BIR) דרך חברת התעופה (BIR אינו מספק בדרך כלל מספר תיק בן עשר ספרות), על הנוסע לשלוח עותק של דוח אי-התאמה בגין כבודה או של דוח אי-התאמה בגין מזוודה לכתובת  mbr@blueribbonbags.com ולציין את מספר הסכם השירות בשורת הנושא לאחר השלמת הטופס המקוון. עלינו לקבל עותק של דוח זה תוך 24 שעות ממועד הנחיתה כדי שהדוח ייחשב לתקף. אם עותק של דוח זה לא יגיע תוך 24 שעות ממועד הנחיתה, BRB תדחה מיד את הדוח של הנוסע בתום 24 שעות. כל כבודה בקטגוריה זו תיחשב ככבודה שהוחזרה לפי התנאים וההתניות שלנו ברגע שהיא תגיע לשדה התעופה עם מסלול הטיסה או המידע שהועבר שסופק לחברת התעופה על-ידי הלקוח כשמילא את התביעה על כבודה שאבדה בחברת התעופה.
+&lt;br/&gt;&lt;br/&gt;
+הערה: אם הכבודה שלך לא הגיעה ליעדה בחברת תעופה שמוציאה רק דוחות אי-התאמה בגין כבודה (PIR) דרך שדה התעופה (אבידות ומציאות),
+או דוח אי-התאמה בגין מזוודה (BIR) דרך חברת התעופה (BIR אינו מספק בדרך כלל מספר תיק בן עשר ספרות),
+Blue Ribbon Bags תנפיק את התשלום המובטח על כבודה שלא הגיעה ליעדה רק בתום 96 שעות,
+אם חברת התעופה הנפיקה קודם תשלום (פיצויים) על הכבודה שאבדה. אם חברת התעופה לא תנפיק לנוסע את
+הפיצויים על כבודה שאבדה, גם Blue Ribbon Bags לא תעביר לו את התשלום. בכל אחד משני המקרים,
+הוכחה על קבלת תשלום מחברת התעופה תידרש כדי לקבל את התשלום המובטח מחברת Blue Ribbon Bags,
+בתוספת לאישור מחברת התעופה שהתשלום שהופק על-ידה היה עבור הכבודה האמורה.
+Blue Ribbon Bags תסייע באיתור הכבודה שלא הגיעה ליעדה כרגיל במשך 96 השעות הראשונות שבהן הכבודה לא הגיעה ליעדה.
+&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; טעויות:&lt;/strong&gt; במקרה שהתגלתה טעות על-ידי הנוסע כש- Blue Ribbon Bags דחתה את דוח הכבודה שלא הגיעה ליעדה או סגרה אותו, לרשות נוסע עומדות 12 שעות מרגע קבלת ההודעה בדוא"ל בכל אחד משני המקרים כדי לדווח על הטעות ל-Blue Ribbon Bags.  דווח לנו על טעות לכתובת &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, וציין את מספר MBR שקיבלת בשורת הנושא.  הנוסע צריך להסביר בהודעת הדוא"ל מה היתה הטעות בפירוט הרב ביותר ולספק תיעוד המאשר זאת.  אם Blue Ribbon Bags תגלה שהטעות אמתית, יעמדו לרשות Blue Ribbon Bags‏ 72 שעות מרגע פתיחת התיק של הנוסע כדי לאתר את הכבודה שלו.  אם מסגרת הזמן של 96 שעות מרגע הנחיתה המקורית של הנוסע תסתיים לאחר החלון של 72 שעות מרגע הפתיחה מחדש של התיק, יעמוד לרשות Blue Ribbon Bags זמן עד תום 96 השעות המקוריות לאתר את הכבודה של הנוסע.  
+בכל מקרה, ברגע שהכבודה של הנוסע תגיע לשדה התעופה המצוין בתביעת הכבודה שאבדה שהוגשה לחברת התעופה, הכבודה תיחשב ככבודה שהוחזרה לפי התנאים וההתניות של Blue Ribbon Bags והתיק של הנוסע ייסגר. &lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;
+כל הפניות שיתקבלו אחרי 12 שעות יידחו, והנוסע לא יהיה זכאי לשירותי איתור כבודה או לתשלום המובטח, ללא קשר לאישורים שיספק.
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;מספר הטלפון שלנו &lt;span dir="ltr"&gt;(888-BAGGAGE)&lt;/span&gt; נועד רק למטרת קבלת דיווחים חדשים על כבודה שלא הגיעה ליעדה.
+                       במספר טלפון זה לא יוצג מידע לגבי דיווחים קיימים על כבודה שלא הגיעה ליעדה.
+                       כל שאלה או הערה או מסירת מידע לגבי דוחות כבודה שלא הגיעה ליעדה, בין שהם חדשים, פתוחים, כוללים מידע מוטעה או סגורים, מכל סיבה שהיא, יש לשלוח בדוא"ל 
+                       לכתובת &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות בשורת הנושא
+                   &lt;/li&gt;
+                   &lt;li&gt;לפני הדיווח על כבודה שלא הגיעה ליעדה ל-Blue Ribbon Bags, הנוסע צריך להגיש תביעת כבודה שאבדה לחברת התעופה (כפי שנדרש בחוקי חברת תעופה זו).&lt;/li&gt;
+                   &lt;li&gt;יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה, כולל מספר תיק תקף שקיבלת מחברת התעופה, תוך 24 שעות ממועד הנחיתה. שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן אחרי המועד האחרון של 24 שעות. אם חברת התעופה לא סיפקה לך מספר תיק תקף, עליך ליצור קשר עם חברת התעופה ולבקשו מהם לפני שתדווח לנו. Blue Ribbon Bags לא תאחזר מספרי תיק מחברת התעופה. באחריות הנוסע לקבל מידע זה מחברת התעופה לפני דיווח על כבודה שלא הגיעה ליעדה עבורנו.&lt;/li&gt;
+                   &lt;li&gt;&lt;b&gt;&lt;u&gt;לכל הטיסות שהגיעו מחוץ לארה"ב:&lt;/u&gt;כחלק מתהליך המילוי של דוח על כבודה שלא הגיעה ליעדה, אתה נדרש לשלוח ל-Blue Ribbon Bag עותק של הדוח שסיפקה לך חברת התעופה כשמילאת את התביעה על כבודה שאבדה תוך 24 שעות ממועד הנחיתה.  אם לא תמסור עותק של דוח זה כפי שקיבלת מחברת התעופה כשמילאת את התביעה על כבודה שאבדה, תוך 24 שעות ממועד הנחיתה, דוח הכבודה שלא הגיעה ליעדה ב-Blue Ribbon Bags יידחה מיד בתום המועד האחרון של 24 שעות, ולא תהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.  שלח עותק של הדוח אל &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; וציין את מספר הסכם השירות שלך בשורת הנושא.  דוחות של חברות התעופה הנמסרים בכל דרך אחרת מכפי שצוין לעיל לא ייחשבו למסירה תקפה.  כל מזוודה בקטגוריה זו תיחשב לכבודה שהוחזרה מבחינת התנאים וההתניות של הסכם השירות של Blue Ribbon Bags, ברגע שהכבודה תגיע לשדה התעופה הרשום בתביעת הכבודה שאבדה שהגשת לחברת התעופה.&lt;br /&gt;&lt;u&gt;לטיסות שהגיעו בתוך ארה"ב:&lt;/u&gt; אם המזוודה לא הגיעה ליעדה בחברת תעופה שסיפקה לך דוח אי-התאמה בגין כבודה (Property irregularity Report‏ - PIR), (זוהי כותרת הדוח שחברת התעופה נתנה לך כשמילאת את התביעה על כבודה שאבדה ושעליו מצוין מס' התיק שלך בחברת התעופה או דרך שדה התעופה) או דוח אי-התאמה בגין מזוודה (Baggage Irregularity Report‏ - BIR) דרך חברת התעופה (BIR אינו מספק בדרך כלל מס' תיק של עשר ספרות), תצטרך להגיש עותק של דוח אי-התאמה בגין כבודה או של דוח אי-התאמה בגין מזוודה ל-Blue Ribbon Bags תוך 24 שעות ממועד הנחיתה כדי להשלים את תהליך ההגשה של דוח הכבודה שלא הגיעה ליעדה. אם לא תמסור עותק של דוח זה כפי שקיבלת מחברת התעופה תוך 24 שעות ממועד הנחיתה, דוח הכבודה שלא הגיעה ליעדה ב-Blue Ribbon Bags יידחה מיד בתום המועד האחרון של 24 שעות, ולא תהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.  שלח עותק של הדוח אל &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; וציין את מספר הסכם השירות שלך בשורת הנושא.  דוחות של חברות התעופה הנמסרים בכל דרך אחרת מכפי שצוין לעיל לא ייחשבו למסירה תקפה.  כל כבודה בקטגוריה זו תיחשב לכבודה "שהוחזרה" מבחינת התנאים וההתניות של הסכם השירות של Blue Ribbon Bags, ברגע שהכבודה תגיע לשדה התעופה הרשום בתביעת הכבודה שאבדה שהגשת לחברת התעופה.&lt;/b&gt; &lt;/li&gt;
+                   &lt;li&gt;במקרה שהתגלה שכבודה שנמסרה אינה שייכת לנוסע, לרשות הנוסע עומדות 12 שעות מרגע ההודעה שהתיק שלו ב-Blue Ribbon Bags סגור ושהכבודה הוחזרה, כדי לדווח ל-Blue Ribbon Bags בדוא"ל לכתובת  &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt; ולציין Not my bag (לא התיק שלי) ומספר MBR בשורת הנושא. ל-Blue Ribbon Bags יהיו 72 שעות (3 ימים) מתום 96 השעות המקוריות מרגע הנחיתה של הנוסע כדי לאתר את הכבודה החסרה. כל כבודה שתהיה תחת קטגוריה זו תיחשב לכבודה שהוחזרה לפי התנאים וההתניות שלנו ברגע שהכבודה תגיע לשדה התעופה המצוין בתביעה לחברת התעופה על הכבודה שאבדה. אם כבודה שגויה כבר נמסרה, על הנוסע לספק הוכחה בדוא"ל לאישור מסירה מחברת השליחים שמסרה את הכבודה השגויה, וכן תיעוד מחברת התעופה המציין בפירוש שהכבודה שהוחזרה לנוסע אינה שלה. שני פרטים אלה יידרשו כדי לקבל את התשלום המובטח מ-Blue Ribbon Bags‏.&lt;/li&gt;
+                   &lt;li&gt;מידע מוטעה או בקשות לקבלת מידע: אם צוין מידע מוטעה בשעת דיווח על כבודה שלא הגיעה ליעדה, ייתכן שתקבל הודעה בדוא"ל שתבקש ממך לשלוח את המידע הנכון. במקרה שנוסע יקבל הודעת דוא"ל כזו, או כל בקשה אחרת לקבלת מידע לגבי המקרה של הנוסע, על הנוסע להשיב להודעה תוך 12 שעות מרגע משלוח ההודעה בדוא"ל. אם הנוסע לא ישיב להודעה תוך פרק זמן זה עם המידע הנכון וכל תיעוד נדרש אחר, דוח הכבודה שלא הגיעה ליעדה של הנוסע לא יתקבל, והנוסע כבר לא יהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.&lt;/li&gt;
+                   &lt;li&gt;אם כתובת למשלוח לא צוינה בחברת התעופה בשעת הגשת תביעה על כבודה שאבדה, BRB תסגור את התיק שלך ברגע שהכבודה תגיע לשדה התעופה של היעד הרשום בחברת התעופה, והכבודה שלך תיחשב ככבודה שהוחזרה לפי הסכם השירות שלBlue Ribbon Bags‏.&lt;/li&gt;
+                   &lt;li&gt;נוסעי AIR CANADA ו-WESTJET‏: Blue Ribbon Bags לא תטפל במסירה של כבודה שאבדה לנוסע בדוחות כבודה שלא הגיעה ליעדה הקשורים לתביעות משתי חברות תעופה אלה. כל כבודה שלא הגיעה ליעדה הקשורה לחברת התעופה Air Canada או WestJet תיחשב ככבודה שהוחזרה לפי התנאים וההתניות של הסכם השירות של Blue Ribbon Bags ברגע שהכבודה תגיע לשדה התעופה המצוין בתביעה על כבודה שאבדה שהוגשה ל-Air Canada או ל-WestJet. ברגע שמתקבל אישור שהכבודה הגיעה לשדה התעופה המצוין בתביעה על כבודה שאבדה בחברת התעופה Air Canada או WestJet במסגרת תקופת השירות, הנוסע לא יהיה זכאי יותר לשירותי איתור כבודה או לתשלום המובטח של Blue Ribbon Bags‏.&lt;/li&gt;
+                   &lt;li&gt;טעויות: במקרה שהתגלתה טעות על-ידי הנוסע כש-Blue Ribbon Bags דחתה את דוח הכבודה שלא הגיעה ליעדה או סגרה אותו, לרשות הנוסע עומדות 12 שעות מרגע קבלת ההודעה בדוא"ל בכל אחד משני המקרים כדי לדווח על הטעות ל-Blue Ribbon Bags‏. דווח לנו על טעות לכתובת &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, וציין את מספר MBR שקיבלת בשורת הנושא. הנוסע צריך להסביר בהודעת הדוא"ל מה היתה הטעות בפירוט הרב ביותר ולספק תיעוד המאשר זאת. אם Blue Ribbon Bags תגלה שהטעות אמתית, יעמדו לרשות Blue Ribbon Bags‏ 72 שעות מרגע פתיחת התיק של הנוסע כדי לאתר את הכבודה שלו. אם מסגרת הזמן של 96 שעות מרגע הנחיתה המקורית של הנוסע תסתיים לאחר החלון של 72 שעות מרגע הפתיחה מחדש של התיק, יעמוד לרשות Blue Ribbon Bags זמן עד תום 96 השעות המקוריות לאתר את הכבודה של הנוסע. בכל מקרה, ברגע שהכבודה של הנוסע תגיע לשדה התעופה המצוין בתביעת הכבודה שאבדה שהוגשה לחברת התעופה, הכבודה תיחשב ככבודה שהוחזרה לפי התנאים וההתניות של Blue Ribbon Bags והתיק של הנוסע ייסגר. כל פניה שתוגש אחרי 12 שעות לא תתקבל והנוסע לא יהיה זכאי לשירותי איתור כבודה או לתשלום המובטח, ללא קשר לאישורים שיספק.&lt;/li&gt;
+                   &lt;li&gt;גניבה, תכולה חסרה או כבודה שניזוקה אינם נכללים בשירות זה. הכיסוי חל רק על כבודה שלא הגיעה ליעדה דרך חברת התעופה.&lt;/li&gt;</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>מידע חשוב לגבי דוחות כבודה שלא הגיעה ליעדה</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>חיפוש דוח כבודה שלא הגיעה ליעדה</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) רמת שירות ארד נועדה לטיסות של Domestic India Travel בלבד. הזמנות שיבוצעו ברמת שירות ארד הכוללות את כל הטיסות במסלול שהן טיסות בינלאומיות נכנסות או יוצאות מהודו או מכל מדינה אחרת לא יכובדו.</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>קוד קידום מכירות</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>ספק את פרטי הנסיעה שלך</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>יוצר שירותים לרכישה...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>עיבוד השירות {0} הסתיים.</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>מעבד {0} נוסעים לשירות...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>מעבד {0} רכישות שירות...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>מאמת שירות {0}...</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>שם סוכנות</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>כרטיס סוכן</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>זהו קובץ PDF שניתן להיעזר בו כשאתה מדבר עם לקוחותיך, כדי שתזכור את כל התכונות הנהדרות של BRB!</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>שפת דוא"ל לסוכן</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>מזהה סוכן (EPR)</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>פרטי סוכן</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>פרטי הסוכן נשמרו בהצלחה!</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>סוכן (אני)</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>PCC של סוכן</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>חברת תעופה</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>תחויב במועד מאוחר יותר על רכישה זו.</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>פרטי חיוב</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>בעת שמירת ההגדרות, כל הכרטיסיות באפליקציה של Blue Ribbon Bags יאותחלו, כולל הכרטיסייה 'רכישה', כך שלא יהיה עליך לטעון מחדש את מספר ה-PNR לצורך המשך רכישה. האם ברצונך להמשיך?</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>מס' העתק</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>בודק PNR...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>עיר</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>עיר, מדינה</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>לחץ כאן אם &lt;b&gt;אתה&lt;/b&gt; רוצה לקבל הודעת אישור אוטומטית בדוא"ל מ-Blue Ribbon Bags לאחר כל רכישה.</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>לחץ כאן אם ברצונך &lt;b&gt;שהנוסעים&lt;/b&gt; יקבלו הודעת אישור אוטומטית בדוא"ל מ-Blue Ribbon Bags לאחר כל רכישה.</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>כרטיס לקוח</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>זהו קובץ PDF שתוכל לשלוח ללקוחותיך כדי לפרסם את השירות שאינו מציין עמלות.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>מספר אישור</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>ארץ</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>תאריך/שעה</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>דוא"ל</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>לא ניתן להוסיף ל-Sabre PNR הערה באמצעות API.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>לא ניתן להוסיף את ההערה ל-Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>לא ניתן לסגור את ה-PRN ולא ניתן להוסיף את ההערה ל-Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>שגיאה ביצירת תקשורת עם Sabre. קוד שגיאה {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>שגיאה בהתחברות ל-Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>לא ניתן לטעון פרופיל סוכן.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>שגיאה. מספר PNR שפתחת באפליקציית BRB‏ ({0}) אינו זהה למספר הפעיל בסביבת העבודה של Sabre‏ ({1}).</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>שגיאת שרת במהלך עיבוד הבקשה שלך.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>לא ניתן לנתח קובץ XML עם פרטי PNR כדי להסיר מידע רגיש, לכן הוא יבוטל.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>לא ניתן לאחזר פרטי PNR. ודא שיש PNR פעיל שפתוח ב-Sabre.</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>חודש תפוגה (MM)</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>שנת תפוגה (YY)</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>פרטי טיסה</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>מס' טיסה</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>קבל פרטי PNR</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>שפת ממשק</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>בקשת Sabre שגויה.</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>טיסה אחרונה</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>עדיין לא נכנסת למערכת Sabre. הירשם ונסה שוב.</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>משיג פרטי PNR מ-Sabre. נא להמתין...</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>אופציונלי</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>טיסה מקורית</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>שפת דוא"ל לנוסע</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>פרטי נוסע</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>נוסע/ים</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>כיסוי לכל מזוודה</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>לנוסע</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>פרטים אישיים</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>מס' טלפון</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>שלח לנו הודעה בדוא"ל בכל עת לכתובת  agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR עם מידע לדוגמה נטען בהצלחה! מלא את הטופס שלמטה.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>פרטי PNR נטענו בהצלחה! מלא את הטופס שלמטה.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>אי התאמה בפרטי PNR. טען מחדש את ההזמנה.</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>פרטי PNR לא נטענו בהצלחה. נסה שוב.</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>מס' PNR</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>קוד קידום מכירות</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>הזמנת רכישה. נא להמתין...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>אם יש לך שאלות או הערות נוספות, פנה אלינו בכתובת  agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>אנו רושמים אותך. נא להמתין...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>הרישום שלך הושלם בהצלחה!</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>הרישום שלך הסתיים בהצלחה, וכעת תוכל להתחיל למכור! אך המתן רגע כדי לבדוק את כתובת הדוא"ל שלך להשלמת תהליך הרישום. תודה רבה!</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>אנו שומרים את פרטי הסוכן. נא להמתין...</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>אנו שומרים את ההגדרות שלך. נא להמתין...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>בחר רמת כיסוי</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>שלח אישור בדוא"ל אל:</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>הסכם השירות [{0}] נרכש בהצלחה.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>ההגדרות שלך נשמרו בהצלחה!</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>מדינה</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>אם ברצונך לכלול את BRB כחלק מההצעות שלך לרכישת כרטיסים, בקש מאתנו את אפשרויות החיוב שלנו כדי למנוע חיובים נפרדים בכרטיס האשראי של הלקוחות שלך עבור BRB.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>עלות כוללת = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>פרטי סוכן נסיעות</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>שגיאה בלתי צפויה.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>שגיאה בלתי צפויה. פרטי PNR לא נטענו בהצלחה.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>חריגה שלא טופלה במהלך GetPNRInfo.</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>פרטי משתמש</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>ניתן לעדכן את הפרטים האישיים שלך לרישום ב-Blue Ribbon Bags בטופס הבא.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>מאמת סוכן...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;ברוך שובך {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;ברוך הבא לרישום הראשוני!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>מיקוד</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>רישום סוכן נסיעות</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>(הנהלת חשבונות) מזהה סוכן/חבר</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>פרטי סוכנות נסיעות</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>מספר סוכנות</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>סוג סוכנות</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>אני מאשר שהמידע שסיפקתי ל-Blue Ribbon Bags, LLC הוא המידע הנכון לאיתור כל הרכישות שביצעתי עבור לקוחותיי.</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>יחידה עסקית</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>הקלד כאן את הסכום שאתה רואה בתמונה שלמעלה</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>סוכן הנסיעות נוצר בהצלחה. תקבל הודעה בדוא"ל עם קישור להפעלה.</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>הצג מזהה סוכנות</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>פקס</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>טלפון נייד</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Post-Title</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Pre-Title</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>רישום סוכן נסיעות</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>שם סוכנות נסיעות</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>כניסת משתמש</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>הפרטים שלך</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* פריט חובה</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) שדות חובה</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>מספר ניתוב</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>תשלום מובטח למזוודה:</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>סוכן</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>שם סוכן</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>הזן כתובת דוא"ל</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>אחר</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>רשימת נוסעים</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>פרטי שירות</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>נרכש דרך:</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>שלח שוב כתובת דוא"ל של הסוכן</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>כתובת דוא"ל למענה</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>כתובת דוא"ל למענה של הנוסע</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>שלח דוא"ל</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>עלות השירות:</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>חיוב כולל:</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>חיסכון כולל:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>חיפוש</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>קוד אבטחה</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>בחר מספר נוסעים</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>תכונות השירות</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>הורדת כרטיס סוכן</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>חיפוש הסכם שירות</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>חברת תעופה</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>מס' אישור של חברת התעופה</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>מס' שירות BRB</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>צ'ק אאוט</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>עלות השירות:</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>כיסוי למזוודה</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>פעם ביום</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>טווח תאריכים</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>דוא"ל</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>ייצוא לפי נוסע</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>ייצוא לפי שירות</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>ניתן לרכוש כיסוי למספר טיסות בבת אחת לאותו נוסע באמצעות הזנת שם הנוסע מספר פעמים עם PNR שונה או מספרי אישור שונים של חברת התעופה.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>רמת שירותים:</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>כיסוי מקסימלי על אובדן:</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>מספר נוסעים:</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>חברת תעופה מקורית</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>מספר נוסעים:</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>פרטי נוסע</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>לפי יום</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>לפי שנה</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>מס' PNR</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>קוד קידום מכירות</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>רכישת הסכם שירות</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>הנוסע לא יקבל אישור בדוא"ל אם לא תוזן כתובת דוא"ל.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>רמת שירות:</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>שירותים שיובאו מקובץ:</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>סיכום</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>העלה קובץ excel עם נתונים ליצירת שירותים המצורפים אליהם. לחץ על</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>קישור</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>זה להורדת תבנית.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>אם אין מס' PNR בהזמנה, הזן מספר אישור של חברת התעופה.</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>העלאת קובץ רכישה</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>העלאת קובץ רכישה של מספר סוכנים </value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>פעם בשנה</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>קבע הגדרות לקבלת אישור בדוא"ל</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>Blue Ribbon Bags תאתר ותשלח חזרה את הכבודה שהתעכבה תוך 96 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>תקבל עדכונים אוטומטיים בדוא"ל בכל פעם שיחול שינוי במצב הכבודה שלא הגיעה ליעדה.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>הסכם שירות אחד כולל את כל המזוודות שנמסרו בשדה התעופה, כולל מזוודות שהועברו ברגע האחרון.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>שירות Blue Ribbon Bags מכסה כל טיסה, בכל חברת תעופה, בכל מקום בעולם.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>כל רכישה מיועדת לאדם אחד, למספר אישור אחד של חברת התעופה, ללא קשר למספר טיסות ההמשך.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>ניתן לרכוש את השירות שלנו ממש עד לרגע העלייה למטוס.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>יש לרכוש את השירות שלנו לפני כל הטיסות הנכנסות והיוצאות במסלול. לא ניתן לרכוש את השירות "באמצע טיסת המשך".</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>יש להגיש תביעה לחברת התעופה לפני שתדווח לנו על מזוודה שלא הגיעה ליעדה.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>יש לדווח על מזוודות שלא הגיעו ליעדן תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>אין צורך בהוכחה על תכולת הכבודה לקבלת התשלום המובטח מאתנו.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>התשלום יתבצע אם הכבודה שלך לא נמצאה תוך 96 שעות (4 ימים) ממועד הנחיתה.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>התשלומים מובטחים גם אם הכבודה תוחזר אחרי תקופת השירות של 96 שעות.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>BRB מוכרת שירות בתוספת לכל ביטוח שייתכן כי רכשת, ולא במקומו.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>שוער לעתות משבר</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>תקבל עדכונים בדוא"ל בכל פעם שחל שינוי במצב הכבודה שאבד</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>ללא קבלות</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>לא נדרשות קבלות על תכולת הכבודה שאבדה כדי לקבל תשלום</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>רכישה אחת</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>רכישה אחת מכסה את כל הכבודה שנמסר בשדה התעופה</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>התחייבות שלנו</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>BRB מתחייבת לשלם 1,000 דולר על כל מזוודה שלא נמצאה אחרי 4 ימים</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>כיסוי בינלאומי</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>BRB מכסה כל טיסה, בכל חברת תעופה, בכל מקום בעולם</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>ברגע האחרון</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>ניתן לרכוש שירות כבודה ממש עד לרגע העלייה למטוס</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>התחבר אלינו:</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>מס' MBR של Blue Ribbon Bags‏ {0}:  יש עדכון לגבי מצב הכבודה שאבד.  העדכון הוא: {1}.
+אין לענות על הודעת טקסט זו, משום שהמענה לא יתקבל ב-Blue Ribbon Bags. ההודעה כוללת מידע שביקשת לקבל בעדכון זה.  כל שאלה לגבי דוח הכבודה שלא הגיעה ליעדה או בקשה לקבלת מידע יש לשלוח בדוא"ל לכתובת MBR@BLUERIBBONBAGS.COM.  במספרי הטלפון שלנו לא יימסר מידע לגבי כבודה שלא הגיעה ליעדה. כל התקשורות מתבצעות בדוא"ל לכתובת mbr@blueribbonbags.com</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>במשך 96 השעות הראשונות, BRB תעבוד ישירות עם חברת התעופה כדי לאתר את הכבודה שלא הגיעה ליעדה ותשלח אותה אליך בחזרה. במקום שתבזבז את הנסיעה שלך בשיחות טלפון עם חברת התעופה, BRB תשלח לך עדכון אוטומטי בכל פעם שיחול שינוי במצב הכבודה שלך.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>רכישה אחת (5 דולר) מיועדת לאדם אחד, למספר אישור אחד של חברת התעופה, כולל כרטיסי הלוך-חזור, ללא קשר למספר טיסות הקונקשן. התשלומים (1000 דולר) הם למזוודה אחת</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>אין צורך בהוכחה על תכולת הכבודה לקבלת תשלום.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>התשלום יתבצע אם הכבודה שלך לא תימצא תוך 96 שעות ממועד הנחיתה. התשלום מובטח גם אם הכבודה תוחזר לך בכל שלב אחרי תום המועד האחרון של 96 שעות.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>BRB מוכרת שירות. הסכם שירות של BRB הוא בתוספת לכל ביטוח שייתכן כי רכשת. לאחר שתפדה המחאה של BRB, עדיין תוכל לקבל תשלומים מהביטוח.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>יש להגיש תביעה לחברת התעופה לפני דיווח על כבודה שלא הגיעה ליעדה ל-Blue Ribbon Bags. יש לדווח על כבודה שלא הגיעה ליעדה ל-BRB תוך 24 שעות ממועד הגשת דוח כבודה שאבדה לחברת התעופה.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>דוחות על כבודה שלא הגיעה ליעדה ניתן למלא בצורה פשוטה על ידי שליחת הודעה לכתובת &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt;, או התקשרות לטלפון ‎&lt;span dir="ltr"&gt;(888)-BAGGAGE&lt;/span&gt;‏ 24 שעות ביממה 7 ימים בשבוע</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>הסכם שירות אחד (5 דולר) כולל את כל הכבודה שנמסרה בשדה התעופה, כולל צ'ק אין ברגע האחרון. יש אפשרויות כיסוי גבוהות יותר של 7.50 דולר ו-10.00 דולר, המזכות בתשלום של 1500 דולר ו-2000 דולר.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Blue Ribbon Bags מכסה כל טיסה בכל מקום בעולם</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>ניתן לרכוש שירות של Blue Ribbon Bags ממש עד לרגע העלייה למטוס.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>יש לרכוש שירות של Blue Ribbon Bags לפני כל הטיסות היוצאות והנכנסות במסלול הנסיעה שלך.  לא ניתן לרכוש את השירות בנסיעה עצמה (בין טיסות קונקשן).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>השירות של Blue Ribbon Bags אינו בר-החזרה ואינו ניתן להעברה. לא יתקבל החזר כספי או זיכוי כלשהו. אם הטיסה בוטלה והוזמנה טיסה חדשה במקומה, עליך לדווח לנו על השינוי לפני מועד הטיסה החדשה או לרכוש שירות חדש לטיסה החדשה.  על כל שינוי יש לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת  &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות שלך בשורת הנושא.  יש לציין בגוף ההודעה את חברת התעופה ואת מספר האישור של חברת התעופה, את מספר הטיסה המקורית ואת מספר הטיסה החדשה.  אם גם חברת התעופה השתנתה, עליך גם לדווח לנו על חברת התעופה החדשה של הטיסה החדשה.</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>כל הרכישות כפופות לתנאים ולהתניות של הסכם השירות של Blue Ribbon Bags. ניתן לצפות בהן &lt;a href=".{0}" target="_blank"&gt;כאן&lt;/a&gt;.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>תכונות של Blue Ribbon Bags</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>מזוודה שלא הגיעה ליעדה היא מזוודה שנמסרה בשדה התעופה, שמערכת האיתור של חברת התעופה מגלה שנותבה ליעד שונה מיעד הנחיתה הסופי של הטיסה, או שלא הועמסה על המטוס שהנוסע טס בו, כפי שמדווחת חברת התעופה.</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>כל רכישה מיועדת לאדם אחד ולמספר אישור אחד של חברת התעופה. אם מוזמן כרטיס הלוך-חזור תחת מספר אישור אחד של חברת התעופה, ללא קשר למספר העצירות, הוא יכוסה ברכישה אחת. אם הטיסות הנכנסות והיוצאות מוזמנות תחת מספרי אישור שונים של חברת התעופה, יש לרכוש הסכמי שירות נפרדים לכל טיסה.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>לא! Blue Ribbon Bags מכסה כל טיסה בכל מקום בעולם. אין הגבלות על נקודת המוצא או היעד.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>מהי מזוודה שלא הגיעה ליעדה?</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>האם השירות מכסה כרטיסי הלוך ושוב?</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>האם על הטיסה לצאת או להגיע בתוך גבולות ארה"ב כדי שניתן יהיה לרכוש את השירות?</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>שאלות נפוצות</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>לכל מזוודה</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>הזן פרטי נוסע</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>עיון בהסכם</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>לחץ כאן כדי לעיין בהסכם של Blue Ribbon Bags &amp;nbsp;</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>בחר רמת שירותים</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>שלב</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>תמורת 5.00 דולר בלבד לאדם, BRB תאתר ותחזיר לך את כל הכבודה שלא הגיעה ליעדה. אם חברת התעופה לא מסרה את המזוודות שלך תוך 96 שעות מרגע שהתגלה שהן חסרות, BRB מתחייבת לשלם 1,000 דולר על כל מזוודה שלא הגיעה ליעדה. &lt;u&gt;לא נדרשות הוכחות או קבלות על תכולת הכבודה כדי לקבל תשלום&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>רכישת שירות כבודה</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>נוסע</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>ספק את פרטי הנסיעה שלך</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>מדינה</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>חברת התעופה תספק את פרטי האיתור הדרושים כדי לדווח ל-Blue Ribbon Bags.</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>יש לדווח ל-Blue Ribbon Bags על כל כבודה חסרה תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>יהיה עליך ליצור קשר עם חברת התעופה ולקבלו מהם לפני שתמלא את הדוח שלך עבורנו.  </value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>Blue Ribbon Bags לא תאחזר מספרי תיק מחברת התעופה.  באחריות הנוסע </value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>לקבל מידע זה מחברת התעופה לפני מילוי דוח כבודה שלא הגיעה ליעדה עבורנו.</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>לחברת התעופה, קיבלת מספר תיק</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>ומספר תג כבודה. הזן אותם כאן:</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>                   הסיסמה חייבת לכלול 8 (שמונה) תווים עם אות אלפביתית אחת לפחות, ספרה אחת לפחות ותו מיוחד אחד לפחות, כשלפחות אות אלפביתית אחת מופיעה באות גדולה.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>                   התווים המיוחדים המותרים הם:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>במספר טלפון זה לא יוצג מידע לגבי דיווחים קיימים על כבודה שלא הגיעה ליעדה.</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>לכל שאלה או הערה או למסירת מידע לגבי דיווחים קיימים על כבודה שלא הגיעה ליעדה, </value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>בין שהם חדשים, פתוחים, כוללים מידע שגוי או סגורים, מכל סיבה, יש לשלוח הודעת דוא"ל</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>שהכבודה לא הגיעה לנקודת היעד של הטיסה. חברת התעופה תמסור לך את פרטי האיתור, ויהיה עליך להגיש את דוח הכבודה שלא הגיעה ליעדה המוצג למטה.</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>לכתובת &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות בשורת הנושא</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>יש להגיש תביעה על כבודה שאבדה לחברת התעופה (כנדרש לפי חוקי חברת תעופה זו).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה, כולל מספר תיק תקף שקיבלת מחברת התעופה, תוך 24 שעות ממועד הנחיתה. שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן לאחר יותר מ-24 שעות. אם חברת התעופה לא סיפקה לך מספר תיק תקף, עליך ליצור קשר עם חברת התעופה ולבקשו מהם לפני שתדווח לנו. Blue Ribbon Bags לא תאחזר מספרי תיק מחברת התעופה. באחריות הנוסע לקבל מידע זה מחברת התעופה לפני דיווח על כבודה שלא הגיעה ליעדה עבורנו. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>במקרה שהתגלה כי כבודה שנמסרה אינה שייכת לנוסע, לרשות הנוסע עומדות 12 שעות מרגע שנמסרה לו ההודעה שהתיק שלו ב-Blue Ribbon Bags סגור ושהכבודה הוחזרה, כדי לדווח ל-Blue Ribbon Bags בהודעת דוא"ל לכתובת mbr@blueribbonbags.com ולציין Not my bag (לא התיק שלי) ומספר MBR בשורת הנושא. ל-Blue Ribbon Bags יהיו 72 שעות (3 ימים) מתום 96 השעות המקוריות מרגע הנחיתה של הנוסע כדי לאתר את הכבודה החסרה. כל כבודה שתהיה תחת קטגוריה זו תיחשב לכבודה שהוחזרה לפי התנאים וההתניות שלנו ברגע שהכבודה תגיע לשדה התעופה המצוין בתביעה לחברת התעופה על הכבודה שאבדה. אם כבודה שגויה כבר נמסרה, על הנוסע לספק הוכחה בדוא"ל לאישור מסירה מחברת השליחים שמסרה את הכבודה השגויה, וכן תיעוד מחברת התעופה המציין בפירוש שהכבודה שהוחזרה לנוסע אינה שלה. שני פרטים אלה יידרשו כדי לקבל את התשלום המובטח מ-Blue Ribbon Bags‏.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>מידע מוטעה או בקשות מידע:&lt;/strong&gt; אם צוין מידע מוטעה בשעת דיווח על כבודה שלא הגיעה ליעדה, ייתכן שתקבל הודעת דוא"ל שבה תתבקש לשלוח את המידע הנכון. במקרה שנוסע יקבל הודעת דוא"ל כזו, או כל בקשה אחרת לקבלת מידע לגבי המקרה של הנוסע, על הנוסע להשיב להודעה תוך 12 שעות מרגע משלוח ההודעה בדוא"ל. אם הנוסע לא ישיב להודעה תוך פרק זמן זה עם המידע הנכון וכל תיעוד נדרש אחר, דוח הכבודה שלא הגיעה ליעדה של הנוסע לא יתקבל, והנוסע כבר לא יהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>אם כתובת למשלוח לא צוינה בחברת התעופה בשעת הגשת תביעה על כבודה שאבדה, BRB תסגור את התיק שלך ברגע שהכבודה תגיע לשדה התעופה של היעד הרשום בחברת התעופה, והכבודה שלך תיחשב ככבודה שהוחזרה לפי הסכם השירות שלBlue Ribbon Bags‏.&lt;br /&gt;&lt;br</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>/&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>הערה: אם הכבודה של הנוסע לא הגיעה ליעדה דרך חברת תעופה שמוציאה רק דוחות אי-התאמה בגין הכבודה (PIR) (זוהי כותרת הדוח שמספקת חברת התעופה לנוסע עם מספר תיק) דרך חברת התעופה או שדה התעופה או דוח אי-התאמה בגין מזוודה (BIR) דרך חברת התעופה (BIR אינו מספק בדרך כלל מספר תיק בן עשר ספרות), על הנוסע לשלוח עותק של דוח אי-התאמה בגין כבודה או של דוח אי-התאמה בגין מזוודה לכתובת  mbr@blueribbonbags.com ולציין את מספר הסכם השירות בשורת הנושא לאחר השלמת הטופס המקוון. עלינו לקבל עותק של דוח זה תוך 24 שעות ממועד הנחיתה כדי שהדוח ייחשב לתקף. אם עותק של דוח זה לא יגיע תוך 24 שעות ממועד הנחיתה, BRB תדחה מיד את הדוח של הנוסע בתום 24 שעות. כל כבודה בקטגוריה זו תיחשב ככבודה שהוחזרה לפי התנאים וההתניות שלנו ברגע שהיא תגיע לשדה התעופה עם מסלול הטיסה או המידע שהועבר שסופק לחברת התעופה על-ידי הלקוח כשמילא את התביעה על כבודה שאבדה בחברת התעופה.</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>הערה: אם הכבודה שלך לא הגיעה ליעדה בחברת תעופה שמוציאה רק דוחות אי-התאמה בגין כבודה (PIR) דרך שדה התעופה (אבידות ומציאות),</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>באחריות הנוסע לקבל מידע זה מחברת התעופה ולספק לנו אותו תוך 24 שעות ממועד הנחיתה.  אם לא נקבל מספר תיק תקין תוך 24 שעות ממועד הנחיתה, הדיווח שלך יידחה ולא תהיה זכאי לשירותי אחזור הכבודה או לתשלום המובטח.  לא נפתח שוב את התיק שלך, ללא קשר לנסיבות, אם מידע זה יסופק בשלב כלשהו אחרי 24 שעות ממועד הנחיתה.&lt;br/&gt;</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>או דוח אי-התאמה בגין מזוודה (BIR) דרך חברת התעופה (BIR אינו מספק בדרך כלל מספר תיק בן עשר ספרות),</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>Blue Ribbon Bags תנפיק את התשלום המובטח על כבודה שלא הגיעה ליעדה רק בתום 96 שעות,</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>אם חברת התעופה הנפיקה קודם תשלום (פיצויים) על הכבודה שאבדה. אם חברת התעופה לא תנפיק לנוסע את</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>הפיצויים על כבודה שאבדה, גם Blue Ribbon Bags לא תעביר לו את התשלום. בכל אחד משני המקרים,</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>הוכחה על קבלת תשלום מחברת התעופה תידרש כדי לקבל את התשלום המובטח מחברת Blue Ribbon Bags,</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>בתוספת לאישור מחברת התעופה שהתשלום שהופק על-ידה היה עבור הכבודה האמורה.</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>Blue Ribbon Bags תסייע באיתור הכבודה שלא הגיעה ליעדה כרגיל במשך 96 השעות הראשונות שבהן הכבודה לא הגיעה ליעדה.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>&lt;strong&gt; טעויות:&lt;/strong&gt; במקרה שהתגלתה טעות על-ידי הנוסע כש- Blue Ribbon Bags דחתה את דוח הכבודה שלא הגיעה ליעדה או סגרה אותו, לרשות נוסע עומדות 12 שעות מרגע קבלת ההודעה בדוא"ל בכל אחד משני המקרים כדי לדווח על הטעות ל-Blue Ribbon Bags.  דווח לנו על טעות לכתובת &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, וציין את מספר MBR שקיבלת בשורת הנושא.  הנוסע צריך להסביר בהודעת הדוא"ל מה היתה הטעות בפירוט הרב ביותר ולספק תיעוד המאשר זאת.  אם Blue Ribbon Bags תגלה שהטעות אמתית, יעמדו לרשות Blue Ribbon Bags‏ 72 שעות מרגע פתיחת התיק של הנוסע כדי לאתר את הכבודה שלו.  אם מסגרת הזמן של 96 שעות מרגע הנחיתה המקורית של הנוסע תסתיים לאחר החלון של 72 שעות מרגע הפתיחה מחדש של התיק, יעמוד לרשות Blue Ribbon Bags זמן עד תום 96 השעות המקוריות לאתר את הכבודה של הנוסע.  </value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>בכל מקרה, ברגע שהכבודה של הנוסע תגיע לשדה התעופה המצוין בתביעת הכבודה שאבדה שהוגשה לחברת התעופה, הכבודה תיחשב ככבודה שהוחזרה לפי התנאים וההתניות של Blue Ribbon Bags והתיק של הנוסע ייסגר. &lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>אם כבר מסרת לנו עותק של הדיווח כפי שסופק לך על-ידי חברת התעופה כשהגשת את התביעה על הכבודה שאבדה ועדיין קיבלת הודעה זו בדוא"ל, פירוש הדבר שחברת התעופה לא סיפקה לך מספר תיק תקין ועליך לפנות אליהם כדי לקבל מספר כזה מיד, ולספק לנו אותו תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>&lt;strong&gt;</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>כל הפניות שיתקבלו אחרי 12 שעות יידחו, והנוסע לא יהיה זכאי לשירותי איתור כבודה או לתשלום המובטח, ללא קשר לאישורים שיספק.</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>&lt;/strong&gt;</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>                       במספר טלפון זה לא יוצג מידע לגבי דיווחים קיימים על כבודה שלא הגיעה ליעדה.</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>                       כל שאלה או הערה או מסירת מידע לגבי דוחות כבודה שלא הגיעה ליעדה, בין שהם חדשים, פתוחים, כוללים מידע מוטעה או סגורים, מכל סיבה שהיא, יש לשלוח בדוא"ל </value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>                       לכתובת &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ולציין את מספר הסכם השירות בשורת הנושא</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>                   &lt;/li&gt;</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>                   &lt;li&gt;לפני הדיווח על כבודה שלא הגיעה ליעדה ל-Blue Ribbon Bags, הנוסע צריך להגיש תביעת כבודה שאבדה לחברת התעופה (כפי שנדרש בחוקי חברת תעופה זו).&lt;/li&gt;</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>                   &lt;li&gt;יש לדווח ל-Blue Ribbon Bags על כבודה שלא הגיעה ליעדה, כולל מספר תיק תקף שקיבלת מחברת התעופה, תוך 24 שעות ממועד הנחיתה. שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן אחרי המועד האחרון של 24 שעות. אם חברת התעופה לא סיפקה לך מספר תיק תקף, עליך ליצור קשר עם חברת התעופה ולבקשו מהם לפני שתדווח לנו. Blue Ribbon Bags לא תאחזר מספרי תיק מחברת התעופה. באחריות הנוסע לקבל מידע זה מחברת התעופה לפני דיווח על כבודה שלא הגיעה ליעדה עבורנו.&lt;/li&gt;</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>                   &lt;li&gt;&lt;b&gt;&lt;u&gt;לכל הטיסות שהגיעו מחוץ לארה"ב:&lt;/u&gt;כחלק מתהליך המילוי של דוח על כבודה שלא הגיעה ליעדה, אתה נדרש לשלוח ל-Blue Ribbon Bag עותק של הדוח שסיפקה לך חברת התעופה כשמילאת את התביעה על כבודה שאבדה תוך 24 שעות ממועד הנחיתה.  אם לא תמסור עותק של דוח זה כפי שקיבלת מחברת התעופה כשמילאת את התביעה על כבודה שאבדה, תוך 24 שעות ממועד הנחיתה, דוח הכבודה שלא הגיעה ליעדה ב-Blue Ribbon Bags יידחה מיד בתום המועד האחרון של 24 שעות, ולא תהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.  שלח עותק של הדוח אל &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; וציין את מספר הסכם השירות שלך בשורת הנושא.  דוחות של חברות התעופה הנמסרים בכל דרך אחרת מכפי שצוין לעיל לא ייחשבו למסירה תקפה.  כל מזוודה בקטגוריה זו תיחשב לכבודה שהוחזרה מבחינת התנאים וההתניות של הסכם השירות של Blue Ribbon Bags, ברגע שהכבודה תגיע לשדה התעופה הרשום בתביעת הכבודה שאבדה שהגשת לחברת התעופה.&lt;br /&gt;&lt;u&gt;לטיסות שהגיעו בתוך ארה"ב:&lt;/u&gt; אם המזוודה לא הגיעה ליעדה בחברת תעופה שסיפקה לך דוח אי-התאמה בגין כבודה (Property irregularity Report‏ - PIR), (זוהי כותרת הדוח שחברת התעופה נתנה לך כשמילאת את התביעה על כבודה שאבדה ושעליו מצוין מס' התיק שלך בחברת התעופה או דרך שדה התעופה) או דוח אי-התאמה בגין מזוודה (Baggage Irregularity Report‏ - BIR) דרך חברת התעופה (BIR אינו מספק בדרך כלל מס' תיק של עשר ספרות), תצטרך להגיש עותק של דוח אי-התאמה בגין כבודה או של דוח אי-התאמה בגין מזוודה ל-Blue Ribbon Bags תוך 24 שעות ממועד הנחיתה כדי להשלים את תהליך ההגשה של דוח הכבודה שלא הגיעה ליעדה. אם לא תמסור עותק של דוח זה כפי שקיבלת מחברת התעופה תוך 24 שעות ממועד הנחיתה, דוח הכבודה שלא הגיעה ליעדה ב-Blue Ribbon Bags יידחה מיד בתום המועד האחרון של 24 שעות, ולא תהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.  שלח עותק של הדוח אל &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; וציין את מספר הסכם השירות שלך בשורת הנושא.  דוחות של חברות התעופה הנמסרים בכל דרך אחרת מכפי שצוין לעיל לא ייחשבו למסירה תקפה.  כל כבודה בקטגוריה זו תיחשב לכבודה "שהוחזרה" מבחינת התנאים וההתניות של הסכם השירות של Blue Ribbon Bags, ברגע שהכבודה תגיע לשדה התעופה הרשום בתביעת הכבודה שאבדה שהגשת לחברת התעופה.&lt;/b&gt; &lt;/li&gt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>כדי שניתן יהיה למסור את הכבודה כהלכה, שלח לנו הודעת דוא"ל לכתובת &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>                   &lt;li&gt;במקרה שהתגלה שכבודה שנמסרה אינה שייכת לנוסע, לרשות הנוסע עומדות 12 שעות מרגע ההודעה שהתיק שלו ב-Blue Ribbon Bags סגור ושהכבודה הוחזרה, כדי לדווח ל-Blue Ribbon Bags בדוא"ל לכתובת  &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt; ולציין Not my bag (לא התיק שלי) ומספר MBR בשורת הנושא. ל-Blue Ribbon Bags יהיו 72 שעות (3 ימים) מתום 96 השעות המקוריות מרגע הנחיתה של הנוסע כדי לאתר את הכבודה החסרה. כל כבודה שתהיה תחת קטגוריה זו תיחשב לכבודה שהוחזרה לפי התנאים וההתניות שלנו ברגע שהכבודה תגיע לשדה התעופה המצוין בתביעה לחברת התעופה על הכבודה שאבדה. אם כבודה שגויה כבר נמסרה, על הנוסע לספק הוכחה בדוא"ל לאישור מסירה מחברת השליחים שמסרה את הכבודה השגויה, וכן תיעוד מחברת התעופה המציין בפירוש שהכבודה שהוחזרה לנוסע אינה שלה. שני פרטים אלה יידרשו כדי לקבל את התשלום המובטח מ-Blue Ribbon Bags‏.&lt;/li&gt;</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>                   &lt;li&gt;מידע מוטעה או בקשות לקבלת מידע: אם צוין מידע מוטעה בשעת דיווח על כבודה שלא הגיעה ליעדה, ייתכן שתקבל הודעה בדוא"ל שתבקש ממך לשלוח את המידע הנכון. במקרה שנוסע יקבל הודעת דוא"ל כזו, או כל בקשה אחרת לקבלת מידע לגבי המקרה של הנוסע, על הנוסע להשיב להודעה תוך 12 שעות מרגע משלוח ההודעה בדוא"ל. אם הנוסע לא ישיב להודעה תוך פרק זמן זה עם המידע הנכון וכל תיעוד נדרש אחר, דוח הכבודה שלא הגיעה ליעדה של הנוסע לא יתקבל, והנוסע כבר לא יהיה זכאי לקבל שירותי איתור כבודה או את התשלום המובטח.&lt;/li&gt;</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>                   &lt;li&gt;אם כתובת למשלוח לא צוינה בחברת התעופה בשעת הגשת תביעה על כבודה שאבדה, BRB תסגור את התיק שלך ברגע שהכבודה תגיע לשדה התעופה של היעד הרשום בחברת התעופה, והכבודה שלך תיחשב ככבודה שהוחזרה לפי הסכם השירות שלBlue Ribbon Bags‏.&lt;/li&gt;</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>                   &lt;li&gt;נוסעי AIR CANADA ו-WESTJET‏: Blue Ribbon Bags לא תטפל במסירה של כבודה שאבדה לנוסע בדוחות כבודה שלא הגיעה ליעדה הקשורים לתביעות משתי חברות תעופה אלה. כל כבודה שלא הגיעה ליעדה הקשורה לחברת התעופה Air Canada או WestJet תיחשב ככבודה שהוחזרה לפי התנאים וההתניות של הסכם השירות של Blue Ribbon Bags ברגע שהכבודה תגיע לשדה התעופה המצוין בתביעה על כבודה שאבדה שהוגשה ל-Air Canada או ל-WestJet. ברגע שמתקבל אישור שהכבודה הגיעה לשדה התעופה המצוין בתביעה על כבודה שאבדה בחברת התעופה Air Canada או WestJet במסגרת תקופת השירות, הנוסע לא יהיה זכאי יותר לשירותי איתור כבודה או לתשלום המובטח של Blue Ribbon Bags‏.&lt;/li&gt;</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>                   &lt;li&gt;טעויות: במקרה שהתגלתה טעות על-ידי הנוסע כש-Blue Ribbon Bags דחתה את דוח הכבודה שלא הגיעה ליעדה או סגרה אותו, לרשות הנוסע עומדות 12 שעות מרגע קבלת ההודעה בדוא"ל בכל אחד משני המקרים כדי לדווח על הטעות ל-Blue Ribbon Bags‏. דווח לנו על טעות לכתובת &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, וציין את מספר MBR שקיבלת בשורת הנושא. הנוסע צריך להסביר בהודעת הדוא"ל מה היתה הטעות בפירוט הרב ביותר ולספק תיעוד המאשר זאת. אם Blue Ribbon Bags תגלה שהטעות אמתית, יעמדו לרשות Blue Ribbon Bags‏ 72 שעות מרגע פתיחת התיק של הנוסע כדי לאתר את הכבודה שלו. אם מסגרת הזמן של 96 שעות מרגע הנחיתה המקורית של הנוסע תסתיים לאחר החלון של 72 שעות מרגע הפתיחה מחדש של התיק, יעמוד לרשות Blue Ribbon Bags זמן עד תום 96 השעות המקוריות לאתר את הכבודה של הנוסע. בכל מקרה, ברגע שהכבודה של הנוסע תגיע לשדה התעופה המצוין בתביעת הכבודה שאבדה שהוגשה לחברת התעופה, הכבודה תיחשב ככבודה שהוחזרה לפי התנאים וההתניות של Blue Ribbon Bags והתיק של הנוסע ייסגר. כל פניה שתוגש אחרי 12 שעות לא תתקבל והנוסע לא יהיה זכאי לשירותי איתור כבודה או לתשלום המובטח, ללא קשר לאישורים שיספק.&lt;/li&gt;</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>                   &lt;li&gt;גניבה, תכולה חסרה או כבודה שניזוקה אינם נכללים בשירות זה. הכיסוי חל רק על כבודה שלא הגיעה ליעדה דרך חברת התעופה.&lt;/li&gt;</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>אין לענות על הודעת טקסט זו, משום שהמענה לא יתקבל ב-Blue Ribbon Bags. ההודעה כוללת מידע שביקשת לקבל בעדכון זה.  כל שאלה לגבי דוח הכבודה שלא הגיעה ליעדה או בקשה לקבלת מידע יש לשלוח בדוא"ל לכתובת MBR@BLUERIBBONBAGS.COM.  במספרי הטלפון שלנו לא יימסר מידע לגבי כבודה שלא הגיעה ליעדה. כל התקשורות מתבצעות בדוא"ל לכתובת mbr@blueribbonbags.com</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>ציין בשורת הנושא את מספר ה-MBR שקיבלת כשמילאת את הדוח ומסור כמה שיותר פרטים לגבי מצבך.</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>יש לדווח תוך 24 שעות ממועד הנחיתה.</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>שירות Blue Ribbon Bags לא יכובד עבור מזוודות שידווח עליהן אחרי המועד האחרון של 24 שעות.</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>אם חברת התעופה לא סיפקה לך מספר תיק תקף,</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>אזור זמן</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>אל</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>חיוב כולל:</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>חיוב כולל (לכל נוסע):</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>סיים את הרישום שלך</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>הסיסמה חייבת לכלול בין 8 ל-16 תווים עם אות אלפביתית אחת לפחות, ספרה אחת לפחות ותו מיוחד אחד לפחות, כשלפחות אות אלפביתית אחת מופיעה באות גדולה.</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>הזן שוב את הסיסמה</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>רישום משתמש</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>הקלד את הסיסמה</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>אימות</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>הזן כתובת.</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>הכתובת חייבת לכלול 2 תווים לפחות.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>שם המשתמש של הסוכן שהוזן אינו קיים.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>השדה [מספר סוכן] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>השדה [סוג סוכן] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>עיין בתנאים ובהתניות וקבל אותם להשלמת הרישום שלך.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>השדה [יחידה עסקית] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>הזן עיר.</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>העיר חייבת לכלול 2 תווים לפחות.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>השדה [דוא"ל] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>הערך בשדה [דוא"ל] חייב להיות בתבנית כתובת דוא"ל תקינה.</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>הערך בשדה [פקס] חייב להיות בתבנית תקינה.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>השדה [שם פרטי] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>השדה [שם פרטי] חייב לכלול 2 תווים לפחות.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>שם המשתמש של הסוכן  זהה למשתמש לא פעיל במערכת BRB.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>השדה [שם משפחה] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>השדה [שם משפחה] חייב לכלול 2 תווים לפחות.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>השדה [שם משתמש] חייב לכלול בין 6 ל-40 תווים ורק את התווים המיוחדים הבאים: _ . - @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>הערך בשדה [כניסה] אינו יכול להסתיים בתו '@'.</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>הערך בשדה [טלפון נייד] חייב להיות בתבנית תקינה.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>הערך בשדה [טלפון] חייב להיות בתבנית תקינה.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>קוד המוצר שהוזן אינו קיים.</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>פרטי הכניסה של הסוכן שצוין אינם מתאימים לקוד השיווקי שהוזן.</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>הקוד השיווקי שהוזן אינו קיים.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>בחר ארץ.</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>בחר מדינה:</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>הזן שם מדינה.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>השדה [קוד סוכנות נסיעות] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>השדה [שם סוכנות נסיעות] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>פרטי הכניסה של הסוכן אינם מתאימים לסוכן נסיעות.</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>השדה [שם משתמש] אינו יכול להישאר ריק.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>שם המשתמש אינו זמין. בחר שם משתמש אחר.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>הזן מיקוד.</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>תבנית המיקוד שהוזן אינה תקינה.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>כתובת דוא"ל של הסוכן</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>רמת שירותים:</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>כיסוי למזוודה</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>פרטי נוסע</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>ציין פרטי כרטיס אשראי למטה כדי להשלים את תהליך התשלום על הסכם השירות.</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>העברה בנקאית</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>שם סוכנות</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>כרטיס סוכן</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>זהו קובץ PDF שניתן להיעזר בו כשאתה מדבר עם לקוחותיך, כדי שתזכור את כל התכונות הנהדרות של BRB!</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>מזהה סוכן</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>פרטי סוכן</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>פרטי הסוכן נשמרו בהצלחה!</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>סוכן (אני)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>PCC של סוכן</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>הקפד למלא את הטופס במלואו בשימוש הראשון שלך באפליקציית Worldspan של Blue Ribbon Bags כדי לקבל אשראי מתאים על הסכמי שירות שתמכור.&lt;br&gt;&lt;br&gt;לסיום, לחץ על 'שמור' בתחתית המסך כדי לעבור לרכישת כיסוי של Blue Ribbon Bags ללקוחות שלך.&lt;br&gt;&lt;br&gt;לא תצטרך להגדיר סיסמה או להשתמש בשם המשתמש שלך כדי לגשת לאפליקציית Worldspan של BRB. שמות משתמש וסיסמאות משמשים רק לכניסה למערכת המקוונת של BRB‏.&lt;br&gt;&lt;br&gt;כדי לשנות פרטי רישום או בכל שאלה או בעיה, שלח הודעת דוא"ל לכתובת  agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>חברת תעופה</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>תחויב במועד מאוחר יותר על רכישה זו.</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>פרטי חיוב</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>בעת שמירת ההגדרות, כל הכרטיסיות באפליקציה של Blue Ribbon Bags יאותחלו, כולל הכרטיסייה 'רכישה', כך שלא יהיה עליך לטעון מחדש את מספר ה-PNR לצורך המשך רכישה. האם ברצונך להמשיך?</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>מס' העתק</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>בודק PNR...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>עיר</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>עיר, מדינה</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>לחץ כאן אם &lt;b&gt;אתה&lt;/b&gt; רוצה לקבל הודעת אישור אוטומטית בדוא"ל מ-Blue Ribbon Bags לאחר כל רכישה.</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>לחץ כאן אם ברצונך &lt;b&gt;שהנוסעים&lt;/b&gt; יקבלו הודעת אישור אוטומטית בדוא"ל מ-Blue Ribbon Bags לאחר כל רכישה.</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>כרטיס לקוח</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>זהו קובץ PDF שתוכל לשלוח ללקוחותיך כדי לפרסם את השירות שאינו מציין עמלות.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>מספר אישור</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>ארץ</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>תבנית תאריך:</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>תאריך/שעה</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>דוא"ל</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>לא ניתן להוסיף ל-Sabre PNR הערה באמצעות API.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>לא ניתן להוסיף את ההערה ל-Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>לא ניתן לסגור את ה-PRN ולא ניתן להוסיף את ההערה ל-Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>שגיאה ביצירת תקשורת עם Sabre. קוד שגיאה {0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>שגיאה בהתחברות ל-Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>לא ניתן לטעון פרופיל סוכן.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>שגיאה. מספר PNR שפתחת באפליקציית BRB‏ ({0}) אינו זהה למספר הפעיל בסביבת העבודה של Sabre‏ ({1}).</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>שגיאת שרת במהלך עיבוד הבקשה שלך.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>לא ניתן לנתח קובץ XML עם פרטי PNR כדי להסיר מידע רגיש, לכן הוא יבוטל.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>לא ניתן לאחזר פרטי PNR. ודא שיש PNR פעיל שפתוח ב-Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>חודש תפוגה (MM)</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>שנת תפוגה (YY)</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>פרטי טיסה</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>מס' טיסה</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>קבל פרטי PNR</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>בקשת Sabre שגויה.</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>טיסה אחרונה</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>עדיין לא נכנסת למערכת Sabre. הירשם ונסה שוב.</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>משיג פרטי PNR מ-Sabre. נא להמתין...</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>אופציונלי</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>טיסה מקורית</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>פרטי נוסע</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>נוסע/ים</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>כיסוי לכל מזוודה</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>לנוסע</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>פרטים אישיים</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>מס' טלפון</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>שלח לנו הודעה בדוא"ל בכל עת לכתובת  agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR עם מידע לדוגמה נטען בהצלחה! מלא את הטופס שלמטה.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>פרטי PNR נטענו בהצלחה! מלא את הטופס שלמטה.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>אי התאמה בפרטי PNR. טען מחדש את ההזמנה.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>פרטי PNR לא נטענו בהצלחה. נסה שוב.</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>מס' PNR</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>קוד קידום מכירות</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>הזמנת רכישה. נא להמתין...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>אם יש לך שאלות או הערות נוספות, פנה אלינו בכתובת  agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>אנו רושמים אותך. נא להמתין...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>הרישום שלך הושלם בהצלחה!</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>הרישום שלך הסתיים בהצלחה, וכעת תוכל להתחיל למכור! אך המתן רגע כדי לבדוק את כתובת הדוא"ל שלך להשלמת תהליך הרישום. תודה רבה!</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>אנו שומרים את פרטי הסוכן. נא להמתין...</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>אנו שומרים את ההגדרות שלך. נא להמתין...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>בחר רמת כיסוי</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>שלח אישור בדוא"ל אל:</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>הסכם השירות [{0}] נרכש בהצלחה.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>ההגדרות שלך נשמרו בהצלחה!</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>מדינה</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>אם ברצונך לכלול את BRB כחלק מההצעות שלך לרכישת כרטיסים, בקש מאתנו את אפשרויות החיוב שלנו כדי למנוע חיובים נפרדים בכרטיס האשראי של הלקוחות שלך עבור BRB.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>עלות כוללת = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>פרטי סוכן נסיעות</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>שגיאה בלתי צפויה.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>שגיאה בלתי צפויה. פרטי PNR לא נטענו בהצלחה.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>חריגה שלא טופלה במהלך GetPNRInfo.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>פרטי משתמש</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>ניתן לעדכן את הפרטים האישיים שלך לרישום ב-Blue Ribbon Bags בטופס הבא.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>מאמת סוכן...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;ברוך שובך {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;ברוך הבא לרישום הראשוני!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>מיקוד</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>מיקוד</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Booking Reference Code</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Satisfaction Guaranteed Payment per bag:</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>This service is valid for all flights you have booked with the online ticketing site you made your purchase from for the PNR referenced above.</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>מָקוֹר</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>זְמַן</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>שלח הודעות SMS</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>נמצאו רשומות כפולות</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>אנא דפדף ובחר את הקובץ שלך ולאחר מכן לחץ על "העלה קובץ":</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>העלה קובץ</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>נמצאו רכישות קודמות</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>הרשומות הבאות יש רכישות קודמות, אתה רוצה להמשיך ולעבד את שאר הרשומות?</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>הרשומות הבאות משוכפלות, האם ברצונך להמשיך ולעבד את שאר הרשומות?</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>קישור</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>לחץ כאן להורדת תבנית:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>מעלה. המתן בבקשה...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>אפשר לאתרים להיות בשפה זהה לשפת ברירת המחדל של שפת ברירת המחדל.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>זה מכסה את הטיסה שלך (ים) תחת מספר אישור &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>בחר מספר אנשי קשר</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>ספק את פרטי הקשר שלך</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>הוסף אנשי קשר לדוח שלך</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>אם ברצונכם לספק מידע כלשהו הקשור לתיק או למסירת מידע, נא להקליד אותו כאן:</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>כתובות דוא"ל</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>טלפונים</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>מספר נוסעים</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>רמת שירות</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>שום דבר לא השתנה עם מעמד התיק שלך ב 0 השעות האחרונות. הנה העדכון האחרון שסיפקנו.
+תקבל הודעה אם משהו חדש קורה ברגע שיש לנו מידע.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>לחץ כאן אם ברצונך לקבל דואר עבור MBR הנוסע שלך</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>מספר אסמכתת לקוח</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>כדי למלא את דו“ח איתור כבודה עלייך:</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>כיסוי למזוודה:</value>
+  </data>
+</root>

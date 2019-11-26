@@ -1,0 +1,2705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>帳號</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>活動</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>類比代理：</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>每天24小時，每週7天</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>您將在幾分鐘後收到Blue Ribbon Bags的確認電子郵件。如果您沒有收到，請與我們聯繫並保留您的PayPal交易確認。</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>恭喜！</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>如果您的行李沒有隨您到您的航班&amp;#39;s的最終目的地，您必須先向航空公司報告，然後再報告給Blue Ribbon Bags。如果您有行李沒有交付，您必須在航班著陸後24小時內向Blue Ribbon Bags報告。您可以通過電話向我們報告錯運行李</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>好，暫時沒事了。</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>服務級別：</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>BLUE RIBBON BAGS服務不可退款，也不可轉讓。不可退款或減免如果您的航班取消並且您預訂了新的航班以代替它，您必須在新航班&amp;#39;S 出發前告知我們這一變更或為您的新航班購買新的保險服務。所有變更都必須通過發郵件到&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;向BLUE RIBBON BAGS 報告，郵件主題中應說明服務協定編號。您必須在郵件正文中列出航空公司和航空公司確認號，您原來的航班號和更改後的新航班號。如果您也更換了航空公司，您還必須通知我們您的新航班所屬的新航空公司。</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>或線上</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>您的付款已經成功處理</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>付款確認：</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>付款資訊</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>請務必保留行李追蹤資訊(檔參考/定位號)，這是航空公司在您向其提交丟失行李申報時為您提供的資訊，因為Blue Ribbon Bags在處理您的錯運行李報告時需要此資訊。如果您有行李沒有交付，您必須在航班著陸後24小時內向Blue Ribbon Bags報告。</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>請保留此服務協定編號以備記錄，因為如果您的行李沒有運到，您向我們報告錯運行李時需提供此編號。</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>非常感謝您選擇Blue Ribbon Bags行李服務。請放心,我們將使您的行李保險盡可能的簡便。</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>非常感謝您的惠顧，旅途平安。</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>總費用：</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>我們為您提供24/7説明服務。安全旅行，全程無憂！</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>如果您的行李沒有運達怎麼辦？</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>您的Blue Ribbon Bags服務協定編號（單個）是：</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>您的Blue Ribbon Bags服務協定編號（多個）是：</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>下面是您的付款資訊。如果您有任何問題，請隨時通過發送電子郵件聯繫Blue Ribbon Bags</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>您的服務協定可線上查看</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>向我們詢問關於“先買後付”的資訊。這樣，您就不需要在每筆交易中付款，並可在每個月底收到一份傭金已扣的發票！只需發電子郵件至&lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt;，並以“先買後付” 作為主題。</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>行李交付信息</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>銀行名稱</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>上傳檔中無語言設置的服務使用此語言。</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>所有{0}服務乘客都必須使用同一優惠代碼</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>計費地址</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>清空所有域</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>發送註冊</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>輸入的驗證總額不正確。請重新輸入驗證總額。</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>檢查</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>付款處</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>付款處</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>準備服務付款……</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>處理{0}服務……</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>處理{0}服務付款……</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>處理{0}服務完成。</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>處理{0}服務優惠代碼……</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>驗證{0}服務……</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>您的代理帳戶將被收取費用</value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>批准</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>請選擇一種付款方式</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>確認付款</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>確認付款</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>您要確認購買嗎？</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>您要確認交易嗎？</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>信用卡號</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>將從您的信用卡收取</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>輸入您的信用卡資訊</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>由於有的服務沒有正確付款，所以不能完成購買流程。</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>失敗了</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>無效操作。</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>最大損失保障</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>不，取消</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>乘客人數：</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>現在支付</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>晚點支付</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>或者請在下方提供信用卡資訊，以完成服務協定付款流程。</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>檢查資訊</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>您節省了：</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>服務級別：</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>服務編號：</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>服務費用：</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>服務概要</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>確認購買服務 - 付款處</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>請驗證以下信息，如果正確，請按“確認付款”按鈕。</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>郵編</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>行 {0}：{1}列不能為空</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>{0}列不在上傳的檔中。請下載更新的範本。</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>確認密碼</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>確認郵件</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>Blue Ribbon Bags客戶服務團隊</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>所有查詢將通過電子郵件儘快回復。請確保提供您的所有聯繫資訊，包括電話號碼，以便我們在必要時通過電話與您聯繫。</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>給我們發郵件</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>發郵件</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>所有查詢將通過電子郵件儘快回復。請確保提供您的所有聯繫資訊，包括電話號碼，以便我們在必要時通過電話與您聯繫。</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>對於客戶或一般問題，請撥打：</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>對於旅行社，請撥打：</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>提交新的錯運行李報告，請撥打 +1 (888) BAGGAGE  (+1 (888) 224-4243) 或訪問 &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;。注意：此號碼不會有任何現有行李報告的詳細資訊。</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>如需任何錯運行李報告的任何詳細資訊，請訪問 &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt;或發電子郵件至&lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt;，並在主題中注明您的MBR#。</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>謝謝您！</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>聯繫我們</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>行李延遲服務</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>預設的電子郵件語言</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>美元</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- 無 --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>-- 請選擇 --</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>未分配</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>電子郵件</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>為乘客選擇電子郵件語言</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>這覆蓋了您從&lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;所乘的所有航班。</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>這覆蓋了您在&lt;b&gt;{0}&lt;/b&gt;航空公司在確認號&lt;b&gt;{1}&lt;/b&gt;下的所有航班</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>BLUE RIBBON BAGS服務不可退款，也不可轉讓。不可退款或減免如果您的航班取消並且您預訂了新的航班以代替它，您必須在新航班&amp;#39;S 出發前告知我們這一變更或為您的新航班購買新的保險服務。所有變更都必須通過發郵件到&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;向BLUE RIBBON BAGS 報告，郵件主題中應說明服務協定編號。您必須在郵件正文中列出航空公司和航空公司確認號，您原來的航班號和更改後的新航班號。如果您也更換了航空公司，您還必須通知我們您的新航班所屬的新航空公司。&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>BLUE RIBBON BAGS服務不可轉讓。不可退款或減免如果您的航班取消並且您預訂了新的航班以代替它，您必須在新航班&amp;#39;S 出發前告知我們這一變更或為您的新航班購買新的保險服務。所有變更都必須通過發郵件到&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;向BLUE RIBBON BAGS 報告，郵件主題中應說明服務協定編號。您必須在郵件正文中列出航空公司和航空公司確認號，您原來的航班號和更改後的新航班號。如果您也更換了航空公司，您還必須通知我們您的新航班所屬的新航空公司。&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>電子郵箱</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>SendRe</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>航班到達資訊</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>Blue Ribbon Bags服務協定的條件和條款</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>行李服務特色</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>聯繫我們</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>版權所有 2019 Blue Ribbon Bags, LLC.美國和國際專利正在申請</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>每項服務的購買都必須符合</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>提交錯運行李報告</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>Blue Ribbon Bags在A.M. Best Company評級為A- （優秀）的保險公司的支持下履行其義務。</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>購買行李服務</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>從</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* 您可以通過點擊“返回”按鈕來編輯您的資訊，而無需重新輸入您以前的資訊</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>代理/保險商</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>航空公司確認號</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>航空公司名稱</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>乘客編號</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>產品</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>購買日期</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>購買成本</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>BRB服務編號</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>您只需花5美元，&lt;/br&gt;BRB就會為您追蹤和加速航空公司未交付行李的返还&lt;/br&gt;。</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>安全旅行，全程無憂！</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>如果您的行李在&lt;br /&gt;96個小時後沒有找到,&lt;br /&gt;BRB將保證為您每件行李支付1000美元。</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>真正安心 &lt;br /&gt;盡在BRB</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>報告丟失行李</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>如果您的行李沒有到達您的航班的終點，請記住首先通知航空公司。
+航空公司將提供向Blue Ribbon Bags提交報告所需的追蹤資訊。
+所有丟失的行李必須在乘客航班著陸後24小時內報告給Blue Ribbon Bags。</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>提交報告</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>您還可以每週7天，每天24小時地撥打電話888-BAGGAGE（888-224-4243）報告您丟失的行李。</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>我們的合作夥伴</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>我們的業務範圍</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>2100萬放錯的行李</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>的航空公司覆蓋</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>全球每日航班</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>其他客戶怎麼說</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>新聞報導</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>瞭解更多</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>客戶服務非常好，Blue Ribbon Bags的行李保護服務……</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>如果你擔心行李丟失，現在有一個應用程式可以解決這個問題……Blue Ribbon Bags已經……</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>目前，這它也是唯一的用於丟失行李的保險類型，可以……</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>任何一個在航空公司丟失過行李的人都知道那是一場噩夢……但是Blue Ribbon Bags……</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>購買行李服務</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>點擊&lt;b&gt;登錄&lt;/b&gt;為您的客戶購買Blue Ribbon Bags保險。</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>點擊&lt;b&gt;註冊&lt;/b&gt;為您的代理註冊，以便向您的客戶銷售Blue Ribbon Bags保險。</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* 服務協定費按人收費。滿意保證賠付按行李給予。</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* 賠償限額為每人2件未交付的行李。</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>提交錯運行李報告</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>您只需花5美元，BRB就會為您追蹤和加速航空公司未運達行李的返还。</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>更多資訊？您可隨時發電子郵件至：</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>您不必提供行李內容收據就可以獲得賠付。</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Blue Ribbon Bags提供三種級別的行李服務滿意保證：</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>BRB為丟失4天后未交付的每件行李保證支付1000美元。</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>服務協定費</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>滿意保證賠付</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>旅行社</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>未交付行李?&amp;nbsp；報告至：</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>我同意</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>非活動</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>必須上傳有效的XSLX檔。</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>歡迎  </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>我需要一個新密碼</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>記住登錄</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>登錄到Blue Ribbon Bags</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>無法識別使用者ID或密碼。密碼區分大小寫。請確保沒有啟動大寫鎖定。請重新輸入您的用戶名和密碼或聯繫您的管理員重新設置您的密碼。</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>丟失行李的資訊</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>您的托運行李沒有到達您的目的地。</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>您向未運達您的行李的航空公司提交丟失行李申報，並從航空公司獲得文件參考號或文件定位號。</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>您在航班抵達後24小時內向Blue Ribbon Bags報告錯運行李。</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>您的行李未在航空公司記錄的航班到達日期後的四（4）天內返還給您。</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>一次購買（5美元）覆蓋在機場托運的所有行李，包括在您的航班起飛前最後一分鐘在飛機門口托運的行李。</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;B&gt;行李狀態每次發生變化時，會向乘客發送自動電子郵件通知。乘客不需要聯繫航空公司就能瞭解其行李狀態。&lt;/ b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>&lt;b&gt;無需&lt;/ b&gt;行李內容價值的證明（收據）就可收到賠付。</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>賠付限於每人2件未交付行李。</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>賠付是有保證的，即使您的行李在96小時的期限之後在任何時候被找到。</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>失竊、行李內物品丟失或行李損壞不包括在本服務中。覆蓋範圍僅適用於航空公司的錯運行李。&lt;b&gt;必須在航班到達後24小時內報告未交付的行李。&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>BRB銷售的是服務。BRB服務協定可補充您的任何保險，而不會替代它。在收到BRB支票後，您仍然可以接受保險賠付。</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>BLUE RIBBON BAGS服務不可退款，也不可轉讓。不可退款或減免如果您的航班取消並且您預訂了新的航班以代替它，您必須在新航班&amp;#39;S 出發前告知我們這一變更或為您的新航班購買新的保險服務。所有變更都必須通過發郵件到&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;向BLUE RIBBON BAGS 報告，郵件主題中應說明服務協定編號。您必須在郵件正文中列出航空公司和航空公司確認號，您原來的航班號和更改後的新航班號。如果您也更換了航空公司，您還必須通知我們您的新航班所屬的新航空公司。</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>您可以在航班&amp;#39;S出發前最後一刻購買BLUE RIBBON BAGS服務。</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>每次購買（5美元）按人，按航空公司確認號，無論該航空公司確認號有多少次相關的經停或轉機。只有一個航空公司確認號的往返機票只需購買一次。</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>如果分別預訂了多個航班而且是在不同的航空公司確認號下，則需為各航班分別購買服務協定。</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;僅限代理&lt;/u&gt;：每次購買（5美元）按人，按PNR，無論有多少次經停或轉機。</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>對於通過線上票務網站進行的購買：每一次購買都按照通過線上網站預訂的行程進行，該行程列在網站在購買時提供的確認號碼下面。對於在網路預訂以外進行的任何行程更改，要求為任何預訂的新航班購買單獨的服務。如果通過原始行程的預訂網站更改行程，而且在更改行程中任何航班後，乘客的原始行程確認號碼沒有改變，則乘客不需要預訂另外的服務，原來的服務已經足夠。</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>BRB覆蓋世界各地的每一個航班，每一個航空公司，無論您的航班從哪裡開始。</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>在向BLUE RIBBON BAGS報告錯運行李之前，您必須先向航空公司提出申報。</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>您可以在&lt;a href="{0}" target="_blank"&gt;此處&lt;/a&gt; 線上提交錯運行李報告或每週7天，每天24小時地撥打電話(888) BAGGAGE (+1 888-224-4243)報告。</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>必須在航班到達後24小時內報告未交付的行李。BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>請在聯繫Blue Ribbon Bags之前先向航空公司提出申報。</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>請在航班著陸後24小時內向Blue Ribbon Bags提交錯運行李報告。錯運行李報告可以每週7天，每天24小時提交：</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>線上&lt;a href="{0}" target="_blank"&gt;此處&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>通過電話（888）行李（+1 888-224-4243）</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Blue Ribbon Bags將開始跟蹤和加快您的行李返还的服務。行李狀態每次發生變化時，乘客會收到自動電子郵件通知。&lt;br /&gt;&lt;strong&gt;乘客不需要聯繫航空公司就能瞭解其行李狀態。&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Blue Ribbon Bags將在航班著陸後96小時內找到您的行李或在96小時的期限後一分鐘發給您保證的金額。</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>還有什麼別的我需要知道嗎？</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>如果行李丟失，我該怎麼辦？</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>我怎麼知道自己是否有獲得賠付的資格？</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Blue Ribbon Bags (BRB)為事故行李在未交付的頭96小時提供獨特的找回追蹤和加速服務。如果Blue Ribbon Bags不能在該期限內促進乘客行李的返还，它將向乘客發放滿意保證賠付。賠付是有保證的，即使行李在96小時的期限之後在任何時候交還客戶。</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>行李服務特色</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>乘客常住地址</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>ABA路由號碼</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>帳號</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>服務協定編號</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>航空公司確認號</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>航班到達日期</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>航班到達號</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>航班到達時間</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt;詢問致電者: 您的航班是否到達美國國內或以外?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; 代理:請根據致電者的回答,讀出下列兩段中的一段:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>連接BIR/PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>行李標籤號 #</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>在向Blue Ribbon Bags報告錯運行李之前，您必須先通知航空公司
+行李沒有到達您的航班的終點。航空公司會為您提供追蹤資訊，您在提交下面的錯運行李報告時需要這些資訊。</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>受款人地址</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>受款人城市</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>受款人國家</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>受款人電子郵箱</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>受款人名字</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>受款人姓氏</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>受款人電話</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>受款人州</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>受款人郵編</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>點擊行選擇</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>確認電子郵箱</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>點擊複製，如果郵箱與上面的完全相同</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>請選擇電子郵件通知的語言</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>電子郵件語言</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>從此郵件發送時起，您有{0}進行要求的變更，以提供正確的資訊。如果您沒有在{0}時段內回復提供正確資訊，您的錯運行李報告將被拒絕。即使重新提交，您的報告也不會被接受。</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>您提交的文件參考號無效。您需要聯繫您的航空公司，並讓他們立即為您提供有效的檔參考號。您必須在航班著陸後24小時內向我們提供此號，以便處理您的報告。Blue Ribbon Bags不代表乘客檢索檔參考號。&lt;br/&gt;
+乘客應負責從航空公司收集這些資訊，並在航班著陸後24小時內提供給我們。如果我們在您的航班著陸後24小時內沒有收到有效的檔參考號，您的報告將被拒絕，您將無法獲得行李尋回服務或我們的滿意保證賠付。如果此資訊是在航班著陸後24小時的期限之後的任何時間提供的,則無論在什麼情況下，我們都不會重新打開您的檔。&lt;br/&gt;
+如果您已經向我們提交您提出丟失行李申報時航空公司提供給您的報告的副本，並且仍會收到此電子郵件，這意味著航空公司尚未向您提供有效的檔參考號，而您必須聯繫他們立即檢索，並在您的航班著陸後24小時內提供給我們。</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>從您的航空公司行李申報中輸入以下資訊：</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>請輸入您的Blue Ribbon Bags服務協定號碼：</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>文件參考號或文件定位號</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>您應該被提供的檔參考號為您的行李遺失報告中的機場和航空公司代碼加5位元數字的代碼。例如：MCOAF12345.&lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>文件參考號</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>提交報告</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>酒店名稱：</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>如果乘客將在96小時期限內離開這個目的地，並希望BRB知道這些情況，
+以便正確運達您的行李，請發送電子郵件至 &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,
+並在主題中填寫提交報告時向您提供的MBR號碼，並盡可能詳細地說明您的情況。</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>MBR #</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>銀行名稱：</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>非常抱歉，但是此報告不可編輯，因此資訊不再可更正。感謝您選擇Blue Ribbon Bags。安全旅行，全程無憂！</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>未找到您要搜索的內容</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>您必须在航班着陆后 24 小时内，向 Blue Ribbon Bags 提交填报行李遗失声明时由航空公司为您提供的报告副本，以便完成错运报告申报流程。如未在航班着陆后 24 小时内提交航空公司为您提供的报告副本，您向 Blue Ribbon Bags 提交的错运行李报告将在 24 小时截止期到期时立即拒绝，您将失去获得行李寻回服务或满意保证付款的资格。请提交此报告副本至 mbr@blueribbonbags.com 并将服务协议号填入标题行。以此处所述方式之外任何其他方式提交的航空公司支持文件都将视为无效提交，不会视为向 Blue Ribbon Bags 提交错运行李报告。  所有未添加支持文件的报告都将在航班着陆后 24 小时截止期到期时拒绝。</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>乘客將使用此位址直到</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>賠付地址</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>賠付人</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>賠付城市</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>賠付國</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>注意：賠付詳情可能在初始報告後改變。這可能導致賠付處理稍有延遲。</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>賠付電子郵箱</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>賠付名字</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>賠付姓氏</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>賠付電話</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>賠付州</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>賠付郵編</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>PayPal電子郵箱</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>請完整填寫與您的PayPal帳戶相關的資訊</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>PayPal名字</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>PayPal姓氏</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>請嚴格按照您向航空公司提交的申報上的資訊填寫。</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>請輸入賠付資訊&lt;b&gt;這是當您的行李被延誤超過96小時時您希望收款的位址。&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>請輸入賠付資訊&lt;b&gt;這是當您的行李被延誤超過96小時時您希望收款的地方。&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>嚴格按照您向航空公司提交的丟失行李申報填寫以下資訊。&lt;b&gt;這是您希望向您交付行李的地方。&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>搜索條件（請選擇一個）</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>服務協定#</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>航班抵達資訊</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>錯運行李資訊</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>服務協定編號</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>行李交付信息</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>賠付信息</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>電匯代碼</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>錯運的行李</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>未交付的行李，包括航空公司提供的有效的檔參考號
+必須在航班著陸後24小時內報告給Blue Ribbon Bags。
+BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。
+
+如果航空公司沒有向您提供有效的檔參考號，
+則您在向我們提交報告之前應聯繫航空公司索要該號碼。  
+BLUE RIBBON BAGS 不會向航空公司檢索檔參考號。乘客應負責
+在向我們提交錯運行李報告之前從航空公司取得該資訊。</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>未交付行李編號</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>當您向航空公司提交丟失行李申報時，
+您會收到一個檔參考號和一個行李標籤號，
+請在此處輸入：</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>代理登錄</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>特色</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>聯繫</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>常見問題</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>提交報告</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>丟失行李</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>郵件</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>如果您想收到確認郵件，請點擊此處。</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>如果您想讓乘客收到確認郵件，請點擊此處。</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>不要在服務確認郵件中顯示總費用</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>我的帳戶</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>如果您想提供有關您的行李或交付信息的任何信息，請在此處輸入</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>密碼欄位有意顯示為空白。如果您想提供新密碼，請提供新密碼並確認新密碼。&lt;br /&gt;&lt;br /&gt;
+                   密碼必須包含至少8（八）個字元，至少包含一個字母，一個數位和一個特殊字元，至少包含一個大寫字母。&lt;br /&gt;&lt;br /&gt;
+                   允許的特殊字元包括：&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>賠付：</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>賠付位址資訊</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>賠付信息</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>好，暫時沒事了。</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>恭喜！</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>服務級別：</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>乘客人數：</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>付款確認：</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>付款資訊</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>優惠代碼</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>非常感謝您為即將進行的旅行選擇Blue Ribbon Bags。請放心,我們將使您的行李保險盡可能的簡便。&lt;br /&gt;&lt;br /&gt;您的Blue Ribbon Bags服務協定編號是</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>請保留此服務協定編號以備記錄，因為如果您的行李沒有運到，您向我們報告錯運行李時需提供此編號。</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>您將在幾分鐘後收到Blue Ribbon Bags的確認電子郵件。如果您沒有收到，請與我們聯繫並保留您的PayPal交易確認。</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;如果行李沒有運達怎麼辦:&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;如果您的行李沒有隨您到您的航班&amp;#39;s的最終目的地，您必須先向航空公司報告，然後再報告給Blue Ribbon Bags。如果您有行李沒有交付，您必須在航班著陸後24小時內向Blue Ribbon Bags報告。您可以通過撥打電話&lt;strong&gt;{0}&lt;/strong&gt;或線上&lt;a href="{1}"&gt;{2}&lt;/a&gt;（每天24小時，每週7天）向我們報告錯運行李。&lt;br /&gt;&lt;br /&gt;請務必保留行李追蹤資訊(檔參考/定位號)，這是航空公司在您向其提交丟失行李申報時為您提供的資訊，因為Blue Ribbon Bags在處理您的錯運行李報告時需要此資訊。如果您有行李沒有交付，您必須在航班著陸後24小時內向Blue Ribbon Bags報告。&lt;br /&gt;&lt;br /&gt;您的賠付資訊如下所示。如果您有任何問題，請隨時通過發送電子郵件至&lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt;聯繫Blue Ribbon Bags。我們為您提供24/7説明服務。安全旅行，全程無憂！&lt;br /&gt;&lt;br /&gt;您的服務協定可線上查看&lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;非常感謝您的惠顧，旅途平安。&lt;br /&gt;&lt;br /&gt;BLUE RIBBON BAGS服務不可退款，也不可轉讓。不可退款或減免如果您的航班取消並且您預訂了新的航班以代替它，您必須在新航班&amp;#39;S 出發前告知我們這一變更或為您的新航班購買新的保險服務。所有變更都必須通過發郵件到&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;向BLUE RIBBON BAGS 報告，郵件主題中應說明服務協定編號。您必須在郵件正文中列出航空公司和航空公司確認號，您原來的航班號和更改後的新航班號。如果您也更換了航空公司，您還必須通知我們您的新航班所屬的新航空公司。&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>您的付款已經成功處理</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>總費用：</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>電話號碼</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>所有行李已找到，此案已結。</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>拒絕原因</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>錯運行李報告可通過點擊&lt;a href="{0}" target="_blank"&gt;此處&lt;/a&gt;或撥打 888-BAGGAGE隨時（每天24小時，每週7天）提交</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>如果乘客在任何時候向其申報的航空公司或Blue Ribbon Bags表明他們的行李將被提取而不是交付，則行李一旦到達機場，行李報告狀態會被設為關閉，所有行李會被視為已返还。</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>一旦行李到達提交申報時向航空公司表明的目的地，錯運行李報告狀態會被設為關閉。</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>*如果上述任何資訊有誤，請發電子郵件至&lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>報告經理的說明：</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>未找到您要搜索的內容</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>此錯運行李報告的狀態為：&amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>它處於開放狀態已經有&lt;strong&gt;{0}&lt;/strong&gt;天。</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>錯運行李報告將被賠付至：&amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>如果&lt;strong&gt;{0}&lt;/strong&gt;天后它仍為開放狀態，則會產生賠付。</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>行李狀態每次發生變化時，會向乘客發送自動電子郵件通知。乘客不需要聯繫航空公司就能瞭解其行李狀態。</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>特色：</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>我們的電話號碼（888-BAGGAGE）僅用於接收新的錯運行李報告。
+此電話號碼不會有關於現有錯運行李報告的任何資訊。
+任何與現有錯運行李報告相關的問題或意見或資訊提交，
+無論是新的、開放、錯誤資訊或因任何原因關閉的報告，應發電子郵件
+至&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;，並在主題中說明您的服務協定編號。</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>在向Blue Ribbon Bags報告錯運行李之前，
+乘客必須先向航空公司提交丟失行李申報（根據該航空公司規則的要求）。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+未交付的行李，包括航空公司提供的有效的檔參考號，必須在航班著陸後24小時內報告給Blue Ribbon Bags。BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。如果航空公司沒有向您提供有效的檔參考號，則您在向我們提交報告之前應聯繫航空公司索要該號碼。BLUE RIBBON BAGS 不會向航空公司檢索檔參考號。乘客應負責在向我們提交錯運行李報告之前從航空公司取得該資訊。&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+如果發現交付的行李不是乘客的行李，從被通知其與Blue Ribbon Bags的檔已關閉而且行李已返还起，乘客應在12小時內，通過發送電子郵件至mbr@blueribbonbags.com並在主題中填寫“不是我的行李”和您的MBR號，通知Blue Ribbon Bags此錯誤。從乘客的原始航班著陸後最初96小時到期起，Blue Ribbon Bags應在72小時(3天) 內找到誤送的行李。任何此類別的行李一旦到達航空公司丟失行李申報中記錄的機場，則將根據我們的條款被視為“已返还”。如果交付了錯誤行李，乘客需要提供錯誤交付行李的運送公司送貨單的電子郵件證明，以及航空公司提供的、清楚地說明返还乘客的參考行李不屬於乘客的文檔。必須提供這兩份文檔才能獲得Blue Ribbon Bags的滿意保證賠付。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+
+錯誤資訊或資訊請求：&lt;/strong&gt;如果在提交錯運行李報告時提供了錯誤資訊，您可能會收到一封電子郵件，要求您更正該資訊。如果乘客收到這種郵件或對與乘客的案例相關的資訊的任何其他請求，乘客應在郵件發送後12小時內回復。如果乘客未在該時限內回復更正的或請求的資訊，和請求的任何證明文檔，乘客的錯運行李報告將被拒絕，乘客再無法獲得行李尋回服務或我們的滿意保證賠付。&lt;br /&gt;&lt;br /&gt;
+如果在提交航空公司丟失行李申報時未提供交付地址，一旦行李到達航空公司記錄的機場，BRB將對您結案，而您的行李將根據Blue Ribbon Bags服務協定被視為“已返还”。 &lt;br /&gt;&lt;br
+/&gt;&lt;strong&gt;
+
+注意：如果乘客的行李被只通過航空公司或機場出具行李遺失報告（這是航空公司向乘客提供的、上面有其檔參考號的報告的名稱）或通過航空公司出具行李事故報告（行李事故報告一般不提供一個十位的檔參考號）的航空公司錯運，乘客在填完線上表格後，必須將行李遺失報告或行李事故報告發送至mbr@blueribbonbags.com並在主題中說明他們的服務協定編號。我們必須在乘客航班著陸後24小時內收到報告，才會將其報告視為有效報告。如果您未在航班著陸後24小時內提交此報告，BRB將在24小時期限到期後立刻拒絕乘客的報告。根據我們的條件和條款，此類別的所有行李一旦到達客戶在向航空公司提交丟失行李申報時向航空公司提供的航班行程或中轉資訊中記錄的機場，則視為“已返还”。
+&lt;br/&gt;&lt;br/&gt;
+注意：如果您的行李被被只通過機場(失物招領)處出具行李遺失報告
+或通過航空公司出具行李事故報告(行李事故報告一般不提供一個十位的檔參考號)的航空公司錯運,
+Blue Ribbon Bags僅在航空公司已經為丟失行李發放賠付（賠償）之後
+才會對錯運超過96小時的行李發放滿意保證賠付。如果航空公司未向
+乘客發放丟失行李賠償，則Blue Ribbon Bags也不會發放賠償。在無論哪種情況下，
+除了提供航空公司出具的發放的賠付是針對參考丟失行李的確認書外，
+乘客還需提供航空公司的賠付證明，才可獲得Blue Ribbon Bags的滿意保證賠付。
+在行李錯運的前96個小時內，Blue Ribbon Bags將協助作為正常行李找尋您的行李。
+&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; ERRORS:&lt;/strong&gt;如果乘客在Blue Ribbon Bags拒絕您的錯運行李報告或關閉您的錯運行李報告後發現錯誤，乘客應在收到通知他們無論哪種情況的郵件後12小時內將錯誤報告給Blue Ribbon Bags。請發送電子郵件至&lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;並在主題中注明您的MBR號，告知我們錯誤。乘客必須在電子郵件中盡可能詳細地說明錯誤所在並提供證明文檔。如果Blue Ribbon Bags發現錯誤屬實，Blue Ribbon Bags將在重新打開乘客檔後72個小時內找到乘客的行李。如果乘客的原始航班著陸的96小時期限在檔重新打開後72小時後到期，則Blue Ribbon Bags找到乘客行李的期限為原始的96小時到期前。  
+在無論哪種情況下，一旦乘客的行李到達航空公司丟失行李申報中記錄的機場，則會根據Blue Ribbon Bags的條款被視為“已返还”，而乘客的檔也會被關閉。&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;
+在12小時後收到的所有提交都不會被接受，並且無論提交任何文檔，乘客都不可獲得行李尋回服務或我們的滿意保證賠付。
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;我們的電話號碼（888-BAGGAGE）僅用於接收新的錯運事故報告。
+                       此電話號碼不會有關於現有錯運行李報告的任何資訊。
+                       任何與現有錯運行李報告相關的問題或意見或資訊提交，無論是新的、開放、錯誤資訊或因任何原因關閉的報告，應發電子郵件
+                       至&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;，並在主題中說明您的服務協定編號。
+                   &lt;/li&gt;
+                   &lt;li&gt;在向Blue Ribbon Bags報告錯運行李之前， 乘客必須先向航空公司提交丟失行李申報（根據該航空公司規則的要求)。&lt;/li&gt;
+                   &lt;li&gt;未交付的行李，包括航空公司提供的有效的檔參考號，必須在航班著陸後24小時內報告給Blue Ribbon Bags。BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。如果航空公司沒有向您提供有效的檔參考號，則您在向我們提交報告之前應聯繫航空公司索要該號碼。BLUE RIBBON BAGS 不會向航空公司檢索檔參考號。乘客應負責在向我們提交行李事故報告之前從航空公司取得該資訊。&lt;/li&gt;
+                   &lt;li&gt;&lt;b&gt;&lt;u&gt;對於所有到達地在美國以外的航班：&lt;/u&gt; 根據行李事故報告提交流程的要求，您應在航班著陸後24小時內向Blue Ribbon Bags提交一份航空公司在您提交丟失行李申報時提供給您的報告。如果您未在航班著陸後24小時內提交這份航空公司在您提交丟失行李申報時提供給您的報告，您向Blue Ribbon Bags提交的錯運行李報告將在24小時期限過期時立即被拒絕，而您也將無法獲得行李尋回服務或我們的滿意保證賠付。請將您的報告發送至&lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt;並在主題中說明您的服務協定編號。如果航空公司報告未按照上述要求的方式提交，則提交會被視為無效。任何此類別的行李一旦到達您向航空公司提交的丟失行李申報中記錄的機場，則將根據Blue Ribbon Bags服務協定的條款被視為“已返还”。&lt;br /&gt;&lt;u&gt;對於到達地在美國以內的航班：&lt;/u&gt;如果您的行李被向您提供行李遺失報告（這是航空公司在您提交丟失行李申報時航空公司給您的報告名稱，上面有您的檔參考號，由航空公司或通過機場提供）或行李事故報告（行李事故報告一般不提供一個十位的檔參考號）的航空公司錯運，您應該在航班著陸後24小時內向Blue Ribbon Bags提交這份行李遺失報告或行李事故報告，以完成錯運行李報告提交流程。如果您未在航班著陸後24小時內提交這份航空公司提供給您的報告，您向Blue Ribbon Bags提交的錯運行李報告將在24小時期限過期時立即被拒絕，而您也將無法獲得行李尋回服務或我們的滿意保證賠付。請將此報告提交至&lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt;並在主題中說明您的服務協定編號。如果航空公司報告未按照上述要求的方式提交，則提交會被視為無效。任何此類別的行李一旦到達您向航空公司提交的丟失行李申報中記錄的機場，則將根據Blue Ribbon Bags服務協定的條款被視為“已返还”。&lt;/b&gt; &lt;/li&gt;
+                   &lt;li&gt;如果發現交付的行李不是乘客的行李，從被通知其與Blue Ribbon Bags的檔已關閉而且行李已返还起，乘客應在12小時內，通過發送電子郵件至&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt; 並在主題中填寫“不是我的行李”和您的MBR號，通知Blue Ribbon Bags此錯誤。從乘客的原始航班著陸後最初96小時到期起，Blue Ribbon Bags應在72小時(3天) 內找到誤送的行李。任何此類別的行李一旦到達航空公司丟失行李申報中記錄的機場，則將根據我們的條款被視為“已返还”。如果交付了錯誤行李，乘客需要提供錯誤交付行李的運送公司送貨單的電子郵件證明，以及航空公司提供的、清楚地說明返还乘客的參考行李不屬於乘客的記錄。必須提供這兩份文檔才能獲得Blue Ribbon Bags的滿意保證賠付。&lt;/li&gt;
+                   &lt;li&gt;錯誤資訊或資訊請求：如果在提交錯運行李報告時提供了錯誤資訊，您可能會收到一封電子郵件，要求您更正該資訊。如果乘客收到這種郵件或對與乘客的案例相關的資訊的任何其他請求，乘客應在郵件發送後12小時內回復。如果乘客未在該時限內回復更正的或請求的資訊，和請求的任何證明文檔，乘客的錯運行李報告將被拒絕，乘客再無法獲得行李尋回服務或我們的滿意保證賠付。&lt;/li&gt;
+                   &lt;li&gt;如果在提交航空公司丟失行李申報時未提供交付地址，一旦行李到達航空公司記錄的機場，BRB將對您結案，而您的行李將根據Blue Ribbon Bags服務協定被視為“已返还”。&lt;/li&gt;
+                   &lt;li&gt;加拿大航空公司和西捷航空公司乘客: Blue Ribbon Bags不會為與這兩家航空公司的申報相關的錯運行李報告處理乘客丟失行李的交付。任何與加拿大航空公司和西捷航空公司丟失行李申報相關的行李一旦到達加拿大航空公司或西捷航空公司丟失行李申報中記錄的機場，則將根據Blue Ribbon Bags服務協定的條款被視為“已返还”。一旦確認行李在服務期限內到達加拿大航空公司或西捷航空公司丟失行李申報中記錄的機場，乘客將再無法獲得行李尋回服務或Blue Ribbon Bags 滿意保證賠付。&lt;/li&gt;
+                   &lt;li&gt;錯誤：如果乘客在Blue Ribbon Bags拒絕您的錯運行李報告或關閉您的錯運行李報告後發現錯誤，乘客應在收到通知他們無論哪種情況的郵件後12小時內將錯誤報告給Blue Ribbon Bags。請發送電子郵件至&lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;並在主題中注明您的MBR號，告知我們錯誤。乘客必須在電子郵件中盡可能詳細地說明錯誤所在並提供證明文檔。如果Blue Ribbon Bags發現錯誤屬實，Blue Ribbon Bags將在重新打開乘客檔後72個小時內找到乘客的行李。如果乘客的原始航班著陸的96小時期限在檔重新打開後72小時後到期，則Blue Ribbon Bags找到乘客行李的期限為原始的96小時到期前。在無論哪種情況下，一旦乘客的行李到達航空公司丟失行李申報中記錄的機場，則會根據Blue Ribbon Bags的條款被視為“已返还”，而乘客的檔也會被關閉。在12小時後收到的所有提交都不會被接受，並且無論提交任何文件，乘客都不可獲得行李尋回服務或我們的滿意保證賠付。&lt;/li&gt;
+                   &lt;li&gt;失竊、行李內物品丟失或行李損壞不包括在本服務中。覆蓋範圍僅適用於航空公司的錯運行李。&lt;/li&gt;</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>關於錯運行李報告的重要資訊</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>搜索您的錯運行李報告</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>（*）銅牌服務級別僅限印度國內旅行。我們不會賠付以銅牌服務級別進行的包括出入印度或任何其他國家的國際航班行程內的航班的預訂。</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>優惠代碼</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>提供您的旅行資訊</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>正在創建要購買的服務……</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>處理{0}服務完成。</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>正在處理{0}服務乘客……</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>正在處理{0}服務購買……</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>驗證{0}服務……</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>代理名稱</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>代理卡</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>在與客戶溝通時，您可使用此PDF作為參考，以免遺漏BRB的卓越特色！</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>代理的電子郵件語言</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>代理ID (EPR)</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>代理資訊</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>代理資訊已成功保存！</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>代理（Me）</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>代理PCC</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>航空公司</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>您可延遲對此購買的付款。</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>計費信息</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>通過保存設置，Blue Ribbon Bags應用的所有頁簽將被初始化，包括“購買”頁簽，因此您必須重新載入正在進行的購買的PNR。您要繼續嗎？</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>CC#</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>正在檢查PNR……</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>城市，州</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>點擊此處，如果&lt;b&gt;您&lt;/b&gt;想在每次購買後收到Blue Ribbon Bags的自動確認郵件。</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>點擊此處，如果您想讓&lt;b&gt;乘客&lt;/b&gt;在每次購買後收到Blue Ribbon Bags的自動確認郵件。</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>客戶卡</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>這是一份PDF文檔，您可以發給您的客戶，向他們宣傳不需傭金的服務。</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>確認號</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>日期/時間</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>電子郵件</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>使用API的備註不能添加到Sabre PNR。</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>備註不能添加到Sabre PNR。</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>PRN無法關閉，備註不能添加到Sabre PNR。</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>與Sabre的通訊出現錯誤。錯誤代碼{0}。</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>與Sabre的連接出現錯誤。</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>無法載入代理基本資料。</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>錯誤。您在The PNR you have open on the BRB 應用({0})上打開的PNR與Sabre工作區({1})內活動的PNR不同。</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>處理您的請求時出現伺服器錯誤。</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR Info XML無法解析以清除敏感資訊，因此被丟棄。</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>無法檢索PNR資訊。請確保在Sabre內打開活動的PNR。</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>到期月</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>到期年</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>航班資訊</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>航班號</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>獲得PNR Info</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>介面語言</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>無效的Sabre請求。</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>最後航班</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>您尚未登錄Sabre。請登錄並重試。</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>從Saber獲取PNR資訊。請稍候……</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>可選</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>始發航班</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>乘客用電子郵件語言</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>乘客信息</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>乘客</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>每行李保額</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>每乘客</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>個人資訊</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>電話號碼</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>請隨時發送電子郵件至agent@blueribbonbags.com。</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>帶有虛構資訊的PNR載入成功！請填寫下表。</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR資訊載入成功！請填寫下表。</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR資訊不匹配。請重新載入預訂。</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR資訊載入不成功。請再次嘗試。</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>PNR #</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>優惠代碼</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>訂單。請稍候……</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>如果您有任何其他問題或意見，請通過agent@blueribbonbags.com與我們聯繫。</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>我們正在為您註冊。請稍候……</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>您的註冊已成功完成！</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>您的註冊已成功處理，您可以立即開始銷售！不過，請花一點時間檢查您的電子郵件，以完成註冊過程。謝謝您！</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>我們正在保存資訊。請稍候……</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>我們正在保存您的設置。請稍候……</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>選擇保險級別</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>發送確認郵件至：</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>服務協定[{0}] 已被成功購買。</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>您的設置已成功保存！</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>如果您想把BRB納入您的票務，請諮詢我們的計費方案，以免您的客戶看到BRB對他們的信用卡另外收費。</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>總費用 = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>旅行社信息</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>意外錯誤。</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>意外錯誤。PNR資訊載入不成功。</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>在GetPNRInfo中有未處理的異常。</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>使用者資訊</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>您可從下表更新您在Blue Ribbon Bags註冊的個人資訊。</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>正在驗證代理……</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;歡迎回來 {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;歡迎初次註冊！&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>郵編</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>旅行代理資訊</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>（會計）代理/成員ID#</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>旅行社信息</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>旅行社編號</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>旅行社類型</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>我同意我提供給Blue Ribbon Bags，LLC的資訊是代表我的客戶追蹤所有購買的正確資訊。</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>業務部門</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>在這裡輸入您在上圖中看到的總和結果。</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>旅行代理已創建成功。您將收到一封包含啟動連結的電子郵件。</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>顯示旅行社ID</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>傳真</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>手機</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>標題后</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>標題前</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>旅行代理資訊</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>旅行社名稱</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>用戶註冊</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>您的信息</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>*必須填寫</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) 必填欄位</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>路由號</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>每行李滿意保證賠付：</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>代理姓名</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>輸入電子郵箱</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>乘客名單</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>服務細節</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>購買方式：</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>重發代理電子郵件</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>重發電子郵件</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>重新乘客電子郵件</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>發電子郵件</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>服務費用：</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>總費用：</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>總節省：</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>安全碼</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>選擇乘客人數</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>服務特色</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>下載代理卡</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>服務協定查找</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>航空公司</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>航空公司確認號</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>BRB服務編號</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>付款</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>服務費用：</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>每行李保額</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>每日</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>日期範圍</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>電子郵件</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>按乘客匯出</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>按服務匯出</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>可通過多次輸入乘客姓名以及不同的PNR或航空公司確認號，為同一乘客購買多個航班的保險。</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>服務級別：</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>最大損失保障</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>乘客人數：</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>始發航空公司</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>乘客人數：</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>乘客信息</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>每日</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>PNR #</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>優惠代碼</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>購買服務協定</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>定期</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>如果不輸入電子郵箱，則乘客無法收到確認郵件。</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>服務級別：</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>從檔導入的服務：</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>總結</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>上傳excel檔資料，以創建附加到它們的服務。點擊</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>此</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>連結下載範本。</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>如果預訂中沒有PNR號，則輸入航空公司確認號。</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>上傳購買文件</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>上傳多個代理購買檔</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>設置電子郵件確認設置</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>從您的航班著陸時起，Blue Ribbon Bags為您追蹤和加速延遲行李的時間為96小時。</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>當您的錯運行李的狀態每次發生變化時，您都會收到自動電子郵件更新。</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>一份服務協定包括在機場托運的所有行李，包括最後一刻登機手續時辦理的行李。</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>Blue Ribbon Bags服務覆蓋了世界各地每家航空公司的每一個航班。</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>每次購買按人，按航空公司確認號，無論有多少次轉機。</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>您可以在航班起飛前最後一刻購買我們的服務。</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>我們的服務必須在入境或出境行程中的所有航班出發之前購買。我們的服務不能在轉機時購買。</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>在向我們報告錯運行李之前，您必須先向航空公司提出申報。</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>錯運行李的報告必須在航班到達後24小時內進行。</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>不必提供行李內容證明就可以獲得我們的滿意保證賠付。</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>如果您的行李在航班到達後96小時（4天）內沒有找到，則會發放賠款。</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>賠付是有保證的，即使行李在96小時的服務期限之後被返还。</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>BRB銷售的服務可補充您的任何保險，而不會替代它。</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>危機監管</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>您丟失的行李的狀態每次發生變化時，我們都會給您發送電子郵件更新。</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>無收據</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>您不必提供丟失行李內容收據就可以獲得賠付。</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>一次購買</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>一次購買覆蓋在機場托運的所有行李</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>我們的保證</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>BRB為丟失4天后未找到的每件行李保證賠付1000美元。</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>全球業務</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>BRB服務可覆蓋世界各地每家航空公司的每一個航班</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>最後時刻</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>您可在航班起飛前最後一刻購買行李服務</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>聯繫我們：</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-MBR #{0}：您丟失的行李的狀態有更新。更新為：{1}.
+請勿回復此文本郵件，因為BLUE RIBBON BAGS不會收到您的回復，包括對此更新中要求的資訊的任何提交。與您的錯運行李報告或請求資訊提交相關的問題都應通過電子郵件發送至MBR@BLUERIBBONBAGS.COM。我們的電話號碼不會有關於您的丟失行李的任何資訊。所有通信通過mbr@blueribbonbags.com的電子郵件完成。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>對於前96個小時，BRB將直接與航空公司合作，追蹤您的錯運行李，並催促返还行李。您的行李狀態每次發生變化時，BRB會給您發送自動更新，因此您不必在旅途中花費大量時間打電話給航空公司。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>每次購買（5美元）按人，按航空公司的確認號碼，包括往返機票，無論有多少次轉機。 每行李賠付（1000美元）。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>您不必提供行李內容證明就可以獲得賠付。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>如果您在航班抵達後96小時內沒有拿到您的手中，您就會獲得賠付。賠付是有保證的，即使您的行李在96小時的期限之後在任何時候返还給你。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>BRB銷售的是服務。擁有BRB服務協定是對您的任何保險的補充。在收到BRB支票後，您仍然可以接受保險賠付。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>在向Blue Ribbon Bags報告錯運行李之前，您必須先向航空公司提出申報。未交付行李必須在提交航空公司丟失行李後24小時內向BRB報告。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>只需訪問&lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt;或撥打 (888)-BAGGAGE 24/7就可提交錯運行李報告。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>我們的服務協定（5美元）包括在機場托運的所有行李，包括最後一刻登機手續時辦理的行李。更高的保額為支付7.50美元或10.00美元，獲得1500美元或2000美元的賠付。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Blue Ribbon Bags服務可覆蓋世界各地的所有航班</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>您可以在航班&amp;#39;S出發前最後一刻購買BLUE RIBBON BAGS服務。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>您必須在入境或出境行程中的所有航班出發之前購買Blue Ribbon Bags服務。您不可在行程中間（例如，在轉機時）購買此服務。</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>BLUE RIBBON BAGS服務不可退款，也不可轉讓。不可退款或減免如果您的航班取消並且您預訂了新的航班以代替它，您必須在新航班&amp;#39;S 出發前告知我們這一變更或為您的新航班購買新的保險服務。所有變更都必須通過發郵件到&lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;向BLUE RIBBON BAGS 報告，郵件主題中應說明服務協定編號。您必須在郵件正文中列出航空公司和航空公司確認號，您原來的航班號和更改後的新航班號。如果您也更換了航空公司，您還必須通知我們您的新航班所屬的新航空公司。</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>所有購買都必須遵循Blue Ribbon Bags服務協定的條款。可在&lt;a href=".{0}" target="_blank"&gt;此處&lt;/a&gt;查看。</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>Blue Ribbon Bags特色</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>錯運行李是航空公司的追蹤系統顯示被錯誤運送到航班最終目的地以外的目的地的托運行李，或者根據航空公司的報告，未載入乘客所乘坐的航班的托運行李。</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>每次購買按每乘客每航班確認號支付。如果往返機票是在一個航空公司確認號預訂的，則無論有多少次中轉，都用一次購買保障。如果您的出入境航班是在不同的航空公司確認號下預訂的，則需為各航班分別購買服務協定。</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>不! Blue Ribbon Bags服務可覆蓋世界各地的所有航班。對於始發和終到位置沒有限制。</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>什麼是錯運行李？</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>此服務是否保障往返機票？</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>是否我的航班必須在美國始發或終到美國才能購買此服務？</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>常見問題</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>每行李</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>輸入乘客資訊</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>查看協議</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>點擊此處查看Blue Ribbon Bags服務協定&amp;nbsp；</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>選擇服務級別</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>步驟</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>每人只需花5美元，就可獲得BRB提供的錯運行李找回服務。如果航空公司未在行李丟失後96小時內交付您的行李，BRB為每件未交付行李保證賠付1000美元 &lt;u&gt;無需行李內容的證明或收據就可收到賠付。&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>購買行李服務</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>乘客</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>提供您的旅行資訊</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>航空公司將提供向Blue Ribbon Bags提交報告所需的追蹤資訊。</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>所有丟失的行李必須在乘客航班著陸後24小時內報告給Blue Ribbon Bags。</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>則您在向我們提交報告之前應聯繫航空公司索要該號碼。  </value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>BLUE RIBBON BAGS 不會向航空公司檢索檔參考號。乘客應負責</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>在向我們提交錯運行李報告之前從航空公司取得該資訊。</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>您會收到一個檔參考號和一個行李標籤號，</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>請在此處輸入：</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>                   密碼必須包含至少8（八）個字元，至少包含一個字母，一個數位和一個特殊字元，至少包含一個大寫字母。&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>                   允許的特殊字元包括：&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>此電話號碼不會有關於現有錯運行李報告的任何資訊。</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>任何與現有錯運行李報告相關的問題或意見或資訊提交，</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>無論是新的、開放、錯誤資訊或因任何原因關閉的報告，應發電子郵件</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>行李沒有到達您的航班的終點。航空公司會為您提供追蹤資訊，您在提交下面的錯運行李報告時需要這些資訊。</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>至&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;，並在主題中說明您的服務協定編號。</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>乘客必須先向航空公司提交丟失行李申報（根據該航空公司規則的要求）。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>未交付的行李，包括航空公司提供的有效的檔參考號，必須在航班著陸後24小時內報告給Blue Ribbon Bags。BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。如果航空公司沒有向您提供有效的檔參考號，則您在向我們提交報告之前應聯繫航空公司索要該號碼。BLUE RIBBON BAGS 不會向航空公司檢索檔參考號。乘客應負責在向我們提交錯運行李報告之前從航空公司取得該資訊。&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>如果發現交付的行李不是乘客的行李，從被通知其與Blue Ribbon Bags的檔已關閉而且行李已返还起，乘客應在12小時內，通過發送電子郵件至mbr@blueribbonbags.com並在主題中填寫“不是我的行李”和您的MBR號，通知Blue Ribbon Bags此錯誤。從乘客的原始航班著陸後最初96小時到期起，Blue Ribbon Bags應在72小時(3天) 內找到誤送的行李。任何此類別的行李一旦到達航空公司丟失行李申報中記錄的機場，則將根據我們的條款被視為“已返还”。如果交付了錯誤行李，乘客需要提供錯誤交付行李的運送公司送貨單的電子郵件證明，以及航空公司提供的、清楚地說明返还乘客的參考行李不屬於乘客的文檔。必須提供這兩份文檔才能獲得Blue Ribbon Bags的滿意保證賠付。&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>錯誤資訊或資訊請求：&lt;/strong&gt;如果在提交錯運行李報告時提供了錯誤資訊，您可能會收到一封電子郵件，要求您更正該資訊。如果乘客收到這種郵件或對與乘客的案例相關的資訊的任何其他請求，乘客應在郵件發送後12小時內回復。如果乘客未在該時限內回復更正的或請求的資訊，和請求的任何證明文檔，乘客的錯運行李報告將被拒絕，乘客再無法獲得行李尋回服務或我們的滿意保證賠付。&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>如果在提交航空公司丟失行李申報時未提供交付地址，一旦行李到達航空公司記錄的機場，BRB將對您結案，而您的行李將根據Blue Ribbon Bags服務協定被視為“已返还”。 &lt;br /&gt;&lt;br</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>/&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>注意：如果乘客的行李被只通過航空公司或機場出具行李遺失報告（這是航空公司向乘客提供的、上面有其檔參考號的報告的名稱）或通過航空公司出具行李事故報告（行李事故報告一般不提供一個十位的檔參考號）的航空公司錯運，乘客在填完線上表格後，必須將行李遺失報告或行李事故報告發送至mbr@blueribbonbags.com並在主題中說明他們的服務協定編號。我們必須在乘客航班著陸後24小時內收到報告，才會將其報告視為有效報告。如果您未在航班著陸後24小時內提交此報告，BRB將在24小時期限到期後立刻拒絕乘客的報告。根據我們的條件和條款，此類別的所有行李一旦到達客戶在向航空公司提交丟失行李申報時向航空公司提供的航班行程或中轉資訊中記錄的機場，則視為“已返还”。</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>注意：如果您的行李被被只通過機場(失物招領)處出具行李遺失報告</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>乘客應負責從航空公司收集這些資訊，並在航班著陸後24小時內提供給我們。如果我們在您的航班著陸後24小時內沒有收到有效的檔參考號，您的報告將被拒絕，您將無法獲得行李尋回服務或我們的滿意保證賠付。如果此資訊是在航班著陸後24小時的期限之後的任何時間提供的,則無論在什麼情況下，我們都不會重新打開您的檔。&lt;br/&gt;</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>或通過航空公司出具行李事故報告(行李事故報告一般不提供一個十位的檔參考號)的航空公司錯運,</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>Blue Ribbon Bags僅在航空公司已經為丟失行李發放賠付（賠償）之後</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>才會對錯運超過96小時的行李發放滿意保證賠付。如果航空公司未向</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>乘客發放丟失行李賠償，則Blue Ribbon Bags也不會發放賠償。在無論哪種情況下，</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>除了提供航空公司出具的發放的賠付是針對參考丟失行李的確認書外，</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>乘客還需提供航空公司的賠付證明，才可獲得Blue Ribbon Bags的滿意保證賠付。</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>在行李錯運的前96個小時內，Blue Ribbon Bags將協助作為正常行李找尋您的行李。</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>&lt;strong&gt; ERRORS:&lt;/strong&gt;如果乘客在Blue Ribbon Bags拒絕您的錯運行李報告或關閉您的錯運行李報告後發現錯誤，乘客應在收到通知他們無論哪種情況的郵件後12小時內將錯誤報告給Blue Ribbon Bags。請發送電子郵件至&lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;並在主題中注明您的MBR號，告知我們錯誤。乘客必須在電子郵件中盡可能詳細地說明錯誤所在並提供證明文檔。如果Blue Ribbon Bags發現錯誤屬實，Blue Ribbon Bags將在重新打開乘客檔後72個小時內找到乘客的行李。如果乘客的原始航班著陸的96小時期限在檔重新打開後72小時後到期，則Blue Ribbon Bags找到乘客行李的期限為原始的96小時到期前。  </value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>在無論哪種情況下，一旦乘客的行李到達航空公司丟失行李申報中記錄的機場，則會根據Blue Ribbon Bags的條款被視為“已返还”，而乘客的檔也會被關閉。&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>如果您已經向我們提交您提出丟失行李申報時航空公司提供給您的報告的副本，並且仍會收到此電子郵件，這意味著航空公司尚未向您提供有效的檔參考號，而您必須聯繫他們立即檢索，並在您的航班著陸後24小時內提供給我們。</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>&lt;strong&gt;</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>在12小時後收到的所有提交都不會被接受，並且無論提交任何文檔，乘客都不可獲得行李尋回服務或我們的滿意保證賠付。</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>&lt;/strong&gt;</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>                       此電話號碼不會有關於現有錯運行李報告的任何資訊。</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>                       任何與現有錯運行李報告相關的問題或意見或資訊提交，無論是新的、開放、錯誤資訊或因任何原因關閉的報告，應發電子郵件</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>                       至&lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;，並在主題中說明您的服務協定編號。</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>                   &lt;/li&gt;</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>                   &lt;li&gt;在向Blue Ribbon Bags報告錯運行李之前， 乘客必須先向航空公司提交丟失行李申報（根據該航空公司規則的要求)。&lt;/li&gt;</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>                   &lt;li&gt;未交付的行李，包括航空公司提供的有效的檔參考號，必須在航班著陸後24小時內報告給Blue Ribbon Bags。BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。如果航空公司沒有向您提供有效的檔參考號，則您在向我們提交報告之前應聯繫航空公司索要該號碼。BLUE RIBBON BAGS 不會向航空公司檢索檔參考號。乘客應負責在向我們提交行李事故報告之前從航空公司取得該資訊。&lt;/li&gt;</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>                   &lt;li&gt;&lt;b&gt;&lt;u&gt;對於所有到達地在美國以外的航班：&lt;/u&gt; 根據行李事故報告提交流程的要求，您應在航班著陸後24小時內向Blue Ribbon Bags提交一份航空公司在您提交丟失行李申報時提供給您的報告。如果您未在航班著陸後24小時內提交這份航空公司在您提交丟失行李申報時提供給您的報告，您向Blue Ribbon Bags提交的錯運行李報告將在24小時期限過期時立即被拒絕，而您也將無法獲得行李尋回服務或我們的滿意保證賠付。請將您的報告發送至&lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt;並在主題中說明您的服務協定編號。如果航空公司報告未按照上述要求的方式提交，則提交會被視為無效。任何此類別的行李一旦到達您向航空公司提交的丟失行李申報中記錄的機場，則將根據Blue Ribbon Bags服務協定的條款被視為“已返还”。&lt;br /&gt;&lt;u&gt;對於到達地在美國以內的航班：&lt;/u&gt;如果您的行李被向您提供行李遺失報告（這是航空公司在您提交丟失行李申報時航空公司給您的報告名稱，上面有您的檔參考號，由航空公司或通過機場提供）或行李事故報告（行李事故報告一般不提供一個十位的檔參考號）的航空公司錯運，您應該在航班著陸後24小時內向Blue Ribbon Bags提交這份行李遺失報告或行李事故報告，以完成錯運行李報告提交流程。如果您未在航班著陸後24小時內提交這份航空公司提供給您的報告，您向Blue Ribbon Bags提交的錯運行李報告將在24小時期限過期時立即被拒絕，而您也將無法獲得行李尋回服務或我們的滿意保證賠付。請將此報告提交至&lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt;並在主題中說明您的服務協定編號。如果航空公司報告未按照上述要求的方式提交，則提交會被視為無效。任何此類別的行李一旦到達您向航空公司提交的丟失行李申報中記錄的機場，則將根據Blue Ribbon Bags服務協定的條款被視為“已返还”。&lt;/b&gt; &lt;/li&gt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>以便正確運達您的行李，請發送電子郵件至 &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>                   &lt;li&gt;如果發現交付的行李不是乘客的行李，從被通知其與Blue Ribbon Bags的檔已關閉而且行李已返还起，乘客應在12小時內，通過發送電子郵件至&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt; 並在主題中填寫“不是我的行李”和您的MBR號，通知Blue Ribbon Bags此錯誤。從乘客的原始航班著陸後最初96小時到期起，Blue Ribbon Bags應在72小時(3天) 內找到誤送的行李。任何此類別的行李一旦到達航空公司丟失行李申報中記錄的機場，則將根據我們的條款被視為“已返还”。如果交付了錯誤行李，乘客需要提供錯誤交付行李的運送公司送貨單的電子郵件證明，以及航空公司提供的、清楚地說明返还乘客的參考行李不屬於乘客的記錄。必須提供這兩份文檔才能獲得Blue Ribbon Bags的滿意保證賠付。&lt;/li&gt;</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>                   &lt;li&gt;錯誤資訊或資訊請求：如果在提交錯運行李報告時提供了錯誤資訊，您可能會收到一封電子郵件，要求您更正該資訊。如果乘客收到這種郵件或對與乘客的案例相關的資訊的任何其他請求，乘客應在郵件發送後12小時內回復。如果乘客未在該時限內回復更正的或請求的資訊，和請求的任何證明文檔，乘客的錯運行李報告將被拒絕，乘客再無法獲得行李尋回服務或我們的滿意保證賠付。&lt;/li&gt;</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>                   &lt;li&gt;如果在提交航空公司丟失行李申報時未提供交付地址，一旦行李到達航空公司記錄的機場，BRB將對您結案，而您的行李將根據Blue Ribbon Bags服務協定被視為“已返还”。&lt;/li&gt;</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>                   &lt;li&gt;加拿大航空公司和西捷航空公司乘客: Blue Ribbon Bags不會為與這兩家航空公司的申報相關的錯運行李報告處理乘客丟失行李的交付。任何與加拿大航空公司和西捷航空公司丟失行李申報相關的行李一旦到達加拿大航空公司或西捷航空公司丟失行李申報中記錄的機場，則將根據Blue Ribbon Bags服務協定的條款被視為“已返还”。一旦確認行李在服務期限內到達加拿大航空公司或西捷航空公司丟失行李申報中記錄的機場，乘客將再無法獲得行李尋回服務或Blue Ribbon Bags 滿意保證賠付。&lt;/li&gt;</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>                   &lt;li&gt;錯誤：如果乘客在Blue Ribbon Bags拒絕您的錯運行李報告或關閉您的錯運行李報告後發現錯誤，乘客應在收到通知他們無論哪種情況的郵件後12小時內將錯誤報告給Blue Ribbon Bags。請發送電子郵件至&lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;並在主題中注明您的MBR號，告知我們錯誤。乘客必須在電子郵件中盡可能詳細地說明錯誤所在並提供證明文檔。如果Blue Ribbon Bags發現錯誤屬實，Blue Ribbon Bags將在重新打開乘客檔後72個小時內找到乘客的行李。如果乘客的原始航班著陸的96小時期限在檔重新打開後72小時後到期，則Blue Ribbon Bags找到乘客行李的期限為原始的96小時到期前。在無論哪種情況下，一旦乘客的行李到達航空公司丟失行李申報中記錄的機場，則會根據Blue Ribbon Bags的條款被視為“已返还”，而乘客的檔也會被關閉。在12小時後收到的所有提交都不會被接受，並且無論提交任何文件，乘客都不可獲得行李尋回服務或我們的滿意保證賠付。&lt;/li&gt;</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>                   &lt;li&gt;失竊、行李內物品丟失或行李損壞不包括在本服務中。覆蓋範圍僅適用於航空公司的錯運行李。&lt;/li&gt;</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>請勿回復此文本郵件，因為BLUE RIBBON BAGS不會收到您的回復，包括對此更新中要求的資訊的任何提交。與您的錯運行李報告或請求資訊提交相關的問題都應通過電子郵件發送至MBR@BLUERIBBONBAGS.COM。我們的電話號碼不會有關於您的丟失行李的任何資訊。所有通信通過mbr@blueribbonbags.com的電子郵件完成。</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>並在主題中填寫提交報告時向您提供的MBR號碼，並盡可能詳細地說明您的情況。</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>必須在航班著陸後24小時內報告給Blue Ribbon Bags。</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>BLUE RIBBON BAGS服務不對24小時期限後報告的行李賠付。</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>如果航空公司沒有向您提供有效的檔參考號，</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>時區</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>總費用：</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>總費用（按乘客）：</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>完成您的註冊</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>密碼必須包含8到16個字元，至少包含一個字母，一個數位和一個特殊字元，至少包含一個大寫字母。</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>重複密碼</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>用戶註冊</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>請重新輸入您的密碼</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>驗證</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>請輸入位址。</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>位址必須至少有2個字元。</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>提供的代理登錄不存在。</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>[代理號碼]欄位不能為空。</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>[代理類型]欄位不能為空。</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>請查看並接受條款以完成您的註冊。</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>[業務單位]欄位不能為空。</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>請輸入城市。</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>城市必須至少有2個字元。</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>[電子郵件]欄位不能為空。</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>[電子郵件]必須為有效的電子郵寄地址格式。</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>[傳真]必須為有效的格式。</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>[名字]欄位不能為空。</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>[名字]欄位必須至少有2個字元。</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>代理登錄對應於BRB系統中的非活動使用者。</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>[姓氏]欄位不能為空。</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>[姓氏]欄位必須至少有2個字元。</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>[使用者登錄]必須在6到40個字元之間，並且只能包含這些特殊字元：_ .- @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>[登錄]不能以“@”字元結束。</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>[手機]必須為有效的格式。</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>[電話]必須為有效的格式。</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>提供的產品代碼不存在。</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>提供的代理登錄與提供的優惠代碼代理登錄不匹配。</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>提供的優惠代碼不存在。</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>請選擇一個國家。</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>請選擇一個州。</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>請輸入州名。</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>[旅行社代碼]欄位不能為空。</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>[旅行社名稱]欄位不能為空。</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>代理登錄不對應於旅行代理。</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>[用戶登錄]欄位不能為空。</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>用戶登錄名不可用。請選擇另一個用戶登錄名。</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>請輸入郵編。</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>輸入的郵編格式不是有效的格式。</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>代理電子郵箱</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>服務級別：</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>每行李保額</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>乘客信息</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>請在下方提供信用卡資訊，以完成服務協定付款流程。</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>電匯</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>代理名稱</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>代理卡</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>在與客戶溝通時，您可使用此PDF作為參考，以免遺漏BRB的卓越特色！</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>代理ID</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>代理資訊</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>代理資訊已成功保存！</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>代理（Me）</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>代理PCC</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>當您首次使用 Blue Ribbon Bags Worldspan 應用程式時,請確保完整填寫此表格,以為您已經銷售的服務協定獲得適當的獎勵。&lt;br&gt;&lt;br&gt;填完後，請點擊底部的“保存‘，繼續代表您的客戶購買Blue Ribbon Bags保障。&lt;br&gt;&lt;br&gt;您不需要創建密碼或使用您的登錄就可使用BRB Worldspan應用程式。登錄名和密碼僅用於線上訪問BRB系統。&lt;br&gt;&lt;br&gt;要更改任何註冊資訊或如有任何問題，請發郵件給我們agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>航空公司</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>您可延遲對此購買的付款。</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>計費信息</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>通過保存設置，Blue Ribbon Bags應用的所有頁簽將被初始化，包括“購買”頁簽，因此您必須重新載入正在進行的購買的PNR。您要繼續嗎？</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>CC#</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>檢查PNR……</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>城市，州</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>點擊此處，如果&lt;b&gt;您&lt;/b&gt;想在每次購買後收到Blue Ribbon Bags的自動確認郵件。</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>點擊此處，如果您想讓&lt;b&gt;乘客&lt;/b&gt;在每次購買後收到Blue Ribbon Bags的自動確認郵件。</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>客戶卡</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>這是一份PDF文檔，您可以發給您的客戶，向他們宣傳不需傭金的服務。</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>確認號</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>日期格式：</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>日期/時間</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>電子郵件</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>使用API的備註不能添加到Sabre PNR。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>備註不能添加到Sabre PNR。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>PRN無法關閉，備註不能添加到Sabre PNR。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>與Sabre的通訊出現錯誤。錯誤代碼{0}。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>與Sabre的連接出現錯誤。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>無法載入代理基本資料。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>錯誤。您在The PNR you have open on the BRB 應用({0})上打開的PNR與Sabre工作區({1})內活動的PNR不同。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>處理您的請求時出現伺服器錯誤。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR Info XML無法解析以清除敏感資訊，因此被丟棄。</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>無法檢索PNR資訊。請確保在Sabre內打開活動的PNR。</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>到期月</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>到期年</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>航班資訊</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>航班號</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>獲得PNR Info</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>無效的Sabre請求。</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>最後航班</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>您尚未登錄Sabre。請登錄並重試。</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>從Saber獲取PNR資訊。請稍候……</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>可選</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>始發航班</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>乘客信息</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>乘客</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>每行李保額</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>每乘客</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>個人資訊</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>電話號碼</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>請隨時發送電子郵件至agent@blueribbonbags.com。</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>帶有虛構資訊的PNR載入成功！請填寫下表。</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR資訊載入成功！請填寫下表。</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR資訊不匹配。請重新載入預訂。</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR資訊載入不成功。請再次嘗試。</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>PNR #</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>優惠代碼</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>訂單。請稍候……</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>如果您有任何其他問題或意見，請通過agent@blueribbonbags.com與我們聯繫。</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>我們正在為您註冊。請稍候……</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>您的註冊已成功完成！</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>您的註冊已成功處理，您可以立即開始銷售！不過，請花一點時間檢查您的電子郵件，以完成註冊過程。謝謝您！</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>我們正在保存資訊。請稍候……</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>我們正在保存您的設置。請稍候……</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>選擇保險級別</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>發送確認郵件至：</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>服務協定[{0}] 已被成功購買。</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>您的設置已成功保存！</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>如果您想把BRB納入您的票務，請諮詢我們的計費方案，以免您的客戶看到BRB對他們的信用卡另外收費。</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>總費用 = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>旅行社信息</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>意外錯誤。</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>意外錯誤。PNR資訊載入不成功。</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>在GetPNRInfo中有未處理的異常。</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>使用者資訊</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>您可從下表更新您在Blue Ribbon Bags註冊的個人資訊。</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>正在驗證代理……</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;歡迎回來 {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;歡迎首次註冊！&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>郵編</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>郵編</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Booking Reference Code</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Satisfaction Guaranteed Payment per bag:</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>This service is valid for all flights you have booked with the online ticketing site you made your purchase from for the PNR referenced above.</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>資源</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>發送短信通知</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>已找到重複的記錄</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>請瀏覽並選擇您的文件，然後點擊“上傳文件”：</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>上傳文件</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>沒有</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>先前購買已被發現</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>以下記錄已有購買記錄，您想繼續處理其餘記錄嗎？</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>以下記錄是重複的，您想繼續處理其餘記錄嗎？</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>鏈接</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>點擊此處下載模板：</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>上传。 请稍候...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>允許網站使用與上面選擇的“默認電子郵件語言”相同的語言。</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>这包括您的确认号码下的航班 &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>選擇聯繫人數量</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>提供您的聯繫信息</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>請將聯繫人添加到您的報告中</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>如果您想提供包含在您手提包或递送信息中的任何信息，请在此处输入：</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>電子郵件地址</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>手機</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>乘客人數</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>服務級別</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>在過去0小時內，您的行李狀態沒有任何變化。 這是我們提供的最後一次更新。
+一旦我們收到任何信息，您將被告知是否有任何新的事件發生。</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>如果您想接收乘客MBR的邮件，请单击此处</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>客戶參考編號</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>要完成错运行李报告，您必须：</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>每行李保額 :</value>
+  </data>
+  <data name="PIRUpload" xml:space="preserve">
+    <value>PIR上传</value>
+  </data>
+  <data name="PIRUploadText" xml:space="preserve">
+    <value>上载您的财产违规报告（从航空公司获得）</value>
+  </data>
+  <data name="Routing Number" xml:space="preserve">
+    <value>路由号码</value>
+  </data>
+  <data name="MBR_ArrivalFlight2" xml:space="preserve">
+    <value>航班到達號</value>
+  </data>
+  <data name="MBR_Note2" xml:space="preserve">
+    <value>您必须在航班着陆后 24 小时内，向 Blue Ribbon Bags 提交填报行李遗失声明时由航空公司为您提供的报告副本，以便完成错运报告申报流程。如未在航班着陆后 24 小时内提交航空公司为您提供的报告副本，您向 Blue Ribbon Bags 提交的错运行李报告将在 24 小时截止期到期时立即拒绝，您将失去获得行李寻回服务或满意保证付款的资格。请提交此报告副本至 mbr@blueribbonbags.com 并将服务协议号填入标题行。以此处所述方式之外任何其他方式提交的航空公司支持文件都将视为无效提交，不会视为向 Blue Ribbon Bags 提交错运行李报告。  所有未添加支持文件的报告都将在航班着陆后 24 小时截止期到期时拒绝。</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text3" xml:space="preserve">
+    <value>要完成错运行李报告，您必须：</value>
+  </data>
+</root>

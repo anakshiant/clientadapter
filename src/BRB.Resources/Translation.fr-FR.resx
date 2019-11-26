@@ -1,0 +1,2432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>Numéro de compte</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>24 heures sur 24, 7 jours sur 7</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>Vous recevrez un courriel de confirmation de Blue Ribbon Bags dans quelques minutes.  Si vous ne recevez pas de courriel, contactez-nous en gardant avec la confirmation de la transaction Paypal en main.</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>Félicitations !</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>Si votre bagage ne voyage pas avec vous  jusqu'à votre destination finale, veuillez en aviser  le transporteur avant de le signaler à Blue Ribbon Bags. Les bagages dévoyés doivent être signalés à Blue Ribbon Bags dans les 24 heures suivant l’arrivée de votre vol. Vous pouvez effectuer la déclaration soit par téléphone au</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>OK, j'ai fini pour le moment !</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>Niveau de service :</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>LE SERVICE BLUE RIBBON BAGS EST NON REMBOURSABLE ET NON TRANSFÉRABLE. AUCUN REMBOURSEMENT NI AVOIRS NE SERONT CONSENTIS. SI VOTRE VOL EST ANNULÉ ET REMPLACÉ PAR UN NOUVEAU VOL, VEUILLEZ NOUS EN INFORMER AVANT LE DÉPART DE VOTRE NOUVEAU VOL OU ACHETER UN NOUVEAU SERVICE POUR VOTRE NOUVEAU VOL. TOUS LES CHANGEMENTS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS PAR COURRIEL À &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ET VOTRE NUMÉRO D’ENTENTE DE SERVICE DOIT ÊTRE INSCRIT DANS L’OBJET DU MESSAGE. VEUILLEZ INSCRIRE LE NOM ET LE NUMÉRO DE CONFIRMATION DU TRANSPORTEUR AÉRIEN, VOTRE NUMÉRO DE VOL ORIGINAL ET LE NOUVEAU NUMÉRO DE VOL DANS LE CORPS DU COURRIEL. S’IL Y A ÉGALEMENT CHANGEMENT DE TRANSPORTEUR AÉRIEN, VEUILLEZ INDIQUER LE NOM DU NOUVEAU TRANSPORTEUR RESPONSABLE DE VOTRE NOUVEAU VOL.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>ou en ligne au</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>PAIEMENT VALIDÉ</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>Validation du paiement :</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>Informations de paiement</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>Veillez à conserver les informations de suivi de votre bagage (n° de référence/de dossier voyageur) ; celles-ci ont été fournies par le transporteur lors de votre réclamation de perte de bagages. Blue Ribbon Bags a besoin de ces informations pour traiter votre déclaration.  Vous devez effectuer la déclaration auprès de Blue Ribbon Bags dans les 24 heures suivant l'arrivée de votre vol.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>Veuillez conserver ce numéro d'accord de service ; vous en aurez besoin pour déclarer votre bagage dévoyé :</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>Nous vous remercions d'avoir choisi Blue Ribbon Bags. Soyez sûr que nous ferons tout notre possible pour faciliter la restitution de votre bagage.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>Nous sommes heureux de vous compter parmi nos clients. Bon voyage !</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>Total des frais :</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>Nous sommes à votre disposition 24 heures sur 24, 7 jours sur 7. Voyagez l'esprit tranquille, en toute sécurité !</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>Que faire si votre bagage n'arrive pas à destination :</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>Votre n° d'accord de service Blue Ribbon Bags est</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>Veuillez trouver les informations concernant votre paiement ci-dessous. Pour toute question, n'hésitez pas à nous contacter par courriel au</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>Votre accord de service est disponible en ligne au</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>Informez-vous de l'option Bill Me Later (envoyez-moi une facture plus tard). De cette façon, vous éviterez de devoir entrer vos renseignements de paiement à chaque transaction et vous recevrez une facture déduction faite de vos commissions à la fin de chaque mois ! Expédiez simplement un courriel à l'adresse &lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt;, et inscrivez « Bill Me Later » dans l'objet.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>Renseignements sur la livraison du bagage </value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>Nom de la banque</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Adresse de facturation</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>Supprimer tous les champs</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>Envoyer l'enregistrement</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>Le montant entré dans le champs de validation est incorrect. Veuillez essayer à nouveau.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Chèque</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>PAIEMENT</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>PAIEMENT</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>Votre compte agent sera facturé de</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>Veuillez choisir un mode de paiement</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>Valider le paiement</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>Valider le paiement</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>Voulez-vous valider l'achat ?</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>Voulez-vous valider la transaction ?</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>Numéro de carte bancaire</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>Votre carte bancaire sera facturée de</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>Entrez les renseignements de votre carte  </value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>Revenir</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>OPÉRATION NON VALIDE</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>Couverture maximale des pertes : </value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>Non, annuler</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>Nombre de passagers :</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>Ou saisir les informations de votre carte bancaire ci-dessous pour terminer le processus de paiement de l'accord de service.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>Examen des renseignements</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>Total économisé :</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>Niveau de service :</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>N˚ de service :</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>Frais de service :</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>Récapitulatif des services</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>Confirmer l'achat de service pour bagages retardés - PAIEMENT FINAL</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>Veuillez vérifier les informations ci-dessous et appuyer sur le bouton Confirmer le paiement s'il est correct.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirmer le mot de passe</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>Valider votre courriel</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>Service client Blue Ribbon Bags</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>On répondra à toutes les demandes de renseignements par courriel le plus tôt possible. Assurez-vous d’indiquer toutes vos coordonnées de contact, y compris vos numéros de téléphone, afin que nous puissions vous contacter par téléphone en cas de besoin.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>Envoyez-nous un message</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>Envoyer un message</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>Nous répondrons à votre demande par courriel dès que possible. Assurez-vous d'inclure toutes vos coordonnées, y compris vos numéros de téléphone, afin que nous puissions vous contacter par téléphone si nécessaire.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>Si vous êtes client ou avez des questions d'ordre général, contactez-nous au :</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>Vous êtes un agent de voyage ? Contactez-nous au :</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>Pour déposer un nouveau rapport pour bagages dévoyés, composez le +1 (888) BAGGAGE  (+1 (888) 224-4243) ou visitez &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;. Note : ce numéro ne permet pas d'obtenir de précisions sur aucun rapport existant.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>Pour obtenir des précisions sur des rapports de bagages dévoyés existants, visitez &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; ou expédiez un courriel à &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt; en indiquant votre numéro de MBR dans l'objet.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>Merci !</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>Langue par défaut du courriel</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>$ US</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>TOUS</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- AUCUN --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>AUTRE</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>--Sélectionnez--</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>NON ATTRIBUÉ</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>Choisir langue pour notifications par courriel</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>Cette protection couvre tous vos vols pris auprès de &lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>Cette protection couvre vos vols sur le transporteur &lt;b&gt;{0}&lt;/b&gt;, pour le numéro de confirmation &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>LE SERVICE BLUE RIBBON BAGS EST NON REMBOURSABLE ET NON TRANSFÉRABLE. AUCUN REMBOURSEMENT NI AUCUN AVOIR NE SERONT CONSENTIS. SI VOTRE VOL EST ANNULÉ ET REMPLACÉ PAR UN NOUVEAU VOL, VEUILLEZ NOUS EN INFORMER AVANT LE DÉPART DE VOTRE NOUVEAU VOL OU ACHETER UN NOUVEAU SERVICE POUR VOTRE NOUVEAU VOL. TOUS LES CHANGEMENTS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS PAR COURRIEL À &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, ET VOTRE NUMÉRO D’ENTENTE DE SERVICE DOIT ÊTRE INSCRIT DANS L’OBJET DU MESSAGE. VEUILLEZ INSCRIRE LE NOM ET LE NUMÉRO DE CONFIRMATION DU TRANSPORTEUR AÉRIEN, VOTRE NUMÉRO DE VOL ORIGINAL ET LE NOUVEAU NUMÉRO DE VOL DANS LE CORPS DU COURRIEL. S’IL Y A ÉGALEMENT CHANGEMENT DE TRANSPORTEUR AÉRIEN, VEUILLEZ INDIQUER LE NOM DU NOUVEAU TRANSPORTEUR RESPONSABLE DE VOTRE NOUVEAU VOL.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>LE SERVICE BLUE RIBBON BAGS EST NON REMBOURSABLE ET NON TRANSFÉRABLE. AUCUN REMBOURSEMENT NI AUCUNE NOTE DE CRÉDIT NE SERONT OCTROYÉS. SI VOTRE VOL EST ANNULÉ ET REMPLACÉ PAR UN NOUVEAU VOL, VEUILLEZ NOUS EN INFORMER AVANT LE DÉPART DE VOTRE NOUVEAU VOL OU ACHETER UN NOUVEAU SERVICE POUR VOTRE NOUVEAU VOL. TOUS LES CHANGEMENTS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS PAR COURRIEL À &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, AET VOTRE NUMÉRO D’ENTENTE DE SERVICE DOIT ÊTRE INSCRIT DANS L’OBJET DU MESSAGE. VEUILLEZ INSCRIRE LE NOM ET LE NUMÉRO DE CONFIRMATION DU TRANSPORTEUR AÉRIEN, VOTRE NUMÉRO DE VOL ORIGINAL ET LE NOUVEAU NUMÉRO DE VOL DANS LE CORPS DU COURRIEL. S’IL Y A ÉGALEMENT CHANGEMENT DE TRANSPORTEUR AÉRIEN, VEUILLEZ INDIQUER LE NOM DU NOUVEAU TRANSPORTEUR RESPONSABLE DE VOTRE NOUVEAU VOL.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>Envoyer l'enregistrement</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Date d'expiration</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>Renseignements sur l'arrivée du vol</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>Accord de service Blue Ribbon Bags</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>Caractéristiques du service bagage</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Copyright 2019 Blue Ribbon Bags, LLC. U.S. and International Patents Pending.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>Chaque achat est soumis aux conditions générales de vente de</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>Déclarer un bagage dévoyé</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>accueil</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>Les obligations contractuelles de Blue Ribbon Bags sont couvertes par une compagnie d'assurance de classe A- (excellent) par A.M. Best Company.</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>Acheter le service bagage</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* Vous pouvez modifier les renseignements vous concernant en cliquant sur le bouton « Revenir » sans qu'il ne soit nécessaire d'entrer de nouveau les renseignements précédents</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>Agent/Vendeur</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>N˚ de confirmation du transporteur</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>Nom du transporteur</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Éditer</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>Nom de Famille</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>N˚ Pax</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>Produit</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>Date de l'achat</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>Coût du service</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>N˚ de service BRB</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>POUR SEULEMENT 5 $, &lt;/BR&gt;, BRB FERA LE SUIVI ET ACCÉLÉRERA LE RETOUR DE VOS BAGAGES NON LIVRÉS &lt;/BR&gt; PAR LE TRANSPORTEUR AÉRIEN.</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>Voyagez en toute sécurité et l’esprit tranquille</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>SI VOTRE BAGAGE N’EST PAS TROUVÉ &lt;/BR&gt;  APRÈS 96 HEURES &lt;/BR&gt; BRB ÉMETTRA UN PAIEMENT DE 1 000 $ PAR BAGAGE, CONFORMÉMENT À LA GARANTIE.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>La véritable paix d’esprit &lt;/br&gt; sans préoccupation.</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>Rapport de bagages perdus</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>N’oubliez pas d'aviser d’abord le transporteur aérien que votre bagage n’est pas arrivé à votre destination finale. Le transporteur aérien vous fournira les renseignements de contrôle requis pour déposer un rapport auprès de Blue Ribbon Bags. Tous les bagages perdus doivent être signalés à Blue Ribbon Bags dans les 24 heures suivant l’arrivée du vol du passager.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>Déposer un rapport</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>Vous pouvez aussi signaler votre bagage perdu par téléphone à 888-BAGGAGE (888-224-4243), 24 heures sur 24, 7 jours sur 7.</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>Nos partenaires</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>Notre portée</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>21 millions</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>Bagages dévoyés par année</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>Transporteurs aériens couverts</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>Vols quotidiens dans le monde</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>Ce qu’en disent les autres</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>Dans l’actualité</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>Lire plus</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>Le service à la clientèle est formidable, et le service de protection des bagages de Blue Ribbon Bags EST f…</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>Si la perte d'un bagage vous préoccupe, il existe maintenant une application pour cela… Blue Ribbon Bags a déjà…</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>Actuellement, il s’agit de la seule couverture de ce genre pour les bagages perdus qui peut être…</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>Quiconque a déjà fait affaires avec un transporteur aérien qui a perdu son bagage sait à quel point la situation est cauchemardesque… mais Blue Ribbon Bags…</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>Achat de service de bagage</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>Cliquer sur &lt;b&gt;CONNEXION&lt;/b&gt; pour acheter une couverture BLUE RIBBON BAGS pour vos clients.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>Cliquer sur &lt;b&gt;SOUSCRIRE/b&gt; pour être autorisé à revendre les services de couverture bagage Blue Ribbon Bags à vos clients.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>*Les frais d'accord de service s'entendent pour une personne. Le montant d'indemnisation couvre un bagage.</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* L'indemnité couvre deux bagages non délivrés par personne </value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>Déclarer votre bagage dévoyé</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>POUR SEULEMENT 5 $ US, BRB RETROUVE VOTRE BAGAGE ÉGARÉ ET ACCÉLÈRE SA RESTITUTION VIA LE TRANSPORTEUR.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>Besoin de plus d'informations ? Envoyer-nous un courriel :</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>Vous n'avez pas besoin de présenter de justificatifs pour obtenir votre indemnisation. </value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Blue Ribbon Bags propose trois formules de garantie d'indemnisation pour son service bagage.</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>BRB s'engage à verser 1 000 $ US pour chaque bagage non restitué après 4 jours.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>Acheter</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>FRAIS D'ACCORD SERVICE</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>INDEMNISATION GARANTIE</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>Agents de voyage</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>Bagages dévoyés ? Signalez-le au :</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inactif</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>Fermeture de session</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>CONNEXION</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>Identifiant</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>J'ai besoin d'un mot de passe</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>Me rappeler mon identifiant</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>Ouvrez une session à Blue Ribbon Bags</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>Identifiant et/ou mot de passe incorrect.  Le mot de passe tient compte des majuscules et minuscules. Veuillez saisir votre identifiant et mot de passe à nouveau ou contactez votre administrateur pour réinitialiser le mot de passe.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>Renseignements sur un bagage perdu</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>Votre bagage enregistré n'arrive pas à destination.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>Vous déposez une réclamation de perte de bagage auprès du transporteur qui devez acheminer votre bagage ; le transporteur vous remet un numéro de référence ou de dossier voyageur.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>Déclarez la perte de votre bagage auprès de Blue Ribbon Bags dans les 24 heures suivant l'arrivée de votre vol.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>Votre bagage ne vous est pas restitué dans les quatre (4) jours suivant l'arrivée de votre vol, comme l'atteste le transporteur.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>LES 5 $ US DE SOUSCRIPTION COUVRENT TOUS LES BAGAGES ENREGISTRÉS À L'AÉROPORT, Y COMPRIS CEUX ENREGISTRÉS À LA PORTE D'EMBARCATION À LA DERNIÈRE MINUTE.</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt;LES PASSAGERS RECEVRONT DES COURRIELS DE NOTIFICATION AUTOMATIQUES LES INFORMANT DE TOUT CHANGEMENT CONCERNANT LE STATUT DE LEUR BAGAGE. IL EST DONC INUTILE POUR LES PASSAGERS DE CONTACTER LE TRANSPORTEUR POUR SE RENSEIGNER SUR LE STATUT DE LEUR BAGAGE. &lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>VOUS N'AVEZ BESOIN DE PRÉSENTER &lt;b&gt;AUCUN &lt;/b&gt; JUSTIFICATIF (FACTURES, PREUVES D'ACHAT) POUR TOUCHER VOTRE INDEMNISATION</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>L'INDEMNISATION SE LIMITE À DEUX BAGAGES DÉVOYÉS PAR PERSONNE.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>NOUS NOUS ENGAGEONS À VOUS INDEMNISER MÊME SI VOS BAGAGES SONT RETROUVÉS APRÈS LE DÉLAI DE 96 HEURES.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>LE SERVICE BAGAGE NE COUVRE NI LES BAGAGES VOLÉS OU ENDOMMAGÉS NI LES ARTICLES MANQUANTS. LA COUVERTURE S'APPLIQUE SEULEMENT AUX BAGAGES MAL ACHEMINÉS PAR LE TRANSPORTEUR. &lt;b&gt;VOUS DEVEZ DÉCLARER LA PERTE DE VOTRE BAGAGE DANS LES 24 HEURES SUIVANT VOTRE ARRIVÉE.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>BRB VEND UN SERVICE. L'ACCORD DE SERVICE BRB NE REMPLACE PAS UNE COUVERTURE ASSURANCE EXISTANTE ; ELLE S'Y AJOUTE. LE REMBOURSEMENT DE BLUE RIBBON BAGS N'AURA AUCUNE INCIDENCE SUR LE VERSEMENT DE VOTRE INDEMNITÉ ASSURANCE.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>LE SERVICE BLUE RIBBON BAGS EST NON REMBOURSABLE ET NON TRANSFÉRABLE. AUCUN REMBOURSEMENT NI AUCUNE NOTE DE CRÉDIT NE SERONT OCTROYÉS. SI VOTRE VOL EST ANNULÉ ET REMPLACÉ PAR UN NOUVEAU VOL, VEUILLEZ NOUS EN INFORMER AVANT LE DÉPART DE VOTRE NOUVEAU VOL OU ACHETER UN NOUVEAU SERVICE POUR VOTRE NOUVEAU VOL. TOUS LES CHANGEMENTS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS PAR COURRIEL À &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, EN INSÉRANT LE NUMÉRO D’ACCORD DE SERVICE DANS LE SUJET DU MESSAGE. VOUS DEVEZ INDIQUER LE NOM ET LE NUMÉRO DE CONFIRMATION DU TRANSPORTEUR AÉRIEN, VOTRE NUMÉRO DE VOL ORIGINAL ET, S'IL A CHANGÉ, LE NOUVEAU NUMÉRO DE VOL DANS LE CORPS DU COURRIEL. S’IL Y A ÉGALEMENT CHANGEMENT DE TRANSPORTEUR AÉRIEN, VEUILLEZ INDIQUER LE NOM DU NOUVEAU TRANSPORTEUR RESPONSABLE DE VOTRE NOUVEAU VOL.</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>VOUS POUVEZ VOUS SOUSCRIRE AU SERVICE BLUE RIBBON BAGS JUSQU'AU MOMENT DE DÉPART DE VOTRE VOL.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>CHAQUE SOUSCRIPTION (5 $ US) S'ENTEND PAR PERSONNE ET PAR NUMÉRO DE CONFIRMATION DU TRANSPORTEUR, QUEL QUE SOIT LE NOMBRE D'ESCALES OU DE CORRESPONDANCES ASSOCIÉES À CE NUMÉRO. LES FRAIS DE SOUSCRIPTION COUVRENT UN VOL ALLER-RETOUR (UN SEUL NUMÉRO DE CONFIRMATION).</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>SI VOUS RÉSERVEZ DES VOLS SÉPARÉMENT SOUS DES NUMÉROS DE CONFIRMATION DIFFÉRENTS, VOUS DEVEZ ACHETER UN NOUVEAU SERVICE POUR CHAQUE NOUVEAU VOL.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;RÉSERVÉ POUR LES AGENTS DE VOYAGE&lt;/u&gt; :  CHAQUE SOUSCRIPTION S'ENTEND PAR PERSONNE ET PAR NUMÉRO DE CONFIRMATION DU TRANSPORTEUR, QUEL QUE SOIT LE NOMBRE D'ESCALES OU DE CORRESPONDANCES.</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>POUR LES PAIEMENTS EFFECTUÉS PAR UN  SYSTÈME DE BILLETTERIE EN LIGNE : CHAQUE SERVICE S'ENTEND PAR ITINÉRAIRE RÉSERVÉ SUR LE SITE WEB ; CET ITINÉRAIRE FIGURE AVEC LE  NUMÉRO DE CONFIRMATION DONNÉ AU MOMENT DE L'ACHAT. VOUS DEVEZ ACHETEZ UN NOUVEAU SERVICE SI VOUS RÉSERVEZ UN NOUVEAU VOL EN DEHORS DU SYSTÈME DE BILLETTERIE EN LIGNE. VOUS N'AVEZ PAS BESOIN D'ACHETER UN NOUVEAU SERVICE SI VOTRE NOUVEAU VOL EST RÉSERVÉ SUR LE MÊME SITE WEB ET SI LE N˚ DE CONFIRMATION DE PASSAGER RESTE LE MÊME.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>BRB COUVRE TOUS LES VOLS ET TOUS LES TRANSPORTEURS, QUEL QUE SOIT LE POINT DE DÉPART DU VOL.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>VOUS DEVEZ DÉPOSER UNE RÉCLAMATION AUPRÈS DU TRANSPORTEUR AVANT DE SIGNALER LA PERTE DE VOTRE BAGAGE À BLUE RIBBON BAGS.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>LES DÉCLARATIONS DE BAGAGE(S) ÉGARÉ(S) PEUVENT ÊTRE EFFECTUÉES EN LIGNE &lt;a href="{0}" target="_blank"&gt;HERE&lt;/a&gt; OU OAR TÉLÉPHONE AU (888) BAGGAGE (+1 888-224-4243), 24H SUR 24, 7J SUR 7.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>LA PERTE DE VOS BAGAGES DOIT ÊTRE DÉCLARÉE DANS LES 24 HEURES SUIVANT L'ARRIVÉE DE VOTRE VOL. PASSÉ CE DÉLAI DE 24 HEURES LA RESPONSABILITÉ DE BLUE RIBBON BAGS EST DÉGAGÉE . </value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>Vous devez déposer votre réclamation auprès de votre transporteur avant de contacter Blue Ribbon Bags.</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>Déclarez la perte de votre bagage auprès de Blue Ribbon Bags dans les 24 heures suivant l'arrivé de votre vol. Ces déclarations peuvent être déposées 24 heures sur 24, 7 jours sur 7 :</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>En ligne &lt;a href="{0}" target="_blank"&gt;HERE&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>Par téléphone au (888) BAGGAGE (+1 888-224-4243)</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Blue Ribbon Bags va maintenant activer son service pour une localisation et restitution rapide de votre bagage. Vous recevrez des courriels de notification automatiques sur le statut de votre bagage.&lt;br /&gt;&lt;strong&gt;Il vous est donc inutile  de contacter le transporteur à ce sujet.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Si Blue Ribbon Bags ne retrouve pas votre bagage dans les 96 heures suivant l'arrivée de votre vol, un montant fixe d'indemnisation vous sera versé une minute après l'expiration de ce délai.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>Faut-il que je sache autre chose ?</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>Que faire si mon bagage est dévoyé ?</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>Comment savoir si je peux être indemnisé ?</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Blue Ribbon Bags (BRB) propose un service de suivi et de récupération rapide d'un bagage  dévoyé dans les 96 heures suivant sa perte. Si Blue Ribbon Bags ne parvient pas à restituer le bagage du passager dans ce délai, une indemnisation est versée. Cette indemnisation est garantie, même si le bagage est restitué A TOUT MOMENT après  le délai de 96 heures.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>Caractéristiques importantes du service bagage</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>Adresse domiciliaire permanente du passager</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>Numéro d'acheminement ABA</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>Numéro de compte :</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>N° d'accord de service</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>N° de confirmation du transporteur</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>Date d'arrivée du vol</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>N° du vol d'arrivée</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>Heure d'arrivée du vol</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>Joindre BIR/PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>N° de l'étiquette de bagage</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>Vous devez informer le transporteur que votre bagage n'est pas arrivé à sa destination finale avant de déclarer un bagage dévoyé à Blue Ribbon Bags. Le transporteur vous a remis les informations de  suivi qui vous seront utiles pour renseigner ci-dessous la déclaration de bagage dévoyé. </value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>Adresse du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>Ville du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>Pays du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>Courriel du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>Prénom du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>Nom de famille du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>N˚ de téléphone du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>État du bénéficiaire</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>Code postal du bénéficiaire</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>Cliquer sur la rangée pour sélectionner</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>Valider votre courriel</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>Cliquez pour copier si l’adresse est exactement la même que celle ci-dessus.</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>Vous disposez de {0} à compter de l'heure d’envoi de ce courriel pour apporter les changements demandés en fournissant les renseignements appropriés. Si vous ne répondez pas en fournissant les renseignements appropriés à l’intérieur du délai de {0}, votre rapport pour bagage dévoyé sera rejeté. Votre rapport ne sera pas accepté même s’il est soumis de nouveau.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>Le numéro de référence que vous avez soumis n’est pas valide. Vous devez contacter votre transporteur aérien et lui demander de vous fournir immédiatement un numéro de référence valide. Ce numéro doit nous être communiqué dans les 24 heures suivant l’arrivée de votre vol pour que votre rapport soit traité. Blue Ribbon Bags ne récupère pas les numéros de référence de dossier pour le passager. &lt;br/&gt; Il incombe au passager d’obtenir ce numéro auprès du transporteur aérien et de le communiquer à BRB dans les 24 heures suivant l’arrivée de son vol. Si nous ne recevons pas de numéro de référence valide dans les 24 heures suivant l’arrivée de votre vol, votre rapport sera rejeté et vous ne serez pas admissible au service de récupération de bagage ou à recevoir un paiement au titre de la garantie de satisfaction. Nous ne rouvrirons pas votre dossier, quelle que soit la situation, si l’information est fournie une fois passé le délai de 24 heures à compter de l’arrivée de votre vol. &lt;br/&gt; Si vous avez déjà soumis à BRB une copie du rapport fourni par le transporteur aérien lorsque vous avez déposé votre demande pour bagages perdus et que vous recevez quand même ce courriel, cela signifie que le transporteur ne vous a pas fourni un numéro de référence valide. Vous devez immédiatement le contacter pour obtenir ce numéro et nous le communiquer à l’intérieur du délai de 24 heures suivant l’arrivée de votre vol.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>Saisir les informations de réclamation de bagages  suivantes de votre transporteur :</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>Veuillez saisir le numéro d'accord de service Blue Ribbon Bags :</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>N° de référence/de dossier voyageur</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>Faire une déclaration</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>Nom de l'hôtel</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>Si vous quittez votre destination finale de vol avant l'expiration du délai de 96 heures et que vous souhaitez nous en informer pour nous communiquer des consignes de livraison, envoyez un courriel à  &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt; en indiquant le numéro MBR attribué lors de votre réclamation dans le sujet du courriel et donnez le plus de détails possibles sur votre situation.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>N˚ MBR</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>Nom de la banque :</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>Nous sommes désolés, mais ce rapport ne peut être édité de sorte que ces renseignements ne peuvent plus être corrigés. Merci d'avoir choisi Blue Ribbon Bags. Voyagez en toute sécurité et l'esprit en paix !</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>La recherche ne donne aucun résultat</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>Vous êtes tenu(e) de présenter à Blue Ribbon Bags, dans le délai de 24 heures à compter de l’atterrissage de votre vol, une copie du justificatif de réclamation qui vous a été remis par la compagnie d’aviation lorsque vous avez déposé votre réclamation de perte de bagages auprès d’elle, afin de finaliser le processus de dépôt de réclamation concernant vos bagages. À défaut d’envoi, dans les 24 heures de l’atterrissage de votre vol, d’une copie du justificatif qui vous a été remis par la compagnie d’aviation, la réclamation auprès de Blue Ribbon Bags concernant vos bagages sera immédiatement rejetée à l’expiration du délai de 24 heures, et vous ne pourrez pas prétendre aux services de récupération des bagages ni à notre Paiement Satisfaction garantie. Veuillez envoyer une copie du présent compte-rendu à  mbr@blueribbonbags.com et indiquer le numéro de votre Contrat de service dans la ligne d’objet de votre courrier électronique. L’envoi de documents de la compagnie aérienne au soutien de votre demande, d’une façon autre que celle indiquée ici, ne sera pas considéré comme un envoi valide au regard de la réclamation concernant vos bagages déposée auprès de Blue Ribbon Bags.  Toute réclamation non accompagnée des documents requis sera rejetée à l’expiration du délai de 24 heures suivant l’atterrissage de votre vol.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>Le pax restera à cette adresse jusqu'au</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>Adresse du paiement</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>Paiement effectué par</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>Ville du paiement</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>Pays du paiement</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>Remarque : les détails du paiement peuvent être modifiés après le dépôt initial du rapport. Il peut s'ensuivre un léger retard dans le traitement du paiement.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>Courriel du paiement</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>Prénom du paiement</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>Nom de famille du paiement</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>N˚ de téléphone du du paiement</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>État du paiement</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>Code postal du paiement</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>Adresse de courriel PayPal </value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>Veuillez remplir les renseignements rattachés à votre compte PayPal </value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>Prénom PayPal </value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>Nom de famille PayPal </value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>Les champs doivent reproduire exactement les informations saisies sur le formulaire de réclamation du transporteur.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>Veuillez saisir les informations de paiement. &lt;b&gt; Indiquez l'adresse où vous souhaitez recevoir votre indemnité au cas où votre bagage est retardé de plus de 96 heures. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>Veuillez entrer les renseignements relatifs au paiement. &lt;b&gt;Il s'agit de l'endroit où vous désirez que votre paiement soit envoyé si votre bagage est retardé pendant plus de 96 heures. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>Reproduire exactement les informations saisies sur le formulaire de réclamation du transporteur. &lt;b&gt;Indiquez l'adresse où vous voulez recevoir votre bagage.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>Rechercher par (Faire un choix)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>N˚ d'accord de service</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>Renseignements sur le vol d'arrivée</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>Renseignements sur les bagages dévoyés </value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>Numéro de l'accord de service </value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>Renseignements sur la livraison des bagages </value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>Renseignements relatifs au paiement </value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>Code Swift</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>Bagage dévoyé</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>LES BAGAGES DÉVOYÉS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS AVEC LE NUMÉRO DE RÉFÉRENCE CORRESPONDANT DANS LES 24 HEURES SUIVANT L'ARRIVÉE DU VOL. PASSÉ CE DÉLAI DE 24 HEURES LA RESPONSABILITÉ DE BLUE RIBBON BAGS EST DÉGAGÉE.
+SI LE TRANSPORTEUR NE VOUS A PAS REMIS UN NUMÉRO DE RÉFÉRENCE VALIDE, VOUS DEVEZ LE DEMANDER AU TRANSPORTEUR AVANT DE FAIRE UNE DÉCLARATION AUPRÈS DE BRB. IL VOUS INCOMBE D'OBTENIR CE NUMÉRO AVANT DE NOUS CONTACTER POUR EFFECTUER UNE DÉCLARATION.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>Numéro des bagages dévoyés</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>Un numéro de réf. dossier et un numéro d'étiquette de bagage vous ont été remis lorsque vous avez déclaré votre perte de bagage au transporteur. Veuillez les saisir ici :</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>Coordonnées d'ouverture de session de l'agent </value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>Caractéristiques</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>Effectuer une déclaration</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>Bagages manquants</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>Renseignements</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>Cliquez ici si vous désirez recevoir un courriel de confirmation.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>Cliquez ici si vous désirez que le passager reçoive un courriel de confirmation.  </value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>Ne pas afficher le montant total des frais dans le courriel de confirmation de service</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>Mon compte</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>SI VOUS SOUHAITEZ FOURNIR DES INFORMATIONS RELATIVES À VOTRE SAC OU À VOS INFORMATIONS DE LIVRAISON, VEUILLEZ LE SAISIR ICI</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>Le champ du mot de passe est laissé vide intentionnellement. Si vous voulez changer de  mot de passe,  saisissez le nouveau de passe et confirmez- le.&lt;br /&gt;&lt;br /&gt;
+                    Le mot de passe doit contenir au moins 8 (huit) caractères et au moins une valeur alphabétique, une valeur numérique et un caractère spécial. Au moins un des caractères alphabétiques doit être en majuscule.&lt;br /&gt;&lt;br /&gt;
+                    Les caractères spéciaux autorisés comprennent les suivants : &amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>Renseignements sur l'adresse du paiement </value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>Renseignements relatifs au paiement </value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>OK, j'ai fini pour le moment !</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>Félicitations !</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>Niveau de service :</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>Nombre de passagers :</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>Validation du paiement :</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>Informations de paiement</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>Code de promotion :</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>Merci d'avoir choisi Blue Ribbon Bags pour votre prochain voyage. Soyez assurés que nous ferons le maximum pour vous rendre les choses aussi simples que possible.&lt;br /&gt;&lt;br /&gt;Votre numéro d'accord de service est le</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>Conservez ce numéro d'accord de service ; vous en aurez besoin pour déclarer votre bagage manquant à destination.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>Vous recevrez un courriel de confirmation de Blue Ribbon Bags dans quelques minutes.  Si vous ne recevez pas de courriel, contacter-nous avec en main la confirmation de la transaction Paypal.</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;Que faire si votre bagage n’arrive pas à destination?&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;Si votre bagage ne vous a pas accompagné pas jusqu’à la destination finale, veuillez en aviser le transporteur aérien avant de le signaler à Blue Ribbon Bags. Les bagages dévoyés doivent être signalés à Blue Ribbon Bags dans les 24 heures suivant l’arrivée du vol. Vous pouvez signaler tout bagage dévoyé à Blue Ribbon Bags par téléphone au &lt;strong&gt;{0}&lt;/strong&gt; ou en ligne &lt;a href="{1}"&gt;{2}&lt;/a&gt;, 24 heures sur 24, 7 jours sur 7. /&gt;&lt;br /&gt;Veillez à conserver les renseignements de suivi des bagages (numéro de référence/de dossier voyageur) fournis par le transporteur aérien lorsque vous déclarez un bagage manquant au transporteur ; Blue Ribbon Bags aura besoin de ces renseignements pour traiter votre déclaration. Les bagages dévoyés doivent être signalés à Blue Ribbon Bags dans les 24 heures suivant l’arrivée du vol.&lt;br /&gt;&lt;br /&gt;Veuillez trouver vos informations de paiement ci-dessous. Pour toute question, n’hésitez pas à communiquer avec Blue Ribbon Bags par courriel à &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a. Nous sommes à votre disposition 24 heures sur 24, 7 jours sur 7. Voyagez en toute sécurité et l’esprit en paix !&lt;br /&gt;&lt;br /&gt;Vous pouvez consulter votre accord de service en ligne à &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;. Nous vous remercions d’avoir choisi notre société et la tranquillité d’esprit.&lt;br /&gt;&lt;br /&gt;LE SERVICE BLUE RIBBON BAGS EST NON REMBOURSABLE ET NON TRANSFÉRABLE. AUCUN REMBOURSEMENT NI AUCUN AVOIR NE SERONT VERSÉ. SI VOTRE VOL EST ANNULÉ ET REMPLACÉ PAR UN NOUVEAU VOL, VEUILLEZ NOUS EN INFORMER AVANT LE DÉPART DE VOTRE NOUVEAU VOL OU ACHETER UN NOUVEAU SERVICE POUR VOTRE NOUVEAU VOL. TOUS LES CHANGEMENTS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS PAR COURRIEL À &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; EN INDIQUANT VOTRE NUMÉRO D’ACCORD DE SERVICE DANS LE SUJET DU COURRIEL. VEUILLEZ INSCRIRE LE NOM ET LE NUMÉRO DE CONFIRMATION DU TRANSPORTEUR AÉRIEN, VOTRE NUMÉRO DE VOL ORIGINAL ET LE NOUVEAU NUMÉRO DE VOL DANS LE CORPS DU COURRIEL. S’IL Y A ÉGALEMENT CHANGEMENT DE TRANSPORTEUR AÉRIEN, VEUILLEZ INDIQUER LE NOM DU NOUVEAU TRANSPORTEUR RESPONSABLE DE VOTRE NOUVEAU VOL.&lt;br /&gt;&lt;br /&gt;
+</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>VOTRE PAIEMENT A ÉTÉ TRAITÉ</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>Total des frais :</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>N˚ de téléphone</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>Tous les bagages ont été retracés et ce dossier est fermé</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>Raison du refus</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>Les déclarations de bagage dévoyé peuvent être effectuées 24 heures sur 24, 7 jours sur 7 en cliquant  &lt;a href="{0}" target="_blank"&gt;Ici&lt;/a&gt;ou en composant le 888-BAGGAGE.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>Si le passager indique à Blue Ribbon Bags, ou au transporteur auprès de qui il a déposé sa réclamation, qu'il préfère récupérer son bagage plutôt que de l'avoir livré,  le dossier de réclamation  est clos ; dans pareil cas, le bagage est réputé restitué dès  qu'il arrive à l'aéroport. </value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>Le dossier de réclamation est clos quand le bagage arrive à la destination indiquée dans le formulaire de réclamation de bagage dévoyé.</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>*Signalez-nous toute information incorrecte par courriel : &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>Remarques du gestionnaire de réclamations :</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>La recherche ne donne aucun résultat</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>L'information sur le bagage dévoyé est : &amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>Dossier en cours depuis &lt;strong&gt;{0}&lt;/strong&gt; jours.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>La déclaration de bagage dévoyé sera versée à : &amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>La déclaration donnera lieu à un paiement si elle est sans résolution dans &lt;strong&gt;{0}&lt;/strong&gt; jours.</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>Le passagers recevront des courriels de notification automatiques leur faisant part de tout changement concernant le statut de leurs bagages. Il est donc inutile qu'ils contactent leur transporteur pour s'informer  à leur sujet.</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>Caractéristiques :</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>NOTRE NUMÉRO DE TÉLÉPHONE (888-BAGGAGE) EST UTILISÉ UNIQUEMENT POUR RECEVOIR LES NOUVEAUX RAPPORTS DE BAGAGE DÉVOYÉ. CE NUMÉRO DE TÉLÉPHONE NE DONNE ACCÈS À AUCUN RENSEIGNEMENT SUR LES RAPPORTS DE BAGAGE dévoyé EXISTANTS. VEUILLEZ ADRESSER TOUTE QUESTION, TOUTE INFORMATION OU TOUT COMMENTAIRE RELATIFS À DES RAPPORTS DE BAGAGE dévoyé EXISTANTS, QU'ILS SOIENT NOUVEAUX, OUVERTS, ERRONÉS OU CLOS, POUR TOUTE RAISON, PAR COURRIEL À &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ET VEUILLEZ INDIQUER LE NUMÉRO D'ENTENTE DE SERVICE DANS L'OBJET.</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>Les passagers doivent déclarer la perte de leur bagage auprès de leur transporteur (en suivant la procédure de la compagnie) avant de déposer une réclamation auprès de Blue RIbbon Bags.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+LES BAGAGES DOIVENT ÊTRE DÉCLARÉS DÉVOYÉS AUPRÈS DE BLUE RIBBON BAGS AVEC LE NUMÉRO DE RÉFÉRENCE CORRESPONDANT DANS LES 24 HEURES SUIVANT L'ARRIVÉE DU VOL. PASSÉ CE DÉLAI DE 24 HEURES LA RESPONSABILITÉ DE BLUE RIBBON BAGS EST DÉGAGÉE. SI LE TRANSPORTEUR NE VOUS A PAS REMIS UN NUMÉRO DE RÉFÉRENCE VALIDE, VOUS DEVEZ LE DEMANDER AU TRANSPORTEUR AVANT DE FAIRE UNE DÉCLARATION AUPRÈS DE BRB. BLUE RIBBON BAGS NE FERA PAS CETTE DÉMARCHE. IL VOUS INCOMBE DONC D'OBTENIR CE NUMÉRO AVANT DE NOUS CONTACTER POUR EFFECTUER UNE DÉCLARATION. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Si le bagage retrouvé n'est pas le bagage du passager, celui dispose d'un délai de 12 heures, après notification de clôture du dossier pour cause de retour du bagage, pour informer Blue Ribbons de l'erreur par courriel à &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; en indiquant « Not my bag » (pas mon bagage)  dans le sujet avec le numéro MBR. Le passager doit expliquer la nature de l’erreur qui a été faite en apportant le plus de précisions possibles et en joignant des pièces justificatives (s’il y a lieu). Si l’erreur est confirmée, Blue Ribbon Bags aura 72 heures pour retrouver le bagage du client à compter du moment où le dossier a été rouvert. Dans le cas où le délai de 96 heures suivant l’arrivée du vol ne serait pas encore arrivé à terme, Blue Ribbon Bags aura jusqu’à l’expiration de ce délai original pour retrouver le bagage du passager.
+Dans tous les cas, nous considérerons que le bagage a été restitué une fois qu'il arrive à l'aéroport indiqué dans le formulaire de réclamation et le dossier sera fermé.
+&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;
+Toute soumission déposée après le délai de 12 heures ne sera pas traitée ; dans tel cas, le passager ne pourra bénéficier du service de restitution de bagage et n’obtiendra pas d’indemnisation, peu importe les pièces justificatives fournies.
+&lt;/strong&gt;
+</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;NOTRE NUMÉRO DE TÉLÉPHONE (888-BAGGAGE) EST UTILISÉ UNIQUEMENT POUR RECEVOIR LES NOUVEAUX RAPPORTS DE BAGAGE ÉGARÉ. 
+                        CE NUMÉRO DE TÉLÉPHONE NE DONNE ACCÈS À AUCUN RENSEIGNEMENT SUR LES RAPPORTS DE BAGAGE ÉGARÉ EXISTANTS.
+                        VEUILLEZ ADRESSER TOUTE QUESTION, TOUTE INFORMATION OU TOUT COMMENTAIRE RELATIFS À DES RAPPORTS DE BAGAGE ÉGARÉ EXISTANTS, QU'ILS SOIENT NOUVEAUX, OUVERTS, ERRONÉS OU CLOS, POUR TOUTE RAISON, PAR COURRIEL 
+                        À &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, ET VEUILLEZ INDIQUER LE NUMÉRO D'ENTENTE DE SERVICE DANS L'OBJET&lt;/li&gt;
+                    &lt;li&gt;Avant de signaler un bagage dévoyé à Blue Ribbon Bags, le passager doit déposer une réclamation pour bagages perdus auprès du transporteur aérien (conformément aux règles du transporteur aérien en cause).&lt;/li&gt;
+                    &lt;li&gt;LES BAGAGES NON LIVRÉS, AINSI QU’UN NUMÉRO DE RÉFÉRENCE VALIDE DU TRANSPORTEUR AÉRIEN, DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS DANS LES 24 HEURES SUIVANT L'ARRIVÉE DU VOL. LE SERVICE DE BLUE RIBBON BAGS NE SERA PAS RESPECTÉ POUR LES BAGAGES DÉCLARÉS UNE FOIS PASSÉ LE DÉLAI DE 24 HEURES. SI LE TRANSPORTEUR AÉRIEN NE VOUS A PAS FOURNI DE NUMÉRO DE RÉFÉRENCE VALIDE, IL VOUS FAUT LE CONTACTER ET OBTENIR CE NUMÉRO AVANT DE DÉPOSER VOTRE RAPPORT À BLUE RIBBON BAGS. BLUE RIBBON BAGS NE TENTERA PAS D'OBTENIR LE NUMÉRO DE RÉFÉRENCE AUPRÈS DU TRANSPORTEUR AÉRIEN. IL INCOMBE AU PASSAGER D'OBTENIR CE NUMÉRO AUPRÈS DU TRANSPORTEUR AVANT DE DÉPOSER UN RAPPORT DE BAGAGE ÉGARÉ À BLUE RIBBON BAGS.&lt;/li&gt;
+                    &lt;li&gt; &lt;b&gt;&lt;u&gt;Pour TOUS les vols dont le point d’arrivée est en dehors des États-Unis:&lt;/u&gt; Afin de compléter votre déclaration de bagage dévoyé, vous devez envoyer à Blue Ribbon Bags une copie du rapport fourni par votre transporteur aérien lors de votre réclamation dans les 24 heuressuivant l’arrivée de votre vol. Si vous ne nous remettez pas ce rapport à l’intérieur du délai de 24 heures, votre déclaration auprès de Blue Ribbon Bags sera rejetée et vous ne serez pas admissible au service de récupération de bagage ou à recevoir un paiement au titre de la garantie de satisfaction.Envoyer une copie de votre rapport à &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; en indiquant votre numéro d’accord de service dans l’objet du message. Toute déclaration qui ne respecterait pas ces consignes sera rejetée.&lt;/b&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;Pour les vols dont le point d’arrivée est aux Etats-Unis:&lt;/u&gt; Si votre bagage a été mal acheminé par un transporteur qui vous a remis un rapport d’irrégularité de Bien (Property Irregularity Report - PIR : nom du rapport qui vous a été remis par votre transporteur avec votre numéro de dossier) ou un rapport d’irrégularité de Bagage (Baggage Irregularity Report - BIR : les BIR n’ont généralement pas de numéro de référence à 10 chiffres), vous devez envoyer une copie du PIR ou du BIRà Blue Ribbon Bags dans les 24 heures suivant l’arrivée de votre vol afin de compléter votre déclaration de bagage dévoyé.Si vous ne nous remettez pas ce rapport à l’intérieur du délai de 24 heures, votre déclaration auprès de Blue Ribbon Bags sera rejetée et vous ne serez pas admissible au service de récupération de bagage ou à recevoir un paiement au titre de la garantie de satisfaction. Envoyer une copie de votre rapport à &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; en indiquant votre numéro d’accord de service dans l’objet du message. Toute déclaration qui ne respecterait pas ces consignes sera rejetée. Les bagages s’inscrivant dans cette catégorie seront considérés comme ayant été restitué une fois qu’ils sont acheminés à l’aéroport figurant dans le formulaire de réclamation du transporteur aérien.&lt;/b&gt; &lt;/li&gt;
+                    &lt;li&gt;S’il s’avère qu’un bagage livré n’est pas celui du passager, ce dernier dispose de 12 heures à compter de la réception de l’avis de fermeture du dossier et de retour du bagage avec Blue Ribbon Bags pour aviser Blue Ribbon Bags de l'impair par courriel à &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt; en inscrivant « Not my bag » (ce n’est pas mon bagage) et son numéro de MBR dans l'objet. Blue Ribbon Bags disposera de 72 heures (3 jours) à compter de l'expiration du délai initial de 96 heures suivant l'arrivée du vol du passager pour localiser le bagage dévoyé. Tout bagage s'inscrivant dans cette catégorie sera considéré comme ayant été « retourné », conformément conditions générales du service de Blue Ribbon Bags, une fois que le bagage sera arrivé à l'aéroport figurant dans le dossier de la demande pour bagages perdus du transporteur aérien. Si le mauvais bagage a déjà été livré, le passager devra fournir le courriel de reçu de livraison de l'entreprise de livraison qui a livré le mauvais bagage à titre de preuve, de même que tout document du transporteur aérien indiquant clairement que le bagage retourné au passager n'était pas le sien. Ces deux documents seront requis pour réclamer le paiement au titre de la garantie de satisfaction de Blue Ribbon Bags.&lt;/li&gt;
+                    &lt;li&gt;RENSEIGNEMENTS ERRONÉS OU DEMANDES DE RENSEIGNEMENTS : Si des renseignements erronés sont fournis lors du dépôt d’un rapport pour bagages dévoyés, il se peut que vous receviez un courriel vous demandant de corriger ces renseignements. Si un passager reçoit ce type de courriel, ou toute autre demande de renseignements sur son dossier, il dispose de 12 heures à compter de l’heure d’envoi de ce courriel pour y répondre. Si le passager ne répond pas à l’intérieur de ce délai en fournissant les renseignements demandés ou corrigés, et tout document à l’appui demandé, le rapport pour bagages dévoyés du passager sera rejeté et il ne sera plus admissible au service de récupération de bagages ou au paiement au titre de la garantie de satisfaction de BRB. &lt;/li&gt; 
+                    &lt;li&gt; PASSAGERS D’AIR CANADA ET DE WESTJET : Blue Ribbon Bags ne prendra pas en charge la livraison des bagages perdus aux passagers dans le cas des rapports pour bagages dévoyés relatifs à des demandes de l’un ou l’autre de ces deux transporteurs aériens. Tous les bagages dévoyés visés par une demande pour bagages dévoyés d’Air Canada ou de WestJet seront considérés comme ayant été « retournés » conformément aux conditions générales de l’entente de service de Blue Ribbon Bags à l’arrivée du bagage à l’aéroport figurant dans le dossier de la demande pour bagages dévoyés d’Air Canada ou de WestJet. Une fois qu’il a été confirmé que les bagages sont arrivés à l’aéroport figurant dans le dossier de la demande pour bagages perdus d’Air Canada ou de WestJet à l’intérieur de la période de service, le passager ne sera plus admissible au service de récupération des bagages ou à recevoir un paiement au titre de la garantie de satisfaction de Blue Ribbon Bags. &lt;/li&gt;
+                    &lt;li&gt; ERREURS : Si une erreur est mise au jour par le passager alors que Blue Ribbon Bags a rejeté le rapport pour bagages dévoyés ou fermé le rapport pour bagages dévoyés, le passager dispose de 12 heures à compter de la réception du courriel l’avisant de l’une ou l’autre de ces situations pour signaler l’erreur à Blue Ribbon Bags. Veuillez informer BRB de toute erreur par courriel à &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, en indiquant le numéro de MBR dans la ligne d’objet. Dans son courriel, le passager doit expliquer précisément l’erreur commise avec le plus de détails possible, en plus de fournir tous les documents à l’appui. Si Blue Ribbon Bags établit qu’il y a bel et bien erreur, il dispose de 72 heures à compter de la réouverture du dossier du passager pour localiser le bagage du passager. Si le délai de 96 heures à compter de l’arrivée du vol initial du passager expire après la fenêtre de 72 heures à compter de la réouverture du dossier, Blue Ribbon Bags aura jusqu’à l’expiration du délai initial de 96 heures pour retracer le bagage du passager. Dans tous les cas, lorsque le bagage du passager sera arrivé à l’aéroport figurant dans le dossier de la demande pour bagages dévoyés du transporteur aérien, il sera considéré comme ayant été « retourné », conformément aux conditions générales du service de Blue Ribbon Bags, et le dossier du passager sera fermé. Aucun document reçu après l’expiration du délai de 12 heures ne sera pas accepté, et le passager ne sera pas admissible au service de récupération de bagages ou au paiement au titre de la garantie de satisfaction, peu importe les documents soumis. &lt;/li&gt;
+                    &lt;li&gt; LE PRÉSENT SERVICE NE COUVRE PAS LE VOL, LES ARTICLES MANQUANTS OU LES BAGAGES ENDOMMAGÉS. LA COUVERTURE S’APPLIQUE EXCLUSIVEMENT AUX BAGAGES ÉGARÉS PAR LE TRANSPORTEUR AÉRIEN. 
+</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>RENSEIGNEMENTS IMPORTANTS SUR LES RAPPORTS DE BAGAGES ÉGARÉS.</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>Retrouver votre déclaration de bagage dévoyé</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) Le niveau de service bronze concerne UNIQUEMENT les voyages domestiques en Inde. Les réservations prises avec le niveau de service bronze qui incluent des vols à l'intérieur de l'itinéraire qui sont des vols internationaux en provenance ou en partance de l'Inde ou de tout autre pays ne seront pas acceptées.  </value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>Code de promotion</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>Fournir les informations sur votre voyage</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>Nom de l'agence</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>Carte de l'agent</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>Il s'agit d'un document PDF auquel vous pouvez vous reporter lorsque vous discutez avec vos clients afin de n'oublier aucun des formidables avantages de BRB !</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>Langue du courriel pour l'agent </value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>Numéro d'identification de l'agent (EPR)</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>Renseignements sur l'agent</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Les renseignements sur l'agent ont été enregistrés avec succès !</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>Agent (Moi)</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>PCC de l'agent </value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>Transporteur aérien</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>Vous recevrez une facture ultérieurement pour cet achat.</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>Renseignements de facturation</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>En enregistrant les réglages, tous les onglets de la demande de Blue Ribbon Bags seront initialisés, y compris l'onglet Achat de sorte que vous devrez retélécharger le PNR pour l'achat en cours. Désirez-vous continuer ? </value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>Nº de CC</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>Vérification du PNR en cours...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>Ville, État</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>Cliquez ici si &lt;b&gt;vous&lt;/b&gt; désirez recevoir un courriel de confirmation automatique de Blue Ribbon Bags après chaque achat. </value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Cliquez ici si vous voulez que le &lt;b&gt;passager&lt;/b&gt; reçoive un courriel de confirmation automatique de Blue Ribbon Bags après chaque achat. </value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>Carte client</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>Il s'agit d'un document PDF qui ne fait aucune mention des commissions que vous pouvez envoyer à vos clients pour les informer du service.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>Nº de confirmation</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>Date/Heure</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>La remarque à l'aide de l'API n'a pu être ajoutée au PNR de Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>La remarque n'a pu être ajoutée au PNR de Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>Le PNR n'a pu être fermé et la remarque n'a pu être ajoutée au PNR de Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Erreur de communication avec Sabre. Code d'erreur {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Erreur de connexion avec Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>Échec de chargement du profil de l'agent.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>ERREUR. Le PNR que vous avez ouvert sur l'application BRB ({0}), n'est pas le même que celui qui est actif sur l'espace de travail de Sabre ({1}).</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>Erreur de traitement de votre demande par le serveur.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>Les renseignements XML du PNR n'ont pu être analysés pour enlever les informations sensibles, ils ont donc été rejetés.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Impossible d'extraire les renseignements sur le PNR. Assurez-vous qu'un PNR actif est ouvert dans Sabre.</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>Expiration MM</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>Expiration AA</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>Renseignements sur le vol</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>Nº de vol</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>Obtenir les renseignements sur le PNR </value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>Langue de l'interface </value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>Demande de Sabre invalide. </value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>Dernier vol</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Vous n'êtes pas encore connecté à Sabre. Veuillez ouvrir une session et réessayer. </value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>Obtention des renseignements sur le PNR de Sabre en cours. Veuillez patienter...</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>facultatif</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>Vol tête de ligne</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>Langue du courriel pour le passager </value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>Renseignements sur le passager</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>Passager(s)</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>couverture par bagage</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>par passager</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>Renseignements personnels</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>Nº de téléphone</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>Communiquez avec nous par courriel en tout temps à agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>Le PNR avec les renseignements FICTIFS a été téléchargé avec succès ! Veuillez remplir le formulaire ci-dessous.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>Les renseignements du PNR ont été télétéléchargés avec succès ! Veuillez remplir le formulaire ci-dessous.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>Les renseignements du PNR ne concordent pas. Veuillez télécharger de nouveau la réservation. </value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>Les renseignements du PNR n'ont PAS été télétéléchargés avec succès. Veuillez essayer de nouveau. </value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>Nº de PNR </value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>Code promotionnel</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>Achat</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>Traitement de la commande en cours. Veuillez patienter...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>Si vous avez d'autres questions ou commentaires, contactez-nous à agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>Nous procédons à votre enregistrement. Veuillez patienter...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>Votre enregistrement a été achevé avec succès !</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Votre enregistrement a été traité avec succès, vous pouvez commencer à vendre dès maintenant ! Toutefois, prenez le temps de vérifier votre courriel pour achever le processus d'enregistrement. Merci !</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>Nous procédons à l'enregistrement des renseignements de l'agent. Veuillez patienter...</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>Nous procédons à l'enregistrement de vos réglages. Veuillez patienter...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>Sélectionnez le niveau de couverture</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>Envoyez le courriel de confirmation à :</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>L'accord de service [{0}] a été acheté avec succès.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>Réglages</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Vos réglages ont été enregistrés avec succès !</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>Si vous désirez inclure BRB dans votre offre de billet, informez-vous de nos options de facturation pour éviter que vos clients ne voient les frais de BRB séparément sur leur relevé de carte de crédit.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>Coût total = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>Renseignements sur l'agent de voyage</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>Erreur imprévue.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Erreur imprévue. Les renseignements du PNR n'ont PAS été téléchargés avec succès.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>Exception non traitée pendant le processus GetPNRInfo. </value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>Renseignements sur l'utilisateur</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>Vous pouvez mettre à jour vos renseignements personnels pour l'enregistrement avec Blue Ribbon Bags à partir du formulaire suivant.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>Validation de l'agent en cours...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Bienvenue de nouveau {0} !&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Bienvenue à l'enregistrement initial !&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>SOUSCRIPTION D'UN AGENT DE VOYAGE</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>(Comptabilité) N˚ d'ID de l'agent/du membre</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>Renseignements sur l’agence de voyages</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>Numéro de l'agence</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>Type d'agence</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>Je confirme que les informations que j'ai communiquées à Blue Ribbon Bags, LLC  sont les informations correctes pour suivre les achats de mes clients en leur nom.</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>Unité commerciale</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>Saisir ici le résultat de la somme figurant dans l'image ci-dessus</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>Un compte d'agent de voyage vient d'être créé. Vous allez recevoir un courriel d'activation.</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>ID de l'agence</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>Téléphone portable</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Post-titre</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Titre </value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>SOUSCRIPTION D'UN AGENT DE VOYAGE</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>Nom de l'agence de voyage</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>Identifiant de connexion</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>Vos renseignements</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>*Champs obligatoire</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) Champs obligatoires</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>Numéro d'acheminement</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>Nom de l'agent</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>Entrez l'adresse de courriel</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>Liste de passagers</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>Détails du service</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>Acheté par le biais de :</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>Renvoyer le courriel de l'agent</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>Renvoyer le courriel</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>Renvoyer le courriel du passager</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>Envoyer le courriel</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>Coût du service :</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>Total des frais :</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>Économie totale :</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Code de sécurité</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>Sélectionnez le nombre de passagers</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>Caractéristiques du service</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>Télécharger la carte de l’agent</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>RECHERCHER ACCORD DE SERVICE</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>Transporteur aérien</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>N˚ de confirmation du transporteur aérien</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>N˚ de service BRB</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>ACHETER</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>Frais de service :</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>couverture par bagage</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>Intervalle de dates</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>courriel</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>Exporter données par passager</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>Exporter données par service</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>La couverture peut être achetée pour des vols multiples en saisissant le nom du passager plusieurs fois avec des numéros de dossier (PNR) ou des numéros de confirmation du transporteur correspondants.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>NIVEAU DE SERVICE :</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>Couverture maximale des pertes : </value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>Nombre de passagers :</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>Transporteur initial</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>Nombre de passagers :</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>INFORMATIONS PASSAGERS</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>N˚ PNR</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>Code de promotion</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value> ACCORD D'ACHAT DE SERVICE</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>Enlever</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>Le passager ne recevra pas de confirmation par courriel si le courriel n'est pas renseigné.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>Niveau de service :</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>Récapitulatif</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>Téléverser un fichier Excel contenant des données pour créer les services connexes. Cliquez sur</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>ce</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>lien pour télécharger un modèle.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>Saisir le n° de confirmation du transporteur si vous ne disposez pas de n° PNR</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>Téléverser le dossier d’achat</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>Blue Ribbon Bags fera le suivi et accélérera le retour des bagages dévoyés pendant 96 à compter de l’heure d’arrivée de votre vol.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>Une entente de services couvre tous les bagages enregistrés à l’aéroport, y compris les bagages enregistrés à la dernière minute à la porte.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>Une entente de service couvre tous les bagages enregistrés à l’aéroport, y compris les bagages enregistrés à la dernière minute à la porte d'embarquement.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>Le service de Blue Ribbon Bags couvre chaque vol, sur chaque transporteur aérien, partout dans le monde.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>Chaque achat est associé à une personne, à un numéro de confirmation de transporteur aérien, et ce, peu importe le nombre de correspondances.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>Vous pouvez acheter notre service jusqu'à la dernière minute avant le départ de votre vol.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>Notre service doit être achevé avant tous les vols à l’intérieur d’un itinéraire de départ ou d’arrivée. Notre service ne peut être acheté « en milieu de correspondance ».</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>Une demande doit être déposée auprès de votre transporteur aérien avant de déclarer un bagage dévoyé à BRB.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>Les bagages dévoyés doivent être signalés à BRB dans les 24 heures suivant l’arrivée de votre vol</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>Aucune preuve de contenu de bagage n’est exigée pour avoir droit au paiement au titre de la garantie de satisfaction.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>Le paiement sera émis si votre bagage n’est pas retracé dans les 96 heures (quatre jours) suivant l’arrivée de votre vol.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>Les paiements sont garantis, même si vos bagages sont retournés après la période de service de 96 heures.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>BRB vend un service qui s’ajoute à toute assurance dont vous pouvez être titulaire et ne les remplace pas.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>Gestionnaire de crise</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>On vous avisera par courriel de tout changement au statut de votre bagage perdu</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>Aucun reçu</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>Les reçus pour le contenu du bagage perdu ne sont pas requis pour recevoir le paiement</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>Un achat</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>Un achat couvre tous les bagages enregistrés à l’aéroport</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>Notre garantie</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>BRB garantit un paiement de 1000 $ pour chaque bagage qui n’est pas récupéré après quatre jours</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>Portée mondiale</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>BRB couvre chaque vol, sur chaque transporteur aérien, partout dans le monde</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>Dernière minute</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>Achat d’un service de protection de bagage jusqu’à la dernière minute avant le départ du vol</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>Pendant les 96 premières heures, BRB travaillera directement avec le transporteur pour retrouver votre bagage et accélérer sa restitution. Vous avez mieux à faire que de passer votre temps au téléphone avec le transporteur ; BRB vous tiendra au courant automatiquement de tout changement d'information concernant votre bagage.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>Chaque souscription (5 $ US) s'entend par personne et par numéro de confirmation du transporteur, vol aller-retour compris, quel que soit le nombre de correspondances. L'indemnisation est de ($1 000) par bagage.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>Vous n'avez pas besoin de présenter de justificatifs du contenu du bagage pour être indemnisé. </value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>L'indemnisation est versée si votre bagage ne vous est pas restitué dans les 96 heures suivant l'arrivée de votre vol. Vous obtiendrez l'indemnisation même si le bagage vous est remis après le délai de 96 heures.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>BRB vend un service. L'accord de service BRB s'ajoute à l'indemnisation d'une éventuelle autre assurance souscrite. </value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>Vous devez déposer une réclamation auprès du transporteur avant de signaler la perte de votre bagage à Blue Ribbon Bags. Les bagages dévoyés doivent être déclarés à BRB dans les 24 heures suivant la réclamation. </value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>La déclaration d'un bagage dévoyé s'effectue par une simple déclaration en ligne sur le site &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt;, ou en appelant le  (888)-BAGGAGE 24/24, 7/7</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>La souscription de 5 $ US couvre tous les bagages enregistrés à l'aéroport, y compris ceux enregistré à la porte d'embarcation à la dernière minute. Des options de couvertures plus larges sont disponibles pour 7,50 $ US et 10,00 $ US (l'indemnité est de 1 500 $ et de $ 2000, respectivement).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Blue Ribbon Bags couvre tous les vols partout dans le monde.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>VOUS POUVEZ ACHETER LE SERVICE BLUE RIBBON BAGS JUSTE AVANT LE DÉPART DE VOTRE VOL.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>Vous devez acheter le service Blue Ribbon Bags avant le départ de tous les vols à l'aller ou au retour. Vous ne pouvez pas acheter le service entre les étapes de votre voyage (c'est à dire entre vos correspondances).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>LE SERVICE BLUE RIBBON BAGS EST NON REMBOURSABLE ET NON TRANSFÉRABLE. AUCUN REMBOURSEMENT NI AVOIR NE SERONT ÉMIS. SI VOTRE VOL EST ANNULÉ ET REMPLACÉ PAR UN NOUVEAU VOL, VEUILLEZ NOUS EN INFORMER AVANT LE DÉPART DE VOTRE NOUVEAU VOL OU ACHETER UN NOUVEAU SERVICE POUR VOTRE NOUVEAU VOL. TOUS LES CHANGEMENTS DOIVENT ÊTRE SIGNALÉS À BLUE RIBBON BAGS PAR COURRIEL À &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, EN INDIQUANT VOTRE NUMÉRO D’ACCORD DE SERVICE DANS LE SUJET DU MESSAGE. VEUILLEZ INSCRIRE LE NOM ET LE NUMÉRO DE CONFIRMATION DU TRANSPORTEUR AÉRIEN, VOTRE NUMÉRO DE VOL ORIGINAL ET LE NOUVEAU NUMÉRO DE VOL DANS LE CORPS DU COURRIEL. S’IL Y A ÉGALEMENT CHANGEMENT DE TRANSPORTEUR AÉRIEN, VEUILLEZ INDIQUER LE NOM DU NOUVEAU TRANSPORTEUR RESPONSABLE DE VOTRE NOUVEAU VOL.
+</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>Toutes nos prestations sont soumises aux conditions générales de ventes de l'accord de service Blue Ribbon Bags. Vous pouvez les consulter au &lt;a href=".{0}" target="_blank"&gt;here&lt;/a&gt;.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>Caractéristiques de la prestation Blue Ribbon Bags</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>On entend par bagage dévoyé, un bagage enregistré qui, selon le système de suivi du transporteur,  a été dévoyé vers  une destination autre que la destination finale ou n'a pas été embarqué sur le même vol. </value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>Chaque achat s'entend par personne et par numéro de confirmation du transporteur. Si un vol aller-retour est réservé sous le même numéro de confirmation, tout le voyage est couvert sans égard au nombre d'escales. Si votre aller et votre vol retour sont réservés sous des numéros de confirmation différents, vous devrez acheter un service séparé pour chaque vol.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>Non ! Blue Ribbon Bags couvre tous les vols partout dans le monde. Il n'y a pas de restrictions quant au  point d'origine du vol ou sa destination finale.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>Qu'est-ce qu'un bagage dévoyé ?</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>Est-ce que ce service couvre les vols aller-retour ?</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>Le point de départ et d'arrivée de mon vol doit-il être aux États-Unis pour pouvoir acheter ce service ?</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>Foire aux questions</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>par bagage</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>Saisir information sur les passagers</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>Lire l'accord</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>Cliquer ici pour lire l'accord de service Blue Ribbon Bags</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>Choisir niveau de service</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>Étape</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>Pour seulement 5 $ US par personne, BRB retrouve et vous rend votre bagage dévoyé. Si votre transporteur ne vous a pas remis votre bagage dans les 96 heures suivant la constatation de son absence, BRB s'engage à vous verser 1 000 $ par bagage non rendu ; &lt;u&gt;vous n'avez pas besoin de présenter des justificatifs du contenu du bagage pour être indemnisé&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>Acheter le service bagage</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>Passager</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>Saisir les informations sur votre voyage</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>Fuseau horaire</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>À</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>Total des frais :</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>Total des frais (par passager) :</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>Terminez votre enregistrement</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>Le mot de passe doit contenir au moins 8 (huit) caractères et au moins une valeur alphabétique, une valeur numérique et un caractère spécial. Au moins un des caractères alphabétiques doit être en majuscule.</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>Répétez le mot de passe</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>Enregistrement de l'utilisateur</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>Veuillez entrer votre mot de passe</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>Veuillez saisir l'adresse.</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>L'adresse doit contenir au moins 2 caractères.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>Les coordonnées d'ouverture de session de l'agent fournies n'existent pas.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>Le champs [n˚ d'agent] doit être renseigné.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>Le champs [type d'agent] doit être renseigné.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>Veuillez lire et accepter les conditions générales de vente pour valider votre souscription.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>Le champs [unité commerciale] doit être renseigné.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>Veuillez saisir le nom de la ville.</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>Le nom de la ville doit contenir au moins 2 caractères.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>Le champs [courriel] doit être renseigné.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>Veuillez saisir un [courriel] valide.</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>Veuillez saisir un n˚ de [fax] valide.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>Le champs [prénom] doit être renseigné.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>Le champs [prénom] doit contenir au moins 2 caractères.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>Les coordonnées d'ouverture de session de l'agent correspondent à un utilisateur inactif dans le système BRB.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>Le champs [nom de famille] doit être renseigné.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>Le champs [nom de famille] doit contenir au moins 2 caractères.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>L'[identifiant de connexion] doit contenir entre 6 et 40 caractères ; seuls les caractères spéciaux suivants peuvent être utilisés : _.-@</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>L'[identifiant] ne peut pas finir avec le caractère « @ »</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>Veuillez saisir un n˚ de [téléphone portable] valide.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>Veuillez saisir un n˚ de [téléphone] valide.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>Le code de produit fourni n'existe pas. </value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>L'information d'ouverture de session de l'agent ne concorde pas avec le code de promotion fourni. </value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>Le code promotionnel fourni n'existe pas.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>Veuillez choisir un pays.</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>Veuillez choisir un état.</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>Veuillez saisir le nom de l'état.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>Le champs [code d'agence de voyage] doit être renseigné.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>Le champs [nom de l'agence de voyage] doit être renseigné.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>Les coordonnées d'ouverture de session de l'agent ne correspondent pas à un agent de voyage. </value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>Le champs [identifiant de connexion] doit être renseigné.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>Cet identifiant de connexion n'est pas disponible. Veuillez choisir un autre identifiant.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>Veuillez saisir le code postal.</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>Le code postal saisi n'est pas valide.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>Courriel de l'agent</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>NIVEAU DE SERVICE :</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>couverture par bagage</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>RENSEIGNEMENTS SUR LE PASSAGER</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>Veuillez fournir les renseignements relatifs à votre carte de crédit ci-dessous pour achever le processus de paiement de l'accord de service. </value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>Virement bancaire</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>Nom de l'agence</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>Carte de l'agent</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>Il s'agit d'un document PDF auquel vous pouvez vous reporter lorsque vous discutez avec vos clients afin de n'oublier aucun des formidables avantages de BRB !</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>Numéro d'identification de l'agent</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>Renseignements sur l'agent</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Les renseignements sur l'agent ont été enregistrés avec succès !</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>Agent (Moi)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>PCC de l'agent </value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>Veuillez vous assurer de remplir entièrement le formulaire la première fois que vous utilisez l'application Blue Ribbon Bags Worldspan pour recevoir le crédit approprié pour les ententes de service que vous avez vendues.&lt;br&gt;&lt;br&gt;Lorsque vous aurez terminé, cliquez sur Enregistrer au bas pour procéder à l'achat de la couverture Blue Ribbon Bags pour votre client.&lt;br&gt;&lt;br&gt;Vous n'aurez pas besoin de créer un mot de passe ou d'utiliser vos coordonnées d'ouverture de session pour accéder à l'application BRB Worldspan. Les coordonnées d'ouverture de session et les mots de passe sont uniquement utilisés pour accéder au système BRB en ligne.&lt;br&gt;&lt;br&gt;Pour modifier les renseignements relatifs à l'enregistrement ou pour toute question ou préoccupation, communiquez avec nous par courriel à agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>Transporteur aérien</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>Vous recevrez une facture ultérieurement pour cet achat.</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>Renseignements de facturation</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>En enregistrant les réglages, tous les onglets de la demande de Blue Ribbon Bags seront initialisés, y compris l'onglet Achat de sorte que vous devrez retélécharger le PNR pour l'achat en cours. Désirez-vous continuer ? </value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>Nº de CC</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>Vérification du PNR en cours...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>Ville, État</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>Cliquez ici si &lt;b&gt;vous&lt;/b&gt; désirez recevoir un courriel de confirmation automatique de Blue Ribbon Bags après chaque achat. </value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Cliquez ici si vous voulez que le &lt;b&gt;passenger&lt;/b&gt; reçoive un courriel de confirmation automatique de Blue Ribbon Bags après chaque achat. </value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>Carte client</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>Il s'agit d'un document PDF qui ne fait aucune mention des commissions que vous pouvez envoyer à vos clients pour les informer du service.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>Nº de confirmation</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>Format de la date :</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>Date/Heure</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>La remarque à l'aide de l'API n'a pu être ajoutée au PNR de Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>La remarque n'a pu être ajoutée au PNR de Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>Le PNR n'a pu être fermé et la remarque n'a pu être ajoutée au PNR de Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Erreur de communication avec Sabre. Code d'erreur {0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Erreur de connexion avec Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>Échec de chargement du profil de l'agent.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>ERREUR. Le PNR que vous avez ouvert sur l'application BRB ({0}), n'est pas le même que celui qui est actif sur l'espace de travail de Sabre ({1}).</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>Erreur de traitement de votre demande par le serveur.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>Les renseignements XML du PNR n'ont pu être analysés pour enlever les renseignements de nature délicate, ils ont donc été rejetés.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Impossible d'extraire les renseignements sur le PNR. Assurez-vous qu'un PNR actif est ouvert dans Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>Expiration MM</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>Expiration AA</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>Renseignements sur le vol</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>Nº de vol</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>Obtenir les renseignements sur le PNR </value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>Demande de Sabre invalide. </value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>Dernier vol</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Vous n'êtes pas encore connecté à Sabre. Veuillez ouvrir une session et réessayer. </value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>Obtention des renseignements sur le PNR de Sabre en cours. Veuillez patienter...</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>facultatif</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>Vol tête de liste</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>Renseignements sur le passager</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>Passager(s)</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>couverture par bagage </value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>par passager</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>Renseignements personnels</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>Nº de téléphone</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>Vous pouvez nous contacter par courriel en tout temps à agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>Le PNR avec les renseignements FICTIFS a été téléchargé avec succès ! Veuillez remplir le formulaire ci-dessous. </value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>Le PNR a été téléchargé avec succès ! Veuillez remplir le formulaire ci-dessous.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>Les renseignements du PNR ne concordent pas. Veuillez télécharger de nouveau la réservation. </value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>Les renseignements du PNR n'ont PAS été téléchargés avec succès. Veuillez essayer de nouveau. </value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>Nº du PNR</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>Code promotionnel</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>Achat</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>Traitement de la commande en cours. Veuillez patienter...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>Si vous avez d'autres questions ou commentaires, contactez-nous à agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>Nous procédons à votre enregistrement. Veuillez patienter...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>Votre enregistrement a été achevé avec succès !</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Votre enregistrement a été traité avec succès, vous pouvez commencer à vendre dès maintenant ! Toutefois, prenez le temps de vérifier votre courriel pour achever le processus d'enregistrement. Merci !</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>Nous procédons à l'enregistrement des renseignements sur l'agent. Veuillez patienter...</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>Nous procédons à l'enregistrement de vos réglages. Veuillez patienter…</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>Sélectionnez le niveau de couverture </value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>Envoyer un courriel de confirmation à :</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>l'accord de service [{0}] a été achetée avec succès.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>Réglages</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Vos réglages ont été enregistrés avec succès !</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>Si vous désirez inclure BRB dans votre offre de billet, informez-vous de nos options de facturation pour éviter que vos clients ne voient les frais de BRB séparément sur leur relevé de carte de crédit.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>Coût total = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>Renseignements sur l'agent de voyage</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>Erreur imprévue.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Erreur imprévue. Les renseignements du PNR n'ont PAS été téléchargés avec succès.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>Exception non traitée pendant le processus GetPNRInfo.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>Renseignements sur l'utilisateur</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>Vous pouvez mettre à jour vos renseignements personnels pour l'enregistrement de Blue Ribbon Bags à partir du formulaire suivant.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>Validation de l'agent en cours ...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Bienvenue de nouveau {0} !&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Bienvenue à l'enregistrement initial !&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>Preparing service(s) checkout...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>Processing {0} service...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>Processing {0} service checkout...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Processing {0} service finished.</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>Processing {0} service promo code(s)...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>Validating {0} service...</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>Creating service(s) to purchase...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Processing {0} service finished.</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>Processing {0} service passengers...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>Processing {0} service purchase...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>Validating {0} service...</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>Télécharger un fichier d'achat de plusieurs agents</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>Services importés du fichier:</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>Cette langue sera utilisée pour les services sans paramètre de langue dans le fichier téléchargé</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>La colonne {0} n'est pas présente dans le fichier téléchargé. Veuillez télécharger un modèle mis à jour.</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>Le montant d'indemnisation couvre par bagage:</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>Je suis d'accord</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; ASK CALLER: Did your flight arrive within the United States or outside of the United States?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; AGENT: please read one of the two of the following paragraphs listed below based on the callers answer:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>Rangée {0}: La colonne {1} ne peut pas être vide</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>Payez maintenant</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>Définir les paramètres de confirmation de messagerie</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>Quotidien </value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>par jour</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>par année</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>régulier</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>Annuel</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Carte de crédit</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Code de référence de la réservation</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Paiement au titre de la garantie de satisfaction par valise:</value>
+  </data>
+  <data name="MyAccount_SendConsolidatedPurchaseSummary" xml:space="preserve">
+    <value>Envoyer un résumé d'achat consolidé</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Envoyer des notifications SMS</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>Des enregistrements dupliqués ont été trouvés</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>Veuillez parcourir et choisir votre fichier, puis cliquez sur "Télécharger le fichier":</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>Téléverser un fichier</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>Des achats antérieurs ont été trouvés</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>Les enregistrements suivants ont déjà été achetés, souhaitez-vous procéder et traiter le reste des enregistrements?</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>Les enregistrements suivants sont dupliqués, souhaitez-vous procéder et traiter le reste des enregistrements?</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>Lien</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>Cliquez ici pour télécharger un modèle:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Téléchargement. S'il vous plaît, attendez...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>Autoriser le site Web à utiliser la même langue que la langue d'e-mail par défaut sélectionnée ci-dessus.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>Cela couvre votre (vos) vol (s) sous le numéro de confirmation &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>sélectionnez le nombre de personnes de contact</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>fournissez vos informations de contact</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>Veuillez ajouter des personnes de contact à votre rapport</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>SI VOUS VOULEZ FOURNIR DES INFORMATIONS RELATIVES À VOTRE SAC OU À VOS INFORMATIONS DE LIVRAISON, VEUILLEZ LES INSCRIRE ICI:</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>Adresses mail</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>Téléphones</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>Nombre de passagers</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>Niveau de service</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>Rien n'a changé avec le statut de votre sac au cours des 0 dernières heures. Voici la dernière mise à jour que nous avons fournie.
+Vous serez informé si quelque chose de nouveau se produit dès que nous avons des informations.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>Cliquez ici si vous souhaitez recevoir du courrier pour le MBR de votre passager</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>Numéro de référence du client</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>POUR FINALISER VOTRE RÉCLAMATION DE BAGAGE PERDU, RETARDÉ OU ENDOMMAGÉ, VOUS DEVEZ :</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>Couverture par bagage :</value>
+  </data>
+</root>

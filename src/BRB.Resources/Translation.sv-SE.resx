@@ -1,0 +1,2690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>Kontonummer</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>Uppträd som agent:</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>Dygnet runt, sju dagar i veckan.</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>Du får ett bekräftelsemeddelande från Blue Ribbon Bags inom några minuter. I fall du inte får det ska du kontakta oss och hålla din bekräftelse på Paypal-transaktionen till hands.</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>Grattis!</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>Om din väska inte har kommit med dig till flygets slutdestination måste du först rapportera det till flygbolaget innan du rapporterar det till Blue Ribbon Bags. Borttappat bagage måste rapporteras till Blue Ribbon Bags inom 24 timmar efter att passagerarens flyg anlänt. Du kan rapportera den felhanterade väskan till oss antingen per telefon på</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>OK, jag är klar för nu!</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>Servicenivå:</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-TJÄNSTEN ÄR INTE ÅTERBETALBAR OCH INTE ÖVERFÖRBAR. INGA ÅTERBETALNINGAR ELLER KREDITER GES. OM DITT FLYG STÄLLS IN OCH ETT NYTT FLYG BOKAS I STÄLLET MÅSTE DU ANTINGEN INFORMERA OSS OM ÄNDRINGEN INNAN DET NYA FLYGET AVGÅR ELLER KÖPA EN NY TJÄNST FÖR DET NYA FLYGET.  ALLA ÄNDRINGAR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS GENOM ATT SKICKA ETT E-POSTMEDDELANDE TILL &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; MED NUMRET PÅ DITT TJÄNSTEAVTAL I ÄMNESRADEN.  I MEDDELANDET MÅSTE DU ANGE FLYGBOLAGET OCH FLYGBOLAGETS BOKNINGSNUMMER, DITT URSPRUNGLIGA FLYGNUMMER OCH DET NYA FLYGNUMRET SOM DET ÄNDRAS TILL.  OM FLYGBOLAGET OCKSÅ ÄNDRATS MÅSTE DU ÄVEN INFORMERA OSS OM FLYGBOLAGET FÖR DET NYA FLYGET.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>eller online på</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>DIN BETALNING HAR BEHANDLATS</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>Betalningsbekräftelse:</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>Betalningsinformation</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>Se till att du förvarar informationen för bagagespårning (filreferens eller lokaliseringsnummer) som flygbolaget ger dig när du rapporterar borttappat bagage till dem, eftersom Blue Ribbon Bags kommer att kräva denna information för att behandla din rapport om felhanterat bagage. Borttappat bagage måste rapporteras till Blue Ribbon Bags inom 24 timmar efter att ditt flyg anlänt.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>Håll reda på detta tjänsteavtalsnummer eftersom du kommer att behöva det för att anmäla ditt borttappade bagage hos oss i fall bagaget inte kommer fram.</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>Tack så mycket för att du valt Blue Ribbon Bags-tjänsten för ditt bagage. Du kan lita på att vi gör allt så enkelt som möjligt för dig.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>Tack för att du anlitar oss, och ha en trygg resa!</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>Total kostnad:</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>Vi är här för att hjälpa dig dygnet runt, sju dagar i veckan. Res tryggt och utan bekymmer!</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>Så här gör du om ditt bagage inte kommer fram:</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>Ditt tjänsteavtalsnummer för Blue Ribbon Bags är</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>Dina tjänsteavtalsnummer för Blue Ribbon Bags är</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>Din betalningsinformation visas nedan. Om du har några frågor, kontakta gärna Blue Ribbon Bags genom att skicka e-post till</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>Ditt tjänsteavtal finns online på</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>Fråga oss om alternativet Fakturera senare.  På det sättet behöver du inte göra betalningar för varje transaktion och kan få en samlad provision i slutet på varje månad.  Skicka helt enkelt ett e-postmedelande till &lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt; och skriv "Fakturera senare" i ämnesraden.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>Information om bagageleverans</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>Banknamn</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>Detta språk används för tjänster utan någon språkinställning i den uppladdade filen</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>Alla  passagerare med {0}-tjänst måste dela samma kampanjkod</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Faktureringsadress</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>Rensa alla fält</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>Skicka registrering</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>Bekräftelsesumman som angavs är inkorrekt. Ange bekräftelsesumma på nytt.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Kontrollera</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>UTCHECKNING</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>UTCHECKNING</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>Förbereder utcheckning av tjänst(er) ...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>Behandlar {0}-tjänst ...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>Behandlar utcheckning för {0}-tjänst ...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Behandling av {0}-tjänsten är klar.</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>Behandlar kampanjkod(er) för {0}-tjänst ...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>Validerar {0}-tjänsten ...</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>Ditt agentkonto faktureras</value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>Godkänt</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>Välj en betalningsmetod</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>Slutför</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>Bekräfta betalning</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>Bekräfta betalning</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>Vill du bekräfta köpet?</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>Vill du bekräfta transaktionen?</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>Kontokortsnummer</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>Ditt kontokort debiteras</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>Ange dina kortuppgifter</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>Vissa tjänster blev inte utcheckade. Köpet kan inte slutföras.</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>Misslyckades</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>Gå tillbaka</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>OGILTIG ÅTGÄRD.</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>Maximum täckning för förlust:</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>Nej, avbryt</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>Antal passagerare:</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>Betala nu</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>Väntar</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>Eller ange kontokortsuppgifter nedan för att slutföra betalningsprocessen för tjänsteavtalet.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>Granska informationen</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>Dina besparingar:</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>Servicenivå:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>Tjänstenummer:</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>Tjänstekostnad:</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>Sammandrag av tjänster</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>Bekräfta ditt tjänstuppköp - UTCHECKNING</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>Vänligen verifiera informationen nedan och tryck på Bekräfta betalning om den är korrekt.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>Rad {0}: {1}-kolumnen får inte vara tom</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>{0}-kolumnen finns inte i den uppladdade filen. Ladda ner en uppdaterad mall.</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bekräfta lösenord</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>Bekräfta e-postadress</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>Blue Ribbon Bags Kundserviceteam</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>Alla förfrågningar besvaras per e-post så snart som möjligt. Se till att du inkluderar alla dina kontaktuppgifter, inklusive telefonnummer, så att vi kan kontakta dig per telefon om nödvändigt.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>Skicka oss ett meddelande</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>Skicka meddelande</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>Alla förfrågningar besvaras per e-post så snart som möjligt. Se till att du inkluderar alla dina kontaktuppgifter, inklusive telefonnummer, så att vi kan kontakta dig per telefon om nödvändigt.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>För kunder eller allmänna frågor kontaktar du oss på:</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>Reseagenter kan kontakta oss på:</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>För att skicka en ny rapport om felhanterat bagage (MBR), ring till +1 (888) BAGGAGE  (+1 (888) 224-4243) eller besök &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;. Obs! Det kommer inte att finnas mer information om befintliga bagagerapporter på detta nummer.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>För mer information om befintliga bagagerapporter, besök &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; eller skicka e-post till &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt; med ditt MBR-nummer i ämnesraden.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>Tack!</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>Kontakta oss</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>Tjänst för försenat bagage</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>Standardspråk för e-postmeddelande</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>ALLA</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- INGA --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>ANNAT</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>-- Välj --</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>OTILLDELAT</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>Välj e-postspråk för passagerare</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>Detta täcker alla flyg du åkt med från &lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>Detta täcker dina flyg med flygbolaget &lt;b&gt;{0}&lt;/b&gt; under bokningsnumret &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-TJÄNSTEN ÄR INTE ÅTERBETALBAR OCH INTE ÖVERFÖRBAR.	 INGA ÅTERBETALNINGAR ELLER KREDITER GES. OM DITT FLYG STÄLLS IN OCH ETT NYTT FLYG BOKAS I STÄLLET MÅSTE DU ANTINGEN INFORMERA OSS OM ÄNDRINGEN INNAN DET NYA FLYGET AVGÅR ELLER KÖPA EN NY TJÄNST FÖR DET NYA FLYGET.  ALLA ÄNDRINGAR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS GENOM ATT SKICKA ETT E-POSTMEDDELANDE TILL &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; MED NUMRET PÅ DITT TJÄNSTEAVTAL I ÄMNESRADEN.  I MEDDELANDET MÅSTE DU ANGE FLYGBOLAGET OCH FLYGBOLAGETS BOKNINGSNUMMER, DITT URSPRUNGLIGA FLYGNUMMER OCH DET NYA FLYGNUMRET SOM DET ÄNDRAS TILL.  OM FLYGBOLAGET OCKSÅ ÄNDRATS MÅSTE DU ÄVEN INFORMERA OSS OM FLYGBOLAGET FÖR DET NYA FLYGET.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-TJÄNSTEN ÄR INTE ÖVERFÖRBAR. INGA ÅTERBETALNINGAR ELLER KREDITER GES. OM DITT FLYG STÄLLS IN OCH ETT NYTT FLYG BOKAS I STÄLLET MÅSTE DU ANTINGEN INFORMERA OSS OM ÄNDRINGEN INNAN DET NYA FLYGET AVGÅR ELLER KÖPA EN NY TJÄNST FÖR DET NYA FLYGET.  ALLA ÄNDRINGAR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS GENOM ATT SKICKA ETT E-POSTMEDDELANDE TILL &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; MED NUMRET PÅ DITT TJÄNSTEAVTAL I ÄMNESRADEN.  I MEDDELANDET MÅSTE DU ANGE FLYGBOLAGET OCH FLYGBOLAGETS BOKNINGSNUMMER, DITT URSPRUNGLIGA FLYGNUMMER OCH DET NYA FLYGNUMRET SOM DET ÄNDRAS TILL.  OM FLYGBOLAGET OCKSÅ ÄNDRATS MÅSTE DU ÄVEN INFORMERA OSS OM FLYGBOLAGET FÖR DET NYA FLYGET.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>E-postadress</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>SendRe</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Utgångsdatum</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>Flygets ankomstinformation</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>Blue Ribbon Bags-tjänsteavtal</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>Bagagetjänst - Funktioner</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>Kontakta oss</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Copyright 2019 Blue Ribbon Bags, LLC. Patentsökt i USA och internationellt.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>Alla köp lyder under villkoren i</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>Rapportera felhanterat bagage</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>hem</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>Blue Ribbon Bags förpliktelser garanteras av ett försäkringsbolag med värderingen A- (Utmärkt) från A.M. Best Company.</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>Köp bagagetjänst</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* Du kan redigera dina uppgifter genom att klicka på knappen Gå tillbaka utan att behöva ange dina tidigare uppgifter igen</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>Agent/Försäljare</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>Flygbokningsnr</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>Flygbolagets namn</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>Passagerarnr</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>Köpdatum</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>Tjänstekostnad</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>BRB tjänstnr</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>FÖR ENDAST $5 &lt;/br&gt;SPÅRAR BRB DITT BORTTAPPADE BAGAGE OCH PÅSKYNDAR DESS LEVERANS &lt;/br&gt;FRÅN FLYGBOLAGET.</value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>Res tryggt och utan bekymmer</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>OM DITT BAGAGE INTE HITTATS&lt;br /&gt;EFTER 96 TIMMAR &lt;br /&gt;SKICKAR BRB DIG $1000 PER VÄSKA, GARANTERAT.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>Sann sinnesfrid &lt;br /&gt;är blå sinnesfrid</value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>Rapportera borttappat bagage</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>Kom ihåg att först meddela flygbolaget att ditt bagage inte kom fram till flygets slutpunkt.
+Flygbolaget kommer att ge dig spårningsinformationen som du behöver för att skicka en rapport till Blue Ribbon Bags.
+Allt borttappat bagage måste rapporteras till Blue Ribbon Bags inom 24 timmar efter att passagerarens flyg anlänt.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>Skicka rapport</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>Du kan också rapportera borttappat bagage per telefon på 888-BAGGAGE (888-224-4243) dygnet runt, sju dagar i veckan.</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>Våra partner</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>Vårt omfång</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>21 miljoner</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>Borttappade resväskor per år</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>Flygbolag som täcks</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>Globala flyg varje dag</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>Vad andra säger</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>I nyheterna</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>Läs mer</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>Kundservicen är bra och denna bagageskyddstjänst från Blue Ribbon Bags är e ...</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>Om du oroar dig över borttappat bagage finns det nu en app för det ... Blue Ribbon Bags red...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>Det är också den enda tjänsten av sin typ som finns för borttappat bagage som kan ...</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>Alla som har upplevt att flygbolaget tappat bort deras bagage vet vilken mardröm ... men Blue Ribbon Bags i...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>Köp bagagetjänst</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>Klicka på &lt;b&gt;LOGGA IN&lt;/b&gt; för att köpa Blue Ribbon Bags-täckning för dina kunder.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>Klicka på &lt;b&gt;REGISTRERA DIG&lt;/b&gt; för att registrera din byrå för att kunna sälja Blue Ribbon Bags-täckning till era kunder.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* Avgiften för tjänsteavtal är per person. Nöjdhetsgarantibetalning är per väska.</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* Betalningar är begränsade till 2 olevererade väskor per person.</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>Rapportera felhanterat bagage</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>FÖR ENDAST US$5 SPÅRAR BRB DITT BORTTAPPADE BAGAGE OCH PÅSKYNDAR DESS LEVERANS FRÅN FLYGBOLAGET.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>Mer information? Du kan alltid kontakta oss per e-post:</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>Inga kvitton på bagagets innehåll krävs för att få betalning.</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Blue Ribbon Bags erbjuder tre nivåer av nöjdhetsgaranti för bagagetjänsten:</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>BRB betalar US$1000, garanterat, för varje borttappade väska som inte levererats efter 4 dagar.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>AVGIFT FÖR TJÄNSTEAVTAL</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>UTBETALNING AV NÖJDHETSGARANTI</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>Reseagenter</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>Borttappade väskor?&amp;nbsp; Rapportera på:</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>Jag godkänner</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inaktiv</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>En giltig xslx-fil måste laddas upp.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>Välkommen  </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>LOGGA IN</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>Jag behöver ett nytt lösenord</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>Kom ihåg inloggning</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>Logga in på Blue Ribbon Bags</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>Användar-ID och/eller lösenord känns inte igen. Lösenordet är SKIFTLÄGESKÄNSLIGT. Se till att Caps Lock-inställningen inte är aktiverad. Ange ditt användarnamn och lösenord igen eller kontakta din administratör för att återställa lösenordet.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>Information om borttappat bagage</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>Ditt incheckade bagage anländer inte till din destination.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>Du anmäler borttappat bagage till flygbolaget på vars flyg bagaget borde ha anlänt och får ett filreferensnummer eller lokaliseringsnummer från flygbolaget.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>Du rapporterar en borttappad väska till Blue Ribbon Bags inom 24 timmar efter ditt flygs ankomst.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>Ditt bagage levereras inte till dig inom fyra (4) dagar efter ditt flygs ankomstdatum, enligt flygbolagets uppgifter.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>ETT KÖP (US$5) TÄCKER ALLT BAGAGE SOM CHECKATS IN PÅ FLYGPLATSEN, INKLUSIVE BAGAGE SOM CHECKATS IN VID GATEN I SISTA MINUTEN FÖRE FLYGET.</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt;AUTOMATISKA E-POSTAVISERINGAR SKICKAS TILL PASSAGERAREN VARJE GÅNG DET BLIR EN STATUSÄNDRING FÖR BAGAGET. PASSAGERARE BEHÖVER INTE KONTAKTA FLYGBOLAGET FÖR ATT FÅ VETA STATUS FÖR SITT BAGAGE.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>BEVIS PÅ VÄRDET AV BAGAGETS INNEHÅLL (KVITTON) KRÄVS &lt;b&gt;INTE&lt;/b&gt; FÖR ATT FÅ BETALNING.</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>BETALNINGAR BEGRÄNSAS TILL 2 OLEVERERADE VÄSKOR PER PERSON.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>BETALNINGARNA ÄR GARANTERADE ÄVEN OM DINA VÄSKOR DYKER UPP VID NÅGON TIDPUNKT EFTER 96-TIMMARS TIDSGRÄNSEN.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>STÖLD, FÖRSVUNNET INNEHÅLL ELLER SKADAT BAGAGE OMFATTAS INTE AV DENNA TJÄNST. TÄCKNING GÄLLER ENDAST BAGAGE SOM FELHANTERATS AV FLYGBOLAGET. &lt;b&gt;BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS INOM 24 TIMMAR EFTER FLYGETS ANKOMST.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>BRB SÄLJER EN TJÄNST. ETT TJÄNSTEAVTAL MED BRB ÄR ETT TILLÄGG TILL EVENTUELL FÖRSÄKRING SOM DU HAR, INTE EN ERSÄTTNING. EFTER ATT DU FÅTT DIN BETALNING FRÅN BRB KAN DU FORTFARANDE TA EMOT FÖRSÄKRINGSUTBETALNINGAR.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-TJÄNSTEN ÄR ICKE ÅTERBETALBAR OCH ICKE ÖVERFÖRBAR. INGA ÅTERBETALNINGAR ELLER KREDITER GES. OM DITT FLYG AVBOKAS OCH ETT NYTT FLIG BOKAS I STÄLLET MÅSTE DU ANTINGEN INFORMERA OSS OM ÄNDRINGEN INNAN DITT NYA FLYG AVGÅR ELLER KÖPA EN NY TJÄNST FÖR DET NYA FLYGET.  ALLA ÄNDRINGAR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS GENOM ATT SKICKA ETT E-POSTMEDDELANDE TILL &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; MED NUMRET PÅ DITT TJÄNSTEAVTAL I ÄMNESRADEN.  I MEDDELANDET MÅSTE DU ANGE FLYGBOLAGET OCH FLYGBOLAGETS BOKNINGSNUMMER, DITT URSPRUNGLIGA FLYGNUMMER OCH DET NYA FLYGNUMRET SOM DET ÄNDRAS TILL.  OM FLYGBOLAG OCKSÅ ÄNDRAS MÅSTE DU ÄVEN INFORMERA OSS OM DET NYA FLYGBOLAGET FÖR DITT NYA FLYG.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>DU KAN KÖPA BLUE RIBBON BAGS-TJÄNST FRAM TILL JUST INNAN DITT FLYG AVGÅR.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>VARJE KÖP (US$5) ÄR PER PERSON PER FLYGBOKNINGSNUMMER, OAVSETT ANTALET MELLANLANDNINGAR ELLER ANSLUTNINGAR ASSOCIERADE MED BOKNINGSNUMRET. TUR-OCH-RETUR-BILJETTER MED ETT ENDA FLYGBOKNINGSNUMMER TÄCKS AV ETT KÖP.</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>OM FLERA FLYG BOKAS SEPARAT OCH UNDER OLIKA BOKNINGSNUMMER MÅSTE SKILDA TJÄNSTEAVTAL KÖPAS FÖR VARJE FLYG.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;ENDAST AGENTER&lt;/u&gt;: ETT KÖP (US$5) ÄR PER PERSON, PER PNR, OAVSET ANTALET ANSLUTNINGAR ELLER MELLANLANDNINGAR.</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>FÖR KÖP SOM GJORTS PÅ WEBBPLATSER FÖR ONLINE-BILJETTJÄNST: VARJE KÖP GÄLLER FÖR DEN RESVÄG SOM BOKATS GENOM WEBBPLATSEN OCH SOM ANGES UNDER BOKNINGSNUMRET SOM ERHÖLLS FRÅN WEBBPLATSEN DÅ KÖPET GJORDES.  OM ÄNDRINGAR I RESVÄGEN GÖRS UTANFÖR WEBBPLATSBOKNINGEN MÅSTE EN SEPARAT TJÄNST KÖPAS FÖR EVENTUELLA NYA FLYG SOM BOKAS.  OM ÄNDRINGARNA I RESVÄGEN GÖRS GENOM WEBBPLATSEN DÄR DEN URSPRUNGLIGA RESVÄGEN BOKADES OCH PASSAGERARENS BOKNINGSNUMMER FÖR DEN URSPRUNGLIGA RESVÄGEN ÄR OFÖRÄNDRAT EFTER EVENTUELLA FLYGÄNDRINGAR I RESVÄGEN, BEHÖVER PASSAGERAREN INTE BOKA EN SEPARAT TJÄNST OCH DEN URSPRUNGLIGA TJÄNSTEN ÄR TILLRÄCKLIG.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>BRB TÄCKER ALLA FLYG PÅ ALLA BOLAG, ÖVERALLT I VÄRLDEN, OAVSETT VAR DIN FLYGRESA BÖRJAR.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>EN ANMÄLAN MÅSTE GÖRAS TILL FLYGBOLAGET INNAN DU RAPPORTERAR DIN BORTTAPPADE VÄSKA TILL BLUE RIBBON BAGS.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>RAPPORTER OM FELHANTERAT BAGAGE KAN LÄMNAS IN ONLINE &lt;a href="{0}" target="_blank"&gt;HÄR&lt;/a&gt; ELLER PER TELEFON PÅ (888) BAGGAGE (+1 888-224-4243), DYGNET RUNT, SJU DAGAR I VECKAN.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS INOM 24 TIMMAR EFTER FLYGETS ANKOMST.  BLUE RIBBON BAGS-TJÄNSTEN GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERAS EFTER 24-TIMMARS TIDSGRÄNSEN.</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>Gör en anmälan till flygbolaget innan du kontaktar Blue Ribbon Bags.</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>Rapportera en borttappad väska till Blue Ribbon Bags inom 24 timmar efter ditt flygs ankomst. Rapporter om felhanterat bagage kan göras dygnet runt, sju dagar i veckan:</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>Online &lt;a href="{0}" target="_blank"&gt;HÄR&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>Per telefon på (888) BAGGAGE (+1 888-224-4243)</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Blue Ribbon Bags börjar spåra din väska och påskynda dess leverans till dig. Passageraren får automatiska e-postaviseringar varje gång det finns en statusändring för väskorna.&lt;br /&gt;&lt;strong&gt;Passagerare behöver inte kontakta flygbolaget för att ta reda på väskornas status.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Antingen hittar Blue Ribbon Bags din väska inom 96 timmar efter flygets ankomst eller så skickar de dig den garanterade utbetalningen en minut efter att 96-timmars tidsfristen går ut.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>Finns det något annat jag bör veta?</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>Vad gör jag om min väska försvinner?</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>Hur vet jag om jag kvalificerar för utbetalning?</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Blue Ribbon Bags (BRB) tillhandahåller en unik tjänst som spårar passagerares borttappade bagage och påskyndar dess återlämnande inom 96 timmar efter att det försvunnit. Om Blue Ribbon Bags inte kan åstadkomma att bagaget levereras till passageraren inom den tidsperioden, skickar BRB den garanterade utbetalningen till passageraren. Betalningar garanteras även om väskan återlämnas till kunden NÄR SOM HELST efter att 96-timmars perioden har gått ut.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>Bagagetjänstfunktioner</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>Passagerarens permanenta hemadress</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>ABA routingnummer</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>Kontonummer:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>Tjänsteavtalsnr</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>Flygbolagets bokningsnr Nr</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>Flygets ankomstdatum</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>Ankomstflygnr</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>Flygets ankomsttid</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; FRÅGA DEN SOM RINGER: Anlände ditt flyg inom eller utanför USA?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; AGENT: läs upp ett av de två styckena nedan baserat på kundens svar:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>Bifoga BIR/PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>Bagagetaggnr</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>Innan du rapporterar borttappat bagage till Blue Ribbon Bags måste du först meddela flygbolaget om att
+bagaget inte anlände till flygets destination. Flygbolaget ger dig spårningsinformationen som du behöver för att lämna in rapporten om borttappat bagage nedan.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>Förmånstagarens adress</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>Förmånstagarens ort</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>Förmånstagarens land</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>Förmånstagarens e-postadress</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>Förmånstagarens förnamn</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>Förmånstagarens efternamn</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>Förmånstagarens telefonnummer</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>Förmånstagarens delstat</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>Förmånstagarens postnummer</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>Klicka i raden för att välja</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>Bekräfta e-postadress</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>Klicka för att kopiera om adressen är exakt samma som ovan</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>Välj språk för e-postaviseringar</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>E-postspråk</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>Du har {0} på dig från när detta meddelande skickas att göra de ombedda korrigeringarna. Om du inte svarar med de korrekta uppgifterna inom tidsperioden {0} avvisas din rapport om felhanterat bagage. Rapporten tas inte emot även om den skickas på nytt.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>Det angivna filreferensnumret är inte giltigt.  Du behöver kontakta flygbolaget och be dem ge dig ett giltigt filreferensnummer omedelbart.  Detta nummer måste skickas till oss inom 24 timmar efter ditt flygs ankomst för att din rapport ska behandlas.  Blue Ribbon Bags hämtar inte filreferensnummer åt passageraren.&lt;br/&gt;
+Det är passagerarens ansvar att få denna information från flygbolaget och skicka den till oss inom 24 timmar efter flygets ankomst.  Om vi inte får ett giltigt filreferensnummer inom 24 timmar efter flygets ankomst avvisas din rapport och du kommer inte att kvalificera för bagagehämtningstjänster eller utbetalning enligt vår nöjdhetsgaranti.  Vi kommer inte att öppna ditt ärende på nytt, oavsett omständigheterna, om vi får informationen vid någon tidpunkt efter att 24 timmars tidsgränsen har gått ut.&lt;br/&gt;
+Om du redan skickat oss en kopia av rapporten som du fick av flygbolaget då du anmälde ditt borttappade bagage och du ändå får detta meddelande, betyder det att flygbolaget inte har gett dig ett giltigt filreferensnummer och du måste kontakta dem för att få ett omedelbart, och skicka det till oss inom 24 timmar efter flygets ankomst.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>Ange följande information från din anmälan till flygbolaget om borttappat bagage:</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>Ange ditt Blue Ribbon Bags-tjänsteavtalsnummer:</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>Filreferensnr eller lokaliseringsnr</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>Filreferensnumret som du borde ha fått har en 5-siffrig numerisk kod efter koden för flygplatsen och flygbolaget på din rapport om felhanterat bagage (PIR eller Property Irregularity Report). Till exempel: MCOAF12345. &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>Filreferensnummer</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>Lämna in rapport</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>Hotellnamn:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>Om passageraren lämnar denna plats inom 96-timmars tidsperioden och vill meddela BRB om dessa omständigheter
+så att väskan kan levereras till rätt plats, meddela oss på  &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,
+och inkludera MBR-numret som du fick när du fyllde i rapporten i ämnesraden. Ge oss så detaljerad information som möjligt om din situation.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>MBR-nr</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>Banknamn:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>Vi beklagar, men det går inte att redigera denna rapport och därför kan denna information inte längre korrigeras. Tack för att du valde Blue Ribbon Bags. Res tryggt och utan bekymmer!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>Din sökning gav inga resultat</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>Du är skyldig att lämna in en kopia av rapporten som flygbolaget gav dig, när du lämnade in förlorat bagage anmälan till flygbolaget, till Blue Ribbon Bags inom 24 timmar av din flygankomst för att komplettera registreringsprocessen för förlorat bagage rapport. Om du inte lämnar in en kopia av denna rapport, som tillhandahållits dig av flygbolaget, inom 24 timmar från din flygankomst, din förlorade bagage rapport med Blue Ribbon Bags kommer att nekas omedelbart efter utgången av 24-timmars tidsgräns och du kommer inte att kvalificera för bagagehämtningstjänster eller nöjdhetsgaranti betalning. Vänligen lämna in en kopia av denna rapport till mbr@blueribbonbags.com och skriv ditt serviceavtal nummer i ämnesraden. Stödjande flygdokumentation som lämnas in på något annat sätt än vad som anges här kommer inte att betraktas som ett giltigt inlämnande, och kommer inte att beaktas med avseende till din förlorade bagagerapport med Blue Ribbon Bags.  Eventuella rapporter som inte har medföljande dokumentation kommer att nekas vid utgången av 24-timmars tidsgräns från det att din flygning landade.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>Passageraren är på denna adress till</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>Betalningsadress</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>Betalning via</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>Betalningsort</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>Betalningsland</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>Obs! Betalningsinformation kan ändras efter första rapporten. Detta kan orsaka en liten fördröjning i betalningshanteringen.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>E-postadress för betalning</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>Förnamn för betalning</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>Efternamn för betalning</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>Telefon för betalning</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>Delstat för betalning</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>Postnummer för betalning</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>E-postadress för PayPal</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>Fyll i informationen associerat med ditt PayPal-konto</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>Förnamn för PayPal</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>Efternamn för PayPal</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>Fyll i fälten precis så som det står i din anmälan till flygbolaget.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>Ange betalningsuppgifter. &lt;b&gt;Detta är adressen dit du vill att betalningen skickas i fall din väska är försenad i mer än 96 timmar. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>Ange betalningsuppgifter. &lt;b&gt;Detta är adressen dit du vill att betalningen skickas i fall din väska är försenad i mer än 96 timmar. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>Ange följande information precis så som den visas i din anmälan till flygbolaget. &lt;b&gt;Detta är adressen dit du vill att väskan levereras.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>Sök efter (Välj ett)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>Tjänsteavtalsnr</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>Flygets ankomstinformation</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>Information om felhanterat bagage</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>Tjänsteavtalsnummer</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>Information om bagageleverans</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>Betalningsuppgifter</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>Bekräfta</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>Swift-kod</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>Felhanterat bagage</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS INOM 24 TIMMAR EFTER FLYGETS ANKOMST, 
+TILLSAMMANS MED ETT GILTIGT FILREFERENSNUMMER FRÅN FLYGBOLAGET.
+BLUE RIBBON BAGS SERVICE GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERAS EFTER ATT 24-TIMMARS FRISTEN GÅTT UT.
+
+OM FLYGBOLAGET INTE GETT DIG ETT GILTIGT FILREFERENSNUMMER
+MÅSTE DU KONTAKTA FLYGBOLAGET OCH FÅ NUMRET FRÅN DEM INNAN DU LÄMNAR IN DIN RAPPORT TILL OSS.  
+BLUE RIBBON BAGS HÄMTAR INTE FILREFERENSNUMMER FRÅN FLYGBOLAGET.  DET ÄR PASSAGERARENS 
+ANSVAR ATT FÅ DENNA INFORMATION FRÅN FLYGBOLAGET INNAN PASSAGERAREN LÄMNAR IN EN RAPPORT OM FELHANTERAT BAGAGE TILL OSS.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>Antal borttappade väskor</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>När du gjorde en anmälan om borttappat bagage till
+flygbolaget fick du ett filreferensnummer
+och bagagetaggnummer. Ange dessa här:</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>Agentens inloggning</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>Funktioner</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>Kontakta</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Hem</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>Skicka rapport</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>Borttappade väskor</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>Klicka här om du vill få ett bekräftelsemeddelande.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>Klicka här om du vill att passageraren får ett bekräftelsemeddelande.</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>Visa inte total debitering i bekräftelsemeddelanden om service.</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>Mitt konto</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>OM DU VILL LÄMNA INFORMATION OM DIN VÄSKA ELLER LEVERANSINFORMATION, VÄNLIGEN ANGE DEN HÄR</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>Lösenordsfältet visas avsiktligt som tomt.  Om du vill byta lösenord ska du ange ditt nya lösenord och bekräfta det nya lösenordet. &lt;br /&gt;&lt;br /&gt;
+                   Lösenordet måste innehålla minst 8 (åtta) tecken, med minst en bokstav, inklusive minst en stor bokstav, en siffra och ett specialtecken.&lt;br /&gt;&lt;br /&gt;
+                   Tillåtna specialtecken inkluderar:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value> Betalning:</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>Betalningsadressuppgifter </value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>Betalningsuppgifter</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>OK, jag är klar för nu!</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>Grattis!</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>Servicenivå:</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>Antal passagerare:</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>Betalningsbekräftelse:</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>Betalningsuppgifter</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>Kampanjkod:</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>Tack så mycket för att du valt Blue Ribbon Bags för din kommande resa. Vi kommer att göra allt så enkelt som möjligt för dig.&lt;br /&gt;&lt;br /&gt;Ditt Blue Ribbon Bags-tjänsteavtalsnummer är</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>Håll reda på detta tjänsteavtalsnummer. Du kommer att behöva det för att rapportera ditt borttappade bagage till oss i fall bagaget inte kommer fram.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>Du får ett bekräftelsemeddelande från Blue Ribbon Bags inom några minuter. I fall du inte får det ska du kontakta oss och hålla din bekräftelse på Paypal-transaktionen till hands.</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;Så här gör du om din väska inte kommer fram:&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;Om din väska inte kommer fram med dig till ditt flygs slutdestination måste du rapportera det till flygbolaget innan du rapporterar till Blue Ribbon Bags. Borttappat bagage måste rapporteras till Blue Ribbon Bags inom 24 timmar efter att ditt flyg ankommit. Du kan rapportera den felhanterade väskan till oss antingen per telefon på &lt;strong&gt;{0}&lt;/strong&gt;, eller online på &lt;a href="{1}"&gt;{2}&lt;/a&gt;, dygnet runt, sju dagar i veckan. &lt;br /&gt;&lt;br /&gt;Håll reda på informationen för bagagespårning (filreferens- eller lokaliseringsnummer) som flygbolaget ger dig när du anmäler borttappat bagage till dem, eftersom Blue Ribbon Bags kommer att kräva denna information för att behandla din rapport om felhanterat bagage. Borttappade väskor måste rapporteras till Blue Ribbon Bags inom 24 timmar efter ditt flygs ankomst.&lt;br /&gt;&lt;br /&gt;Dina betalningsuppgifter finns nedan. Om du har några frågor, kontakta gärna Blue Ribbon Bags genom att skicka e-post till &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt;. Vi är här för att hjälpa dig dygnet runt, sju dagar i veckan. Res tryggt och utan bekymmer!&lt;br /&gt;&lt;br /&gt;Ditt tjänsteavtal finns online på &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Tack för att du anlitat oss, och ha en trygg resa!&lt;br /&gt;&lt;br /&gt; BLUE RIBBON BAGS-TJÄNSTEN ÄR INTE ÅTERBETALBAR OCH INTE ÖVERFÖRBAR. INGA ÅTERBETALNINGAR ELLER KREDITER GES. OM DITT FLYG STÄLLS IN OCH ETT NYTT FLYG BOKAS I STÄLLET MÅSTE DU ANTINGEN INFORMERA OSS OM ÄNDRINGEN INNAN DET NYA FLYGET AVGÅR ELLER KÖPA EN NY TJÄNST FÖR DET NYA FLYGET.  ALLA ÄNDRINGAR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS GENOM ATT SKICKA ETT E-POSTMEDDELANDE TILL &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; MED NUMRET PÅ DITT TJÄNSTEAVTAL I ÄMNESRADEN.  I MEDDELANDET MÅSTE DU ANGE FLYGBOLAGET OCH FLYGBOLAGETS BOKNINGSNUMMER, DITT URSPRUNGLIGA FLYGNUMMER OCH DET NYA FLYGNUMRET SOM DET ÄNDRAS TILL.  OM FLYGBOLAGET OCKSÅ ÄNDRATS MÅSTE DU ÄVEN INFORMERA OSS OM FLYGBOLAGET FÖR DET NYA FLYGET.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>DIN BETALNING HAR BEHANDLATS</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>Totalsumma:</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon </value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Telefonnummer </value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>Alla väskor har hittats och detta ärende har stängts </value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>Orsak för avslag</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>Rapporter om felhanterat bagage kan lämnas in dygnet runt, sju dagar i veckan, genom att klicka &lt;a href="{0}" target="_blank"&gt;här &lt;/a&gt;eller ringa till 888-BAGGAGE.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>Om passageraren vid något tillfälle meddelat flygbolaget till vilket de har gjort anmälan, eller Blue Ribbon Bags, att väskan kommer att hämtas och inte ska levereras, så ändras bagagerapportens status till stängd och alla väskor anses återlämnade så snart väskan anländer till flygplatsen. </value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>När väskan kommer fram till destinationen som angavs till flygbolaget när anmälan gjordes, ändras bagagerapportens status till stängd.  </value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>* Om någon information ovan är inkorrekt, skicka ett meddelande till oss på &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>Anteckningar från rapporthanteraren:</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>Din sökning gav inga resultat</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>Status av denna rapport om felhanterat bagage är: &amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>Den har varit öppen i &lt;strong&gt;{0}&lt;/strong&gt; dagar.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>Utbetalning för rapport om felhanterat bagage görs till:  &amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>Det resulterar i en utbetalning om den ännu är öppen om &lt;strong&gt;{0}&lt;/strong&gt; dagar.</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>Resultat </value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>&lt;b&gt;AUTOMATISKA E-POSTAVISERINGAR SKICKAS TILL PASSAGERAREN VARJE GÅNG DET BLIR EN STATUSÄNDRING FÖR BAGAGET. PASSAGERARE BEHÖVER INTE KONTAKTA FLYGBOLAGET FÖR ATT TA REDA PÅ STATUS FÖR SITT BAGAGE.&lt;/b&gt;</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>Funktioner:</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>VÅRT TELEFONNUMMER (888-BAGGAGE) ÄR BARA FÖR ATT TA EMOT NYA RAPPORTER OM FELHANTERAT BAGAGE.
+DET FINNS INGEN INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE PÅ DETTA TELEFONNUMMER.
+ALLA FRÅGOR, KOMMENTARER ELLER INLÄMNINGAR AV INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE, 
+VARE SIG RAPPORTEN ÄR NY, ÖPPEN, HAR FEL INFORMATION ELLER ÄR STÄNGD, AV VILKEN ANLEDNING SOM HELST, BÖR SKICKAS PER E-POST
+TILL &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, MED TJÄNSTEAVTALSNUMRET I ÄMNESRADEN</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>Innan passagerare rapporterar felhanterat bagage till Blue Ribbon Bags
+måste de anmäla borttappat bagage till flygbolaget (så som krävs enligt bolagets regler).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS INOM 24 TIMMAR EFTER FLYGETS ANKOMST, MED ETT GILTIGT FILREFERENSNUMMER FRÅN FLYGBOLAGET.  BLUE RIBBON BAGS-TJÄNST GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERATS EFTER 24-TIMMARS TIDSGRÄNSEN.  OM FLYGBOLAGET INTE HAR GETT DIG ETT GILTIGT FILREFERENSNUMMER KOMMER DU ATT BEHÖVA KONTAKTA FLYGBOLAGET OCH FÅ DET FRÅN DEM INNAN DU GÖR DIN ANMÄLAN HOS OSS. BLUE RIBBON BAGS HÄMTAR INTE FILREFERENSNUMMER FRÅN FLYGBOLAGET. DET ÄR PASSAGERARENS ANSVAR ATT FÅ DENNA INFORMATION FRÅN FLYGBOLAGET INNAN RAPPORTEN OM FELHANTERAT BAGAGE LÄMNAS IN TILL OSS. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+I fall det upptäcks att väskan som levererats till passageraren var fel väska, har passageraren 12 timmar på sig efter aviseringen om att deras fil med Blue Ribbon Bags har stängts och en väska återlämnats att meddela Blue Ribbon Bags om felet genom att skicka oss e-post till mbr@blueribbonbags.com med "Inte min väska" och MBR-numret i ämnesraden. Blue Ribbon Bags har 72 timmar (3 dagar) på sig från utgången av den ursprungliga 96-timmars perioden efter ankomsten av passagerarens ursprungliga flyg att hitta den feldirigerade väskan.  Alla väskor i denna kategori anses vara "återlämnade" enligt våra villkor när väskan kommer fram till flygplatsen som angivits i anmälan om borttappat bagage till flygbolaget. Om fel väska redan levererats, måste passageraren tillhandahålla e-postbevis på leveranskvitto från företaget som levererade fel väska, samt dokument från flygbolaget som tydligt anger att väskan i fråga som levererades till passageraren inte var dennas. Båda dessa bevis krävs för att kunna få Blue Ribbon Bags utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+
+FEL INFORMATION ELLER BEGÄRANDEN OM INFORMATION:&lt;/strong&gt; Om fel information anges när du lämnar in en rapport om felhanterat bagage kan du få ett e-postmeddelande som ber om korrigering av uppgifterna. Om en passagerare får ett sådant e-postmeddelande, eller någon annan begäran om information angående passagerarens ärende, har passageraren 12 timmar på sig från tiden då meddelandet skickades att svara på det. Om passageraren inte svarar inom den tidsperioden med den korrigerade eller begärda informationen, samt dokumentering om tillämpligt, avslås passagerarens rapport om felhanterat bagage och passageraren kvalificerar inte längre för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;
+Om leveransadress INTE tillhandahållits flygbolaget när anmälan om borttappat bagage gjordes, stänger BRB ditt ärende när väskan kommer fram till flygplatsen som angetts till flygbolaget och dina väskor kommer att anses vara återlämnade enligt Blue Ribbon Bags tjänsteavtalet.&lt;br /&gt;&lt;br
+/&gt;&lt;strong&gt;
+
+OBS!  Om passagerarens väska felhanterats av ett flygbolag som endast utfärdar PIR (Property Irregularity Reports) (detta är namnet på rapporten som flygbolaget tillhandahåller passageraren och som innehåller referensnumret) genom flygbolaget eller flygplatsen, eller en BIR (Baggage Irregularity Report) via flygbolaget (BIR har i allmänhet inget 10-siffrigt filreferensnummer), måste passageraren skicka en kopia av sin PIR eller BIR till mbr@blueribbonbags.com genom att skriva in sitt tjänsteavtalsnummer i ämnesraden efter att de slutfört online-formuläret. Vi måste få en kopia av denna rapport inom 24 timmar efter att passagerarens flyg anlänt för att rapporten ska anses vara giltig. Om en kopia av denna rapport inte tillhandahålls inom 24 timmar efter att flyget anlänt, kommer BRB att avvisa passagerarens rapport omedelbart när 24 timmars tidsgränsen går ut.  Alla väskor i denna kategori kommer att anses vara "återlämnade" enligt våra villkor när de kommit fram till flygplatsen som angetts i reseplanen eller leveransinformationen som passageraren tillhandahållit flygbolaget i samband med anmälan om borttappat bagage.
+&lt;br/&gt; &lt;br/&gt;
+OBS! Om din väska felhanterats av ett flygbolag som endast utfärdar PIR (Property Irregularity Reports) genom flygplatsen (hittegods),
+"eller BIR (Baggage Irregularity Report) via flygbolaget (BIR har i allmänhet inte något 10-siffrigt filreferensnummer),	"
+kommer Blue Ribbon Bags endast att göra utbetalning enligt vår nöjdhetsgaranti för en väska som varit borttappad i mer än 96 timmar
+efter att flygbolaget först betalat ersättning för den borttappade väskan. Om flygbolaget aldrig betalar
+någon ersättning till passageraren för en borttappad väska gör Blue Ribbon det inte heller. I båda dessa fall
+krävs bevis på utbetalning från flygbolaget för att kunna ta emot utbetalning enligt Blue Ribbon Bags nöjdhetsgaranti,
+samt bekräftelse från flygbolaget att deras utbetalning var för den omnämnda borttappade väskan.
+Blue Ribbon Bags hjälper att hitta ditt borttappade bagage som vanligt under de första 96 timmarna efter att väskorna felhanterats.
+&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; FEL:&lt;/strong&gt; I fall ett fel upptäcks av passageraren när Blue Ribbon Bags avvisat eller stängt din rapport om felhanterat bagage, har du 12 timmar på dig att rapportera felet till Blue Ribbon Bags, efter att du fått ett e-postmeddelande om endera av dessa omständigheter.  Meddela oss om felet via e-post till &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; och skriv in ditt MBR-nummer i ämnesraden.  I meddelandet måste passageraren beskriva felet så detaljerat som möjligt samt tillhandahålla eventuella stöddokument.   Om Blue Ribbon Bags upptäcker att felet är giltigt, har Blue Ribbon Bags 72 timmar på sig från tidpunkten då passagerarens fil öppnas på nytt att hitta passagerarens bagage.  Om 96-timmars tidsgränsen från ankomsten av passagerarens ursprungliga flyg går ut efter 72-timmars tidsperioden från att filen öppnas på nytt, har Blue Ribbon Bags fram till utgången av den ursprungliga 96-timmars perioden att hitta passagerarens bagage.  
+I båda fallen, när passagerarens bagage har tagits emot på flygplatsen som angetts då det borttappade bagaget anmäldes till flygbolaget, kommer bagaget att anses vara återlämnat enligt Blue Ribbon Bags villkor och passagerarens fil kommer att stängas. &lt;br/&gt;&lt;br/&gt;
+&lt;strong&gt;
+Inlämningar som skickas efter att 12-timmars perioden gått ut kommer inte att accepteras och passageraren kvalificerar inte för bagagehämtningstjänster eller utbetalning enligt vår nöjdhetsgaranti, oavsett eventuell bifogad dokumentering.
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;VÅRT TELEFONNUMMER (888-BAGGAGE) ÄR ENDAST FÖR ATT TA EMOT NYA RAPPORTER OM FELHANTERAT BAGAGE.
+                       DET FINNS INGEN INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE PÅ DETTA TELEFONNUMMER.
+                       ALLA FRÅGOR, KOMMENTARER ELLER YTTERLIGARE INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE, VARE SIG DE ÄR NYA, ÖPPNA, AVSER FEL INFORMATION ELLER ÄR STÄNGDA FÖR VILKEN SOM HELST ORSAK, BÖR SKICKAS PER E-POST
+                       TILL &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;. SKRIV IN DITT TJÄNSTEAVTALSNUMMER I ÄMNESRADEN.
+                   &lt;/li&gt;
+                   &lt;li&gt;Innan passageraren rapporterar felhanterat bagage till Blue Ribbon Bags måste passageraren anmäla borttappat bagage till flygbolaget (så som krävs enligt flygbolagets regler).&lt;/li&gt;
+                   &lt;li&gt;BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS TILLSAMMANS MED ETT GILTIGT FILREFERENSNUMMER FRÅN FLYGBOLAGET INOM 24 TIMMAR EFTER FLYGETS ANKOMST. BLUE RIBBON BAGS TJÄNST GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERATS EFTER 24-TIMMARS TIDSGRÄNSEN. OM DITT FLYGBOLAG INTE GETT DIG ETT GILTIGT FILREFERENSNUMMER MÅSTE DU KONTAKTA FLYGBOLAGET FÖR ATT FÅ DET INNAN DU SKICKAR IN DIN RAPPORT TILL OSS. BLUE RIBBON BAGS HÄMTAR INTE FILREFERENSNUMMER FRÅN FLYGBOLAGET. DET ÄR PASSAGERARENS ANSVAR ATT FÅ DENNA INFORMATION FRÅN FLYGBOLAGET INNAN PASSAGERAREN LÄMNAR IN EN RAPPORT OM FELHANTERAT BAGAGE HOS OSS.&lt;/li&gt;
+                   &lt;li&gt;&lt;b&gt;&lt;u&gt;För ALLA flyg som anlänt utanför USA:&lt;/u&gt; Som en del av processen för att lämna in en rapport om felhanterat bagage måste du skicka in en kopia av rapporten som du fick från flygbolaget när du anmälde ditt borttappade bagage till Blue Ribbon Bags inom 24 timmar efter att ditt flyg anlände.  Om du inte skickar en kopia av denna rapport som du fick från flygbolaget när du gjorde anmälan om borttappat bagage, inom 24 timmar efter att ditt flyg anlänt, kommer din rapport om felhanterat bagage till Blue Ribbon Bags att avslås omedelbart när 24-timmars tidsgränsen går ut och du kommer inte att kvalificeras för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.   Skicka en kopia av rapporten till &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; och skriv in ditt tjänsteavtalsnummer i ämnesraden.  Flygbolagsrapporter som lämnas in på något annat sätt än som anges ovan anses vara ogiltiga.  Alla väskor i denna kategori kommer att anses "återlämnade" enligt villkoren i Blue Ribbon Bags tjänsteavtal när väskan kommer fram till den angivna flygplatsen i din anmälan om borttappat bagage till flygbolaget.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;För flyg som anlänt inom USA:&lt;/u&gt;&lt;br /&gt;Om din väska felbehandlats av ett flygbolag som gett dig en Property Irregularity Report, eller PIR (detta är namnet på rapporten som flygbolaget gav dig när du anmälde ditt borttappade bagage till flygbolaget eller genom flygplatsen, och som innehåller ditt filreferensnummer) eller en  Baggage Irregularity Report (BIR) via flygbolaget, (BIR har innehåller i allmänhet inte ett 10-siffrigt filreferensnummer) måste du lämna in en kopia av din PIR eller BIR till Blue Ribbon Bags inom 24 timmar efter ditt flygs ankomst för att kunna slutföra anmälningsprocessen för felhanterat bagage (MBR).   Om du inte lämnar in en kopia av denna rapport som du fick av flygbolaget när du anmälde ditt borttappade bagage till dem, inom 24 timmar efter ditt flygs ankomst, kommer din rapport om borttappat bagage till Blue Ribbon Bags att avvisas omedelbart när den 24-timmars tidsgränsen gått ut, och du kommer inte att kvalificera för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.  Skicka en kopia av rapporten till &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; och skriv ditt tjänsteavtalsnummer i ämnesraden.  Flygbolagsrapporter som skickas på något annat sätt än det som anges ovan kommer inte att anses giltiga.  Alla väskor i denna kategori kommer att anses "återlämnade" enligt villkoren i Blue Ribbon Bags tjänsteavtal när väskan kommer fram till den angivna flygplatsen i din anmälan om borttappat bagage till flygbolaget.&lt;/b&gt; &lt;/li&gt;
+                   I fall det upptäcks att väskan som levererats till passageraren var fel väska, har passageraren 12 timmar på sig efter aviseringen om att deras fil med Blue Ribbon Bags har stängts och en väska återlämnats att meddela Blue Ribbon Bags om felet genom att skicka oss e-post till mbr@blueribbonbags.com med "Inte min väska" och MBR-numret i ämnesraden. Blue Ribbon Bags har 72 timmar (3 dagar) på sig från utgången av den ursprungliga 96-timmars perioden efter ankomsten av passagerarens ursprungliga flyg att hitta den feldirigerade väskan. Alla väskor i denna kategori anses vara "återlämnade" enligt våra villkor när väskan kommer fram till flygplatsen som angivits i anmälan om borttappat bagage till flygbolaget. Om fel väska redan levererats, måste passageraren tillhandahålla e-postbevis på leveranskvitto från företaget som levererade fel väska, samt dokument från flygbolaget som tydligt anger att väskan i fråga som levererades till passageraren inte var dennas. Båda dessa bevis krävs för att kunna få Blue Ribbon Bags utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+                   &lt;li&gt;FEL INFORMATION ELLER BEGÄRANDEN OM INFORMATION: FEL INFORMATION ELLER BEGÄRANDEN OM INFORMATION:&lt;/strong&gt; Om fel information anges när du lämnar in en rapport om felhanterat bagage kan du få ett e-postmeddelande som ber om korrigering av uppgifterna. Om en passagerare får ett sådant e-postmeddelande, eller någon annan begäran om information angående passagerarens ärende, har passageraren 12 timmar på sig från tiden då meddelandet skickades att svara på det. Om passageraren inte svarar inom den tidsperioden med den korrigerade eller begärda informationen, samt dokumentering om tillämpligt, avslås passagerarens rapport om felhanterat bagage och passageraren kvalificerar inte längre för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;
+                   Om leveransadress INTE tillhandahållits flygbolaget när anmälan om borttappat bagage gjordes, stänger BRB ditt ärende när väskan kommer fram till flygplatsen som angetts till flygbolaget och dina väskor kommer att anses vara återlämnade enligt Blue Ribbon Bags tjänsteavtal.&lt;br /&gt;&lt;br
+                   &lt;li&gt;PASSAGERARE MED AIR CANADA OCH WESTJET: Blue Ribbon Bags kommer inte att hantera leverans av borttappat bagage för rapporter om felhanterat bagage associerade med anmälningar från endera av dessa två flygbolag. Alla felhanterade väskor associerade med en anmälan om borttappat bagage hos Air Canada eller WestJet kommer att anses returnerade enligt villkoren i Blue Ribbon Bags tjänsteavtal när väskan anländer till flygplatsen som angivits i anmälan om borttappat bagage till Air Canada eller WestJet.  När väskornas ankomst på flygplatsen som angetts i anmälan om borttappat bagage till Air Canada eller WestJet bekräftats inom tjänsteperioden, kommer passageraren inte längre att kvalificera för bagagehämtningstjänster eller Blue Ribbon Bags nöjdhetsgarantibetalning.&lt;/li&gt;
+                   &lt;li&gt;FEL: &lt;strong&gt; FEL:&lt;/strong&gt; I fall ett fel upptäcks av passageraren när Blue Ribbon Bags avvisat eller stängt din rapport om felhanterat bagage, har du 12 timmar på dig, från att du fått ett e-postmeddelande om endera av dessa omständigheter, att rapportera felet till Blue Ribbon Bags. Meddela oss om felet via e-post till &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; och skriv in ditt MBR-nummer i ämnesraden. I meddelandet måste passageraren beskriva felet så detaljerat som möjligt samt tillhandahålla eventuella stöddokument. Om Blue Ribbon Bags upptäcker att felet är giltigt, har Blue Ribbon Bags 72 timmar på sig från tidpunkten då passagerarens fil öppnas på nytt att hitta passagerarens bagage. Om 96-timmars tidsgränsen från ankomsten av passagerarens ursprungliga flyg går ut efter 72-timmars tidsperioden från att filen öppnas på nytt, har Blue Ribbon Bags fram till utgången av den ursprungliga 96-timmars perioden att hitta passagerarens bagage. I båda fallen, när passagerarens bagage har tagits emot på flygplatsen som angetts i anmälan om det borttappade bagaget till flygbolaget, kommer bagaget att anses vara återlämnat enligt Blue Ribbon Bags villkor och passagerarens fil kommer att stängas. Inlämningar som skickas efter att 12-timmars perioden gått ut kommer inte att accepteras och passageraren kvalificerar inte för bagagehämtningstjänster eller utbetalning enligt vår nöjdhetsgaranti, oavsett eventuell bifogad dokumentering.
+                   &lt;li&gt;STÖLD, FÖRSVUNNET INNEHÅLL ELLER SKADAT BAGAGE OMFATTAS INTE AV DENNA TJÄNST. TÄCKNING GÄLLER ENDAST BAGAGE SOM FELHANTERATS AV FLYGBOLAGET.&lt;/li&gt;</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>VIKTIG INFORMATION ANGÅENDE RAPPORTER OM FELHANTERAT BAGGAGE</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>Sök efter din Rapport om felhanterat bagage</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) Brons-servicenivån är ENDAST för inrikesresor i Indien. Alla bokningar som görs med brons-servicenivå som inkluderar internationella flyg till eller från Indien eller något annat land godkänns inte. </value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>Kampanjkod</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>Ange din reseinformation</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>Skapar tjänst(er) att köpa ...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Behandlar tjänsten {0} ...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>Behandlar tjänsten {0} ...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>Behandlar tjänsten {0} ...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>Behandlar tjänsten {0} ...</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>Byrånamn</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>Agentkort</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>Detta är en PDF-fil som du kan hänvisa till när du pratar med kunderna så att du inte missar någon av BRB:s fina funktioner.</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value> E-postspråk för agent</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>Agent-ID (EPR) </value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>Agentinformation</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Agentinformation har sparats.</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>Agent (Jag) </value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>Agent PCC </value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>Flygbolag</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>Du faktureras senare för detta köp. </value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>Faktureringsinformation </value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>När du sparar inställningarna initialiseras alla flikar i Blue Ribbon Bags-programmet, inklusive fliken Köp, så du kommer att behöva ladda om PNR för köpet som pågår.  Vill du fortsätta?</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>Kreditkortsnr</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>Kontrollerar PNR ...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>Stad, delstat </value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>Klicka här om &lt;b&gt;du&lt;/b&gt; vill få ett automatiskt bekräftelsemeddelande per e-post från Blue Ribbon Bags efter varje köp.</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Klicka här om du vill att &lt;b&gt;passageraren&lt;/b&gt; får ett automatiskt bekräftelsemeddelande per e-post från Blue Ribbon Bags efter varje köp.</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>Klientkort </value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>Detta är ett PDF-dokument som du kan skicka till kunderna för att marknadsföra tjänsten, som inte omnämner provision.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>Bekräfta nr</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>Datum/Tid</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>Anmärkning med API kunde inte läggas till i Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>Anmärkning kunde inte läggas till i Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>Det gick inte att stänga PRN och anmärkningen kunde inte läggas till i Sabre PNR.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Fel uppstod vid kommunikation med Sabre. Felkod {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Fel uppstod vid kommunikation med Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>Det gick inte att ladda agentprofil.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>FEL. Det PNR som är öppet i BRB-programmet ({0}) är inte samma som det som är aktivt i Sabre-arbetsutrymmet ({1}).</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>Ett serverfel uppstod vid behandling av din begäran.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR Info XML kunde inte läsas för att ta bort känslig information, så den togs bort.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Det gick inte att hämta PNR-information. Se till att en aktiv PNR är öppen i Sabre. </value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>Utgång MM  </value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>Utgäng ÅÅ</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>Betalningsförnamn</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>Flygets ankomstinformation</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>Flygnr</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>Hämta PNR-info</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>Gränssnittsspråk</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>Ogiltig Sabre-begäran.</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>Sista flyg</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Du har inte loggat in på Sabre ännu. Logga in och försök igen</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>Hämtar PNR-info från Sabre. Vänta ...</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>valfritt</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>Ursprungsflyg</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>Välj e-postspråk för passagerare</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>Passagerarinformation</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>Passagerare</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>täckning per väska</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>per passagerare</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>Personliga uppgifter</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>Telefonnr</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>Skicka oss e-post när som helst på agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR med DUMMY-info har laddats. Fyll i enkäten nedan.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR-information har laddats. Fyll i formuläret nedan.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR-informationen matchar inte. Ladda om bokning.</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR-informationen laddades INTE. Försök igen.</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>PNR-nr</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>Kampanjkod</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>Inköpsorder. Vänta ...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>Kontakta oss på agent@blueribbonbags.com om du har ytterligare frågor eller kommentarer.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>Vi registrerar dig. Vänta ...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>Din registrering har slutförts.</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Din registrering har hanterats och du kan nu börja sälja. Ta först en minut på dig att kontrollera din e-post och slutföra registreringsprocessen. Tack!</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>Vi sparar agentinformationen. Vänta ...</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>Vi sparar dina inställningar. Vänta ...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>Välj täckningsnivå</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>Skicka bekräftelsemeddelande till:</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Tjänsteavtal [{0}]  har köpts.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Inställningarna har sparats.</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>Delstat</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>Om du vill inkludera BRB som en del av ditt biljettutbud kan du fråga oss om våra faktureringsalternativ för att undvika att kunderna ser skilda kontokortsdebiteringar för BRB.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>Total kostnad = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>Agentinformation</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>Oväntat fel.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Oväntat fel. PNR-informationen laddades INTE.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>Ohanterat undantag under GetPNRInfo.</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>Användarinformation</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>Du kan uppdatera dina personliga uppgifter för Blue Ribbon Bags-registrering i följande formulär.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>Bekräftar agent ...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Välkommen tillbaka {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Välkommen till registreringen!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>REGISTRERING AV RESEAGENT </value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>(Bokföring) Agent-/Medlems-ID-nr</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>Resebyråinformation</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>Resebyrånummer</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>Resebyråtyp</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>Jag bekräftar att informationen jag angett till Blue Ribbon Bags, LLC är den korrekta informationen för att spåra alla köp åt kunden.</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>Affärsenhet</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>Fyll i resultatet av räkningen du ser i bilden här </value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>Reseagent har skapats. Du kommer att få ett e-postmeddelande med aktiveringslänken.</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>Visa resebyrå-ID</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Titel (före namn)</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Titel (efter namn)</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>REGISTRERING AV RESEAGENT</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>Namn på resebyrå</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>Användarinloggning</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>Dina uppgifter</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Ta bort </value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* Obligatoriskt</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) Obligatoriska fält</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>Routing-nummer</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>Utbetalning av nöjdhetsgaranti per väska:</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>Agentnamn </value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>Ange e-postadress </value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>Annat </value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>Passagerarlista</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>Tjänsteinformation</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>Köpt genom:</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>Skicka agentmeddelande på nytt</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>Skicka e-postmeddelande på nytt</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>Skicka passagerarmeddelande på nytt</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>Skicka e-postmeddelande</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>Tjänstekostnad:</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>Total kostnad:</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>Total besparing:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök </value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Säkerhetskod </value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>Välj antal passagerare </value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>Tjänstefunktioner</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>Ladda ner agentkort</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>SÖKNING AV TJÄNSTEAVTAL</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>Flygbolag</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>Flygbolagets bokningsnr</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>BRB-tjänstnr.</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>CHECKA UT</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>Tjänstekostnad:</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>per väska</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>Daglig</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>Datumintervall</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>Exportera efter passagerare</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>Exportera efter tjänst</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>Täckning kan köpas för flera flyg samtidigt för samma passagerare genom att ange passagerarens namn flera gånger med olika PNR- eller bokningsnummer.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>SERVICENIVÅ:</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>Maximum täckning för förlust:</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>Antal passagerare:</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>Ursprungligt flygbolag</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>Antal passagerare:</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>PASSAGERARINFORMATION</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>per dag</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>per år</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>PNR-nr</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>Kampanjkod</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>KÖP TJÄNSTEAVTAL</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>Passageraren får inget bekräftelsemeddelande om det inte finns någon e-postadress.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>Servicenivå:</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>Tjänst(er) som importerats från filen:</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>Sammanfattning</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>Ladda upp en Excel-fil med data för Skapa tjänster bifogad. Klicka på</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value>den här</value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>länken för att ladda ner en mall.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>Om det inte finns något PNR-nr i bokningen, ange flygbolagets bokningsnummer.</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>Ladda upp köpfil</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>Ladda upp köpfil för flera agenter</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>Årlig</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>Ange inställningar för e-postbekräftelse</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>Blue Ribbon Bags spårar ditt försenade bagage och påskyndar dess återlämnande i 96 timmar efter att ditt flyg anländer.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>Du får automatiska aviseringar per e-post varje gång det finns en statusändring för din felhanterade väska.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>Ett tjänsteavtal omfattar alla väskor som checkats in på flygplatsen, inklusive incheckningar vid gaten i sista minuten.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>Blue Ribbon Bags-tjänsten täcker alla flyg på alla flygbolag, överallt i världen.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>Varje köp är per person, per flygbokningsnummer, oavsett antalet flyganslutningar.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>Du kan köpa vår tjänst ända fram till sista minuten innan flyget avgår.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>Vår tjänst måste köpas före alla flyg i en utgående eller inkommande reseplan. Vår tjänst kan inte köpas "i mitten av en anslutning".</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>En anmälan måste göras till flygbolaget innan du rapporterar din felhanterade väska till oss.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>Felhanterade väskor måste rapporteras till oss inom 24 timmar efter flygets ankomst.</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>Inga kvitton på bagageinnehåll krävs för att få utbetalning enligt vår nöjdhetsgaranti.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>Betalning görs om din väska inte hittas inom 96 timmar (4 dagar) efter att ditt flyg anlänt.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>Betalningar garanteras även om dina väskor återlämnas till dig efter 96-timmars serviceperioden.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>ETT TJÄNSTEAVTAL MED BRB ÄR ETT TILLÄGG TILL EVENTUELL FÖRSÄKRING SOM DU HAR OCH INTE EN ERSÄTTNING.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>Conciergetjänst vid problem</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>Vi skickar dig uppdateringar per e-post varje gång det finns en statusändring för ditt borttappade bagage</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>Inga kvitton</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>Inga kvitton på bagageinnehållet krävs för att få betalning</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>Ett köp</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>Ett köp täcker all bagage som checkas in på flygplatsen </value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>Vår garanti </value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>BRB betalar US$1000 garanterat för varje borttappade väska som inte hittats efter 4 dagar.</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>Global räckvidd</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>BRB täcker alla flyg på alla flygbolag, överallt i världen</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>Sista minuten </value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>Köp bagagetjänst fram till minuten innan flyget avgår</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>Kontakta oss:</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-MBR #{0}:  Det finns en statusuppdatering för ditt borttappade bagage.   Uppdateringen är: {1}.
+VÄNLIGEN SVARA INTE PÅ DETTA SMS EFTERSOM DET INTE KOMMER ATT TAS EMOT AV BLUE RIBBON BAGS. DETTA INKLUDERAR EVENTUELLA INLÄMNINGAR AV UPPGIFTER VI BER OM I DENNA UPPDATERING.  ALLA FRÅGOR GÄLLANDE DIN RAPPORT OM FELHANTERAT BAGAGE ELLER INLÄMNINGAR AV INFORMATION VI BETT OM BÖR SKICKAS PER E-POST TILL MBR@BLUERIBBONBAGS.COM.  Våra telefonnummer kommer inte att ha någon information angående ditt borttappade bagage. Alla meddelanden hanteras via e-post på  mbr@blueribbonbags.com</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>Under de första 96 timmarna arbetar BRB direkt med flygbolaget för att spåra dina felhanterade väskor och påskynda deras återlämnande.  I stället för att du måste använda tid under resan på att tala i telefon med flygbolaget, skickar BRB en automatisk uppdatering till dig varje gång det finns en statusändring för din väska. </value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>Ett köp ($5) är per person, per flygbokningsnummer, inklusive tur-och-retur-biljetter, oavsett antalet anslutningar. Utbetalningar ($1000) är per väska.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>Inga kvitton på bagageinnehåll krävs för att få betalning.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>Betalning görs om din väska inte är i ditt förvar inom 96 timmar efter att ditt flyg anlänt.  Betalningar garanteras även om din väska återlämnas till dig vid någon tidpunkt efter att den 96-timmars tidsgränsen gått ut.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>BRB säljer en tjänst. Om du har ett BRB-tjänsteavtal är det ett tillägg till eventuell försäkring som du har. Efter att du fått din betalning från BRB kan du fortfarande ta emot försäkringsutbetalningar.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>En anmälan måste göras till flygbolaget innan du rapporterar din felhanterade väska till Blue Ribbon Bags. Borttappade väskor måste rapporteras till BRB inom 24 timmar efter att du gjort en anmälan till flygbolaget om borttappat bagage.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>Rapporter om felhanterade väskor lämnas in genom att gå till &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt; eller ringa till (888)-BAGGAGE 24/7</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>Ett tjänsteavtal ($5) inkluderar alla väskor som checkas in på flygplatsen, inklusive incheckningar vid gaten i sista minuten. Högre täckningsalternativ finns tillgängliga för $7,50 och $10,00, med utbetalningar av $1500 och $2000.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Blue Ribbon Bags täcker alla flyg överallt i världen </value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>DU KAN KÖPA BLUE RIBBON BAGS-TJÄNSTEN FRAM TILL MINUTEN INNAN DITT FLYG AVGÅR.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>Du måste köpa Blue Ribbon Bags-tjänsten innan det första flyget i din utgående eller inkommande resa avgår.  Du kan inte köpa tjänsten medan du är mellan flygsegment (d.v.s. mellan anslutningar under resan).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-TJÄNSTEN ÄR INTE ÅTERBETALBAR OCH INTE ÖVERFÖRBAR. INGA ÅTERBETALNINGAR ELLER KREDITER GES. OM DITT FLYG STÄLLS IN OCH ETT NYTT FLYG BOKAS I STÄLLET MÅSTE DU ANTINGEN INFORMERA OSS OM ÄNDRINGEN INNAN DET NYA FLYGET AVGÅR ELLER KÖPA EN NY TJÄNST FÖR DET NYA FLYGET.  ALLA ÄNDRINGAR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS GENOM ATT SKICKA ETT E-POSTMEDDELANDE TILL &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; MED NUMRET PÅ DITT TJÄNSTEAVTAL I ÄMNESRADEN.  I MEDDELANDET MÅSTE DU ANGE FLYGBOLAGET OCH FLYGBOLAGETS BOKNINGSNUMMER, DITT URSPRUNGLIGA FLYGNUMMER OCH DET NYA FLYGNUMRET SOM DET ÄNDRAS TILL.  OM FLYGBOLAG OCKSÅ ÄNDRATS MÅSTE DU ÄVEN INFORMERA OSS OM FLYGBOLAGET FÖR DET NYA FLYGET.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>Alla köp lyder under villkoren i Blue Ribbon Bags Tjänsteavtal. Du kan läsa det online &lt;a href=".{0}" target="_blank"&gt;här&lt;/a&gt;.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>Blue Ribbon Bags-funktioner</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>En felhanterd väska är en incheckad väska som enligt flygbolagets spårningssystem har feldirigerats till en annan destination än ditt flygs slutliga destination, eller som inte har lastats på de flyg som passageraren har åkt med, så som rapporteras av flygbolaget.</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>Varje köp är per person per flygbokningsnummer. Om en tur-och-retur-biljett bokas under ett flygbokningsnummer täcks det under ett köp, oavsett antalet mellanlandningar. OM UTGÅENDE OCH INKOMMANDE FLYG BOKAS UNDER SKILDA FLYGBOKNINGSNUMMER MÅSTE ETT SEPARAT TJÄNSTEAVTAL KÖPAS FÖR VARJE FLYG.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>Nej. Blue Ribbon Bags täcker alla flyg överallt i världen. Det finns inga begränsningar vad gäller start- eller slutplats.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>Vad är en felhanterad väska?</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>Täcker tjänsten tur-och-retur-biljetter? </value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>Måste mitt flyg starta eller sluta i USA för att kunna köpa denna tjänst? </value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>per väska</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>Ange passagerarinformation</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>Granska avtal </value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>Klicka här för att granska Blue Ribbon Bags Tjänsteavtal &amp;nbsp;</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>Välj servicenivå </value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>Steg</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>För endast $5,00 per person hittar BRB alla dina felhanterade väskor och återlämnar dem till dig. Om flygbolaget inte levererat väskorna till dig inom 96 timmar efter att de tappats bort, betalar BRB $1000 för varje väska som inte levererats, garanterat. &lt;u&gt;Inga bevis eller kvitton på innehållet av bagaget krävs för att få utbetalningen&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>Köp bagagetjänst </value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>Passagerare</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>Ange din reseinformation</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Delstat</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Flygbolaget kommer att ge dig spårningsinformationen som du behöver för att skicka en rapport till Blue Ribbon Bags.</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Allt borttappat bagage måste rapporteras till Blue Ribbon Bags inom 24 timmar efter att passagerarens flyg anlänt.</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>MÅSTE DU KONTAKTA FLYGBOLAGET OCH FÅ NUMRET FRÅN DEM INNAN DU LÄMNAR IN DIN RAPPORT TILL OSS.  </value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>BLUE RIBBON BAGS HÄMTAR INTE FILREFERENSNUMMER FRÅN FLYGBOLAGET.  DET ÄR PASSAGERARENS </value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>ANSVAR ATT FÅ DENNA INFORMATION FRÅN FLYGBOLAGET INNAN PASSAGERAREN LÄMNAR IN EN RAPPORT OM FELHANTERAT BAGAGE TILL OSS.   </value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>flygbolaget fick du ett filreferensnummer</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>och bagagetaggnummer. Ange dessa här:</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>                   Lösenordet måste innehålla minst 8 (åtta) tecken, med minst en bokstav, inklusive minst en stor bokstav, en siffra och ett specialtecken.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>                   Tillåtna specialtecken inkluderar:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>DET FINNS INGEN INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE PÅ DETTA TELEFONNUMMER.</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>ALLA FRÅGOR, KOMMENTARER ELLER INLÄMNINGAR AV INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE, </value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>VARE SIG RAPPORTEN ÄR NY, ÖPPEN, HAR FEL INFORMATION ELLER ÄR STÄNGD, AV VILKEN ANLEDNING SOM HELST, BÖR SKICKAS PER E-POST</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>bagaget inte anlände till flygets destination. Flygbolaget ger dig spårningsinformationen som du behöver för att lämna in rapporten om borttappat bagage nedan.</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>TILL &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, MED TJÄNSTEAVTALSNUMRET I ÄMNESRADEN</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>måste de anmäla borttappat bagage till flygbolaget (så som krävs enligt bolagets regler).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS INOM 24 TIMMAR EFTER FLYGETS ANKOMST, MED ETT GILTIGT FILREFERENSNUMMER FRÅN FLYGBOLAGET.  BLUE RIBBON BAGS-TJÄNST GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERATS EFTER 24-TIMMARS TIDSGRÄNSEN.  OM FLYGBOLAGET INTE HAR GETT DIG ETT GILTIGT FILREFERENSNUMMER KOMMER DU ATT BEHÖVA KONTAKTA FLYGBOLAGET OCH FÅ DET FRÅN DEM INNAN DU GÖR DIN ANMÄLAN HOS OSS. BLUE RIBBON BAGS HÄMTAR INTE FILREFERENSNUMMER FRÅN FLYGBOLAGET. DET ÄR PASSAGERARENS ANSVAR ATT FÅ DENNA INFORMATION FRÅN FLYGBOLAGET INNAN RAPPORTEN OM FELHANTERAT BAGAGE LÄMNAS IN TILL OSS. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>I fall det upptäcks att väskan som levererats till passageraren var fel väska, har passageraren 12 timmar på sig efter aviseringen om att deras fil med Blue Ribbon Bags har stängts och en väska återlämnats att meddela Blue Ribbon Bags om felet genom att skicka oss e-post till mbr@blueribbonbags.com med "Inte min väska" och MBR-numret i ämnesraden. Blue Ribbon Bags har 72 timmar (3 dagar) på sig från utgången av den ursprungliga 96-timmars perioden efter ankomsten av passagerarens ursprungliga flyg att hitta den feldirigerade väskan.  Alla väskor i denna kategori anses vara "återlämnade" enligt våra villkor när väskan kommer fram till flygplatsen som angivits i anmälan om borttappat bagage till flygbolaget. Om fel väska redan levererats, måste passageraren tillhandahålla e-postbevis på leveranskvitto från företaget som levererade fel väska, samt dokument från flygbolaget som tydligt anger att väskan i fråga som levererades till passageraren inte var dennas. Båda dessa bevis krävs för att kunna få Blue Ribbon Bags utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>FEL INFORMATION ELLER BEGÄRANDEN OM INFORMATION:&lt;/strong&gt; Om fel information anges när du lämnar in en rapport om felhanterat bagage kan du få ett e-postmeddelande som ber om korrigering av uppgifterna. Om en passagerare får ett sådant e-postmeddelande, eller någon annan begäran om information angående passagerarens ärende, har passageraren 12 timmar på sig från tiden då meddelandet skickades att svara på det. Om passageraren inte svarar inom den tidsperioden med den korrigerade eller begärda informationen, samt dokumentering om tillämpligt, avslås passagerarens rapport om felhanterat bagage och passageraren kvalificerar inte längre för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>Om leveransadress INTE tillhandahållits flygbolaget när anmälan om borttappat bagage gjordes, stänger BRB ditt ärende när väskan kommer fram till flygplatsen som angetts till flygbolaget och dina väskor kommer att anses vara återlämnade enligt Blue Ribbon Bags tjänsteavtalet.&lt;br /&gt;&lt;br</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>/&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>OBS!  Om passagerarens väska felhanterats av ett flygbolag som endast utfärdar PIR (Property Irregularity Reports) (detta är namnet på rapporten som flygbolaget tillhandahåller passageraren och som innehåller referensnumret) genom flygbolaget eller flygplatsen, eller en BIR (Baggage Irregularity Report) via flygbolaget (BIR har i allmänhet inget 10-siffrigt filreferensnummer), måste passageraren skicka en kopia av sin PIR eller BIR till mbr@blueribbonbags.com genom att skriva in sitt tjänsteavtalsnummer i ämnesraden efter att de slutfört online-formuläret. Vi måste få en kopia av denna rapport inom 24 timmar efter att passagerarens flyg anlänt för att rapporten ska anses vara giltig. Om en kopia av denna rapport inte tillhandahålls inom 24 timmar efter att flyget anlänt, kommer BRB att avvisa passagerarens rapport omedelbart när 24 timmars tidsgränsen går ut.  Alla väskor i denna kategori kommer att anses vara "återlämnade" enligt våra villkor när de kommit fram till flygplatsen som angetts i reseplanen eller leveransinformationen som passageraren tillhandahållit flygbolaget i samband med anmälan om borttappat bagage.</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>&lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>OBS! Om din väska felhanterats av ett flygbolag som endast utfärdar PIR (Property Irregularity Reports) genom flygplatsen (hittegods),</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Det är passagerarens ansvar att få denna information från flygbolaget och skicka den till oss inom 24 timmar efter flygets ankomst.  Om vi inte får ett giltigt filreferensnummer inom 24 timmar efter flygets ankomst avvisas din rapport och du kommer inte att kvalificera för bagagehämtningstjänster eller utbetalning enligt vår nöjdhetsgaranti.  Vi kommer inte att öppna ditt ärende på nytt, oavsett omständigheterna, om vi får informationen vid någon tidpunkt efter att 24 timmars tidsgränsen har gått ut.&lt;br/&gt;</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>eller BIR (Baggage Irregularity Report) via flygbolaget (BIR har i allmänhet inte något 10-siffrigt filreferensnummer),	</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>kommer Blue Ribbon Bags endast att göra utbetalning enligt vår nöjdhetsgaranti för en väska som varit borttappad i mer än 96 timmar</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>efter att flygbolaget först betalat ersättning för den borttappade väskan. Om flygbolaget aldrig betalar</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>någon ersättning till passageraren för en borttappad väska gör Blue Ribbon det inte heller. I båda dessa fall</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>krävs bevis på utbetalning från flygbolaget för att kunna ta emot utbetalning enligt Blue Ribbon Bags nöjdhetsgaranti,</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>samt bekräftelse från flygbolaget att deras utbetalning var för den omnämnda borttappade väskan.</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>Blue Ribbon Bags hjälper att hitta ditt borttappade bagage som vanligt under de första 96 timmarna efter att väskorna felhanterats.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>&lt;strong&gt; FEL:&lt;/strong&gt; I fall ett fel upptäcks av passageraren när Blue Ribbon Bags avvisat eller stängt din rapport om felhanterat bagage, har du 12 timmar på dig att rapportera felet till Blue Ribbon Bags, efter att du fått ett e-postmeddelande om endera av dessa omständigheter.  Meddela oss om felet via e-post till &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; och skriv in ditt MBR-nummer i ämnesraden.  I meddelandet måste passageraren beskriva felet så detaljerat som möjligt samt tillhandahålla eventuella stöddokument.   Om Blue Ribbon Bags upptäcker att felet är giltigt, har Blue Ribbon Bags 72 timmar på sig från tidpunkten då passagerarens fil öppnas på nytt att hitta passagerarens bagage.  Om 96-timmars tidsgränsen från ankomsten av passagerarens ursprungliga flyg går ut efter 72-timmars tidsperioden från att filen öppnas på nytt, har Blue Ribbon Bags fram till utgången av den ursprungliga 96-timmars perioden att hitta passagerarens bagage.  </value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>I båda fallen, när passagerarens bagage har tagits emot på flygplatsen som angetts då det borttappade bagaget anmäldes till flygbolaget, kommer bagaget att anses vara återlämnat enligt Blue Ribbon Bags villkor och passagerarens fil kommer att stängas. &lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Om du redan skickat oss en kopia av rapporten som du fick av flygbolaget då du anmälde ditt borttappade bagage och du ändå får detta meddelande, betyder det att flygbolaget inte har gett dig ett giltigt filreferensnummer och du måste kontakta dem för att få ett omedelbart, och skicka det till oss inom 24 timmar efter flygets ankomst.</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>&lt;strong&gt;</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>Inlämningar som skickas efter att 12-timmars perioden gått ut kommer inte att accepteras och passageraren kvalificerar inte för bagagehämtningstjänster eller utbetalning enligt vår nöjdhetsgaranti, oavsett eventuell bifogad dokumentering.</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>&lt;/strong&gt;</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>                       DET FINNS INGEN INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE PÅ DETTA TELEFONNUMMER.</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>                       ALLA FRÅGOR, KOMMENTARER ELLER YTTERLIGARE INFORMATION ANGÅENDE BEFINTLIGA RAPPORTER OM FELHANTERAT BAGAGE, VARE SIG DE ÄR NYA, ÖPPNA, AVSER FEL INFORMATION ELLER ÄR STÄNGDA FÖR VILKEN SOM HELST ORSAK, BÖR SKICKAS PER E-POST</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>                       TILL &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;. SKRIV IN DITT TJÄNSTEAVTALSNUMMER I ÄMNESRADEN.</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>                   &lt;/li&gt;</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>                   &lt;li&gt;Innan passageraren rapporterar felhanterat bagage till Blue Ribbon Bags måste passageraren anmäla borttappat bagage till flygbolaget (så som krävs enligt flygbolagets regler).&lt;/li&gt;</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>                   &lt;li&gt;BORTTAPPADE VÄSKOR MÅSTE RAPPORTERAS TILL BLUE RIBBON BAGS TILLSAMMANS MED ETT GILTIGT FILREFERENSNUMMER FRÅN FLYGBOLAGET INOM 24 TIMMAR EFTER FLYGETS ANKOMST. BLUE RIBBON BAGS TJÄNST GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERATS EFTER 24-TIMMARS TIDSGRÄNSEN. OM DITT FLYGBOLAG INTE GETT DIG ETT GILTIGT FILREFERENSNUMMER MÅSTE DU KONTAKTA FLYGBOLAGET FÖR ATT FÅ DET INNAN DU SKICKAR IN DIN RAPPORT TILL OSS. BLUE RIBBON BAGS HÄMTAR INTE FILREFERENSNUMMER FRÅN FLYGBOLAGET. DET ÄR PASSAGERARENS ANSVAR ATT FÅ DENNA INFORMATION FRÅN FLYGBOLAGET INNAN PASSAGERAREN LÄMNAR IN EN RAPPORT OM FELHANTERAT BAGAGE HOS OSS.&lt;/li&gt;</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>                   &lt;li&gt;&lt;b&gt;&lt;u&gt;För ALLA flyg som anlänt utanför USA:&lt;/u&gt; Som en del av processen för att lämna in en rapport om felhanterat bagage måste du skicka in en kopia av rapporten som du fick från flygbolaget när du anmälde ditt borttappade bagage till Blue Ribbon Bags inom 24 timmar efter att ditt flyg anlände.  Om du inte skickar en kopia av denna rapport som du fick från flygbolaget när du gjorde anmälan om borttappat bagage, inom 24 timmar efter att ditt flyg anlänt, kommer din rapport om felhanterat bagage till Blue Ribbon Bags att avslås omedelbart när 24-timmars tidsgränsen går ut och du kommer inte att kvalificeras för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.   Skicka en kopia av rapporten till &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; och skriv in ditt tjänsteavtalsnummer i ämnesraden.  Flygbolagsrapporter som lämnas in på något annat sätt än som anges ovan anses vara ogiltiga.  Alla väskor i denna kategori kommer att anses "återlämnade" enligt villkoren i Blue Ribbon Bags tjänsteavtal när väskan kommer fram till den angivna flygplatsen i din anmälan om borttappat bagage till flygbolaget.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;För flyg som anlänt inom USA:&lt;/u&gt;&lt;br /&gt;Om din väska felbehandlats av ett flygbolag som gett dig en Property Irregularity Report, eller PIR (detta är namnet på rapporten som flygbolaget gav dig när du anmälde ditt borttappade bagage till flygbolaget eller genom flygplatsen, och som innehåller ditt filreferensnummer) eller en  Baggage Irregularity Report (BIR) via flygbolaget, (BIR har innehåller i allmänhet inte ett 10-siffrigt filreferensnummer) måste du lämna in en kopia av din PIR eller BIR till Blue Ribbon Bags inom 24 timmar efter ditt flygs ankomst för att kunna slutföra anmälningsprocessen för felhanterat bagage (MBR).   Om du inte lämnar in en kopia av denna rapport som du fick av flygbolaget när du anmälde ditt borttappade bagage till dem, inom 24 timmar efter ditt flygs ankomst, kommer din rapport om borttappat bagage till Blue Ribbon Bags att avvisas omedelbart när den 24-timmars tidsgränsen gått ut, och du kommer inte att kvalificera för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.  Skicka en kopia av rapporten till &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; och skriv ditt tjänsteavtalsnummer i ämnesraden.  Flygbolagsrapporter som skickas på något annat sätt än det som anges ovan kommer inte att anses giltiga.  Alla väskor i denna kategori kommer att anses "återlämnade" enligt villkoren i Blue Ribbon Bags tjänsteavtal när väskan kommer fram till den angivna flygplatsen i din anmälan om borttappat bagage till flygbolaget.&lt;/b&gt; &lt;/li&gt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>så att väskan kan levereras till rätt plats, meddela oss på  &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;,</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>                   I fall det upptäcks att väskan som levererats till passageraren var fel väska, har passageraren 12 timmar på sig efter aviseringen om att deras fil med Blue Ribbon Bags har stängts och en väska återlämnats att meddela Blue Ribbon Bags om felet genom att skicka oss e-post till mbr@blueribbonbags.com med "Inte min väska" och MBR-numret i ämnesraden. Blue Ribbon Bags har 72 timmar (3 dagar) på sig från utgången av den ursprungliga 96-timmars perioden efter ankomsten av passagerarens ursprungliga flyg att hitta den feldirigerade väskan. Alla väskor i denna kategori anses vara "återlämnade" enligt våra villkor när väskan kommer fram till flygplatsen som angivits i anmälan om borttappat bagage till flygbolaget. Om fel väska redan levererats, måste passageraren tillhandahålla e-postbevis på leveranskvitto från företaget som levererade fel väska, samt dokument från flygbolaget som tydligt anger att väskan i fråga som levererades till passageraren inte var dennas. Båda dessa bevis krävs för att kunna få Blue Ribbon Bags utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>                   &lt;li&gt;FEL INFORMATION ELLER BEGÄRANDEN OM INFORMATION: FEL INFORMATION ELLER BEGÄRANDEN OM INFORMATION:&lt;/strong&gt; Om fel information anges när du lämnar in en rapport om felhanterat bagage kan du få ett e-postmeddelande som ber om korrigering av uppgifterna. Om en passagerare får ett sådant e-postmeddelande, eller någon annan begäran om information angående passagerarens ärende, har passageraren 12 timmar på sig från tiden då meddelandet skickades att svara på det. Om passageraren inte svarar inom den tidsperioden med den korrigerade eller begärda informationen, samt dokumentering om tillämpligt, avslås passagerarens rapport om felhanterat bagage och passageraren kvalificerar inte längre för bagagehämtningstjänster eller vår utbetalning enligt nöjdhetsgarantin.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>                   Om leveransadress INTE tillhandahållits flygbolaget när anmälan om borttappat bagage gjordes, stänger BRB ditt ärende när väskan kommer fram till flygplatsen som angetts till flygbolaget och dina väskor kommer att anses vara återlämnade enligt Blue Ribbon Bags tjänsteavtal.&lt;br /&gt;&lt;br</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>                   &lt;li&gt;PASSAGERARE MED AIR CANADA OCH WESTJET: Blue Ribbon Bags kommer inte att hantera leverans av borttappat bagage för rapporter om felhanterat bagage associerade med anmälningar från endera av dessa två flygbolag. Alla felhanterade väskor associerade med en anmälan om borttappat bagage hos Air Canada eller WestJet kommer att anses returnerade enligt villkoren i Blue Ribbon Bags tjänsteavtal när väskan anländer till flygplatsen som angivits i anmälan om borttappat bagage till Air Canada eller WestJet.  När väskornas ankomst på flygplatsen som angetts i anmälan om borttappat bagage till Air Canada eller WestJet bekräftats inom tjänsteperioden, kommer passageraren inte längre att kvalificera för bagagehämtningstjänster eller Blue Ribbon Bags nöjdhetsgarantibetalning.&lt;/li&gt;</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>                   &lt;li&gt;FEL: &lt;strong&gt; FEL:&lt;/strong&gt; I fall ett fel upptäcks av passageraren när Blue Ribbon Bags avvisat eller stängt din rapport om felhanterat bagage, har du 12 timmar på dig, från att du fått ett e-postmeddelande om endera av dessa omständigheter, att rapportera felet till Blue Ribbon Bags. Meddela oss om felet via e-post till &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; och skriv in ditt MBR-nummer i ämnesraden. I meddelandet måste passageraren beskriva felet så detaljerat som möjligt samt tillhandahålla eventuella stöddokument. Om Blue Ribbon Bags upptäcker att felet är giltigt, har Blue Ribbon Bags 72 timmar på sig från tidpunkten då passagerarens fil öppnas på nytt att hitta passagerarens bagage. Om 96-timmars tidsgränsen från ankomsten av passagerarens ursprungliga flyg går ut efter 72-timmars tidsperioden från att filen öppnas på nytt, har Blue Ribbon Bags fram till utgången av den ursprungliga 96-timmars perioden att hitta passagerarens bagage. I båda fallen, när passagerarens bagage har tagits emot på flygplatsen som angetts i anmälan om det borttappade bagaget till flygbolaget, kommer bagaget att anses vara återlämnat enligt Blue Ribbon Bags villkor och passagerarens fil kommer att stängas. Inlämningar som skickas efter att 12-timmars perioden gått ut kommer inte att accepteras och passageraren kvalificerar inte för bagagehämtningstjänster eller utbetalning enligt vår nöjdhetsgaranti, oavsett eventuell bifogad dokumentering.</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>                   &lt;li&gt;STÖLD, FÖRSVUNNET INNEHÅLL ELLER SKADAT BAGAGE OMFATTAS INTE AV DENNA TJÄNST. TÄCKNING GÄLLER ENDAST BAGAGE SOM FELHANTERATS AV FLYGBOLAGET.&lt;/li&gt;</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>VÄNLIGEN SVARA INTE PÅ DETTA SMS EFTERSOM DET INTE KOMMER ATT TAS EMOT AV BLUE RIBBON BAGS. DETTA INKLUDERAR EVENTUELLA INLÄMNINGAR AV UPPGIFTER VI BER OM I DENNA UPPDATERING.  ALLA FRÅGOR GÄLLANDE DIN RAPPORT OM FELHANTERAT BAGAGE ELLER INLÄMNINGAR AV INFORMATION VI BETT OM BÖR SKICKAS PER E-POST TILL MBR@BLUERIBBONBAGS.COM.  Våra telefonnummer kommer inte att ha någon information angående ditt borttappade bagage. Alla meddelanden hanteras via e-post på  mbr@blueribbonbags.com</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>och inkludera MBR-numret som du fick när du fyllde i rapporten i ämnesraden. Ge oss så detaljerad information som möjligt om din situation.</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>TILLSAMMANS MED ETT GILTIGT FILREFERENSNUMMER FRÅN FLYGBOLAGET.</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>BLUE RIBBON BAGS SERVICE GÄLLER INTE FÖR VÄSKOR SOM RAPPORTERAS EFTER ATT 24-TIMMARS FRISTEN GÅTT UT.</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>OM FLYGBOLAGET INTE GETT DIG ETT GILTIGT FILREFERENSNUMMER</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>Tidszon</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>Total kostnad:</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>Total debitering (per passagerare):</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>Slutför registreringen</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>Lösenordet måste innehålla mellan 8 och 16 tecken, med minst en bokstav, en stor bokstav, en siffra och ett specialtecken.</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value> Ange lösenord igen</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>Användarregistrering </value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>Ange lösenordet</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Bekräfta</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>Ange adressen.</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>Adressen måste innehålla minst 2 tecken.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value> Den angivna agentinloggningen finns inte.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>Fältet [Agentnummer] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>Fältet [Agenttyp] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>Läs igenom och godkänn villkoren för att slutföra  registreringen.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>Fältet [Affärsenhet] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>Ange ort.</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>Orten måste innehålla minst 2 tecken.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>Fältet [E-postadress] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>[E-postadress] måste ha ett giltigt format för e-postadress.</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>[Fax] måste ha ett giltigt format.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>Fältet [Förnamn] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>Fältet [Förnamn] måste innehålla minst 2 tecken.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>Agentinloggningen motsvarar en inaktiv användare i BRB-systemet.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>Fältet [Efternamn] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>Fältet [Efternamn] måste innehålla minst 2 tecken.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>Fältet [Användarinloggning] måste innehålla mellan 6 och 40 tecken och får bara innehålla dessa specialtecken: _ . - @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>[Inloggning] får inte sluta med tecknet @.</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>[Mobil] måste ha ett giltigt format.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>[Telefon] måste ha ett giltigt format.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>Den angivna produktkoden finns inte.</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>Den angivna agentinloggningen matchar inte den angivna agentinloggningen för kampanjkoden.</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>Den angivna kampanjkoden finns inte.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>Välj ett land.</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>Välj en delstat.</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>Ange ett namn på delstat.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>Fältet [Resebyråkod] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>Fältet [Resebyrånamn] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>Agentinloggningen motsvarar inte en reseagent.</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>Fältet [Användarinloggning] får inte vara tomt.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>Användarnamnet är inte tillgängligt. Välj ett annat användarnamn.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>Ange postnumret.</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>Det angivna postnumret har inte ett giltigt format.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>Agentens e-postadress</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>SERVICENIVÅ:</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>per väska</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>PASSAGERARINFORMATION</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>Ange kontokortsuppgifter nedan för att slutföra betalningsprocessen för tjänsteavtalet.</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>Banköverföring</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>Resebyrånamn</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>Agentkort</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>Detta är en PDF-fil som du kan hänvisa till när du pratar med kunderna så att du inte missar någon av BRB:s fina funktioner.</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>Agent-ID</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>Agentinformation</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Agentinformationen har sparats.</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>Agent (Jag)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>Agent PCC</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>Se till att du fyller i detta formulär fullständigt första gången du använder Blue Ribbon Bags Worldspan-appen så att du får erkännande för tjänsteavtalen du säljer.&lt;br&gt;&lt;br&gt;Klicka på Spara längst ner på sidan när du är klar för att fortsätta och köpa Blue Ribbon Bags-täckning åt dina kunder.&lt;br&gt;&lt;br&gt;Du behöver inte skapa ett lösenord eller använda din inloggning för att komma åt BRB Worldspan-appen. Användarnamn och lösenord används bara till att komma åt BRB-systemet online.&lt;br&gt;&lt;br&gt;Om du vill ändra några registreringsuppgifter eller har frågor eller problem, ska du kontakta oss på agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>Flygbolag</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>Du faktureras senare för detta köp.</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>Faktureringsinformation</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>När du sparar inställningarna initialiseras alla flikar i Blue Ribbon Bags-programmet, inklusive fliken Köp, så du kommer att behöva ladda om PNR för det pågående köpet. Vill du fortsätta?</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>Kreditkortsnr</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>Kontrollerar PNR ...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>Stad, delstat</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>Klicka här om &lt;b&gt;du&lt;/b&gt; vill få ett automatiskt bekräftelsemeddelande från Blue Ribbon Bags efter varje köp.</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Klicka här om du vill att &lt;b&gt;passageraren&lt;/b&gt; får ett automatiskt bekräftelsemeddelande från Blue Ribbon Bags efter varje köp.</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>Klientkort</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>Detta är ett PDF-dokument utan hänvisning till provision, som du kan skicka till kunderna för att marknadsföra tjänsten.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>Bekräfta nr</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>Datumformat:</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>Datum/tid</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>E-postadress</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>Anmärkning med API kunde inte läggas till i Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>Anmärkning kunde inte läggas till i Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>Det gick inte att stänga PNR och anmärkningen kunde inte läggas till i Sabre PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Fel uppstod vid kommunikation med Sabre. Felkod {0}. </value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Fel vid anslutning till Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>Det gick inte att ladda agentprofil.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>FEL. Det PNR som är öppet i BRB-programmet ({0}) är inte samma som det som är aktivt i Sabre-arbetsutrymmet ({1}).</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>Ett serverfel uppstod vid behandling av din begäran.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR Info XML togs bort eftersom den inte kunde läsas för att ta bort känslig information.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Det gick inte att hämta PNR-information. Se till att en aktiv PNR är öppen i Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>Utgång MM</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>Utgäng ÅÅ</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>Betalningsförnamn</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>Flyginformation</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>Flygnr</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>Hämta PNR-info</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>Ogiltig Sabre-begäran.</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>Sista flyg</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Du har inte loggat in på Sabre ännu. Logga in och försök igen.</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>Hämtar PNR-info från Sabre.  Vänta ...</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>valfritt</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>Ursprungsflyg </value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>Passagerarinformation</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>Passagerare</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>per väska</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>per passagerare</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>Personliga uppgifter</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>Telefonnr</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>Skicka oss e-post när som helst på agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR med FIKTIV info har laddats. Slutför formuläret nedan.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR-info har laddats.  Slutför formuläret nedan.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR-informationen matchar inte. Ladda om bokning.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR-info har INTE laddats. Försök igen.</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>PNR-nummer</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>Kampanjkod</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>Köp </value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>Inköpsorder. Vänta ...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>Kontakta oss på agent@blueribbonbags.com om du har ytterligare frågor eller kommentarer.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>Vi registrerar dig. Vänta ...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>Din registrering har slutförts. </value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Din registrering har hanterats och du kan nu börja sälja. Ta först en minut på dig att kontrollera din e-post och slutföra registreringsprocessen. Tack!</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>Vi sparar agentinformationen.  Vänta ...</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>Vi sparar dina inställningar. Vänta ...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>Välj täckningsnivå</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>Skicka bekräftelsemeddelande till:</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Tjänsteavtal [{0}]  har köpts.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Inställningarna har sparats.</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>Delstat</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>Om du vill inkludera BRB som en del av ditt biljettutbud kan du fråga oss om våra faktureringsalternativ för att undvika att kunderna ser skilda kontokortsdebiteringar för BRB.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>Total kostnad = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>Agentinformation</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>Oväntat fel.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Oväntat fel. PNR-info har INTE laddats.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>Ohanterat undantag vid GetPNRInfo.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>Användarinformation</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>Du kan uppdatera dina personliga uppgifter för Blue Ribbon Bags-registrering i följande formulär.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>Bekräftar agent ...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Välkommen tillbaka {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Välkommen till registreringen!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Booking Reference Code</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Satisfaction Guaranteed Payment per bag:</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>This service is valid for all flights you have booked with the online ticketing site you made your purchase from for the PNR referenced above.</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>Källa</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Skicka SMS-meddelanden</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>Duplicerade poster har hittats</value>
+  </data>
+  <data name="MODAL_Click_On" xml:space="preserve">
+    <value>Klicka på</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>Vänligen bläddra och välj din fil och klicka sedan på "Ladda upp fil":</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>Ladda upp fil</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>Tidigare inköp har hittats</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>Följande poster har tidigare inköp, vill du fortsätta och bearbeta resten av dokumenten?</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>Följande poster dupliceras, vill du fortsätta och bearbeta resten av dokumenten?</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>Länk</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>Klicka här för att ladda ner en mall:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Uppladdning. Vänta...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>Tillåt webbplatsen att ha samma språk som valt "Default Email Language" ovan.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>Detta täcker ditt flyg (er) under bekräftelsesnummer &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>Välj antal kontaktpersoner</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>Ange din kontaktinformation</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>Lägg till kontaktpersoner till din rapport</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>OM DU VILL GÄLLA ALLA UPPLYSNINGAR SOM INNEHÅLLER DIN BAG ELLER LEVERANSINFORMATION VÄNLIGEN, SKICKA DET HÄR:</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>Mejladresser</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>telefoner</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>Antal passagerare</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>Servicenivå</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>Inget har förändrats med statusen på din väska under de senaste 0 timmarna. Här är den senaste uppdateringen vi hade lämnat.
+Du kommer att bli informerad om något nytt händer så snart vi har någon information.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>Klicka här om du vill få mail för din passagerares MBR</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>Kundreferensnummer</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>FÖR ATT KOMPLETTERA DIN RAPPORT OM FÖRLORAT BAGAGE MÅSTE DU:</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>T&amp;#228;ckning per v&amp;#228;ska:</value>
+  </data>
+</root>

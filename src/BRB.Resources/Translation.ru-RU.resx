@@ -1,0 +1,2449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>Номер счета</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Активирован</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>Круглосуточно, в любой день недели</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>В течение нескольких минут вы получите электронное сообщение фирмы Blue Ribbon Bags, содержащее подтверждение. Если вы не получите такое сообщение, пожалуйста, свяжитесь с нами, приготовив данные об операции на сайте Paypal, подтверждающие произведенную вами оплату. </value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>Если вы не получите ваш багаж в пункте назначения по окончании полета, вы должны сообщить об этом авиакомпании прежде, чем вы сообщите об этом фирме Blue Ribbon Bags. Сообщайте фирме Blue Ribbon Bags о неполучении вашего багажа в течение 24 часов после приземления в пункте назначения. Вы можете сообщить о неполучении багажа по телефону </value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>Хорошо, пока что все сделано!</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>Уровень обслуживания:</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>СТОИМОСТЬ УСЛУГ ФИРМЫ BLUE RIBBON BAGS НЕ ПОДЛЕЖИТ ВОЗВРАТУ, И ПРАВО НА ПОЛЬЗОВАНИЕ ЭТИМИ УСЛУГАМИ НЕ ПОДЛЕЖИТ ПЕРЕДАЧЕ ДРУГИМ СТОРОНАМ. КАКИЕ-ЛИБО ВОЗВРАТЫ ИЛИ КРЕДИТЫ НЕ ПРЕДОСТАВЛЯЮТСЯ. ЕСЛИ ВАШ РЕЙС БУДЕТ ОТМЕНЕН И ВМЕСТО НЕГО БУДЕТ ЗАРЕЗЕРВИРОВАН ДРУГОЙ РЕЙС, ВЫ ДОЛЖНЫ ЛИБО УВЕДОМИТЬ НАС ОБ ЭТОМ ИЗМЕНЕНИИ ДО ОТБЫТИЯ НОВЫМ РЕЙСОМ ИЛИ ПРИОБРЕСТИ НОВОЕ ОБСЛУЖИВАНИЕ В ОТНОШЕНИИ НОВОГО РЕЙСА. ОБО ВСЕХ ИЗМЕНЕНИЯХ СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, С УКАЗАНИЕМ НОМЕРА ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ. В ТЕКСТЕ ВАШЕГО ЭЛЕКТРОННОГО СООБЩЕНИЯ ВЫ ДОЛЖНЫ УКАЗАТЬ НАИМЕНОВАНИЕ ВАШЕЙ АВИАКОМПАНИИ И ПРЕДОСТАВЛЕННЫЙ ВАШЕЙ АВИАКОМПАНИЕЙ НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА, НОМЕР ВАШЕГО ПЕРВОНАЧАЛЬНОГО РЕЙСА И НОМЕР НОВОГО РЕЙСА, ЗАМЕНЯЮЩЕГО ПЕРВОНАЧАЛЬНЫЙ. ЕСЛИ ИЗМЕНИТСЯ ТАКЖЕ НАИМЕНОВАНИЕ АВИАКОМПАНИИ, ВЫ ДОЛЖНЫ СООБЩИТЬ НАМ НАИМЕНОВАНИЕ НОВОЙ АВИАКОМПАНИИ, СОВЕРШАЮЩЕЙ ВАШ НОВЫЙ РЕЙС.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>или с помощью сайта </value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>ВАШ ПЛАТЕЖ УСПЕШНО ОБРАБОТАН</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>Подтверждение оплаты:</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>Информация о платеже</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>Пожалуйста, не забывайте сохранять данные, необходимые для прослеживания багажа (справочный или поисковый № файла), предоставленные вам авиакомпанией в процессе регистрации потерянного багажа, так как эта информация потребуется фирме Blue Ribbon Bags для обработки отчета о не полученном вами багаже. Сообщайте фирме Blue Ribbon Bags о неполучении вашего багажа в течение 24 часов после приземления в пункте назначения.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>Пожалуйста, запишите и сохраните номер этого соглашения об обслуживании, так как он потребуется для представления нам отчета в том случае, если вы не получите свой багаж.</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>Благодарим вас за то, что вы выбрали фирму  Blue Ribbon Bags в качестве стороны, обслуживающей ваш багаж. Мы заверяем вас в том, что сделаем все возможное для упрощения поиска вашего багажа.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>Благодарим вас за то, что вы обратились к нам, и желаем вам безопасных полетов!</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>Итоговая стоимость:</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>Мы готовы оказывать вам помощь круглосуточно, в любой день недели. Путешествуйте безопасно и без лишних забот!</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>Что следует сделать, если ваш багаж не будет доставлен в пункт назначения:</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>Номер вашего соглашения об обслуживании с фирмой Blue Ribbon Bags: </value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>Ниже приведена информация о вашем платеже. Если у вас возникнут какие-либо вопросы, безотлагательно обратитесь в фирму Blue Ribbon Bags, отправив электронное сообщение по адресу </value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>Вы можете просмотреть ваше соглашение об обслуживании в режиме сетевой связи по адресу </value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>Спросите нас о варианте о варианте ежемесячного выставления счетов (Bill Me Later). Этот вариант позволяет вам не оформлять оплату после завершения каждой операции и получать один счет с указанием итоговой суммы ваших комиссионных в конце каждого месяца! Для этого достаточно отправить нам электронное сообщение по адресу &lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt; и указать фразу «Bill Me Later» в заголовке сообщения.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>Информация о доставке багажа</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>Наименование банка</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Адрес для выставления счетов</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>Очистить все поля</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>Отправить сообщение о регистрации</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>Введенная для подтверждения сумма ошибочна. Пожалуйста, введите подтверждающую сумму снова.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Чек</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>РАСЧЕТ</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>РАСЧЕТ</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>Вашему агенту будет выставлен счет на сумму</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>Пожалуйста, выберите метод оплаты</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>Подтвердить оплату</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>Подтвердить оплату</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>Желаете ли вы подтвердить покупку?</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>Желаете ли вы подтвердить операцию?</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>Номер кредитной карты</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>Со счета вашей кредитной карты будет изъята сумма</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>Введите информацию о вашей карте</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>НЕДОПУСТИМАЯ ОПЕРАЦИЯ.</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>Максимальная сумма страхования от потери:</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>Нет, отменить</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>Число пассажиров:</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>Для того, чтобы завершить процесс оплаты соглашения об обслуживании, вы можете также предоставить ниже информацию о кредитной карте.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>Проверить информацию</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>Сэкономленная вами сумма:</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>Уровень обслуживания:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>№ услуги:</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>Стоимость обслуживания:</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>Сводка услуг</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>Подтвердите приобретение Гарантия возврата багажа — РАСЧЕТ</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>Пожалуйста, проверьте информацию ниже и нажмите кнопку подтверждения оплаты, если она верна.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>Подтвердите электронный почтовый адрес</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>Группа обслуживания клиента фирмы Blue Ribbon Bags</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>Мы отвечаем на все запросы, отправленные по электронной почте, в кратчайшие возможные сроки. Пожалуйста, не забывайте указывать все ваши адресные данные, в том числе номера телефонов, для того, чтобы в случае необходимости мы могли связаться с вами по телефону.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>Отправьте нам сообщение</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>Ответы на любые запросы рассылаются по электронной почте в кратчайшие возможные сроки. Пожалуйста, не забудьте указать все ваши адресные данные, в том числе номера телефонов, чтобы, если возникнет такая необходимость, мы могли связаться с вами по телефону.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>Клиентов и лиц с вопросами общего характера просят обращаться к нам по адресу: </value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>Туристических агентов просят обращаться к нам по адресу: </value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>Для того, чтобы представить новый отчет о неполучении багажа, позвоните по телефону +1 (888) BAGGAGE  (+1 (888) 224-4243) или посетите сайт &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt;. Примечание: этот номер не позволяет получить подробные сведения о каким-либо из существующих отчетов о неполучении багажа.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>Для того, чтобы получить подробные сведения о каким-либо существующем отчете о неполучении багажа, пожалуйста, посетите сайт &lt;a target="_blank" href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; или отправьте электронное почтовое сообщение по адресу &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt;, указав ваш номер MBR в заголовке сообщения.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>Спасибо!</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>Свяжитесь с нами</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>Заданный по умолчанию язык электронных сообщений</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>долл. США</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>ВСЕ</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>— НИКТО —</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>ПРОЧЕЕ</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>— Пожалуйста, выберите —</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>НЕ НАЗНАЧЕНО</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>Выберите язык пассажира, получающего электронные сообщения</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>Это страхование относится ко всем вашим рейсам от &lt;b&gt;{0}&lt;/b&gt; до &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>Данный номер соглашения покрывает все ваши рейсы с авиакомпанией &lt;b&gt;{0}&lt;/b&gt;, которым присвоен код подтверждения &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>СТОИМОСТЬ УСЛУГ ФИРМЫ BLUE RIBBON BAGS НЕ ПОДЛЕЖИТ ВОЗВРАТУ, И ПРАВО НА ПОЛЬЗОВАНИЕ ЭТИМИ УСЛУГАМИ НЕ ПОДЛЕЖИТ ПЕРЕДАЧЕ ДРУГИМ ЛИЦАМ. КАКИЕ-ЛИБО ВОЗВРАТЫ ИЛИ КРЕДИТЫ НЕ ПРЕДОСТАВЛЯЮТСЯ. ЕСЛИ ВАШ РЕЙС БУДЕТ ОТМЕНЕН И ВМЕСТО НЕГО БУДЕТ ЗАБРОНИРОВАН ДРУГОЙ РЕЙС, ВЫ ДОЛЖНЫ ЛИБО УВЕДОМИТЬ НАС ОБ ЭТОМ ИЗМЕНЕНИИ ДО ОТПРАВЛЕНИЯ НОВОГО РЕЙСА ИЛИ ПРИОБРЕСТИ УСЛУГУ ЗАНОВО ДЛЯ НОВОГО РЕЙСА. ОБО ВСЕХ ИЗМЕНЕНИЯХ СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, С УКАЗАНИЕМ НОМЕРА ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ. В ТЕКСТЕ ВАШЕГО ЭЛЕКТРОННОГО СООБЩЕНИЯ ВЫ ДОЛЖНЫ УКАЗАТЬ НАЗВАНИЕ ВАШЕЙ АВИАКОМПАНИИ И ПРЕДОСТАВЛЕННЫЙ АВИАКОМПАНИЕЙ КОД ПОДТВЕРЖДЕНИЯ МАРШРУТА, НОМЕР ПЕРВОНАЧАЛЬНОГО РЕЙСА, А ТАКЖЕ НОМЕР НОВОГО РЕЙСА, ЗАМЕНЯЮЩЕГО ПЕРВОНАЧАЛЬНЫЙ. ЕСЛИ МЕНЯЕТСЯ ТАКЖЕ И АВИАКОМПАНИЯ, ВЫ ДОЛЖНЫ СООБЩИТЬ НАМ НАЗВАНИЕ НОВОЙ АВИАКОМПАНИИ, СОВЕРШАЮЩЕЙ ВАШ НОВЫЙ РЕЙС.&lt;br /&gt; &lt;br /&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>ПРАВО НА ПОЛЬЗОВАНИЕ УСЛУГАМИ ФИРМЫ BLUE RIBBON BAGS НЕ ПОДЛЕЖИТ ПЕРЕДАЧЕ ДРУГИМ СТОРОНАМ. НИКАКИЕ ВОЗВРАТЫ ИЛИ КРЕДИТЫ НЕ ПРЕДОСТАВЛЯЮТСЯ. ЕСЛИ ВАШ РЕЙС БУДЕТ ОТМЕНЕН И ВМЕСТО НЕГО БУДЕТ ЗАРЕЗЕРВИРОВАН ДРУГОЙ РЕЙС, ВЫ ДОЛЖНЫ ЛИБО УВЕДОМИТЬ НАС ОБ ЭТОМ ИЗМЕНЕНИИ ДО ОТБЫТИЯ НОВЫМ РЕЙСОМ ИЛИ ПРИОБРЕСТИ НОВОЕ ОБСЛУЖИВАНИЕ В ОТНОШЕНИИ НОВОГО РЕЙСА. ОБО ВСЕХ ИЗМЕНЕНИЯХ СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, С УКАЗАНИЕМ НОМЕРА ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ. В ТЕКСТЕ ВАШЕГО ЭЛЕКТРОННОГО СООБЩЕНИЯ ВЫ ДОЛЖНЫ УКАЗАТЬ НАИМЕНОВАНИЕ ВАШЕЙ АВИАКОМПАНИИ И ПРЕДОСТАВЛЕННЫЙ ВАШЕЙ АВИАКОМПАНИЕЙ НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА, НОМЕР ВАШЕГО ПЕРВОНАЧАЛЬНОГО РЕЙСА И НОМЕР НОВОГО РЕЙСА, ЗАМЕНЯЮЩЕГО ПЕРВОНАЧАЛЬНЫЙ. ЕСЛИ ИЗМЕНИТСЯ ТАКЖЕ НАИМЕНОВАНИЕ АВИАКОМПАНИИ, ВЫ ДОЛЖНЫ СООБЩИТЬ НАМ НАИМЕНОВАНИЕ НОВОЙ АВИАКОМПАНИИ, СОВЕРШАЮЩЕЙ ВАШ НОВЫЙ РЕЙС.&lt;br /&gt; &lt;br /&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>Адрес эл. почты</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>SendRe</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Дата истечения срока действия</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>Информация о прибытии рейса</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>Соглашение об обслуживании фирмой Blue Ribbon Bags</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>Преимущества обслуживания багажа</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>Свяжитесь с нами</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>© 2019 Blue Ribbon Bags, LLC. Поданы заявки на патенты США и международные патенты.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>Каждая покупка подлежит действию условий и сроков </value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>Представить отчет о неполучении багажа</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>стартовая страница</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>Выполнение обязательств фирмы Blue Ribbon Bags гарантируется страховой компанией, которой присвоен рейтинг «A-» («Превосходно») компанией A.M. Best.</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>Приобрести обслуживание багажа</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* Вы можете редактировать введенные данные, нажимая щелчком мыши экранную кнопку «Назад» («Go Back»); при этом повторный ввод ранее введенной информации не потребуется</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>Агент, продавец</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>№ подтверждения маршрута авиакомпанией</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>Наименование авиакомпании</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>Продукция</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>Дата приобретения</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>Стоимость обслуживания</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>№ услуги фирмы BRB</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>ВСЕГО ЛИШЬ ЗА 5 ДОЛЛАРОВ США &lt;/br&gt;ФИРМА BRB ПРОСЛЕДИТ МЕСТОНАХОЖДЕНИЕ НЕ ДОСТАВЛЕННОГО БАГАЖА И УСКОРИТ ЕГО ВОЗВРАЩЕНИЕ &lt;/br&gt;АВИАКОМПАНИЕЙ. </value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>Путешествуйте безопасно и без лишних забот</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>ЕСЛИ ВАШ БАГАЖ НЕ БУДЕТ НАЙДЕН&lt;br /&gt;В ТЕЧЕНИЕ 96 ЧАСОВ, &lt;br /&gt;ФИРМА BRB ВЫШЛЕТ ВАМ ГАРАНТИРОВАННУЮ ВЫПЛАТУ В РАЗМЕРЕ 1000 ДОЛЛАРОВ США В РАСЧЕТЕ НА КАЖДУЮ ЕДИНИЦУ ПОТЕРЯННОГО БАГАЖА.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>Настоящее спокойствие &lt;br /&gt;обеспечивает фирма Blue </value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>Отчет о неполучении багажа</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>Не забудьте сперва уведомить авиакомпанию о том, что ваш багаж не был доставлены в пункт назначения. 
+ Авиакомпания предоставит вам информацию, необходимую для прослеживания багажа и для представления отчета в фирму Blue Ribbon Bags. 
+ Фирма Blue Ribbon Bags должна получать отчеты о любом потерянном багаже в течение 24 часов после прибытия пассажира в пункт назначения.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>Представить отчет</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>Кроме того, вы можете представлять отчеты о неполучении багажа по телефону 888-BAGGAGE (888-224-4243) круглосуточно, в любой день недели.</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>Наши партнеры</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>Сфера нашего обслуживания</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>21 миллион</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>не доставленных единиц багажа ежегодно</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>Застрахованные авиакомпании</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>Ежедневные полеты в глобальном масштабе</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>Что о нас говорят?</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>В новостях</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>Превосходное обслуживание клиентов! Услуги фирмы Blue Ribbon Bags по защите багажа...</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>Если вас беспокоит возможность потери багажа, теперь есть программа, позволяющая обеспечивать защиту багажа... Фирма Blue Ribbon Bags уже...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>В настоящее время это единственное страховое обслуживание, доступное в отношении потерянного багажа, который может быть...</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>Каждый, чей багаж был потерян авиакомпанией, знает, какой это кошмар... Но фирма Blue Ribbon Bags...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>Приобрести обслуживание багажа</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>Выберите щелчком мыши элемент &lt;b&gt;ВХОД В СИСТЕМУ&lt;/b&gt;, чтобы приобрести страхования багажа ваших клиентов фирмой Blue Ribbon Bags.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>Выберите щелчком мыши элемент &lt;b&gt;РЕГИСТРАЦИЯ&lt;/b&gt;, чтобы зарегистрировать ваше агентство и продавать вашим клиентам страхование багажа фирмой Blue Ribbon Bags.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* Сбор за приобретение соглашения об обслуживании взимается в расчете на каждого пассажира. Сумма гарантированного страхования указывается в расчете на единицу багажа.</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* Страховые выплаты производятся в отношении не более чем 2 не полученных единиц багажа в расчете на каждого пассажира.</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>Представить отчет о неполучении багажа</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>ВСЕГО ЛИШЬ ЗА 5 ДОЛЛАРОВ США ФИРМА BRB ПРОСЛЕЖИВАЕТ ВАШ НЕ ДОСТАВЛЕННЫЙ АВИАКОМПАНИЕЙ БАГАЖ И СПОСОБСТВУЕТ ЕГО СКОРЕЙШЕМУ ПОЛУЧЕНИЮ.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>Дополнительные сведения всегда можно получить, обратившись к нам по электронной почте: </value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>Для получения страховой выплаты не требуются какие-либо квитанции, относящиеся к содержимому багажа.</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags предлагает три уровня гарантированного обслуживания багажа:</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>Фирма BRB гарантирует выплату 1000 долларов США в расчете на каждую единицу багажа, не полученного по прошествии 4 суток.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>Приобрести</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>СТОИМОСТЬ СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>ГАРАНТИРОВАННАЯ СТРАХОВАЯ ВЫПЛАТА</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>Туристические агенты</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>Багаж не получен; представьте отчет по адресу:</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Не активирован</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>Выход из системы</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>Добро пожаловать!</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ВХОД В СИСТЕМУ</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>Вход в систему</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>Мне нужен новый пароль</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>Запомнить входные данные пользователя</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>Вход в систему фирмы Blue Ribbon Bags</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>Идентификационный № пользователя и (или) пароль не распознаются. Функция проверки пароля чувствительна к РЕГИСТРУ. Пожалуйста, убедитесь в том, что вы не зафиксировали регистр прописных букв (Caps Lock). Пожалуйста, снова введите имя пользователя и пароль или обратитесь к администратору вашей системы, чтобы сменить ваш пароль.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>Информация о потерянном багаже</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>Ваш зарегистрированный в аэропорте багаж не прибывает в пункт назначения.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>Вы предъявляете авиакомпании требование о возвращении потерянного багажа, не доставленного тем самолетом, на котором вы прибыли в пункт назначения, и вы получаете от авиакомпании справочный или поисковый номер файла.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>Вы представляете в фирму  Blue Ribbon Bags отчет о неполучении багажа в течение 24 часов после прибытия в пункт назначения.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>Ваш не получаете свой багаж в течение четырех (4) суток после наступления даты вашего прибытия в пункт назначения, и этот факт документирован авиакомпанией.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>ОДНА ПОКУПКА (СТОИМОСТЬЮ 5 ДОЛЛАРОВ США) ОБЕСПЕЧИВАЕТ ОБСЛУЖИВАНИЕ ВСЕХ ЕДИНИЦ БАГАЖА, ЗАРЕГИСТРИРОВАННЫХ В АЭРОПОРТЕ, В ТОМ ЧИСЛЕ БАГАЖА, ЗАРЕГИСТРИРОВАННОГО В ПОСЛЕДНЮЮ МИНУТУ ПЕРЕД ПОСАДКОЙ НА САМОЛЕТ.</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt;АВТОМАТИЧЕСКИЕ УВЕДОМЛЕНИЯ РАССЫЛАЮТСЯ ПАССАЖИРАМ ПО ЭЛЕКТРОННОЙ ПОЧТЕ КАЖДЫЙ РАЗ, КОГДА ИМЕЕТ МЕСТО ИЗМЕНЕНИЕ СТАТУСА ИХ БАГАЖА. ПАССАЖИРАМ НЕ НУЖНО ОБРАЩАТЬСЯ В АВИАКОМПАНИЮ ДЛЯ ТОГО, ЧТОБЫ НАВОДИТЬ СПРАВКИ О СТАТУСЕ ИХ БАГАЖА.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>ПРЕДОСТАВЛЕНИЕ ДОКАЗАТЕЛЬСТВ (КВИТАНЦИЙ), ОТНОСЯЩИХСЯ К СОДЕРЖИМОМУ БАГАЖА, &lt;b&gt;НЕ&lt;/b&gt; ТРЕБУЕТСЯ ДЛЯ ПОЛУЧЕНИЯ СТРАХОВОЙ ВЫПЛАТЫ.</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>СТРАХОВЫЕ ВЫПЛАТЫ ПРОИЗВОДЯТСЯ В ОТНОШЕНИИ НЕ БОЛЕЕ ЧЕМ 2 НЕ ПОЛУЧЕННЫХ ЕДИНИЦ БАГАЖА В РАСЧЕТЕ НА КАЖДОГО ПАССАЖИРА.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>СТРАХОВЫЕ ВЫПЛАТЫ ГАРАНТИРУЮТСЯ ДАЖЕ В ТОМ СЛУЧАЕ, ЕСЛИ ВЫ ПОЛУЧИТЕ НЕ ДОСТАВЛЕННЫЙ БАГАЖ В ЛЮБОЕ ВРЕМЯ ПО ИСТЕЧЕНИИ 96-ЧАСОВОГО СРОКА.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>СЛУЧАИ ХИЩЕНИЯ, ПРОПАЖИ СОДЕРЖИМОГО БАГАЖА ИЛИ ПОВРЕЖДЕНИЯ БАГАЖА НЕ ПРЕДУСМОТРЕНЫ УСЛОВИЯМИ НАШЕГО ОБСЛУЖИВАНИЯ. СТРАХОВАНИЮ ПОДЛЕЖАТ ТОЛЬКО СЛУЧАИ, В КОТОРЫХ БАГАЖ НЕ ДОСТАВЛЯЕТСЯ АВИАКОМПАНИЕЙ. &lt;b&gt;ОТЧЕТ О НЕПОЛУЧЕНИИ БАГАЖА НЕОБХОДИМО ПРЕДСТАВЛЯТЬ В ТЕЧЕНИЕ 24 ЧАСОВ ПОСЛЕ ПРИБЫТИЯ В ПУНКТ НАЗНАЧЕНИЯ.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>ФИРМА BRB ПРОДАЕТ УСЛУГИ. ВАШЕ СОГЛАШЕНИЕ ОБ ОБСЛУЖИВАНИИ, ЗАКЛЮЧЕННОЕ С ФИРМОЙ BRB, ДОПОЛНЯЕТ ЛЮБОЕ ДРУГОЕ ПРИОБРЕТЕННОЕ ВАМИ СТРАХОВАНИЕ, НО НЕ ЗАМЕНЯЕТ ЕГО. ПОЛУЧИВ ЧЕК ОТ ФИРМЫ BRB, ВЫ ВСЕ ЕЩЕ МОЖЕТЕ ПОЛУЧАТЬ ДРУГИЕ СТРАХОВЫЕ ВЫПЛАТЫ.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>СТОИМОСТЬ УСЛУГ ФИРМЫ BLUE RIBBON BAGS НЕ ПОДЛЕЖИТ ВОЗВРАТУ, И ПРАВО НА ПОЛЬЗОВАНИЕ ЭТИМИ УСЛУГАМИ НЕ ПОДЛЕЖИТ ПЕРЕДАЧЕ ДРУГИМ СТОРОНАМ. КАКИЕ-ЛИБО ВОЗВРАТЫ ИЛИ КРЕДИТЫ НЕ ПРЕДОСТАВЛЯЮТСЯ. ЕСЛИ ВАШ РЕЙС БУДЕТ ОТМЕНЕН И ВМЕСТО НЕГО БУДЕТ ЗАРЕЗЕРВИРОВАН ДРУГОЙ РЕЙС, ВЫ ДОЛЖНЫ ЛИБО УВЕДОМИТЬ НАС ОБ ЭТОМ ИЗМЕНЕНИИ ДО ОТБЫТИЯ НОВЫМ РЕЙСОМ ИЛИ ПРИОБРЕСТИ НОВОЕ ОБСЛУЖИВАНИЕ В ОТНОШЕНИИ НОВОГО РЕЙСА. ОБО ВСЕХ ИЗМЕНЕНИЯХ СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, С УКАЗАНИЕМ НОМЕРА ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ. В ТЕКСТЕ ВАШЕГО ЭЛЕКТРОННОГО СООБЩЕНИЯ ВЫ ДОЛЖНЫ УКАЗАТЬ НАИМЕНОВАНИЕ ВАШЕЙ АВИАКОМПАНИИ И ПРЕДОСТАВЛЕННЫЙ ВАШЕЙ АВИАКОМПАНИЕЙ НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА, НОМЕР ВАШЕГО ПЕРВОНАЧАЛЬНОГО РЕЙСА И НОМЕР НОВОГО РЕЙСА, ЗАМЕНЯЮЩЕГО ПЕРВОНАЧАЛЬНЫЙ. ЕСЛИ ИЗМЕНИТСЯ ТАКЖЕ НАИМЕНОВАНИЕ АВИАКОМПАНИИ, ВЫ ДОЛЖНЫ СООБЩИТЬ НАМ НАИМЕНОВАНИЕ НОВОЙ АВИАКОМПАНИИ, СОВЕРШАЮЩЕЙ ВАШ НОВЫЙ РЕЙС.</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>ВЫ МОЖЕТЕ ПРИОБРЕТАТЬ УСЛУГИ ФИРМЫ BLUE RIBBON BAGS В ЛЮБОЕ ВРЕМЯ ДО ОТЛЕТА.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>СТОИМОСТЬ ОБСЛУЖИВАНИЯ СОСТАВЛЯЕТ 5 ДОЛЛАРОВ США В РАСЧЕТЕ НА КАЖДОГО ПАССАЖИРА И В РАСЧЕТЕ НА КАЖДЫЙ НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА АВИАКОМПАНИЕЙ, НЕЗАВИСИМО ОТ ЧИСЛА ПОСАДОК ИЛИ ПЕРЕСАДОК, ОТНОСЯЩИХСЯ К ТАКОМУ НОМЕРУ ПОДТВЕРЖДЕНИЯ МАРШРУТА. ОДНО ПРИОБРЕТЕНИЕ ОБСЛУЖИВАНИЯ ОТНОСИТСЯ К ЛЮБЫМ ПОЛЕТАМ «ТУДА И ОБРАТНО», КОТОРЫМ АВИАКОМПАНИЕЙ ПРИСВОЕН ОДИН И ТОТ ЖЕ НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА.</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>ЕСЛИ НЕСКОЛЬКО ПОСЛЕДОВАТЕЛЬНЫХ РЕЙСОВ ЗАРЕЗЕРВИРОВАНЫ ПО ОТДЕЛЬНОСТИ И ПОДТВЕРЖДЕНЫ АВИАКОМПАНИЯМИ ПОД РАЗЛИЧНЫМИ НОМЕРАМИ, В ОТНОШЕНИИ КАЖДОГО РЕЙСА НЕОБХОДИМО ЗАКЛЮЧАТЬ ОТДЕЛЬНОЕ СОГЛАШЕНИЕ ОБ ОБСЛУЖИВАНИИ.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;ТОЛЬКО К СВЕДЕНИЮ АГЕНТОВ&lt;/u&gt;: СТОИМОСТЬ КАЖДОГО ПРИОБРЕТЕНИЯ УСЛУГ СОСТАВЛЯЕТ 5 ДОЛЛАРОВ США В РАСЧЕТЕ НА КАЖДОГО ПАССАЖИРА И НА КАЖДЫЙ НОМЕР PNR, НЕЗАВИСИМО ОТ ЧИСЛА ПОСАДОК ИЛИ ПЕРЕСАДОК.</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>ЕСЛИ ПОКУПКИ СОВЕРШАЮТСЯ С ИСПОЛЬЗОВАНИЕМ САЙТОВ, НА КОТОРЫХ БИЛЕТЫ ПРИОБРЕТАЮТСЯ В РЕЖИМЕ СЕТЕВОЙ СВЯЗИ, КАЖДАЯ ПОКУПКА СОВЕРШАЕТСЯ В РАСЧЕТЕ НА ОДИН РЕЙС ИЛИ МАРШРУТ, ЗАРЕЗЕРВИРОВАННЫЙ НА САЙТЕ В РЕЖИМЕ СЕТЕВОЙ СВЯЗИ И ОБОЗНАЧЕННЫЙ НОМЕРОМ ПОДТВЕРЖДЕНИЯ, ПРЕДОСТАВЛЕННЫМ НА САЙТЕ В ПРОЦЕССЕ ПОКУПКИ В РЕЖИМЕ СЕТЕВОЙ СВЯЗИ. В СЛУЧАЯХ ЛЮБЫХ ИЗМЕНЕНИЙ, ВОЗНИКАЮЩИХ ПОСЛЕ РЕЗЕРВИРОВАНИЯ РЕЙСА ИЛИ МАРШРУТА НА САЙТЕ, ТРЕБУЕТСЯ ОТДЕЛЬНОЕ ПРИОБРЕТЕНИЕ ОБСЛУЖИВАНИЯ В ОТНОШЕНИИ ЛЮБЫХ НОВЫХ ЗАРЕЗЕРВИРОВАННЫХ РЕЙСОВ. ЕСЛИ ИЗМЕНЕНИЕ РЕЙСА ИЛИ МАРШРУТА ОФОРМЛЯЕТСЯ С ИСПОЛЬЗОВАНИЕМ ТОГО САЙТА, С ПОМОЩЬЮ КОТОРОГО БЫЛИ ЗАРЕЗЕРВИРОВАНЫ ПЕРВОНАЧАЛЬНЫЙ РЕЙС ИЛИ МАРШРУТ, И ПЕРВОНАЧАЛЬНО ПОЛУЧЕННЫЙ ПАССАЖИРОМ НА ЭТОМ САЙТЕ НОМЕР ПОДТВЕРЖДЕНИЯ РЕЙСА ИЛИ МАРШРУТА НЕ ИЗМЕНИТСЯ, ОТ ПАССАЖИРА НЕ ТРЕБУЕТСЯ ОТДЕЛЬНОЕ ПРИОБРЕТЕНИЕ ОБСЛУЖИВАНИЯ — ПЕРВОНАЧАЛЬНОГО ПРИОБРЕТЕНИЯ ОБСЛУЖИВАНИЯ БУДЕТ ДОСТАТОЧНО.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>ФИРМА BRB ОБЕСПЕЧИВАЕТ ОБСЛУЖИВАНИЕ КАЖДОГО РЕЙСА ЛЮБОЙ АВИАКОМПАНИИ ПО ВСЕМУ МИРУ, НЕЗАВИСИМО ОТ ПУНКТА ОТБЫТИЯ.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>ПЕРЕД ПРЕДСТАВЛЕНИЕМ В ФИРМУ BLUE RIBBON BAGS ОТЧЕТА О НЕПОЛУЧЕНИИ БАГАЖА НЕОБХОДИМО ПРЕДЪЯВИТЬ АВИАКОМПАНИИ ТРЕБОВАНИЕ О ВОЗВРАЩЕНИИ НЕ ДОСТАВЛЕННОГО БАГАЖА.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>ОТЧЕТЫ О НЕПОЛУЧЕНИИ БАГАЖА МОЖНО ПРЕДСТАВЛЯТЬ В РЕЖИМЕ СЕТЕВОЙ СВЯЗИ &lt;a href="{0}" target="_blank"&gt;С ПОМОЩЬЮ ЭТОЙ ССЫЛКИ&lt;/a&gt; ИЛИ ПО ТЕЛЕФОНУ (888) BAGGAGE (+1 888-224-4243) КРУГЛОСУТОЧНО, В ЛЮБОЙ ДЕНЬ НЕДЕЛИ.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>О НЕПОЛУЧЕНИИ БАГАЖА НЕОБХОДИМО СООБЩАТЬ В ТЕЧЕНИЕ 24 ЧАСОВ ПОСЛЕ ПРИБЫТИЯ В ПУНКТ НАЗНАЧЕНИЯ. ФИРМА  BLUE RIBBON BAGS НЕ ПРЕДОСТАВЛЯЕТ УСЛУГИ В ОТНОШЕНИИ БАГАЖА, О ПРОПАЖЕ КОТОРОГО КЛИЕНТ СООБЩИЛ ПО ИСТЕЧЕНИИ ТАКОГО 24-ЧАСОВОГО СРОКА.</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>Предъявите авиакомпании требование о возвращении багажа прежде, чем связываться с фирмой Blue Ribbon Bags.</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>Представьте отчет о неполучении багажа в фирму Blue Ribbon Bags в течение 24 часов после прибытия в пункт назначения. Отчеты о неполучении багажа можно представлять круглосуточно, в любой день недели:</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>в режиме сетевой связи &lt;a href="{0}" target="_blank"&gt;С ПОМОЩЬЮ ЭТОЙ ССЫЛКИ&lt;/a&gt;;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>по телефону (888) BAGGAGE (+1 888-224-4243).</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags начнет предоставлять услуги, прослеживая ваш багаж и способствуя его скорейшему возвращению. Пассажиры получают по электронной почте автоматические уведомления каждый раз, когда изменяется статус их багажа.&lt;br /&gt;&lt;strong&gt;Пассажирам не нужно обращаться в авиакомпанию для того, чтобы наводить справки о статусе их багажа.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags найдет ваш багаж в течение 96 часов после вашего прибытия в пункт назначения или вышлет вам гарантированную страховую выплату по прошествии одной минуты после истечения указанного 96-часового срока.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>О чем еще вам следует знать?</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>Что вам следует сделать, если ваш багаж будет потерян?</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>Как вы узнаете, что имеете право на страховую выплату?</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags (BRB) предоставляет единственные в своем роде услуги, прослеживая не доставленный багаж пассажиров и способствуя его скорейшей выдаче на протяжении первых 96 часов после неполучения багажа. Если фирма Blue Ribbon Bags не сможет обеспечить получение багажа в течение этого срока, фирма BRB вышлет пассажиру гарантированную страховую выплату. Выплаты гарантируются даже в том случае, если багаж будет возвращен пассажиру В ЛЮБОЕ ВРЕМЯ по истечении указанного 96-часового срока.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>Преимущества обслуживания багажа</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>Адрес места постоянного жительства пассажира</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>Код банка, присвоенный ABA </value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>Номер счета:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>№ соглашения об обслуживании</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>№ подтверждения маршрута авиакомпанией</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>Дата прибытия</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>№ рейса</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>Время прибытия</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>Приложите отчет BIR или PIR</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>№ багажной бирки</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>Перед тем, как представить отчет о неполучении багажа в фирму Blue Ribbon Bags, вы должны уведомить авиакомпанию о том, что ваш багаж не был доставлен по прибытии в пункт назначения. Авиакомпания предоставит вам данные, необходимые для прослеживания вашего багажа; эти данные вам потребуются для представления приведенного ниже отчета о неполучении багажа.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>Адрес бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>Город бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>Страна бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>Электронный почтовый адрес бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>Имя бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>Фамилия бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>Телефон бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>Штат бенефициара</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>Почтовый индекс бенефициара</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>Выберите строку щелчком мыши</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>Подтвердите электронный почтовый адрес</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>Выберите этот вариант щелчком мыши, если запрашиваемый адрес в точности соответствует введенному выше</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>Вы можете ввести требуемые изменения, чтобы исправить ошибочную информацию, в течение {0} после получения этого электронного сообщения. Если вы не отправите исправленную информацию в течение {0}, вам будет отказано в рассмотрении вашего отчете о неполучении багажа. Ваш отчет не будет рассмотрен даже в случае его повторного представления.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>Представленный вами справочный номер файла недействителен. Обратитесь в вашу авиакомпанию и попросите безотлагательно предоставить вам действительный справочный номер файла. Для того, чтобы ваш отчет мог быть обработан, мы должны получить от вас этот номер в течение 24 часов после вашего прибытия в пункт назначения. Фирма Blue Ribbon Bags не получает справочные номера файлов от имени пассажиров.&lt;br/&gt;
+Пассажир несет ответственность за получение этой информации от авиакомпании и за предоставление этой информации нам в течение 24 часов после его прибытия в пункт назначения. Если мы не получим от вас действительный справочный номер файла в течение 24 часов после вашего прибытия в пункт назначения, вам будет отказано в рассмотрении вашего отчета, и вы потеряете право на обслуживание нами вашего багажа и на получение от нас гарантированной страховой выплаты. Мы не откроем ваше дело заново, независимо от обстоятельств, если эта информация будет предоставлена нам в любое время по истечении вышеупомянутого 24-часового срока.&lt;br/&gt;
+Если вы уже представили нам копию вашего отчета, предоставленного вам авиакомпанией, когда вы предъявляли требование о возвращении потерянного багажа, и, несмотря на это, получили это электронное сообщение, значит, авиакомпания не предоставила вам действительный справочный номер файла, и вы должны безотлагательно снова обратиться в авиакомпанию, чтобы получить действительный номер и предоставить его нам в течение 24 часов после вашего прибытия в пункт назначения.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>Введите следующие данные, содержащиеся в выданной авиакомпанией справке о востребовании вашего багажа: </value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>Пожалуйста, введите номер вашего соглашения об обслуживании компанией Blue Ribbon Bags: </value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>Справочный или поисковый № файла</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>Представить отчет</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>Наименование гостиницы:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>Если пассажир не будет находиться по этому адресу на протяжении всего 96-часового срока и пожелает сообщить фирме BRB об этих обстоятельствах для того, чтобы его багаж мог быть доставлен по другому адресу, пожалуйста, сообщите нам об этом по электронной почте, по адресу &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt;, укажите в заголовке сообщения ваш номер MBR, предоставленный вам, когда вы представили отчет о неполучении багажа, и как можно подробнее опишите возникшую ситуацию в тексте сообщения.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>№ MBR</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>Наименование банка:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>К сожалению, этот отчет не поддается редактированию, в связи с чем содержащуюся в нем информацию больше нельзя исправлять. Благодарим вас за то, что вы выбрали фирму Blue Ribbon Bags. Путешествуйте безопасно и без лишних забот!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>Ваш поиск не позволил получить какие-либо результаты</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>Чтобы отправить отчет об ошибочно отправленном багаже, вы должны в течении 24 часов с момента прибытия рейса предоставить компании Blue Ribbon Bags копию отчета, который был предоставлен вам авиакомпанией при подаче претензии об утерянном багаже. Если вы не представите копию этого отчета, который был предоставлен вам авиакомпанией, в течение 24 часов после прилета, ваш отчет об ошибочно отправленном багаже, поданный в компанию Blue Ribbon Bags, будет аннулирован по истечении 24-часового срока, а вы потеряете право на получение услуг по поиску багажа или выплаты по гарантии качества обслуживания. Пожалуйста, отправьте копию этого отчета на mbr@blueribbonbags.com и укажите номер вашего Соглашения об обслуживании в теме письма. Сопроводительная документация от авиакомпании, которая была подана любым иным способом, чем указано в данном документе, не будет считаться действительной и не будет рассматриваться в рамках процесса подачи отчета об ошибочно отправленном багаже в компании Blue Ribbon Bags.  Любые отчеты, которые не имеют сопроводительной документации, будут аннулированы по истечении 24-часового срока с момента приземления вашего рейса.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>Пассажир будет находиться по этому адресу до</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>Адрес получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>Метод оплаты</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>Город получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>Страна получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>Примечание. Подробности, относящиеся к выплатам, могут измениться после представления первоначального отчета. Такие изменения могут приводить к небольшим задержкам обработки выплат.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>Электронный почтовый адрес получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>Имя получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>Фамилия получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>Телефон получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>Штат получателя выплат</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>Почтовый индекс получателя выплат</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>Электронный почтовый адрес в системе Paypal</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>Пожалуйста, введите информацию, относящуюся к вашему счету в системе Paypal</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>Имя в системе Paypal</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>Фамилия в системе PayPal</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>Пожалуйста, заполняйте поля в точности так, как они выглядят в вашем требовании о возвращении багажа, поданном в авиакомпанию.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>Пожалуйста, введите информацию о получателе выплат. &lt;b&gt;Это адрес, по которому вы хотели бы получить страховую выплату в том случае, если ваш багаж не будет доставлен в течение более чем 96 часов. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>Пожалуйста, введите информацию об оформлении выплат. &lt;b&gt;Здесь указывается, куда следует высылать причитающиеся вам выплаты в том случае, если вы не получите свой багаж в течение 96 часов. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>Предоставьте следующую информацию в точности так, как она выглядит в вашем требовании о возвращении потерянного багажа, поданном в авиакомпанию. &lt;b&gt;Это адрес, по которому вы хотели бы получить багаж.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>Критерий поиска (пожалуйста, выберите один)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>№ соглашения об обслуживании</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>Информация о прибытии рейса</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>Информация о не доставленном багаже</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>Номер соглашения об обслуживании</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>Информация о доставке багажа</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>Информация о производстве выплат</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>Код SWIFT</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>Не доставленный багаж</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>ОТЧЕТ О НЕ ДОСТАВЛЕННОМ БАГАЖЕ, С УКАЗАНИЕМ ДЕЙСТВИТЕЛЬНОГО НОМЕРА СПРАВОЧНОГО ФАЙЛА, ПРЕДОСТАВЛЕННОГО АВИАКОМПАНИЕЙ, ДОЛЖЕН БЫТЬ ПОЛУЧЕН ФИРМОЙ BLUE RIBBON BAGS В ТЕЧЕНИЕ 24 ЧАСОВ ПОСЛЕ ПРИБЫТИЯ В ПУНКТ НАЗНАЧЕНИЯ. УСЛУГИ ФИРМЫ BLUE RIBBON BAGS НЕ НЕ БУДУТ ПРЕДОСТАВЛЕНЫ, ЕСЛИ ОТЧЕТ О НЕ ДОСТАВЛЕННОМ БАГАЖЕ БУДЕТ ПОЛУЧЕН НАМИ ПО ИСТЕЧЕНИИ ЭТОГО 24-ЧАСОВОГО СРОКА. ФИРМА BLUE RIBBON BAGS НЕ ЗАПРАШИВАЕТ СПРАВОЧНЫЕ НОМЕРА ФАЙЛОВ У АВИАКОМПАНИИ. ПАССАЖИР НЕСЕТ ОТВЕТСТВЕННОСТЬ ЗА ПОЛУЧЕНИЕ ЭТОЙ ИНФОРМАЦИИ ОТ АВИАКОМПАНИИ ПЕРЕД ПРЕДСТАВЛЕНИЕМ НАМ ОТЧЕТА О НЕ ДОСТАВЛЕННОМ БАГАЖЕ.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>№ не доставленного багажа </value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>Когда вы подали в авиакомпанию требование о возвращении потерянного багажа, вы получили номер справочного файла и номер багажной бирки; пожалуйста, введите здесь эти номера:</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>Вход агента</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>Преимущества</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>Адресные данные</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>Часто возникающие вопросы</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Стартовая страница</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>Представить отчет</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>Пропавший багаж</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>Выберите щелчком мыши этот вариант, если вы желаете получить подтверждающее электронное сообщение.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>Выберите щелчком мыши этот вариант, если вы желаете, чтобы пассажир получил подтверждающее электронное сообщение.</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>Не указывать итоговую стоимость в электронных сообщениях, подтверждающих приобретение услуг.</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>Ваш счет</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя, фамилия</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>ЕСЛИ ВЫ ХОТИТЕ ПРЕДОСТАВИТЬ ЛЮБУЮ ИНФОРМАЦИЮ О ВАШЕЙ СУМКЕ ИЛИ ИНФОРМАЦИИ О ДОСТАВКЕ, ПОЖАЛУЙСТА, ВВЕДИТЕ ЕЕ ЗДЕСЬ</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>Первоначально появляется чистое поле для ввода пароля. Если вы желаете ввести новый пароль, пожалуйста, введите и подтвердите ваш новый пароль.&lt;br /&gt;&lt;br /&gt;
+                    Пароль должен содержать как минимум 8 (восемь) символов, в том числе как минимум один буквенный символ, одну цифру и один специальный символ, причем как минимум один из буквенных символов должен быть заглавным.&lt;br /&gt;&lt;br /&gt;
+                    Допустимые специальные символы: include:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=
+</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>Адресные данные получателя выплат</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>Информация о производстве выплат</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>Хорошо, пока что все сделано!</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>Уровень обслуживания:</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>Число пассажиров:</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>Подтверждение оплаты:</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>Информация о платеже</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>Рекламный код:</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>Благодарим вас за то, что вы выбрали фирму  Blue Ribbon Bags в качестве стороны, обслуживающей вас в предстоящем полете. Мы заверяем вас в том, что сделаем все возможное для того, чтобы у вас не возникали никакие проблемы. &lt;br /&gt;&lt;br /&gt;Номер вашего соглашения об обслуживании с фирмой Blue Ribbon Bags: </value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>Пожалуйста, запишите и сохраните номер этого соглашения об обслуживании, так как он потребуется для представления нам отчета в том случае, если вы не получите свой багаж.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>В течение нескольких минут вы получите электронное сообщение фирмы Blue Ribbon Bags, содержащее подтверждение. Если вы не получите такое сообщение, пожалуйста, свяжитесь с нами, приготовив данные об операции на сайте Paypal, подтверждающие произведенную вами оплату. </value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;Что следует сделать в том случае, если ваш багаж не будет доставлен?&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;Если по прибытии ваш багаж не будет доставлен в пункт назначения, вы должны сообщить об этом авиакомпании прежде, чем вы сообщите об этом фирме Blue Ribbon Bags. Отчет о неполучении багажа необходимо представить в фирму Blue Ribbon Bags в течение 24 после вашего прибытия в пункт назначения. Вы можете сообщать нам о неполучении багажа по телефону &lt;strong&gt;{0}&lt;/strong&gt; , а также онлайн по адресу &lt;a href="{1}"&gt;{2}&lt;/a&gt;, круглосуточно, в любой день недели. &lt;br /&gt;&lt;br /&gt;Пожалуйста, запишите и сохраните информацию, необходимую для прослеживания багажа (справочный или поисковый номер файла), предоставленную вам авиакомпанией в процессе представления вами требования о возвращении потерянного багажа, так как эта информация потребуется фирме Blue Ribbon Bags для обработки вашего отчета о неполучении багажа. Отчет о неполучении багажа необходимо представлять в фирму Blue Ribbon Bags в течение 24 после вашего прибытия в пункт назначения.&lt;br /&gt;&lt;br /&gt;Ниже приводится информация, относящаяся к оплате вашего обслуживания. Если у вас возникнут какие-либо вопросы, пожалуйста, безотлагательно обращайтесь в фирму Blue Ribbon Bags по электронной почте, по адресу &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt;. Мы готовы оказывать вам помощь круглосуточно, в любой день недели. Путешествуйте безопасно и без лишних забот!&lt;br /&gt;&lt;br /&gt;Текст вашего соглашения об обслуживании можно просмотреть в режиме сетевой связи по адресу &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Благодарим вас за то, что вы обратились к нам, и желаем вам безопасных полетов!&lt;br /&gt;&lt;br /&gt;СТОИМОСТЬ УСЛУГ ФИРМЫ BLUE RIBBON НЕ ПОДЛЕЖИТ ВОЗВРАТУ, И ПРАВО НА ИСПОЛЬЗОВАНИЕ ЭТИХ УСЛУГ НЕ ПОДЛЕЖИТ ПЕРЕДАЧЕ ДРУГИМ СТОРОНАМ. НИКАКИЕ ВОЗВРАТЫ ИЛИ КРЕДИТЫ НЕ ПРЕДОСТАВЛЯЮТСЯ. ЕСЛИ ВАШ РЕЙС БУДЕТ ОТМЕНЕН, И ВМЕСТО НЕГО БУДЕТ ЗАРЕЗЕРВИРОВАН ДРУГОЙ РЕЙС, ВЫ ДОЛЖНЫ УВЕДОМИТЬ НАС О ТАКОМ ИЗМЕНЕНИИ ПЕРЕД ОТБЫТИЕМ ВАШЕГО НОВОГО РЕЙСА ИЛИ ПРИОБРЕСТИ НОВОЕ ОБСЛУЖИВАНИЕ В ОТНОШЕНИИ ВАШЕГО НОВОГО РЕЙСА. ОБО ВСЕХ ИЗМЕНЕНИЯХ СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, УКАЗЫВАЯ НОМЕР ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ. В ТЕКСТЕ ЭЛЕКТРОННОГО СООБЩЕНИЯ СЛЕДУЕТ УКАЗЫВАТЬ НАИМЕНОВАНИЕ ВАШЕЙ АВИАКОМПАНИИ И НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА АВИАКОМПАНИЕЙ, НОМЕР ВАШЕГО ПЕРВОНАЧАЛЬНОГО РЕЙСА И НОМЕР ЗАМЕНЯЮЩЕГО ЕГО НОВОГО РЕЙСА. ЕСЛИ ИЗМЕНИТСЯ ТАКЖЕ НАИМЕНОВАНИЕ АВИАКОМПАНИИ, ВЫ ДОЛЖНЫ СООБЩИТЬ НАМ НАИМЕНОВАНИЕ ДРУГОЙ АВИАКОМПАНИИ, СОВЕРШАЮЩЕЙ НОВЫЙ РЕЙС.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>ВАШ ПЛАТЕЖ УСПЕШНО ОБРАБОТАН</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>Итоговая стоимость:</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Тел.</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>Ваш багаж найден, и это дело закрыто</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>Причина отказа</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>Отчеты о неполучении багажа можно представлять круглосуточно, в любой день недели, выбирая щелчком мыши &lt;a href="{0}" target="_blank"&gt;эту ссылку &lt;/a&gt;, или по телефону 888-BAGGAGE.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>Если пассажир сообщает в какое-либо время авиакомпании, которой он предъявил требование о возвращении багажа, или фирме Blue Ribbon Bags о том, что он сам заберет багаж, не ожидая его доставки, дело о статусе потерянного багажа будет закрыто, и весь багаж будет считаться возвращенным сразу после того, как багаж прибудет в аэропорт.</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>После доставки багажа в пункт назначения, указанный в предъявленном авиакомпании требовании о возвращении багажа, дело о статусе потерянного багажа будет закрыто.</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>* Если какая-либо приведенная выше информация ошибочна, пожалуйста, сообщите нам об этом по электронной почте, по адресу &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt;</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>Примечания заведующего обработкой отчетов:</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>Ваш поиск не позволил получить какие-либо результаты</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>Статус этого отчета о неполучении багажа: </value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>Дело открыто в течение &lt;strong&gt;{0}&lt;/strong&gt; суток.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>Получатель страховой выплаты за не доставленный багаж: &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>Выплата будет произведена, если дело не будет закрыто через  &lt;strong&gt;{0}&lt;/strong&gt; суток.</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>Автоматические уведомления рассылаются пассажирам по электронной почте каждый раз, когда имеет место изменение статуса их багажа. Пассажирам не нужно обращаться в авиакомпанию для того, чтобы наводить справки о статуса их багажа.</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>Преимущества:</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>НОМЕР НАШЕГО ТЕЛЕФОНА (888-BAGGAGE) ИСПОЛЬЗУЕТСЯ ТОЛЬКО С ЦЕЛЬЮ ПРЕДСТАВЛЕНИЯ НОВЫХ ОТЧЕТОВ О НЕПОЛУЧЕНИИ БАГАЖА.
+ПО ЭТОМУ ТЕЛЕФОНУ НЕЛЬЗЯ ПОЛУЧИТЬ КАКУЮ-ЛИБО ИНФОРМАЦИЮ, ОТНОСЯЩУЮСЯ К УЖЕ СУЩЕСТВУЮЩИМ ОТЧЕТАМ О НЕПОЛУЧЕНИИ БАГАЖА.
+С ЛЮБЫМИ ВОПРОСАМИ, ЗАМЕЧАНИЯМИ ИЛИ ПРЕДЛОЖЕНИЯМИ ДОПОЛНИТЕЛЬНОЙ ИНФОРМАЦИИ, ОТНОСЯЩИМИСЯ К УЖЕ СУЩЕСТВУЮЩИМ ОТЧЕТАМ О НЕПОЛУЧЕНИИ БАГАЖА, НОВЫМ, ОТКРЫТЫМ, ОШИБОЧНЫМ ИЛИ ЗАКРЫТЫМ, НЕЗАВИСИМО ОТ ПРИЧИН, СЛЕДУЕТ ОБРАЩАТЬСЯ К НАМ ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, УКАЗЫВАЯ НОМЕР ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ.</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>Перед тем, как представлять отчет о неполучении багажа в фирму Blue Ribbon Bags, пассажир должен предъявить авиакомпании требование о возвращении багажа (в соответствии с правилами этой авиакомпании).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+О НЕПОЛУЧЕНИИ БАГАЖА СЛЕДУЕТ СООБЩАТЬ В ФИРМУ BLUE RIBBON BAGS, С УКАЗАНИЕМ СПРАВОЧНОГО НОМЕРА, ПРЕДОСТАВЛЕННОГО АВИАКОМПАНИЕЙ, В ТЕЧЕНИЕ 24 ЧАСОВ ПОСЛЕ ПРИБЫТИЯ В ПУНКТ НАЗНАЧЕНИЯ. ФИРМА BLUE RIBBON BAGS НЕ ПРЕДОСТАВЛЯЕТ УСЛУГИ В ОТНОШЕНИИ БАГАЖА, СООБЩЕНИЕ О ПРОПАЖЕ КОТОРОГО БЫЛО ПОЛУЧЕНО ПО ИСТЕЧЕНИИ ТАКОГО 24-ЧАСОВОГО СРОКА. ЕСЛИ АВИАКОМПАНИЯ НЕ ПРЕДОСТАВИЛА ВАМ ДЕЙСТВИТЕЛЬНЫЙ СПРАВОЧНЫЙ НОМЕР ФАЙЛА, ВЫ ДОЛЖНЫ ОБРАТИТЬСЯ В АВИАКОМПАНИЮ И ПОЛУЧИТЬ ОТ НЕЕ ТАКОЙ НОМЕР ПРЕЖДЕ, ЧЕМ ПРЕДСТАВЛЯТЬ ОТЧЕТ В НАШУ ФИРМУ. ФИРМА BLUE RIBBON BAGS НЕ ЗАПРАШИВАЕТ СПРАВОЧНЫЕ НОМЕРА ФАЙЛОВ У АВИАКОМПАНИЙ. ПАССАЖИР НЕСЕТ ОТВЕТСТВЕННОСТЬ ЗА ПОЛУЧЕНИЕ ЭТОЙ ИНФОРМАЦИИ ОТ АВИАКОМПАНИИ ДО ПРЕДСТАВЛЕНИЯ ОТЧЕТА О НЕПОЛУЧЕНИИ БАГАЖА В НАШУ ФИРМУ. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+  В том случае, если доставленный багаж окажется не тем багажом, возвращения которого требует пассажир, в течение 12 часов после получения уведомления фирмы Blue Ribbon Bags о закрытии его дела и о возвращении его багажа пассажир может сообщить фирме Blue Ribbon Bags о допущенной ошибке по электронной почте, по адресу mbr@blueribbonbags.com, указав в заголовке сообщения фразу «Чужой багаж» («Not my bag») и свой номер MBR. В течение 72 часов (3 суток) после истечения первоначального срока, составлявшего 96 часов после прибытия пассажира в первоначальный пункт назначения, фирма Blue Ribbon Bags должна обнаружить местонахождение не доставленного багажа. Любой багаж, относящийся к этой категории, будет считаться «возвращенным» в соответствии с нашими условиями и сроками после его зарегистрированной доставки в аэропорт, указанный в предъявленном авиакомпании требовании о возвращении багажа. Если ошибочный багаж был уже доставлен, пассажир должен будет предоставить по электронной почте доказательство получения им квитанции о доставки от доставившей ошибочный багаж компании, а также предоставленную авиакомпанией документацию, недвусмысленно подтверждающую, что пассажиру был возвращен не тот багаж, возвращения которого он требовал. Для получения гарантированной страховой выплаты от фирмы Blue Ribbon Bags требуется предоставление обоих этих документов.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+  ПРЕДОСТАВЛЕНИЕ ОШИБОЧНОЙ ИНФОРМАЦИИ И ЗАПРОСЫ О ПРЕДОСТАВЛЕНИИ ИНФОРМАЦИИ.&lt;/strong&gt; В том случае, если отчет о не доставленном багаже будет содержать ошибочную информацию, вы можете получить электронное сообщение, содержащее запрос об исправлении такой информации. В случае получения пассажиром такого электронного почтового сообщения пассажир может отправить ответное сообщение в течение 12 часов после получения такого запроса. Если пассажир не ответит на протяжении указанного срока, не укажет исправленную или запрашиваемую информацию или не предоставит какую-либо запрашиваемую подтверждающую документацию, такому пассажиру будет отказано в рассмотрении его отчета о неполучении багажа, и такой пассажир потеряет право на использование наших услуг по возвращению багажа и на получение гарантированной страховой выплаты.&lt;br /&gt;&lt;br /&gt;
+  Если адрес для доставки багажа НЕ БЫЛ предоставлен авиакомпании в процессе предъявления требования о возвращении багажа, фирма BRB закроет ваше дело после того, как багаж будет доставлен в указанный аэропорт, зарегистрированный авиакомпанией, и ваш багаж будет считаться возвращенным в соответствии с соглашением об обслуживании, заключенным с фирмой Blue Ribbon Bags.&lt;br /&gt;&lt;br
+  /&gt;&lt;strong&gt; 
+  ПРИМЕЧАНИЕ. Если багаж пассажира не был доставлен авиакомпанией, которая оформляет только отчет о нарушениях, связанных с имуществом (Property irregularity Report, PIR) (если таково наименование отчета с указанием справочного номера, который выдала пассажиру авиакомпания), или отчет о нарушениях, связанных с багажом (Baggage irregularity Reports, BIR), который выдала авиакомпания (в отчетах BIR, как правило, не указывается десятизначный справочный номер файла), пассажир должен отправить копию отчета о нарушениях, связанных с имуществом или с багажом, по адресу mbr@blueribbonbags.com, указав в строке заголовка сообщения номер соглашения об обслуживании после заполнения формы в режиме сетевой связи. Для того, чтобы ваш отчет считался действительным, мы должны получить копию этого отчета в течение 24 часов после прибытия пассажира в пункт назначения. Если копия такого отчета не будет предоставлена в течение 24 часов после прибытия пассажира в пункт назначения, фирма BRB не сможет рассмотреть отчет по истечении указанного 24-часового срока. Любой багаж, относящийся к такой категории, будет считаться «возвращенным» в соответствии с нашими условиями и сроками после его доставки в аэропорт, зарегистрированной  в маршрутной ведомости полета или в сопроводительной информации, предоставленной авиакомпании клиентом в процессе подачи в авиакомпанию требования о возвращении потерянного багажа.
+      &lt;br/&gt;&lt;br/&gt;
+     ПРИМЕЧАНИЕ. Если багаж пассажира не был доставлен авиакомпанией, которая оформляет только отчет о нарушениях, связанных с имуществом (Property irregularity Report, PIR), предоставляемый в аэропорте (в отделе находок), 
+     или отчет авиакомпании о нарушениях, связанных с багажом (Baggage irregularity Reports, BIR) (в отчетах BIR, как правило, не указывается десятизначный справочный номер файла),
+     фирма Blue Ribbon Bags производит гарантированную страховую выплату только в отношении багажа, не возвращенного в течение более чем 96 часов, 
+     после того, как авиакомпания сперва произведет выплату возмещения в отношении такого потерянного багажа. Если авиакомпания никогда не выплатит 
+     пассажиру возмещение в отношении потерянного багажа, фирма Blue Ribbon Bags также не произведет страховую выплату. В каждом из этих случаев 
+     для получения гарантированной страховой выплаты от фирмы Blue Ribbon Bags требуется представление доказательства получения выплаты возмещения от авиакомпании, 
+     в дополнение к подтверждению авиакомпанией того факта, что выплаченное ею возмещение относилось именно к указанному потерянному багажу. 
+     Фирма Blue Ribbon Bags будет содействовать поиску вашего не доставленного багажа в течение первых 96 часов после того, как этот багаж не будет доставлен.
+  &lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; ОШИБКИ.&lt;/strong&gt; В том случае, если фирма Blue Ribbon Bags откажется рассматривать отчет пассажира о неполучении багажа или закроет его дело о неполучении багажа, и пассажир обнаружит, что была допущена та или иная ошибка, в течение 12 часов после получения электронного почтового сообщения о возникновении таких обстоятельств пассажир может представить в фирму Blue Ribbon Bags отчет об ошибке. Пожалуйста, сообщайте нам об ошибках по электронной почте, по адресу &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, указывая ваш номер MBR в заголовке сообщения. В своем электронном сообщении пассажир должен как можно подробнее пояснить, в чем, в точности, заключалась допущенная ошибка, и предоставить любую подтверждающую документацию. В том случае, если фирма Blue Ribbon Bags обнаружит, что такая ошибка действительно была допущена, фирма Blue Ribbon Bags должна будет найти потерянный багаж пассажира в течение 72 часов после того, как дело пассажира будет снова открыто. Если срок, составляющий 96 часов после первоначального прибытия пассажира в пункт назначения, истекает по прошествии 72 часов после того, как дело пассажира будет снова открыто, фирма Blue Ribbon Bags должна будет найти потерянный багаж пассажира до истечения первоначального 96-часового срока.  
+В любом случае, после доставки багажа пассажира в аэропорт, указанный в зарегистрированном авиакомпанией требовании о возвращении багажа, багаж будет считаться возвращенным в соответствии с условиями и сроками фирмы Blue Ribbon Bags, и дело пассажира будет закрыто. &lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;
+Любые сообщения, полученные по истечении вышеупомянутого 12-часового срока, не рассматриваются, и по истечении этого срока пассажир теряет право на услуги по возвращению потерянного багажа и на получение гарантированной страховой выплаты, независимо от того, какую документацию представит такой пассажир.
+&lt;/strong&gt;
+</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;НОМЕР НАШЕГО ТЕЛЕФОНА (888-BAGGAGE) ИСПОЛЬЗУЕТСЯ ТОЛЬКО С ЦЕЛЬЮ ПРЕДСТАВЛЕНИЯ НОВЫХ ОТЧЕТОВ О НЕПОЛУЧЕНИИ БАГАЖА.
+                        ПО ЭТОМУ ТЕЛЕФОНУ НЕЛЬЗЯ ПОЛУЧИТЬ КАКУЮ-ЛИБО ИНФОРМАЦИЮ, ОТНОСЯЩУЮСЯ К УЖЕ СУЩЕСТВУЮЩИМ ОТЧЕТАМ О НЕПОЛУЧЕНИИ БАГАЖА.
+                        С ЛЮБЫМИ ВОПРОСАМИ, ЗАМЕЧАНИЯМИ ИЛИ ПРЕДЛОЖЕНИЯМИ ДОПОЛНИТЕЛЬНОЙ ИНФОРМАЦИИ, ОТНОСЯЩИМИСЯ К УЖЕ СУЩЕСТВУЮЩИМ ОТЧЕТАМ О НЕПОЛУЧЕНИИ БАГАЖА, НОВЫМ, ОТКРЫТЫМ, ОШИБОЧНЫМ ИЛИ ЗАКРЫТЫМ, НЕЗАВИСИМО ОТ ПРИЧИН, СЛЕДУЕТ ОБРАЩАТЬСЯ К НАМ ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt;, УКАЗЫВАЯ НОМЕР ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ.
+                    &lt;/li&gt;
+                    &lt;li&gt;Перед тем, как представлять отчет о неполучении багажа в фирму Blue Ribbon Bags, пассажир должен предъявить авиакомпании требование о возвращении потерянного багажа (в соответствии с правилами этой авиакомпании).&lt;/li&gt;
+                    &lt;li&gt;О НЕПОЛУЧЕНИИ БАГАЖА, СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS, УКАЗЫВАЯ ДЕЙСТВИТЕЛЬНЫЙ СПРАВОЧНЫЙ НОМЕР ФАЙЛА, ПРЕДОСТАВЛЕННЫЙ АВИАКОМПАНИЕЙ, В ТЕЧЕНИЕ 24 ЧАСОВ ПОСЛЕ ПРИБЫТИЯ В ПУНКТ НАЗНАЧЕНИЯ. УСЛУГИ ФИРМЫ BLUE RIBBON BAGS ПО СТРАХОВАНИЮ И ПОИСКУ БАГАЖА НЕ ПРЕДОСТАВЛЯЮТСЯ ПО ИСТЕЧЕНИИ УПОМЯНУТОГО 24-ЧАСОВОГО СРОКА. ЕСЛИ АВИАКОМПАНИЯ НЕ ПРЕДОСТАВИТ ВАМ ДЕЙСТВИТЕЛЬНЫЙ СПРАВОЧНЫЙ НОМЕР ФАЙЛА, ВЫ ДОЛЖНЫ СВЯЗАТЬСЯ С АВИАКОМПАНИЕЙ И ПОЛУЧИТЬ ЭТОТ НОМЕР ПЕРЕД ТЕМ, КАК ВЫ ПРЕДСТАВИТЕ НАМ СВОЙ ОТЧЕТ. ФИРМА BLUE RIBBON BAGS НЕ ПОЛУЧАЕТ СПРАВОЧНЫЕ НОМЕРА ФАЙЛОВ ОТ АВИАКОМПАНИЙ. ПАССАЖИР НЕСЕТ ОТВЕТСТВЕННОСТЬ ЗА ПОЛУЧЕНИЕ ЭТОЙ ИНФОРМАЦИИ ОТ АВИАКОМПАНИИ ДО ПРЕДСТАВЛЕНИЯ В НАШУ ФИРМУ ОТЧЕТА О НЕПОЛУЧЕНИИ БАГАЖА.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;&lt;u&gt;В отношении ВСЕХ авиарейсов, прибывающих в аэропорты за пределами Соединенных Штатов&lt;/u&gt; В процессе подачи отчета о не полученном багаже(Mishandled Baggage Report) вы должны представить фирме Blue Ribbon Bags копию отчета, выданного вам авиакомпанией, когда вы предъявили ей требование о возвращении потерянного багажа, в течение 24 часов после приземления вашего самолета. Если вы не представите в течение 24 часов после приземления вашего самолета копию этого отчета, выданного вам авиакомпанией, когда вы предъявили ей требование о возвращении потерянного багажа, ваш отчет о не полученном багаже(Mishandled Baggage Report) будет отвергнут сразу по истечении 24-часового срока, и вы потеряете право на услуги по возвращению багажа или на получение нашей гарантированной страховой выплаты.Пожалуйста, пришлите копию выданного вам отчета по адресуMBR@BLUERIBBONBAGS.COM, указав в заголовке электронного почтового сообщения номер заключенного вами соглашения об обслуживании(Service Agreement). Отчеты авиакомпаний, представленные любым другим способом, не соответствующим этим инструкциям, не будут рассматриваться как действительные.&lt;/b&gt;&lt;br/&gt;&lt;b&gt;&lt;u&gt;В отношении авиарейсов, прибывающих в аэропорты, находящиеся в Соединенных Штатах&lt;/u&gt;.Если ваш багаж был потерян авиакомпанией, предоставившей вам отчет о нарушениях, связанных с имуществом(Property irregularity Report, PIR), (таково наименование отчета, который авиакомпания вам выдала после того, как вы предъявилией требование о возвращении багажа с указанием справочного номера вашего файла, через авиакомпанию или управление аэропорта), или отчет о нарушениях, связанных с багажом (BIR)через авиакомпанию (в отчетах BIR, как правило, не указывается десятизначный справочный номер файла), вы обязаны представить копию полученного вами отчета о нарушениях, связанных с имуществом(Property Irregularity Report) или отчета о нарушениях, связанных с багажом(Baggage Irregularity Report) в фирму Blue Ribbon Bags в течение 24 часов после приземления вашего самолета, чтобы завершить процесс подачи отчета о не полученном багаже(Mishandled Baggage Report). Если вы не представите копию этого отчета, выданного вам авиакомпанией, в течение 24 часов после приземления вашего самолета, ваш отчет о не полученном багаже (Mishandled Baggage Report) будет отвергнут сразу по истечении 24-часового срока, и вы потеряете право на услуги по возвращению багажа или на получение нашей гарантированной страховой выплаты.Пожалуйста, пришлите копию выданного вам отчета по адресу MBR@BLUERIBBONBAGS.COM, указав в заголовке электронного почтового сообщения номер заключенного вами соглашения об обслуживании (Service Agreement).Отчеты авиакомпаний, представленные любым другим способом, не соответствующим этим инструкциям, не будут рассматриваться как действительные.Любой багаж, относящийся к этой категории, будет считаться «возвращенным» в соответствии с условиями и сроками соглашения об обслуживании, заключенного с фирмой Blue Ribbon Bags, после того, как багаж прибудет в аэропорт, зарегистрированный в требовании о возвращении багажа, предъявленном вами авиакомпании.&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;В том случае, если доставленный багаж окажется не тем багажом, возвращения которого требует пассажир, в течение 12 часов после получения уведомления фирмы Blue Ribbon Bags о закрытии его дела и о возвращении его багажа пассажир может сообщить фирме Blue Ribbon Bags о допущенной ошибке по электронной почте, по адресу mbr@blueribbonbags.com, указав в заголовке сообщения фразу «Чужой багаж» («Not my bag») и свой номер MBR. В течение 72 часов (3 суток) после истечения первоначального срока, составлявшего 96 часов после прибытия пассажира в первоначальный пункт назначения, фирма Blue Ribbon Bags должна обнаружить местонахождение не доставленного багажа. Любой багаж, относящийся к этой категории, будет считаться «возвращенным» в соответствии с нашими условиями и сроками после его зарегистрированной доставки в аэропорт, указанный в предъявленном авиакомпании требовании о возвращении багажа. Если ошибочный багаж был уже доставлен, пассажир должен будет предоставить по электронной почте доказательство получения им квитанции о доставки от доставившей ошибочный багаж компании, а также предоставленную авиакомпанией документацию, недвусмысленно подтверждающую, что пассажиру был возвращен не тот багаж, возвращения которого он требовал. Для получения гарантированной страховой выплаты от фирмы Blue Ribbon Bags требуется предоставление обоих этих документов.&lt;/li&gt;
+                    &lt;li&gt;ПРЕДОСТАВЛЕНИЕ ОШИБОЧНОЙ ИНФОРМАЦИИ И ЗАПРОСЫ О ПРЕДОСТАВЛЕНИИ ИНФОРМАЦИИ. В том случае, если отчет о не доставленном багаже будет содержать ошибочную информацию, вы можете получить электронное сообщение, содержащее запрос об исправлении такой информации. В случае получения пассажиром такого электронного почтового сообщения пассажир может отправить ответное сообщение в течение 12 часов после получения такого запроса. Если пассажир не ответит на протяжении указанного срока, не укажет исправленную или запрашиваемую информацию или не предоставит какую-либо запрашиваемую подтверждающую документацию, такому пассажиру будет отказано в рассмотрении его отчета о неполучении багажа, и такой пассажир потеряет право на использование наших услуг по возвращению багажа и на получение гарантированной страховой выплаты.&lt;/li&gt;
+                    &lt;li&gt;Если адрес для доставки багажа НЕ БЫЛ предоставлен авиакомпании в процессе предъявления требования о возвращении багажа, фирма BRB закроет ваше дело после того, как багаж будет доставлен в указанный аэропорт, зарегистрированный авиакомпанией, и ваш багаж будет считаться возвращенным в соответствии с соглашением об обслуживании, заключенным с фирмой Blue Ribbon Bags.&lt;/li&gt;
+
+                    &lt;li&gt;К СВЕДЕНИЮ ПАССАЖИРОВ АВИАКОМПАНИЙ AIR CANADA И WESTJET PASSENGERS: фирма Blue Ribbon Bags не обслуживает доставку потерянного багажа пассажирам, представившим отчеты о неполучении багажа, связанные с требованиями, предъявленными какой-либо из этих двух авиакомпаний. Любой багаж, не доставленный авиакомпанией Air Canada или WestJet после предъявления этим авиакомпаниям требований о возвращении потерянного багажа, будет считаться «возвращенным» в соответствии с условиями и сроками, предусмотренными соглашением об обслуживании, заключенным с фирмой Blue Ribbon Bags, после прибытия такого багажа в аэропорт, зарегистрированный в требовании о возвращении потерянного багажа, предъявленном авиакомпании Air Canada или WestJet. После подтверждения доставки такого багажа на протяжении периода обслуживания в аэропорт, зарегистрированный в требовании о возвращении потерянного багажа, предъявленном авиакомпании Air Canada или WestJet, пассажир теряет право на обслуживание, относящееся к дальнейшей доставке этого багажа, а также право на получение гарантированной страховой выплаты от фирмы Blue Ribbon Bags.&lt;/li&gt;
+                    &lt;li&gt;ОШИБКИ. В том случае, если фирма Blue Ribbon Bags откажется рассматривать отчет пассажира о неполучении багажа или закроет его дело о неполучении багажа, и пассажир обнаружит, что была допущена та или иная ошибка, в течение 12 часов после получения электронного почтового сообщения о возникновении таких обстоятельств пассажир может представить в фирму Blue Ribbon Bags отчет об ошибке. Пожалуйста, сообщайте нам об ошибках по электронной почте, по адресу &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt;, указывая ваш номер MBR в заголовке сообщения. В своем электронном сообщении пассажир должен как можно подробнее пояснить, в чем, в точности, заключалась допущенная ошибка, и предоставить любую подтверждающую документацию. В том случае, если фирма Blue Ribbon Bags обнаружит, что такая ошибка действительно была допущена, фирма Blue Ribbon Bags должна будет найти потерянный багаж пассажира в течение 72 часов после того, как дело пассажира будет снова открыто. Если срок, составляющий 96 часов после первоначального прибытия пассажира в пункт назначения, истекает по прошествии 72 часов после того, как дело пассажира будет снова открыто, фирма Blue Ribbon Bags должна будет найти потерянный багаж пассажира до истечения первоначального 96-часового срока. В любом случае, после доставки багажа пассажира в аэропорт, указанный в зарегистрированном авиакомпанией требовании о возвращении багажа, багаж будет считаться возвращенным в соответствии с условиями и сроками фирмы Blue Ribbon Bags, и дело пассажира будет закрыто. Любые сообщения, полученные по истечении вышеупомянутого 12-часового срока, не рассматриваются, и по истечении этого срока пассажир теряет право на услуги по возвращению потерянного багажа и на получение гарантированной страховой выплаты, независимо от того, какую документацию представит такой пассажир.&lt;/li&gt;
+                    &lt;li&gt;СЛУЧАИ ХИЩЕНИЯ, ПРОПАЖИ СОДЕРЖИМОГО БАГАЖА ИЛИ ПОВРЕЖДЕНИЯ БАГАЖА НЕ ПРЕДУСМОТРЕНЫ УСЛОВИЯМИ НАШЕГО ОБСЛУЖИВАНИЯ. СТРАХОВАНИЮ ПОДЛЕЖАТ ТОЛЬКО СЛУЧАИ, В КОТОРЫХ БАГАЖ НЕ ДОСТАВЛЯЕТСЯ АВИАКОМПАНИЕЙ.&lt;/li&gt;
+</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>ВАЖНЫЕ СВЕДЕНИЯ ОБ ОТЧЕТАХ О НЕПОЛУЧЕНИИ БАГАЖА</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>Поиск вашего отчета о неполучении багажа</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) «Бронзовый» уровень обслуживания предусмотрен ТОЛЬКО в отношении полетов в пределах Индии. Любые маршруты, зарезервированные на «бронзовом» уровне обслуживания и включающие какие-либо международные полеты, в том числе полеты в Индию из другой страны или из Индии в другую страну, считаются не подлежащими обслуживанию.</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>Рекламный код</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>Предоставьте информацию о вашем полете</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>Наименование агентства</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>Карта агента</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>Этим документом в формате PDF вы можете пользоваться в качестве справочного материала во время переговоров с вашими клиентами для того, чтобы не забыть о каких-либо преимуществах обслуживания фирмой BRB!</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>Язык электронных сообщений для агента</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>Идентификационный № агента (EPR)</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>Информация об агенте</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Информация об агенте успешно сохранена!</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>Агент (вы)</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>PCC агента</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>Авиакомпания</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>Счет за эту покупку будет выставлен вам позже</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>Информация о выставлении счетов</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>После сохранения параметров все закладки заявки на обслуживание фирмой Blue Ribbon Bags будут инициализированы, в том числе закладка «Приобретение» (Purchase), в связи с чем для того, чтобы совершить очередную покупку, вы должны будете заново загрузить PNR. Желаете ли вы продолжить?</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>№ кредитной карты</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>Проверка PNR ...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>Город, штат</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>Выберите щелчком мыши эту ссылку, если &lt;b&gt;вы&lt;/b&gt; желаете получать автоматические электронные сообщения фирмы Blue Ribbon Bags, подтверждающие каждую вашу покупку.</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Выберите щелчком мыши эту ссылку, если вы желаете, чтобы &lt;b&gt;пассажир(ы)&lt;/b&gt; получал(и) автоматические электронные сообщения фирмы Blue Ribbon Bags, подтверждающие каждую покупку.</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>Карта клиента</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>Этот документ в формате PDF вы можете рассылать своим клиентам для того, чтобы рекламировать услуги без указания ваших комиссионных.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>№ подтверждения</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>Дата, время суток</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>Замечание, содержащее API, не может быть добавлено к PNR в системе Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>Замечание не может быть добавлено к PNR в системе Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>PNR не может быть закрыт, и замечание не может быть добавлено к PNR в системе Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>В процессе установления связи с системой Sabre возникла ошибка. Код ошибки: {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>В процессе установления связи с системой Sabre возникла ошибка.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>Параметры агента не могли быть загружены.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>ОШИБКА. PNR, который вы открыли в заявке ({0}) на обслуживание фирмой BRB, не соответствует отчету, активному в рабочем пространстве ({1}) системы Sabre.</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>При обработке вашего запроса возникла ошибка сервера.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>Отчет PNR в формате XML не поддается прочтению с целью удаления конфиденциальных данных, в связи с чем он был удален.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Считывание информации о PNR невозможно. Пожалуйста, убедитесь в том, что в системе Sabre открыт активный PNR.</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>Месяц истечения срока действия (две цифры)</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>Год истечения срока действия (две цифры)</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>Информация о рейсе</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>№ рейса</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>Получить информацию о PNR</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>Язык интерфейса</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>Недопустимый в системе Sabre запрос.</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>Последний рейс</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Вы еще не вошли в систему Sabre. Пожалуйста, зарегистрируйтесь и повторите попытку.</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>Считывается информация о PNR в системе Sabre. Пожалуйста, подождите...</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>не обязательно</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>Первоначальный рейс</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>Язык электронных сообщений для пассажира</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>Информация о пассажире</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>Пассажир(ы)</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>страхование единицы багажа</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>в расчете на пассажира</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>Личная информация</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>№ телефона</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>Пожалуйста, посылайте нам в любое время электронные сообщения по адресу agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR , содержащий информацию DUMMY, успешно загружен! Пожалуйста, заполните приведенную ниже форму.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>Информация о PNR успешно загружена! Пожалуйста, заполните приведенную ниже форму.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>Зарегистрировано несоответствие информации о PNR. Пожалуйста, перезагрузите данные о резервировании.</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>Загрузка PNR НЕ удалась. Пожалуйста, повторите попытку.</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>№ PNR</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>Рекламный код</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>Покупка</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>Оформляется заказ на покупку. Пожалуйста, подождите...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>Если у вас возникнут какие-либо дополнительные вопросы или замечания, пожалуйста, обращайтесь к нам по адресу agent@blueribbonbags.com.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>Мы вас регистрируем. Пожалуйста, подождите...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>Ваша регистрация успешно завершена!</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Ваша регистрация успешно завершена, вы можете начать продажу! Тем не менее, пожалуйста, уделите некоторое время просмотру полученной вами электронной почты, чтобы завершить процесс регистрации. Спасибо!</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>Сохраняется информация об агенте. Пожалуйста, подождите...</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>Ваши параметры сохраняются. Пожалуйста, подождите...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>Выбрать уровень страхования</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>Отправить подтверждающее электронное сообщение по адресу:</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Соглашение об обслуживании [{0}] было успешно приобретено.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Ваши параметры были успешно сохранены!</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>Штат</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>Если вы желаете включать обслуживание фирмой BRB в стоимость предлагаемых вами билетов, обратитесь к нам, чтобы узнать о возможных вариантах выставления счетов, позволяющих не указывать отдельно сборы за обслуживание фирмой BRB, взимаемые со счетов кредитных карт клиентов.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>Итоговая стоимость = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>Информация о туристическом агенте</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>Неожиданная ошибка.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Неожиданная ошибка. Загрузка PNR НЕ удалась.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>В процессе выполнения команды GetPNRInfo возникло непредусмотренное состояние.</value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>Информация о пользователе</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>С помощью приведенной ниже формы вы можете обновлять ваши личные данные, указанные в процессе вашей регистрации в качестве клиента фирмы Blue Ribbon Bags.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>Подтверждаются параметры агента ...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Добро пожаловать снова, {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Добро пожаловать! Зарегистрируйтесь!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>РЕГИСТРАЦИЯ ТУРИСТИЧЕСКОГО АГЕНТА</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>Ид. № агента или участника (бух. учет)</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>Информация о туристическом агентстве</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>№ агентства</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>Тип агентства</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>Я подтверждаю, что информация, предоставленная мной фирме Blue Ribbon Bags, LLC, достоверна и позволяет прослеживать любые покупки, совершенные от имени моего клиента. </value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>Коммерческое подразделение</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>Введите здесь сумму цифр, появившихся выше на изображении</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>Счет туристического агента успешно создан. Вы получите электронное сообщение, содержащее ссылку для активирования счета. </value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>Показать ид. № агентства</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>Моб. тел.</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Титул после фамилии</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Титул перед именем</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>РЕГИСТРАЦИЯ ТУРИСТИЧЕСКОГО АГЕНТА</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>Наименование тур. агентства</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>Вход пользователя в систему</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>Ваши данные</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* Обязательно заполняемое поле</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) Обязательно заполняемые поля</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>Код банка</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>Агент</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>Имя, фамилия агента</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>Введите электронный почтовый адрес</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>Список пассажиров</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>Подробности обслуживания</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>Приобретено при посредстве:</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>Предварительная рассылка электронной почты агенту</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>Предварительная рассылка электронной почты</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>Предварительная рассылка электронной почты пассажиру</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>Отправить электронное сообщение</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>Стоимость обслуживания:</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>Итоговая стоимость:</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>Итоговая сэкономленная сумма:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Код безопасности</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>Выберите число пассажиров</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>Преимущества обслуживания</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>Загрузить данные о карте агента</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>ПОИСК СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>Авиакомпания</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>№ подтверждения маршрута авиакомпанией</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>№ услуги BRB</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>РАСЧЕТ</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>Стоимость услуги:</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>сумма страхования в расчете на единицу багажа</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>Срок (даты)</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>Экспорт, в расчете на пассажира</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>Экспорт, в расчете на услугу</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>Страхование может быть приобретено одновременно в отношении нескольких полетов одного и того же пассажира посредством многократного ввода имени и фамилии этого пассажира в сочетании с различными номерами PNR или с различными номерами подтверждения рейсов авиакомпаниями.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>УРОВЕНЬ ОБСЛУЖИВАНИЯ:</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>Максимальная сумма страхования от потери:</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>Число пассажиров:</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>Первоначальная авиакомпания</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>Число пассажиров:</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ О ПАССАЖИРЕ</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>№ PNR</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>Рекламный код</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>ПРИОБРЕСТИ СОГЛАШЕНИЕ ОБ ОБСЛУЖИВАНИИ</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>Если не будет введен электронный почтовый адрес, пассажир не получит подтверждение по электронной почте.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>Уровень обслуживания:</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>Отправить файл в формате Excel, содержащий данные, необходимые для создания соответствующих услуг. Выберите щелчком мыши</value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value> эту </value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value>ссылку, чтобы загрузить шаблон.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>В отсутствие номера PNR, указанного при резервировании полета, введите номер подтверждения маршрута авиакомпанией.</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>Отправить файл, относящийся к покупке</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags будет прослеживать не полученный вами багаж и способствовать его скорейшему возвращению в течение 96 часов после вашего прибытия в пункт назначения.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>Вы будете получать автоматические электронные сообщения каждый раз, когда будет иметь место какое-либо изменение статуса не полученного вами багажа.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>Одно соглашение об обслуживании относится ко всему багажу, зарегистрированному в аэропорте, в том числе к багажу, зарегистрированному в последнюю минуту перед отлетом.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags обслуживает багаж пассажиров, совершающих любые рейсы любой авиакомпании, по всему миру.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>Каждая покупка услуг совершается в расчете на одного пассажира и на один номер подтверждения маршрута авиакомпанией, независимо от числа посадок и пересадок.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>Вы можете приобрести наши услуги в любое время вплоть до последнего момента перед отлетом.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>Наши услуги следует приобретать до отлета по маршруту «туда» или «обратно». Наши услуги нельзя приобрести в промежуточном пункте посадки или пересадки.</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>Перед тем, как сообщать нам о не доставленном багаже, вы должны предъявить вашей авиакомпании требование о возвращении багажа.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>Отчет о неполучении багажа должен быть получен нами в течение 24 часов после вашего прибытия в пункт назначения.</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>Для получения нашей гарантированной страховой выплаты не требуется представление доказательств, относящихся к содержимому багажа.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>Страховая выплата производится в том случае, если ваш багаж не будет найден в течение 96 часов (4 суток) после вашего прибытия в пункт назначения.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>Страховые выплаты гарантируются даже в том случае, если ваш багаж будет возвращен по истечении 96-часового срока обслуживания.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>Фирма BRB продает свои услуги в дополнение к любому приобретенному вами страхованию, а не взамен такого другого страхования.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>Услуги консьержа в кризисных ситуациях</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value>Мы рассылаем пассажирам электронные почтовые сообщения каждый раз, когда имеет место изменение статуса их потерянного багажа.</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>Никаких квитанций</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>Представление квитанций, относящихся к содержимому потерянного багажа, НЕ требуется для получения страховых выплат.</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>Одна покупка</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>Одна покупка страхует весь багаж, зарегистрированный в аэропорте</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>Наша гарантия</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>Фирма BRB гарантирует выплату 1000 долларов США в расчете на каждую единицу багажа, не полученного по прошествии 4 суток.</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>Глобальная сфера обслуживания</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>Фирма BRB предоставляет услуги в отношении любого рейса любой авиакомпании, по всему миру.</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>В последнюю минуту</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>Вы можете приобрести наши услуги по страхованию и поиску багажа в любое время вплоть до последнего момента перед отлетом.</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>Свяжитесь с нами:</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>На протяжении первых 96 часов фирма BRB будет непосредственно сотрудничать с авиакомпанией, прослеживая ваш не доставленный багаж и способствуя его скорейшему возвращению. Вам не придется затрачивать время во время путешествия на телефонные переговоры с авиакомпанией; фирма BRB будет автоматически отправлять вам электронное сообщение каждый раз, когда будет иметь место изменение статуса вашего багажа.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>Стоимость одной покупки составляет 5 долларов США в расчете на каждого пассажира и на каждый номер подтверждения маршрута авиакомпанией, в том числе в отношении билетов «туда и обратно», независимо от числа пересадок; страховая выплата составляет 1000 долларов США в расчете на каждую единицу потерянного багажа.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>Для получения страховой выплаты не требуется представление доказательств, относящихся к содержимому багажа.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>Страховая сумма выплачивается, если вы не получите свой багаж в течение 96 часов после прибытия в пункт назначения. Выплаты гарантируются даже в том случае, если потерянный багаж будет вам возвращен в любое время после истечения этого 96-часового срока.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>Фирма BRB продает свои услуги, и соглашение об обслуживании, заключенное с фирмой BRB, дополняет любое уже приобретенное вами страхование. Получив чек от фирмы BRB, вы все еще можете получать другие страховые выплаты.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>Требование о возвращении багажа должно быть предъявлено авиакомпании перед тем, как вы представите отчет о неполучении багажа в фирму Blue Ribbon Bags. Отчет о неполучении багажа должен быть представлен в фирму BRB в течение 24 часов после предъявления авиакомпании требования о возвращении потерянного багажа.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>Отчеты о неполучении багажа можно представлять круглосуточно, в любой день недели с помощью сайта &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt; или по телефону (888)-BAGGAGE</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>Одно соглашение об обслуживании (стоимостью 5 долларов США) относится ко всем единицам багажа, зарегистрированным в аэропорте, в том числе к багажу, зарегистрированному в последнюю минуту перед посадкой на самолет. Предлагается страхование в большем размере, стоимостью 7.50 и 10.00 долларов США, обеспечивающее выплату страховых сумм, составляющих, соответственно, 1500 и 2000 долларов США.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Фирма Blue Ribbon Bags страхует багаж пассажиров, совершающих любые рейсы, по всему миру</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>ВЫ МОЖЕТЕ ПРИОБРЕТАТЬ УСЛУГИ ФИРМЫ BLUE RIBBON BAGS В ЛЮБОЕ ВРЕМЯ ДО ОТБЫТИЯ ВАШЕГО РЕЙСА.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>Вы должны приобретать услуги фирмы Blue Ribbon Bags до вашего отлета из пункта отбытия «туда» или «обратно». Вы не можете приобретать наши услуги после начала вашего полета (например, в пунктах пересадки).</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>СТОИМОСТЬ УСЛУГ ФИРМЫ BLUE RIBBON НЕ ПОДЛЕЖИТ ВОЗВРАТУ, И ПРАВО НА ИСПОЛЬЗОВАНИЕ ЭТИХ УСЛУГ НЕ ПОДЛЕЖИТ ПЕРЕДАЧЕ ДРУГИМ СТОРОНАМ. НИКАКИЕ ВОЗВРАТЫ ИЛИ КРЕДИТЫ НЕ ПРЕДОСТАВЛЯЮТСЯ. ЕСЛИ ВАШ РЕЙС БУДЕТ ОТМЕНЕН, И ВМЕСТО НЕГО БУДЕТ ЗАРЕЗЕРВИРОВАН ДРУГОЙ РЕЙС, ВЫ ДОЛЖНЫ УВЕДОМИТЬ НАС О ТАКОМ ИЗМЕНЕНИИ ПЕРЕД ОТБЫТИЕМ ВАШЕГО НОВОГО РЕЙСА ИЛИ ПРИОБРЕСТИ НОВОЕ ОБСЛУЖИВАНИЕ В ОТНОШЕНИИ ВАШЕГО НОВОГО РЕЙСА. ОБО ВСЕХ ИЗМЕНЕНИЯХ СЛЕДУЕТ СООБЩАТЬ ФИРМЕ BLUE RIBBON BAGS ПО ЭЛЕКТРОННОЙ ПОЧТЕ, ПО АДРЕСУ &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt;, УКАЗЫВАЯ НОМЕР ВАШЕГО СОГЛАШЕНИЯ ОБ ОБСЛУЖИВАНИИ В ЗАГОЛОВКЕ СООБЩЕНИЯ. В ТЕКСТЕ ЭЛЕКТРОННОГО СООБЩЕНИЯ СЛЕДУЕТ УКАЗЫВАТЬ НАИМЕНОВАНИЕ ВАШЕЙ АВИАКОМПАНИИ И НОМЕР ПОДТВЕРЖДЕНИЯ МАРШРУТА АВИАКОМПАНИЕЙ, НОМЕР ВАШЕГО ПЕРВОНАЧАЛЬНОГО РЕЙСА И НОМЕР ЗАМЕНЯЮЩЕГО ЕГО НОВОГО РЕЙСА. ЕСЛИ ИЗМЕНИТСЯ ТАКЖЕ НАИМЕНОВАНИЕ АВИАКОМПАНИИ, ВЫ ДОЛЖНЫ СООБЩИТЬ НАМ НАИМЕНОВАНИЕ ДРУГОЙ АВИАКОМПАНИИ, СОВЕРШАЮЩЕЙ НОВЫЙ РЕЙС.</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>Любое приобретение услуг подлежит действию условий и сроков, предусмотренных соглашением об обслуживании, заключенным с фирмой Blue Ribbon Bags. Текст этого соглашения можно просмотреть &lt;a href=".{0}" target="_blank"&gt;здесь&lt;/a&gt;.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>Преимущества услуг фирмы Blue Ribbon Bags</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>Потерянным или не доставленным багажом считается зарегистрированный в аэропорте багаж, который, как показывает система прослеживания багажа авиакомпании, был доставлен в пункт, не являющийся пунктом назначения владельца багажа, или багаж, который, согласно сообщению авиакомпании, не был загружен на борт самолета, на котором вылетел владелец багажа.</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>Каждая покупка услуг совершается в расчете на одного пассажира и на один номер подтверждения маршрута авиакомпанией. В случае приобретения билета «туда и обратно», независимо от числа посадок или пересадок, если пассажиру присвоен один номер подтверждения маршрута авиакомпанией, обслуживание и страхование багажа такого пассажира обеспечивается одной покупкой услуг. Если ваши полеты «туда» и «обратно» были зарезервированы с присвоением им различных номеров подтверждения маршрутов авиакомпанией или авиакомпаниями, в отношении каждого маршрута необходимо приобретать различные соглашения об обслуживании.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>Нет! Фирма Blue Ribbon Bags страхует багаж пассажиров, совершающих любые рейсы, по всему миру. Нет никаких ограничений, связанных с пунктами отбытия или назначения.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>Какой багаж считается потерянным или не доставленным?</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>Относится ли обслуживание к полетам «туда и обратно»?</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>Для того, чтобы вы могли приобрести наши услуги, должен ли ваш полет начинаться или заканчиваться на территории Соединенных Штатов?</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>Часто возникающие вопросы</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>в расчете на единицу багажа</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>Введите информацию о пассажире</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>Просмотреть текст соглашения</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>Выберите щелчком мыши эту ссылку, чтобы просмотреть текст соглашения об обслуживании фирмой Blue Ribbon Bags</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>Выберите уровень обслуживания</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>Этап</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>Всего лишь за 5 долларов США в расчете на каждого пассажира, фирма BRB найдет и возвратит весь не полученный вами багаж. Если авиакомпания не доставит вам ваш багаж в течение 96 часов после его потери, фирма BRB гарантирует выплату вам 1000 долларов США в расчете на каждую единицу не доставленного багажа; &lt;u&gt;для получения страховых выплат не требуется представление каких-либо доказательств, относящихся к содержимому багажа&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>Приобрести обслуживание багажа</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>Пассажир</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>Предоставьте информацию о вашем полете</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Штат</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>Часовой пояс</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>Итоговая стоимость:</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>Итоговая стоимость (в расчете на пассажира):</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>Завершите свою регистрацию</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>Пароль должен содержать от 8 до 16 символов, в том числе как минимум один буквенный символ, одну цифру и один специальный символ, причем как минимум один из буквенных символов должен быть заглавным</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>Повторить ввод пароля</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>Регистрация пользователя</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>Пожалуйста, введите свой пароль</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>Пожалуйста, введите «Адрес».</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>Поле «Адрес» должно содержать как минимум 2 символа.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>Параметры агента, введенные в процессе входа в систему, не существуют.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>Поле [№ агентства] не может быть пустым.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>Поле [Тип агентства] не может быть пустым.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>Для того, чтобы завершить регистрацию, пожалуйста, просмотрите и подтвердите условия и сроки.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>Поле [Коммерческое подразделение] не может быть пустым.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>Пожалуйста, введите «Город».</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>Поле «Город» должно содержать как минимум 2 символа.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>Поле [Адрес эл. почты] не может быть пустым.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>Поле [Адрес эл. почты] должно быть заполнено в допустимом формате электронного почтового адреса.</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>Поле [Факс] должно быть заполнено в допустимом формате.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>Поле [Имя] не может быть пустым.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>Поле [Имя] должно содержать как минимум 2 символа.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>Параметры агента, введенные в процессе входа в систему, соответствуют пользователю, не имеющему активный статус в системе фирмы BRB.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>Поле [Фамилия] не может быть пустым.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>Поле [Фамилия] должно содержать как минимум 2 символа.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>Поле [Вход пользователя в систему] должно содержать от 6 до 40 символов и не может содержать никаких специальных символов, кроме следующих: _ . - @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>Текст в поле [Вход в систему] не может заканчиваться символом «@».</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>Поле [Моб. тел.] должно быть заполнено в допустимом формате.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>Поле [Тел.] должно быть заполнено в допустимом формате.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>Введенный код продукции не существует.</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>Параметры агента, введенные в процессе входа в систему, не соответствуют рекламному коду этого агента.</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>Введенный рекламный код не существует.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>Пожалуйста, выберите «Страну».</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>Пожалуйста, выберите «Штат».</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>Пожалуйста, введите наименование штата.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>Поле [Код туристического агентства] не может быть пустым.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>Поле [Наименование туристического агентства] не может быть пустым.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>Параметры агента, введенные в процессе входа в систему, не соответствуют какому-либо туристическому агенту.</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>Поле [Вход пользователя в систему] не может быть пустым.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>Имя пользователя, выбранное при входе в систему, недоступно. Пожалуйста, выберите другое имя пользователя.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>Пожалуйста, введите «Почтовый индекс».</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>Почтовый индекс введен в недопустимом формате.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>Электронный почтовый адрес агента</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>УРОВЕНЬ ОБСЛУЖИВАНИЯ:</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>сумма страхования в расчете на единицу багажа</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ О ПАССАЖИРЕ</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>Пожалуйста, приведите ниже информацию о кредитной карте, чтобы завершить процесс оплаты соглашения об обслуживании.</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>Телеграфный перевод</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>Наименование агентства</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>Карта агента</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>Этим документом в формате PDF вы можете пользоваться в качестве справочного материала во время переговоров с вашими клиентами для того, чтобы не забыть о каких-либо преимуществах обслуживания фирмой BRB!</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>Идентификационный № агента</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>Информация об агенте</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Информация об агенте успешно сохранена!</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>Агент (вы)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>PCC агента</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>Пожалуйста, не забудьте заполнить все разделы этой формы в первый раз, когда вы будете пользоваться программой Worldspan App фирмы Blue Ribbon Bags, для того, чтобы получить надлежащий кредит за проданные вами соглашения об обслуживании.&lt;br&gt;&lt;br&gt;Закончив заполнение формы, пожалуйста, выберите щелчком мыши экранную кнопку «Сохранить» (Save) в нижней части экрана, чтобы перейти к приобретению страхования фирмы Blue Ribbon Bags от имени ваших клиентов.&lt;br&gt;&lt;br&gt;Для того, чтобы получить доступ к программе Worldspan App фирмы BRB, вам не потребуется создание пароля или ввод ваших регистрационных данных. Регистрационные данные и пароли используются только в процессе доступа к системе фирмы BRB в режиме сетевой связи.&lt;br&gt;&lt;br&gt;Для того, чтобы изменить какие-либо регистрационные данные или обратиться к нам с какими-либо вопросами или замечаниями, пожалуйста, отправьте нам электронное почтовое сообщение по адресу agent@blueribbonbags.com</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>Авиакомпания</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>Счет за эту покупку будет выставлен вам позже</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>Информация о выставлении счетов</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>После сохранения параметров все закладки заявки на обслуживание фирмой Blue Ribbon Bags будут инициализированы, в том числе закладка «Приобретение» (Purchase), в связи с чем для того, чтобы совершить очередную покупку, вы должны будете заново загрузить PNR. Желаете ли вы продолжить?</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>№ кредитной карты</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>Проверка PNR ...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>Город, штат</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>Выберите щелчком мыши эту ссылку, если &lt;b&gt;вы&lt;/b&gt; желаете получать автоматические электронные сообщения фирмы Blue Ribbon Bags, подтверждающие каждую вашу покупку.</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Выберите щелчком мыши эту ссылку, если вы желаете, чтобы &lt;b&gt;пассажир(ы)&lt;/b&gt; получал(и) автоматические электронные сообщения фирмы Blue Ribbon Bags, подтверждающие каждую покупку.</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>Карта клиента</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>Этот документ в формате PDF вы можете рассылать своим клиентам для того, чтобы рекламировать услуги без указания ваших комиссионных.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>№ подтверждения</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>Формат даты:</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>Дата, время суток</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>Электронный почтовый адрес</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>Замечание, содержащее API, не может быть добавлено к PNR в системе Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>Замечание не может быть добавлено к PNR в системе Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>PNR не может быть закрыт, и замечание не может быть добавлено к PNR в системе Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>В процессе установления связи с системой Sabre возникла ошибка. Код ошибки: {0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>В процессе установления связи с системой Sabre возникла ошибка.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>Параметры агента не могли быть загружены.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>ОШИБКА. PNR, который вы открыли в заявке ({0}) на обслуживание фирмой BRB, н соответствует отчету, активному в рабочем пространстве ({1}) системы Sabre.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>При обработке вашего запроса возникла ошибка сервера.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>Отчет PNR в формате XML не поддается прочтению с целью удаления конфиденциальных данных, в связи с чем он был удален.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>Считывание информации о PNR невозможно. Пожалуйста, убедитесь в том, что в системе Sabre открыт активный PNR.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>Месяц истечения срока действия (две цифры)</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>Год истечения срока действия (две цифры)</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>Информация о рейсе</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>№ рейса</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>Получить информацию о PNR</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>Недопустимый в системе Sabre запрос.</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>Последний рейс</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Вы еще не вошли в систему Sabre. Пожалуйста, зарегистрируйтесь и повторите попытку.</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>Считывается информация о PNR в системе Sabre. Пожалуйста, подождите...</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>не обязательно</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>Первоначальный рейс</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>Информация о пассажире</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>Пассажир(ы)</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>сумма страхования в расчете на единицу багажа</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>в расчете на пассажира</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>Личная информация</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>№ телефона</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>Пожалуйста, посылайте нам в любое время электронные сообщения по адресу agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR , содержащий информацию DUMMY, успешно загружен! Пожалуйста, заполните приведенную ниже форму.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>Информация о PNR успешно загружена! Пожалуйста, заполните приведенную ниже форму.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>Зарегистрировано несоответствие информации о PNR. Пожалуйста, перезагрузите данные о резервировании.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>Загрузка PNR НЕ удалась. Пожалуйста, повторите попытку.</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>№ PNR</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>Рекламный код</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>Покупка</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>Оформляется заказ на покупку. Пожалуйста, подождите...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>Если у вас возникнут какие-либо дополнительные вопросы или замечания, пожалуйста, обращайтесь к нам по адресу agent@blueribbonbags.com.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>Мы вас регистрируем. Пожалуйста, подождите...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>Ваша регистрация успешно завершена!</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Ваша регистрация успешно завершена, вы можете начать продажу! Тем не менее, пожалуйста, уделите некоторое время просмотру полученной вами электронной почты, чтобы завершить процесс регистрации. Спасибо!</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>Сохраняется информация об агенте. Пожалуйста, подождите...</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>Ваши параметры сохраняются. Пожалуйста, подождите...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>Выбрать уровень страхования</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>Отправить подтверждающее электронное сообщение по адресу:</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Соглашение об обслуживании [{0}] было успешно приобретено.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Ваши параметры успешно сохранены!</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>Штат</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>Если вы желаете включать обслуживание фирмой BRB в стоимость предлагаемых вами билетов, обратитесь к нам, чтобы узнать о возможных вариантах выставления счетов, позволяющих не указывать отдельно сборы за обслуживание фирмой BRB, взимаемые со счетов кредитных карт клиентов.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>Итоговая стоимость = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>Информация о туристическом агенте</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>Неожиданная ошибка.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Неожиданная ошибка. Загрузка PNR НЕ удалась.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>В процессе выполнения команды GetPNRInfo возникло непредусмотренное состояние.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>Информация о пользователе</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>С помощью приведенной ниже формы вы можете обновлять ваши личные данные, указанные в процессе вашей регистрации в качестве клиента фирмы Blue Ribbon Bags.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>Подтверждаются параметры агента ...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Добро пожаловать снова, {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;Добро пожаловать! Зарегистрируйтесь!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>Preparing service(s) checkout...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>Processing {0} service...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>Processing {0} service checkout...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Processing {0} service finished.</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>Processing {0} service promo code(s)...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>Validating {0} service...</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>Creating service(s) to purchase...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>Processing {0} service finished.</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>Processing {0} service passengers...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>Processing {0} service purchase...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>Validating {0} service...</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>Загрузите файл покупки нескольких агентов</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>Службы, импортированные из файла:</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>Этот язык будет использоваться для служб, не имеющих языковых настроек в загруженном файле</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>{0} Столбец отсутствует в загруженном файле. Загрузите обновленный шаблон.</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>Сумма гарантированного страхования указывается в расчете на единицу багажа:</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>Cогласен</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; ASK CALLER: Did your flight arrive within the United States or outside of the United States?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; AGENT: please read one of the two of the following paragraphs listed below based on the callers answer:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>Заплатить сейчас</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>Настройка параметров подтверждения электронной почты</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>Ежедневно</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>в день</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>в год </value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>Ежегодно</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>кредитная карта</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Код бронирования</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>гарантированной страховой выплаты за чемодан:</value>
+  </data>
+  <data name="MyAccount_SendConsolidatedPurchaseSummary" xml:space="preserve">
+    <value>Отправить сводную сводку закупок</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="ColumnDataHasMoreThan" xml:space="preserve">
+    <value>Row {0}: {1} column data has more than the {2} characters allowed for it</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Отправить SMS-оповещения</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>Были найдены дублированные записи</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>Пожалуйста, просмотрите и выберите файл, а затем нажмите «Загрузить файл»:</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>Предварительные покупки были найдены</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>В следующих записях есть предварительные покупки, хотите ли вы продолжить обработку остальных записей?</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>Следующие записи дублируются, хотите ли вы продолжить обработку остальных записей?</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>Нажмите здесь, чтобы скачать шаблон:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Загрузка. Пожалуйста, подождите...</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>Разрешить веб-сайту иметь такой же язык, как выбранный «Язык по умолчанию» выше.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>Это покрывает ваш полет (ы) под номером подтверждения &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>Выберите количество контактных лиц</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>Укажите контактную информацию</value>
+  </data>
+  <data name="MBR_Step_6_Sub_Heading" xml:space="preserve">
+    <value>Добавьте контактных лиц в свой отчет</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>ЕСЛИ ВЫ ХОТЕЛИ ПРЕДОСТАВИТЬ ЛЮБУЮ ИНФОРМАЦИЮ, ОТНОСЯЩУЮСЯ К ВАШЕЙ МЕШОКЕ ИЛИ ИНФОРМАЦИИ ПО ДОСТАВКЕ, ПОЖАЛУЙСТА, ЗАРЕГИСТРИРУЙТЕ ЗДЕСЬ:</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>Адрес электронной почты</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>телефоны</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>Число пассажиров</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>Уровень обслуживания</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>За последние 0 часов ничего не изменилось со статусом вашего мешка. Вот последнее обновление, которое мы предоставили.
+Вам будет сообщено, произойдет ли что-то новое, как только у нас появится какая-либо информация.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>Нажмите здесь, если вы хотите получить почту для MBR вашего пассажира</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>Ссылочный номер клиента</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>ДЛЯ ЗАПОЛНЕНИЯ ВАШЕГО ОТЧЕТА ОБ ОШИБОЧНО ОТПРАВЛЕННОМ БАГАЖЕ ВЫ ДОЛЖНЫ:</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>Сумма страхования единицы багажа:</value>
+  </data>
+</root>

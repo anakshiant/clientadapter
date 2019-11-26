@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace BRBMicroSites.Auth
+namespace BRBMicroSites.Services.Auth
 {
     public static class AuthExtension
     {

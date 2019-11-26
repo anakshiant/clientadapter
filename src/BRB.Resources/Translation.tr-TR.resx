@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Number" xml:space="preserve">
+    <value>Hesap Numarası</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="AgentLoginImpersonation" xml:space="preserve">
+    <value>Temsilci acente:</value>
+  </data>
+  <data name="Approved_24" xml:space="preserve">
+    <value>Haftanın 7 günü 24 saat.</value>
+  </data>
+  <data name="Approved_ConfirmationMail" xml:space="preserve">
+    <value>Birkaç dakika içinde Blue Ribbon Bags tarafından gönderilmiş bir onay e-postası alacaksınız. Şayet bu onay e-postasını almazsanız, lütfen bizimle iletişime geçin ve Paypal işlem onayınızı elinizin altında bulundurun.</value>
+  </data>
+  <data name="Approved_Congratulations" xml:space="preserve">
+    <value>Tebrikler!</value>
+  </data>
+  <data name="Approved_IfYourBag" xml:space="preserve">
+    <value>Çantanız uçuşunuzun son varış noktasına kadar sizinle beraber gelmezse, bunu, Blue Ribbon Bags’e bildirmeden önce havayolu şirketine bildirmelisiniz. Teslim edilmeyen çantalar, uçağınızın inişinden itibaren 24 saat içinde Blue Ribbon Bags’e bildirilmelidir. Yanlış yönlendirilmiş çantayı numarasından telefonla</value>
+  </data>
+  <data name="Approved_ImDone" xml:space="preserve">
+    <value>Tamam, şimdilik işlemlerim bitti!</value>
+  </data>
+  <data name="Approved_LevelOfService" xml:space="preserve">
+    <value>Hizmet Seviyesi:</value>
+  </data>
+  <data name="Approved_NonRefundable" xml:space="preserve">
+    <value>BLUE RIBBON BAGS HİZMETİ İADE EDİLEMEZ VEYA DEVREDİLEMEZ. GERİ ÖDEME VEYA KREDİ VERİLMEYECEKTİR. ŞAYET UÇUŞUNUZ İPTAL EDİLİRSE VE YERİNE YENİ BİR UÇUŞ REZERVASYONU YAPILIRSA, YENİ UÇUŞUNUZUN KALKIŞINDAN ÖNCE BU DEĞİŞİKLİĞİ BİZE BİLDİRMENİZ YA DA YENİ UÇUŞUNUZ İÇİN YENİ BİR HİZMET SATIN ALMANIZ GEREKMEKTEDİR.  TÜM DEĞİŞİKLİKLER, &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNDEN BİZE E-POSTA GÖNDERİLEREK VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZ YAZILARAK BİLDİRİLMELİDİR.  E-POSTA İÇERİĞİNDE, HAVAYOLU ŞİRKETİNİZİ VE HAVAYOLU ONAY NUMARANIZI, İLK UÇUŞ NUMARANIZI VE İLK UÇUŞUNUZUN DEĞİŞTİRİLEN YENİ UÇUŞ NUMARANIZI BELİRTMELİSİNİZ.  ŞAYET HAVAYOLU ŞİRKETİ DE DEĞİŞİYORSA, BİZE, YENİ UÇUŞUNUZUN OLDUĞU YENİ HAVAYOLU ŞİRKETİNİ DE BİLDİRMELİSİNİZ.</value>
+  </data>
+  <data name="Approved_OrOnline" xml:space="preserve">
+    <value>ya da (address here) adresinden çevrimiçi olarak bize bildirebilirsiniz</value>
+  </data>
+  <data name="Approved_Payment" xml:space="preserve">
+    <value>ÖDEMENİZ BAŞARIYLA GERÇEKLEŞTİ</value>
+  </data>
+  <data name="Approved_PaymentConfirmation" xml:space="preserve">
+    <value>Ödeme Onayı:</value>
+  </data>
+  <data name="Approved_PaymentInformation" xml:space="preserve">
+    <value>Ödeme Bilgileri</value>
+  </data>
+  <data name="Approved_PleaseBeSure" xml:space="preserve">
+    <value>Blue Ribbon Bags bu bilgileri yanlış yönlendirilmiş bagaj raporunuzu işleme almak amacıyla sizden isteyeceği için, havayolu şirketine kayıp bagaj talebini yaptığınızda size verilen bagaj takip bilgilerini (dosya referansı/konum belirleyici numara) mutlaka saklayınız. Teslim edilmeyen çantalar, uçağınızın inişinden itibaren 24 saat içinde Blue Ribbon Bags’e bildirilmelidir.</value>
+  </data>
+  <data name="Approved_PleaseKeep" xml:space="preserve">
+    <value>Bagajınızın teslim edilmemesi durumunda, yanlış yönlendirilmiş çantanızı bize bildirmeniz gerekeceğinden, lütfen kayıtlarınız için bu hizmet sözleşmesi numarasını saklayınız.</value>
+  </data>
+  <data name="Approved_Thank" xml:space="preserve">
+    <value>Bagajlarınız için Blue Ribbon Bags hizmetini seçtiğinizden dolayı çok teşekkür ederiz. İçiniz rahat olsun; bunu sizin için mümkün olduğunca basit bir hale getireceğiz.</value>
+  </data>
+  <data name="Approved_ThankYou" xml:space="preserve">
+    <value>Bizimle çalıştığınız için çok teşekkür eder ve güvenli yolculuklar dileriz.</value>
+  </data>
+  <data name="Approved_TotalCharge" xml:space="preserve">
+    <value>Toplam Ücret:</value>
+  </data>
+  <data name="Approved_WeAreHere" xml:space="preserve">
+    <value>Size yardımcı olmak için haftanın 7 günü 24 saat hizmetinizdeyiz. Güvenli ve içiniz rahat yolculuklar dileriz!</value>
+  </data>
+  <data name="Approved_WhatToDo" xml:space="preserve">
+    <value>Çantanız gelmezse yapılacaklar:</value>
+  </data>
+  <data name="Approved_YourBRB" xml:space="preserve">
+    <value>Blue Ribbon Bags Hizmet Sözleşmesi numaranız:</value>
+  </data>
+  <data name="Approved_YourBRB_Multiple" xml:space="preserve">
+    <value>Blue Ribbon Bags Hizmet Sözleşmesi numaralarınız:</value>
+  </data>
+  <data name="Approved_YourPayment" xml:space="preserve">
+    <value>Ödeme bilgileriniz aşağıda gösterilmektedir. Herhangi bir sorunuz varsa, lütfen şu adresten bir e-posta göndererek Blue Ribbon Bags ile iletişime geçmekten çekinmeyin:</value>
+  </data>
+  <data name="Approved_YourService" xml:space="preserve">
+    <value>Hizmet Sözleşmenize çevrimiçi olarak şu adresten ulaşabilirsiniz:</value>
+  </data>
+  <data name="AskAboutBillMeLater" xml:space="preserve">
+    <value>Faturayı Daha Sonra Kes (Bill Me Later) hakkında bize sorun.  Bu sayede, ödemeleri her işlem için yapmanız gerekmez ve her ayın sonunda net komisyonlarınıza yönelik tek bir fatura alabilirsiniz!  Sadece &lt;a href="mailto:agent@blueribbonbags.com"&gt;agent@blueribbonbags.com&lt;/a&gt; adresine e-posta gönderin ve e-posta konu başlığına “Bill Me Later (Faturayı Daha Sonra Kes)” yazın.</value>
+  </data>
+  <data name="B2B" xml:space="preserve">
+    <value>B2B</value>
+  </data>
+  <data name="B2C" xml:space="preserve">
+    <value>B2C</value>
+  </data>
+  <data name="Baggage_Delivery_Information" xml:space="preserve">
+    <value>Bagaj teslimat bilgileri</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>Banka Adı</value>
+  </data>
+  <data name="BatchEmailLanguageNote" xml:space="preserve">
+    <value>Bu dil, yüklenen dosyada dil ayarı olmayan hizmetler için kullanılacaktır</value>
+  </data>
+  <data name="BatchPurchasePromoCodeValidationError" xml:space="preserve">
+    <value>Tüm {0} hizmet yolcuları aynı Promosyon Kodunu kullanmalıdır</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Fatura Adresi</value>
+  </data>
+  <data name="BookingReferenceCode" xml:space="preserve">
+    <value>Rezervasyon Referans Kodu</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>Tüm alanları temizle</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="BtnSendRegistration" xml:space="preserve">
+    <value>Kaydı Gönder</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal Et</value>
+  </data>
+  <data name="CaptchaValidation" xml:space="preserve">
+    <value>Girilen doğrulama tutarı yanlıştır. Lütfen doğrulama tutarını yeniden girin.</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Kontrol edin</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>ÖDEME YAPIN</value>
+  </data>
+  <data name="Checkout2" xml:space="preserve">
+    <value>ÖDEME YAPIN</value>
+  </data>
+  <data name="CheckoutProgress_PreparingServiceCheckout" xml:space="preserve">
+    <value>Hizmet(ler) ödemesi hazırlanıyor...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingService" xml:space="preserve">
+    <value>{0} hizmet işlemi gerçekleştiriliyor...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceCheckout" xml:space="preserve">
+    <value>{0} hizmet ödemesi işlemi gerçekleştiriliyor...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>{0} hizmet işlemi tamamlandı...</value>
+  </data>
+  <data name="CheckoutProgress_ProcessingServicePromoCodes" xml:space="preserve">
+    <value>{0} hizmet promosyonu kodu/kodları işlemi gerçekleştiriliyor...</value>
+  </data>
+  <data name="CheckoutProgress_ValidatingService" xml:space="preserve">
+    <value>{0} hizmeti doğrulanıyor...</value>
+  </data>
+  <data name="Checkout_AccountBilledFor" xml:space="preserve">
+    <value>Acente hesabınız şu işlem için faturalandırılacaktır:</value>
+  </data>
+  <data name="Checkout_Approved" xml:space="preserve">
+    <value>Onaylandı</value>
+  </data>
+  <data name="Checkout_ChooseAWay" xml:space="preserve">
+    <value>Bir ödeme yöntemi seçin</value>
+  </data>
+  <data name="Checkout_Complete" xml:space="preserve">
+    <value>Tamamla</value>
+  </data>
+  <data name="Checkout_ConfirmPayment" xml:space="preserve">
+    <value>Ödemeyi Onaylayın</value>
+  </data>
+  <data name="Checkout_ConfirmPayment2" xml:space="preserve">
+    <value>Ödemeyi Onaylayın</value>
+  </data>
+  <data name="Checkout_ConfirmPurchase" xml:space="preserve">
+    <value>Satın almayı onaylamak istiyor musunuz?</value>
+  </data>
+  <data name="Checkout_ConfirmTransaction" xml:space="preserve">
+    <value>İşlemi onaylamak istiyor musunuz?</value>
+  </data>
+  <data name="Checkout_CreditCard" xml:space="preserve">
+    <value>Kredi Kartı Numarası</value>
+  </data>
+  <data name="Checkout_CreditCardCharged" xml:space="preserve">
+    <value>Kredi Kartınızdan şu işlem için tahsilat yapılacaktır:</value>
+  </data>
+  <data name="Checkout_EnterCard" xml:space="preserve">
+    <value>Kredi kartı bilgilerinizi girin</value>
+  </data>
+  <data name="Checkout_Failed" xml:space="preserve">
+    <value>Bazı hizmet(ler) ödemesi doğru bir şekilde gerçekleşmedi; satın alma işlemi tamamlanamadı.</value>
+  </data>
+  <data name="Checkout_Failed2" xml:space="preserve">
+    <value>Başarısız</value>
+  </data>
+  <data name="Checkout_GoBackEdit" xml:space="preserve">
+    <value>Geri Dön</value>
+  </data>
+  <data name="Checkout_InvalidOperation" xml:space="preserve">
+    <value>GEÇERSİZ İŞLEM.</value>
+  </data>
+  <data name="Checkout_Max_Loss_Coverage" xml:space="preserve">
+    <value>Maksimum Kayıp Teminatı:</value>
+  </data>
+  <data name="Checkout_NoCancel" xml:space="preserve">
+    <value>Hayır, İptal Et</value>
+  </data>
+  <data name="Checkout_Passenger_Count" xml:space="preserve">
+    <value>Yolcu Sayısı:</value>
+  </data>
+  <data name="Checkout_PayNow" xml:space="preserve">
+    <value>Şimdi Öde</value>
+  </data>
+  <data name="Checkout_Pending" xml:space="preserve">
+    <value>Beklemede</value>
+  </data>
+  <data name="Checkout_ProvideCreditCard" xml:space="preserve">
+    <value>Ya da Hizmet Sözleşmesi ödeme işlemini tamamlamak için lütfen aşağıda Kredi Kartı bilgilerini girin.</value>
+  </data>
+  <data name="Checkout_ReviewInformation" xml:space="preserve">
+    <value>Bilgileri gözden geçir</value>
+  </data>
+  <data name="Checkout_Savings" xml:space="preserve">
+    <value>Kazancınız:</value>
+  </data>
+  <data name="Checkout_ServiceLevel" xml:space="preserve">
+    <value>Hizmet Seviyesi:</value>
+  </data>
+  <data name="Checkout_ServiceNumber" xml:space="preserve">
+    <value>Hizmet Numarası:</value>
+  </data>
+  <data name="Checkout_Service_Cost" xml:space="preserve">
+    <value>Hizmet Bedeli:</value>
+  </data>
+  <data name="Checkout_Summary" xml:space="preserve">
+    <value>Hizmetlerin Özeti</value>
+  </data>
+  <data name="Checkout_Title" xml:space="preserve">
+    <value>Gecikmiş bagaj hizmetini satın almasını onaylayın – ÖDEME YAP</value>
+  </data>
+  <data name="Checkout_Verify" xml:space="preserve">
+    <value>Lütfen aşağıdaki bilgileri doğrulayın ve doğru ise Ödeme Onayla düğmesine basın.</value>
+  </data>
+  <data name="Checkout_ZipCode" xml:space="preserve">
+    <value>Posta Kodu</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Şehir</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ColumnCanNotBeEmpty" xml:space="preserve">
+    <value>Row {0}: {1} sütunu boş olamaz</value>
+  </data>
+  <data name="ColumnNotPresent" xml:space="preserve">
+    <value>Yüklenen dosyada {0} sütunu bulunmuyor. Lütfen güncellenmiş bir şablon indirin.</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Şifreyi Onaylayın</value>
+  </data>
+  <data name="Confirm_Email" xml:space="preserve">
+    <value>E-postayı Onaylayın</value>
+  </data>
+  <data name="ContactUs_BRBTeam" xml:space="preserve">
+    <value>Blue Ribbon Bags Müşteri Hizmeti Ekibi</value>
+  </data>
+  <data name="ContactUs_Include" xml:space="preserve">
+    <value>Tüm sorular en kısa zamanda e-posta ile yanıtlanacaktır. Gerekirse doğrudan sizinle telefonla iletişime geçebilmemiz için, lütfen telefon numaralarınız dâhil tüm iletişim bilgilerinizi belirttiğinizden emin olun.</value>
+  </data>
+  <data name="ContactUs_Send" xml:space="preserve">
+    <value>Bize Bir İleti Gönderin</value>
+  </data>
+  <data name="ContactUs_SendMessage" xml:space="preserve">
+    <value>İleti Gönderin</value>
+  </data>
+  <data name="ContactUs_Text1" xml:space="preserve">
+    <value>Tüm sorular en kısa zamanda e-posta ile yanıtlanacaktır. Gerekirse doğrudan sizinle telefonla iletişime geçebilmemiz için, lütfen telefon numaralarınız dahil tüm iletişim bilgilerinizi belirttiğinizden emin olun.</value>
+  </data>
+  <data name="ContactUs_Text2" xml:space="preserve">
+    <value>Müşteriler veya genel sorular için lütfen bize şu numaradan ulaşın:</value>
+  </data>
+  <data name="ContactUs_Text3" xml:space="preserve">
+    <value>Seyahat acenteleri için lütfen bize şu numaradan ulaşın:</value>
+  </data>
+  <data name="ContactUs_TextFileMBR" xml:space="preserve">
+    <value>Yeni bir Yanlış Yönlendirilmiş Bagaj Bildirimi yapmak için, numarasını +1 (888) BAGGAGE  (+1 (888) 224-4243) arayın ya da &lt;br/&gt; &lt;a target="_blank" href="https://www.blueribbonbags.com/MbrFilingPassenger"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MbrFilingPassenger&lt;/strong&gt;&lt;/a&gt; adresini ziyaret edin. Not: Bu telefon numarasından mevcut yanlış yönlendirilmiş bagaj bildirimleriyle ilgili herhangi bir bilgi sağlanmaz.</value>
+  </data>
+  <data name="ContactUs_TextForDetails" xml:space="preserve">
+    <value>Mevcut Yanlış Yönlendirilmiş Bagaj Bildirimleri hakkında bilgi için, lütfen href="https://www.blueribbonbags.com/MishandledBaggageReports"&gt;&lt;strong&gt;https://www.blueribbonbags.com/MishandledBaggageReports&lt;/strong&gt;&lt;/a&gt; adresini ziyaret edin ya da e-posta konu başlığında MBR numaranızı belirterek, &lt;a href="mailto:mbr@blueribbonbags.com"&gt;&lt;strong&gt;mbr@blueribbonbags.com&lt;/strong&gt;&lt;/a&gt; adresine e-posta gönderin.</value>
+  </data>
+  <data name="ContactUs_ThankYou" xml:space="preserve">
+    <value>Teşekkür ederiz!</value>
+  </data>
+  <data name="ContactUs_Title" xml:space="preserve">
+    <value>Bizimle İletişime Geçin</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Ülke</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>Kredi Kartı</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="DBS_Title" xml:space="preserve">
+    <value>Gecikmiş Bagaj Hizmeti</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>Varsayılan E-posta Dili</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Dolar" xml:space="preserve">
+    <value>ABD Doları</value>
+  </data>
+  <data name="Dropdown_All" xml:space="preserve">
+    <value>TÜMÜ</value>
+  </data>
+  <data name="Dropdown_None" xml:space="preserve">
+    <value>-- YOK --</value>
+  </data>
+  <data name="Dropdown_Other" xml:space="preserve">
+    <value>DİĞER</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>-- Lütfen Seçiniz --</value>
+  </data>
+  <data name="Dropdown_Unnasigned" xml:space="preserve">
+    <value>ATANMAMIŞ</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="EmailLanguage" xml:space="preserve">
+    <value>Yolcu için E-posta Dilini Seçin</value>
+  </data>
+  <data name="EMAILTEMPLATE_DateRangeCoverage" xml:space="preserve">
+    <value>Bu, &lt;b&gt;{0}&lt;/b&gt;-&lt;b&gt;{1}&lt;/b&gt; havayolundan alınan tüm uçuşlarınızı kapsamaktadır.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage" xml:space="preserve">
+    <value>Bu, &lt;b&gt;{0}&lt;/b&gt; havayolu şirketiyle &lt;b&gt;{1}&lt;/b&gt; onay numarası kapsamındaki uçuşunuzu/uçuşlarınızı kapsamaktadır.</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable" xml:space="preserve">
+    <value>BLUE RIBBON BAGS HİZMETİ İADE EDİLEMEZ VEYA DEVREDİLEMEZ. GERİ ÖDEME VEYA KREDİ VERİLMEYECEKTİR. ŞAYET UÇUŞUNUZ İPTAL EDİLİRSE VE YERİNE YENİ BİR UÇUŞ REZERVASYONU YAPILIRSA, YENİ UÇUŞUNUZUN KALKIŞINDAN ÖNCE BU DEĞİŞİKLİĞİ BİZE BİLDİRMENİZ YA DA YENİ UÇUŞUNUZ İÇİN YENİ BİR HİZMET SATIN ALMANIZ GEREKMEKTEDİR.  TÜM DEĞİŞİKLİKLER, &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNDEN BİZE E-POSTA GÖNDERİLEREK VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZ YAZILARAK BİLDİRİLMELİDİR.  E-POSTA İÇERİĞİNDE, HAVAYOLU ŞİRKETİNİZİ VE HAVAYOLU ONAY NUMARANIZI, İLK UÇUŞ NUMARANIZI VE İLK UÇUŞUNUZUN DEĞİŞTİRİLEN YENİ UÇUŞ NUMARANIZI BELİRTMELİSİNİZ.  ŞAYET HAVAYOLU ŞİRKETİ DE DEĞİŞİYORSA, BİZE, YENİ UÇUŞUNUZUN OLDUĞU YENİ HAVAYOLU ŞİRKETİNİ DE BİLDİRMELİSİNİZ.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="EMAILTEMPLATE_NonRefundable_Falabella" xml:space="preserve">
+    <value>BLUE RIBBON BAGS HİZMETİ DEVREDİLEMEZ. GERİ ÖDEME VEYA KREDİ VERİLMEYECEKTİR. ŞAYET UÇUŞUNUZ İPTAL EDİLİRSE VE YERİNE YENİ BİR UÇUŞ REZERVASYONU YAPILIRSA, YENİ UÇUŞUNUZUN KALKIŞINDAN ÖNCE BU DEĞİŞİKLİĞİ BİZE BİLDİRMENİZ YA DA YENİ UÇUŞUNUZ İÇİN YENİ BİR HİZMET SATIN ALMANIZ GEREKMEKTEDİR.  TÜM DEĞİŞİKLİKLER, &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNDEN BİZE E-POSTA GÖNDERİLEREK VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZ YAZILARAK BİLDİRİLMELİDİR.  E-POSTA İÇERİĞİNDE, HAVAYOLU ŞİRKETİNİZİ VE HAVAYOLU ONAY NUMARANIZI, İLK UÇUŞ NUMARANIZI VE İLK UÇUŞUNUZUN DEĞİŞTİRİLEN YENİ UÇUŞ NUMARANIZI BELİRTMELİSİNİZ.  ŞAYET HAVAYOLU ŞİRKETİ DE DEĞİŞİYORSA, BİZE, YENİ UÇUŞUNUZUN OLDUĞU YENİ HAVAYOLU ŞİRKETİNİ DE BİLDİRMELİSİNİZ.&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>E-posta Adresi</value>
+  </data>
+  <data name="Enviar_Registro" xml:space="preserve">
+    <value>Yeniden Gönder</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Son Kullanma Tarihi</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Flight_Arrival_Information" xml:space="preserve">
+    <value>Uçuş varış bilgileri</value>
+  </data>
+  <data name="Footer_BRBServiceAgreement" xml:space="preserve">
+    <value>şart ve koşullarına tabidir</value>
+  </data>
+  <data name="Footer_BSF" xml:space="preserve">
+    <value>Bagaj Hizmeti Özellikleri</value>
+  </data>
+  <data name="Footer_Contact" xml:space="preserve">
+    <value>Bizimle İletişime Geçin</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Telif Hakkı 2019 Blue Ribbon Bags, LLC. ABD ve Uluslararası Patent Beklemede.</value>
+  </data>
+  <data name="Footer_EachPurchase" xml:space="preserve">
+    <value>Her satın alma, Blue Ribbon Bags Hizmet Sözleşmesinin</value>
+  </data>
+  <data name="Footer_FileMBR" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş Bagaj Bildirimi Yapın</value>
+  </data>
+  <data name="Footer_Home" xml:space="preserve">
+    <value>ana sayfa</value>
+  </data>
+  <data name="Footer_Obligations" xml:space="preserve">
+    <value>Blue Ribbon Bags yükümlülükleri, A.M. Best Company tarafından A- (Mükemmel) olarak derecelendirilen bir sigorta şirketi tarafından desteklenmektedir.</value>
+  </data>
+  <data name="Footer_PBS" xml:space="preserve">
+    <value>Bagaj Hizmeti Satın Alın</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Gönderen</value>
+  </data>
+  <data name="GoBack_Description" xml:space="preserve">
+    <value>* Bilgilerinizi, önceki bilgileri tekrar girmenize gerek olmadan “Geri Dön” düğmesine tıklayarak düzenleyebilirsiniz</value>
+  </data>
+  <data name="Grid_AgentSeller" xml:space="preserve">
+    <value>Acente/Satıcı</value>
+  </data>
+  <data name="Grid_AirlineConfirmationNumber" xml:space="preserve">
+    <value>Havayolu Onay No:</value>
+  </data>
+  <data name="Grid_AirlineName" xml:space="preserve">
+    <value>Havayolu Şirketi Adı</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Grid_FirstName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Grid_LastName" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="Grid_PaxNumber" xml:space="preserve">
+    <value>Yolcu sayısı:</value>
+  </data>
+  <data name="Grid_ProductCode" xml:space="preserve">
+    <value>Ürün</value>
+  </data>
+  <data name="Grid_PurchaseDate" xml:space="preserve">
+    <value>Satın Alma Tarihi</value>
+  </data>
+  <data name="Grid_ServiceCost" xml:space="preserve">
+    <value>Hizmet Bedeli</value>
+  </data>
+  <data name="Grid_ServiceNumber" xml:space="preserve">
+    <value>BRB Hizmet No</value>
+  </data>
+  <data name="HM_IX_Sentence_01" xml:space="preserve">
+    <value>SADECE 5.00 ABD DOLARI KARŞILIĞINDA &lt;/br&gt;BRB, HAVAYOLU ŞİRKETİ TARAFINDAN TESLİM EDİLMEYEN BAGAJINIZIN İADESİNİ TAKİP EDECEK VE HIZLANDIRACAKTIR&lt;/br&gt;. </value>
+  </data>
+  <data name="HM_IX_Sentence_02" xml:space="preserve">
+    <value>Güvenli ve İçiniz Rahat Yolculuklar Dileriz</value>
+  </data>
+  <data name="HM_IX_Sentence_03" xml:space="preserve">
+    <value>EĞER BAGAJINIZ &lt;br /&gt;96 SAAT SONRA &lt;br /&gt;BULUNMAZSA, BRB SİZE ÇANTA BAŞINA MEMNUNİYET GARANTİSİ OLARAK 1000 ABD DOLARI GÖNDERECEKTİR.</value>
+  </data>
+  <data name="HM_IX_Sentence_04" xml:space="preserve">
+    <value>Gerçek İç Rahatlığı &lt;br /&gt;Bizimle olan İç Rahatlığıdır </value>
+  </data>
+  <data name="HM_IX_Sentence_05" xml:space="preserve">
+    <value>Kayıp Bagaj Bildirin</value>
+  </data>
+  <data name="HM_IX_Sentence_06" xml:space="preserve">
+    <value>Bagajınızın uçuşunuzun son varış noktasına ulaşmadığını ilk önce havayolu şirketine bilgilendirmeyi unutmayın. 
+ Havayolu şirketi, Blue Ribbon Bags’e bir bildirim yapmak için gerekli takip bilgilerini sağlayacaktır. 
+ Tüm kayıp bagajlar, yolcunun uçağının inişinden itibaren 24 saat içinde Blue Ribbon Bags’e bildirilmelidir.</value>
+  </data>
+  <data name="HM_IX_Sentence_07" xml:space="preserve">
+    <value>Bildirim Yapın</value>
+  </data>
+  <data name="HM_IX_Sentence_08" xml:space="preserve">
+    <value>Ayrıca Kayıp Bagajınızı 888-BAGGAGE (888-224-4243) numaralı telefondan da haftanın 7 günü 24 saat Bildirebilirsiniz.</value>
+  </data>
+  <data name="HM_IX_Sentence_09" xml:space="preserve">
+    <value>Ortaklarımız</value>
+  </data>
+  <data name="HM_IX_Sentence_10" xml:space="preserve">
+    <value>Erişimimiz</value>
+  </data>
+  <data name="HM_IX_Sentence_11" xml:space="preserve">
+    <value>Her Yıl</value>
+  </data>
+  <data name="HM_IX_Sentence_12" xml:space="preserve">
+    <value>21 Milyon Yanlış Yönlendirilmiş Bagaj</value>
+  </data>
+  <data name="HM_IX_Sentence_13" xml:space="preserve">
+    <value>Havayolu Şirketlerinin Kapsadığı</value>
+  </data>
+  <data name="HM_IX_Sentence_14" xml:space="preserve">
+    <value>Global Günlük Uçuşlar</value>
+  </data>
+  <data name="HM_IX_Sentence_15" xml:space="preserve">
+    <value>Haberlerde</value>
+  </data>
+  <data name="HM_IX_Sentence_16" xml:space="preserve">
+    <value>Diğerleri Neler Söylüyor</value>
+  </data>
+  <data name="HM_IX_Testimonial_00" xml:space="preserve">
+    <value>Daha Fazlasını Oku</value>
+  </data>
+  <data name="HM_IX_Testimonial_01" xml:space="preserve">
+    <value>Müşteri hizmetleri çok iyi ve Blue Ribbon Bags tarafından sağlanan bu bagaj koruma hizmeti harika...</value>
+  </data>
+  <data name="HM_IX_Testimonial_02" xml:space="preserve">
+    <value>Kayıp bagaj endişeniz varsa, artık bunun için bir uygulama var... Blue Ribbon Bags şimdi...</value>
+  </data>
+  <data name="HM_IX_Testimonial_03" xml:space="preserve">
+    <value>Ayrıca halihazırda bu, kayıp bagaj için kendi türünde tek teminat...</value>
+  </data>
+  <data name="HM_IX_Testimonial_04" xml:space="preserve">
+    <value>Bir havayolu şirketinde bagajını kaybeden herkes bunun nasıl bir kabus olduğunu bilir… ama Blue Ribbon Bags...</value>
+  </data>
+  <data name="HM_PS_Purchase_01" xml:space="preserve">
+    <value>Bagaj Hizmeti Satın Alın</value>
+  </data>
+  <data name="Home_ClickLogin" xml:space="preserve">
+    <value>Müşterileriniz için Blue Ribbon Bags teminatı satın almak için &lt;b&gt;GİRİŞ&lt;/b&gt; üzerine tıklayın.</value>
+  </data>
+  <data name="Home_ClickRegister" xml:space="preserve">
+    <value>Müşterilerinize Blue Ribbon Bags teminatı satabilmek amacıyla acentenizi kaydetmek için &lt;b&gt;KAYIT OL&lt;/b&gt; üzerine tıklayın.</value>
+  </data>
+  <data name="Home_Condition1" xml:space="preserve">
+    <value>* Hizmet Sözleşmesi Ücreti kişi başınadır. Memnuniyet Garantisi Ödemesi çanta başınadır.</value>
+  </data>
+  <data name="Home_Condition2" xml:space="preserve">
+    <value>* Ödemeler, kişi başına 2 teslim edilmeyen çanta ile sınırlıdır.</value>
+  </data>
+  <data name="Home_File" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş Bagaj Bildirimi Yapın</value>
+  </data>
+  <data name="Home_ForOnly" xml:space="preserve">
+    <value>SADECE 5 ABD DOLARI KARŞILIĞINDA BRB, HAVAYOLU ŞİRKETİ TARAFINDAN TESLİM EDİLMEYEN BAGAJINIZIN İADESİNİ TAKİP EDECEK VE HIZLANDIRACAKTIR.</value>
+  </data>
+  <data name="Home_More" xml:space="preserve">
+    <value>Daha fazla bilgiye mi gerek duyuyorsunuz? Her zaman e-posta ile iletişime geçebilirsiniz:</value>
+  </data>
+  <data name="Home_NoReceipts" xml:space="preserve">
+    <value>Ödemeyi almak için bagaj içeriği makbuzları gerekmez.</value>
+  </data>
+  <data name="Home_Offers" xml:space="preserve">
+    <value>Blue Ribbon Bags, üç seviyeli bagaj hizmeti memnuniyet garantisi sunmaktadır:</value>
+  </data>
+  <data name="Home_Pays" xml:space="preserve">
+    <value>BRB, 4 günlük kayıptan sonra teslim edilmeyen her çanta için memnuniyet garantisi olarak 1000 ABD Doları öder.</value>
+  </data>
+  <data name="Home_Purchase" xml:space="preserve">
+    <value>Satın Alın</value>
+  </data>
+  <data name="Home_SAF" xml:space="preserve">
+    <value>HİZMET SÖZLEŞMESİ ÜCRETİ</value>
+  </data>
+  <data name="Home_Satisfaction" xml:space="preserve">
+    <value>MEMNUNİYET GARANTİSİ ÖDEMESİ</value>
+  </data>
+  <data name="Home_TA" xml:space="preserve">
+    <value>Seyahat Acenteleri</value>
+  </data>
+  <data name="Home_Undelivered" xml:space="preserve">
+    <value>Teslim edilmeyen bagajınız mı var? Şurada bildirin:</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>Kabul ediyorum</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Pasif</value>
+  </data>
+  <data name="InvalidXSLXFileUploaded" xml:space="preserve">
+    <value>Geçerli bir XSLX dosyası yüklenmelidir.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="Layout_Logout" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="Layout_Welcome" xml:space="preserve">
+    <value>Hoş Geldiniz  </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>GİRİŞ</value>
+  </data>
+  <data name="Login_Login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="Login_NewPassword" xml:space="preserve">
+    <value>Yeni bir şifreye gerek duyuyorum</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Login_Remember" xml:space="preserve">
+    <value>Giriş bilgilerimi hatırla</value>
+  </data>
+  <data name="Login_ToBRB" xml:space="preserve">
+    <value>Blue Ribbon Bags hesabınıza giriş yapın</value>
+  </data>
+  <data name="Login_Validation" xml:space="preserve">
+    <value>Kullanıcı Adı ve/veya Şifre tanınmıyor. Şifre BÜYÜK harf duyarlıdır. Lütfen Caps Lock ayarının etkin olmadığından emin olun. Lütfen Kullanıcı Adınızı ve Şifrenizi yeniden girin ya da şifrenizin sıfırlanması için yöneticinizle irtibata geçin.</value>
+  </data>
+  <data name="Lost_Baggage_Information" xml:space="preserve">
+    <value>Kayıp Bagaj Bilgileri</value>
+  </data>
+  <data name="LPP_Eligible_Item1" xml:space="preserve">
+    <value>Kontrol edilen bagajınız varış yerinize ulaşmaz.</value>
+  </data>
+  <data name="LPP_Eligible_Item2" xml:space="preserve">
+    <value>Bagajınızın uçağıyla gelmesi gereken havayolu şirketine bir kayıp bagaj talebinde bulunursunuz ve bu havayolu şirketi tarafından size bir dosya referans numarası veya dosya konum belirleyici numarası verilir.</value>
+  </data>
+  <data name="LPP_Eligible_Item3" xml:space="preserve">
+    <value>Blue Ribbon Bags’e uçuşunuzun varışından itibaren 24 saat içinde bir yanlış yönlendirilmiş çanta bildirimi yaparsınız.</value>
+  </data>
+  <data name="LPP_Eligible_Item4" xml:space="preserve">
+    <value>Havayolu şirketi tarafından belgelendirildiği şekilde, bagajınız uçuşunuzun varışından itibaren dört (4) gün içinde size teslim edilmez.</value>
+  </data>
+  <data name="LPP_Feat_Item1" xml:space="preserve">
+    <value>BİR SATIN ALMA (5 ABD DOLARI), UÇUŞUNUZDAN ÖNCE SON DAKİKADA KAPIDA KABUL EDİLEN BAGAJ DÂHİL, HAVAALANINDA KABUL EDİLEN TÜM BAGAJLARI KAPSAR.</value>
+  </data>
+  <data name="LPP_Feat_Item10" xml:space="preserve">
+    <value>&lt;b&gt;ÇANTALARININ DURUMUNDA HER DEĞİŞİKLİK OLDUĞUNDA YOLCUYA OTOMATİK E-POSTA BİLDİRİMLERİ GÖNDERİLECEKTİR. YOLCULARIN, BAGAJLARININ DURUMUNU ÖĞRENMEK İÇİN HAVAYOLU ŞİRKETİ İLE İLETİŞİM KURMASINA GEREK YOKTUR.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item11" xml:space="preserve">
+    <value>ÖDEME İÇİN BAGAJ İÇERİĞİNİN DEĞERİNİ GÖSTEREN KANIT (MAKBUZLAR) GEREKLİ &lt;b&gt;DEĞİLDİR&lt;/b&gt;.</value>
+  </data>
+  <data name="LPP_Feat_Item12" xml:space="preserve">
+    <value>ÖDEMELER, KİŞİ BAŞINA 2 TESLİM EDİLMEYEN ÇANTA İLE SINIRLIDIR.</value>
+  </data>
+  <data name="LPP_Feat_Item13" xml:space="preserve">
+    <value>ÇANTALARINIZ 96 SAATLİK SÜRENİN BİTİMİNDEN SONRA HERHANGİ BİR NOKTADA BULUNSA BİLE ÖDEMELER GARANTİ EDİLİR.</value>
+  </data>
+  <data name="LPP_Feat_Item14" xml:space="preserve">
+    <value>HIRSIZLIK, EKSİK İÇERİK VEYA HASARLI BAGAJLAR BU HİZMETE DÂHİL DEĞİLDİR. TEMİNAT SADECE HAVAYOLU ŞİRKETİ TARAFINDAN YANLIŞ YÖNLENDİRİLMİŞ BAGAJ İÇİN GEÇERLİDİR. &lt;b&gt;TESLİM EDİLMEYEN ÇANTALAR, UÇUŞ VARIŞINDAN İTİBAREN 24 SAAT İÇİNDE BİLDİRİLMELİDİR.&lt;/b&gt;</value>
+  </data>
+  <data name="LPP_Feat_Item15" xml:space="preserve">
+    <value>BRB BİR HİZMET SATMAKTADIR. BİR BRB HİZMET SÖZLEŞMENİZİN OLMASI, SAHİP OLABİLECEĞİNİZ HERHANGİ BİR SİGORTANIN YERİNE GEÇMEZ, AKSİNE İLAVE BİR TEMİNATTIR. BRB ÖDEMENİZİ ALDIKTAN SONRA BİLE SİGORTA ÖDEMELERİNİZİ HALA ALABİLİRSİNİZ.</value>
+  </data>
+  <data name="LPP_Feat_Item16" xml:space="preserve">
+    <value>BLUE RIBBON BAGS HİZMETİ İADE EDİLEMEZ VEYA DEVREDİLEMEZ. GERİ ÖDEME VEYA KREDİ VERİLMEYECEKTİR. ŞAYET UÇUŞUNUZ İPTAL EDİLİRSE VE YERİNE YENİ BİR UÇUŞ REZERVASYONU YAPILIRSA, YENİ UÇUŞUNUZUN KALKIŞINDAN ÖNCE BU DEĞİŞİKLİĞİ BİZE BİLDİRMENİZ YA DA YENİ UÇUŞUNUZ İÇİN YENİ BİR HİZMET SATIN ALMANIZ GEREKMEKTEDİR.  TÜM DEĞİŞİKLİKLER, &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNDEN BİZE E-POSTA GÖNDERİLEREK VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZ YAZILARAK BİLDİRİLMELİDİR.  E-POSTA İÇERİĞİNDE, HAVAYOLU ŞİRKETİNİZİ VE HAVAYOLU ONAY NUMARANIZI, İLK UÇUŞ NUMARANIZI VE İLK UÇUŞUNUZUN DEĞİŞTİRİLEN YENİ UÇUŞ NUMARANIZI BELİRTMELİSİNİZ.  ŞAYET HAVAYOLU ŞİRKETİ DE DEĞİŞİYORSA, BİZE, YENİ UÇUŞUNUZUN OLDUĞU YENİ HAVAYOLU ŞİRKETİNİ DE BİLDİRMELİSİNİZ.</value>
+  </data>
+  <data name="LPP_Feat_Item2" xml:space="preserve">
+    <value>BLUE RİBBON BAGS HİZMETİNİ, UÇAĞINIZIN KALKIŞ SAATİNDEN ÖNCEKİ SON DAKİKAYA KADAR SATIN ALABİLİRSİNİZ.</value>
+  </data>
+  <data name="LPP_Feat_Item3" xml:space="preserve">
+    <value>HER SATIN ALMA (5 ABD DOLARI), İLGİLİ HAVAYOLU ONAY NUMARASIYLA İLİŞKİLİ TRANSİT VEYA BAĞLANTILI UÇUŞ SAYISINA BAKILMAKSIZIN, HER BİR HAVAYOLU ONAY NUMARASI İÇİN KİŞİ BAŞINADIR. BİR TEK HAVAYOLU ONAY NUMARASINA SAHİP GİDİŞ-DÖNÜŞ BİLETLERİ, BİR TEK SATIN ALMA İLE TEMİNAT ALTINDADIR.</value>
+  </data>
+  <data name="LPP_Feat_Item4" xml:space="preserve">
+    <value>ŞAYET BİRDEN ÇOK UÇUŞ REZERVASYONU AYRI AYRI YAPILDIYSA VE BUNLAR FARKLI HAVAYOLU ONAY NUMARALARINA SAHİPSE, HER BİR UÇUŞ İÇİN AYRI HİZMET SÖZLEŞMESİ SATIN ALINMASI GEREKECEKTİR.</value>
+  </data>
+  <data name="LPP_Feat_Item5" xml:space="preserve">
+    <value>&lt;u&gt;SADECE ACENTELER&lt;/u&gt;: BİR TEK SATIN ALMA (5 ABD DOLARI), TRANSİT VEYA BAĞLANTILI UÇUŞ SAYISINA BAKILMAKSIZIN, KİŞİ YANİ PNR BAŞINADIR.</value>
+  </data>
+  <data name="LPP_Feat_Item51" xml:space="preserve">
+    <value>ÇEVRİMİÇİ BİLETLEME WEB SİTELERİ ÜZERİNDEN YAPILAN SATIN ALMALAR İÇİN: HER SATIN ALMA, SATIN ALINDIĞI SIRADA WEB SİTESİ TARAFINDAN VERİLEN ONAY NUMARASI ALTINDA LİSTELENECEK OLAN ÇEVRİMİÇİ WEB SİTESİ ÜZERİNDEN REZERVASYONU YAPILAN SEYAHAT PROGRAMI BAŞINADIR.  WEB REZERVASYONU HARİCİNDE SEYAHAT PROGRAMINDA YAPILACAK HERHANGİ BİR DEĞİŞİKLİK, REZERVASYONU YAPILAN YENİ UÇUŞLAR İÇİN AYRI BİR HİZMET SATIN ALINMASINI GEREKTİRECEKTİR.  SEYAHAT PROGRAMINDAKİ DEĞİŞİKLİK, İLK SEYAHAT PROGRAMININ YAPILDIĞI WEB SİTESİ ÜZERİNDEN YAPILIRSA VE SEYAHAT PROGRAMI KAPSAMINDAKİ HERHANGİ BİR UÇUŞ DEĞİŞTİRİLDİKTEN SONRA, YOLCUNUN İLK SEYAHAT PROGRAMI İÇİN VERİLEN ONAY NUMARASI DEĞİŞMEZSE, YOLCUNUN AYRI BİR HİZMET REZERVASYONU YAPMASINA GEREK KALMAYACAKTIR VE İLK HİZMET YETERLİ OLACAKTIR.</value>
+  </data>
+  <data name="LPP_Feat_Item6" xml:space="preserve">
+    <value>BRB, UÇUŞUNUZUN KALKIŞ YERİNE BAKILMAKSIZIN, DÜNYANIN HER YERİNDEKİ HER HAVAYOLU ŞİRKETİNDEKİ HER UÇUŞU KAPSAR.</value>
+  </data>
+  <data name="LPP_Feat_Item7" xml:space="preserve">
+    <value>YANLIŞ YÖNLENDİRİLMİŞ ÇANTANIZI BLUE RIBBON BAGS’E BİLDİRMEDEN ÖNCE, HAVAYOLU ŞİRKETİNE BİR TALEP YAPILMALIDIR.</value>
+  </data>
+  <data name="LPP_Feat_Item8" xml:space="preserve">
+    <value>YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİ, ÇEVRİMİÇİ OLARAK &lt;a href="{0}" target="_blank"&gt;BURADAN&lt;/a&gt; VEYA TELEFONLA (888) BAGGAGE (+1 888-224-4243) NUMARASINDAN HAFTANIN 7 GÜNÜ 24 SAAT YAPILABİLİR.</value>
+  </data>
+  <data name="LPP_Feat_Item9" xml:space="preserve">
+    <value>TESLİM EDİLMEYEN ÇANTALAR, UÇUŞ VARIŞINDAN İTİBAREN 24 SAAT İÇİNDE BİLDİRİLMELİDİR.  24 SAATLİK BİLDİRİM SÜRESİNİN BİTİMİNDEN SONRA BİLDİRİLEN ÇANTALAR İÇİN BLUE RIBBON BAGS HİZMETİ ÖDEMESİ YAPILMAYACAKTIR.</value>
+  </data>
+  <data name="LPP_Missing_Item1" xml:space="preserve">
+    <value>Blue Ribbon Bags ile irtibata geçmeden önce havayolu şirketinize talepte bulunun.</value>
+  </data>
+  <data name="LPP_Missing_Item2" xml:space="preserve">
+    <value>Uçuşunuzun varışından itibaren 24 saat içinde Blue Ribbon Bags’e bir Yanlış Yönlendirilmiş Bagaj Bildirimi yapın. Yanlış Yönlendirilmiş Bagajlar haftanın 7 günü 24 saat aşağıdaki yollarla bildirilebilir:</value>
+  </data>
+  <data name="LPP_Missing_Item2_1" xml:space="preserve">
+    <value>Çevrimiçi olarak &lt;a href="{0}" target="_blank"&gt;BURADAN&lt;/a&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item2_2" xml:space="preserve">
+    <value>Telefon ile şu numaradan: (888) BAGGAGE (+1 888-224-4243)</value>
+  </data>
+  <data name="LPP_Missing_Item3" xml:space="preserve">
+    <value>Blue Ribbon Bags, çantanızın teslim edilmesini takip etme ve hızlandırma hizmetine başlayacaktır. Yolcu, çantasının durumunda her değişiklik olduğunda otomatik e-posta bildirimi alacaktır.&lt;br /&gt;&lt;strong&gt;Yolcuların, çantalarının durumunu öğrenmek için havayolu şirketi ile iletişim kurmasına gerek yoktur.&lt;/strong&gt;</value>
+  </data>
+  <data name="LPP_Missing_Item4" xml:space="preserve">
+    <value>Blue Ribbon Bags, çantanızı uçuşunuzun inişinden itibaren 96 saatlik süre içinde bulacaktır ya da 96 saatlik sürenin sona ermesinden bir dakika sonra size garanti edilen miktarı gönderecektir.</value>
+  </data>
+  <data name="LPP_Subtitle1" xml:space="preserve">
+    <value>Bilmem gereken başka bir şey var mı?</value>
+  </data>
+  <data name="LPP_Subtitle2" xml:space="preserve">
+    <value>Çantam kaybolursa ne yaparım?</value>
+  </data>
+  <data name="LPP_Subtitle3" xml:space="preserve">
+    <value>Ödeme için uygun olup olmadığımı nasıl bilirim?</value>
+  </data>
+  <data name="LPP_Text1" xml:space="preserve">
+    <value>Blue Ribbon Bags (BRB), yanlış yönlendirilmiş yolcu bagajının geri alınmasını, bagajın teslim edilmemesinden itibaren ilk 96 saat süresi boyunca izleyen ve hızlandıran benzersiz bir hizmet sunar. Şayet Blue Ribbon Bags, bu süre içinde yolcu bagajının teslim edilmesini sağlayamazsa, BRB, Memnuniyet Garantili Ödemeyi yolcuya gönderecektir. Çanta 96 saatlik süre geçtikten sonra müşteriye HERHANGİ BİR NOKTADA teslim edilse bile ödeme garanti edilir.</value>
+  </data>
+  <data name="LPP_Title" xml:space="preserve">
+    <value>Bagaj Hizmeti Özellikleri</value>
+  </data>
+  <data name="MBRCallCenter_Step5" xml:space="preserve">
+    <value>Yolcu Daimi Ev Adresi</value>
+  </data>
+  <data name="MBR_ABA" xml:space="preserve">
+    <value>ABA yönlendirme numarası</value>
+  </data>
+  <data name="MBR_AccountNumber" xml:space="preserve">
+    <value>Hesap Numarası:</value>
+  </data>
+  <data name="MBR_AgreementNumber" xml:space="preserve">
+    <value>Hizmet Sözleşmesi Numarası:</value>
+  </data>
+  <data name="MBR_AirlineConf" xml:space="preserve">
+    <value>Havayolu Onay Numarası:</value>
+  </data>
+  <data name="MBR_ArrivalDate" xml:space="preserve">
+    <value>Uçuş Varış Tarihi</value>
+  </data>
+  <data name="MBR_ArrivalFlight" xml:space="preserve">
+    <value>Varan Uçuş Numarası:</value>
+  </data>
+  <data name="MBR_ArrivalTime" xml:space="preserve">
+    <value>Uçuş Varış Saati</value>
+  </data>
+  <data name="MBR_AskCaller" xml:space="preserve">
+    <value>&lt;b&gt; ARAYANA ŞUNU SORUN: Uçağınız Amerika Birleşik Devletleri sınırları içinden mi yoksa Amerika Birleşik Devletleri dışından mı geldi?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt; ACENTE: lütfen arayanın vereceği yanıta göre aşağıdaki iki paragraftan birini okuyun:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MBR_AttachBIR" xml:space="preserve">
+    <value>BIR/PIR Ekle</value>
+  </data>
+  <data name="MBR_BaggageTag" xml:space="preserve">
+    <value>Bagaj Etiket Numarası:</value>
+  </data>
+  <data name="MBR_Before" xml:space="preserve">
+    <value>Blue Ribbon Bags’e yanlış yönlendirilmiş bagaj bildirimi yapmadan önce,
+					ilk olarak havayolu şirketini bagajın uçuşunuzun son noktasına varmadığını bildirmelisiniz. Havayolu şirketi, aşağıda yanlış yönlendirilmiş bagaj bildirimi yapmak için gerek duyacağınız takip bilgilerini size sağlamış olacaktır.</value>
+  </data>
+  <data name="MBR_BeneficiaryAddress" xml:space="preserve">
+    <value>Hak Sahibi Adresi</value>
+  </data>
+  <data name="MBR_BeneficiaryCity" xml:space="preserve">
+    <value>Hak Sahibi Şehri</value>
+  </data>
+  <data name="MBR_BeneficiaryCountry" xml:space="preserve">
+    <value>Hak Sahibi Ülkesi</value>
+  </data>
+  <data name="MBR_BeneficiaryEmailAddress" xml:space="preserve">
+    <value>Hak Sahibi E-posta Adresi</value>
+  </data>
+  <data name="MBR_BeneficiaryFirstName" xml:space="preserve">
+    <value>Hak Sahibi Adı</value>
+  </data>
+  <data name="MBR_BeneficiaryLastName" xml:space="preserve">
+    <value>Hak Sahibi Soyadı</value>
+  </data>
+  <data name="MBR_BeneficiaryPhone" xml:space="preserve">
+    <value>Hak Sahibi Telefonu</value>
+  </data>
+  <data name="MBR_BeneficiaryState" xml:space="preserve">
+    <value>Hak Sahibi Eyaleti</value>
+  </data>
+  <data name="MBR_BeneficiaryZipCode" xml:space="preserve">
+    <value>Hak Sahibi Posta Kodu</value>
+  </data>
+  <data name="MBR_ClickRowSelect" xml:space="preserve">
+    <value>Seçmek için satırı tıklayın</value>
+  </data>
+  <data name="MBR_ConfirmEmailAddress" xml:space="preserve">
+    <value>E-posta Adresini Onaylayın</value>
+  </data>
+  <data name="MBR_CopyDataPayment" xml:space="preserve">
+    <value>Adres, yukarıdakiyle aynıysa kopyalamak için tıklayın</value>
+  </data>
+  <data name="MBR_EmailLanguage" xml:space="preserve">
+    <value>Lütfen e-posta bildirimleri için dili seçin</value>
+  </data>
+  <data name="MBR_EmailLanguageLabel" xml:space="preserve">
+    <value>E-posta Dili</value>
+  </data>
+  <data name="MBR_Email_MisinfRemainingTimeText" xml:space="preserve">
+    <value>Doğru bilgilerle gerekli değişiklikleri yapmak için bu e-postanın gönderildiği andan itibaren {0} süreniz vardır. Şayet {0} zaman dilimi içinde doğru bilgilerle yanıt vermezseniz, yanlış yönlendirilmiş bagaj bildiriminiz reddedilecektir. Yeniden gönderilse bile bildiriminiz kabul edilmeyecektir.</value>
+  </data>
+  <data name="MBR_Email_WrongFileReferenceNumberText" xml:space="preserve">
+    <value>Gönderdiğiniz Dosya referans numarası geçerli değildir.  Hemen havayolu şirketinizle irtibata geçmeniz ve size geçerli bir dosya referans numarası vermelerini sağlamanız gerekecektir.  Bildiriminizin işleme alınması için, bu numaranın uçuşunuzun inişinden itibaren 24 saat içinde bize sağlanması gerekir.  Blue Ribbon Bags, yolcu adına dosya referans numaralarını almaz.&lt;br/&gt;
+Bu bilgileri havayolu şirketinden almak ve uçuşunuzun inişinden itibaren 24 saat içinde bize vermek yolcunun sorumluluğundadır.  Şayet uçuşunuzun inişinden itibaren 24 saat içinde geçerli bir dosya referans numarası almazsak, bildiriminiz reddedilecektir ve bagaj geri alma hizmetlerini veya memnuniyet garantisi ödememizi almaya uygun olmayacaksınız.  Şartlara bakılmaksızın, bu bilgiler uçuşunuzun inişinden sonraki 24 saatlik sürenin bitiminden sonra herhangi bir noktada sunulması durumunda dosyanızı yeniden açmayacağız.&lt;br/&gt;
+Şayet kayıp bagaj talebini yaptığınızda havayolu şirketi tarafından size sağlandığı şekliyle Bildiriminizin bir kopyasını zaten bize gönderdiyseniz ve hala bu e-postayı almaya devam ediyorsanız, bu, havayolu şirketi size geçerli bir dosya referans numarası vermemiş demektir ve geçerli dosya referans numarası almak için hemen havayolu şirketiyle irtibata geçmelisiniz ve uçuşunuzun inişinden itibaren 24 saat içinde bunu bize bildirmelisiniz.</value>
+  </data>
+  <data name="MBR_Enter" xml:space="preserve">
+    <value>Havayolu şirketi bagaj talebinizde bulunan aşağıdaki bilgileri girin:</value>
+  </data>
+  <data name="MBR_EnterAgreementNumber" xml:space="preserve">
+    <value>Lütfen Blue Ribbon Bags Hizmet Sözleşmesi Numaranızı girin:</value>
+  </data>
+  <data name="MBR_FileReference" xml:space="preserve">
+    <value>Dosya Referans No veya Dosya Konum Belirleyici No:</value>
+  </data>
+  <data name="MBR_FileReferenceDetails" xml:space="preserve">
+    <value>Size verilmiş olması gereken dosya referans numarası, Eşya Karışıklık Raporunuzdaki (Property Irregularity Report) havaalanı ve havayolu şirketi kodundan sonraki 5 basamaklı bir sayısal koda sahip olacaktır. Örneğin: MCOAF12345. &lt;br/&gt; &lt;br/&gt;</value>
+  </data>
+  <data name="MBR_FileReferenceLabel" xml:space="preserve">
+    <value>Dosya Referans Numarası</value>
+  </data>
+  <data name="MBR_FileReport" xml:space="preserve">
+    <value>Bildirim Yapın</value>
+  </data>
+  <data name="MBR_HotelName" xml:space="preserve">
+    <value>Otel Adı:</value>
+  </data>
+  <data name="MBR_IfThePassanger" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_InfoNote" xml:space="preserve">
+    <value>Şayet yolcu bu varış noktasından 96 saatlik süre içinde ayrılıyorsa ve çantasının uygun bir şekilde teslim edilebilmesi için BRB’nin bu durumdan haberdar olmasını isterse,
+											lütfen &lt;b&gt;&lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt;&lt;/b&gt; adresinden bize e-posta gönderin
+											ve e-posta başlığına bildirimde bulunduğunuzda size verilen MBR numaranızı yazın ve durumunuz hakkında olabildiğince ayrıntılı bilgi verin.</value>
+  </data>
+  <data name="MBR_MbrNumber" xml:space="preserve">
+    <value>MBR No:</value>
+  </data>
+  <data name="MBR_Misinformation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MBR_NameOfBank" xml:space="preserve">
+    <value>Banka Adı:</value>
+  </data>
+  <data name="MBR_NoFill" xml:space="preserve">
+    <value>Özür dileriz, ancak bu rapor değiştirilemez ve bu nedenle bu bilgiler artık düzenlenemez. Blue Ribbon Bags’i seçtiğiniz için teşekkür ediyoruz. Güvenli ve içiniz rahat yolculuklar dileriz!</value>
+  </data>
+  <data name="MBR_NoResults" xml:space="preserve">
+    <value>Aramanızda hiçbir sonuç bulunamadı</value>
+  </data>
+  <data name="MBR_Note" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş Bagaj Bildirimi oluşturma sürecini tamamlamak için, kayıp bagaj iddianızı bildirdiğinizde havayolu firması tarafından size verilen raporun bir kopyasını, uçağınızın inişinden itibaren 24 saat içerisinde Blue Ribbon Bags’e ulaştırmanız gerekmektedir. Havayolu şirketi tarafından size sağlandığı şekliyle bu bildirimin bir kopyasını uçuşunuzun inişinden itibaren 24 saat içinde göndermezseniz, Blue Ribbon Bags’e yaptığınız Yanlış Yönlendirilmiş Bagaj Bildiriminiz 24 saatlik sürenin sona ermesiyle derhal reddedilecektir ve bagaj geri alma hizmetlerini veya Memnuniyet Garantisi Ödememizi almaya uygun olmayacaksınız. Lütfen bu bildirimin bir kopyasını e-posta konu başlığına Hizmet Anlaşması numaranızı yazarak mbr@blueribbonbags.com adresine gönderin. Burada belirtilenden farklı bir şekilde teslim edilen Destekleyici Havayolu belgeleri, geçerli bir başvuru olarak kabul edilmeyecek ve Blue Ribbon Bags’e yaptığınız Yanlış Yönlendirilmiş Bagaj Bildirimi ile ilgili olarak dikkate alınmayacaktır.  Beraberinde belgeler olmayan bildirimler, uçuşunuzun inişinden itibaren 24 saatlik süre bittiğinde reddedilecektir.</value>
+  </data>
+  <data name="MBR_PaxUntil" xml:space="preserve">
+    <value>Yolcu(lar) bu adreste şu tarihe kadar bu adreste olacaktır:</value>
+  </data>
+  <data name="MBR_PaymentAddress" xml:space="preserve">
+    <value>Ödeme Adresi</value>
+  </data>
+  <data name="MBR_PaymentBy" xml:space="preserve">
+    <value>Ödemeyi Yapan</value>
+  </data>
+  <data name="MBR_PaymentCity" xml:space="preserve">
+    <value>Ödeme Şehri</value>
+  </data>
+  <data name="MBR_PaymentCountry" xml:space="preserve">
+    <value>Ödeme Ülkesi</value>
+  </data>
+  <data name="MBR_PaymentDetailsChanged" xml:space="preserve">
+    <value>Not: Ödeme bilgileri ilk bildirimden sonra değiştirilebilmektedir. Bu, ödeme sürecinde küçük bir gecikmeye neden olabilir.</value>
+  </data>
+  <data name="MBR_PaymentEmailAddress" xml:space="preserve">
+    <value>Ödeme E-posta Adresi</value>
+  </data>
+  <data name="MBR_PaymentFirstName" xml:space="preserve">
+    <value>Ödeme Adı</value>
+  </data>
+  <data name="MBR_PaymentLastName" xml:space="preserve">
+    <value>Ödeme Soyadı</value>
+  </data>
+  <data name="MBR_PaymentPhone" xml:space="preserve">
+    <value>Ödeme Telefonu</value>
+  </data>
+  <data name="MBR_PaymentState" xml:space="preserve">
+    <value>Ödeme Eyaleti</value>
+  </data>
+  <data name="MBR_PaymentZipCode" xml:space="preserve">
+    <value>Ödeme Posta Kodu</value>
+  </data>
+  <data name="MBR_PayPalEmailAddress" xml:space="preserve">
+    <value>PayPal E-posta Adresi</value>
+  </data>
+  <data name="MBR_PayPalFields" xml:space="preserve">
+    <value>Lütfen PayPal hesabınızla ilişkili bilgileri tamamlayın</value>
+  </data>
+  <data name="MBR_PayPalFirstName" xml:space="preserve">
+    <value>PayPal Adı</value>
+  </data>
+  <data name="MBR_PayPalLastName" xml:space="preserve">
+    <value>PayPal Soyadı</value>
+  </data>
+  <data name="MBR_PleaseComplete" xml:space="preserve">
+    <value>Lütfen alanları, havayolu şirketine yaptığınız talebinizde göründüğü gibi tamamen aynı şekilde doldurun.</value>
+  </data>
+  <data name="MBR_PleaseEnter" xml:space="preserve">
+    <value>Lütfen Ödeme bilgilerini giriniz. &lt;b&gt;Bu, bagajınızın 96 saatten fazla gecikmesi durumunda ödemenizin gönderilmesini istediğiniz adrestir. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_PleaseEnterPayPal" xml:space="preserve">
+    <value>Lütfen Ödeme bilgilerini giriniz. &lt;b&gt;Bu, bagajınızın 96 saatten fazla gecikmesi durumunda ödemenizin gönderilmesini istediğiniz yerdir. &lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Provide" xml:space="preserve">
+    <value>Aşağıdaki bilgileri, tam olarak havayolu şirketine yaptığınız kayıp bagaj talebinizde göründüğü şekilde girin. &lt;b&gt;Bu, bagajınızın teslim edilmesini istediğiniz adrestir.&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_SearchBy" xml:space="preserve">
+    <value>Arama kriteri (Lütfen birini seçin)</value>
+  </data>
+  <data name="MBR_ServiceAgreementNumber" xml:space="preserve">
+    <value>Hizmet Sözleşmesi Numarası:</value>
+  </data>
+  <data name="MBR_Step1" xml:space="preserve">
+    <value>Uçuş Varış Bilgileri</value>
+  </data>
+  <data name="MBR_Step2" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş Bagaj Bilgileri</value>
+  </data>
+  <data name="MBR_Step3" xml:space="preserve">
+    <value>Hizmet Sözleşmesi Numarası</value>
+  </data>
+  <data name="MBR_Step4" xml:space="preserve">
+    <value>Bagaj Teslimat Bilgileri</value>
+  </data>
+  <data name="MBR_Step5" xml:space="preserve">
+    <value>Ödeme Bilgileri</value>
+  </data>
+  <data name="MBR_Step6" xml:space="preserve">
+    <value>Onaylayın</value>
+  </data>
+  <data name="MBR_Swift" xml:space="preserve">
+    <value>Swift Kodu</value>
+  </data>
+  <data name="MBR_Title" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş Bagaj</value>
+  </data>
+  <data name="MBR_Undelivered" xml:space="preserve">
+    <value>HAVAYOLU ŞİRKETİNDEN ALINMIŞ GEÇERLİ BİR DOSYA REFERANS NUMARASI DA DÂHİL OLMAK ÜZERE, 
+		TESLİM EDİLMEYEN ÇANTALAR, UÇUŞ VARIŞINDAN İTİBAREN 24 SAAT İÇİNDE BLUE RIBBON BAGS’E BİLDİRİLMELİDİR. 
+		24 SAATLİK BİLDİRİM SÜRESİNİN BİTİMİNDEN SONRA BİLDİRİLEN ÇANTALAR İÇİN BLUE RIBBON BAGS HİZMETİ ÖDEMESİ YAPILMAYACAKTIR.
+		ŞAYET HAVAYOLU ŞİRKETİ SİZE GEÇERLİ BİR DOSYA REFERANS NUMARASI SAĞLAMADIYSA, 
+		BİLDİRİMİNİZİ BİZE YAPMADAN ÖNCE HAVAYOLU ŞİRKETİYLE İRTİBATA GEÇMENİZ VE BU NUMARAYI ALMANIZ GEREKECEKTİR.  
+		BLUE RIBBON BAGS, HAVAYOLU ŞİRKETİNDEN DOSYA REFERANS NUMARALARINI ALMAYACAKTIR.  BİZE YANLIŞ YÖNLENDİRİLMİŞ BAGAJ 
+		BİLDİRİMİ YAPMADAN ÖNCE, BU BİLGİLERİ HAVAYOLU ŞİRKETİNDEN ALMAK YOLCUNUN SORUMLULUĞUNDADIR.</value>
+  </data>
+  <data name="MBR_UndeliveredBags" xml:space="preserve">
+    <value>Teslim Edilmeyen Bagaj Sayısı:</value>
+  </data>
+  <data name="MBR_WhenFilled" xml:space="preserve">
+    <value>Havayolu şirketine bir kayıp bagaj talebi yaptığınızda
+				bir dosya referans numarası ve bagaj etiketi
+				numarası almış olmalısınız, lütfen bunları buraya girin:</value>
+  </data>
+  <data name="Menu_AgentLogin" xml:space="preserve">
+    <value>Acente Girişi</value>
+  </data>
+  <data name="Menu_BaggageServiceFeat" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="Menu_Contact" xml:space="preserve">
+    <value>Bizimle İletişime Geçin</value>
+  </data>
+  <data name="Menu_FAQ" xml:space="preserve">
+    <value>SSS’lar</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="Menu_MBR" xml:space="preserve">
+    <value>Bildirim Yapın</value>
+  </data>
+  <data name="Menu_MissingBags" xml:space="preserve">
+    <value>Kayıp Bagaj</value>
+  </data>
+  <data name="Menu_SearchReport" xml:space="preserve">
+    <value>Bilgileri</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>İleti</value>
+  </data>
+  <data name="MyAccount_ClickSendAgentConfirm" xml:space="preserve">
+    <value>Onay e-postası almak isterseniz buraya tıklayın.</value>
+  </data>
+  <data name="MyAccount_ClickSendPassengerConfirm" xml:space="preserve">
+    <value>Yolcunun/yolcuların onay e-postası almasını isterseniz buraya tıklayın.</value>
+  </data>
+  <data name="MyAccount_HideCharge" xml:space="preserve">
+    <value>Hizmet onay e-postalarında toplam ücreti gösterme</value>
+  </data>
+  <data name="MyAccount_SendConsolidatedPurchaseSummary" xml:space="preserve">
+    <value>Konsolide satın alma özeti gönder</value>
+  </data>
+  <data name="MyAccount_Title" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>ÇANTANIZA VEYA TESLIMAT BILGILERINIZE ILIŞKIN HERHANGI BIR BILGI VERMEK ISTERSENIZ, LÜTFEN BURAYA GIRINIZ</value>
+  </data>
+  <data name="PasswordReq" xml:space="preserve">
+    <value>Şifre alanı bilerek boş olarak gösterilir. Yeni bir şifre almak isterseniz, lütfen yeni bir şifre girin ve yeni şifrenizi onaylayın.&lt;br /&gt;&lt;br /&gt;
+                    Şifre, en az bir alfabetik, bir sayısal değer ve en az büyük harf bir alfabetik karaktere sahip bir özel karakterden oluşan en az 8 (sekiz) karakter içermelidir.&lt;br /&gt;&lt;br /&gt;
+                    İzin verilen özel karakterler şunları içerir:&amp;nbsp;!&amp;nbsp;&amp;#64;&amp;nbsp;#&amp;nbsp;$&amp;nbsp;%&amp;nbsp;&amp;&amp;nbsp;*&amp;nbsp;(&amp;nbsp;)&amp;nbsp;_&amp;nbsp;-&amp;nbsp;+&amp;nbsp;=</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Ödeme:</value>
+  </data>
+  <data name="Payment_Address_Information" xml:space="preserve">
+    <value>Ödeme adresi bilgileri</value>
+  </data>
+  <data name="Payment_Information" xml:space="preserve">
+    <value>Ödeme Bilgileri</value>
+  </data>
+  <data name="PA_Button_Done" xml:space="preserve">
+    <value>Tamam, şimdilik işlemlerim bitti!</value>
+  </data>
+  <data name="PA_Congratulations" xml:space="preserve">
+    <value>Tebrikler!</value>
+  </data>
+  <data name="PA_Level_Service" xml:space="preserve">
+    <value>Hizmet Seviyesi:</value>
+  </data>
+  <data name="PA_Passenger_Number" xml:space="preserve">
+    <value>Yolcu Sayısı:</value>
+  </data>
+  <data name="PA_Payment_Confirmation" xml:space="preserve">
+    <value>Ödeme Onayı:</value>
+  </data>
+  <data name="PA_Payment_Info_Title" xml:space="preserve">
+    <value>Ödeme Bilgileri</value>
+  </data>
+  <data name="PA_Promo_Code" xml:space="preserve">
+    <value>Promosyon Kodu:</value>
+  </data>
+  <data name="PA_Text_1" xml:space="preserve">
+    <value>Yaklaşan seyahatiniz için Blue Ribbon Bags hizmetini seçmenizden dolayı çok teşekkür ederiz. İçiniz rahat olsun; bunu sizin için mümkün olduğunca basit bir hale getireceğiz.&lt;br /&gt;&lt;br /&gt;Blue Ribbon Bags Hizmet Sözleşmesi numaranız:</value>
+  </data>
+  <data name="PA_Text_2" xml:space="preserve">
+    <value>Bagajınızın teslim edilmemesi durumunda, yanlış yönlendirilmiş çantanızı bize bildirmeniz gerekeceğinden, lütfen kayıtlarınız için bu hizmet sözleşmesi numarasını saklayınız.</value>
+  </data>
+  <data name="PA_Text_3" xml:space="preserve">
+    <value>Birkaç dakika içinde Blue Ribbon Bags tarafından gönderilmiş bir onay e-postası alacaksınız. Şayet bu onay e-postasını almazsanız, lütfen bizimle iletişime geçin ve Paypal işlem onayınızı elinizin altında bulundurun.</value>
+  </data>
+  <data name="PA_Text_4" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;u&gt;Çantanız gelmezse yapılacaklar:&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;Çantanız uçuşunuzun son varış noktasına kadar sizinle beraber gelmezse, bunu, Blue Ribbon Bags’e bildirmeden önce havayolu şirketine bildirmelisiniz. Teslim edilmeyen çantalar, uçağınızın inişinden itibaren 24 saat içinde Blue Ribbon Bags’e bildirilmelidir. Yanlış yönlendirilmiş çantayı, &lt;strong&gt;{0}&lt;/strong&gt; numarasından telefonla ya da &lt;a href="{1}"&gt;{2}&lt;/a&gt; adresinden çevrimiçi olarak, haftanın 7 günü 24 saat bize bildirebilirsiniz. &lt;br /&gt;&lt;br /&gt;Blue Ribbon Bags bu bilgileri yanlış yönlendirilmiş bagaj raporunuzu işleme almak amacıyla sizden isteyeceği için, havayolu şirketine kayıp bagaj talebini yaptığınızda size verilen bagaj takip bilgilerini (dosya referansı/konum belirleyici numara) mutlaka saklayınız. Teslim edilmeyen çantalar, uçağınızın inişinden itibaren 24 saat içinde Blue Ribbon Bags’e bildirilmelidir.&lt;br /&gt;&lt;br /&gt;Ödeme bilgileriniz aşağıda gösterilmektedir. Herhangi bir sorunuz varsa, lütfen &lt;a href="mailto:info@BlueRibbonBags.com"&gt;info@BlueRibbonBags.com&lt;/a&gt; adresine bir e-posta göndererek Blue Ribbon Bags ile iletişime geçmekten çekinmeyin. Size yardımcı olmak için haftanın 7 günü 24 saat hizmetinizdeyiz. Güvenli ve içiniz rahat yolculuklar dileriz!&lt;br /&gt;&lt;br /&gt;Hizmet Sözleşmenize çevrimiçi olarak şu adresten ulaşabilirsiniz: &lt;a href="{3}" target="_blank"&gt;{4}&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Bizimle çalıştığınız için çok teşekkür eder ve güvenli yolculuklar dileriz.&lt;br /&gt;&lt;br /&gt;BLUE RIBBON BAGS HİZMETİ İADE EDİLEMEZ VEYA DEVREDİLEMEZ. GERİ ÖDEME VEYA KREDİ VERİLMEYECEKTİR. ŞAYET UÇUŞUNUZ İPTAL EDİLİRSE VE YERİNE YENİ BİR UÇUŞ REZERVASYONU YAPILIRSA, YENİ UÇUŞUNUZUN KALKIŞINDAN ÖNCE BU DEĞİŞİKLİĞİ BİZE BİLDİRMENİZ YA DA YENİ UÇUŞUNUZ İÇİN YENİ BİR HİZMET SATIN ALMANIZ GEREKMEKTEDİR.  TÜM DEĞİŞİKLİKLER, &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNDEN BİZE E-POSTA GÖNDERİLEREK VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZ YAZILARAK BİLDİRİLMELİDİR.  E-POSTA İÇERİĞİNDE, HAVAYOLU ŞİRKETİNİZİ VE HAVAYOLU ONAY NUMARANIZI, İLK UÇUŞ NUMARANIZI VE İLK UÇUŞUNUZUN DEĞİŞTİRİLEN YENİ UÇUŞ NUMARANIZI BELİRTMELİSİNİZ.  ŞAYET HAVAYOLU ŞİRKETİ DE DEĞİŞİYORSA, BİZE, YENİ UÇUŞUNUZUN OLDUĞU YENİ HAVAYOLU ŞİRKETİNİ DE BİLDİRMELİSİNİZ.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="PA_Title" xml:space="preserve">
+    <value>ÖDEMENİZ BAŞARIYLA GERÇEKLEŞTİ</value>
+  </data>
+  <data name="PA_Total_Charge" xml:space="preserve">
+    <value>Toplam Ücret:</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Telefon Numarası</value>
+  </data>
+  <data name="PMBR_ClosedText" xml:space="preserve">
+    <value>Tüm bagajlar bulunmuştur ve bu dosya kapatılmıştır</value>
+  </data>
+  <data name="PMBR_DenialReason" xml:space="preserve">
+    <value>Reddetme Nedeni</value>
+  </data>
+  <data name="PMBR_Features_Item1" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş bagaj bildirimleri, &lt;a href="{0}" target="_blank"&gt;buraya &lt;/a&gt; tıklayarak veya 888-BAGGAGE numarasını arayarak haftanın 7 günü 24 saat yapılabilir.</value>
+  </data>
+  <data name="PMBR_Features_Item4" xml:space="preserve">
+    <value>Yolcu, bir talepte bulunduğu havayolu şirketine veya Blue Ribbon Bags’e adresine teslim edilmesi yerine herhangi bir noktada çantasının alınacağını bildirirse, bagaj bildirim durumu kapatılmış olarak belirtilecektir ve tüm çantaların, belirtilen havaalanına ulaştığı anda teslim edilmiş olarak sayılacaktır.</value>
+  </data>
+  <data name="PMBR_Features_Item5" xml:space="preserve">
+    <value>Çanta, talepte bulunulduğu anda havayolu şirketine bildirilen varış noktasına ulaştıktan sonra, yanlış yönlendirilmiş bagaj bildiriminin durumu kapatılmış olarak belirtilecektir.</value>
+  </data>
+  <data name="PMBR_Result_Incorrect_Info_Text" xml:space="preserve">
+    <value>* Şayet yukarıdaki bilgilerden herhangi biri yanlışsa, lütfen &lt;a href="mailto:mbr@blueribbonbags.com" target="_blank"&gt;mbr@blueribbonbags.com&lt;/a&gt; adresinden bize e-posta gönderin</value>
+  </data>
+  <data name="PMBR_Result_Manager_Notes" xml:space="preserve">
+    <value>Rapor Yöneticisinden Notlar:</value>
+  </data>
+  <data name="PMBR_Result_No_Result" xml:space="preserve">
+    <value>Aramanızda hiçbir sonuç bulunamadı</value>
+  </data>
+  <data name="PMBR_Result_Report_Status" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş bu bagaj bildiriminin durumu: &amp;nbsp;</value>
+  </data>
+  <data name="PMBR_Result_Status" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; gündür açıktır.</value>
+  </data>
+  <data name="PMBR_Result_Status_Payment" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş bagaj bildirimi ödenecek: &amp;nbsp; &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Result_Status_Remain" xml:space="preserve">
+    <value>Şayet &lt;strong&gt;{0}&lt;/strong&gt; gündür hala açık olursa, ödemeyle sonuçlanacaktır.</value>
+  </data>
+  <data name="PMBR_Result_Title" xml:space="preserve">
+    <value>Sonuç</value>
+  </data>
+  <data name="PMBR_Search_Text" xml:space="preserve">
+    <value>Çantaların durumunda her değişiklik olduğunda yolcuya otomatik e-posta bildirimleri gönderilecektir. Yolcuların, bagajlarının durumunu öğrenmek için havayolu şirketi ile iletişim kurmasına gerek yoktur.</value>
+  </data>
+  <data name="PMBR_Subtitle_Features" xml:space="preserve">
+    <value>Özellikler:</value>
+  </data>
+  <data name="PMBR_Text0" xml:space="preserve">
+    <value>TELEFON NUMARAMIZ (888-BAGGAGE) SADECE YENİ YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİNİ ALMAK İÇİNDİR.
+BU TELEFON NUMARASINDAN, MEVCUT YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİYLE İLGİLİ HERHANGİ BİR BİLGİ SAĞLANMAZ.
+MEVCUT YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİYLE İLGİLİ İSTER YENİ, AÇIK, YANLIŞ BİLGİLENDİRME İSTERSE DE KAPATILMIŞ OLSUN HERHANGİ BİR NEDENLE, 
+HERHANGİ BİR SORU VEYA YORUM VEYA BİLGİ SUNULMASI E-POSTA
+İLE &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNE GÖNDERİLMELİDİR VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZIN YAZILMALIDIR.</value>
+  </data>
+  <data name="PMBR_Text1" xml:space="preserve">
+    <value>Blue Ribbon Bags’e yanlış yönlendirilmiş bagaj bildirimi yapmadan önce 
+		yolcunun, havayolu şirketine (ilgili havayolu şirketinin kurallarının gerektirdiği şekilde) bir kayıp bagaj talebinde bulunması gerekir.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+		HAVAYOLU ŞİRKETİNDEN ALINMIŞ GEÇERLİ BİR DOSYA REFERANS NUMARASI DA DÂHİL OLMAK ÜZERE, TESLİM EDİLMEYEN ÇANTALAR, UÇUŞ VARIŞINDAN İTİBAREN 24 SAAT İÇİNDE BLUE RIBBON BAGS’E BİLDİRİLMELİDİR. 24 SAATLİK BİLDİRİM SÜRESİNİN BİTİMİNDEN SONRA BİLDİRİLEN ÇANTALAR İÇİN BLUE RIBBON BAGS HİZMETİ ÖDEMESİ YAPILMAYACAKTIR. ŞAYET HAVAYOLU ŞİRKETİ SİZE GEÇERLİ BİR DOSYA REFERANS NUMARASI SAĞLAMADIYSA, BİLDİRİMİNİZİ BİZE YAPMADAN ÖNCE HAVAYOLU ŞİRKETİYLE İRTİBATA GEÇMENİZ VE BU NUMARAYI ALMANIZ GEREKECEKTİR. BLUE RIBBON BAGS, HAVAYOLU ŞİRKETİNDEN DOSYA REFERANS NUMARALARINI ALMAYACAKTIR. BİZE YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMİ YAPMADAN ÖNCE, BU BİLGİLERİ HAVAYOLU ŞİRKETİNDEN ALMAK YOLCUNUN SORUMLULUĞUNDADIR. &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+		Teslim edilen bir çantanın yolcunun bildirdiği çantadan başka bir çanta olduğunun anlaşılması durumunda, Blue Ribbon Bags’in dosyanın kapatılmış olduğunu ve bir çantanın teslim edilmiş olduğunu yolcuya bildirmesinden önce, yolcunun mbr@blueribbonbags.com adresinden bize e-posta göndererek ve konu başlığına “Benim çantam değil” ve MBR numarasını yazarak Blue Ribbon Bags’e hatayı bildirmesi için 12 saatlik bir süresi olacaktır. Blue Ribbon Bags, yanlış yönlendirilmiş çantayı bulmak için yolcunun ilk uçuşunun inişinden itibaren ilk 96 saatin sona ermesiyle başlayan 72 saatlik (3 gün) bir süreye sahip olacaktır. Bu kategoriye giren herhangi bir çanta, havayolu şirketi kayıp bagaj talebinde kayıtlı havaalanına ulaştıktan sonra, şart ve koşullarımız uyarınca “teslim edilmiş” olarak sayılacaktır. Şayet artık yanlış çanta teslim edilmişse, yolcunun yanlış çantayı teslim eden kargo şirketinden aldığı teslimat makbuzunu ve yolcuya teslim edilen ilgili çantanın, yolcunun çantası olmadığını açıkça belirten havayolu şirketinden alınmış bir belgeyle birlikte kanıt olarak e-posta olarak göndermesi gerekecektir. Bu belgelerin her ikisi de Blue Ribbon Bags memnuniyet garantisi ödemesini almak için gerekli olacaktır.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+		YANLIŞ BİLGİLENDİRME VEYA BİLGİ TALEPLERİ:&lt;/strong&gt; Şayet bir yanlış yönlendirilmiş bagaj bildirimi yapıldığı sırada yanlış bilgi verilmişse, bu bilginin düzeltilmesini isteyen bir e-posta alabilirsiniz. Bir yolcunun, bu nitelikteki bir e-postayı veya yolcunun dosyasıyla ilişkin herhangi bir diğer bilgi talebini alması durumunda, yolcu, bu e-postayı yanıtlamak için e-postanın gönderildiği tarihten itibaren 12 saatlik bir süreye sahip olacaktır. Şayet yolcu, belirtilen bu zaman dilimi içinde düzeltilmiş veya talep edilen bilgiler ve her türlü gerekli destekleyici belgelerle yanıt vermezse, yolcunun Yanlış Yönlendirilmiş Bagaj Bildirimi reddedilecektir ve bagaj geri alma hizmetlerini veya memnuniyet garantisi ödememizi almaya artık uygun olmayacaktır.&lt;br /&gt;&lt;br /&gt;
+		Şayet bir havayolu kayıp bagaj talebinde bulunurken havayolu şirketine bir teslimat adresi VERİLMEDİYSE, çantanız havayolu şirketine beyan edilen havaalanına ulaştıktan sonra BRB dosyanızı kapatacaktır ve çantalarınız, Blue Ribbon Bags Hizmet Sözleşmesi gereği teslim edilmiş olarak sayılacaktır.&lt;br /&gt;&lt;br
+		/&gt;&lt;strong&gt; 
+		NOT: Şayet yolcunun çantası, Kayıp Bagaj Raporunu (PIR) (bu, üzerinde dosya referans numarası bulunan havayolu şirketinin yolcuya sağladığı rapordur) sadece havayolu şirketi veya havaalanı yoluyla veren ya da Bagaj Karışıklık Raporunu (BIR) (BIR raporları genel olarak on basamaklı dosya referans numarası sağlamaz) havayolu şirketi üzerinden veren bir havayolu şirketinden kaynaklı olarak yanlış yönlendirildiyse, yolcu, çevrimiçi formu doldurduktan sonra e-posta konu başlığına Hizmet Sözleşmesi numarasını yazarak, mbr@blueribbonbags.com adresine Kayıp Bagaj Raporunun (PIR) veya Bagaj Karışıklık Raporunun (BIR) bir kopyasını göndermelidir. Raporun geçerli sayılabilmesi için, yolcunun uçuşunun inişinden itibaren 24 saat içinde bu raporun bir kopyasını almamız gerekmektedir. Şayet uçuşunuzun inişinden itibaren 24 saat içinde bu raporun bir kopyası sağlanmazsa, BRB 24 saatlik sürenin dolmasıyla yolcunun raporunu derhal reddedecektir. Bu kategorideki herhangi bir çanta, uçuş programındaki veya havayolu şirketine kayıp bagaj talebinin yapıldığı zaman müşteri tarafından havayolu şirketine sağlanan yönlendirme bilgilerindeki havaalanına ulaştıktan sonra, şart ve koşullarımız uyarınca “teslim edilmiş” olarak sayılacaktır. 
+						&lt;br/&gt;&lt;br/&gt;
+					NOT: Şayet çantanız, Kayıp Bagaj Raporunu (PIR) sadece havaalanı (kayıp eşya bürosu) yoluyla veren 
+					ya da Bagaj Karışıklık Raporunu (BIR) (BIR raporları genel olarak on basamaklı dosya referans numarası sağlamaz) havayolu şirketi üzerinden veren bir havayolu şirketinden kaynaklı olarak yanlış yönlendirildiyse,
+					Blue Ribbon Bags, sadece ilk önce havayolu şirketi ilgili kayıp çanta için ödeme (tazminat) verdikten sonra, 
+					96 saatin üzerinde yanlış yönlendirilmiş bir çanta için memnuniyet garantisi ödememizi verecektir. Şayet havayolu şirketi kayıp bir bagaj için yolcu tazminatını asla vermezse, 
+					Blue Ribbon Bags de ödeme vermeyecektir. Bu durumların herhangi birinde, 
+					Blue Ribbon Bags’den memnuniyet garantisi ödemesini almak için, 
+					havayolu şirketinden ödeme kanıtına ek olarak, havayolu şirketi tarafından verilen ödemenin ilgili kayıp çanta için yapıldığını beyan eden bir onay yazısı da gerekecektir. 
+					Blue Ribbon Bags , teslim edilmemiş bagajlarınızın yerini belirlemede, bagajlarınızın yanlış yönlendirilmesinin ilk 96 saatlik süresi boyunca normal olarak yardımcı olacaktır.
+		&lt;/strong&gt;&lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt; HATALAR:&lt;/strong&gt;Blue Ribbon Bags Yanlış Yönlendirilmiş Bagaj Bildirimizi reddettiği veya Yanlış Yönlendirilmiş Bildiriminizi kapattığı sırada yolcu tarafından bir hatanın tespit edilmesi durumunda, bu hatayı Blue Ribbon Bags’e bildirmek için yolcunun, bu durumlardan herhangi birini bildiren e-postanın alınmasından itibaren 12 saati olacaktır.  Lütfen &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; adresine bize e-posta göndererek ve e-posta konu başlığına MBR numaranızı yazarak bu hatayı bize bildirin.  Yolcu, hatanın tam olarak ne olduğunu mümkün olduğunca ayrıntılı olarak e-postada açıklamalı ve her türlü destekleyici belgeyi sağlamalıdır.  Blue Ribbon Bags hatanın geçerli şartları içerdiğini tespit etmesi durumunda, Blue Ribbon Bags’in yolcunun bagajını bulmak için yolcu dosyasının yeniden açıldığı andan itibaren 72 saatlik bir süresi olacaktır.  Şayet yolcunun ilk uçuşunun inişinden itibaren başlayan 96 saatlik zaman dilimi, dosyanın yeniden açıldığı andan başlayan 72 saatlik bir pencereden sonra sona eriyorsa, Blue Ribbon Bags’in yolcunun bagajını bulmak için bu ilk 96 saatlik zaman diliminin sonuna kadar bir süresi olacaktır.  
+Her iki durumda da, yolcunun çantası, havayolu şirketi kayıp bagaj talebinde kayıtlı havaalanından alındıktan sonra, Blue Ribbon Bags şart ve koşulları uyarınca teslim edilmiş olarak sayılacaktır ve yolcunun dosyası kapatılacaktır. &lt;br /&gt;&lt;br/&gt;
+&lt;strong&gt;
+12 saatlik sürenin sonunda alınan hiçbir gönderim kabul edilmeyecektir ve gönderilen belgelere bakılmaksızın, yolcu, bagaj geri alma hizmetlerini veya memnuniyet garantisi ödememizi almaya uygun olmayacaktır.
+&lt;/strong&gt;</value>
+  </data>
+  <data name="PMBR_Text1_New" xml:space="preserve">
+    <value>&lt;li&gt;TELEFON NUMARAMIZ (888-BAGGAGE) SADECE YENİ YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİNİ ALMAK İÇİNDİR.
+                        BU TELEFON NUMARASINDAN, MEVCUT YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİYLE İLGİLİ HERHANGİ BİR BİLGİ SAĞLANMAZ.
+                        MEVCUT YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMLERİYLE İLGİLİ İSTER YENİ, AÇIK, YANLIŞ BİLGİLENDİRME İSTERSE DE KAPATILMIŞ OLSUN HERHANGİ BİR NEDENLE, HERHANGİ BİR SORU VEYA YORUM VEYA BİLGİ SUNULMASI E-POSTA
+                        İLE &lt;a href="mailto:MBR@BLUERIBBONBAGS.COM"&gt;MBR@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNE GÖNDERİLMELİDİR VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZIN YAZILMALIDIR.
+                    &lt;/li&gt;
+                    &lt;li&gt;Blue Ribbon Bags’e yanlış yönlendirilmiş bagaj bildirimi yapmadan önce yolcunun, havayolu şirketine (ilgili havayolu şirketinin kurallarının gerektirdiği şekilde) bir kayıp bagaj talebinde bulunması gerekir.&lt;/li&gt;
+                    &lt;li&gt;HAVAYOLU ŞİRKETİNDEN ALINMIŞ GEÇERLİ BİR DOSYA REFERANS NUMARASI DA DÂHİL OLMAK ÜZERE, TESLİM EDİLMEYEN ÇANTALAR, UÇUŞ VARIŞINDAN İTİBAREN 24 SAAT İÇİNDE BLUE RIBBON BAGS’E BİLDİRİLMELİDİR. 24 SAATLİK BİLDİRİM SÜRESİNİN BİTİMİNDEN SONRA BİLDİRİLEN ÇANTALAR İÇİN BLUE RIBBON BAGS HİZMETİ ÖDEMESİ YAPILMAYACAKTIR. ŞAYET HAVAYOLU ŞİRKETİ SİZE GEÇERLİ BİR DOSYA REFERANS NUMARASI SAĞLAMADIYSA, BİLDİRİMİNİZİ BİZE YAPMADAN ÖNCE HAVAYOLU ŞİRKETİYLE İRTİBATA GEÇMENİZ VE BU NUMARAYI ALMANIZ GEREKECEKTİR. BLUE RIBBON BAGS, HAVAYOLU ŞİRKETİNDEN DOSYA REFERANS NUMARALARINI ALMAYACAKTIR. BİZE YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMİ YAPMADAN ÖNCE, BU BİLGİLERİ HAVAYOLU ŞİRKETİNDEN ALMAK YOLCUNUN SORUMLULUĞUNDADIR.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;&lt;u&gt;Amerika Birleşik Devletleri dışından gelen TÜM uçuşlar için:&lt;/u&gt; Yanlış Yönlendirilmiş Bagaj Bildirimi yapma sürecinin parçası olarak, kayıp bagaj talebinizi bildirdiğinizde havayolu şirketi tarafından size verilen raporun bir kopyasını, uçuşunuzun inişinden itibaren 24 saat içerisinde Blue Ribbon Bags’e göndermeniz gerekmektedir.  Şayet kayıp bagaj talebini yaptığınızda havayolu şirketi tarafından size sağlandığı şekliyle bu bildirimin bir kopyasını uçuşunuzun inişinden itibaren 24 saat içinde göndermezseniz, Blue Ribbon Bags’e yaptığınız Yanlış Yönlendirilmiş Bagaj Bildiriminiz 24 saatlik sürenin sona ermesiyle derhal reddedilecektir ve bagaj geri alma hizmetlerini veya Memnuniyet Garantisi Ödememizi almaya uygun olmayacaksınız.  Lütfen bildiriminizin bir kopyasını &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; e-posta adresine gönderin ve e-posta konu başlığına Hizmet Sözleşmesi numaranızı yazın.  Yukarıda belirtilen şekil dışında herhangi bir şekilde gönderilen Havayolu Bildirimleri, geçerli bir başvuru olarak sayılmayacaktır.  Bu kategorideki herhangi bir çanta, havayolu şirketinize yaptığınız kayıp bagaj talebinizde kayıtlı havaalanına ulaştıktan sonra, Blue Ribbon Bags Hizmet Sözleşmesi şart ve koşulları uyarınca “teslim edilmiş” olarak sayılacaktır.&lt;br /&gt;&lt;u&gt;Amerika Birleşik Devletleri sınırları içinden gelen uçuşlar için:&lt;/u&gt; Şayet bagajınız size Kayıp Bagaj Raporu (PIR) (bu size havayolu şirketi ya da havaalanı tarafından, kayıp bagaj talebinizi ilettiğinizde verilen ve üzerinde dosya referans numaranızın bulunduğu rapordur) ya da Bagaj Karışıklık Raporu (BIR) (BIR raporları genel olarak on basamaklı dosya referans numarası sağlamaz) veren havayolu şirketinden kaynaklı olarak yanlış yönlendirildiyse, Yanlış Yönlendirilmiş Bagaj Raporu bildirim sürecinin sonuçlandırılabilmesi için uçuşunuzun inişinden itibaren 24 saat içerisinde, Kayıp Bagaj Raporunuzun (PIR) veya Bagaj Karışıklık Raporunuzun (BIR) bir kopyasını Blue Ribbon Bags’e göndermeniz gerekmektedir.   Şayet havayolu şirketi tarafından size sağlandığı şekliyle bu bildirimin bir kopyasını uçuşunuzun inişinden itibaren 24 saat içinde göndermezseniz, Blue Ribbon Bags’e yaptığınız Yanlış Yönlendirilmiş Bagaj Bildiriminiz 24 saatlik sürenin sona ermesiyle derhal reddedilecektir ve bagaj geri alma hizmetlerini veya Memnuniyet Garantisi Ödememizi almaya uygun olmayacaksınız.  Lütfen bu bildirimin bir kopyasını &lt;a href="mailto:mbr@blueribbonbags.com"&gt; mbr@blueribbonbags.com &lt;/a&gt; e-posta adresine gönderin ve e-posta konu başlığına Hizmet Sözleşmesi numaranızı yazın.  Yukarıda belirtilen şekil dışında herhangi bir şekilde gönderilen Havayolu Bildirimleri, geçerli bir başvuru olarak sayılmayacaktır.  Bu kategorideki herhangi bir çanta, havayolu şirketinize yaptığınız kayıp bagaj talebinizde kayıtlı havaalanına ulaştıktan sonra, Blue Ribbon Bags Hizmet Sözleşmesi şart ve koşulları uyarınca “teslim edilmiş” olarak sayılacaktır.&lt;/b&gt; &lt;/li&gt;
+                    &lt;li&gt;Teslim edilen bir çantanın yolcunun bildirdiği çantadan başka bir çanta olduğunun anlaşılması durumunda, Blue Ribbon Bags’in dosyanın kapatılmış olduğunu ve bir çantanın teslim edilmiş olduğunu yolcuya bildirmesinden önce, yolcunun &lt;a href="mailto:mbr@blueribbonbags.com"&gt;mbr@blueribbonbags.com&lt;/a&gt; adresinden bize e-posta göndererek ve konu başlığına “Benim çantam değil” ve MBR numarasını yazarak Blue Ribbon Bags’e hatayı bildirmesi için 12 saatlik bir süresi olacaktır. Blue Ribbon Bags, yanlış yönlendirilmiş çantayı bulmak için yolcunun ilk uçuşunun inişinden itibaren ilk 96 saatin sona ermesiyle başlayan 72 saatlik (3 gün) bir süreye sahip olacaktır. Bu kategoriye giren herhangi bir çanta, havayolu şirketi kayıp bagaj talebinde kayıtlı havaalanına ulaştıktan sonra, şart ve koşullarımız uyarınca ‘teslim edilmiş’ olarak sayılacaktır. Şayet artık yanlış çanta teslim edilmişse, yolcunun yanlış çantayı teslim eden kargo şirketinden aldığı teslimat makbuzunu ve yolcuya teslim edilen ilgili çantanın, yolcunun çantası olmadığını açıkça belirten havayolu şirketinden alınmış bir belgeyle birlikte kanıt olarak e-posta olarak göndermesi gerekecektir. Bu belgelerin her ikisi de Blue Ribbon Bags memnuniyet garantisi ödemesini almak için gerekli olacaktır.&lt;/li&gt;
+                    &lt;li&gt;YANLIŞ BİLGİLENDİRME VEYA BİLGİ TALEPLERİ: Şayet bir yanlış yönlendirilmiş bagaj bildirimi yapıldığı sırada yanlış bilgi verilmişse, bu bilginin düzeltilmesini isteyen bir e-posta alabilirsiniz. Bir yolcunun, bu nitelikteki bir e-postayı veya yolcunun dosyasıyla ilişkin herhangi bir diğer bilgi talebini alması durumunda, yolcu, bu e-postayı yanıtlamak için e-postanın gönderildiği tarihten itibaren 12 saatlik bir süreye sahip olacaktır. Şayet yolcu, belirtilen bu zaman dilimi içinde düzeltilmiş veya talep edilen bilgiler ve her türlü gerekli destekleyici belgelerle yanıt vermezse, yolcunun Yanlış Yönlendirilmiş Bagaj Bildirimi reddedilecektir ve bagaj geri alma hizmetlerini veya memnuniyet garantisi ödememizi almaya artık uygun olmayacaktır.&lt;/li&gt;
+                    &lt;li&gt;Şayet bir havayolu kayıp bagaj talebinde bulunurken havayolu şirketine bir teslimat adresi VERİLMEDİYSE, çantanız havayolu şirketine beyan edilen havaalanına ulaştıktan sonra BRB dosyanızı kapatacaktır ve çantalarınız, Blue Ribbon Bags Hizmet Sözleşmesi gereği teslim edilmiş olarak sayılacaktır.&lt;/li&gt;
+                    &lt;li&gt;AIR CANADA VE WESTJET YOLCULARI: Blue Ribbon Bags, bu iki havayolu şirketinden herhangi birisinden gelen taleplerle ilişkili Yanlış Yönlendirilmiş Bagaj Bildirimler için kayıp bagajın yolcuya teslimatını yönetmeyecektir. Air Canada veya WestJest havayolu şirketlerinin kayıp bagaj talebiyle ilişkili herhangi bir yanlış yönlendirilmiş çanta, Air Canada veya WestJest kayıp bagaj talebinde kayıtlı havaalanına ulaştıktan sonra, Blue Ribbon Bags Hizmet Sözleşmesi şart ve koşulları uyarınca “teslim edilmiş” olarak sayılacaktır. Çantaların, Air Canada veya WestJest kayıp bagaj talebinde kayıtlı havaalanına hizmet süresi içinde ulaştığı onaylandıktan sonra, yolcu, bagaj geri alma hizmetlerini veya Blue Ribbon Bags Memnuniyet garantisi ödemesini almaya uygun olmayacaktır.&lt;/li&gt;
+                    &lt;li&gt;HATALAR: Blue Ribbon Bags Yanlış Yönlendirilmiş Bagaj Bildirimizi reddettiği veya Yanlış Yönlendirilmiş Bildiriminizi kapattığı sırada yolcu tarafından bir hatanın tespit edilmesi durumunda, bu hatayı Blue Ribbon Bags’e bildirmek için yolcunun, bu durumlardan herhangi birini bildiren e-postanın alınmasından itibaren 12 saati olacaktır. Lütfen &lt;a href="mailto:mbr@BlueRibbonBags.com"&gt; mbr@BlueRibbonBags.com&lt;/a&gt; adresine bize e-posta göndererek ve e-posta konu başlığına MBR numaranızı yazarak bu hatayı bize bildirin. Yolcu, hatanın tam olarak ne olduğunu mümkün olduğunca ayrıntılı olarak e-postada açıklamalı ve her türlü destekleyici belgeyi sağlamalıdır. Blue Ribbon Bags hatanın geçerli şartları içerdiğini tespit etmesi durumunda, Blue Ribbon Bags’in yolcunun bagajını bulmak için yolcu dosyasının yeniden açıldığı andan itibaren 72 saatlik bir süresi olacaktır. Şayet yolcunun ilk uçuşunun inişinden itibaren başlayan 96 saatlik zaman dilimi, dosyanın yeniden açıldığı andan başlayan 72 saatlik bir pencereden sonra sona eriyorsa, Blue Ribbon Bags’in yolcunun bagajını bulmak için bu ilk 96 saatlik zaman diliminin sonuna kadar bir süresi olacaktır. Her iki durumda da, yolcunun çantası, havayolu şirketi kayıp bagaj talebinde kayıtlı havaalanından alındıktan sonra, Blue Ribbon Bags şart ve koşulları uyarınca teslim edilmiş olarak sayılacaktır ve yolcunun dosyası kapatılacaktır. 12 saatlik sürenin sonunda alınan tüm gönderimler kabul edilmeyecektir ve gönderilen belgelere bakılmaksızın, yolcu bagaj geri alma hizmetlerini veya memnuniyet garantisi ödememizi almaya uygun olmayacaktır.&lt;/li&gt;
+                    &lt;li&gt;HIRSIZLIK, EKSİK İÇERİK VEYA HASARLI BAGAJLAR BU HİZMETE DÂHİL DEĞİLDİR. TEMİNAT SADECE HAVAYOLU ŞİRKETİ TARAFINDAN YANLIŞ YÖNLENDİRİLMİŞ BAGAJ İÇİN GEÇERLİDİR.&lt;/li&gt;</value>
+  </data>
+  <data name="PMBR_Title_01" xml:space="preserve">
+    <value>YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMİ HAKKINDA ÖNEMLİ BİLGİLER</value>
+  </data>
+  <data name="PMBR_Title_Search" xml:space="preserve">
+    <value>Yanlış Yönlendirilmiş Bagaj Bildiriminizi Arayın</value>
+  </data>
+  <data name="Product_BRONZE_Legend" xml:space="preserve">
+    <value>(*) Bronz hizmet seviyesi SADECE Hindistan İç Hatlar Seyahati içindir. Hindistan’a gelen veya ayrılan veya başka bir ülkeden gelen veya ayrılan uluslararası uçuşlar olan seyahat programındaki herhangi bir uçuşu içeren bronz hizmet seviyesi ile yapılan herhangi bir rezervasyon ödemesi yapılmayacaktır.</value>
+  </data>
+  <data name="Promo_Code" xml:space="preserve">
+    <value>Promosyon Kodu</value>
+  </data>
+  <data name="Provide_Trip_Info" xml:space="preserve">
+    <value>Seyahat bilgilerinizi sağlayın</value>
+  </data>
+  <data name="PurchaseProgress_CreatingServicesToPurchase" xml:space="preserve">
+    <value>Satın alınacak hizmet(ler) oluşturuluyor...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServiceFinished" xml:space="preserve">
+    <value>{0} hizmet işlemi tamamlandı...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePassengers" xml:space="preserve">
+    <value>{0} hizmet yolcuları işlemi gerçekleştiriliyor...</value>
+  </data>
+  <data name="PurchaseProgress_ProcessingServicePurchase" xml:space="preserve">
+    <value>{0} hizmet satın alma işlemi gerçekleştiriliyor...</value>
+  </data>
+  <data name="PurchaseProgress_ValidatingService" xml:space="preserve">
+    <value>{0} hizmeti doğrulanıyor...</value>
+  </data>
+  <data name="RAPP_Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="RAPP_AgencyName" xml:space="preserve">
+    <value>Acente Adı</value>
+  </data>
+  <data name="RAPP_AgentCard" xml:space="preserve">
+    <value>Acente Kartı</value>
+  </data>
+  <data name="RAPP_AgentCardText" xml:space="preserve">
+    <value>Bu, müşterilerinizle konuşurken referans olarak kullanabileceğiniz bir PDF olup BRB’nin harika özelliklerinden hiçbirini kaçırmayın!</value>
+  </data>
+  <data name="RAPP_AgentEmailLanguage" xml:space="preserve">
+    <value>Acente için E-posta Dili</value>
+  </data>
+  <data name="RAPP_AgentIdEPR" xml:space="preserve">
+    <value>Acente Kimliği (EPR)</value>
+  </data>
+  <data name="RAPP_AgentInfo" xml:space="preserve">
+    <value>Acente Bilgileri</value>
+  </data>
+  <data name="RAPP_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Acente bilgileri başarıyla kaydedildi!</value>
+  </data>
+  <data name="RAPP_AgentMe" xml:space="preserve">
+    <value>Acente (Ben)</value>
+  </data>
+  <data name="RAPP_AgentPCC" xml:space="preserve">
+    <value>Acente PCC</value>
+  </data>
+  <data name="RAPP_Airline" xml:space="preserve">
+    <value>Havayolu Şirketi</value>
+  </data>
+  <data name="RAPP_BilledLater" xml:space="preserve">
+    <value>Bu satın alma için daha sonra faturalandırılacaksınız.</value>
+  </data>
+  <data name="RAPP_BillingInfo" xml:space="preserve">
+    <value>Fatura Bilgileri</value>
+  </data>
+  <data name="RAPP_BySavingSettings" xml:space="preserve">
+    <value>Ayarları kaydederek, Satın Alma sekmesi de dahil olmak üzere Blue Ribbon Bags uygulamasındaki tüm sekmeler başlatılacaktır ve bu nedenle, gerçekleşecek satın alma için PNR numarasını yeniden yüklemeniz gerekecektir. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="RAPP_CCNumber" xml:space="preserve">
+    <value>CC#</value>
+  </data>
+  <data name="RAPP_CheckingPNR" xml:space="preserve">
+    <value>PNR kontrol ediliyor...</value>
+  </data>
+  <data name="RAPP_City" xml:space="preserve">
+    <value>Şehir</value>
+  </data>
+  <data name="RAPP_CityState" xml:space="preserve">
+    <value>Şehir, Eyalet</value>
+  </data>
+  <data name="RAPP_ClickSendAgentEmail" xml:space="preserve">
+    <value>Her satın almadan sonra Blue Ribbon Bags’ten otomatik bir onay e-postası almak &lt;b&gt;istiyorsanız&lt;/b&gt; buraya tıklayın.</value>
+  </data>
+  <data name="RAPP_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Her satın almadan sonra &lt;b&gt;yolcuların&lt;/b&gt; Blue Ribbon Bags’ten otomatik bir onay e-postası almak istiyorsanız buraya tıklayın.</value>
+  </data>
+  <data name="RAPP_ClientCard" xml:space="preserve">
+    <value>Müşteri Kartı</value>
+  </data>
+  <data name="RAPP_ClientCardText" xml:space="preserve">
+    <value>Bu, müşterilerinize bu hizmeti tanıtmak için gönderebileceğiniz komisyonlardan bahsetmeyen bir PDF belgesidir.</value>
+  </data>
+  <data name="RAPP_ConfNumber" xml:space="preserve">
+    <value>Onay Numarası</value>
+  </data>
+  <data name="RAPP_Country" xml:space="preserve">
+    <value>Ülke</value>
+  </data>
+  <data name="RAPP_DateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="RAPP_Email" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="RAPP_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="RAPP_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>API kullanan Açıklama Sabre PNR’ye eklenemedi.</value>
+  </data>
+  <data name="RAPP_ErrorAddingRemark" xml:space="preserve">
+    <value>Açıklama Sabre PNR’ye eklenemedi.</value>
+  </data>
+  <data name="RAPP_ErrorClosingPNR" xml:space="preserve">
+    <value>PNR kapatılamadı ve açıklama Sabre PNR’ye eklenemedi.</value>
+  </data>
+  <data name="RAPP_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Sabre iletişim hatası. Hata kodu {0}.</value>
+  </data>
+  <data name="RAPP_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Sabre bağlantı hatası.</value>
+  </data>
+  <data name="RAPP_ErrorLoadingProfile" xml:space="preserve">
+    <value>Acente profili yüklenemiyor.</value>
+  </data>
+  <data name="RAPP_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>HATA. BRB uygulamasında açtığınız PNR ({0}), Sabre çalışma alanında aktif olan PNR ile aynı değildir ({1}).</value>
+  </data>
+  <data name="RAPP_ErrorProcessingRequest" xml:space="preserve">
+    <value>Talebinizi gerçekleştirirken sunucu hatası oluştu.</value>
+  </data>
+  <data name="RAPP_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR Info XML, hassas bilgileri kaldırmak için çözümlenemedi ve bu nedenle göz ardı edildi.</value>
+  </data>
+  <data name="RAPP_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>PNR bilgileri alınamadı. Lütfen Sabre üzerinde açık aktif bir PNR olduğundan emin olun.</value>
+  </data>
+  <data name="RAPP_ExpirationMM" xml:space="preserve">
+    <value>Son Kullanma Tarihi AA</value>
+  </data>
+  <data name="RAPP_ExpirationYY" xml:space="preserve">
+    <value>Son Kullanma Tarihi YY</value>
+  </data>
+  <data name="RAPP_FirstName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="RAPP_FlightInfo" xml:space="preserve">
+    <value>Uçuş Bilgileri</value>
+  </data>
+  <data name="RAPP_FlightNumber" xml:space="preserve">
+    <value>Uçuş Numarası</value>
+  </data>
+  <data name="RAPP_GetPNRInfo" xml:space="preserve">
+    <value>PNR Bilgileri Al</value>
+  </data>
+  <data name="RAPP_InterfaceLanguage" xml:space="preserve">
+    <value>Arayüz Dili</value>
+  </data>
+  <data name="RAPP_InvalidSabreRequest" xml:space="preserve">
+    <value>Geçersiz Sabre isteği.</value>
+  </data>
+  <data name="RAPP_Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="RAPP_LastFlight" xml:space="preserve">
+    <value>Son Uçuş</value>
+  </data>
+  <data name="RAPP_LastName" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="RAPP_Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="RAPP_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Henüz Sabre oturumu açmadınız. Lütfen giriş yapın ve yeniden deneyin.</value>
+  </data>
+  <data name="RAPP_ObtainingPNRInfo" xml:space="preserve">
+    <value>Sabre üzerinden PNR bilgileri alınıyor. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="RAPP_Optional" xml:space="preserve">
+    <value>isteğe bağlı</value>
+  </data>
+  <data name="RAPP_OrigFlight" xml:space="preserve">
+    <value>Başlangıç Uçuşu</value>
+  </data>
+  <data name="RAPP_PassengerEmailLanguage" xml:space="preserve">
+    <value>Yolcu için E-posta Dili</value>
+  </data>
+  <data name="RAPP_PassengerInfo" xml:space="preserve">
+    <value>Yolcu Bilgileri</value>
+  </data>
+  <data name="RAPP_Passengers" xml:space="preserve">
+    <value>Yolcu/Yolcular</value>
+  </data>
+  <data name="RAPP_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="RAPP_PerBagShort" xml:space="preserve">
+    <value>çanta başına teminat</value>
+  </data>
+  <data name="RAPP_PerPaxShort" xml:space="preserve">
+    <value>Yolcu başına</value>
+  </data>
+  <data name="RAPP_PersonalInfo" xml:space="preserve">
+    <value>Kişisel Bilgiler</value>
+  </data>
+  <data name="RAPP_PhoneNumber" xml:space="preserve">
+    <value>Telefon Numarası</value>
+  </data>
+  <data name="RAPP_PleaseEmailText" xml:space="preserve">
+    <value>Lütfen bize, istediğiniz anda agent@blueribbonbags.com adresinden e-posta gönderin.</value>
+  </data>
+  <data name="RAPP_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR BOŞ bilgilerle başarıyla yüklendi! Lütfen aşağıdaki formu doldurun.</value>
+  </data>
+  <data name="RAPP_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR bilgileri başarıyla yüklendi! Lütfen aşağıdaki formu doldurun.</value>
+  </data>
+  <data name="RAPP_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR bilgileri uyumsuzluğu. Lütfen rezervasyonu yeniden yükleyin.</value>
+  </data>
+  <data name="RAPP_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR bilgileri başarılı bir şekilde YÜKLENMEDİ. Lütfen yeniden deneyin.</value>
+  </data>
+  <data name="RAPP_PNRNumber" xml:space="preserve">
+    <value>PNR Numarası</value>
+  </data>
+  <data name="RAPP_PromoCode" xml:space="preserve">
+    <value>Promosyon Kodu</value>
+  </data>
+  <data name="RAPP_Purchase" xml:space="preserve">
+    <value>Satın Alın</value>
+  </data>
+  <data name="RAPP_PurchasingService" xml:space="preserve">
+    <value>Satın alma siparişi. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="RAPP_QuestionsText" xml:space="preserve">
+    <value>Herhangi ilave sorularınız veya yorumlarınız varsa, lütfen bize agent@blueribbonbags.com e-posta adresinden ulaşın.</value>
+  </data>
+  <data name="RAPP_RegisteringAgent" xml:space="preserve">
+    <value>Kaydınızı gerçekleştiriyoruz. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessful" xml:space="preserve">
+    <value>Kaydınız başarıyla tamamlandı!</value>
+  </data>
+  <data name="RAPP_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Kaydınız başarıyla gerçekleşti; artık satış işlemlerine başlayabilirsiniz! Ancak, kayıt sürecini tamamlamak amacıyla lütfen e-postanızı kontrol etmek için bir dakikanızı ayırın. Teşekkür ederiz!</value>
+  </data>
+  <data name="RAPP_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="RAPP_SavingAgentInfo" xml:space="preserve">
+    <value>Acente bilgilerini kaydediyoruz. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="RAPP_SavingSettings" xml:space="preserve">
+    <value>Ayarlarınızı kaydediyoruz. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="RAPP_SelectCoverage" xml:space="preserve">
+    <value>Teminat Seviyesini Seçin</value>
+  </data>
+  <data name="RAPP_SendConfEmail" xml:space="preserve">
+    <value>Şu adrese onay e-postası gönder:</value>
+  </data>
+  <data name="RAPP_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Hizmet sözleşmesi [{0}] başarıyla satın alındı.</value>
+  </data>
+  <data name="RAPP_Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="RAPP_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Ayarlarınız başarıyla kaydedildi!</value>
+  </data>
+  <data name="RAPP_State" xml:space="preserve">
+    <value>Eyalet</value>
+  </data>
+  <data name="RAPP_TicketText" xml:space="preserve">
+    <value>Şayet bilet teklifinizin bir parçası olarak BRB’yi teklifinize dahil etmek isterseniz, müşterilerinizin kredi kartlarında ayrı ayrı ücretleri görmesini önlemek için faturalandırma seçeneklerimizi sorun.</value>
+  </data>
+  <data name="RAPP_TotalCost" xml:space="preserve">
+    <value>Toplam Bedel = $</value>
+  </data>
+  <data name="RAPP_TravelAgentInfo" xml:space="preserve">
+    <value>Seyahat Acentesi Bilgileri</value>
+  </data>
+  <data name="RAPP_UnexpectedError" xml:space="preserve">
+    <value>Beklenmeyen hata.</value>
+  </data>
+  <data name="RAPP_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Beklenmeyen hata. PNR bilgileri başarılı bir şekilde YÜKLENMEDİ.</value>
+  </data>
+  <data name="RAPP_UnhandledException" xml:space="preserve">
+    <value>PNRBilgisiAl (GetPNRInfo) sırasında işlenmeyen özel durum oluştu. </value>
+  </data>
+  <data name="RAPP_Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="RAPP_UserInfo" xml:space="preserve">
+    <value>Kullanıcı Bilgileri</value>
+  </data>
+  <data name="RAPP_UserInfoText" xml:space="preserve">
+    <value>Blue Ribbon Bags kaydı için kişisel bilgilerinizi aşağıdaki formdan güncelleyebilirsiniz.</value>
+  </data>
+  <data name="RAPP_ValidatingAgent" xml:space="preserve">
+    <value>Acente doğrulanıyor...</value>
+  </data>
+  <data name="RAPP_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Tekrar Hoş Geldiniz {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;İlk kez kayıt için Hoş Geldiniz!&lt;/b&gt;</value>
+  </data>
+  <data name="RAPP_Zip" xml:space="preserve">
+    <value>Posta Kodu</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>SEYAHAT ACENTESİ KAYDI</value>
+  </data>
+  <data name="Register_AccountingAgentMemberID" xml:space="preserve">
+    <value>(Hesap Oluşturma) Acente/Üye Kimlik No</value>
+  </data>
+  <data name="Register_AgencyInformation" xml:space="preserve">
+    <value>Seyahat Acentesi Bilgileri</value>
+  </data>
+  <data name="Register_AgencyNumber" xml:space="preserve">
+    <value>Acente Numarası</value>
+  </data>
+  <data name="Register_AgencyType" xml:space="preserve">
+    <value>Acente Türü</value>
+  </data>
+  <data name="Register_Agreement" xml:space="preserve">
+    <value>Müşterimin adına yapılan tüm satın almaları takip etmesi için Blue Ribbon Bags’a verdiğim bilgilerin, doğru bilgiler olduğunu Kabul ediyorum.</value>
+  </data>
+  <data name="Register_BusinessUnit" xml:space="preserve">
+    <value>İşBirimi</value>
+  </data>
+  <data name="Register_Captcha" xml:space="preserve">
+    <value>Yukarıdaki resimde gördüğünüz toplamanın sonucunu buraya yazın</value>
+  </data>
+  <data name="Register_Confirmation" xml:space="preserve">
+    <value>Seyahat Acentesi başarıyla oluşturuldu. Aktivasyon bağlantısını içeren bir e-posta alacaksınız.</value>
+  </data>
+  <data name="Register_DisplayAgencyID" xml:space="preserve">
+    <value>Acente Kimliğini Göster</value>
+  </data>
+  <data name="Register_Fax" xml:space="preserve">
+    <value>Faks</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>Cep</value>
+  </data>
+  <data name="Register_PostTitle" xml:space="preserve">
+    <value>Unvan-Son ek</value>
+  </data>
+  <data name="Register_PreTitle" xml:space="preserve">
+    <value>Unvan-Ön ek</value>
+  </data>
+  <data name="Register_Title" xml:space="preserve">
+    <value>SEYAHAT ACENTESİ KAYDI</value>
+  </data>
+  <data name="Register_TravelAgencyName" xml:space="preserve">
+    <value>Seyahat Acentesi Adı</value>
+  </data>
+  <data name="Register_UserLogin" xml:space="preserve">
+    <value>Kullanıcı Girişi</value>
+  </data>
+  <data name="Register_YourInformation" xml:space="preserve">
+    <value>Bilgileriniz</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="RequiredEntry" xml:space="preserve">
+    <value>* Zorunlu Alan</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>(*) Zorunlu Alanlar</value>
+  </data>
+  <data name="Routing_Number" xml:space="preserve">
+    <value>Yönlendirme Numarası</value>
+  </data>
+  <data name="SatisfactionGuaranteedPaymentPerBag" xml:space="preserve">
+    <value>Çanta başına Memnuniyet Garantisi Ödemesi:</value>
+  </data>
+  <data name="SatisfactionGuaranteePaymentPerBag" xml:space="preserve">
+    <value>Çanta başına Memnuniyet Garantisi Ödemesi:</value>
+  </data>
+  <data name="SD_Agent" xml:space="preserve">
+    <value>Acente</value>
+  </data>
+  <data name="SD_AgentName" xml:space="preserve">
+    <value>Acente Adı</value>
+  </data>
+  <data name="SD_EnterEmail" xml:space="preserve">
+    <value>E-posta Adresi Girin</value>
+  </data>
+  <data name="SD_Other" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="SD_PassengerList" xml:space="preserve">
+    <value>Yolcu Listesi</value>
+  </data>
+  <data name="SD_PopupTitle" xml:space="preserve">
+    <value>Hizmet Bilgileri</value>
+  </data>
+  <data name="SD_PurchasedThrough" xml:space="preserve">
+    <value>Satın Alma Yolu:</value>
+  </data>
+  <data name="SD_ReSendAgentEmail" xml:space="preserve">
+    <value>Acente E-postasını Yeniden Gönder</value>
+  </data>
+  <data name="SD_ReSendEmail" xml:space="preserve">
+    <value>E-postayı Yeniden Gönder</value>
+  </data>
+  <data name="SD_ReSendPaxEmail" xml:space="preserve">
+    <value>Yolcu E-postasını Yeniden Gönder</value>
+  </data>
+  <data name="SD_SendEmail" xml:space="preserve">
+    <value>E-posta Gönder</value>
+  </data>
+  <data name="SD_ServiceCost" xml:space="preserve">
+    <value>Hizmet Bedeli:</value>
+  </data>
+  <data name="SD_TotalCharge" xml:space="preserve">
+    <value>Toplam Ücret:</value>
+  </data>
+  <data name="SD_TotalSavings" xml:space="preserve">
+    <value>Toplam Kazancınız:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Güvenlik Kodu</value>
+  </data>
+  <data name="Select_Passenger_Number" xml:space="preserve">
+    <value>Yolcu sayısını seçin</value>
+  </data>
+  <data name="ServiceFeatures_Heading" xml:space="preserve">
+    <value>Hizmeti Özellikleri</value>
+  </data>
+  <data name="Service_AgentCard" xml:space="preserve">
+    <value>Acente Kartı indirin</value>
+  </data>
+  <data name="Service_AgreementLookup" xml:space="preserve">
+    <value>HİZMET SÖZLEŞMESİ ARA</value>
+  </data>
+  <data name="Service_Airline" xml:space="preserve">
+    <value>Havayolu Şirketi</value>
+  </data>
+  <data name="Service_AirlineConfirmation" xml:space="preserve">
+    <value>Havayolu Onay No:</value>
+  </data>
+  <data name="Service_BRBServiceNumber" xml:space="preserve">
+    <value>BRB Hizmet No</value>
+  </data>
+  <data name="Service_Checkout" xml:space="preserve">
+    <value>ÖDEME YAP</value>
+  </data>
+  <data name="Service_Cost" xml:space="preserve">
+    <value>Hizmet Bedeli:</value>
+  </data>
+  <data name="Service_CoveragePerBag" xml:space="preserve">
+    <value>çanta başına teminat</value>
+  </data>
+  <data name="Service_Daily" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="Service_DateRange" xml:space="preserve">
+    <value>Tarih Aralığı</value>
+  </data>
+  <data name="Service_Email" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="Service_ExportByPassenger" xml:space="preserve">
+    <value>Yolcuya göre Dışa Aktar</value>
+  </data>
+  <data name="Service_ExportByService" xml:space="preserve">
+    <value>Hizmete göre Dışa Aktar</value>
+  </data>
+  <data name="Service_FirstName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Service_FirstRule" xml:space="preserve">
+    <value>Teminat, farklı PNR veya havayolu onay numarlarıyla her seferinde yolcu adı girilerek aynı yolcu adına birden fazla uçuşlar için tek seferde alınabilir.</value>
+  </data>
+  <data name="Service_FlightValidity" xml:space="preserve">
+    <value>Bu hizmet, yukarıda belirtilen PNR için çevrimiçi bilet sitesinden satın almanıza ait rezervasyon yaptığınız tüm uçuşlar için geçerlidir.</value>
+  </data>
+  <data name="Service_LastName" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="Service_LevelOfServices" xml:space="preserve">
+    <value>HİZMET SEVİYELERİ:</value>
+  </data>
+  <data name="Service_MaximunLoss" xml:space="preserve">
+    <value>Maksimum Kayıp Teminatı:</value>
+  </data>
+  <data name="Service_NumberOfPassengers" xml:space="preserve">
+    <value>Yolcu sayısı:</value>
+  </data>
+  <data name="Service_OnlineSitePurchasedFrom" xml:space="preserve">
+    <value>Kaynak</value>
+  </data>
+  <data name="Service_OriginatingAirline" xml:space="preserve">
+    <value>Başlangıç Havayolu Şirketi</value>
+  </data>
+  <data name="Service_PassengerCount" xml:space="preserve">
+    <value>Yolcu Sayısı:</value>
+  </data>
+  <data name="Service_PassengerInformation" xml:space="preserve">
+    <value>YOLCU BİLGİLERİ</value>
+  </data>
+  <data name="SERVICE_PER_DAY" xml:space="preserve">
+    <value>günlük</value>
+  </data>
+  <data name="SERVICE_PER_YEAR" xml:space="preserve">
+    <value>yıllık</value>
+  </data>
+  <data name="Service_PNR" xml:space="preserve">
+    <value>PNR Numarası</value>
+  </data>
+  <data name="Service_PromoCode" xml:space="preserve">
+    <value>Promosyon Kodu</value>
+  </data>
+  <data name="Service_PurchaseServiceAgreement" xml:space="preserve">
+    <value>HİZMET SÖZLEŞMESİ SATIN ALIN</value>
+  </data>
+  <data name="Service_Regular" xml:space="preserve">
+    <value>Düzenli</value>
+  </data>
+  <data name="Service_Remove" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="Service_SecondRule" xml:space="preserve">
+    <value>Herhangi bir e-posta girilmezse, yolcu onay e-postası almayacaktır.</value>
+  </data>
+  <data name="Service_ServiceLevel" xml:space="preserve">
+    <value>Hizmet Seviyesi:</value>
+  </data>
+  <data name="Service_ServicesImportedFromFile" xml:space="preserve">
+    <value>Dosyadan içe aktarılan hizmet(ler):</value>
+  </data>
+  <data name="Service_Summary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="Service_TemplateXlsx_1" xml:space="preserve">
+    <value>İçerdiği hizmetleri oluşturmak için bir Excel dosyası yükleyin. Bir şablon indirmek için </value>
+  </data>
+  <data name="Service_TemplateXlsx_2" xml:space="preserve">
+    <value> bu </value>
+  </data>
+  <data name="Service_TemplateXlsx_3" xml:space="preserve">
+    <value> bağlantıya tıklayın.</value>
+  </data>
+  <data name="Service_ThirdRule" xml:space="preserve">
+    <value>Rezervasyonda bir PNR Numarası yoksa, Havayolu Onay Numarasını girin.</value>
+  </data>
+  <data name="Service_UploadFile" xml:space="preserve">
+    <value>Satın Alma Dosyası Yükleyin</value>
+  </data>
+  <data name="Service_UploadMultipleAgentPurchaseFile" xml:space="preserve">
+    <value>Birden Fazla Acente Satın Alma Dosyası Yükleyin</value>
+  </data>
+  <data name="Service_Yearly" xml:space="preserve">
+    <value>Yıllık</value>
+  </data>
+  <data name="SetEmailConfirmationSettings" xml:space="preserve">
+    <value>E-posta Onay Ayarlarını Ayarla</value>
+  </data>
+  <data name="SF_Feature_01" xml:space="preserve">
+    <value>Blue Ribbon Bags, uçuşunuzun inişinden itibaren 96 saatlik süre boyunca gecikmiş bagajınızın teslim edilmesini takip edecek ve hızlandıracaktır.</value>
+  </data>
+  <data name="SF_Feature_02" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş çantanızın durumunda her değişiklik olduğunda otomatik e-posta güncellemesi alacaksınız.</value>
+  </data>
+  <data name="SF_Feature_03" xml:space="preserve">
+    <value>Bir Hizmet Sözleşmesi, son dakika kapı check-in işlemleri de dâhil olmak üzere, havaalanında kontrol edilen tüm çantaları içerir.</value>
+  </data>
+  <data name="SF_Feature_04" xml:space="preserve">
+    <value>Blue Ribbon Bags, dünyanın her yerindeki, her havayolu şirketindeki her uçuşu kapsar.</value>
+  </data>
+  <data name="SF_Feature_05" xml:space="preserve">
+    <value>Her satın alma, bağlantılı uçuşların sayısına bakılmaksızın, kişi yani havayolu onay numarası başınadır.</value>
+  </data>
+  <data name="SF_Feature_06" xml:space="preserve">
+    <value>Hizmetimizi, uçağınızın kalkış saatinden önceki son dakikaya kadar satın alabilirsiniz.</value>
+  </data>
+  <data name="SF_Feature_07" xml:space="preserve">
+    <value>Hizmetimiz, bir gidiş veya geliş seyahat programındaki tüm uçuşlar öncesinde satın alınmalıdır. Hizmetimiz “iki bağlantılı uçuş arasında” satın alınamaz.</value>
+  </data>
+  <data name="SF_Feature_08" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş çantanızı Blue Ribbon Bags’e bildirmeden önce, havayolu şirketinize bir talep yapılmalıdır.</value>
+  </data>
+  <data name="SF_Feature_09" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş çantalar, uçuşunuzun varışından itibaren 24 saat içinde bize bildirilmelidir.</value>
+  </data>
+  <data name="SF_Feature_10" xml:space="preserve">
+    <value>Memnuniyet Garantisi Ödememizi almak için bagaj içeriğinin kanıtlanması gerekli değildir.</value>
+  </data>
+  <data name="SF_Feature_11" xml:space="preserve">
+    <value>Çantanız uçuşunuzun varışından itibaren 96 saat (4 gün) içinde bulunamazsa ödeme yapılır.</value>
+  </data>
+  <data name="SF_Feature_12" xml:space="preserve">
+    <value>Çantalarınız 96 saatlik hizmet süresinden sonra teslim edilse bile ödemeler garanti edilir.</value>
+  </data>
+  <data name="SF_Feature_13" xml:space="preserve">
+    <value>BRB, sahip olabileceğiniz herhangi bir sigortanın yerine geçmeyen, aksine ilave bir teminat olan bir hizmet satmaktadır.</value>
+  </data>
+  <data name="SF_SF_Feature_01" xml:space="preserve">
+    <value>Kriz Konsiyerji</value>
+  </data>
+  <data name="SF_SF_Feature_01b" xml:space="preserve">
+    <value> Kayıp bagajınızın durumunda her değişiklik olduğunda size e-posta güncellemesi göndereceğiz.</value>
+  </data>
+  <data name="SF_SF_Feature_02" xml:space="preserve">
+    <value>Makbuz Gerekmez</value>
+  </data>
+  <data name="SF_SF_Feature_02b" xml:space="preserve">
+    <value>Ödemeyi almak için bagaj içeriği makbuzları gerekli DEĞİLDİR</value>
+  </data>
+  <data name="SF_SF_Feature_03" xml:space="preserve">
+    <value>Bir Tek Satın Alma</value>
+  </data>
+  <data name="SF_SF_Feature_03b" xml:space="preserve">
+    <value>Bir tek satın alma havaalanında kontrol edilen tüm bagajları kapsar</value>
+  </data>
+  <data name="SF_SF_Feature_04" xml:space="preserve">
+    <value>Garantimiz</value>
+  </data>
+  <data name="SF_SF_Feature_04b" xml:space="preserve">
+    <value>BRB, 4 günlük kayıptan sonra bulunamayan her çanta için 1,000 ABD Doları öder</value>
+  </data>
+  <data name="SF_SF_Feature_05" xml:space="preserve">
+    <value>Global Erişim</value>
+  </data>
+  <data name="SF_SF_Feature_05b" xml:space="preserve">
+    <value>BRB, dünyanın her yerindeki, her havayolu şirketindeki her uçuşu kapsar</value>
+  </data>
+  <data name="SF_SF_Feature_06" xml:space="preserve">
+    <value>Son Dakika</value>
+  </data>
+  <data name="SF_SF_Feature_06b" xml:space="preserve">
+    <value>Uçağınızın kalkış saatinden önceki son dakikaya kadar bagaj hizmeti satın alın</value>
+  </data>
+  <data name="SH_PL_Footer_01" xml:space="preserve">
+    <value>Bizimle İletişime geçin:</value>
+  </data>
+  <data name="SMS_MBR_Template" xml:space="preserve">
+    <value>BLUE RIBBON BAGS-MBR #{0}:  Kayıp bagajınızın durumuyla ilgili bir güncelleme vardır.  Güncelleme: {1}.
+BLUE RİBBON BAGS’A ULAŞMAYACAĞI İÇİN LÜTFEN BU METİN MESAJINI YANITLAMAYIN, BU GÜNCELLEMEDE İSTENEN BİLGİLERİN GÖNDERİLMESİNİ İÇERİR.  YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMİNİZLE İLGİLİ TÜM SORULAR VEYA İSTENEN BİLGİLERİN SUNULMASI, MBR@BLUERIBBONBAGS.COM ADRESİNE E-POSTA YOLUYLA GÖNDERİLMELİDİR.  Telefon numaralarımızdan kayıp bagajınızla ilgili herhangi bir bilgi sağlanmaz. Tüm yazışmalar mbr@blueribbonbags.com adresinden e-posta ile yapılır</value>
+  </data>
+  <data name="SPP_BRB_Features_Item01" xml:space="preserve">
+    <value>İlk 96 saat boyunca, BRB, yanlış yönlendirilmiş çantalarınızı takip etmek ve teslim edilmelerini hızlandırmak için doğrudan havayolu şirketi ile çalışacaktır. Seyahatinizi havayolu şirketiyle telefonla görüşerek geçirmek zorunda kalmanıza gerek yoktur; BRB, çantanızın durumunda her değişiklik olduğunda size otomatik e-posta güncellemesi gönderecektir.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item02" xml:space="preserve">
+    <value>Bir tek satın alma (5 ABD Doları) bağlantılı uçuş sayısına bakılmaksızın, gidiş-dönüş biletleri dâhil kişi, yani havayolu onay numarası başınadır. Ödemeler (1000 ABD Doları) çanta başınadır</value>
+  </data>
+  <data name="SPP_BRB_Features_Item03" xml:space="preserve">
+    <value>Ödemeyi almak için bagaj içeriğinin kanıtlanması gerekli değildir.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item04" xml:space="preserve">
+    <value>Çantanız uçuşunuzun varışından itibaren 96 saat içinde elinizde değilse ödeme yapılır. Çantalarınız 96 saatlik sürenin bitiminden sonra herhangi bir noktada size teslim edilse bile ödemeler garanti edilir.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item05" xml:space="preserve">
+    <value>BRB bir hizmet satmaktadır; bir BRB Hizmet Sözleşmenizin olması sahip olabileceğiniz herhangi bir sigortaya ilave bir teminattır. Bir BRB ödemesi aldıktan sonra bile sigorta ödemeleriniz hala alabilirsiniz.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item06" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş çantanızı Blue Ribbon Bags’e bildirmeden önce, havayolu şirketine bir talep yapılmalıdır. Teslim edilmeyen çantalar, havayolu şirketi kayıp bagaj bildiriminden itibaren 24 saat içinde BRB’ye bildirilmelidir.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item07" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş çanta bildirimleri, &lt;a href="./"&gt;www.blueribbonbags.com&lt;/a&gt; adresine giderek ya da (888)-BAGGAGE 24/7 numarasını arayarak kolaylıkla yapılır</value>
+  </data>
+  <data name="SPP_BRB_Features_Item08" xml:space="preserve">
+    <value>Bir hizmet sözleşmesi (5 ABD Doları), son dakika kapı check-in işlemleri de dâhil olmak üzere, havaalanında kontrol edilen tüm çantaları içerir. 1500 ABD Doları ve 2000 ABD Doları ödemesi alacak şekilde, 7.50 ABD Doları ve 10.00 ABD Doları karşılığında yüksek teminatlı seçenekler mevcuttur.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item09" xml:space="preserve">
+    <value>Blue Ribbon Bags, dünyanın her yerindeki her uçuşu kapsar</value>
+  </data>
+  <data name="SPP_BRB_Features_Item10" xml:space="preserve">
+    <value>BLUE RİBBON BAGS HİZMETİNİ, UÇAĞINIZIN KALKIŞ SAATİNDEN ÖNCEKİ SON DAKİKAYA KADAR SATIN ALABİLİRSİNİZ.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item11" xml:space="preserve">
+    <value>Blue Ribbon Bags hizmetini gidiş veya geliş seyahat programınızdaki tüm uçuşlar öncesinde satın almalısınız.  Bir seyahatin ayakları arasındayken (örneğin: iki bağlantılı uçuş arasında) bu hizmeti satın alamazsınız.</value>
+  </data>
+  <data name="SPP_BRB_Features_Item12" xml:space="preserve">
+    <value>BLUE RIBBON BAGS HİZMETİ İADE EDİLEMEZ VEYA DEVREDİLEMEZ. GERİ ÖDEME VEYA KREDİ VERİLMEYECEKTİR. ŞAYET UÇUŞUNUZ İPTAL EDİLİRSE VE YERİNE YENİ BİR UÇUŞ REZERVASYONU YAPILIRSA, YENİ UÇUŞUNUZUN KALKIŞINDAN ÖNCE BU DEĞİŞİKLİĞİ BİZE BİLDİRMENİZ YA DA YENİ UÇUŞUNUZ İÇİN YENİ BİR HİZMET SATIN ALMANIZ GEREKMEKTEDİR.  TÜM DEĞİŞİKLİKLER, &lt;a href="mailto:info@blueribbonbags.com"&gt;INFO@BLUERIBBONBAGS.COM&lt;/a&gt; ADRESİNDEN BİZE E-POSTA GÖNDERİLEREK VE E-POSTA KONU BAŞLIĞINA HİZMET SÖZLEŞMESİ NUMARANIZ YAZILARAK BİLDİRİLMELİDİR.  E-POSTA İÇERİĞİNDE, HAVAYOLU ŞİRKETİNİZİ VE HAVAYOLU ONAY NUMARANIZI, İLK UÇUŞ NUMARANIZI VE İLK UÇUŞUNUZUN DEĞİŞTİRİLEN YENİ UÇUŞ NUMARANIZI BELİRTMELİSİNİZ.  ŞAYET HAVAYOLU ŞİRKETİ DE DEĞİŞİYORSA, BİZE, YENİ UÇUŞUNUZUN OLDUĞU YENİ HAVAYOLU ŞİRKETİNİ DE BİLDİRMELİSİNİZ.</value>
+  </data>
+  <data name="SPP_BRB_Features_Text" xml:space="preserve">
+    <value>Tüm satın almalar, Blue Ribbon Bags Hizmet Sözleşmesinin şart ve koşullarına tabidir. Bunlar, &lt;a href=".{0}" target="_blank"&gt;buradan&lt;/a&gt; görülebilir.</value>
+  </data>
+  <data name="SPP_BRB_Features_Title" xml:space="preserve">
+    <value>Blue Ribbon Bags Özellikleri</value>
+  </data>
+  <data name="SPP_FAQ_A1" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş bir çanta, havayolu şirketi takip sisteminin gösterdiği üzere, uçuşunuzun son varış noktasından farklı bir varış noktasına yanlış yönlendirilmiş ya da havayolu şirketi tarafından bildirildiği üzere, yolcunun gittiği uçuşlara yüklenmemiş kontrol edilmiş bir çantadır.</value>
+  </data>
+  <data name="SPP_FAQ_A2" xml:space="preserve">
+    <value>Her satın alma her bir Havayolu Onay Numarası için kişi başınadır. Transit uçuş sayısına bakılmaksızın, bir tek havayolu onay numarasına sahip bir gidiş-dönüş bileti rezervasyonu yapıldıysa, bu, bir tek hizmet satın alımı kapsamında teminat altına alınacaktır. Şayet gidiş ve geliş uçuşlarınız farklı havayolu onayı numarasına sahipse, her bir uçuş için ayrı hizmet sözleşmesi satın alınması gerekecektir.</value>
+  </data>
+  <data name="SPP_FAQ_A3" xml:space="preserve">
+    <value>Hayır! Blue Ribbon Bags, dünyanın her yerindeki her uçuşu kapsar. Başlangıç ve son konum ile ilgili herhangi bir kısıtlama yoktur.</value>
+  </data>
+  <data name="SPP_FAQ_Q1" xml:space="preserve">
+    <value>Yanlış yönlendirilmiş çanta ne demektir?</value>
+  </data>
+  <data name="SPP_FAQ_Q2" xml:space="preserve">
+    <value>Bu hizmet, gidiş-dönüş biletlerini kapsıyor mu?</value>
+  </data>
+  <data name="SPP_FAQ_Q3" xml:space="preserve">
+    <value>Bu hizmeti satın alabilmem için uçuşumun Birleşik Devletler’de başlaması ve sona ermesi gerekiyor mu?</value>
+  </data>
+  <data name="SPP_FAQ_Title" xml:space="preserve">
+    <value>Sıkça Sorulan Sorular</value>
+  </data>
+  <data name="SPP_Liability" xml:space="preserve">
+    <value>çanta başına</value>
+  </data>
+  <data name="SPP_Passenger_Info_Title" xml:space="preserve">
+    <value>Yolcu Bilgilerini Girin</value>
+  </data>
+  <data name="SPP_Review_Agreement" xml:space="preserve">
+    <value>Sözleşmeyi Gözden Geçirin</value>
+  </data>
+  <data name="SPP_Review_License_Text" xml:space="preserve">
+    <value>Blue Ribbon Bags Hizmet Sözleşmesini gözden geçirmek için buraya tıklayın &amp;nbsp;</value>
+  </data>
+  <data name="SPP_Service_Level_Title" xml:space="preserve">
+    <value>Hizmet seviyelerini seçin</value>
+  </data>
+  <data name="SPP_Step" xml:space="preserve">
+    <value>Adım</value>
+  </data>
+  <data name="SPP_Text" xml:space="preserve">
+    <value>Kişi başına sadece 5.00 ABD Doları karşılığında, BRB tüm yanlış yönlendirilmiş çantalarınızı bulacak ve teslim edecektir. Şayet havayolu şirketi çantalarınızı kayboldukları andan itibaren 96 saat içinde size teslim etmezse, BBR teslim edilmeyen her çanta için garantili 1.000 ABD Doları öder; &lt;u&gt;Ödemeyi almak için bagaj içeriğinin kanıtlanması veya makbuzları gerekmez&lt;/u&gt;.</value>
+  </data>
+  <data name="SPP_Title" xml:space="preserve">
+    <value>Bagaj Hizmeti Satın Alın</value>
+  </data>
+  <data name="SPP_Traveler" xml:space="preserve">
+    <value>Yolcu</value>
+  </data>
+  <data name="SPP_Trip_Info_Title" xml:space="preserve">
+    <value>Seyahat bilgilerinizi sağlayın</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Eyalet</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>Zaman Dilimi</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Alıcı</value>
+  </data>
+  <data name="TotalCharge" xml:space="preserve">
+    <value>Toplam Ücret:</value>
+  </data>
+  <data name="TotalChargePerPax" xml:space="preserve">
+    <value>Toplam Ücret (yolcu başına):</value>
+  </data>
+  <data name="UserReg_FinishRegistration" xml:space="preserve">
+    <value>Kaydınızı tamamlayın</value>
+  </data>
+  <data name="UserReg_Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="UserReg_PasswordText" xml:space="preserve">
+    <value>Şifre, en az bir alfabetik, bir sayısal değer ve en az büyük harf bir alfabetik karaktere sahip bir özel karakterden oluşan 8 ila 16 karakter içermelidir.</value>
+  </data>
+  <data name="UserReg_RepeatPassword" xml:space="preserve">
+    <value>Şifreyi tekrar girin</value>
+  </data>
+  <data name="UserReg_Title" xml:space="preserve">
+    <value>Kullanıcı Kaydı</value>
+  </data>
+  <data name="UserReg_TypePassword" xml:space="preserve">
+    <value>Lütfen şifrenizi yazın</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Doğrula</value>
+  </data>
+  <data name="Validation_Address" xml:space="preserve">
+    <value>Lütfen Adresi girin.</value>
+  </data>
+  <data name="Validation_AddressLength" xml:space="preserve">
+    <value>Adres en az 2 karakterden oluşmalıdır.</value>
+  </data>
+  <data name="Validation_AgentLoginDoesNotExists" xml:space="preserve">
+    <value>Girilen AgentLogin (AcenteGiriş) mevcut değildir.</value>
+  </data>
+  <data name="Validation_AgentNumber" xml:space="preserve">
+    <value>[Agent Number] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_AgentType" xml:space="preserve">
+    <value>[Agent Type] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_Agree" xml:space="preserve">
+    <value>Kaydınızı tamamlamak için lütfen şart ve koşulları gözden geçirin ve kabul edin.</value>
+  </data>
+  <data name="Validation_BusinessUnit" xml:space="preserve">
+    <value>[Business Unit] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_City" xml:space="preserve">
+    <value>Lütfen Şehir girin.</value>
+  </data>
+  <data name="Validation_CityLength" xml:space="preserve">
+    <value>Şehir en az 2 karakterden oluşmalıdır.</value>
+  </data>
+  <data name="Validation_EmailEmpty" xml:space="preserve">
+    <value>[Email] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_EmailFormat" xml:space="preserve">
+    <value>[Email] geçerli bir e-posta adresi biçimine sahip olmalıdır.</value>
+  </data>
+  <data name="Validation_FaxFormat" xml:space="preserve">
+    <value>[Fax] geçerli bir biçime sahip olmalıdır.</value>
+  </data>
+  <data name="Validation_FirstName" xml:space="preserve">
+    <value>[First Name] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_FirstNameLength" xml:space="preserve">
+    <value>[First Name] alanı en az 2 karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="Validation_InactiveAgent" xml:space="preserve">
+    <value>Acente Girişi BRB sisteminde pasif bir kullanıcıya aittir.</value>
+  </data>
+  <data name="Validation_LastName" xml:space="preserve">
+    <value>[Last Name] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_LastNameLength" xml:space="preserve">
+    <value>[Last Name] alanı en az 2 karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="Validation_LoginCharacters" xml:space="preserve">
+    <value>[User Login] 6 ila 40 karakter arasında olmalıdır ve sadece şu özel karakterleri içerebilir: _ . - @</value>
+  </data>
+  <data name="Validation_LoginEndCharacter" xml:space="preserve">
+    <value>[Login] '@' karakteriyle bitemez.</value>
+  </data>
+  <data name="Validation_MobileFormat" xml:space="preserve">
+    <value>[Mobil] geçerli bir biçime sahip olmalıdır.</value>
+  </data>
+  <data name="Validation_PhoneFormat" xml:space="preserve">
+    <value>[Phone] geçerli bir biçime sahip olmalıdır.</value>
+  </data>
+  <data name="Validation_ProductCodeDoesNotExists" xml:space="preserve">
+    <value>Girilen ProducCode (ÜrünKodu) mevcut değildir.</value>
+  </data>
+  <data name="Validation_PromoAgentLogin" xml:space="preserve">
+    <value>Girilen AgentLogin, girilen PromoCode AgentLogin ile eşleşmiyor.</value>
+  </data>
+  <data name="Validation_PromoCodeDoesNotExists" xml:space="preserve">
+    <value>Girilen PromoCode (PromoKodu) mevcut değildir.</value>
+  </data>
+  <data name="Validation_SelectCountry" xml:space="preserve">
+    <value>Lütfen bir Ülke seçin.</value>
+  </data>
+  <data name="Validation_SelectState" xml:space="preserve">
+    <value>Lütfen bir Eyalet seçin.</value>
+  </data>
+  <data name="Validation_StateName" xml:space="preserve">
+    <value>Lütfen bir Eyalet Adı girin.</value>
+  </data>
+  <data name="Validation_TravelAgencyCode" xml:space="preserve">
+    <value>[Travel Agency Code] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_TravelAgencyName" xml:space="preserve">
+    <value>[Travel Agency Name] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_UserIsNotATravelAgent" xml:space="preserve">
+    <value>AgentLogin (AcenteGiriş) bir Seyahat Acentesine ait değildir.</value>
+  </data>
+  <data name="Validation_UserLogin" xml:space="preserve">
+    <value>[User Login] alanı boş olamaz.</value>
+  </data>
+  <data name="Validation_UserNameNotAvailable" xml:space="preserve">
+    <value>Kullanıcı Giriş adı kullanılamaz. Lütfen başka bir Kullanıcı Giriş adı seçin.</value>
+  </data>
+  <data name="Validation_Zip" xml:space="preserve">
+    <value>Lütfen Posta Kodu girin.</value>
+  </data>
+  <data name="Validation_ZipFormat" xml:space="preserve">
+    <value>Girilen Posta Kodu geçerli bir biçimde değildir.</value>
+  </data>
+  <data name="Widget_AgentEmail" xml:space="preserve">
+    <value>Acente E-postası</value>
+  </data>
+  <data name="Widget_LevelOfServices" xml:space="preserve">
+    <value>HİZMET SEVİYELERİ:</value>
+  </data>
+  <data name="Widget_Liability" xml:space="preserve">
+    <value>çanta başına teminat</value>
+  </data>
+  <data name="Widget_PassengerInformation" xml:space="preserve">
+    <value>YOLCU BİLGİLERİ</value>
+  </data>
+  <data name="Widget_ProvideCreditCard" xml:space="preserve">
+    <value>Hizmet Sözleşmesi ödeme işlemini tamamlamak için lütfen aşağıda Kredi Kartı bilgilerini girin.</value>
+  </data>
+  <data name="Wire" xml:space="preserve">
+    <value>Banka Havalesi</value>
+  </data>
+  <data name="WORLDSPAN_Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="WORLDSPAN_AgencyName" xml:space="preserve">
+    <value>Acente Adı</value>
+  </data>
+  <data name="WORLDSPAN_AgentCard" xml:space="preserve">
+    <value>Acente Kartı</value>
+  </data>
+  <data name="WORLDSPAN_AgentCardText" xml:space="preserve">
+    <value>Bu, müşterilerinizle konuşurken referans olarak kullanabileceğiniz bir PDF olup BRB’nin harika özelliklerinden hiçbirini kaçırmayın!</value>
+  </data>
+  <data name="WORLDSPAN_AgentID" xml:space="preserve">
+    <value>Acente Kimliği</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfo" xml:space="preserve">
+    <value>Acente Bilgileri</value>
+  </data>
+  <data name="WORLDSPAN_AgentInfoUpdateSuccessful" xml:space="preserve">
+    <value>Acente bilgileri başarıyla kaydedildi!</value>
+  </data>
+  <data name="WORLDSPAN_AgentMe" xml:space="preserve">
+    <value>Acente (Ben)</value>
+  </data>
+  <data name="WORLDSPAN_AgentPCC" xml:space="preserve">
+    <value>Acente PCC</value>
+  </data>
+  <data name="WORLDSPAN_AgentWarning" xml:space="preserve">
+    <value>Sattığınız Hizmet Sözleşmeleri için uygun krediyi almak için, lütfen Blue Ribbon Bags Worldspan Uygulamasını ilk kez kullandığınızda bu formu eksiksiz olarak doldurduğunuzdan emin olun.&lt;br&gt;&lt;br&gt;Tamamladığınızda, müşterilerinizin adına Blue Ribbon Bags teminatı satın almaya geçmek için en alttaki Save (Kaydet) düğmesine tıklayın.&lt;br&gt;&lt;br&gt;BRB Worldspan uygulamasına erişmek için bir şifre oluşturmanız veya giriş bilgilerinizi kullanmanız gerekmeyecektir. Girişler ve şifreler sadece BRB sistemine çevrimiçi olarak erişmek için kullanılır.&lt;br&gt;&lt;br&gt;Herhangi bir kayıt bilgisini değiştirmek ya da herhangi bir soru veya sorun için, lütfen bize agent@blueribbonbags.com adresinden e-posta gönderin</value>
+  </data>
+  <data name="WORLDSPAN_Airline" xml:space="preserve">
+    <value>Havayolu Şirketi</value>
+  </data>
+  <data name="WORLDSPAN_BilledLater" xml:space="preserve">
+    <value>Bu satın alma için daha sonra faturalandırılacaksınız.</value>
+  </data>
+  <data name="WORLDSPAN_BillingInfo" xml:space="preserve">
+    <value>Fatura Bilgileri</value>
+  </data>
+  <data name="WORLDSPAN_BySavingSettings" xml:space="preserve">
+    <value>Ayarları kaydederek, Satın Alma sekmesi de dahil olmak üzere Blue Ribbon Bags uygulamasındaki tüm sekmeler başlatılacaktır ve bu nedenle, gerçekleşecek satın alma için PNR numarasını yeniden yüklemeniz gerekecektir. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="WORLDSPAN_CCNumber" xml:space="preserve">
+    <value>CC#</value>
+  </data>
+  <data name="WORLDSPAN_CheckingPNR" xml:space="preserve">
+    <value>PNR kontrol ediliyor...</value>
+  </data>
+  <data name="WORLDSPAN_City" xml:space="preserve">
+    <value>Şehir</value>
+  </data>
+  <data name="WORLDSPAN_CityState" xml:space="preserve">
+    <value>Şehir, Eyalet</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendAgentEmail" xml:space="preserve">
+    <value>Her satın almadan sonra Blue Ribbon Bags’ten otomatik bir onay e-postası almak &lt;b&gt;istiyorsanız&lt;/b&gt; buraya tıklayın.</value>
+  </data>
+  <data name="WORLDSPAN_ClickSendPassengerEmail" xml:space="preserve">
+    <value>Her satın almadan sonra &lt;b&gt;yolcuların&lt;/b&gt; Blue Ribbon Bags’ten otomatik bir onay e-postası almak istiyorsanız buraya tıklayın.</value>
+  </data>
+  <data name="WORLDSPAN_ClientCard" xml:space="preserve">
+    <value>Müşteri Kartı</value>
+  </data>
+  <data name="WORLDSPAN_ClientCardText" xml:space="preserve">
+    <value>Bu, müşterilerinize bu hizmeti tanıtmak için gönderebileceğiniz komisyonlardan bahsetmeyen bir PDF belgesidir.</value>
+  </data>
+  <data name="WORLDSPAN_ConfNumber" xml:space="preserve">
+    <value>Onay Numarası</value>
+  </data>
+  <data name="WORLDSPAN_Country" xml:space="preserve">
+    <value>Ülke</value>
+  </data>
+  <data name="WORLDSPAN_DateFormat" xml:space="preserve">
+    <value>Tarih biçimi:</value>
+  </data>
+  <data name="WORLDSPAN_DateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="WORLDSPAN_Email" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="WORLDSPAN_EPR" xml:space="preserve">
+    <value>EPR</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingAPIRemark" xml:space="preserve">
+    <value>API kullanan Açıklama Sabre PNR’ye eklenemedi.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorAddingRemark" xml:space="preserve">
+    <value>Açıklama Sabre PNR’ye eklenemedi.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorClosingPNR" xml:space="preserve">
+    <value>PNR kapatılamadı ve açıklama Sabre PNR’ye eklenemedi.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorCommunicatingWithSabre" xml:space="preserve">
+    <value>Sabre iletişim hatası. Hata kodu {0}.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorConnectingWithSabre" xml:space="preserve">
+    <value>Sabre bağlantı hatası.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorLoadingProfile" xml:space="preserve">
+    <value>Acente profili yüklenemiyor.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorPNRNotTheSame" xml:space="preserve">
+    <value>HATA. BRB uygulamasında açtığınız PNR ({0}), Sabre çalışma alanında aktif olan PNR ile aynı değildir ({1}).</value>
+  </data>
+  <data name="WORLDSPAN_ErrorProcessingRequest" xml:space="preserve">
+    <value>Talebinizi gerçekleştirirken sunucu hatası oluştu.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRemovingPNRInfo" xml:space="preserve">
+    <value>PNR Info XML, hassas bilgileri kaldırmak için çözümlenemedi ve bu nedenle göz ardı edildi.</value>
+  </data>
+  <data name="WORLDSPAN_ErrorRetrievingPNRInfo" xml:space="preserve">
+    <value>PNR bilgileri alınamadı. Lütfen Sabre üzerinde açık aktif bir PNR olduğundan emin olun.</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationMM" xml:space="preserve">
+    <value>Son Kullanma Tarihi AA</value>
+  </data>
+  <data name="WORLDSPAN_ExpirationYY" xml:space="preserve">
+    <value>Son Kullanma Tarihi YY</value>
+  </data>
+  <data name="WORLDSPAN_FirstName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="WORLDSPAN_FlightInfo" xml:space="preserve">
+    <value>Uçuş Bilgileri</value>
+  </data>
+  <data name="WORLDSPAN_FlightNumber" xml:space="preserve">
+    <value>Uçuş Numarası</value>
+  </data>
+  <data name="WORLDSPAN_GetPNRInfo" xml:space="preserve">
+    <value>PNR Bilgileri Al</value>
+  </data>
+  <data name="WORLDSPAN_InvalidSabreRequest" xml:space="preserve">
+    <value>Geçersiz Sabre isteği.</value>
+  </data>
+  <data name="WORLDSPAN_Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="WORLDSPAN_LastFlight" xml:space="preserve">
+    <value>Son Uçuş</value>
+  </data>
+  <data name="WORLDSPAN_LastName" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="WORLDSPAN_Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="WORLDSPAN_NotLoggedInSabreYet" xml:space="preserve">
+    <value>Henüz Sabre oturumu açmadınız. Lütfen giriş yapın ve yeniden deneyin.</value>
+  </data>
+  <data name="WORLDSPAN_ObtainingPNRInfo" xml:space="preserve">
+    <value>Sabre üzerinden PNR bilgileri alınıyor. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="WORLDSPAN_Optional" xml:space="preserve">
+    <value>isteğe bağlı</value>
+  </data>
+  <data name="WORLDSPAN_OrigFlight" xml:space="preserve">
+    <value>Başlangıç Uçuşu</value>
+  </data>
+  <data name="WORLDSPAN_PassengerInfo" xml:space="preserve">
+    <value>Yolcu Bilgileri</value>
+  </data>
+  <data name="WORLDSPAN_Passengers" xml:space="preserve">
+    <value>Yolcu/Yolcular</value>
+  </data>
+  <data name="WORLDSPAN_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="WORLDSPAN_PerBagShort" xml:space="preserve">
+    <value>çanta başına teminat</value>
+  </data>
+  <data name="WORLDSPAN_PerPaxShort" xml:space="preserve">
+    <value>Yolcu başına</value>
+  </data>
+  <data name="WORLDSPAN_PersonalInfo" xml:space="preserve">
+    <value>Kişisel Bilgiler</value>
+  </data>
+  <data name="WORLDSPAN_PhoneNumber" xml:space="preserve">
+    <value>Telefon Numarası</value>
+  </data>
+  <data name="WORLDSPAN_PleaseEmailText" xml:space="preserve">
+    <value>Lütfen bize, istediğiniz anda agent@blueribbonbags.com adresinden e-posta gönderin.</value>
+  </data>
+  <data name="WORLDSPAN_PNRDummyLoadSuccessful" xml:space="preserve">
+    <value>PNR BOŞ bilgilerle başarıyla yüklendi! Lütfen aşağıdaki formu doldurun.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoLoadSuccessful" xml:space="preserve">
+    <value>PNR bilgileri başarıyla yüklendi! Lütfen aşağıdaki formu doldurun.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoMismatch" xml:space="preserve">
+    <value>PNR bilgileri uyumsuzluğu. Lütfen rezervasyonu yeniden yükleyin.</value>
+  </data>
+  <data name="WORLDSPAN_PNRInfoNotLoaded" xml:space="preserve">
+    <value>PNR bilgileri başarılı bir şekilde YÜKLENMEDİ. Lütfen yeniden deneyin.</value>
+  </data>
+  <data name="WORLDSPAN_PNRNumber" xml:space="preserve">
+    <value>PNR Numarası</value>
+  </data>
+  <data name="WORLDSPAN_PromoCode" xml:space="preserve">
+    <value>Promosyon Kodu</value>
+  </data>
+  <data name="WORLDSPAN_Purchase" xml:space="preserve">
+    <value>Satın Alın</value>
+  </data>
+  <data name="WORLDSPAN_PurchasingService" xml:space="preserve">
+    <value>Satın alma siparişi. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="WORLDSPAN_QuestionsText" xml:space="preserve">
+    <value>Herhangi ilave sorularınız veya yorumlarınız varsa, lütfen bize agent@blueribbonbags.com e-posta adresinden ulaşın.</value>
+  </data>
+  <data name="WORLDSPAN_RegisteringAgent" xml:space="preserve">
+    <value>Kaydınızı gerçekleştiriyoruz. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessful" xml:space="preserve">
+    <value>Kaydınız başarıyla tamamlandı!</value>
+  </data>
+  <data name="WORLDSPAN_RegistrationSuccessfulStartSelling" xml:space="preserve">
+    <value>Kaydınız başarıyla gerçekleşti; artık satış işlemlerine başlayabilirsiniz! Ancak, kayıt sürecini tamamlamak amacıyla lütfen e-postanızı kontrol etmek için bir dakikanızı ayırın. Teşekkür ederiz!</value>
+  </data>
+  <data name="WORLDSPAN_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="WORLDSPAN_SavingAgentInfo" xml:space="preserve">
+    <value>Acente bilgilerini kaydediyoruz. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="WORLDSPAN_SavingSettings" xml:space="preserve">
+    <value>Ayarlarınızı kaydediyoruz. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="WORLDSPAN_SelectCoverage" xml:space="preserve">
+    <value>Teminat Seviyesini Seçin</value>
+  </data>
+  <data name="WORLDSPAN_SendConfEmail" xml:space="preserve">
+    <value>Şu adrese onay e-postası gönder:</value>
+  </data>
+  <data name="WORLDSPAN_ServicePurchaseSuccessful" xml:space="preserve">
+    <value>Hizmet sözleşmesi [{0}] başarıyla satın alındı.</value>
+  </data>
+  <data name="WORLDSPAN_Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="WORLDSPAN_SettingsUpdateSuccessful" xml:space="preserve">
+    <value>Ayarlarınız başarıyla kaydedildi!</value>
+  </data>
+  <data name="WORLDSPAN_State" xml:space="preserve">
+    <value>Eyalet</value>
+  </data>
+  <data name="WORLDSPAN_TicketText" xml:space="preserve">
+    <value>Şayet bilet teklifinizin bir parçası olarak BRB’yi teklifinize dahil etmek isterseniz, müşterilerinizin kredi kartlarında ayrı ayrı ücretleri görmesini önlemek için faturalandırma seçeneklerimizi sorun.</value>
+  </data>
+  <data name="WORLDSPAN_TotalCost" xml:space="preserve">
+    <value>Toplam Bedel = $</value>
+  </data>
+  <data name="WORLDSPAN_TravelAgentInfo" xml:space="preserve">
+    <value>Seyahat Acentesi Bilgileri</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedError" xml:space="preserve">
+    <value>Beklenmeyen hata.</value>
+  </data>
+  <data name="WORLDSPAN_UnexpectedErrorPNRNotLoaded" xml:space="preserve">
+    <value>Beklenmeyen hata. PNR bilgileri başarılı bir şekilde YÜKLENMEDİ.</value>
+  </data>
+  <data name="WORLDSPAN_UnhandledException" xml:space="preserve">
+    <value>PNRBilgisiAl (GetPNRInfo) sırasında işlenmeyen özel durum oluştu.</value>
+  </data>
+  <data name="WORLDSPAN_Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="WORLDSPAN_UserInfo" xml:space="preserve">
+    <value>Kullanıcı Bilgileri</value>
+  </data>
+  <data name="WORLDSPAN_UserInfoText" xml:space="preserve">
+    <value>Blue Ribbon Bags kaydı için kişisel bilgilerinizi aşağıdaki formdan güncelleyebilirsiniz.</value>
+  </data>
+  <data name="WORLDSPAN_ValidatingAgent" xml:space="preserve">
+    <value>Acente doğrulanıyor...</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeBack" xml:space="preserve">
+    <value>&lt;b&gt;Tekrar Hoş Geldiniz {0}!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_WelcomeInitialReg" xml:space="preserve">
+    <value>&lt;b&gt;İlk kez kayıt için Hoş Geldiniz!&lt;/b&gt;</value>
+  </data>
+  <data name="WORLDSPAN_Zip" xml:space="preserve">
+    <value>Posta Kodu</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Posta Kodu</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>SMS Bildirimleri Gönder</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Zaman</value>
+  </data>
+  <data name="DUP_Found" xml:space="preserve">
+    <value>Yinelenen kayıtlar bulundu</value>
+  </data>
+  <data name="DUP_Question" xml:space="preserve">
+    <value>Aşağıdaki kayıtlar çoğaltılmıştır, kayıtların geri kalanını devam ettirmek ve işlemek ister misiniz?</value>
+  </data>
+  <data name="MODAL_Instructions" xml:space="preserve">
+    <value>Lütfen dosyanıza göz atın ve dosyayı seçin ve ardından "Dosya Yükle" yi tıklayın:</value>
+  </data>
+  <data name="MODAL_Upload_File" xml:space="preserve">
+    <value>Dosya yükleme</value>
+  </data>
+  <data name="MULTI_Link" xml:space="preserve">
+    <value>bağlantı</value>
+  </data>
+  <data name="MULTI_Template" xml:space="preserve">
+    <value>Bir şablon indirmek için buraya tıklayın:</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Yok hayır</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Yükleme. Lütfen bekle...</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="PRIOR_Found" xml:space="preserve">
+    <value>Önceki satın alımlar bulundu</value>
+  </data>
+  <data name="PRIOR_Question" xml:space="preserve">
+    <value>Aşağıdaki kayıtlar önceden satın alınmış, kayıtların geri kalanını devam ettirmek ve işlemek ister misiniz?</value>
+  </data>
+  <data name="Checkout_CancelConfirm" xml:space="preserve">
+    <value>Ödeme işlemini iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="MyAccount_AllowWebsiteDefaultCulture" xml:space="preserve">
+    <value>Web sitesinin, yukarıdaki 'Varsayılan E-posta Dili' seçilenle aynı dile sahip olmasına izin verin.</value>
+  </data>
+  <data name="EMAILTEMPLATE_FlightCoverage_Without_Airline" xml:space="preserve">
+    <value>Bu, uçuş numaralarınızı onay numarasıyla kapsar &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="MBR_Number_Of_Contact_Persons" xml:space="preserve">
+    <value>İlgili kişi sayısını seçin</value>
+  </data>
+  <data name="MBR_Step7" xml:space="preserve">
+    <value>İletişim bilgilerinizi sağlayın</value>
+  </data>
+  <data name="MBR_Step_7_Sub_Heading" xml:space="preserve">
+    <value>Lütfen Raporunuza İrtibat Kişilerini Ekleyin</value>
+  </data>
+  <data name="MBR_PROMO_NOTE" xml:space="preserve">
+    <value>ÇANTA VEYA TESLİMAT BİLGİLERİNİZE İLİŞKİN HERHANGİ BİR BİLGİ SAĞLAMAK İSTİYORSANIZ LÜTFEN BURAYA GİRMEK İÇİN LÜTFEN:</value>
+  </data>
+  <data name="PaxEmail" xml:space="preserve">
+    <value>E-mail adresleri</value>
+  </data>
+  <data name="PaxPhone" xml:space="preserve">
+    <value>Telefonlar</value>
+  </data>
+  <data name="Summary_PassengerCount" xml:space="preserve">
+    <value>Yolcu Sayısı</value>
+  </data>
+  <data name="Summary_ServiceLevel" xml:space="preserve">
+    <value>Hizmet Seviyesi</value>
+  </data>
+  <data name="EMAIL_PRETEXT" xml:space="preserve">
+    <value>Son 0 saat içinde çantanızın durumu ile hiçbir şey değişmedi. İşte verdiğimiz son güncelleme. 
+Herhangi bir bilgiye sahip olduğumuzda yeni bir şey olursa haberdar olacaksınız.</value>
+  </data>
+  <data name="MyAccount_AgentMbrUpdate" xml:space="preserve">
+    <value>Yolcunun MBR'si için posta almak istiyorsanız buraya tıklayın.</value>
+  </data>
+  <data name="CRN" xml:space="preserve">
+    <value>Müşteri referans numarası</value>
+  </data>
+  <data name="MBR_Pir_Copy_Text" xml:space="preserve">
+    <value>YANLIŞ YÖNLENDİRİLMİŞ BAGAJ BİLDİRİMİNİZİ TAMAMLAMAK İÇİN YAPMANIZ GEREKENLER:</value>
+  </data>
+  <data name="CoveragePerBag" xml:space="preserve">
+    <value>Çanta başına teminat:</value>
+  </data>
+</root>

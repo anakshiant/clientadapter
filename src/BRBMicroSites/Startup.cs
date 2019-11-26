@@ -1,15 +1,18 @@
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Mvc.Authorization;
+
 using BRBMicroSites.Libs.ApiClient;
 using BRBMicroSites.Services.HostTokenMapService;
-using Microsoft.OpenApi.Models;
-using BRBMicroSites.Auth;
-using BRBMicroSites.Swagger;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc.Authorization;
+using BRBMicroSites.Services.Auth;
+using BRBMicroSites.Libs.Swagger;
+using BRBMicroSites.Services.Translation;
+using BRBMicroSites.Middelwares;
 
 namespace BRBMicroSites
 {
@@ -63,15 +66,14 @@ namespace BRBMicroSites
                     policy.AllowAnyOrigin();
                 });
             });
+
+            services.AddSingleton<ITranslationService, TranslationService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            app.UseExceptionMiddelware();
 
             app.UseHttpsRedirection();
 
@@ -86,7 +88,9 @@ namespace BRBMicroSites
             app.UseCors("default");
 
             app.UseRouting();
+
             app.UseAuthentication();
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
