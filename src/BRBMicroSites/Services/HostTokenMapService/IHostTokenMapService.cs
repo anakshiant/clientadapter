@@ -5,7 +5,7 @@ namespace BRBMicroSites.Services.HostTokenMapService
 {
     public interface IHostTokenMapService
     {
-        string GetToken(string host);
-        void AddToken(string host, string token);
+        Task<string> GetToken(string host);
+        Task AddToken(string host, string token);
     }
 }

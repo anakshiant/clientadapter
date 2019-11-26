@@ -1,6 +1,3 @@
-using System;
-using BRBMicroSites.Libs.ApiClient;
-
 namespace BRBMicroSites.Services.BRBServices.Data.State
 {
     public class StateResponse

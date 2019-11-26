@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using BRBMicroSites.Extension;
+using BRBMicroSites.Libs.ApiClient;
 using BRBMicroSites.Services.HostTokenMapService;
-using Swashbuckle.AspNetCore;
-using Swashbuckle.AspNetCore.Swagger;
-using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.OpenApi.Models;
+using BRBMicroSites.Auth;
+using BRBMicroSites.Swagger;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 namespace BRBMicroSites
 {
@@ -25,14 +25,43 @@ namespace BRBMicroSites
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(mvcOption =>
+            {
+                mvcOption.Filters.Add(new AuthorizeFilter("BRB"));
+            });
+
+            services.Configure<List<HostTokenMap>>(Configuration.GetSection("HostTokenMap"));
+
             services.AddSingleton<IHostTokenMapService, HostTokenMapService>();
+
             services.AddHttpContextAccessor();
+
             services.AddBRBClient(Configuration["BaseUrl"]);
-            services.AddDistributedMemoryCache();
+
             services.AddSwaggerGen(option =>
             {
-                option.SwaggerDoc("v1", new OpenApiInfo { Title = "BRBMicrositeAdapter", Description = "Api Adapter for microsites", Version = "v1" });
+                option.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "BRBMicrositeAdapter",
+                    Description = "Api Adapter for microsites",
+                    Version = "v1"
+                });
+
+                option.OperationFilter<AuthorizationOperationFilter>();
+            });
+
+            services.AddBRBAuthentication();
+
+            services.AddBRBAuthorization();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("default", policy =>
+                {
+                    policy.AllowAnyHeader();
+                    policy.AllowAnyMethod();
+                    policy.AllowAnyOrigin();
+                });
             });
         }
 
@@ -54,15 +83,18 @@ namespace BRBMicroSites
                 c.RoutePrefix = string.Empty;
             });
 
-            app.UseRouting();
+            app.UseCors("default");
 
+            app.UseRouting();
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-
             });
+
+
         }
     }
 }

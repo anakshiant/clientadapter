@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE663816-BFD3-48AE-9D5D-5E84A8020DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRBMicroSites", "src\BRBMicroSites\BRBMicroSites.csproj", "{FF2DC7D6-220C-41EF-B6FD-37EF87276893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRBMicroSites", "src\BRBMicroSites\BRBMicroSites.csproj", "{FF2DC7D6-220C-41EF-B6FD-37EF87276893}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E9AA6C5-CBEB-46D7-87B8-549A8F708AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRBMicroSites.Tests", "test\BRBMicroSites.Tests\BRBMicroSites.Tests.csproj", "{45FB1CF8-CFDF-4BE5-ABE6-29EC896BE5DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRBMicroSites.Tests", "test\BRBMicroSites.Tests\BRBMicroSites.Tests.csproj", "{45FB1CF8-CFDF-4BE5-ABE6-29EC896BE5DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FF2DC7D6-220C-41EF-B6FD-37EF87276893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +46,14 @@ Global
 		{45FB1CF8-CFDF-4BE5-ABE6-29EC896BE5DF}.Release|x86.ActiveCfg = Release|Any CPU
 		{45FB1CF8-CFDF-4BE5-ABE6-29EC896BE5DF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FF2DC7D6-220C-41EF-B6FD-37EF87276893} = {EE663816-BFD3-48AE-9D5D-5E84A8020DFF}
 		{45FB1CF8-CFDF-4BE5-ABE6-29EC896BE5DF} = {4E9AA6C5-CBEB-46D7-87B8-549A8F708AB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6ED4D7E-C616-4C78-8207-03A08392758A}
 	EndGlobalSection
 EndGlobal

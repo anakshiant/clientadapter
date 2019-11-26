@@ -1,23 +1,39 @@
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace BRBMicroSites.Services.HostTokenMapService
 {
     public class HostTokenMapService : IHostTokenMapService
     {
-        private readonly List<HostTokenMap> _hosts = new List<HostTokenMap>{
-            new HostTokenMap{Host="www.smilebox.com",Token="TT1/QTc1QUYzQjktNjk5Ni00RTI1LUI0ODUtRjlDRkM4MUMzOUVC"}
-        };
+        private readonly List<HostTokenMap> _hosts = new List<HostTokenMap>();
 
-        public void AddToken(string host, string token)
+        public HostTokenMapService(IOptions<List<HostTokenMap>> hosts)
+        {
+            _hosts = hosts.Value;
+        }
+
+        public Task AddToken(string host, string token)
         {
             throw new NotImplementedException();
         }
 
-        public string GetToken(string host)
+        public Task<string> GetToken(string host)
         {
-            return _hosts.First().Token;
+            HostTokenMap hostToken = _hosts
+                .Where(h => h.Host.Equals(host, StringComparison.OrdinalIgnoreCase))
+                .FirstOrDefault();
+
+            if (hostToken == null)
+            {
+                return Task.FromResult(string.Empty);
+            }
+            else
+            {
+                return Task.FromResult(hostToken.Token);
+            }
         }
     }
 }

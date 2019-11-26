@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using BRBMicroSites.Libs.ApiClient;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +18,7 @@ namespace BRBMicroSites.Controllers
 
         private readonly ILogger<DataController> _logger;
         private readonly IBRBClient _brbClient;
-        
+
         public DataController(IBRBClient brbClient, ILogger<DataController> logger)
         {
             _brbClient = brbClient;
